@@ -6,7 +6,7 @@
 6	1306	sinaat	
 7	1307	hanter-kant	
 8	1308	homañ	
-9	1309	skuizh	skuizhas skuizhañ skuizhet skuizhont
+9	1309	skuizh	skuizhas skuizhañ skuizhet skuizhoc'h skuizhont
 10	1310	berraat	berra berraan berraas berrae berraec'h berraemp berraen berraent berraes berraet berraez berrafe berrafec'h berrafed berrafemp berrafen berrafent berrafes berrai berraimp berrain berraint berrais berrait berraje berrajec'h berrajed berrajemp berrajen berrajent berrajes berrajoc'h berrajod berrajomp berrajont berrajout berrao berraomp berraont berraor berraot perraat verra verraat verrai
 11	1311	azasaat	azasa azasaan azasaas azasae azasaec'h azasaemp azasaen azasaent azasaes azasaet azasaez azasafe azasafec'h azasafed azasafemp azasafen azasafent azasafes azasai azasaimp azasain azasaint azasais azasait azasaje azasajec'h azasajed azasajemp azasajen azasajent azasajes azasajoc'h azasajod azasajomp azasajont azasajout azasao azasaomp azasaont azasaor azasaot
 12	1312	pour	bour four vour
@@ -16,7 +16,7 @@
 16	1316	karr-tan	c'harr-tan c'hirri-tan garr-tan girri-tan kirri-tan
 17	1317	dous	dousoc'h dousoù tous zous
 18	1318	arem	
-19	1319	poblek	boblek poblekoc'h
+19	1319	poblek	boblek boblekoc'h poblekoc'h
 20	1320	speredek	speredekañ speredekoc'h
 21	1321	bleunienn	bleunioù vleunienn vleunioù
 22	1322	pounner	bounner bounnerañ pounnerañ pounneroc'h
@@ -94,7 +94,7 @@
 94	1394	nevezamzer	nevezamzerioù
 95	1395	bastard	bastarded bastardez bastardezed besterd vastard vastarded vesterd
 96	1396	tro-lavar	dro-lavar droioù-lavar troioù-lavar
-97	1397	abad	abadez ebed
+97	1397	abad	abaded abadez ebed
 98	1398	denelezh	zenelezh
 99	1399	gwener	wener
 100	1400	amprevan	amprevaned

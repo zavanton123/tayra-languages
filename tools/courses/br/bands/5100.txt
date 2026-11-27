@@ -1,100 +1,100 @@
-1	5001	melion	
-2	5002	mendeleviom	
-3	5003	mergl	
-4	5004	merglañ	merglan merglas mergle merglec'h merglemp merglen merglent mergles merglez merglfe merglfec'h merglfed merglfemp merglfen merglfent merglfes mergli merglimp merglin merglint merglis merglit mergliñ merglje mergljec'h mergljed mergljemp mergljen mergljent mergljes mergljoc'h mergljod mergljomp mergljont mergljout merglo merglomp merglont merglor merglot verglañ
-5	5005	metanaat	metana metanaan metanaas metanae metanaec'h metanaemp metanaen metanaent metanaes metanaet metanaez metanafe metanafec'h metanafed metanafemp metanafen metanafent metanafes metanai metanaimp metanain metanaint metanais metanait metanaje metanajec'h metanajed metanajemp metanajen metanajent metanajes metanajoc'h metanajod metanajomp metanajont metanajout metanao metanaomp metanaont metanaor metanaot vetanaat
-6	5006	mezeg-loened	
-7	5007	mezhur	mezhuran mezhuras mezhure mezhurec'h mezhuremp mezhuren mezhurent mezhures mezhuret mezhurez mezhurfe mezhurfec'h mezhurfed mezhurfemp mezhurfen mezhurfent mezhurfes mezhuri mezhurimp mezhurin mezhurint mezhuris mezhurit mezhurje mezhurjec'h mezhurjed mezhurjemp mezhurjen mezhurjent mezhurjes mezhurjoc'h mezhurjod mezhurjomp mezhurjont mezhurjout mezhuro mezhuromp mezhuront mezhuror mezhurot vezhur
-8	5008	miliarderez	miliarderien
-9	5009	minvig	
-10	5010	mizus	
-11	5011	mol	moloù
-12	5012	morgad	
-13	5013	morgazh	
-14	5014	morhoc'h	morhoc'hed
-15	5015	morlaerezh	morlaerezhan morlaerezhas morlaerezhe morlaerezhec'h morlaerezhemp morlaerezhen morlaerezhent morlaerezhes morlaerezhet morlaerezhez morlaerezhfe morlaerezhfec'h morlaerezhfed morlaerezhfemp morlaerezhfen morlaerezhfent morlaerezhfes morlaerezhi morlaerezhimp morlaerezhin morlaerezhint morlaerezhis morlaerezhit morlaerezhje morlaerezhjec'h morlaerezhjed morlaerezhjemp morlaerezhjen morlaerezhjent morlaerezhjes morlaerezhjoc'h morlaerezhjod morlaerezhjomp morlaerezhjont morlaerezhjout morlaerezho morlaerezhomp morlaerezhont morlaerezhor morlaerezhot vorlaerezh
-16	5016	morueta	moruetaan moruetaas moruetae moruetaec'h moruetaemp moruetaen moruetaent moruetaes moruetaet moruetaez moruetafe moruetafec'h moruetafed moruetafemp moruetafen moruetafent moruetafes moruetai moruetaimp moruetain moruetaint moruetais moruetait moruetaje moruetajec'h moruetajed moruetajemp moruetajen moruetajent moruetajes moruetajoc'h moruetajod moruetajomp moruetajont moruetajout moruetao moruetaomp moruetaont moruetaor moruetaot vorueta
-17	5017	moskovat	
-18	5018	muziker	
-19	5019	naderezh	
-20	5020	nadoz-vor	
-21	5021	naer-vro	naered-bro
-22	5022	naeted	
-23	5023	naetoni	
-24	5024	natriom	
-25	5025	naved	
-26	5026	nein	
-27	5027	neizhiad	
-28	5028	neketa	
-29	5029	nepaleg	
-30	5030	nepalek	
-31	5031	nitrogen	
-32	5032	norvegat	
-33	5033	nouenn	
-34	5034	noz-deiz	
-35	5035	nukleon	nukleonoù
-36	5036	o-fevar	
-37	5037	odivi	
-38	5038	oferenner	
-39	5039	ornitorink	
-40	5040	pae	
-41	5041	parfet	
-42	5042	pazenn-ha-pazenn	
-43	5043	pebezh	
-44	5044	pederyezhek	
-45	5045	pekari	
-46	5046	peroked	
-47	5047	peroked-mor	
-48	5048	pervezhded	
-49	5049	pifer	
-50	5050	pifon	
-51	5051	pinochez	
-52	5052	pirogenn	
-53	5053	pistig	
-54	5054	plegus	
-55	5055	plomer	
-56	5056	pober	
-57	5057	pod-kafe	podoù-kafe
-58	5058	pod-tredan	podoù-tredan
-59	5059	pole	
-60	5060	poloneger	polonegerien
-61	5061	poloniom	
-62	5062	bontañ	bontan bontas bonte bontec'h bontemp bonten bontent bontes bontet bontez bontfe bontfec'h bontfed bontfemp bontfen bontfent bontfes bonti bontimp bontin bontint bontis bontit bontiñ bontje bontjec'h bontjed bontjemp bontjen bontjent bontjes bontjoc'h bontjod bontjomp bontjont bontjout bonto bontomp bontont bontor bontot pontet vontañ
-63	5063	bornañ	bornan bornas borne bornec'h bornemp bornen bornent borner bornes bornet bornez bornfe bornfec'h bornfed bornfemp bornfen bornfent bornfes borni bornial borniañ bornimp bornin bornint bornis bornit bornje bornjec'h bornjed bornjemp bornjen bornjent bornjes bornjoc'h bornjod bornjomp bornjont bornjout borno bornomp bornont bornor bornot pornañ porno vornañ
-64	5064	porzh-bered	
-65	5065	porzh-kenwerzh	
-66	5066	potasiom	
-67	5067	pouezerez	
-68	5068	protaktiniom	
-69	5069	rabot	rabotoù
-70	5070	ragachat	ragach ragachan ragachas ragache ragachec'h ragachemp ragachen ragachent ragaches ragachet ragachez ragachfe ragachfec'h ragachfed ragachfemp ragachfen ragachfent ragachfes ragachi ragachimp ragachin ragachint ragachis ragachit ragachiñ ragachje ragachjec'h ragachjed ragachjemp ragachjen ragachjent ragachjes ragachjoc'h ragachjod ragachjomp ragachjont ragachjout ragacho ragachomp ragachont ragachor ragachot
-71	5071	rahouenn	
-72	5072	rakkambr	
-73	5073	rakkemenn	rakkemennan rakkemennas rakkemenne rakkemennec'h rakkemennemp rakkemennen rakkemennent rakkemennes rakkemennet rakkemennez rakkemennfe rakkemennfec'h rakkemennfed rakkemennfemp rakkemennfen rakkemennfent rakkemennfes rakkemenni rakkemennimp rakkemennin rakkemennint rakkemennis rakkemennit rakkemennje rakkemennjec'h rakkemennjed rakkemennjemp rakkemennjen rakkemennjent rakkemennjes rakkemennjoc'h rakkemennjod rakkemennjomp rakkemennjont rakkemennjout rakkemenno rakkemennomp rakkemennont rakkemennor rakkemennot rakkemennoù
-74	5074	rakprenañ	rakprenan rakprenas rakprene rakprenec'h rakprenemp rakprenen rakprenent rakprenes rakprenet rakprenez rakprenfe rakprenfec'h rakprenfed rakprenfemp rakprenfen rakprenfent rakprenfes rakpreni rakprenimp rakprenin rakprenint rakprenis rakprenit rakprenje rakprenjec'h rakprenjed rakprenjemp rakprenjen rakprenjent rakprenjes rakprenjoc'h rakprenjod rakprenjomp rakprenjont rakprenjout rakpreno rakprenomp rakprenont rakprenor rakprenot
-75	5075	rannyezhouriezh	
-76	5076	ratozh	
-77	5077	razh-iliz	
-78	5078	renn	
-79	5079	rennad	
-80	5080	resisadur	
-81	5081	retredadez	retredidi
-82	5082	reuziñ	reuzan reuzas reuze reuzec'h reuzemp reuzen reuzent reuzes reuzet reuzez reuzfe reuzfec'h reuzfed reuzfemp reuzfen reuzfent reuzfes reuzi reuzimp reuzin reuzint reuzis reuzit reuzje reuzjec'h reuzjed reuzjemp reuzjen reuzjent reuzjes reuzjoc'h reuzjod reuzjomp reuzjont reuzjout reuzo reuzomp reuzont reuzor reuzot
-83	5083	reviñ	revan revas reve revec'h revemp reven revent reves revet revez revfe revfec'h revfed revfemp revfen revfent revfes revi revimp revin revint revis revit revje revjec'h revjed revjemp revjen revjent revjes revjoc'h revjod revjomp revjont revjout revo revomp revont revor revot
-84	5084	rez-an-douar	
-85	5085	richanañ	richan richanal richanan richanas richanat richane richanec'h richanemp richanen richanent richanes richanet richanez richanfe richanfec'h richanfed richanfemp richanfen richanfent richanfes richani richanimp richanin richanint richanis richanit richanje richanjec'h richanjed richanjemp richanjen richanjent richanjes richanjoc'h richanjod richanjomp richanjont richanjout richano richanomp richanont richanor richanot
-86	5086	riklus	
-87	5087	rod-stur	
-88	5088	roentgeniom	
-89	5089	romb	romboù
-90	5090	roster	
-91	5091	roudennañ	roudennan roudennas roudenne roudennec'h roudennemp roudennen roudennent roudennes roudennet roudennez roudennfe roudennfec'h roudennfed roudennfemp roudennfen roudennfent roudennfes roudenni roudennimp roudennin roudennint roudennis roudennit roudennje roudennjec'h roudennjed roudennjemp roudennjen roudennjent roudennjes roudennjoc'h roudennjod roudennjomp roudennjont roudennjout roudenno roudennomp roudennont roudennor roudennot
-92	5092	roueig	roueedigoù
-93	5093	rouezded	
-94	5094	roufennet	
-95	5095	rubidiom	
-96	5096	rutherfordiom	
-97	5097	ruzder	
-98	5098	sac'h-kein	
-99	5099	sakrañ	sakr sakran sakras sakre sakrec'h sakremp sakren sakrent sakres sakret sakrez sakrfe sakrfec'h sakrfed sakrfemp sakrfen sakrfent sakrfes sakri sakrimp sakrin sakrint sakris sakrit sakriñ sakrje sakrjec'h sakrjed sakrjemp sakrjen sakrjent sakrjes sakrjoc'h sakrjod sakrjomp sakrjont sakrjout sakro sakromp sakront sakror sakrot
-100	5100	saksoneg	
+1	5001	skant	skantoù
+2	5002	skejañ	skej skejan skejas skeje skejec'h skejemp skejen skejent skejes skejet skejez skejfe skejfec'h skejfed skejfemp skejfen skejfent skejfes skeji skejimp skejin skejint skejis skejit skejje skejjec'h skejjed skejjemp skejjen skejjent skejjes skejjoc'h skejjod skejjomp skejjont skejjout skejo skejomp skejont skejor skejot
+3	5003	tamaller	damaller
+4	5004	tonkadur	donkadur zonkadur
+5	5005	tort	dort dorted
+6	5006	unpenn	unpennoù
+7	5007	barlenn	varlenn
+8	5008	mereuri	mereurioù vereuri
+9	5009	metaforenn	vetaforenn
+10	5010	meurdez	veurdez
+11	5011	vitamin	vitaminoù
+12	5012	bolzenn	bolzennoù volzenn
+13	5013	gwazoniezh	gwazoniezhoù wazoniezh
+14	5014	drouklazhañ	drouklazhiñ trouklazhañ zrouklazhañ
+15	5015	merzherinti	verzherinti
+16	5016	roc'hell	roc'helloù
+17	5017	alarc'h	elerc'h
+18	5018	koural	c'houral
+19	5019	doareañ	doarean doareas doaree doareec'h doareemp doareen doareent doarees doareet doareez doarefe doarefec'h doarefed doarefemp doarefen doarefent doarefes doarei doareimp doarein doareint doareis doareit doareiñ doareje doarejec'h doarejed doarejemp doarejen doarejent doarejes doarejoc'h doarejod doarejomp doarejont doarejout doareo doareomp doareont doareor doareot zoareañ
+20	5020	empentiñ	empentet
+21	5021	eostad	eostadoù
+22	5022	glazard	glazarded
+23	5023	kevan	c'hevan
+24	5024	marvailh	marvailhoù
+25	5025	marzh	marzhoù
+26	5026	mister	misterioù
+27	5027	mud	vud
+28	5028	mur	murioù vur
+29	5029	paeroniezh	baeroniezh
+30	5030	seizenn	seizennoù
+31	5031	steuñviñ	steuñvet
+32	5032	berviñ	verve verviñ
+33	5033	bre	breoù
+34	5034	daougementiñ	daougementet
+35	5035	touzañ	douzañ touz touzan touzas touze touzec'h touzemp touzen touzent touzes touzet touzez touzfe touzfec'h touzfed touzfemp touzfen touzfent touzfes touzi touzimp touzin touzint touzis touzit touziñ touzje touzjec'h touzjed touzjemp touzjen touzjent touzjes touzjoc'h touzjod touzjomp touzjont touzjout touzo touzomp touzont touzor touzot zouzañ
+36	5036	breudeuriezh	breudeuriezhioù vreudeuriezh
+37	5037	meneziad	menezidi veneziad venezidi
+38	5038	bodenn	bodennoù vodenn
+39	5039	broc'h	broc'hed
+40	5040	kelc'hlizher	c'helc'hlizher kelc'hlizherioù
+41	5041	koumanant	c'houmanant goumanant koumanantoù
+42	5042	dibradañ	tibradas zibradas zibradañ
+43	5043	diverañ	diveret tiver tiveras tiverañ
+44	5044	falsañ	falsas false falset
+45	5045	kevatalded	c'hevatalded gevatalded
+46	5046	krizder	c'hrizder grizder krizderioù
+47	5047	krogen	c'hrogen grogen
+48	5048	gwriziañ	gwrizi gwrizian gwrizias gwrizie gwriziec'h gwriziemp gwrizien gwriziennañ gwrizient gwrizies gwriziet gwriziez gwrizife gwrizifec'h gwrizifed gwrizifemp gwrizifen gwrizifent gwrizifes gwrizii gwriziimp gwriziin gwriziint gwriziis gwriziit gwrizije gwrizijec'h gwrizijed gwrizijemp gwrizijen gwrizijent gwrizijes gwrizijoc'h gwrizijod gwrizijomp gwrizijont gwrizijout gwrizio gwriziomp gwriziont gwrizior gwriziot wriziennañ
+49	5049	kabell	c'habell kabelloù
+50	5050	kantread	c'hantread gantread
+51	5051	kilogramm	c'hilogramm gilogramm kilogrammoù
+52	5052	kimiour	c'himiour kimiourien
+53	5053	klenkañ	c'hlenkañ glenkañ klenket
+54	5054	klon	c'hlon c'hlonoù klonoù
+55	5055	goeñviñ	c'hoeñviñ goeñv goeñvan goeñvas goeñve goeñvec'h goeñvemp goeñven goeñvent goeñves goeñvet goeñvez goeñvfe goeñvfec'h goeñvfed goeñvfemp goeñvfen goeñvfent goeñvfes goeñvi goeñvimp goeñvin goeñvint goeñvis goeñvit goeñvje goeñvjec'h goeñvjed goeñvjemp goeñvjen goeñvjent goeñvjes goeñvjoc'h goeñvjod goeñvjomp goeñvjont goeñvjout goeñvo goeñvomp goeñvont goeñvor goeñvot koeñv koeñvet koeñviñ
+56	5056	morbig	morbiged vorbig
+57	5057	paseal	baseal faseal pasean paseas pasee paseec'h paseemp paseen paseent pasees paseet paseez pasefe pasefec'h pasefed pasefemp pasefen pasefent pasefes pasei paseimp pasein paseint paseis paseit paseje pasejec'h pasejed pasejemp pasejen pasejent pasejes pasejoc'h pasejod pasejomp pasejont pasejout paseo paseomp paseont paseor paseot pasiñ
+58	5058	siellañ	siellas sielle siellet
+59	5059	meilh	meilhoù veilh
+60	5060	moualc'h	mouilc'hi voualc'h
+61	5061	yudal	yud yudan yudas yude yudec'h yudemp yuden yudent yudes yudet yudez yudfe yudfec'h yudfed yudfemp yudfen yudfent yudfes yudi yudimp yudin yudint yudis yudit yudje yudjec'h yudjed yudjemp yudjen yudjent yudjes yudjoc'h yudjod yudjomp yudjont yudjout yudo yudomp yudont yudor yudot
+62	5062	diskrediñ	diskredet tiskredent ziskrediñ
+63	5063	tonn	donn tonnioù tonnoù
+64	5064	enbonegañ	enboneget
+65	5065	malv	malvennoù valv valvenn valvennoù
+66	5066	dislonkañ	dislonket tislonkas tislonkont
+67	5067	touflez	douflez touflezioù touflezoù
+68	5068	diglorañ	digloret tiglor ziglor ziglore
+69	5069	goursellout	c'hoursell c'hoursellet c'hoursellout goursell goursellet
+70	5070	korollerez	gorollerez gorollerien korollerien
+71	5071	krin	krinañ
+72	5072	prenner	brenner
+73	5073	fast	
+74	5074	fiona	
+75	5075	lagadeg	
+76	5076	a-youl	
+77	5077	akademiek	
+78	5078	anal	
+79	5079	argoad	
+80	5080	arveriad	
+81	5081	askeller	
+82	5082	atenat	
+83	5083	atred	atredoù
+84	5084	balt	
+85	5085	barzhoniañ	
+86	5086	bred	
+87	5087	c'hwerv	
+88	5088	daou-ha-daou	
+89	5089	diaezamant	
+90	5090	diegi	
+91	5091	dipitus	
+92	5092	dispont	
+93	5093	diwir	
+94	5094	douarouriezh	
+95	5095	douetus	
+96	5096	doujus	
+97	5097	dreistelezh	
+98	5098	drouizel	
+99	5099	druilh	
+100	5100	emsevel	

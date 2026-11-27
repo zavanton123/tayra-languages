@@ -28,7 +28,7 @@
 28	2028	plouz	blouz blouzenn
 29	2029	besprezidant	besprezidantez vesprezidantez
 30	2030	terzhienn	derzhienn terzhiennoù
-31	2031	tornaod	tornaodoù
+31	2031	tornaod	tornaodoù zornaodoù
 32	2032	gouli	c'houlioù goulioù
 33	2033	mab-kaer	vab-kaer
 34	2034	gwazhi	gwazhied wazhied wazhienn
@@ -74,13 +74,13 @@
 74	2074	paeron	baeron faeron paeroned
 75	2075	rimadell	rimadelloù
 76	2076	diverkañ	diverk diverkan diverkas diverke diverkec'h diverkemp diverken diverkent diverkes diverket diverkez diverkfe diverkfec'h diverkfed diverkfemp diverkfen diverkfent diverkfes diverki diverkimp diverkin diverkint diverkis diverkit diverkiñ diverkje diverkjec'h diverkjed diverkjemp diverkjen diverkjent diverkjes diverkjoc'h diverkjod diverkjomp diverkjont diverkjout diverko diverkomp diverkont diverkor diverkot tiverkañ ziverk ziverkañ
-77	2077	sammañ	sammas samme sammer sammet sammfe sammfec'h sammfed sammfemp sammfen sammfent sammfes sammi sammimp sammis sammiñ sammje sammjec'h sammjed sammjemp sammjen sammjent sammjes sammjoc'h sammjod sammjomp sammjont sammjout sammoc'h sammor sammot
+77	2077	sammañ	sammas samme sammer sammet sammfe sammfec'h sammfed sammfemp sammfen sammfent sammfes sammi sammimp sammis sammiñ sammje sammjec'h sammjed sammjemp sammjen sammjent sammjes sammjoc'h sammjod sammjomp sammjont sammjout sammoc'h sammont sammor sammot
 78	2078	gwadek	gwadekañ wadek
 79	2079	enaouiñ	enaou enaouan enaouas enaoue enaouec'h enaouemp enaouen enaouent enaoues enaouet enaouez enaoufe enaoufec'h enaoufed enaoufemp enaoufen enaoufent enaoufes enaoui enaouimp enaouin enaouint enaouis enaouit enaouje enaoujec'h enaoujed enaoujemp enaoujen enaoujent enaoujes enaoujoc'h enaoujod enaoujomp enaoujont enaoujout enaouo enaouomp enaouont enaouor enaouot
 80	2080	paner	baner faner paneroù
 81	2081	kemmadur	c'hemmadur c'hemmadurioù gemmadur gemmadurioù kemmadurioù
 82	2082	riz	ris
-83	2083	isañ	is isal ise isen isi isin isit iso isot
+83	2083	isañ	is isal isas ise isen isi isin isit iso isot
 84	2084	palat	baled balin balor faled palan palas pale palec'h paled palemp palen palent pales palet palfe palfec'h palfed palfemp palfen palfent palfes pali palimp palin palint palis palit palje paljec'h paljed paljemp paljen paljent paljes paljoc'h paljod paljomp paljont paljout palo palomp palont palor palot valed
 85	2085	butun	vutun
 86	2086	saviad	saviadoù

@@ -19,11 +19,11 @@
 19	119	lazhañ	lazañ lazhas lazhe lazhet lazhfe lazhfec'h lazhfed lazhfemp lazhfen lazhfent lazhfes lazhfomp lazhfont lazhi lazhimp lazhint lazhis lazhiñ lazhje lazhjec'h lazhjed lazhjemp lazhjen lazhjent lazhjes lazhjoc'h lazhjod lazhjomp lazhjont lazhjout lazho lazhoc'h lazhont lazhor lazhot
 20	120	spesad	spesadoù
 21	121	hep	hepdon heptañ hepte hepti hepto
-22	122	boutin	boutinoc'h poutin voutin
+22	122	boutin	boutinoc'h poutin voutin voutinoc'h
 23	123	amzer	amzerioù
 24	124	bihan	bihanat bihanañ bihanoc'h vihan vihanañ vihanoc'h
 25	125	tro	dro droioù troioù zro zroioù
-26	126	kanañ	c'han c'hanas c'hanañ c'hane c'hanent c'haner c'hanerez c'hanerezed c'hanfe c'hanfent c'hanioù c'hanjent c'hano gan ganañ ganed ganent ganer ganerez ganerezed ganerien ganfe ganiñ kan kanal kanan kanas kane kanec'h kaned kanemp kanen kanent kaner kanerez kanerezed kanerien kanes kanet kanez kanfe kanfec'h kanfed kanfemp kanfen kanfent kanfes kani kanimp kanin kanint kanis kanit kaniñ kanje kanjec'h kanjed kanjemp kanjen kanjent kanjes kanjoc'h kanjod kanjomp kanjont kanjout kano kanoc'h kanomp kanont kanor kanot kanoù
+26	126	kanañ	c'han c'hanas c'hanañ c'hane c'hanent c'haner c'hanerez c'hanerezed c'hanfe c'hanfent c'hanioù c'hanjent c'hano c'hanoù gan ganañ ganed ganent ganer ganerez ganerezed ganerien ganfe ganiñ ganoù kan kanal kanan kanas kane kanec'h kaned kanemp kanen kanent kaner kanerez kanerezed kanerien kanes kanet kanez kanfe kanfec'h kanfed kanfemp kanfen kanfent kanfes kani kanimp kanin kanint kanis kanit kaniñ kanje kanjec'h kanjed kanjemp kanjen kanjent kanjes kanjoc'h kanjod kanjomp kanjont kanjout kano kanoc'h kanomp kanont kanor kanot kanoù
 27	127	komz	c'homz c'homzer c'homzerien c'homzoù gomz gomzas gomze gomzed gomzent gomzer gomzerez gomzerien gomzerion gomzjod gomzjont gomzo gomzont gomzor gomzoù komzal komzan komzas komze komzec'h komzed komzemp komzen komzent komzer komzerez komzerien komzerion komzes komzet komzez komzfe komzfec'h komzfed komzfemp komzfen komzfent komzfes komzi komzimp komzin komzint komzioù komzis komzit komziñ komzje komzjec'h komzjed komzjemp komzjen komzjent komzjes komzjoc'h komzjod komzjomp komzjont komzjout komzo komzomp komzont komzor komzot komzoù
 28	128	int	
 29	129	du	duañ duoc'h tuañ
@@ -33,7 +33,7 @@
 33	133	labour	labourioù
 34	134	ouzhpenn	
 35	135	douar	douareier douaroù zouar zouaroù
-36	136	gouzout	c'houez c'houzer c'houzout goar gouejoc'h gouejod gouejomp gouejont gouejout gouesañ gouez gouezas gouezent gouezet gouezi gouezimp gouezin gouezint gouezis gouezit gouezo gouezoc'h gouezomp gouezor gouezot goufe goufec'h goufed goufemp goufen goufent goufes gouie gouiec'h gouied gouiemp gouien gouient gouies gouije gouijec'h gouijed gouijemp gouijen gouijent gouijes gouiot gouzer gouzoc'h gouzomp gouzon gouzont kouezet kouzout oar ouez ouezas ouezor oufe ouie ouied ouiemp ouient ouije ouijed ouzer ouzomp ouzon ouzont ouzout
+36	136	gouzout	c'houez c'houzer c'houzout goar gouejoc'h gouejod gouejomp gouejont gouejout gouesañ gouez gouezas gouezent gouezet gouezi gouezimp gouezin gouezint gouezis gouezit gouezo gouezoc'h gouezomp gouezor gouezot goufe goufec'h goufed goufemp goufen goufent goufes gouie gouiec'h gouied gouiemp gouien gouient gouies gouije gouijec'h gouijed gouijemp gouijen gouijent gouijes gouiot gouzer gouzoc'h gouzomp gouzon gouzont kouezet kouzout oar ouez ouezas ouezor oufe ouie ouied ouiemp ouien ouient ouije ouijed ouzer ouzomp ouzon ouzont ouzout
 37	137	oberenn	oberennoù
 38	138	alies	aliesañ aliesoc'h
 39	139	tremen	dremen dremenas dremene dremenent dremener dremenerien dremenet dremenfe dremenont tremenan tremenas tremene tremenec'h tremened tremenemp tremenen tremenent tremener tremenerien tremenes tremenet tremenez tremenfe tremenfec'h tremenfed tremenfemp tremenfen tremenfent tremenfes tremeni tremenimp tremenin tremenint tremenioù tremenis tremenit tremeniñ tremenje tremenjec'h tremenjed tremenjemp tremenjen tremenjent tremenjes tremenjoc'h tremenjod tremenjomp tremenjont tremenjout tremeno tremenoc'h tremenomp tremenont tremenor tremenot zremen
@@ -63,12 +63,12 @@
 63	163	eget	egedomp egedon egetañ egeti egeto
 64	164	skol	skolioù
 65	165	galloud	c'halloud c'halloudoù galloudoù kalloud
-66	166	derc'hel	dalc'h dalc'han dalc'has dalc'he dalc'hec'h dalc'hemp dalc'hen dalc'hent dalc'hes dalc'het dalc'hez dalc'hfe dalc'hfec'h dalc'hfed dalc'hfemp dalc'hfen dalc'hfent dalc'hfes dalc'hi dalc'himp dalc'hin dalc'hint dalc'hioù dalc'his dalc'hit dalc'hje dalc'hjec'h dalc'hjed dalc'hjemp dalc'hjen dalc'hjent dalc'hjes dalc'hjoc'h dalc'hjod dalc'hjomp dalc'hjont dalc'hjout dalc'ho dalc'homp dalc'hont dalc'hor dalc'hot dalc'hoù talc'h talc'has talc'he talc'hent talc'hfe talc'hjont talc'ho talc'hont terc'hel zalc'h zalc'has zalc'he zalc'het zalc'hfe zalc'hioù zalc'ho zalc'hont zerc'hel
+66	166	derc'hel	dalc'h dalc'han dalc'has dalc'he dalc'hec'h dalc'hemp dalc'hen dalc'hent dalc'hes dalc'het dalc'hez dalc'hfe dalc'hfec'h dalc'hfed dalc'hfemp dalc'hfen dalc'hfent dalc'hfes dalc'hi dalc'himp dalc'hin dalc'hint dalc'hioù dalc'his dalc'hit dalc'hje dalc'hjec'h dalc'hjed dalc'hjemp dalc'hjen dalc'hjent dalc'hjes dalc'hjoc'h dalc'hjod dalc'hjomp dalc'hjont dalc'hjout dalc'ho dalc'homp dalc'hont dalc'hor dalc'hot dalc'hoù delc'her talc'h talc'has talc'he talc'hent talc'hfe talc'hjont talc'ho talc'hont terc'hel zalc'h zalc'has zalc'he zalc'het zalc'hfe zalc'hioù zalc'ho zalc'hont zerc'hel
 67	167	rankout	rank rankan rankas ranke rankec'h ranked rankemp ranken rankent ranker rankes ranket rankez rankfe rankfec'h rankfed rankfemp rankfen rankfent rankfes ranki rankimp rankin rankint rankis rankit rankje rankjec'h rankjed rankjemp rankjen rankjent rankjes rankjoc'h rankjod rankjomp rankjon rankjont rankjout ranko rankoc'h rankomp rankont rankor rankot
 68	168	skouer	skouerioù
 69	169	tapout	dap dapas dape daper dapet dapfe dapje dapjont dapo dapomp dapont dapout tap tapan tapas tapañ tape tapec'h taped tapek tapemp tapen tapent taper tapes tapet tapez tapfe tapfec'h tapfed tapfemp tapfen tapfent tapfes tapi tapimp tapin tapint tapis tapit tapje tapjec'h tapjed tapjemp tapjen tapjent tapjes tapjoc'h tapjod tapjomp tapjont tapjout tapo tapoc'h tapomp tapont tapor tapot zapas zapout
 70	170	iliz	ilis ilizioù ilizoù
-71	171	hiziv	
+71	171	hiziv	hiriv
 72	172	mamm	mammoù vamm
 73	173	sonerezh	sonerezhioù
 74	174	yaouank	yaouankañ yaouankoc'h
@@ -83,7 +83,7 @@
 83	183	bremañ	vremañ
 84	184	skrid	skridoù
 85	185	breur	breudeur vreudeur vreur
-86	186	livañ	livas live lives livet livfe livfec'h livfed livfemp livfen livfent livfes livimp livis liviñ livje livjec'h livjed livjemp livjen livjent livjes livjoc'h livjod livjomp livjont livjout livo livoc'h livor livot
+86	186	livañ	livas live liveoù lives livet livfe livfec'h livfed livfemp livfen livfent livfes livimp livis liviñ livje livjec'h livjed livjemp livjen livjent livjes livjoc'h livjod livjomp livjont livjout livo livoc'h livor livot
 87	187	seurt	seurtoù
 88	188	goulenn	c'houlenn c'houlennas c'houlenne c'houlennet c'houlennfe c'houlennjont c'houlenno c'houlennont c'houlennoù goulennan goulennas goulenne goulennec'h goulennemp goulennen goulennent goulennes goulennet goulennez goulennfe goulennfec'h goulennfed goulennfemp goulennfen goulennfent goulennfes goulenni goulennimp goulennin goulennint goulennis goulennit goulennje goulennjec'h goulennjed goulennjemp goulennjen goulennjent goulennjes goulennjoc'h goulennjod goulennjomp goulennjont goulennjout goulenno goulennomp goulennont goulennor goulennot goulennoù koulenn koulennoù
 89	189	a-walc'h	

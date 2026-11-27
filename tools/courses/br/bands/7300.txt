@@ -1,0 +1,100 @@
+1	7201	drevezadur	drevezadurioù
+2	7202	drougiezh	zrougiezh
+3	7203	trouskenn	drouskenn
+4	7204	trovezh	drovezh trovezhioù
+5	7205	turzhunell	durzhunell
+6	7206	elbikat	elbiket
+7	7207	emplegañ	empleget
+8	7208	enklotenn	enklotennoù
+9	7209	enkorfadur	enkorfadurioù
+10	7210	ennegañ	enneget
+11	7211	eoulsan	eoulsanioù
+12	7212	ezreolder	ezreolderioù
+13	7213	fennañ	fennan fennas fenne fennec'h fennemp fennen fennent fennes fennet fennez fennfe fennfec'h fennfed fennfemp fennfen fennfent fennfes fenni fennimp fennin fennint fennis fennit fennje fennjec'h fennjed fennjemp fennjen fennjent fennjes fennjoc'h fennjod fennjomp fennjont fennjout fenno fennomp fennont fennor fennot
+14	7214	fentigell	fentigelloù
+15	7215	foukenn	foukennoù
+16	7216	fraost	fraostoù
+17	7217	fust	fustoù
+18	7218	gallaouek	c'hallaouek
+19	7219	kasenn	gasenn kasennoù
+20	7220	kendastum	gendastum
+21	7221	kenwadelezh	genwadelezh
+22	7222	kevrinegezh	gevrinegezh
+23	7223	kildroenn	gildroenn
+24	7224	giton	gitonioù
+25	7225	kizell	gizell kizelloù
+26	7226	klorenn	glorenn
+27	7227	gourdonañ	c'hourdonañ
+28	7228	gourliorzh	c'hourliorzh gourliorzhoù
+29	7229	goz	gozed
+30	7230	kriadenn	griadenn kriadennoù
+31	7231	grouan	grouanennoù
+32	7232	kuchenn	guchenn
+33	7233	gwallefed	gwallefedoù
+34	7234	gwarezadur	gwarezadurioù
+35	7235	gwaskerell	waskerell
+36	7236	gwerc'hted	werc'hted
+37	7237	gwerennad	werennad
+38	7238	gwevnder	wevnder
+39	7239	gwezhiad	wezhiad
+40	7240	helosk	heloskoù
+41	7241	herberc'hiañ	herberc'hiet
+42	7242	heureuchin-reunek	heureuchined-reunek
+43	7243	hevelebekaat	hevelebekaas hevelebekaet
+44	7244	imboud	imboudoù
+45	7245	jederez	jederezioù
+46	7246	kabac'h	
+47	7247	kalediñ	kaledan kaledas kalede kaledec'h kaledemp kaleden kaledent kaledes kaledet kaledez kaledfe kaledfec'h kaledfed kaledfemp kaledfen kaledfent kaledfes kaledi kaledimp kaledin kaledint kaledis kaledit kaledje kaledjec'h kaledjed kaledjemp kaledjen kaledjent kaledjes kaledjoc'h kaledjod kaledjomp kaledjont kaledjout kaledo kaledomp kaledont kaledor kaledot
+48	7248	kalvezerezh	kalvezerezhioù
+49	7249	kan-ha-diskan	c'han-ha-diskan
+50	7250	karbonek	garbonek
+51	7251	kargas	gargas
+52	7252	karitell	garitell karitelloù
+53	7253	karregad	c'harregad karregadoù
+54	7254	kazino	c'hazino
+55	7255	kellid	kellidoù
+56	7256	kendeuz	gendeuz
+57	7257	kenedouriezh	genedouriezh
+58	7258	kerez	c'herez
+59	7259	kernez	gernez
+60	7260	kevezusted	gevezusted
+61	7261	kevrann	kevrannoù
+62	7262	kevreadur	c'hevreadur
+63	7263	kevrennañ	kevrennet
+64	7264	kibenn	gibenn kibennoù
+65	7265	kigennek	kigennekoc'h
+66	7266	kivijer	givijerien kivijerien
+67	7267	klaoustre	glaoustre
+68	7268	kliched	c'hliched
+69	7269	kloc'hig	kloc'higoù
+70	7270	klun	c'hlunioù
+71	7271	koc'hu	c'hoc'hu
+72	7272	koef	goef koefoù
+73	7273	komis	gomis
+74	7274	kontellañ	kontellas kontellet
+75	7275	kontouer	kontoueroù
+76	7276	korz	c'horz
+77	7277	koumanantiñ	koumanantet
+78	7278	koñchenn	goñchenn koñchennoù
+79	7279	kranennek	granennek
+80	7280	kredoù	gredoù
+81	7281	legestr	ligistri
+82	7282	lestrad	lestradoù
+83	7283	lezennaoueg	lezennaouegoù
+84	7284	lintrañ	lintr lintran lintras lintre lintrec'h lintremp lintren lintrent lintres lintret lintrez lintrfe lintrfec'h lintrfed lintrfemp lintrfen lintrfent lintrfes lintri lintrimp lintrin lintrint lintris lintrit lintriñ lintrje lintrjec'h lintrjed lintrjemp lintrjen lintrjent lintrjes lintrjoc'h lintrjod lintrjomp lintrjont lintrjout lintro lintromp lintront lintror lintrot
+85	7285	lotiri	lotirioù
+86	7286	lovr	lovrien
+87	7287	maenat	maenet
+88	7288	magus	magusoc'h
+89	7289	mammelezh	vammelezh
+90	7290	mañsoner	vañsoner
+91	7291	mentadur	mentadurioù
+92	7292	mentek	ventek
+93	7293	merien	merion
+94	7294	mesper	vesper
+95	7295	mezell	vezell
+96	7296	mikroskop	mikroskopoù
+97	7297	nac'hadenn	
+98	7298	namm	nammoù
+99	7299	nec'hus	
+100	7300	nevesadur	nevesadurioù

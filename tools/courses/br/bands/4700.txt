@@ -1,100 +1,100 @@
-1	4601	brout	prout
-2	4602	rod-nezañ	
-3	4603	rouzig	
-4	4604	sigur	
-5	4605	sivia	siviaan siviaas siviae siviaec'h siviaemp siviaen siviaent siviaes siviaet siviaez siviafe siviafec'h siviafed siviafemp siviafen siviafent siviafes siviai siviaimp siviain siviaint siviais siviait siviaje siviajec'h siviajed siviajemp siviajen siviajent siviajes siviajoc'h siviajod siviajomp siviajont siviajout siviao siviaomp siviaont siviaor siviaot
-6	4606	tarar	
-7	4607	tornoziñ	tornoz tornozan tornozas tornoze tornozec'h tornozemp tornozen tornozent tornozer tornozes tornozet tornozez tornozfe tornozfec'h tornozfed tornozfemp tornozfen tornozfent tornozfes tornozi tornozimp tornozin tornozint tornozis tornozit tornozje tornozjec'h tornozjed tornozjemp tornozjen tornozjent tornozjes tornozjoc'h tornozjod tornozjomp tornozjont tornozjout tornozo tornozomp tornozont tornozor tornozot
-8	4608	tren tizh bras	bras tizh tren
-9	4609	treuzkemmadur	
-10	4610	tru	
-11	4611	minter	vinter
-12	4612	briad	vriad
-13	4613	gwelt	welt
-14	4614	a-denn-askell	
-15	4615	a-lazh-korf	
-16	4616	a-vec'h	
-17	4617	a-viliadoù	
-18	4618	abardaevezh	
-19	4619	abeger	
-20	4620	abegerezh	
-21	4621	abegus	
-22	4622	abon	
-23	4623	abretaat	abreta abretaan abretaas abretae abretaec'h abretaemp abretaen abretaent abretaes abretaet abretaez abretafe abretafec'h abretafed abretafemp abretafen abretafent abretafes abretai abretaimp abretain abretaint abretais abretait abretaje abretajec'h abretajed abretajemp abretajen abretajent abretajes abretajoc'h abretajod abretajomp abretajont abretajout abretao abretaomp abretaont abretaor abretaot
-24	4624	abrikez	
-25	4625	adanv	
-26	4626	adarme	
-27	4627	addant	addent
-28	4628	addeskiñ	addesk addeskan addeskas addeske addeskec'h addeskemp addesken addeskent addeskes addesket addeskez addeskfe addeskfec'h addeskfed addeskfemp addeskfen addeskfent addeskfes addeski addeskimp addeskin addeskint addeskis addeskit addeskje addeskjec'h addeskjed addeskjemp addeskjen addeskjent addeskjes addeskjoc'h addeskjod addeskjomp addeskjont addeskjout addesko addeskomp addeskont addeskor addeskot
-29	4629	adplegañ	adpleg adplegan adplegas adplege adplegec'h adplegemp adplegen adplegent adpleges adpleget adplegez adplegfe adplegfec'h adplegfed adplegfemp adplegfen adplegfent adplegfes adplegi adplegimp adplegin adplegint adplegis adplegit adplegje adplegjec'h adplegjed adplegjemp adplegjen adplegjent adplegjes adplegjoc'h adplegjod adplegjomp adplegjont adplegjout adplego adplegomp adplegont adplegor adplegot
-30	4630	adti	adtiez
-31	4631	adwiskañ	adwisk adwiskan adwiskas adwiske adwiskec'h adwiskemp adwisken adwiskent adwiskes adwisket adwiskez adwiskfe adwiskfec'h adwiskfed adwiskfemp adwiskfen adwiskfent adwiskfes adwiski adwiskimp adwiskin adwiskint adwiskis adwiskit adwiskiñ adwiskje adwiskjec'h adwiskjed adwiskjemp adwiskjen adwiskjent adwiskjes adwiskjoc'h adwiskjod adwiskjomp adwiskjont adwiskjout adwisko adwiskomp adwiskont adwiskor adwiskot
-32	4632	aester	
-33	4633	aezoni	
-34	4634	agroaz	
-35	4635	alehont	
-36	4636	ambrougadenn	
-37	4637	amkan	
-38	4638	amkanañ	amkanan amkanas amkane amkanec'h amkanemp amkanen amkanent amkanes amkanet amkanez amkanfe amkanfec'h amkanfed amkanfemp amkanfen amkanfent amkanfes amkani amkanimp amkanin amkanint amkanis amkanit amkanje amkanjec'h amkanjed amkanjemp amkanjen amkanjent amkanjes amkanjoc'h amkanjod amkanjomp amkanjont amkanjout amkano amkanomp amkanont amkanor amkanot
-39	4639	ampez	
-40	4640	annoar	
-41	4641	araoger	
-42	4642	arc'hant-bev	
-43	4643	arc'hlas	
-44	4644	armel-voger	
-45	4645	armenieg	
-46	4646	arouezek	
-47	4647	arouezier	
-48	4648	arvariñ	arvaran arvaras arvare arvarec'h arvaremp arvaren arvarent arvares arvaret arvarez arvarfe arvarfec'h arvarfed arvarfemp arvarfen arvarfent arvarfes arvari arvarimp arvarin arvarint arvaris arvarit arvarje arvarjec'h arvarjed arvarjemp arvarjen arvarjent arvarjes arvarjoc'h arvarjod arvarjomp arvarjont arvarjout arvaro arvaromp arvaront arvaror arvarot
-49	4649	ask	
-50	4650	askañ	askan askas aske askec'h askemp asken askent askes asket askez askfe askfec'h askfed askfemp askfen askfent askfes aski askimp askin askint askis askit askje askjec'h askjed askjemp askjen askjent askjes askjoc'h askjod askjomp askjont askjout asko askomp askont askor askot
-51	4651	astat	
-52	4652	avalenneg	
-53	4653	avel-vor	
-54	4654	avi	
-55	4655	avieler	
-56	4656	azgell	
-57	4657	azgoulenn	azgoulennan azgoulennas azgoulenne azgoulennec'h azgoulennemp azgoulennen azgoulennent azgoulennes azgoulennet azgoulennez azgoulennfe azgoulennfec'h azgoulennfed azgoulennfemp azgoulennfen azgoulennfent azgoulennfes azgoulenni azgoulennimp azgoulennin azgoulennint azgoulennis azgoulennit azgoulennje azgoulennjec'h azgoulennjed azgoulennjemp azgoulennjen azgoulennjent azgoulennjes azgoulennjoc'h azgoulennjod azgoulennjomp azgoulennjont azgoulennjout azgoulenno azgoulennomp azgoulennont azgoulennor azgoulennot
-58	4658	azviñ	azvan azvas azve azvec'h azvediñ azvemp azven azvent azves azvet azvez azvfe azvfec'h azvfed azvfemp azvfen azvfent azvfes azvi azvimp azvin azvint azvis azvit azvje azvjec'h azvjed azvjemp azvjen azvjent azvjes azvjoc'h azvjod azvjomp azvjont azvjout azvo azvomp azvont azvor azvot
-59	4659	añchenn	
-60	4660	pabell	babell
-61	4661	babu	
-62	4662	pakistanat	bakistanat
-63	4663	balaenn	
-64	4664	bambouzeg	bambouzegoù
-65	4665	parfeted	barfeted
-66	4666	barr-pluñv	barroù-pluñv
-67	4667	barzhel	
-68	4668	beg-e-dog	
-69	4669	pennlavarenn	bennlavarenn
-70	4670	berad	
-71	4671	berrder	
-72	4672	berrweled	
-73	4673	bidenn	bidennoù
-74	4674	bidoc'hig	
-75	4675	binioù-kozh	
-76	4676	biz-bras	
-77	4677	pizhoni	bizhoni
-78	4678	blazus	
-79	4679	bleiz-broc'h	
-80	4680	bleiz-garv	
-81	4681	blouc'h	
-82	4682	boc'h	
-83	4683	bohriom	
-84	4684	pokadeg	bokadeg
-85	4685	boked-laezh	bokedoù-laezh
-86	4686	poltredaoueg	boltredaoueg
-87	4687	bouk	
-88	4688	boulc'h	
-89	4689	bouloñjer	
-90	4690	bres	
-91	4691	prezour	bresour
-92	4692	brezhonekadur	
-93	4693	brientek	
-94	4694	priolez	briolez
-95	4695	brizhkredennus	
-96	4696	brodet	
-97	4697	brokusted	
-98	4698	broust-dent	broustoù-dent
-99	4699	brulu	
-100	4700	bultur	
+1	4601	saludiñ	saludan saludas salude saluden saludent saluder saludes saludez saludin saludo
+2	4602	skodenn	skodennoù
+3	4603	speredegezh	speredegezhioù
+4	4604	stilo	stiloioù
+5	4605	turkek	durkek
+6	4606	uhelvennad	uhelvennadoù
+7	4607	forom	foromoù
+8	4608	fulenn	fulenned
+9	4609	gouelec'h	gouelec'hioù
+10	4610	gwinegr	gwinêgr
+11	4611	jardin	jardinoù
+12	4612	kevezus	gevezus
+13	4613	mezhekaat	mezhekaet
+14	4614	seizañ	seizan seizas seize seizec'h seized seizemp seizen seizent seizes seizet seizez seizfe seizfec'h seizfed seizfemp seizfen seizfent seizfes seizimp seizin seizint seizis seizit seizje seizjec'h seizjed seizjemp seizjen seizjent seizjes seizjoc'h seizjod seizjomp seizjont seizjout seizo seizomp seizont seizor seizot
+15	4615	skignerezh	skignerezhioù
+16	4616	banner	vanner
+17	4617	divac'het	
+18	4618	marc'hegezh	marc'hegezhan marc'hegezhas marc'hegezhe marc'hegezhec'h marc'hegezhemp marc'hegezhen marc'hegezhent marc'hegezhes marc'hegezhet marc'hegezhez marc'hegezhfe marc'hegezhfec'h marc'hegezhfed marc'hegezhfemp marc'hegezhfen marc'hegezhfent marc'hegezhfes marc'hegezhi marc'hegezhimp marc'hegezhin marc'hegezhint marc'hegezhis marc'hegezhit marc'hegezhje marc'hegezhjec'h marc'hegezhjed marc'hegezhjemp marc'hegezhjen marc'hegezhjent marc'hegezhjes marc'hegezhjoc'h marc'hegezhjod marc'hegezhjomp marc'hegezhjont marc'hegezhjout marc'hegezho marc'hegezhomp marc'hegezhont marc'hegezhor marc'hegezhot varc'hegezh
+19	4619	rektor	rektored
+20	4620	restaolañ	restaolet
+21	4621	sil	silioù
+22	4622	irvin	irvinenn
+23	4623	malt	valt
+24	4624	prun	brun
+25	4625	koch	goch
+26	4626	arventenn	arventennoù
+27	4627	brasoc'h-brasañ	
+28	4628	brezelgar	vrezelgar
+29	4629	kreion	c'hreion
+30	4630	deliaouek	deliaoueg
+31	4631	tell-gastiz	dell-gastiz telloù-kastiz
+32	4632	didamall	tidamall zidamall
+33	4633	eilmaer	eilmaerez
+34	4634	flourdilizenn	flourdiliz
+35	4635	krizded	c'hrizded grizded
+36	4636	groc'h	groc'hoù
+37	4637	gwaskerezh	gwaskerezhioù
+38	4638	krigner	c'hrignerien krignerien
+39	4639	letern	leternioù
+40	4640	milliget	villiget
+41	4641	prezegenner	brezegenner prezegennerien
+42	4642	sec'hed	
+43	4643	skol-vamm	skolioù-mamm
+44	4644	stlejerez	stlejerezioù
+45	4645	torad	dorad
+46	4646	touell	douelloù touelloù
+47	4647	trapañ	trapet
+48	4648	warlerc'hiad	
+49	4649	binim	vinim
+50	4650	bombezer	bombezerioù
+51	4651	bouc'h	vouc'hed
+52	4652	bravaat	brava bravaan bravaas bravae bravaec'h bravaemp bravaen bravaent bravaes bravaet bravaez bravafe bravafec'h bravafed bravafemp bravafen bravafent bravafes bravai bravaimp bravain bravaint bravais bravait bravaje bravajec'h bravajed bravajemp bravajen bravajent bravajes bravajoc'h bravajod bravajomp bravajont bravajout bravao bravaomp bravaont bravaor bravaot pravaat vravaat
+53	4653	dishualañ	dishual dishualan dishualas dishuale dishualec'h dishualemp dishualen dishualent dishuales dishualet dishualez dishualfe dishualfec'h dishualfed dishualfemp dishualfen dishualfent dishualfes dishuali dishualimp dishualin dishualint dishualis dishualit dishualje dishualjec'h dishualjed dishualjemp dishualjen dishualjent dishualjes dishualjoc'h dishualjod dishualjomp dishualjont dishualjout dishualo dishualomp dishualont dishualor dishualot zishual
+54	4654	fer	ferenn
+55	4655	gouiziek	gouiziekañ gouiziekoc'h
+56	4656	luadenn	luadennoù
+57	4657	marksour	varksour
+58	4658	meurvorel	veurvorel
+59	4659	disteurel	zisteurel
+60	4660	spes	spesoù
+61	4661	kouch	c'houch gouch
+62	4662	marelladur	marelladurioù
+63	4663	rastell	rastelloù restell
+64	4664	adkargañ	adkarg adkargan adkargas adkarge adkargec'h adkargemp adkargen adkargent adkarges adkarget adkargez adkargfe adkargfec'h adkargfed adkargfemp adkargfen adkargfent adkargfes adkargi adkargimp adkargin adkargint adkargis adkargit adkargje adkargjec'h adkargjed adkargjemp adkargjen adkargjent adkargjes adkargjoc'h adkargjod adkargjomp adkargjont adkargjout adkargo adkargomp adkargont adkargor adkargot
+65	4665	arsellout	arsellet
+66	4666	avielour	avielourien
+67	4667	badez	vadez
+68	4668	bardell	bardelloù vardell
+69	4669	daskemm	daskemmoù
+70	4670	didermenañ	didermenet zidermenañ
+71	4671	disheñvelout	disheñvelet zisheñvelout
+72	4672	diskuilhañ	diskuilhet ziskuilhañ ziskuilhfe ziskuilho
+73	4673	distaol	distaolioù zistaol
+74	4674	gweuz	diweuz weuz
+75	4675	douaroniour	douaroniourien
+76	4676	eilad	eiladoù
+77	4677	flemmadenn	flemmadennoù
+78	4678	garzh	c'harzh girzhier
+79	4679	kurunidigezh	gurunidigezh
+80	4680	hilienn	hiliennoù
+81	4681	kendeuzad	c'hendeuzad kendeuzadoù
+82	4682	kolombian	c'holombian golombian
+83	4683	liñvenn	liñvennoù
+84	4684	mac'hañ	mac'h mac'het
+85	4685	pleustradeg	bleustradeg pleustradegoù
+86	4686	preñv	breñved preñved
+87	4687	skrapadenn	skrapadennoù
+88	4688	speg	spegoù
+89	4689	trevell	trevelloù
+90	4690	moullerezh	voullerezh
+91	4691	brientinelezh	vrientinelezh
+92	4692	dialañ	dialan dialas diale dialec'h dialemp dialen dialent diales dialet dialez dialfe dialfec'h dialfed dialfemp dialfen dialfent dialfes diali dialimp dialin dialint dialis dialit dialje dialjec'h dialjed dialjemp dialjen dialjent dialjes dialjoc'h dialjod dialjomp dialjont dialjout dialo dialomp dialont dialor dialot tialañ zialañ
+93	4693	beni	benioù veni
+94	4694	kap	c'hap
+95	4695	araokaat	araoka araokaet
+96	4696	breutaer	breutaerien vreutaer vreutaerien
+97	4697	korporal	c'horporal gorporal
+98	4698	douester	zouester
+99	4699	garan	garanoù
+100	4700	kemberiñ	gemberiñ kemberan kemberas kemberañ kembere kemberec'h kemberemp kemberen kemberent kemberes kemberet kemberez kemberfe kemberfec'h kemberfed kemberfemp kemberfen kemberfent kemberfes kemberi kemberimp kemberin kemberint kemberis kemberit kemberje kemberjec'h kemberjed kemberjemp kemberjen kemberjent kemberjes kemberjoc'h kemberjod kemberjomp kemberjont kemberjout kembero kemberomp kemberont kemberor kemberot

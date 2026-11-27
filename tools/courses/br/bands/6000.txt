@@ -1,0 +1,100 @@
+1	5901	sizailh	sizailhoù
+2	5902	skediñ	skedan skedas skedañ skede skedec'h skedemp skeden skedent skedes skedet skedez skedfe skedfec'h skedfed skedfemp skedfen skedfent skedfes skedi skedimp skedin skedint skedis skedit skedje skedjec'h skedjed skedjemp skedjen skedjent skedjes skedjoc'h skedjod skedjomp skedjont skedjout skedo skedomp skedont skedor skedot
+3	5903	skourrañ	skourret
+4	5904	sodiñ	sodan sodas sodañ sode sodec'h sodemp soden sodent soder sodes sodet sodez sodfe sodfec'h sodfed sodfemp sodfen sodfent sodfes sodi sodimp sodin sodint sodis sodit sodje sodjec'h sodjed sodjemp sodjen sodjent sodjes sodjoc'h sodjod sodjomp sodjont sodjout sodo sodomp sodont sodor sodot
+5	5905	stammenn	stammennoù
+6	5906	stourmadenn	stourmadennoù
+7	5907	strollegezh	strollegezhioù
+8	5908	taksi	taksioù
+9	5909	talgen	dalgen talgenoù
+10	5910	tonell	donell tonelloù
+11	5911	troazhañ	droazhañ troazhan troazhas troazhe troazhec'h troazhemp troazhen troazhent troazhes troazhet troazhez troazhfe troazhfec'h troazhfed troazhfemp troazhfen troazhfent troazhfes troazhi troazhimp troazhin troazhint troazhis troazhit troazhiñ troazhje troazhjec'h troazhjed troazhjemp troazhjen troazhjent troazhjes troazhjoc'h troazhjod troazhjomp troazhjont troazhjout troazho troazhomp troazhont troazhor troazhot
+12	5912	troc'had	troc'hadoù
+13	5913	beskell	veskell
+14	5914	mogerenn	mogerennoù vogerenn
+15	5915	bolz-enor	bolzioù-enor volz-enor
+16	5916	breserezh	vreserezh
+17	5917	brogarouriezh	vrogarouriezh
+18	5918	bulgarek	vulgarek
+19	5919	gwagennad	wagennad
+20	5920	yec'hedouriezh	
+21	5921	yoc'h	yoc'hoù
+22	5922	distan	distanañ zistanañ
+23	5923	araokadur	araokadurioù
+24	5924	dama	tama
+25	5925	darañ	daras darec'h daremp daren darent dares daret darez darfe darfec'h darfed darfemp darfen darfent darfes dari darimp darin darint daris darit dariñ darje darjec'h darjed darjemp darjen darjent darjes darjoc'h darjod darjomp darjont darjout daro daromp daront daror darot tarañ tarot zarañ
+26	5926	bam	pam
+27	5927	barbar	varbar
+28	5928	disglavier	disglavieroù zisglavier
+29	5929	diskrog	diskrogoù ziskrog
+30	5930	doareenn	doareennoù zoareennoù
+31	5931	douraat	doura douraet
+32	5932	drougimplij	drougimplijoù
+33	5933	efediñ	efedet
+34	5934	ferenneg	ferennegoù
+35	5935	goulakaat	c'houlaka c'houlakaat goulaka goulakaan goulakaas goulakae goulakaec'h goulakaemp goulakaen goulakaent goulakaes goulakaet goulakaez goulakafe goulakafec'h goulakafed goulakafemp goulakafen goulakafent goulakafes goulakai goulakaimp goulakain goulakaint goulakais goulakait goulakaje goulakajec'h goulakajed goulakajemp goulakajen goulakajent goulakajes goulakajoc'h goulakajod goulakajomp goulakajont goulakajout goulakao goulakaomp goulakaont goulakaor goulakaot
+36	5936	goullonderiñ	c'houllonderas c'houllonderiñ goullonder goullonderan goullonderas goullondere goullonderec'h goullonderemp goullonderen goullonderent goullonderes goullonderet goullonderez goullonderfe goullonderfec'h goullonderfed goullonderfemp goullonderfen goullonderfent goullonderfes goullonderi goullonderimp goullonderin goullonderint goullonderis goullonderit goullonderje goullonderjec'h goullonderjed goullonderjemp goullonderjen goullonderjent goullonderjes goullonderjoc'h goullonderjod goullonderjomp goullonderjont goullonderjout goullondero goullonderomp goullonderont goullonderor goullonderot koullonderiñ
+37	5937	kleizour	c'hleizour gleizour
+38	5938	korvent	c'horventoù korventoù
+39	5939	kulator	c'hulator kulatorez
+40	5940	laou	laouenn
+41	5941	liñvadenn	liñvadennoù
+42	5942	luskellat	luskell luskellan luskellas luskellañ luskelle luskellec'h luskellemp luskellen luskellent luskelles luskellet luskellez luskellfe luskellfec'h luskellfed luskellfemp luskellfen luskellfent luskellfes luskelli luskellimp luskellin luskellint luskellis luskellit luskellje luskelljec'h luskelljed luskelljemp luskelljen luskelljent luskelljes luskelljoc'h luskelljod luskelljomp luskelljont luskelljout luskello luskellomp luskellont luskellor luskellot
+43	5943	merc'h-kaer	verc'h-kaer
+44	5944	pasianted	basianted
+45	5945	reformiñ	reform reformet
+46	5946	reolenniñ	reolennet
+47	5947	tommerezh	dommerezh
+48	5948	garmal	c'harmal karmal
+49	5949	allergiezh	allergiezhioù allergiezhoù
+50	5950	poulzañ	boulz poulz poulzan poulzas poulze poulzec'h poulzemp poulzen poulzent poulzes poulzet poulzez poulzfe poulzfec'h poulzfed poulzfemp poulzfen poulzfent poulzfes poulzi poulzimp poulzin poulzint poulzis poulzit poulzje poulzjec'h poulzjed poulzjemp poulzjen poulzjent poulzjes poulzjoc'h poulzjod poulzjomp poulzjont poulzjout poulzo poulzomp poulzont poulzor poulzot
+51	5951	broc'hañ	broc'han broc'has broc'he broc'hec'h broc'hemp broc'hen broc'hent broc'hes broc'het broc'hfe broc'hfec'h broc'hfed broc'hfemp broc'hfen broc'hfent broc'hfes broc'hi broc'himp broc'hin broc'hint broc'his broc'hit broc'hje broc'hjec'h broc'hjed broc'hjemp broc'hjen broc'hjent broc'hjes broc'hjoc'h broc'hjod broc'hjomp broc'hjont broc'hjout broc'ho broc'homp broc'hont broc'hor broc'hot vroc'has
+52	5952	kartoñs	c'hartoñs gartoñs
+53	5953	kiladenn	c'hiladenn giladenn
+54	5954	kounskrid	c'hounskrid gounskrid
+55	5955	dilañs	dilañsoù zilañs
+56	5956	diraezañ	diraezet tiraeze tiraezo tiraezont
+57	5957	disentiñ	disentan disentas disente disentec'h disentemp disenten disentent disentes disentet disentez disentfe disentfec'h disentfed disentfemp disentfen disentfent disentfes disenti disentimp disentin disentint disentis disentit disentje disentjec'h disentjed disentjemp disentjen disentjent disentjes disentjoc'h disentjod disentjomp disentjont disentjout disento disentomp disentont disentor disentot disentout tisentas zisentas zisentiñ
+58	5958	diskleriadenn	diskleriadennoù ziskleriadenn
+59	5959	tolzennad	dolzennad tolzennadoù zolzennad
+60	5960	eon	
+61	5961	eoriañ	eori eorian eorias eorie eoriec'h eoriemp eorien eorient eories eoriet eoriez eorife eorifec'h eorifed eorifemp eorifen eorifent eorifes eorii eoriimp eoriin eoriint eoriis eoriit eorije eorijec'h eorijed eorijemp eorijen eorijent eorijes eorijoc'h eorijod eorijomp eorijont eorijout eorio eoriomp eoriont eorior eoriot eoriñ
+62	5962	foton	fotonioù fotonoù
+63	5963	kabal	gabal kabalioù kabaloù
+64	5964	gedour	geder gedourien gedourion
+65	5965	gwallober	gwalloberioù gwalloberoù wallober
+66	5966	gwelladenniñ	gwelladennet welladenniñ
+67	5967	gwiadenn	gwiadennoù wiadenn
+68	5968	halañ	hal halan halas hale halec'h halemp halen halent hales halet halez halfe halfec'h halfed halfemp halfen halfent halfes hali halimp halin halint halis halit halje haljec'h haljed haljemp haljen haljent haljes haljoc'h haljod haljomp haljont haljout halo halomp halont halor halot
+69	5969	harzh	harzhioù harzhoù
+70	5970	hentañ	hente hentet
+71	5971	kaeañ	gaeañ gaeet kaeet
+72	5972	kenfinañ	c'henfinañ genfinañ kenfin kenfinan kenfinas kenfine kenfinec'h kenfinemp kenfinen kenfinent kenfines kenfinet kenfinez kenfinfe kenfinfec'h kenfinfed kenfinfemp kenfinfen kenfinfent kenfinfes kenfini kenfinimp kenfinin kenfinint kenfinis kenfinit kenfinje kenfinjec'h kenfinjed kenfinjemp kenfinjen kenfinjent kenfinjes kenfinjoc'h kenfinjod kenfinjomp kenfinjont kenfinjout kenfino kenfinomp kenfinont kenfinor kenfinot
+73	5973	mergodenn	mergodennoù vergodenn
+74	5974	salviñ	salv salvan salvas salvañ salve salvec'h salvemp salven salvent salves salvet salvez salvfe salvfec'h salvfed salvfemp salvfen salvfent salvfes salvi salvimp salvin salvint salvis salvit salvje salvjec'h salvjed salvjemp salvjen salvjent salvjes salvjoc'h salvjod salvjomp salvjont salvjout salvo salvomp salvont salvor salvot
+75	5975	spilhenn	spilhennoù spilhoù
+76	5976	tachañ	tachan tachas tache tachec'h tachemp tachen tachent taches tachet tachez tachfe tachfec'h tachfed tachfemp tachfen tachfent tachfes tachi tachimp tachin tachint tachis tachit tachiñ tachje tachjec'h tachjed tachjemp tachjen tachjent tachjes tachjoc'h tachjod tachjomp tachjont tachjout tacho tachomp tachont tachor tachot
+77	5977	ti-debriñ	tier-debriñ tiez-debriñ
+78	5978	dleat	dleje tlefent tleje zleje
+79	5979	difoupañ	difoup difoupan difoupas difoupe difoupec'h difoupemp difoupen difoupent difoupes difoupet difoupez difoupfe difoupfec'h difoupfed difoupfemp difoupfen difoupfent difoupfes difoupi difoupimp difoupin difoupint difoupis difoupit difoupje difoupjec'h difoupjed difoupjemp difoupjen difoupjent difoupjes difoupjoc'h difoupjod difoupjomp difoupjont difoupjout difoupo difoupomp difoupont difoupor difoupot tifoup tifoupañ tifoupfe zifoupañ
+80	5980	badaouiñ	badaouet vadaoue vadaouiñ
+81	5981	daeañ	daeet taeañ zaeañ
+82	5982	dirañ	diran diras dire direc'h diremp diren dirent dires direz dirfe dirfec'h dirfed dirfemp dirfen dirfent dirfes dirimp dirin dirint diris dirit diriñ dirje dirjec'h dirjed dirjemp dirjen dirjent dirjes dirjoc'h dirjod dirjomp dirjont dirjout diro diromp diront diror dirot tire tirer ziren
+83	5983	choaziñ	
+84	5984	karour	garour garourien karourien
+85	5985	potev	botev
+86	5986	brand	
+87	5987	sorgo	
+88	5988	a-frapadoù	
+89	5989	a-gement	
+90	5990	a-vern	
+91	5991	a-veskell	
+92	5992	achanterezh	
+93	5993	adaskell	adeskell
+94	5994	adpignat	
+95	5995	albaneg	
+96	5996	amerikiom	
+97	5997	amprestiñ	
+98	5998	amprou	
+99	5999	amstrizh	
+100	6000	anaoudek	

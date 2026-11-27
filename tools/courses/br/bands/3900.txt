@@ -1,100 +1,100 @@
-1	3801	advab	
-2	3802	advevañ	advev advevan advevas adveve advevec'h advevemp adveven advevent adveves advevet advevez advevfe advevfec'h advevfed advevfemp advevfen advevfent advevfes advevi advevimp advevin advevint advevis advevit adveviñ advevje advevjec'h advevjed advevjemp advevjen advevjent advevjes advevjoc'h advevjod advevjomp advevjont advevjout advevo advevomp advevont advevor advevot
-3	3803	aerva	
-4	3804	akordeon	
-5	3805	aktiniom	
-6	3806	akuit	
-7	3807	amanenn	
-8	3808	an-unan	
-9	3809	anduilh	
-10	3810	anv-gwan-verb	
-11	3811	arc'hantus	
-12	3812	azot	
-13	3813	azv	
-14	3814	baraer	
-15	3815	barr-amzer	
-16	3816	bec'hiañ	bec'hi bec'hian bec'hias bec'hie bec'hiec'h bec'hiemp bec'hien bec'hient bec'hies bec'hiet bec'hiez bec'hife bec'hifec'h bec'hifed bec'hifemp bec'hifen bec'hifent bec'hifes bec'hii bec'hiimp bec'hiin bec'hiint bec'hiis bec'hiit bec'hije bec'hijec'h bec'hijed bec'hijemp bec'hijen bec'hijent bec'hijes bec'hijoc'h bec'hijod bec'hijomp bec'hijont bec'hijout bec'hio bec'hiomp bec'hiont bec'hior bec'hiot
-17	3817	beked	
-18	3818	berjinez	
-19	3819	braster	
-20	3820	bredvezeg	
-21	3821	brein-krign	
-22	3822	brezelek	
-23	3823	bulgareg	
-24	3824	kendi	c'hendi
-25	3825	c'hwervoni	
-26	3826	c'hwibon	
-27	3827	kastiz-lazh	c'hastiz-lazh
-28	3828	kengourener	c'hengourener
-29	3829	kerneveg	c'herneveg
-30	3830	daoubleget	
-31	3831	daouder	
-32	3832	deiziañ	deizi deizian deizias deizie deiziec'h deiziemp deizien deizient deizies deiziet deiziez deizife deizifec'h deizifed deizifemp deizifen deizifent deizifes deizii deiziimp deiziin deiziint deiziis deiziit deizije deizijec'h deizijed deizijemp deizijen deizijent deizijes deizijoc'h deizijod deizijomp deizijont deizijout deizio deiziomp deiziont deizior deiziot
-33	3833	diboan	
-34	3834	dichañs	
-35	3835	digomz	
-36	3836	digwener	
-37	3837	dousik	
-38	3838	douster	
-39	3839	tro-vrec'h	dro-vrec'h
-40	3840	evnoniezh	
-41	3841	eürusted	
-42	3842	fonnusaat	fonnusa fonnusaan fonnusaas fonnusae fonnusaec'h fonnusaemp fonnusaen fonnusaent fonnusaes fonnusaet fonnusaez fonnusafe fonnusafec'h fonnusafed fonnusafemp fonnusafen fonnusafent fonnusafes fonnusai fonnusaimp fonnusain fonnusaint fonnusais fonnusait fonnusaje fonnusajec'h fonnusajed fonnusajemp fonnusajen fonnusajent fonnusajes fonnusajoc'h fonnusajod fonnusajomp fonnusajont fonnusajout fonnusao fonnusaomp fonnusaont fonnusaor fonnusaot
-43	3843	fraoñv	
-44	3844	galv-diwall	
-45	3845	genaoueg	
-46	3846	kilpenn	gilpenn
-47	3847	gorre-kêr	
-48	3848	gwitibunan	
-49	3849	hanafer	
-50	3850	hañviñ	hañvan hañvas hañve hañvec'h hañvemp hañven hañvent hañves hañvet hañvez hañvfe hañvfec'h hañvfed hañvfemp hañvfen hañvfent hañvfes hañvi hañvimp hañvin hañvint hañvis hañvit hañvje hañvjec'h hañvjed hañvjemp hañvjen hañvjent hañvjes hañvjoc'h hañvjod hañvjomp hañvjont hañvjout hañvo hañvomp hañvont hañvor hañvot
-51	3851	heizez	
-52	3852	helavar	
-53	3853	heniwerzhoneg	
-54	3854	heugus	
-55	3855	heñvelded	
-56	3856	heñvelson	
-57	3857	hordenn	
-58	3858	horolajer	
-59	3859	houarnek	
-60	3860	hêrezhel	
-61	3861	ijinus	
-62	3862	istr	
-63	3863	jav	
-64	3864	kig-bevin	
-65	3865	karr-arsailh	kirri-arsailh
-66	3866	lagenn	
-67	3867	leziregezh	
-68	3868	libanat	
-69	3869	lipous	
-70	3870	lirzhin	
-71	3871	lizheradur	
-72	3872	luc'h	
-73	3873	mailhoni	
-74	3874	marbr	
-75	3875	mezher	
-76	3876	mikrometr	
-77	3877	milimetr	
-78	3878	mintinvezh	
-79	3879	molekulel	
-80	3880	monoklonel	
-81	3881	morgousket	morgousk morgouskan morgouskas morgouske morgouskec'h morgouskemp morgousken morgouskent morgouskes morgousketat morgousketañ morgousketoc'h morgouskez morgouskfe morgouskfec'h morgouskfed morgouskfemp morgouskfen morgouskfent morgouskfes morgouski morgouskimp morgouskin morgouskint morgouskis morgouskit morgouskiñ morgouskje morgouskjec'h morgouskjed morgouskjemp morgouskjen morgouskjent morgouskjes morgouskjoc'h morgouskjod morgouskjomp morgouskjont morgouskjout morgousko morgouskomp morgouskont morgouskor morgouskot
-82	3882	mouar	
-83	3883	mousc'hoarzh	
-84	3884	mul	
-85	3885	naonedat	
-86	3886	naplezek	
-87	3887	neptuniom	
-88	3888	nevezadus	
-89	3889	niveroniezh	
-90	3890	noazhded	
-91	3891	ouz	
-92	3892	pimant	
-93	3893	porzh-brezel	
-94	3894	rakkristen	
-95	3895	rakverb	
-96	3896	ranngalon	
-97	3897	reizhveliezh	reizhveli
-98	3898	reuzus	
-99	3899	riv	
-100	3900	rouanez-vamm	
+1	3801	rouestl	
+2	3802	ampoezon	ampoezonoù
+3	3803	brokus	vrokusañ
+4	3804	droch	zroch
+5	3805	parder	farder
+6	3806	karrekaat	garrekaet karrekaet
+7	3807	oberer	obereroù
+8	3808	privezioù	brivezioù
+9	3809	strilherezh	strilherezhioù
+10	3810	troazh	zroazh
+11	3811	betoñs	vetoñs
+12	3812	dic'hallus	
+13	3813	difennerezh	difennerezhioù
+14	3814	eneb	eneboù
+15	3815	ezteurel	
+16	3816	korean	gorean
+17	3817	prezeger	brezeger
+18	3818	kafe	kafeoù
+19	3819	risklus	risklusoc'h
+20	3820	heugiñ	heugal heugan heugas heuge heugec'h heugemp heugen heugent heuges heuget heugez heugfe heugfec'h heugfed heugfemp heugfen heugfent heugfes heugi heugimp heugin heugint heugis heugit heugje heugjec'h heugjed heugjemp heugjen heugjent heugjes heugjoc'h heugjod heugjomp heugjont heugjout heugo heugomp heugont heugor heugot
+21	3821	jarl	jarloù
+22	3822	dornell	dornelloù zornell
+23	3823	kenedus	genedus kenedusañ
+24	3824	kotoñs	c'hotoñs
+25	3825	tisaverezh	disaverezh
+26	3826	torzhell	dorzhell dorzhelloù torzhelloù
+27	3827	revr	revrioù
+28	3828	urzhiataerezh	urzhiataerezhioù
+29	3829	min	minoù
+30	3830	trap	trapoù
+31	3831	eürus	eürusañ eürusoc'h
+32	3832	erv	irvi
+33	3833	gell-du	c'hell-du
+34	3834	alamaneger	alamanegerien
+35	3835	braventez	vraventez
+36	3836	klasker-bara	c'hlasker-bara
+37	3837	c'hoariell	c'hoarielloù
+38	3838	dant	zant
+39	3839	darvoudenn	darvoudennoù
+40	3840	dibenn-sizhun	dibennoù-sizhun
+41	3841	fourmaj	fourmajoù
+42	3842	postel	posteloù
+43	3843	pradenn	bradenn pradennoù
+44	3844	presbital	bresbital presbitalioù
+45	3845	stroñs	stroñsoù
+46	3846	du-mañ	tu-mañ
+47	3847	boureviañ	boureviet voureviañ
+48	3848	skiltr	skiltroù
+49	3849	anataat	anataet
+50	3850	hanterour	hanterourez hanterourien
+51	3851	sontadeg	sontadegoù
+52	3852	treust	treustoù
+53	3853	marc'hegiezh	varc'hegiezh
+54	3854	diouganañ	tiouganañ ziouganañ
+55	3855	bouzar	vouzar
+56	3856	digreizennañ	digreizenn digreizennan digreizennas digreizenne digreizennec'h digreizennemp digreizennen digreizennent digreizennes digreizennet digreizennez digreizennfe digreizennfec'h digreizennfed digreizennfemp digreizennfen digreizennfent digreizennfes digreizenni digreizennimp digreizennin digreizennint digreizennis digreizennit digreizenniñ digreizennje digreizennjec'h digreizennjed digreizennjemp digreizennjen digreizennjent digreizennjes digreizennjoc'h digreizennjod digreizennjomp digreizennjont digreizennjout digreizenno digreizennomp digreizennont digreizennor digreizennot tigreizennañ zigreizennañ
+57	3857	kodiñ	c'hodiñ godiñ kodet
+58	3858	perzhded	berzhded ferzhded
+59	3859	tarch	tarchoù
+60	3860	poultrenn	boultrenn poultrennoù
+61	3861	tristidigezh	dristidigezh
+62	3862	prizañ	brizañ frizañ prizet
+63	3863	digejañ	digejet zigejañ
+64	3864	hentad	hentadoù
+65	3865	horolaj	horolajoù
+66	3866	nezañ	nez nezan nezas neze nezec'h nezemp nezen nezent nezes nezet nezez nezfe nezfec'h nezfed nezfemp nezfen nezfent nezfes nezi nezimp nezin nezint nezis nezit neziñ nezje nezjec'h nezjed nezjemp nezjen nezjent nezjes nezjoc'h nezjod nezjomp nezjont nezjout nezo nezomp nezont nezor nezot
+67	3867	riblenn	riblennoù
+68	3868	tisavouriezh	disavouriezh
+69	3869	meneger	veneger
+70	3870	digas	tigas zigas
+71	3871	eilpennañ	eilpennet
+72	3872	o-zri	o-zeir
+73	3873	kana	gana
+74	3874	kouronkañ	gouronkañ kouronk kouronkan kouronkas kouronkat kouronke kouronkec'h kouronkemp kouronken kouronkent kouronkes kouronket kouronkez kouronkfe kouronkfec'h kouronkfed kouronkfemp kouronkfen kouronkfent kouronkfes kouronki kouronkimp kouronkin kouronkint kouronkis kouronkit kouronkiñ kouronkje kouronkjec'h kouronkjed kouronkjemp kouronkjen kouronkjent kouronkjes kouronkjoc'h kouronkjod kouronkjomp kouronkjont kouronkjout kouronko kouronkomp kouronkont kouronkor kouronkot
+75	3875	tanijenn	danijenn tanijennoù
+76	3876	neuiñ	neu neuan neuas neue neuec'h neued neuemp neuen neuent neuer neues neuet neuez neufe neufec'h neufed neufemp neufen neufent neufes neui neuimp neuin neuint neuis neuit neuje neujen neujes neujout neuo neuoc'h neuomp neuont neuor neuot
+77	3877	amprouiñ	amprouas amprouet
+78	3878	pirc'hirinded	birc'hirinded pirc'hirindedoù
+79	3879	karrdi	c'harrdi karrdioù
+80	3880	direizhder	direizhderioù zireizhder
+81	3881	dizoloer	tizoloer zizoloer
+82	3882	galloudek	c'halloudek galloudekañ galloudekoc'h
+83	3883	kevnid	gevnidenn kevnidenn
+84	3884	kredour	gredourien kredourez kredourien
+85	3885	ivin	ivinoù
+86	3886	kevraouiñ	c'hevraouiñ gevraouiñ kevraouet
+87	3887	kontrollerezh	c'hontrollerezh
+88	3888	mandarin	mandarined vandarined
+89	3889	skubañ	skubal skuban skubas skubat skube skubec'h skubemp skuben skubent skubes skubet skubez skubfe skubfec'h skubfed skubfemp skubfen skubfent skubfes skubi skubimp skubin skubint skubis skubit skubiñ skubje skubjec'h skubjed skubjemp skubjen skubjent skubjes skubjoc'h skubjod skubjomp skubjont skubjout skubo skubomp skubont skubor skubot
+90	3890	biñs	biñsoù piñs viñs viñsoù
+91	3891	legadiñ	legadas legadet
+92	3892	piler	pilerioù pileroù
+93	3893	kenunaniezh	genunaniezh
+94	3894	harzhal	harzhan harzhas harzhañ harzhe harzhec'h harzhemp harzhen harzhent harzhes harzhet harzhez harzhfe harzhfec'h harzhfed harzhfemp harzhfen harzhfent harzhfes harzhi harzhimp harzhin harzhint harzhis harzhit harzhiñ harzhje harzhjec'h harzhjed harzhjemp harzhjen harzhjent harzhjes harzhjoc'h harzhjod harzhjomp harzhjont harzhjout harzho harzhomp harzhont harzhor harzhot
+95	3895	korfadurezh	c'horfadurezh gorfadurezh
+96	3896	liñs	lins liñsed liñsoù
+97	3897	hejañ	hejal hejas heje hejet hejfe hejfec'h hejfed hejfemp hejfen hejfent hejfes hejimp hejis hejiñ hejje hejjec'h hejjed hejjemp hejjen hejjent hejjes hejjoc'h hejjod hejjomp hejjont hejjout hejoc'h hejor hejot
+98	3898	bukañ	buk bukan bukas buke bukec'h bukemp buken bukent bukes buket bukez bukfe bukfec'h bukfed bukfemp bukfen bukfent bukfes buki bukimp bukin bukint bukis bukit bukje bukjec'h bukjed bukjemp bukjen bukjent bukjes bukjoc'h bukjod bukjomp bukjont bukjout buko bukomp bukont bukor bukot vuk vukañ
+99	3899	dreser	dreserien dreserion treserez treserien
+100	3900	kaozeadenn	c'haozeadennoù gaozeadenn gaozeadennoù kaozeadennoù

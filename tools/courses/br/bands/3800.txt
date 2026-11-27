@@ -1,100 +1,100 @@
-1	3701	sortial	sorti sortian sortias sortiañ sortie sortiec'h sortiemp sortien sortient sorties sortiet sortiez sortife sortifec'h sortifed sortifemp sortifen sortifent sortifes sortii sortiimp sortiin sortiint sortiis sortiit sortiiñ sortije sortijec'h sortijed sortijemp sortijen sortijent sortijes sortijoc'h sortijod sortijomp sortijont sortijout sortio sortiomp sortiont sortior sortiot
-2	3702	stalaf	stalafioù
-3	3703	termometr	termometroù
-4	3704	toullgofet	doullgofet
-5	3705	tour-ged	tourioù-ged
-6	3706	tour-iliz	dour-iliz
-7	3707	uhelgomzer	uhelgomzerioù
-8	3708	barrennig-stagañ	varrennig-stagañ
-9	3709	buanded	vuanded
-10	3710	gwarellvaez	warellvaez
-11	3711	brennig	brennigennoù
-12	3712	garm	garmoù
-13	3713	bridañ	brid bridan bridas bride bridec'h bridemp briden brident brides bridet bridez bridfe bridfec'h bridfed bridfemp bridfen bridfent bridfes bridi bridimp bridin bridint bridis bridit bridiñ bridje bridjec'h bridjed bridjemp bridjen bridjent bridjes bridjoc'h bridjod bridjomp bridjont bridjout brido bridomp bridont bridor bridot pride
-14	3714	birviken	virviken
-15	3715	bennigañ	bennig bennigan bennigas bennige bennigec'h bennigemp bennigen bennigent benniges bennigez bennigfe bennigfec'h bennigfed bennigfemp bennigfen bennigfent bennigfes bennigi bennigimp bennigin bennigint bennigis bennigit bennigje bennigjec'h bennigjed bennigjemp bennigjen bennigjent bennigjes bennigjoc'h bennigjod bennigjomp bennigjont bennigjout bennigo bennigomp bennigont bennigor bennigot pennigañ vennigañ
-16	3716	bizskrivañ	bizskriv bizskrivan bizskrivas bizskrive bizskrivec'h bizskrivemp bizskriven bizskrivent bizskrives bizskrivet bizskrivez bizskrivfe bizskrivfec'h bizskrivfed bizskrivfemp bizskrivfen bizskrivfent bizskrivfes bizskrivi bizskrivimp bizskrivin bizskrivint bizskrivis bizskrivit bizskrivje bizskrivjec'h bizskrivjed bizskrivjemp bizskrivjen bizskrivjent bizskrivjes bizskrivjoc'h bizskrivjod bizskrivjomp bizskrivjont bizskrivjout bizskrivo bizskrivomp bizskrivont bizskrivor bizskrivot
-17	3717	broñs	broñsoù vroñs
-18	3718	dibr	dibroù
-19	3719	frankaat	franka frankaan frankaas frankae frankaec'h frankaemp frankaen frankaent frankaes frankaet frankaez frankafe frankafec'h frankafed frankafemp frankafen frankafent frankafes frankai frankaimp frankain frankaint frankais frankait frankaje frankajec'h frankajed frankajemp frankajen frankajent frankajes frankajoc'h frankajod frankajomp frankajont frankajout frankao frankaomp frankaont frankaor frankaot
-20	3720	kafedi	c'hafedi
-21	3721	morad	moriad
-22	3722	moru	morued
-23	3723	pil	piloù
-24	3724	sorc'henn	sorc'hennoù
-25	3725	toer	doer
-26	3726	toger	doger
-27	3727	chilean	chileaned
-28	3728	deraouiñ	deraou deraouan deraouas deraoue deraouec'h deraouemp deraouen deraouent deraoues deraouet deraouez deraoufe deraoufec'h deraoufed deraoufemp deraoufen deraoufent deraoufes deraoui deraouimp deraouin deraouint deraouis deraouit deraouje deraoujec'h deraoujed deraoujemp deraoujen deraoujent deraoujes deraoujoc'h deraoujod deraoujomp deraoujont deraoujout deraouo deraouomp deraouont deraouor deraouot teraou zeraouiñ
-29	3729	torchañ	dorchañ torch torchan torchas torche torchec'h torchemp torchen torchent torches torchet torchez torchfe torchfec'h torchfed torchfemp torchfen torchfent torchfes torchi torchimp torchin torchint torchis torchit torchiñ torchje torchjec'h torchjed torchjemp torchjen torchjent torchjes torchjoc'h torchjod torchjomp torchjont torchjout torcho torchomp torchont torchor torchot zorchañ
-30	3730	abrant	abrantoù
-31	3731	bu	bioù
-32	3732	biz-troad	bizied-treid bizied-troad
-33	3733	planter	blanterien
-34	3734	blein	plein vlein
-35	3735	bourdal	bourd bourdan bourdas bourde bourdec'h bourdemp bourden bourdent bourder bourdes bourdet bourdez bourdfe bourdfec'h bourdfed bourdfemp bourdfen bourdfent bourdfes bourdi bourdimp bourdin bourdint bourdis bourdit bourdje bourdjec'h bourdjed bourdjemp bourdjen bourdjent bourdjes bourdjoc'h bourdjod bourdjomp bourdjont bourdjout bourdo bourdomp bourdont bourdor bourdot vourd vourdal
-36	3736	pourmenerez	bourmenerien pourmenerien
-37	3737	kaol	c'haol
-38	3738	gedal	c'hedal gedan gedas gedañ gede gedec'h gedemp geden gedent gedes gedet gedez gedfe gedfec'h gedfed gedfemp gedfen gedfent gedfes gedi gedimp gedin gedint gedis gedit gediñ gedje gedjec'h gedjed gedjemp gedjen gedjent gedjes gedjoc'h gedjod gedjomp gedjont gedjout gedo gedomp gedont gedor gedot kedal
-39	3739	kegel	c'hegel gegel
-40	3740	kravat	c'hrav grav krav kravad kravan kravas krave kravec'h kravemp kraven kravent kraves kravet kravez kravfe kravfec'h kravfed kravfemp kravfen kravfent kravfes kravi kravimp kravin kravint kravis kravit kravje kravjec'h kravjed kravjemp kravjen kravjent kravjes kravjoc'h kravjod kravjomp kravjont kravjout kravo kravomp kravont kravor kravot
-41	3741	kroateg	c'hroateg
-42	3742	krokodil	c'hrokodil krokodiled
-43	3743	groñj	c'hroñj
-44	3744	kwark	c'hwark gwark kwarkoù
-45	3745	dared	daredenn daredoù tared
-46	3746	dibenn-pred	dibennoù-pred
-47	3747	difuiñ	difu difuan difuas difue difuec'h difuemp difuen difuent difues difuet difuez difufe difufec'h difufed difufemp difufen difufent difufes difui difuimp difuin difuint difuis difuit difuje difujec'h difujed difujemp difujen difujent difujes difujoc'h difujod difujomp difujont difujout difuo difuomp difuont difuor difuot
-48	3748	distardañ	distard distardan distardas distarde distardec'h distardemp distarden distardent distardes distardet distardez distardfe distardfec'h distardfed distardfemp distardfen distardfent distardfes distardi distardimp distardin distardint distardis distardit distardiñ distardje distardjec'h distardjed distardjemp distardjen distardjent distardjes distardjoc'h distardjod distardjomp distardjont distardjout distardo distardomp distardont distardor distardot tistardañ zistardañ
-49	3749	torchenn	dorchenn torchennoù
-50	3750	drez	dresenn
-51	3751	tud-varc'h	dud-varc'h
-52	3752	enbroañ	enbro enbroan enbroas enbroe enbroec'h enbroemp enbroen enbroent enbroes enbroet enbroez enbrofe enbrofec'h enbrofed enbrofemp enbrofen enbrofent enbrofes enbroi enbroimp enbroin enbroint enbrois enbroit enbroiñ enbroje enbrojec'h enbrojed enbrojemp enbrojen enbrojent enbrojes enbrojoc'h enbrojod enbrojomp enbrojont enbrojout enbroo enbroomp enbroont enbroor enbroot
-53	3753	faoutañ	faoutan faoutas faoute faoutec'h faoutemp faouten faoutent faoutes faoutet faoutez faoutfe faoutfec'h faoutfed faoutfemp faoutfen faoutfent faoutfes faouti faoutimp faoutin faoutint faoutis faoutit faoutiñ faoutje faoutjec'h faoutjed faoutjemp faoutjen faoutjent faoutjes faoutjoc'h faoutjod faoutjomp faoutjont faoutjout faouto faoutomp faoutont faoutor faoutot
-54	3754	flemmskeudenn	flemmskeudennoù
-55	3755	fouzhañ	fouzh fouzhan fouzhas fouzhe fouzhec'h fouzhemp fouzhen fouzhent fouzhes fouzhet fouzhez fouzhfe fouzhfec'h fouzhfed fouzhfemp fouzhfen fouzhfent fouzhfes fouzhi fouzhimp fouzhin fouzhint fouzhis fouzhit fouzhiñ fouzhje fouzhjec'h fouzhjed fouzhjemp fouzhjen fouzhjent fouzhjes fouzhjoc'h fouzhjod fouzhjomp fouzhjont fouzhjout fouzho fouzhomp fouzhont fouzhor fouzhot
-56	3756	kabestr	c'habestr gabestr
-57	3757	gourmarc'had	gourmarc'hadoù
-58	3758	kravatenn	gravatenn kravatennoù
-59	3759	heuz	heuzoù
-60	3760	isofiser	isofiserien
-61	3761	kaerded	c'haerded gaerded
-62	3762	kempenner	c'hempenner gempenner
-63	3763	kribenn	c'hribennoù gribenn
-64	3764	louc'h	louc'hoù
-65	3765	meskl	mesklenn meskloù
-66	3766	nesaat	nesa nesaan nesaas nesae nesaec'h nesaemp nesaen nesaent nesaes nesaet nesaez nesafe nesafec'h nesafed nesafemp nesafen nesafent nesafes nesai nesaimp nesain nesaint nesais nesait nesaje nesajec'h nesajed nesajemp nesajen nesajent nesajes nesajoc'h nesajod nesajomp nesajont nesajout nesao nesaomp nesaont nesaor nesaot nessaad
-67	3767	pennad-stur	fennad-stur pennadoù-stur
-68	3768	pigosat	pigosal pigosan pigosas pigose pigosec'h pigosemp pigosen pigosent pigoses pigoset pigosez pigosfe pigosfec'h pigosfed pigosfemp pigosfen pigosfent pigosfes pigosi pigosimp pigosin pigosint pigosis pigosit pigosiñ pigosje pigosjec'h pigosjed pigosjemp pigosjen pigosjent pigosjes pigosjoc'h pigosjod pigosjomp pigosjont pigosjout pigoso pigosomp pigosont pigosor pigosot
-69	3769	plankenn-dre-lien	plankennoù-dre-lien
-70	3770	reked	rekedoù
-71	3771	stouvañ	stouvan stouvas stouve stouvec'h stouvemp stouven stouvent stouves stouvet stouvez stouvfe stouvfec'h stouvfed stouvfemp stouvfen stouvfent stouvfes stouvi stouvimp stouvin stouvint stouvis stouvit stouviñ stouvje stouvjec'h stouvjed stouvjemp stouvjen stouvjent stouvjes stouvjoc'h stouvjod stouvjomp stouvjont stouvjout stouvo stouvomp stouvont stouvor stouvot
-72	3772	taouarc'h	daouarc'h
-73	3773	diflukañ	diflukan diflukas difluke diflukec'h diflukemp difluken diflukent diflukes difluket diflukez diflukfe diflukfec'h diflukfed diflukfemp diflukfen diflukfent diflukfes difluki diflukimp diflukin diflukint diflukis diflukit diflukje diflukjec'h diflukjed diflukjemp diflukjen diflukjent diflukjes diflukjoc'h diflukjod diflukjomp diflukjont diflukjout difluko diflukomp diflukont diflukor diflukot tiflukas tiflukañ ziflukañ
-74	3774	dispac'hañ	dispac'han dispac'has dispac'he dispac'hec'h dispac'hemp dispac'hen dispac'hent dispac'hes dispac'het dispac'hez dispac'hfe dispac'hfec'h dispac'hfed dispac'hfemp dispac'hfen dispac'hfent dispac'hfes dispac'hi dispac'himp dispac'hin dispac'hint dispac'his dispac'hit dispac'hje dispac'hjec'h dispac'hjed dispac'hjemp dispac'hjen dispac'hjent dispac'hjes dispac'hjoc'h dispac'hjod dispac'hjomp dispac'hjont dispac'hjout dispac'ho dispac'homp dispac'hont dispac'hor dispac'hot tispac'hañ
-75	3775	toksin	toksinoù
-76	3776	toull-noz	toulloù-noz
-77	3777	treflez	dreflez dreflezenn
-78	3778	treizhad	dreizhadez dreizhidi
-79	3779	trolinenn	trolinennoù
-80	3780	vic'haner	vic'hanerien
-81	3781	gwadañ	gwadan gwadas gwade gwadec'h gwademp gwaden gwadent gwades gwadet gwadez gwadfe gwadfec'h gwadfed gwadfemp gwadfen gwadfent gwadfes gwadi gwadimp gwadin gwadint gwadis gwadit gwadiñ gwadje gwadjec'h gwadjed gwadjemp gwadjen gwadjent gwadjes gwadjoc'h gwadjod gwadjomp gwadjont gwadjout gwado gwadomp gwadont gwador gwadot kwadañ wadañ
-82	3782	gwenvidig	wenvidien wenvidig
-83	3783	gwerzhid	gwerzhidoù werzhid
-84	3784	gwrac'hell	gwrac'helloù wrac'hell
-85	3785	aveiñ	avean aveas avee aveec'h aveemp aveen aveent avees aveet aveez avefe avefec'h avefed avefemp avefen avefent avefes avei aveimp avein aveint aveis aveit aveje avejec'h avejed avejemp avejen avejent avejes avejoc'h avejod avejomp avejont avejout aveo aveomp aveont aveor aveot
-86	3786	diwadañ	diwad diwadan diwadas diwade diwadec'h diwademp diwaden diwadent diwades diwadet diwadez diwadfe diwadfec'h diwadfed diwadfemp diwadfen diwadfent diwadfes diwadi diwadimp diwadin diwadint diwadis diwadit diwadiñ diwadje diwadjec'h diwadjed diwadjemp diwadjen diwadjent diwadjes diwadjoc'h diwadjod diwadjomp diwadjont diwadjout diwado diwadomp diwadont diwador diwadot ziwadañ
-87	3787	gourniz	c'hourniz gournizez
-88	3788	tanañ	danañ danet tanet tanfe tanfec'h tanfed tanfemp tanfen tanfent tanfes tanimp tanis tanje tanjec'h tanjed tanjemp tanjen tanjent tanjes tanjoc'h tanjod tanjomp tanjont tanjout tanoc'h tanor tanot zanañ zanjed
-89	3789	kelennerezh	c'helennerezh gelennerezh
-90	3790	diberc'hennañ	diberc'henn diberc'hennan diberc'hennas diberc'henne diberc'hennec'h diberc'hennemp diberc'hennen diberc'hennent diberc'hennes diberc'hennet diberc'hennez diberc'hennfe diberc'hennfec'h diberc'hennfed diberc'hennfemp diberc'hennfen diberc'hennfent diberc'hennfes diberc'henni diberc'hennimp diberc'hennin diberc'hennint diberc'hennis diberc'hennit diberc'henniñ diberc'hennje diberc'hennjec'h diberc'hennjed diberc'hennjemp diberc'hennjen diberc'hennjent diberc'hennjes diberc'hennjoc'h diberc'hennjod diberc'hennjomp diberc'hennjont diberc'hennjout diberc'henno diberc'hennomp diberc'hennont diberc'hennor diberc'hennot
-91	3791	ave	
-92	3792	faoued	
-93	3793	marr	
-94	3794	paskal	
-95	3795	pichon	
-96	3796	a-c'haol	
-97	3797	a-c'haoliad	
-98	3798	a-dre	
-99	3799	abegiñ	abegal abegan abegas abege abegec'h abegemp abegen abegent abeges abeget abegez abegfe abegfec'h abegfed abegfemp abegfen abegfent abegfes abegi abegimp abegin abegint abegis abegit abegje abegjec'h abegjed abegjemp abegjen abegjent abegjes abegjoc'h abegjod abegjomp abegjont abegjout abego abegomp abegont abegor abegot abegout
-100	3800	adjudant	
+1	3701	morreder	morrederioù
+2	3702	peoc'hus	beoc'hus
+3	3703	strouezheg	strouezhegoù
+4	3704	adkempenn	adkempennoù
+5	3705	riñsañ	riñset
+6	3706	skorañ	skoret
+7	3707	glac'hariñ	c'hlac'haret glac'haran glac'haras glac'hare glac'harec'h glac'haremp glac'haren glac'harent glac'hares glac'haret glac'harez glac'harfe glac'harfec'h glac'harfed glac'harfemp glac'harfen glac'harfent glac'harfes glac'hari glac'harimp glac'harin glac'harint glac'haris glac'harit glac'harje glac'harjec'h glac'harjed glac'harjemp glac'harjen glac'harjent glac'harjes glac'harjoc'h glac'harjod glac'harjomp glac'harjont glac'harjout glac'haro glac'haromp glac'haront glac'haror glac'harot
+8	3708	dizarmañ	dizarm dizarman dizarmas dizarme dizarmec'h dizarmemp dizarmen dizarment dizarmes dizarmet dizarmez dizarmfe dizarmfec'h dizarmfed dizarmfemp dizarmfen dizarmfent dizarmfes dizarmi dizarmimp dizarmin dizarmint dizarmis dizarmit dizarmiñ dizarmje dizarmjec'h dizarmjed dizarmjemp dizarmjen dizarmjent dizarmjes dizarmjoc'h dizarmjod dizarmjomp dizarmjont dizarmjout dizarmo dizarmomp dizarmont dizarmor dizarmot tizarmañ zizarmañ
+9	3709	goustad	c'houstad goustatoc'h
+10	3710	hesk	heskenn heskennoù
+11	3711	kelc'hiek	gelc'hiek
+12	3712	mouezhiek	mouezhias mouezhiet vouezhiet
+13	3713	arc'h	irc'hier
+14	3714	dilemel	dilam dilaman dilamas dilame dilamec'h dilamemp dilamen dilament dilames dilamet dilamez dilamfe dilamfec'h dilamfed dilamfemp dilamfen dilamfent dilamfes dilami dilamimp dilamin dilamint dilamis dilamit dilamje dilamjec'h dilamjed dilamjemp dilamjen dilamjent dilamjes dilamjoc'h dilamjod dilamjomp dilamjont dilamjout dilamo dilamomp dilamont dilamor dilamot tilemel zilemel
+15	3715	heklev	heklevioù
+16	3716	kroaziañ	groaziañ groaziet kroaziet
+17	3717	levrlennadur	levrlennadurioù
+18	3718	stagell	stagelloù
+19	3719	ber	ver
+20	3720	enorus	enorusañ enorusoc'h
+21	3721	diarbenniñ	diarbennet ziarbennas ziarbenniñ
+22	3722	diouennañ	diouennet ziouennañ
+23	3723	gloar	c'hloar
+24	3724	lezvarnel	lezvarn
+25	3725	savadenn	savadennoù
+26	3726	sonedenn	sonedennoù
+27	3727	lisead	liseadez liseidi
+28	3728	armañ	arman armas armec'h armemp armen arment armer armes armez armfe armfec'h armfed armfemp armfen armfent armfes armi armimp armin armint armis armit armiñ armje armjec'h armjed armjemp armjen armjent armjes armjoc'h armjod armjomp armjont armjout armo armomp armont armor armot
+29	3729	koulm	goulm
+30	3730	bulgar	bulgared vulgar vulgared
+31	3731	brezhonekaat	brezhoneka brezhonekaan brezhonekaas brezhonekae brezhonekaec'h brezhonekaemp brezhonekaen brezhonekaent brezhonekaes brezhonekaet brezhonekaez brezhonekafe brezhonekafec'h brezhonekafed brezhonekafemp brezhonekafen brezhonekafent brezhonekafes brezhonekai brezhonekaimp brezhonekain brezhonekaint brezhonekais brezhonekait brezhonekaje brezhonekajec'h brezhonekajed brezhonekajemp brezhonekajen brezhonekajent brezhonekajes brezhonekajoc'h brezhonekajod brezhonekajomp brezhonekajont brezhonekajout brezhonekao brezhonekaomp brezhonekaont brezhonekaor brezhonekaot prezhonekaat vrezhonekaat vrezhonekaet
+32	3732	diwaskadenn	diwaskadennoù ziwaskadenn
+33	3733	arat	arad aret
+34	3734	kloastr	c'hloastr kloastroù
+35	3735	emlazhañ	emlazhas emlazhet
+36	3736	irienniñ	iriennas iriennet
+37	3737	poan-benn	boan-benn
+38	3738	sezizañ	sezizet
+39	3739	falc'hun	falc'huned
+40	3740	kengor	c'hengor kengorioù
+41	3741	karc'har	c'harc'har karc'harioù
+42	3742	diogel	diogeloc'h tiogel ziogel
+43	3743	ejen	ejened oc'hen
+44	3744	temz	demz temzoù zemz
+45	3745	dimez	timez zimez
+46	3746	bazhata	bazhataan bazhataas bazhatae bazhataec'h bazhataemp bazhataen bazhataent bazhataes bazhataet bazhataez bazhatafe bazhatafec'h bazhatafed bazhatafemp bazhatafen bazhatafent bazhatafes bazhatai bazhataimp bazhatain bazhataint bazhatais bazhatait bazhataje bazhatajec'h bazhatajed bazhatajemp bazhatajen bazhatajent bazhatajes bazhatajoc'h bazhatajod bazhatajomp bazhatajont bazhatajout bazhatao bazhataomp bazhataont bazhataor bazhataot pazhata vazhata vazhataent
+47	3747	dezrevelliñ	dezrevellas dezrevellet tezrevelliñ zezrevellas
+48	3748	gwengel	gwengelioù gwengeloù
+49	3749	kraoñ	c'hraou c'hraoñ c'hrevier graou krevier
+50	3750	kiriegezh	giriegezh giriegezhioù kiriegezhioù
+51	3751	kunujenn	gunujenn gunujennoù kunujennoù
+52	3752	kannadour	c'hannadour gannadour gannadourien kannadourien
+53	3753	deredek	dered deredan deredas derede deredec'h deredemp dereden deredent deredes deredet deredez deredfe deredfec'h deredfed deredfemp deredfen deredfent deredfes deredi deredimp deredin deredint deredis deredit derediñ deredje deredjec'h deredjed deredjemp deredjen deredjent deredjes deredjoc'h deredjod deredjomp deredjont deredjout deredo deredomp deredont deredor deredot deredout tered terede teredek zeredas zerede zeredek
+54	3754	gwiader	gwiaderien wiaderien
+55	3755	kouezhadenn	gouezhadenn kouezhadennoù
+56	3756	bili	bilienn vili
+57	3757	dizouarañ	dizouar dizouaret tizouarjont
+58	3758	pistriañ	bistriañ bistriet fistriañ pistri pistrian pistrias pistrie pistriec'h pistriemp pistrien pistrient pistries pistriet pistriez pistrife pistrifec'h pistrifed pistrifemp pistrifen pistrifent pistrifes pistrii pistriimp pistriin pistriint pistriis pistriit pistriiñ pistrije pistrijec'h pistrijed pistrijemp pistrijen pistrijent pistrijes pistrijoc'h pistrijod pistrijomp pistrijont pistrijout pistrio pistriomp pistriont pistrior pistriot
+59	3759	brient	brientoù prient vrient
+60	3760	aketus	
+61	3761	arver	
+62	3762	askornek	
+63	3763	añ	
+64	3764	bailh	
+65	3765	begek	
+66	3766	bihanniver	
+67	3767	breinadur	
+68	3768	dalc'hidigezh	
+69	3769	diniver	
+70	3770	diplomat	
+71	3771	divoud	
+72	3772	dornskrivet	
+73	3773	doñv	
+74	3774	ermin	erminoù
+75	3775	fard	
+76	3776	folklor	
+77	3777	heñvelreizh	
+78	3778	hiron	
+79	3779	japanek	
+80	3780	manaveg	
+81	3781	politiker	
+82	3782	brug	
+83	3783	didruez	
+84	3784	harzerezh	
+85	3785	heskinerezh	
+86	3786	heug	
+87	3787	karantezus	
+88	3788	levriad	
+89	3789	limestra	
+90	3790	lufr	
+91	3791	nijer	
+92	3792	noazus	
+93	3793	serr-noz	
+94	3794	amann	
+95	3795	hollbouezus	
+96	3796	yun	
+97	3797	lorc'hus	
+98	3798	lodek	
+99	3799	eilvet	
+100	3800	divi	

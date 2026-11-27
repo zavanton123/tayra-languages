@@ -66,7 +66,7 @@
 66	666	mezheven	vezheven
 67	667	beg	begoù veg vegoù
 68	668	blaz	blas blazioù vlaz vlazioù
-69	669	barn	barnan barnas barnañ barne barnec'h barned barnemp barnen barnent barnes barnet barnez barnfe barnfec'h barnfed barnfemp barnfen barnfent barnfes barni barnimp barnin barnint barnioù barnis barnit barniñ barnje barnjec'h barnjed barnjemp barnjen barnjent barnjes barnjoc'h barnjod barnjomp barnjont barnjout barno barnomp barnont barnor barnot barnoù parn parnas varn varnas varnañ varnont
+69	669	barn	barnan barnas barnañ barne barnec'h barned barnemp barnen barnent barnes barnet barnez barnfe barnfec'h barnfed barnfemp barnfen barnfent barnfes barni barnimp barnin barnint barnioù barnis barnit barniñ barnje barnjec'h barnjed barnjemp barnjen barnjent barnjes barnjoc'h barnjod barnjomp barnjont barnjout barno barnomp barnont barnor barnot barnoù farnas parn parnas varn varnas varnañ varnont
 70	670	deviñ	dev devan devas deve devec'h deved devemp deven devent deves devet devez devfe devfec'h devfed devfemp devfen devfent devfes devi devimp devin devint devis devit devje devjec'h devjed devjemp devjen devjent devjes devjoc'h devjod devjomp devjont devjout devo devoc'h devomp devont devor devot tevas teviñ zevas zeve zevet zeviñ
 71	671	biz	bis bizied pizied vizied
 72	672	evañ	ev evan evas eve evec'h eved evemp even event ever everien eves evet evez evfe evfec'h evfed evfemp evfen evfent evfes evi evimp evin evint evis evje evjec'h evjed evjemp evjen evjent evjes evjoc'h evjod evjomp evjont evjout evo evomp evont evor evot

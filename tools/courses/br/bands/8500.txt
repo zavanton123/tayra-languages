@@ -1,0 +1,100 @@
+1	8401	pevarzekvet	
+2	8402	pilhaouer	
+3	8403	pluñvek	
+4	8404	poder	
+5	8405	pommell	
+6	8406	pres	
+7	8407	rag	
+8	8408	rannvedel	
+9	8409	reizhpoellek	
+10	8410	renavi	
+11	8411	respontiñ	
+12	8412	roget	
+13	8413	rozeg	
+14	8414	salvus	
+15	8415	samourai	
+16	8416	sarpant	
+17	8417	savenn-douar	savennoù-douar
+18	8418	savus	
+19	8419	sekretourva	
+20	8420	skarzhidigezh	
+21	8421	skeudennaoueg	
+22	8422	skoaziañ	skoazi skoazian skoazias skoazie skoaziec'h skoaziemp skoazien skoazient skoazies skoaziet skoaziez skoazife skoazifec'h skoazifed skoazifemp skoazifen skoazifent skoazifes skoazii skoaziimp skoaziin skoaziint skoaziis skoaziit skoazije skoazijec'h skoazijed skoazijemp skoazijen skoazijent skoazijes skoazijoc'h skoazijod skoazijomp skoazijont skoazijout skoazio skoaziomp skoaziont skoazior skoaziot
+23	8423	skoul	
+24	8424	skriverezañ	skriverezan skriverezas skrivereze skriverezec'h skriverezemp skriverezen skriverezent skriverezes skriverezet skriverezez skriverezfe skriverezfec'h skriverezfed skriverezfemp skriverezfen skriverezfent skriverezfes skriverezi skriverezimp skriverezin skriverezint skriverezis skriverezit skriverezje skriverezjec'h skriverezjed skriverezjemp skriverezjen skriverezjent skriverezjes skriverezjoc'h skriverezjod skriverezjomp skriverezjont skriverezjout skriverezo skriverezomp skriverezont skriverezor skriverezot
+25	8425	solenn	
+26	8426	soliet	
+27	8427	soufr	
+28	8428	spilhennig	
+29	8429	spin	
+30	8430	spoum	
+31	8431	sulfat	sulfatoù
+32	8432	susitour	
+33	8433	tann	
+34	8434	tarod	
+35	8435	tatouadur	
+36	8436	tavedek	
+37	8437	touellerezh	
+38	8438	treuzwisk	treuzwiskoù
+39	8439	trok	
+40	8440	trucher	
+41	8441	turkvaen	
+42	8442	unplas	
+43	8443	untuek	
+44	8444	marc'hekadenn	varc'hekadenn
+45	8445	vijil	
+46	8446	gwarañ	ware
+47	8447	yuzevek	
+48	8448	adpiaouañ	adpiaouo
+49	8449	avon	avonoù
+50	8450	pabel	babel
+51	8451	bugelez	vugelez
+52	8452	chidhouarn	chidhouarnoù
+53	8453	damer	tamer
+54	8454	damvarv	zamvarv
+55	8455	diawel	ziawel
+56	8456	dien	zien
+57	8457	toun	doun
+58	8458	troniñ	drone tronan tronas tronañ trone tronec'h troned tronemp tronen tronent troner trones tronet tronez tronfe tronfec'h tronfed tronfemp tronfen tronfent tronfes troni tronimp tronin tronint tronis tronit tronje tronjec'h tronjed tronjemp tronjen tronjent tronjes tronjoc'h tronjod tronjomp tronjont tronjout trono tronomp tronont tronor tronot
+59	8459	fatañ	fat fatan fatas fate fatec'h fatemp faten fatent fates fatet fatez fatfe fatfec'h fatfed fatfemp fatfen fatfent fatfes fati fatimp fatin fatint fatis fatit fatiñ fatje fatjec'h fatjed fatjemp fatjen fatjent fatjes fatjoc'h fatjod fatjomp fatjont fatjout fato fatomp fatont fator fatot
+60	8460	kaerder	gaerder kaerderioù
+61	8461	galloudekadur	galloudekadurioù
+62	8462	gaouiad	gaouiaded
+63	8463	kenunvaniezh	genunvaniezh
+64	8464	kog	c'hog gog
+65	8465	goubenner	goubennerioù
+66	8466	gwezeg	c'hwezeg
+67	8467	gwignal	wignal
+68	8468	gwinier	gwinierien
+69	8469	kador-doull	gador-doull
+70	8470	kanolier	kanolierien
+71	8471	kaoteriad	gaoteriad
+72	8472	kaouad	kaouadoù
+73	8473	karadek	karadeg
+74	8474	kefeleg	c'hefeleg
+75	8475	kelorn	c'helorn kelornioù
+76	8476	kelvez	kelvezenn
+77	8477	kenseurtiezh	genseurtiezh
+78	8478	korzailhenn	c'horzailhenn
+79	8479	kraf	krafoù
+80	8480	kroazwareg	groazwareg
+81	8481	lepton	leptonoù
+82	8482	mekanikerez	mekanikour vekanikour
+83	8483	melchon	velchonenn
+84	8484	meurzanevell	meurzanevelloù
+85	8485	mezhek	vezhek
+86	8486	momed	vomed
+87	8487	pariañ	bariañ fariañ parian parias parie pariec'h pariemp parien parient paries pariet pariez parife parifec'h parifed parifemp parifen parifent parifes parii pariimp pariin pariint pariis pariit pariiñ parije parijec'h parijed parijemp parijen parijent parijes parijoc'h parijod parijomp parijont parijout pario pariomp pariont parior pariot
+88	8488	poblañsouriezh	boblañsouriezh
+89	8489	poull-neuial	poulloù-neuial
+90	8490	bunt	funt punt
+91	8491	ribod	ribodoù ribot
+92	8492	skouarnek	skouarneg
+93	8493	strollerezh	strollerezhioù
+94	8494	taol-skrivañ	daol-skrivañ taolioù-skrivañ
+95	8495	duder	tuder
+96	8496	breskenn	vreskenn
+97	8497	gwez-avaloù	gwezenn-avaloù wezenn-avaloù
+98	8498	a-ziwar-lerc'h	
+99	8499	adc'hoari	adc'hoarian adc'hoarias adc'hoarie adc'hoariec'h adc'hoariemp adc'hoarien adc'hoarient adc'hoaries adc'hoariet adc'hoariez adc'hoarife adc'hoarifec'h adc'hoarifed adc'hoarifemp adc'hoarifen adc'hoarifent adc'hoarifes adc'hoarii adc'hoariimp adc'hoariin adc'hoariint adc'hoariis adc'hoariit adc'hoarije adc'hoarijec'h adc'hoarijed adc'hoarijemp adc'hoarijen adc'hoarijent adc'hoarijes adc'hoarijoc'h adc'hoarijod adc'hoarijomp adc'hoarijont adc'hoarijout adc'hoario adc'hoariomp adc'hoariont adc'hoarior adc'hoariot
+100	8500	addispleg	addisplegoù

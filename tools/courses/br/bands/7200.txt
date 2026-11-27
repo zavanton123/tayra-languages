@@ -1,0 +1,100 @@
+1	7101	tarzhus	
+2	7102	tibeteg	
+3	7103	troadeg	
+4	7104	unkorneg	
+5	7105	voulouz	
+6	7106	algoritm	algoritmoù
+7	7107	bizon	vizon
+8	7108	c'hwezekvet	
+9	7109	devri	zevri
+10	7110	diogeliñ	tiogeliñ
+11	7111	traper	draper
+12	7112	poul	foul
+13	7113	kaleted	galeted
+14	7114	kouzoumenn	gouzoumenn
+15	7115	havr	havrioù
+16	7116	krizañ	krize
+17	7117	peanv	beanv
+18	7118	terzhienn-ruz	derzhienn-ruz
+19	7119	doan	toan
+20	7120	dube	tube
+21	7121	minic'hi	vinic'hi
+22	7122	a-uc'h	
+23	7123	adlamm	adlammoù
+24	7124	afroamerikan	afroamerikaned
+25	7125	aksiom	aksiomoù
+26	7126	amdroadur	amdroadurioù
+27	7127	amdroc'hañ	
+28	7128	amprouadenn	amprouadennoù
+29	7129	annev	annevioù
+30	7130	anneziañ	anneziet
+31	7131	annezlec'h	annezlec'hioù
+32	7132	argasadeg	argasadegoù
+33	7133	arval	arvaloù
+34	7134	aveliñ	avelan avelas avelat avelañ avele avelec'h avelemp avelen avelent aveles avelet avelez avelfe avelfec'h avelfed avelfemp avelfen avelfent avelfes aveli avelimp avelin avelint avelis avelit avelje aveljec'h aveljed aveljemp aveljen aveljent aveljes aveljoc'h aveljod aveljomp aveljont aveljout avelo avelomp avelont avelor avelot
+35	7135	avoultr	avoultroù
+36	7136	pakadenn	bakadenn pakadennoù
+37	7137	bangounell	bangounelloù
+38	7138	barr-avel	barroù-avel
+39	7139	barr-livañ	barroù-livañ
+40	7140	barver	varver
+41	7141	pec'hiñ	bec'hiñ pec'han pec'has pec'he pec'hec'h pec'hemp pec'hen pec'hent pec'hes pec'het pec'hez pec'hfe pec'hfec'h pec'hfed pec'hfemp pec'hfen pec'hfent pec'hfes pec'hi pec'himp pec'hin pec'hint pec'his pec'hit pec'hje pec'hjec'h pec'hjed pec'hjemp pec'hjen pec'hjent pec'hjes pec'hjoc'h pec'hjod pec'hjomp pec'hjont pec'hjout pec'ho pec'homp pec'hont pec'hor pec'hot
+42	7142	beradenn	beradennoù veradenn
+43	7143	perukenn	berukenn perukennoù
+44	7144	peurwirionded	beurwirionded
+45	7145	pignerez	bignerez fignerez
+46	7146	bismut	vismut
+47	7147	bleunius	vleunius
+48	7148	brasadur	vrasadur
+49	7149	brazezded	vrazezded
+50	7150	bredospital	bredospitalioù
+51	7151	brenk	brenkoù
+52	7152	brogar	vrogar
+53	7153	brom	vrom
+54	7154	bruzun	vruzun
+55	7155	burutell	vurutell
+56	7156	galvadenn	c'halvadenn galvadennoù
+57	7157	kangourou	c'hangouroued
+58	7158	karamel	c'haramel
+59	7159	kardeur	c'hardeur
+60	7160	kenlabourerezh	c'henlabourerezh
+61	7161	ketal	c'hetal getal
+62	7162	glazenn	c'hlazenn
+63	7163	klor	c'hlor
+64	7164	koaven	c'hoaven
+65	7165	kondaonad	c'hondaonad
+66	7166	goulakadenn	c'houlakadenn goulakadennoù
+67	7167	kristenadur	c'hristenadur gristenadur
+68	7168	kustod	c'hustod gustod
+69	7169	c'hwezhadur	c'hwezhadurioù
+70	7170	chakod	chakodoù
+71	7171	chevr	chevrenn
+72	7172	damdresadenn	damdresadennoù
+73	7173	dangorel	zangorel
+74	7174	dañjerusted	zañjerusted
+75	7175	tec'had	dec'hidi
+76	7176	devosion	zevosion
+77	7177	dezougerezh	dezougerezhioù
+78	7178	dezverkañ	dezverket zezverkañ
+79	7179	dibarder	dibarderioù zibarder
+80	7180	dibezhiañ	dibezhiet zibezhiañ
+81	7181	diellour	ziellour
+82	7182	digoadenn	digoadennoù
+83	7183	dilagadiñ	dilagadet
+84	7184	dileizhenn	dileizhennoù
+85	7185	tiriegezh	diriegezh tiriegezhioù
+86	7186	diroueañ	diroue diroueet
+87	7187	disakrañ	disakret
+88	7188	disleberiñ	disleberet zisleberiñ
+89	7189	disliv	dislivet
+90	7190	dismegañsiñ	dismegañset zismegañsiñ
+91	7191	distrollañ	distrollet
+92	7192	distumm	zistumm
+93	7193	disvlev	zisvlev
+94	7194	divarregezh	zivarregezh
+95	7195	divevenn	zivevenn
+96	7196	divinadell	divinadelloù
+97	7197	dizanaoudek	zizanaoudek
+98	7198	dizivroañ	dizivroet
+99	7199	touadenn	douadenn
+100	7200	drailh	zrailh

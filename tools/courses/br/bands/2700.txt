@@ -1,100 +1,100 @@
-1	2601	feilhañs	
-2	2602	galianeg	
-3	2603	leandi	
-4	2604	poloneg	
-5	2605	ugentvet	
-6	2606	penn-kil-ha-troad	
-7	2607	fav	favenn
-8	2608	foz-difenn	fozioù-difenn
-9	2609	poloniat	boloniat
-10	2610	rod-avel	rodoù-avel
-11	2611	daeroù	zaeroù
-12	2612	digalonekaat	digaloneka digalonekaan digalonekaas digalonekae digalonekaec'h digalonekaemp digalonekaen digalonekaent digalonekaes digalonekaet digalonekaez digalonekafe digalonekafec'h digalonekafed digalonekafemp digalonekafen digalonekafent digalonekafes digalonekai digalonekaimp digalonekain digalonekaint digalonekais digalonekait digalonekaje digalonekajec'h digalonekajed digalonekajemp digalonekajen digalonekajent digalonekajes digalonekajoc'h digalonekajod digalonekajomp digalonekajont digalonekajout digalonekao digalonekaomp digalonekaont digalonekaor digalonekaot tigalonekaat zigalonekaat
-13	2613	kerneveureg	c'herneveureg
-14	2614	lamp	lampoù
-15	2615	baou	paou
-16	2616	kala	gala
-17	2617	savlec'h	savlec'hioù
-18	2618	eurier	eurieroù
-19	2619	kasketenn	gasketenn kasketennoù
-20	2620	kaezh	gaezh
-21	2621	marchosi	marchosioù
-22	2622	saoznegerez	saozneger saoznegerien
-23	2623	soavon	soavonoù
-24	2624	bonn	bonnoù
-25	2625	ankounac'haat	ankounac'ha ankounac'haan ankounac'haas ankounac'hae ankounac'haec'h ankounac'haemp ankounac'haen ankounac'haent ankounac'haes ankounac'haet ankounac'haez ankounac'hafe ankounac'hafec'h ankounac'hafed ankounac'hafemp ankounac'hafen ankounac'hafent ankounac'hafes ankounac'hai ankounac'haimp ankounac'hain ankounac'haint ankounac'hais ankounac'hait ankounac'haje ankounac'hajec'h ankounac'hajed ankounac'hajemp ankounac'hajen ankounac'hajent ankounac'hajes ankounac'hajoc'h ankounac'hajod ankounac'hajomp ankounac'hajont ankounac'hajout ankounac'hao ankounac'haomp ankounac'haont ankounac'haor ankounac'haot
-26	2626	flemmgan	flemmganoù
-27	2627	roudouz	roudour
-28	2628	gourhent	gourhentoù
-29	2629	kunujenniñ	c'hunujenniñ gunujenniñ kunujennan kunujennas kunujenne kunujennec'h kunujennemp kunujennen kunujennent kunujennes kunujennet kunujennez kunujennfe kunujennfec'h kunujennfed kunujennfemp kunujennfen kunujennfent kunujennfes kunujenni kunujennimp kunujennin kunujennint kunujennis kunujennit kunujennje kunujennjec'h kunujennjed kunujennjemp kunujennjen kunujennjent kunujennjes kunujennjoc'h kunujennjod kunujennjomp kunujennjont kunujennjout kunujenno kunujennomp kunujennont kunujennor kunujennot
-30	2630	kurd	gurd
-31	2631	kalonegezh	c'halonegezh galonegezh
-32	2632	disammañ	disamm disamman disammas disamme disammec'h disammemp disammen disamment disammes disammet disammez disammfe disammfec'h disammfed disammfemp disammfen disammfent disammfes disammi disammimp disammin disammint disammis disammit disammiñ disammje disammjec'h disammjed disammjemp disammjen disammjent disammjes disammjoc'h disammjod disammjomp disammjont disammjout disammo disammomp disammont disammor disammot tisammañ zisammañ
-33	2633	kerc'henn	c'herc'henn gerc'henn
-34	2634	sarmon	sarmonioù sarmonoù
-35	2635	gwinieg	gwiniegi winieg
-36	2636	tata	data dataoù
-37	2637	flatrañ	flatr flatran flatras flatre flatrec'h flatremp flatren flatrent flatrer flatrerien flatres flatret flatrez flatrfe flatrfec'h flatrfed flatrfemp flatrfen flatrfent flatrfes flatri flatrimp flatrin flatrint flatris flatrit flatrje flatrjec'h flatrjed flatrjemp flatrjen flatrjent flatrjes flatrjoc'h flatrjod flatrjomp flatrjont flatrjout flatro flatromp flatront flatror flatrot
-38	2638	distabilded	zistabilded
-39	2639	dornad	dornadoù
-40	2640	luc'hskeudenner	
-41	2641	poazh	boazh
-42	2642	pont-gwint	pontoù-gwint
-43	2643	torzhell	dorzhell torzhelloù
-44	2644	aostralian	aostralianed
-45	2645	gerdarzh	gerdarzhioù
-46	2646	ac'hano	
-47	2647	karitez	garitez
-48	2648	faout	faoutoù
-49	2649	grad	c'hrad
-50	2650	levn	levnañ levnet
-51	2651	petore	betore
-52	2652	tach	tachoù zach
-53	2653	troadikell	troadikelloù zroadikelloù
-54	2654	died	diedoù
-55	2655	labezañ	labez labezan labezas labeze labezec'h labezemp labezen labezent labezes labezet labezez labezfe labezfec'h labezfed labezfemp labezfen labezfent labezfes labezi labezimp labezin labezint labezis labezit labeziñ labezje labezjec'h labezjed labezjemp labezjen labezjent labezjes labezjoc'h labezjod labezjomp labezjont labezjout labezo labezomp labezont labezor labezot
-56	2656	dour-beuz	dourioù-beuz
-57	2657	ru	ruioù
-58	2658	dlead	dleadoù zlead
-59	2659	feskenn	feskennoù
-60	2660	gwiadiñ	gwiadan gwiadas gwiade gwiadec'h gwiademp gwiaden gwiadent gwiades gwiadet gwiadez gwiadfe gwiadfec'h gwiadfed gwiadfemp gwiadfen gwiadfent gwiadfes gwiadi gwiadimp gwiadin gwiadint gwiadis gwiadit gwiadje gwiadjec'h gwiadjed gwiadjemp gwiadjen gwiadjent gwiadjes gwiadjoc'h gwiadjod gwiadjomp gwiadjont gwiadjout gwiado gwiadomp gwiadont gwiador gwiadot wiadiñ
-61	2661	meurdezus	meurdezusañ veurdezus veurdezusañ
-62	2662	enk	enkas enkañ enket
-63	2663	roeñv	roeñvoù
-64	2664	mentoniezh	mentoniezhoù ventoniezh
-65	2665	rabin	rabined
-66	2666	glebiañ	c'hlebias c'hlebiañ glebi glebian glebias glebie glebiec'h glebiemp glebien glebient glebies glebiet glebiez glebife glebifec'h glebifed glebifemp glebifen glebifent glebifes glebii glebiimp glebiin glebiint glebiis glebiit glebije glebijec'h glebijed glebijemp glebijen glebijent glebijes glebijoc'h glebijod glebijomp glebijont glebijout glebio glebiomp glebiont glebior glebiot
-67	2667	meleganez	meleganezed veleganez
-68	2668	peulvan	beulvanoù peulvanioù peulvanoù
-69	2669	kolo	c'holoenn goloenn goloennoù koloennoù
-70	2670	krignat	grignat krignal krignan krignas krigne krignec'h krignemp krignen krignent krignes krignet krignez krignfe krignfec'h krignfed krignfemp krignfen krignfent krignfes krigni krignimp krignin krignint krignis krignit krigniñ krignje krignjec'h krignjed krignjemp krignjen krignjent krignjes krignjoc'h krignjod krignjomp krignjont krignjout krigno krignomp krignont krignor krignot
-71	2671	kevatalenn	c'hevatalennoù gevatalenn gevatalennoù kevatalennoù
-72	2672	bleuniañ	bleuni bleunian bleunias bleunie bleuniec'h bleuniemp bleunien bleunient bleunies bleuniet bleuniez bleunife bleunifec'h bleunifed bleunifemp bleunifen bleunifent bleunifes bleunii bleuniimp bleuniin bleuniint bleuniis bleuniit bleunije bleunijec'h bleunijed bleunijemp bleunijen bleunijent bleunijes bleunijoc'h bleunijod bleunijomp bleunijont bleunijout bleunio bleuniomp bleuniont bleunior bleuniot vleunias vleuniañ
-73	2673	kest	c'hest gest kestoù
-74	2674	metalek	vetalek
-75	2675	oberatadenn	oberatadennoù
-76	2676	skouadrenn	skouadrennoù
-77	2677	steredeg	steredegoù
-78	2678	stomog	stomogoù
-79	2679	azas	azasoc'h
-80	2680	chadennañ	chadennan chadennas chadenne chadennec'h chadennemp chadennen chadennent chadennes chadennet chadennez chadennfe chadennfec'h chadennfed chadennfemp chadennfen chadennfent chadennfes chadenni chadennimp chadennin chadennint chadennis chadennit chadenniñ chadennje chadennjec'h chadennjed chadennjemp chadennjen chadennjent chadennjes chadennjoc'h chadennjod chadennjomp chadennjont chadennjout chadenno chadennomp chadennont chadennor chadennot
-81	2681	klodus	c'hlodusañ
-82	2682	peur	beur
-83	2683	zero	zeroioù
-84	2684	kimiadiñ	gimiadiñ kimiad kimiadan kimiadas kimiadañ kimiade kimiadec'h kimiademp kimiaden kimiadent kimiades kimiadet kimiadez kimiadfe kimiadfec'h kimiadfed kimiadfemp kimiadfen kimiadfent kimiadfes kimiadi kimiadimp kimiadin kimiadint kimiadis kimiadit kimiadje kimiadjec'h kimiadjed kimiadjemp kimiadjen kimiadjent kimiadjes kimiadjoc'h kimiadjod kimiadjomp kimiadjont kimiadjout kimiado kimiadomp kimiadont kimiador kimiadot
-85	2685	arnev	arnevioù arneñv
-86	2686	flac'h	flac'hioù
-87	2687	choual	chou chouan chouaned chouas choue chouec'h chouemp chouen chouent chouer choues chouet chouez choufe choufec'h choufed choufemp choufen choufent choufes choui chouimp chouin chouint chouis chouit chouje choujec'h choujed choujemp choujen choujent choujes choujoc'h choujod choujomp choujont choujout chouo chouomp chouont chouor chouot
-88	2688	beleg-meur	veleg-meur veleien-veur
-89	2689	pin	binenn pinenn
-90	2690	aerlestr	aerlistri
-91	2691	broud	broudoù vroud
-92	2692	taol-vaen	daol-vaen daolioù-maen taolioù-maen
-93	2693	displijadur	zisplijadur
-94	2694	kaoued	c'haouedoù gaoued kaouedoù
-95	2695	karnel	c'harnel garnel karnelioù
-96	2696	kloued	c'hlouedoù gloued klouedoù
-97	2697	hetañ	hetan hetas hete hetec'h hetemp heten hetent hetes hetet hetez hetfe hetfec'h hetfed hetfemp hetfen hetfent hetfes heti hetimp hetin hetint hetis hetit hetiñ hetje hetjec'h hetjed hetjemp hetjen hetjent hetjes hetjoc'h hetjod hetjomp hetjont hetjout heto hetomp hetont hetor hetot
-98	2698	kaoc'h	c'haoc'h gaoc'h
-99	2699	chekenn	chekennoù
-100	2700	trovan	trovanoù
+1	2601	harlu	
+2	2602	just	
+3	2603	soviedel	
+4	2604	erlec'hiañ	erlec'hias erlec'hiet
+5	2605	aktourez	
+6	2606	etrevroadel	
+7	2607	dafar	dafarioù dafaroù zafar
+8	2608	dazont	da-zont zazont
+9	2609	renad	renadoù
+10	2610	ledenez	ledenezioù
+11	2611	troienn	droienn troiennoù
+12	2612	sañset	
+13	2613	sed	
+14	2614	burev	burevioù vurev vurevioù
+15	2615	distrig	distrigoù
+16	2616	sened	
+17	2617	kevredad	c'hevredad gevredad kevredadoù
+18	2618	arvesterien	
+19	2619	da-geñver	
+20	2620	indian	
+21	2621	a-hend-all	
+22	2622	damheñvel	
+23	2623	kenwerzhel	c'henwerzhel genwerzhel
+24	2624	bruderezh	bruderezhioù vruderezh
+25	2625	stil	stiloù
+26	2626	brezeliñ	brezelet vrezelas vrezele vrezelfe vrezeliñ vrezeljont
+27	2627	sokialour	sokialourien
+28	2628	nukleel	
+29	2629	youl	youloù
+30	2630	aotrouniezh	aotrouniezhoù
+31	2631	remziad	remziadoù
+32	2632	internet	
+33	2633	emdroadur	emdroadurioù
+34	2634	greanterezh	c'hreanterezh greanterezhioù
+35	2635	egor	egorioù
+36	2636	arondisamant	arondisamantoù
+37	2637	kevatal	c'hevatal gevatal
+38	2638	stourmer	stourmerien
+39	2639	donedigezh	donedigezhioù zonedigezh
+40	2640	oto	otoioù
+41	2641	bevenn	bevennoù vevenn
+42	2642	keñveriañ	c'heñveriañ geñveriañ keñveriet
+43	2643	kimiek	gimiek
+44	2644	skrapañ	skrapas skrape skrapet
+45	2645	skeudenniñ	skeudennas skeudenne skeudennet skeudennont
+46	2646	alamanek	
+47	2647	unvez	unvezioù
+48	2648	kelennadurezh	c'helennadurezh gelennadurezh
+49	2649	teknologiezh	deknologiezh teknologiezhioù teknologiezhoù zeknologiezh
+50	2650	peurgetket	
+51	2651	prizoniañ	brizoniet prizoniet
+52	2652	gregach	c'hregach
+53	2653	diaz	diazoù ziaz
+54	2654	kouent	c'houent gouent kouentoù
+55	2655	programm	brogramm brogrammoù frogramm programmoù
+56	2656	kendrec'hiñ	c'hendrec'hiñ gendrec'has gendrec'het gendrec'hiñ kendrec'het kendrec'hit
+57	2657	filmañ	filmet
+58	2658	kuzulier	c'huzulier guzulier
+59	2659	tem	demoù temoù zemoù
+60	2660	pleustriñ	bleustras bleustre bleustriñ pleustras pleustret pleustrfent
+61	2661	rik	rikoù
+62	2662	senario	senarioioù senariooù
+63	2663	gwerzenn	gwerzennoù werzenn
+64	2664	plakenn	blakenn plakennoù
+65	2665	enebiezh	enebiezhioù enebiezhoù
+66	2666	pennaenn	bennaenn pennaennoù
+67	2667	kenderc'hañ	c'henderc'hañ genderc'has genderc'hañ genderc'ho genderc'hont kenderc'he kenderc'het kenderc'hfe kenderc'hont
+68	2668	diorroadur	ziorroadur
+69	2669	meziant	meziantoù veziant
+70	2670	pennadig	
+71	2671	kardinal	c'hardinal gardinal
+72	2672	anavezetañ	
+73	2673	kalzik	
+74	2674	diell	dielloù
+75	2675	gejañ	kejañ
+76	2676	bombezenn	bombezennoù vombezenn
+77	2677	poltrediñ	boltrediñ poltredet
+78	2678	lec'hiadur	lec'hiadurioù
+79	2679	anv-pluenn	anvioù-pluenn
+80	2680	lejion	lejionoù
+81	2681	ardamez	ardamezioù ardamezoù
+82	2682	termenadur	dermenadur termenadurioù zermenadur
+83	2683	a-gostez	
+84	2684	sakr	
+85	2685	personel	bersonel
+86	2686	diplom	diplomoù ziplom
+87	2687	pemdeziek	bemdeziek
+88	2688	du-hont	tu-hont
+89	2689	jediñ	jedet
+90	2690	dileuriad	dileuridi zileuriad zileuridi
+91	2691	republikan	
+92	2692	blenier	vlenier
+93	2693	kejas	gejas
+94	2694	hentenn	hentennoù
+95	2695	tolead	dolead toleadoù
+96	2696	teorienn	deorienn deoriennoù teoriennoù
+97	2697	sultan	
+98	2698	roadenn	roadennoù
+99	2699	pleustr	bleustr pleustroù
+100	2700	meizad	meizadoù veizad

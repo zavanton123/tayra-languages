@@ -1,100 +1,100 @@
-1	3101	goulaouiñ	c'houlaouiñ goulaou goulaouan goulaouas goulaouañ goulaoue goulaouec'h goulaouemp goulaouen goulaouent goulaoues goulaouet goulaouez goulaoufe goulaoufec'h goulaoufed goulaoufemp goulaoufen goulaoufent goulaoufes goulaoui goulaouimp goulaouin goulaouint goulaouis goulaouit goulaouje goulaoujec'h goulaoujed goulaoujemp goulaoujen goulaoujent goulaoujes goulaoujoc'h goulaoujod goulaoujomp goulaoujont goulaoujout goulaouo goulaouomp goulaouont goulaouor goulaouot
-2	3102	gwander	gwanderioù wander
-3	3103	luc'hed	luc'hedenn
-4	3104	meud	veud veudoù
-5	3105	ramparzh	ramparzhioù
-6	3106	skejañ	skej skejan skejas skeje skejec'h skejemp skejen skejent skejes skejet skejez skejfe skejfec'h skejfed skejfemp skejfen skejfent skejfes skeji skejimp skejin skejint skejis skejit skejje skejjec'h skejjed skejjemp skejjen skejjent skejjes skejjoc'h skejjod skejjomp skejjont skejjout skejo skejomp skejont skejor skejot
-7	3107	tort	dort dorted
-8	3108	unpenn	unpennoù
-9	3109	drouklazhañ	drouklazhiñ trouklazhañ zrouklazhañ
-10	3110	roc'hell	roc'helloù
-11	3111	alarc'h	elerc'h
-12	3112	doareañ	doarean doareas doaree doareec'h doareemp doareen doareent doarees doareet doareez doarefe doarefec'h doarefed doarefemp doarefen doarefent doarefes doarei doareimp doarein doareint doareis doareit doareiñ doareje doarejec'h doarejed doarejemp doarejen doarejent doarejes doarejoc'h doarejod doarejomp doarejont doarejout doareo doareomp doareont doareor doareot zoareañ
-13	3113	glazard	glazarded
-14	3114	kevan	c'hevan
-15	3115	marvailh	marvailhoù
-16	3116	marzh	marzhoù
-17	3117	mud	vud
-18	3118	mur	murioù vur
-19	3119	seizenn	seizennoù
-20	3120	bre	breoù
-21	3121	touzañ	douzañ touz touzan touzas touze touzec'h touzemp touzen touzent touzes touzet touzez touzfe touzfec'h touzfed touzfemp touzfen touzfent touzfes touzi touzimp touzin touzint touzis touzit touziñ touzje touzjec'h touzjed touzjemp touzjen touzjent touzjes touzjoc'h touzjod touzjomp touzjont touzjout touzo touzomp touzont touzor touzot zouzañ
-22	3122	meneziad	menezidi veneziad venezidi
-23	3123	broc'h	broc'hed
-24	3124	koumanant	c'houmanant goumanant koumanantoù
-25	3125	krizder	c'hrizder grizder krizderioù
-26	3126	krogen	c'hrogen grogen
-27	3127	gwriziañ	gwrizi gwrizian gwrizias gwrizie gwriziec'h gwriziemp gwrizien gwriziennañ gwrizient gwrizies gwriziet gwriziez gwrizife gwrizifec'h gwrizifed gwrizifemp gwrizifen gwrizifent gwrizifes gwrizii gwriziimp gwriziin gwriziint gwriziis gwriziit gwrizije gwrizijec'h gwrizijed gwrizijemp gwrizijen gwrizijent gwrizijes gwrizijoc'h gwrizijod gwrizijomp gwrizijont gwrizijout gwrizio gwriziomp gwriziont gwrizior gwriziot wriziennañ
-28	3128	kabell	c'habell kabelloù
-29	3129	kilogramm	c'hilogramm gilogramm kilogrammoù
-30	3130	kimiour	c'himiour kimiourien
-31	3131	klon	c'hlon c'hlonoù klonoù
-32	3132	goeñviñ	c'hoeñviñ goeñv goeñvan goeñvas goeñve goeñvec'h goeñvemp goeñven goeñvent goeñves goeñvet goeñvez goeñvfe goeñvfec'h goeñvfed goeñvfemp goeñvfen goeñvfent goeñvfes goeñvi goeñvimp goeñvin goeñvint goeñvis goeñvit goeñvje goeñvjec'h goeñvjed goeñvjemp goeñvjen goeñvjent goeñvjes goeñvjoc'h goeñvjod goeñvjomp goeñvjont goeñvjout goeñvo goeñvomp goeñvont goeñvor goeñvot koeñv koeñvet koeñviñ
-33	3133	morbig	morbiged vorbig
-34	3134	paseal	baseal faseal pasean paseas pasee paseec'h paseemp paseen paseent pasees paseet paseez pasefe pasefec'h pasefed pasefemp pasefen pasefent pasefes pasei paseimp pasein paseint paseis paseit paseje pasejec'h pasejed pasejemp pasejen pasejent pasejes pasejoc'h pasejod pasejomp pasejont pasejout paseo paseomp paseont paseor paseot pasiñ
-35	3135	meilh	meilhoù veilh
-36	3136	moualc'h	mouilc'hi voualc'h
-37	3137	yudal	yud yudan yudas yude yudec'h yudemp yuden yudent yudes yudet yudez yudfe yudfec'h yudfed yudfemp yudfen yudfent yudfes yudi yudimp yudin yudint yudis yudit yudje yudjec'h yudjed yudjemp yudjen yudjent yudjes yudjoc'h yudjod yudjomp yudjont yudjout yudo yudomp yudont yudor yudot
-38	3138	tonn	donn tonnioù tonnoù
-39	3139	malv	malvennoù valv valvenn valvennoù
-40	3140	touflez	douflez touflezioù touflezoù
-41	3141	korollerez	gorollerez gorollerien korollerien
-42	3142	krin	krinañ rin
-43	3143	anal	
-44	3144	argoad	
-45	3145	atenat	
-46	3146	bred	
-47	3147	c'hwerv	
-48	3148	diwir	
-49	3149	doujus	
-50	3150	drouizel	
-51	3151	evnoniour	evnoniourien
-52	3152	greunvaen	
-53	3153	grik	
-54	3154	hewel	
-55	3155	hollc'halloudek	
-56	3156	koar	
-57	3157	laezh-ribod	
-58	3158	onestiz	
-59	3159	ragaozañ	ragaoz ragaozan ragaozas ragaoze ragaozec'h ragaozemp ragaozen ragaozent ragaozes ragaozet ragaozez ragaozfe ragaozfec'h ragaozfed ragaozfemp ragaozfen ragaozfent ragaozfes ragaozi ragaozimp ragaozin ragaozint ragaozis ragaozit ragaozje ragaozjec'h ragaozjed ragaozjemp ragaozjen ragaozjent ragaozjes ragaozjoc'h ragaozjod ragaozjomp ragaozjont ragaozjout ragaozo ragaozomp ragaozont ragaozor ragaozot
-60	3160	resisted	
-61	3161	roumaneg	
-62	3162	saksofon	
-63	3163	saourus	
-64	3164	steredoniezh	
-65	3165	tantalom	
-66	3166	uraniom	
-67	3167	yezhadurour	
-68	3168	watt	
-69	3169	c'hwez	
-70	3170	daoudroadek	
-71	3171	dibistig	
-72	3172	dioksidenn	
-73	3173	diret	
-74	3174	eeunded	
-75	3175	goudoriñ	goudoran goudoras goudore goudorec'h goudoremp goudoren goudorent goudores goudoret goudorez goudorfe goudorfec'h goudorfed goudorfemp goudorfen goudorfent goudorfes goudori goudorimp goudorin goudorint goudoris goudorit goudorje goudorjec'h goudorjed goudorjemp goudorjen goudorjent goudorjes goudorjoc'h goudorjod goudorjomp goudorjont goudorjout goudoro goudoromp goudoront goudoror goudorot
-76	3176	hael	
-77	3177	harellerezh	
-78	3178	heiz	
-79	3179	linad	
-80	3180	loargann	
-81	3181	naetadurezh	
-82	3182	neon	
-83	3183	porzh-pesketa	
-84	3184	teil	
-85	3185	otus	
-86	3186	gousperoù	
-87	3187	louzawouriezh	
-88	3188	spern	
-89	3189	barvek	
-90	3190	bemnoz	
-91	3191	gwechall-gozh	
-92	3192	purgator	
-93	3193	tali	dali zali
-94	3194	bananez	vananezenn
-95	3195	beuz	beuzioù
-96	3196	biz-gwalenn	viz-gwalenn
-97	3197	proleteriezh	broleteriezh
-98	3198	disprizus	zisprizus
-99	3199	torzhellegezh	dorzhellegezh
-100	3200	enezad	enezidi
+1	3101	pleustrek	bleustrek
+2	3102	pourvez	bourvez pourvezioù
+3	3103	kañv	c'hañv gañv kañvoù
+4	3104	bageal	vageal
+5	3105	bomm	bommoù
+6	3106	barnadenn	barnadennoù varnadenn
+7	3107	ijinadenn	ijinadennoù
+8	3108	eskemmañ	eskemmas eskemme eskemmet eskemmjont
+9	3109	nijadenn	nijadennoù
+10	3110	breuriezh	breuriezhioù breuriezhoù vreuriezh
+11	3111	ergerzhadeg	ergerzhadegoù
+12	3112	mouezhiadeg	mouezhiadegoù vouezhiadeg
+13	3113	kenemglev	c'henemglev genemglev kenemglevioù
+14	3114	polonat	bolonat
+15	3115	riboul	riboulioù ribouloù
+16	3116	konsul	c'honsul gonsul
+17	3117	und	
+18	3118	latveg	
+19	3119	rap	
+20	3120	deroet	
+21	3121	dediet	
+22	3122	touristerezh	douristerezh
+23	3123	road	roadoù
+24	3124	eneberezh	eneberezhioù
+25	3125	saotradur	saotradurioù
+26	3126	diskwel	tiskwel ziskwel
+27	3127	poultr	boultr
+28	3128	porched	borched forched
+29	3129	solo	soloioù
+30	3130	dizurzh	dizurzhioù zizurzh
+31	3131	geriadenn	c'heriadenn keriadenn
+32	3132	magazin	magazinoù vagazin
+33	3133	c'hoarigan	c'hoariganoù
+34	3134	frekañs	frekañsoù
+35	3135	pennger	bennger penngerioù
+36	3136	sujed	sujedoù
+37	3137	miziek	viziek
+38	3138	bloc'had	bloc'hadoù
+39	3139	moudenn	moudennoù voudenn
+40	3140	bamiñ	bamet vame vamiñ
+41	3141	gwiriañ	gwiriet wiriañ
+42	3142	a-galz	
+43	3143	egiptat	
+44	3144	nebeudig	
+45	3145	embreger	
+46	3146	rejant	
+47	3147	dedennus	
+48	3148	dre-vras	
+49	3149	fallaat	fallaas
+50	3150	erminig	erminigoù
+51	3151	donezoniñ	donezonet
+52	3152	hinad	hinadoù
+53	3153	katalanek	gatalanek
+54	3154	berrbad	verrbad
+55	3155	feizad	feizidi
+56	3156	treuzdougen	dreuzdougen zreuzdougen
+57	3157	stagadenn	stagadennoù
+58	3158	mouezhiañ	vouezhiañ
+59	3159	maskl	maskloù vaskl
+60	3160	chanter	chanterioù chanteroù
+61	3161	kargad	c'hargad gargad kargadoù
+62	3162	kamalad	c'hamalad gamalad
+63	3163	daskoriñ	daskoret zaskoras zaskore zaskoriñ zaskorjent
+64	3164	azeulerezh	azeulerezhioù
+65	3165	engouestlañ	engouestlas engouestlet
+66	3166	budjed	budjedoù vudjed
+67	3167	kevandirel	gevandirel
+68	3168	droukveskañ	droukvesket troukveskjont zroukveskañ
+69	3169	kejadenn	c'hejadenn gejadenn kejadennoù
+70	3170	iwerzhonek	
+71	3171	nen	
+72	3172	romanek	
+73	3173	tisavour	
+74	3174	a-dal	
+75	3175	emskiant	
+76	3176	hebraeg	
+77	3177	ekologiezh	
+78	3178	alaouret	
+79	3179	darbet	
+80	3180	enezennig	enezennigoù
+81	3181	resever	reseverien
+82	3182	burutelladenn	burutelladennoù vurutelladenn
+83	3183	rannadur	rannadurioù
+84	3184	rummatadur	rummatadurioù
+85	3185	brigadenn	vrigadenn
+86	3186	emsavel	emsavas emsavet
+87	3187	teulfilm	teulfilmoù zeulfilm
+88	3188	arc'hwel	arc'hwelioù
+89	3189	bombezañ	bombez bombezet vombezas vombezañ
+90	3190	atersiñ	aterset
+91	3191	gwikadell	gwikadelloù wikadell
+92	3192	skoilh	skoilhoù
+93	3193	buhezegezh	buhezegezhioù vuhezegezh
+94	3194	aozadenn	aozadennoù
+95	3195	pourveziñ	bourveze bourveziñ pourvezet
+96	3196	kerz	c'herz gerz
+97	3197	pers	bers vers
+98	3198	a-zoare	
+99	3199	ziazezas	
+100	3200	soudardel	

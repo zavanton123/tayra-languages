@@ -1,100 +1,100 @@
-1	4201	euskaregerez	euskaregerien
-2	4202	evneta	evnetaan evnetaas evnetae evnetaec'h evnetaemp evnetaen evnetaent evnetaes evnetaet evnetaez evnetafe evnetafec'h evnetafed evnetafemp evnetafen evnetafent evnetafes evnetai evnetaimp evnetain evnetaint evnetais evnetait evnetaje evnetajec'h evnetajed evnetajemp evnetajen evnetajent evnetajes evnetajoc'h evnetajod evnetajomp evnetajont evnetajout evnetao evnetaomp evnetaont evnetaor evnetaot
-3	4203	fiez	
-4	4204	filhor	
-5	4205	fiñvskeudenn	fiñvskeudennoù
-6	4206	flaerius	
-7	4207	fleroviom	
-8	4208	foarlec'h	
-9	4209	fok	
-10	4210	follenn-nij	follennoù-nij
-11	4211	fonn	
-12	4212	fosfor	
-13	4213	friadur	
-14	4214	kantol	gantol
-15	4215	karakenn	garakenn
-16	4216	kevrennad	gevrennad
-17	4217	kile	gile
-18	4218	glizh	
-19	4219	klujar	glujar
-20	4220	goafioù	
-21	4221	kobal	gobar
-22	4222	goprer	
-23	4223	krakvevañ	grakvevañ krakvev krakvevan krakvevas krakveve krakvevec'h krakvevemp krakveven krakvevent krakveves krakvevet krakvevez krakvevfe krakvevfec'h krakvevfed krakvevfemp krakvevfen krakvevfent krakvevfes krakvevi krakvevimp krakvevin krakvevint krakvevis krakvevit krakvevje krakvevjec'h krakvevjed krakvevjemp krakvevjen krakvevjent krakvevjes krakvevjoc'h krakvevjod krakvevjomp krakvevjont krakvevjout krakvevo krakvevomp krakvevont krakvevor krakvevot
-24	4224	greunek	
-25	4225	greunwin	
-26	4226	gwered	
-27	4227	gwezboell	
-28	4228	hantereur	
-29	4229	hej	
-30	4230	heoliek	
-31	4231	hepdale	
-32	4232	hiraezhus	
-33	4233	hirhoal	
-34	4234	hirvoan	
-35	4235	hoc'h-unan	
-36	4236	hollc'halloudus	
-37	4237	hollveliour	
-38	4238	horolajerezh	
-39	4239	hou	
-40	4240	isrannyezh	isrannyezhoù
-41	4241	isurzhiañ	isurzhi isurzhian isurzhias isurzhie isurzhiec'h isurzhiemp isurzhien isurzhient isurzhies isurzhiet isurzhiez isurzhife isurzhifec'h isurzhifed isurzhifemp isurzhifen isurzhifent isurzhifes isurzhii isurzhiimp isurzhiin isurzhiint isurzhiis isurzhiit isurzhije isurzhijec'h isurzhijed isurzhijemp isurzhijen isurzhijent isurzhijes isurzhijoc'h isurzhijod isurzhijomp isurzhijont isurzhijout isurzhio isurzhiomp isurzhiont isurzhior isurzhiot
-42	4242	itriom	
-43	4243	izelegezh	
-44	4244	jahinerez	
-45	4245	jestraouiñ	jestraou jestraouan jestraouas jestraoue jestraouec'h jestraouemp jestraouen jestraouent jestraoues jestraouet jestraouez jestraoufe jestraoufec'h jestraoufed jestraoufemp jestraoufen jestraoufent jestraoufes jestraoui jestraouimp jestraouin jestraouint jestraouis jestraouit jestraouje jestraoujec'h jestraoujed jestraoujemp jestraoujen jestraoujent jestraoujes jestraoujoc'h jestraoujod jestraoujomp jestraoujont jestraoujout jestraouo jestraouomp jestraouont jestraouor jestraouot
-46	4246	jirafenn	
-47	4247	karavanenn	karavanennoù
-48	4248	kabell-touseg	kebell-touseg
-49	4249	kignat	c'hignat gignat kign kignan kignas kignañ kigne kignec'h kignemp kignen kignent kignes kignet kignfe kignfec'h kignfed kignfemp kignfen kignfent kignfes kigni kignimp kignin kignint kignis kignit kigniñ kignje kignjec'h kignjed kignjemp kignjen kignjent kignjes kignjoc'h kignjod kignjomp kignjont kignjout kigno kignomp kignont kignor kignot
-50	4250	korrgi	
-51	4251	korz-sukr	
-52	4252	kribañ	kriban kribas kribat kribec'h kribemp kriben kribent kribes kribet kribez kribfe kribfec'h kribfed kribfemp kribfen kribfent kribfes kribi kribimp kribin kribint kribis kribit kribje kribjec'h kribjed kribjemp kribjen kribjent kribjes kribjoc'h kribjod kribjomp kribjont kribjout kribomp kribont kribor kribot
-53	4253	laouenidigezh	
-54	4254	laouer	
-55	4255	ledanded	
-56	4256	lenn-vor	
-57	4257	lezvugale	
-58	4258	lieskement	lieskementoù
-59	4259	lineg	
-60	4260	livek	
-61	4261	livrizh	
-62	4262	logota	logotaan logotaas logotae logotaec'h logotaemp logotaen logotaent logotaes logotaet logotaez logotafe logotafec'h logotafed logotafemp logotafen logotafent logotafes logotai logotaimp logotain logotaint logotais logotait logotaje logotajec'h logotajed logotajemp logotajen logotajent logotajes logotajoc'h logotajod logotajomp logotajont logotajout logotao logotaomp logotaont logotaor logotaot
-63	4263	louedañ	louedan louedas louede louedec'h louedemp loueden louedent louedes louedet louedez louedfe louedfec'h louedfed louedfemp louedfen louedfent louedfes louedi louedimp louedin louedint louedis louedit louediñ louedje louedjec'h louedjed louedjemp louedjen louedjent louedjes louedjoc'h louedjod louedjomp louedjont louedjout louedo louedomp louedont louedor louedot
-64	4264	lufrañ	lufr lufran lufras lufre lufrec'h lufremp lufren lufrent lufres lufret lufrez lufrfe lufrfec'h lufrfed lufrfemp lufrfen lufrfent lufrfes lufri lufrimp lufrin lufrint lufris lufrit lufriñ lufrje lufrjec'h lufrjed lufrjemp lufrjen lufrjent lufrjes lufrjoc'h lufrjod lufrjomp lufrjont lufrjout lufro lufromp lufront lufror lufrot
-65	4265	maen-hir	
-66	4266	maeziadez	maeziadoù
-67	4267	marokan	
-68	4268	mañsonat	mañsonan mañsonas mañsonañ mañsone mañsonec'h mañsonemp mañsonen mañsonent mañsones mañsonet mañsonfe mañsonfec'h mañsonfed mañsonfemp mañsonfen mañsonfent mañsonfes mañsoni mañsonimp mañsonin mañsonint mañsonis mañsonit mañsoniñ mañsonje mañsonjec'h mañsonjed mañsonjemp mañsonjen mañsonjent mañsonjes mañsonjoc'h mañsonjod mañsonjomp mañsonjont mañsonjout mañsono mañsonomp mañsonont mañsonor mañsonot vañsonat
-69	4269	merenn-vihan	
-70	4270	meutad	
-71	4271	mezv-dall	
-72	4272	montr	montroù
-73	4273	morvaout	
-74	4274	nac'hidigezh	
-75	4275	naonek	
-76	4276	neodimiom	
-77	4277	neptuegezh	
-78	4278	neñvel	
-79	4279	nikel	
-80	4280	nitrek	
-81	4281	dor-dal	nor-dal
-82	4282	oged	ogedoù
-83	4283	osmiom	
-84	4284	otiz	
-85	4285	paper-moger	
-86	4286	pechez	
-87	4287	pedergwern	
-88	4288	pevarzueg	
-89	4289	bilh	pilhoù
-90	4290	plañchod	
-91	4291	plutoniom	
-92	4292	pobiñ	poban pobas pobat pobañ pobe pobec'h pobemp poben pobent pobes pobet pobez pobfe pobfec'h pobfed pobfemp pobfen pobfent pobfes pobi pobimp pobin pobint pobis pobit pobje pobjec'h pobjed pobjemp pobjen pobjent pobjes pobjoc'h pobjod pobjomp pobjont pobjout pobo pobomp pobont pobor pobot
-93	4293	pouezusted	
-94	4294	predeneg	
-95	4295	preizherezh	
-96	4296	prometiom	
-97	4297	raden	
-98	4298	raganv-gour	raganvioù-gour
-99	4299	rakkeltiek	
-100	4300	rakstal	
+1	4201	nevet	
+2	4202	peoc'hgarour	
+3	4203	resped	
+4	4204	spagnat	
+5	4205	yod	
+6	4206	a-unan	
+7	4207	astennadur	
+8	4208	diseblant	
+9	4209	rouz	
+10	4210	divrud	
+11	4211	hounnezh	
+12	4212	trouzus	
+13	4213	chalus	
+14	4214	intron	
+15	4215	hendraouriezh	
+16	4216	amred	amredoù
+17	4217	kourzh	c'hourzh
+18	4218	fizikour	fizikourien
+19	4219	gwilioud	wilioud
+20	4220	meskad	meskadoù
+21	4221	renkennad	renkennadoù
+22	4222	rollad	rolladoù
+23	4223	skeudennadur	skeudennadurioù
+24	4224	burezh	vurezh
+25	4225	alez	alezioù
+26	4226	brazezañ	brazezet
+27	4227	greantelaat	c'hreantelaat greantelaet
+28	4228	levezonus	levezonusañ
+29	4229	brumenn	vrumenn
+30	4230	fleüt	fleütoù
+31	4231	marc'hhouarner	varc'hhouarner
+32	4232	ampoezoniñ	ampoezonan ampoezonas ampoezone ampoezonec'h ampoezonemp ampoezonen ampoezonent ampoezones ampoezonet ampoezonez ampoezonfe ampoezonfec'h ampoezonfed ampoezonfemp ampoezonfen ampoezonfent ampoezonfes ampoezoni ampoezonimp ampoezonin ampoezonint ampoezonis ampoezonit ampoezonje ampoezonjec'h ampoezonjed ampoezonjemp ampoezonjen ampoezonjent ampoezonjes ampoezonjoc'h ampoezonjod ampoezonjomp ampoezonjont ampoezonjout ampoezono ampoezonomp ampoezonont ampoezonor ampoezonot
+33	4233	glanaat	c'hlanaat glana glanaan glanaas glanae glanaec'h glanaemp glanaen glanaent glanaes glanaet glanaez glanafe glanafec'h glanafed glanafemp glanafen glanafent glanafes glanai glanaimp glanain glanaint glanais glanait glanaje glanajec'h glanajed glanajemp glanajen glanajent glanajes glanajoc'h glanajod glanajomp glanajont glanajout glanao glanaomp glanaont glanaor glanaot
+34	4234	islonk	islonkoù
+35	4235	kelaouenner	c'helaouenner
+36	4236	lagadenn	lagadennoù
+37	4237	poelladenn	boelladenn poelladennoù
+38	4238	priaj	priajoù
+39	4239	reizher	reizherioù
+40	4240	sailh	sailhoù
+41	4241	soniad	soniadoù
+42	4242	boujedenn	boujedennoù voujedenn
+43	4243	disteraat	zisteraat
+44	4244	aozad	aozadoù
+45	4245	chabistr	chabistroù
+46	4246	endalc'het	
+47	4247	intañviñ	intañvas intañvet
+48	4248	kenurzh	c'henurzh genurzh
+49	4249	saotr	saotroù
+50	4250	soubañ	soub souban soubas soube soubec'h soubemp souben soubent soubes soubet soubez soubfe soubfec'h soubfed soubfemp soubfen soubfent soubfes soubi soubimp soubin soubint soubis soubit soubiñ soubje soubjec'h soubjed soubjemp soubjen soubjent soubjes soubjoc'h soubjod soubjomp soubjont soubjout soubo soubomp soubont soubor soubot
+51	4251	adreizhadur	adreizhadurioù
+52	4252	adverb	adverboù
+53	4253	amprouenn	amprouennoù
+54	4254	ki-dour	c'hi-dour
+55	4255	koantiz	c'hoantiz
+56	4256	talar	dalaroù zalaroù
+57	4257	lieskementiñ	lieskementet
+58	4258	nadoz	nadozioù
+59	4259	oberiadenn	oberiadennoù
+60	4260	kalonenn	galonenn kalonennoù
+61	4261	balafenn	balafenned valafenn
+62	4262	distankañ	distank distanket
+63	4263	kromozom	c'hromozom c'hromozomoù kromozomoù
+64	4264	pennahel	bennahel fennahel pennahelioù
+65	4265	testeniañ	destenias desteniañ testeniet
+66	4266	pennrann	bennrann fennrann pennrannoù
+67	4267	kendoniañ	c'hendoniañ gendoniañ kendoniet
+68	4268	kopienn	gopienn kopiennoù
+69	4269	takenn	dakenn takennoù zakenn
+70	4270	karn	c'harn c'harnoù garn karnioù
+71	4271	a-istribilh	
+72	4272	amourous	
+73	4273	amourouz	
+74	4274	cheuc'h	
+75	4275	didan	
+76	4276	diezhomm	
+77	4277	disi	
+78	4278	dizingal	
+79	4279	dourek	
+80	4280	droug-skevent	
+81	4281	ekologour	
+82	4282	ellig	
+83	4283	eurvad	
+84	4284	flaer	
+85	4285	fromus	
+86	4286	gouennel	
+87	4287	gwelañ	
+88	4288	hollveliek	
+89	4289	krag	
+90	4290	kreizig-kreiz	
+91	4291	livenn-gein	
+92	4292	muianiver	
+93	4293	naet	
+94	4294	ouesk	
+95	4295	patatez	
+96	4296	prederouriezhel	
+97	4297	remzad	
+98	4298	revelezh	
+99	4299	riegezh	
+100	4300	rusek	

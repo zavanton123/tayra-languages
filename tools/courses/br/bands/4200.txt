@@ -1,100 +1,100 @@
-1	4101	toullgofañ	doullgofañ toullgof toullgofan toullgofas toullgofe toullgofec'h toullgofemp toullgofen toullgofent toullgofes toullgofez toullgoffe toullgoffec'h toullgoffed toullgoffemp toullgoffen toullgoffent toullgoffes toullgofi toullgofimp toullgofin toullgofint toullgofis toullgofit toullgofiñ toullgofje toullgofjec'h toullgofjed toullgofjemp toullgofjen toullgofjent toullgofjes toullgofjoc'h toullgofjod toullgofjomp toullgofjont toullgofjout toullgofo toullgofomp toullgofont toullgofor toullgofot zoullgofañ
-2	4102	tro-gamm	dro-gamm troioù-kamm
-3	4103	enderv	
-4	4104	kanoliañ	ganolias kanoli kanolian kanolias kanolie kanoliec'h kanoliemp kanolien kanolient kanolies kanoliet kanoliez kanolife kanolifec'h kanolifed kanolifemp kanolifen kanolifent kanolifes kanolii kanoliimp kanoliin kanoliint kanoliis kanoliit kanolije kanolijec'h kanolijed kanolijemp kanolijen kanolijent kanolijes kanolijoc'h kanolijod kanolijomp kanolijont kanolijout kanolio kanoliomp kanoliont kanolior kanoliot
-5	4105	krozal	grozal grozet kroz krozan krozas krozañ kroze krozec'h krozemp krozen krozent krozes krozet krozez krozfe krozfec'h krozfed krozfemp krozfen krozfent krozfes krozi krozimp krozin krozint krozis krozit krozje krozjec'h krozjed krozjemp krozjen krozjent krozjes krozjoc'h krozjod krozjomp krozjont krozjout krozo krozomp krozont krozor krozot
-6	4106	merc'hodenn	verc'hodenn
-7	4107	milin-avel	milinoù-avel vilin-avel vilinoù-avel
-8	4108	rostañ	rost rostan rostas roste rostec'h rostemp rosten rostent rostes rostet rostez rostfe rostfec'h rostfed rostfemp rostfen rostfent rostfes rosti rostimp rostin rostint rostis rostit rostiñ rostje rostjec'h rostjed rostjemp rostjen rostjent rostjes rostjoc'h rostjod rostjomp rostjont rostjout rosto rostomp rostont rostor rostot
-9	4109	abona	abonaan abonaas abonae abonaec'h abonaemp abonaen abonaent abonaes abonaet abonaez abonafe abonafec'h abonafed abonafemp abonafen abonafent abonafes abonai abonaimp abonain abonaint abonais abonait abonaje abonajec'h abonajed abonajemp abonajen abonajent abonajes abonajoc'h abonajod abonajomp abonajont abonajout abonao abonaomp abonaont abonaor abonaot
-10	4110	adkouezhañ	adkouezh adkouezhan adkouezhas adkouezhe adkouezhec'h adkouezhemp adkouezhen adkouezhent adkouezhes adkouezhet adkouezhez adkouezhfe adkouezhfec'h adkouezhfed adkouezhfemp adkouezhfen adkouezhfent adkouezhfes adkouezhi adkouezhimp adkouezhin adkouezhint adkouezhis adkouezhit adkouezhje adkouezhjec'h adkouezhjed adkouezhjemp adkouezhjen adkouezhjent adkouezhjes adkouezhjoc'h adkouezhjod adkouezhjomp adkouezhjont adkouezhjout adkouezho adkouezhomp adkouezhont adkouezhor adkouezhot
-11	4111	bozek	bozeg
-12	4112	dolmen	
-13	4113	drouin	
-14	4114	ferat	ferañ ferec'h feremp ferent feres ferfe ferfec'h ferfed ferfemp ferfen ferfent ferfes feriñ ferjec'h ferjed ferjemp ferjen ferjent ferjes ferjoc'h ferjod ferjomp ferjont ferjout feror
-15	4115	filip	
-16	4116	golvan	
-17	4117	komer	c'homer gomer komeran komeras komere komerec'h komeremp komeren komerent komeres komeret komerez komerfe komerfec'h komerfed komerfemp komerfen komerfent komerfes komeri komerimp komerin komerint komeris komerit komerje komerjec'h komerjed komerjemp komerjen komerjent komerjes komerjoc'h komerjod komerjomp komerjont komerjout komero komeromp komeront komeror komerot
-18	4118	kastor	
-19	4119	noblet	
-20	4120	ploue	
-21	4121	tabernakl	
-22	4122	beuzid	veuzid
-23	4123	a-darzh	
-24	4124	abdomen	
-25	4125	adren	
-26	4126	alc'hwezañ	alc'hwezan alc'hwezas alc'hweze alc'hwezec'h alc'hwezemp alc'hwezen alc'hwezent alc'hwezes alc'hwezet alc'hwezez alc'hwezfe alc'hwezfec'h alc'hwezfed alc'hwezfemp alc'hwezfen alc'hwezfent alc'hwezfes alc'hwezi alc'hwezimp alc'hwezin alc'hwezint alc'hwezis alc'hwezit alc'hweziñ alc'hwezje alc'hwezjec'h alc'hwezjed alc'hwezjemp alc'hwezjen alc'hwezjent alc'hwezjes alc'hwezjoc'h alc'hwezjod alc'hwezjomp alc'hwezjont alc'hwezjout alc'hwezo alc'hwezomp alc'hwezont alc'hwezor alc'hwezot
-27	4127	alpaer	
-28	4128	amzer-da-zont	
-29	4129	anv-stroll	
-30	4130	archerdi	
-31	4131	arruz	
-32	4132	arstalenn	
-33	4133	arwer	
-34	4134	asperjez	
-35	4135	aval-gouzoug	
-36	4136	azezenn	
-37	4137	babourzh	
-38	4138	balc'h	
-39	4139	balzamegenn	
-40	4140	barad	
-41	4141	bariom	
-42	4142	paskañ	basket paskan paskas paske paskec'h paskemp pasken paskent paskes pasket paskez paskfe paskfec'h paskfed paskfemp paskfen paskfent paskfes paski paskimp paskin paskint paskis paskit paskiñ paskje paskjec'h paskjed paskjemp paskjen paskjent paskjes paskjoc'h paskjod paskjomp paskjont paskjout pasko paskomp paskont paskor paskot
-43	4143	baz	
-44	4144	berkeliom	
-45	4145	bezv	
-46	4146	bili-bann	
-47	4147	binioù-bras	
-48	4148	bizaj	
-49	4149	bizerez	
-50	4150	boks	
-51	4151	boued-laezh	
-52	4152	broenn	broen
-53	4153	brugeg	brugeier
-54	4154	buz	
-55	4155	kalir	c'halir
-56	4156	kanod	c'hanod
-57	4157	karr-nezañ	c'harr-nezañ
-58	4158	klañvgarr	c'hlañvgirri
-59	4159	c'hoantek	
-60	4160	c'hoantus	
-61	4161	c'hoarius	
-62	4162	kretaat	c'hretaat kreta kretaan kretaas kretae kretaec'h kretaemp kretaen kretaent kretaes kretaet kretaez kretafe kretafec'h kretafed kretafemp kretafen kretafent kretafes kretai kretaimp kretain kretaint kretais kretait kretaje kretajec'h kretajed kretajemp kretajen kretajent kretajes kretajoc'h kretajod kretajomp kretajont kretajout kretao kretaomp kretaont kretaor kretaot
-63	4163	taboulinañ	daboulinañ taboulinal taboulinan taboulinas taboulinat tabouline taboulinec'h taboulinemp taboulinen taboulinent taboulines taboulinet taboulinez taboulinfe taboulinfec'h taboulinfed taboulinfemp taboulinfen taboulinfent taboulinfes taboulini taboulinimp taboulinin taboulinint taboulinis taboulinit taboulinje taboulinjec'h taboulinjed taboulinjemp taboulinjen taboulinjent taboulinjes taboulinjoc'h taboulinjod taboulinjomp taboulinjont taboulinjout taboulino taboulinomp taboulinont taboulinor taboulinot tabourinañ
-64	4164	daoulamm	
-65	4165	darbenn	darbennan darbennas darbenne darbennec'h darbennemp darbennen darbennent darbennes darbennet darbennez darbennfe darbennfec'h darbennfed darbennfemp darbennfen darbennfent darbennfes darbenni darbennimp darbennin darbennint darbennis darbennit darbennje darbennjec'h darbennjed darbennjemp darbennjen darbennjent darbennjes darbennjoc'h darbennjod darbennjomp darbennjont darbennjout darbenno darbennomp darbennont darbennor darbennot
-66	4166	daskirier	
-67	4167	dentouriezh	
-68	4168	deog	deogoù
-69	4169	derez-uhelañ	
-70	4170	deuñv	
-71	4171	diabeg	
-72	4172	diannez	
-73	4173	diantav	
-74	4174	diastuzer	diastuzerioù
-75	4175	dibourvez	
-76	4176	dibreder	
-77	4177	dic'halloud	
-78	4178	diglod	
-79	4179	digor-kalon	
-80	4180	tildenn	dildenn
-81	4181	diles	
-82	4182	dilun	
-83	4183	dirapar	
-84	4184	divarv	
-85	4185	dizoare	
-86	4186	dizonest	
-87	4187	torek	dorek
-88	4188	douez	
-89	4189	doñjer	
-90	4190	drant	
-91	4191	drouiziezh	
-92	4192	drouklaouen	
-93	4193	troveni	droveni
-94	4194	e-metoù	
-95	4195	eilc'hoarier	
-96	4196	eostiñ	eostan eostas eostañ eoste eostec'h eostemp eosten eostent eostes eostet eostez eostfe eostfec'h eostfed eostfemp eostfen eostfent eostfes eosti eostimp eostin eostint eostis eostit eostje eostjec'h eostjed eostjemp eostjen eostjent eostjes eostjoc'h eostjod eostjomp eostjont eostjout eosto eostomp eostont eostor eostot
-97	4197	eoul-douar	
-98	4198	eoulek	
-99	4199	erbiom	
-100	4200	askell-groc'hen	eskell-kroc'hen
+1	4101	peur	beur
+2	4102	stokañ	
+3	4103	zero	zeroioù
+4	4104	kannadig	c'hannadig
+5	4105	digredus	zigredus
+6	4106	kimiadiñ	gimiadiñ kimiadan kimiadas kimiadañ kimiade kimiadec'h kimiademp kimiaden kimiadent kimiades kimiadet kimiadez kimiadfe kimiadfec'h kimiadfed kimiadfemp kimiadfen kimiadfent kimiadfes kimiadi kimiadimp kimiadin kimiadint kimiadis kimiadit kimiadje kimiadjec'h kimiadjed kimiadjemp kimiadjen kimiadjent kimiadjes kimiadjoc'h kimiadjod kimiadjomp kimiadjont kimiadjout kimiado kimiadomp kimiadont kimiador kimiadot
+7	4107	moaien	moaienoù
+8	4108	huñvreal	huñvreet
+9	4109	arnev	arnevioù arneñv
+10	4110	diarunusted	diarunustedoù ziarunusted
+11	4111	flac'h	flac'hioù
+12	4112	fuc'hell	fuc'helloù
+13	4113	torosennadur	dorosennadur zorosennadur
+14	4114	choual	chou chouan chouaned chouas choue chouec'h chouemp chouen chouent chouer choues chouet chouez choufe choufec'h choufed choufemp choufen choufent choufes choui chouimp chouin chouint chouis chouit chouje choujec'h choujed choujemp choujen choujent choujes choujoc'h choujod choujomp choujont choujout chouo chouomp chouont chouor chouot
+15	4115	beleg-meur	veleg-meur veleien-veur
+16	4116	dic'hizañ	dic'hizet zic'hizas
+17	4117	pin	binenn pinenn
+18	4118	aerlestr	aerlistri
+19	4119	broud	broudoù vroud
+20	4120	kenarroud	c'henarroud kenarroudoù
+21	4121	taol-vaen	daol-vaen daolioù-maen taolioù-maen
+22	4122	displijadur	zisplijadur
+23	4123	disprizañ	disprizet zisprizañ
+24	4124	kaoued	c'haouedoù gaoued kaouedoù
+25	4125	karnel	c'harnel garnel karnelioù
+26	4126	kloued	c'hlouedoù gloued klouedoù
+27	4127	gwirel	wirel
+28	4128	hetañ	hetan hetas hete hetec'h hetemp heten hetent hetes hetet hetez hetfe hetfec'h hetfed hetfemp hetfen hetfent hetfes heti hetimp hetin hetint hetis hetit hetiñ hetje hetjec'h hetjed hetjemp hetjen hetjent hetjes hetjoc'h hetjod hetjomp hetjont hetjout heto hetomp hetont hetor hetot
+29	4129	kaoc'h	c'haoc'h gaoc'h
+30	4130	lifre	lifreoù
+31	4131	radell	radelloù
+32	4132	chekenn	chekennoù
+33	4133	trovan	trovanoù
+34	4134	arsanailh	arsanailhoù
+35	4135	krugell	grugell krugelloù
+36	4136	pok	bok pokoù
+37	4137	gwalleur	gwalleurioù walleur walleurioù
+38	4138	gwazour	gwazourien gwazourion wazour wazourion
+39	4139	kevalaour	gevalaourien gevalaourion
+40	4140	luc'haj	luc'hajoù
+41	4141	porpant	borpant porpantoù
+42	4142	speriañ	sperias speriet
+43	4143	atahinañ	atahin atahinal atahinan atahinas atahine atahinec'h atahinemp atahinen atahinent atahines atahinet atahinez atahinfe atahinfec'h atahinfed atahinfemp atahinfen atahinfent atahinfes atahini atahinimp atahinin atahinint atahinis atahinit atahiniñ atahinje atahinjec'h atahinjed atahinjemp atahinjen atahinjent atahinjes atahinjoc'h atahinjod atahinjomp atahinjont atahinjout atahino atahinomp atahinont atahinor atahinot
+44	4144	korrigan	c'horrigan gorriganed gorriganez korriganez
+45	4145	karv	c'hirvi kirvi
+46	4146	schtroumpf	schtroumpfañ schtroumpfed
+47	4147	emouestlañ	emouestlas emouestlet
+48	4148	bos	bosoù vos
+49	4149	kognañ	gognañ kognet
+50	4150	tennder	dennder tennderioù
+51	4151	adneveziñ	adnevezet adnevezo
+52	4152	bolontez	polontez volontez
+53	4153	intañvezañ	intañvezas intañvezet
+54	4154	pelleiler	belleiler pelleilerioù
+55	4155	sklaeraat	sklaera sklaeraan sklaeraas sklaerae sklaeraec'h sklaeraemp sklaeraen sklaeraent sklaeraes sklaeraet sklaeraez sklaerafe sklaerafec'h sklaerafed sklaerafemp sklaerafen sklaerafent sklaerafes sklaerai sklaeraimp sklaerain sklaeraint sklaerais sklaerait sklaeraje sklaerajec'h sklaerajed sklaerajemp sklaerajen sklaerajent sklaerajes sklaerajoc'h sklaerajod sklaerajomp sklaerajont sklaerajout sklaerao sklaeraomp sklaeraont sklaeraor sklaeraot
+56	4156	talm	dalm talmioù talmoù zalm
+57	4157	trompilh	drompilh trompilhoù
+58	4158	kanienn	ganienn kaniennoù
+59	4159	kanenn	c'hanenn ganenn kanennoù
+60	4160	sparlañ	sparle sparlet sparlont
+61	4161	madoberour	madoberer madoberourien vadoberour vadoberourien
+62	4162	adwelout	adwel adwelas adweled adwelje adweljont
+63	4163	kabined	c'habined gabined kabinedoù
+64	4164	difraostañ	difraost difraostan difraostas difraoste difraostec'h difraostemp difraosten difraostent difraostes difraostet difraostez difraostfe difraostfec'h difraostfed difraostfemp difraostfen difraostfent difraostfes difraosti difraostimp difraostin difraostint difraostis difraostit difraostiñ difraostje difraostjec'h difraostjed difraostjemp difraostjen difraostjent difraostjes difraostjoc'h difraostjod difraostjomp difraostjont difraostjout difraosto difraostomp difraostont difraostor difraostot tifraostas tifraostañ zifraostañ
+65	4165	forest	
+66	4166	glein	klein
+67	4167	sturyezhouriezh	
+68	4168	berus	verus
+69	4169	adreñv	
+70	4170	aked	
+71	4171	boul	bouloù
+72	4172	c'hwen	
+73	4173	emledañ	
+74	4174	fazius	
+75	4175	krafek	grafek
+76	4176	gwallamzer	
+77	4177	henc'hresianeg	
+78	4178	ingaler	
+79	4179	laik	
+80	4180	lituaniat	
+81	4181	parlamantel	
+82	4182	perlez	
+83	4183	sañskriteg	
+84	4184	sentidigezh	
+85	4185	skoazeller	
+86	4186	skuizhder	
+87	4187	spierezh	
+88	4188	surjianerezh	
+89	4189	taol-mouezh	
+90	4190	merc'heta	merc'hetaan merc'hetaas merc'hetae merc'hetaec'h merc'hetaemp merc'hetaen merc'hetaent merc'hetaes merc'hetaet merc'hetaez merc'hetafe merc'hetafec'h merc'hetafed merc'hetafemp merc'hetafen merc'hetafent merc'hetafes merc'hetai merc'hetaimp merc'hetain merc'hetaint merc'hetais merc'hetait merc'hetaje merc'hetajec'h merc'hetajed merc'hetajemp merc'hetajen merc'hetajent merc'hetajes merc'hetajoc'h merc'hetajod merc'hetajomp merc'hetajont merc'hetajout merc'hetao merc'hetaomp merc'hetaont merc'hetaor merc'hetaot verc'heta
+91	4191	yenijenn	
+92	4192	stoker	
+93	4193	a-daol-trumm	
+94	4194	aviz	
+95	4195	e-ti	
+96	4196	entremar	
+97	4197	fallakr	
+98	4198	gounezerezh	
+99	4199	hirbad	
+100	4200	kenglotus	

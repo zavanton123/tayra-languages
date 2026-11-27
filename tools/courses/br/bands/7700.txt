@@ -1,0 +1,100 @@
+1	7601	barad	
+2	7602	bariom	
+3	7603	barrennañ	barrennet
+4	7604	barzhonius	
+5	7605	paskañ	basket paskan paskas paske paskec'h paskemp pasken paskent paskes pasket paskez paskfe paskfec'h paskfed paskfemp paskfen paskfent paskfes paski paskimp paskin paskint paskis paskit paskiñ paskje paskjec'h paskjed paskjemp paskjen paskjent paskjes paskjoc'h paskjod paskjomp paskjont paskjout pasko paskomp paskont paskor paskot
+6	7606	baz	
+7	7607	belbi	
+8	7608	bellour	
+9	7609	berkeliom	
+10	7610	berniadur	
+11	7611	berr-amzer	
+12	7612	beziadur	beziadurioù
+13	7613	bezv	
+14	7614	bili-bann	
+15	7615	binioù-bras	
+16	7616	biojoù	
+17	7617	bizaj	
+18	7618	bizerez	
+19	7619	blizidik	
+20	7620	bloaziañ	bloaziet
+21	7621	boks	
+22	7622	pompinell	bompinell
+23	7623	borzevelleg	
+24	7624	boserezh	
+25	7625	bouch	
+26	7626	boued-aod	
+27	7627	boued-laezh	
+28	7628	bouilh	
+29	7629	bredelfennerezh	
+30	7630	breizhveurek	
+31	7631	broenn	broen
+32	7632	brugeg	brugeier
+33	7633	brukañ	bruket
+34	7634	bugelel	
+35	7635	buhezel	
+36	7636	buhezsuner	
+37	7637	buz	
+38	7638	kadastr	c'hadastr
+39	7639	kalir	c'halir
+40	7640	kanod	c'hanod
+41	7641	karr-nezañ	c'harr-nezañ
+42	7642	keflusk	c'heflusk
+43	7643	kelc'hva	c'helc'hva
+44	7644	kenwerzhour	c'henwerzhour
+45	7645	kerreg-tarzh	c'herreg-tarzh
+46	7646	kiklop	c'hiklop
+47	7647	klañvgarr	c'hlañvgirri
+48	7648	klezeour	c'hlezeour
+49	7649	c'hoantek	
+50	7650	c'hoantus	
+51	7651	c'hoarius	
+52	7652	goulennadeg	c'houlennadeg
+53	7653	kretaat	c'hretaat kreta kretaan kretaas kretae kretaec'h kretaemp kretaen kretaent kretaes kretaet kretaez kretafe kretafec'h kretafed kretafemp kretafen kretafent kretafes kretai kretaimp kretain kretaint kretais kretait kretaje kretajec'h kretajed kretajemp kretajen kretajent kretajes kretajoc'h kretajod kretajomp kretajont kretajout kretao kretaomp kretaont kretaor kretaot
+54	7654	kuzulva	c'huzulva
+55	7655	c'hwec'hkognek	
+56	7656	gwezus	c'hwezus
+57	7657	c'hwilerver	
+58	7658	chadennad	
+59	7659	charreadeg	
+60	7660	chivous	
+61	7661	choug	
+62	7662	da-c'hortoz	
+63	7663	da-gentañ	
+64	7664	taboulinañ	daboulinañ taboulinal taboulinan taboulinas taboulinat tabouline taboulinec'h taboulinemp taboulinen taboulinent taboulines taboulinet taboulinez taboulinfe taboulinfec'h taboulinfed taboulinfemp taboulinfen taboulinfent taboulinfes taboulini taboulinimp taboulinin taboulinint taboulinis taboulinit taboulinje taboulinjec'h taboulinjed taboulinjemp taboulinjen taboulinjent taboulinjes taboulinjoc'h taboulinjod taboulinjomp taboulinjont taboulinjout taboulino taboulinomp taboulinont taboulinor taboulinot tabourinañ
+65	7665	daere	
+66	7666	dalc'husted	
+67	7667	damantiñ	
+68	7668	damdeñvalijenn	
+69	7669	damguzh	
+70	7670	damsell	
+71	7671	danevellour	
+72	7672	dantelez	
+73	7673	daouilin	
+74	7674	daoulamm	
+75	7675	darbenn	darbennan darbennas darbenne darbennec'h darbennemp darbennen darbennent darbennes darbennet darbennez darbennfe darbennfec'h darbennfed darbennfemp darbennfen darbennfent darbennfes darbenni darbennimp darbennin darbennint darbennis darbennit darbennje darbennjec'h darbennjed darbennjemp darbennjen darbennjent darbennjes darbennjoc'h darbennjod darbennjomp darbennjont darbennjout darbenno darbennomp darbennont darbennor darbennot
+76	7676	daskirier	
+77	7677	daveel	
+78	7678	dazlamm	
+79	7679	dedenniñ	
+80	7680	degemennour	
+81	7681	dehouiad	
+82	7682	dentouriezh	
+83	7683	deog	deogoù
+84	7684	derez-uhelañ	
+85	7685	deskoniañ	deskoniet
+86	7686	deuñv	
+87	7687	devoudus	
+88	7688	diabeg	
+89	7689	diac'hub	
+90	7690	diac'hubiñ	diac'hubet
+91	7691	diamzer	
+92	7692	diannez	
+93	7693	diantav	
+94	7694	diastuzer	diastuzerioù
+95	7695	diawelad	diaweladoù
+96	7696	diazezel	
+97	7697	dibardon	
+98	7698	dibarzh	dibarzhioù
+99	7699	dibourvez	
+100	7700	dibreder	

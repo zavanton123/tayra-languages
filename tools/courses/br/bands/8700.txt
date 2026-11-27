@@ -1,0 +1,100 @@
+1	8601	grañj	c'hrañj
+2	8602	kreizour	c'hreizour
+3	8603	krenadenn	c'hrenadenn grenadenn
+4	8604	krouañs	c'hrouañs grouañs
+5	8605	grozol	c'hrozol
+6	8606	kundu	c'hundu gundu
+7	8607	c'hwirinat	c'hwirinje
+8	8608	c'hwitelladenn	c'hwitelladennoù
+9	8609	c'hwitellerez	c'hwitellerezioù
+10	8610	champouenn	champouennoù
+11	8611	charre	charreoù
+12	8612	kached	c'hached kachedoù
+13	8613	kalander	c'halander
+14	8614	garidell	c'haridell
+15	8615	kefred	c'hefred kefredioù
+16	8616	geriadurouriezh	c'heriadurouriezh
+17	8617	kilsell	c'hilsell
+18	8618	koubladur	c'houbladur
+19	8619	tailhenn	dailhenn tailhennoù
+20	8620	taolennañ	daolennañ
+21	8621	dargemm	targemm
+22	8622	tarzherez	darzherez tarzherezioù
+23	8623	daskrignat	daskrignet
+24	8624	tañvouezenn	dañvouezenn tañvouezennoù
+25	8625	teirmentek	deirmentek
+26	8626	dekvloaz	dekvloazioù zekvloaz
+27	8627	telennañ	delennañ delenniñ telennan telennas telennat telenne telennec'h telennemp telennen telennent telennes telennet telennez telennfe telennfec'h telennfed telennfemp telennfen telennfent telennfes telenni telennimp telennin telennint telennis telennit telenniñ telennje telennjec'h telennjed telennjemp telennjen telennjent telennjes telennjoc'h telennjod telennjomp telennjont telennjout telenno telennomp telennont telennor telennot
+28	8628	dellezout	dellezet tellez
+29	8629	dellid	dellidoù
+30	8630	demm	temm
+31	8631	desaverezh	zesaverezh
+32	8632	devadur	devadurioù
+33	8633	dezreveller	zezreveller
+34	8634	dezvad	zezvad
+35	8635	ti-labour	di-labour tier-labour
+36	8636	diankadenn	ziankadenn
+37	8637	diarc'hen	
+38	8638	dibarelezh	dibarelezhioù zibarelezh
+39	8639	dibouezañ	dibouezet
+40	8640	diboullañ	tiboull
+41	8641	dibrañ	dibran dibras dibrec'h dibremp dibren dibrent dibres dibrez dibrfe dibrfec'h dibrfed dibrfemp dibrfen dibrfent dibrfes dibri dibrimp dibrin dibrint dibris dibrit dibriñ dibrje dibrjec'h dibrjed dibrjemp dibrjen dibrjent dibrjes dibrjoc'h dibrjod dibrjomp dibrjont dibrjout dibromp dibront dibror dibrot tibrañ zibrañ
+42	8642	dibuner	tibuner
+43	8643	dic'haouiñ	dic'haouan dic'haouas dic'haoue dic'haouec'h dic'haouemp dic'haouen dic'haouent dic'haoues dic'haouet dic'haouez dic'haoufe dic'haoufec'h dic'haoufed dic'haoufemp dic'haoufen dic'haoufent dic'haoufes dic'haoui dic'haouimp dic'haouin dic'haouint dic'haouis dic'haouit dic'haouje dic'haoujec'h dic'haoujed dic'haoujemp dic'haoujen dic'haoujent dic'haoujes dic'haoujoc'h dic'haoujod dic'haoujomp dic'haoujont dic'haoujout dic'haouo dic'haouomp dic'haouont dic'haouor dic'haouot
+44	8644	dic'hlann	zic'hlann
+45	8645	dic'hoanagañ	dic'hoanaget
+46	8646	dic'hoantaat	dic'hoantaet
+47	8647	dic'houzañvus	
+48	8648	didoueziañ	zidoueziañ
+49	8649	didoullek	didoullet
+50	8650	diduell	diduelloù
+51	8651	tiernac'h	diernac'h
+52	8652	digarg	digargoù
+53	8653	digorded	zigorded
+54	8654	dihanañ	dihanet
+55	8655	dilerc'hiad	dilerc'hiadoù
+56	8656	dilerc'hiañ	zilerc'hiañ
+57	8657	dinaturel	dinaturet
+58	8658	diogelaat	ziogelaat
+59	8659	tiretenn	diretenn
+60	8660	diroud	ziroud
+61	8661	diskiantel	diskiantet
+62	8662	distilhañ	distilhet zistilhe
+63	8663	distripañ	distripet zistripañ
+64	8664	distrizhañ	distrizhe distrizhet
+65	8665	disurentez	zisurentez
+66	8666	divankañ	tivankont
+67	8667	divez	tivez
+68	8668	divigad	divigadoù
+69	8669	diwaskañ	diwasket
+70	8670	diyalc'hañ	diyalc'h diyalc'han diyalc'has diyalc'he diyalc'hec'h diyalc'hemp diyalc'hen diyalc'hent diyalc'hes diyalc'het diyalc'hez diyalc'hfe diyalc'hfec'h diyalc'hfed diyalc'hfemp diyalc'hfen diyalc'hfent diyalc'hfes diyalc'hi diyalc'himp diyalc'hin diyalc'hint diyalc'his diyalc'hit diyalc'hiñ diyalc'hje diyalc'hjec'h diyalc'hjed diyalc'hjemp diyalc'hjen diyalc'hjent diyalc'hjes diyalc'hjoc'h diyalc'hjod diyalc'hjomp diyalc'hjont diyalc'hjout diyalc'ho diyalc'homp diyalc'hont diyalc'hor diyalc'hot ziyalc'hañ
+71	8671	dizampartiz	zizampartiz
+72	8672	dizenez	dizenezoù
+73	8673	dizeriñ	dizere tizer
+74	8674	dizonestiz	zizonestiz
+75	8675	dizour	dizourañ
+76	8676	doaniañ	doaniet zoaniet
+77	8677	doazhadur	doazhadurioù
+78	8678	dodennel	dodennet
+79	8679	togenn	dogenn togennoù
+80	8680	tog-touseg	dogoù-touseg togoù-touseg
+81	8681	tonton	donton
+82	8682	torfedel	dorfedel
+83	8683	dournijerez	dournijerezioù
+84	8684	drailhenn	drailhennoù zrailhenn
+85	8685	drantiz	zrantiz
+86	8686	dreistgalloud	dreistgalloudoù
+87	8687	droukziforc'h	zroukziforc'h
+88	8688	druilhad	druilhadoù
+89	8689	durc'haat	durc'haet
+90	8690	eginañ	eginet
+91	8691	eilger	eilgerioù
+92	8692	emellañ	
+93	8693	enkerzh	enkerzhoù
+94	8694	erbedenn	erbedennoù
+95	8695	esparadenn	esparadennoù
+96	8696	eston	estonet
+97	8697	fakturenn	fakturennoù
+98	8698	falc'hat	falc'het
+99	8699	penngadour	fenngadour
+100	8700	beskennad	feskennad veskennad

@@ -59,7 +59,7 @@
 59	559	korn	c'hern c'herniel c'horn c'hornioù gern gorn gornioù kern kerniel kernioù kornioù
 60	560	dreist	dreistañ zreist
 61	561	red	redioù redoù
-62	562	harpañ	harpan harpas harpe harpec'h harped harpemp harpen harpent harper harpes harpet harpez harpfe harpfec'h harpfed harpfemp harpfen harpfent harpfes harpi harpimp harpin harpint harpis harpit harpiñ harpje harpjec'h harpjed harpjemp harpjen harpjent harpjes harpjoc'h harpjod harpjomp harpjont harpjout harpo harpomp harpont harpor harpot
+62	562	harpañ	harpan harpas harpe harpec'h harped harpemp harpen harpent harper harperien harpes harpet harpez harpfe harpfec'h harpfed harpfemp harpfen harpfent harpfes harpi harpimp harpin harpint harpis harpit harpiñ harpje harpjec'h harpjed harpjemp harpjen harpjent harpjes harpjoc'h harpjod harpjomp harpjont harpjout harpo harpomp harpont harpor harpot
 63	563	genad	c'henad genadoù
 64	564	tour	dourioù tourioù
 65	565	del	deil deilioù delienn deliennoù delioù zelioù
@@ -74,7 +74,7 @@
 74	574	dehou	dehoù zehou zehoù
 75	575	kalon	c'halon c'halonoù galon kalonoù
 76	576	tamm-ha-tamm	
-77	577	plant	blant blantenn blantennoù plantenn plantennoù plantoù
+77	577	plant	blant blantenn blantennoù blantoù plantenn plantennoù plantoù
 78	578	staget	
 79	579	keltiek	c'heltieg geltieg geltiek keltek
 80	580	parrez	barrez barrezioù barrouz farrez parrezioù varrez
@@ -83,7 +83,7 @@
 83	583	kuitaat	c'huitaat guita guitaas guitaat kuita kuitaan kuitaas kuitae kuitaec'h kuitaemp kuitaen kuitaent kuitaes kuitaet kuitaez kuitafe kuitafec'h kuitafed kuitafemp kuitafen kuitafent kuitafes kuitai kuitaimp kuitain kuitaint kuitais kuitait kuitaje kuitajec'h kuitajed kuitajemp kuitajen kuitajent kuitajes kuitajoc'h kuitajod kuitajomp kuitajont kuitajout kuitao kuitaomp kuitaont kuitaor kuitaot
 84	584	lies	liesañ liesoc'h
 85	585	talvoudegezh	dalvoudegezh dalvoudegezhioù talvoudegezhioù zalvoudegezh
-86	586	digor	digoroc'h digoroù tigor zigor
+86	586	digor	digoroc'h digoroù tigor zigor zigoroù
 87	587	park	bark barkeier parkeier parkoù vark varkoù
 88	588	karr	c'harr c'hirri garr girri kirri
 89	589	hañv	hañvioù hañvoù

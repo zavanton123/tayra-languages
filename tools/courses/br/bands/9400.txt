@@ -1,0 +1,100 @@
+1	9301	peoc'haer	beoc'haer
+2	9302	peoc'hgarouriezh	beoc'hgarouriezh
+3	9303	beoliad	beoliadoù
+4	9304	berad	
+5	9305	perchenn	berchenn
+6	9306	berradenn	
+7	9307	berrbadelezh	
+8	9308	berrder	
+9	9309	berrskriverezh	
+10	9310	berrweled	
+11	9311	berusted	
+12	9312	bervadenn	
+13	9313	bervañ	
+14	9314	beskadoriad	
+15	9315	beulke	
+16	9316	beurevezh	
+17	9317	peurleuniañ	beurleuniañ
+18	9318	peurunvaniñ	beurunvaniñ
+19	9319	beuzel	
+20	9320	peuzheñvelder	beuzheñvelder
+21	9321	bevedel	
+22	9322	bevennadur	
+23	9323	bevennek	
+24	9324	bevezer	
+25	9325	bevliesseurted	
+26	9326	bezamiral	
+27	9327	beziad	beziadoù
+28	9328	peñseañ	beñseañ
+29	9329	peñseliat	beñseliat
+30	9330	bidenn	bidennoù
+31	9331	bidev	
+32	9332	bidoc'hig	
+33	9333	biell	
+34	9334	bigof	
+35	9335	bigorn	
+36	9336	bigrier	
+37	9337	bilhard	
+38	9338	pilhenn	bilhenn
+39	9339	binioù-kozh	
+40	9340	bisig	bisigoù
+41	9341	biz-bras	
+42	9342	pizhoni	bizhoni
+43	9343	blazus	
+44	9344	blech	
+45	9345	plegadenn	blegadenn
+46	9346	bleiz-broc'h	
+47	9347	bleiz-garv	
+48	9348	blejal	
+49	9349	blinkañ	
+50	9350	bliz	
+51	9351	bloavezhiek	
+52	9352	bloc'heilad	bloc'heiladoù
+53	9353	blouc'h	
+54	9354	bloñsañ	bloñset
+55	9355	boc'h	
+56	9356	poellegezh	boellegezh
+57	9357	bohriom	
+58	9358	pokadeg	bokadeg
+59	9359	boked-laezh	bokedoù-laezh
+60	9360	poltredaoueg	boltredaoueg
+61	9361	bolzek	
+62	9362	boudinell	boudinelloù
+63	9363	boued-touseg	
+64	9364	bougenn	
+65	9365	boujienn	boujiennoù
+66	9366	bouk	
+67	9367	boulc'h	
+68	9368	bouloñjer	
+69	9369	poupinell	boupinell
+70	9370	bourevierezh	
+71	9371	bourlasek	
+72	9372	pourvezerez	bourvezerez
+73	9373	boutinadur	
+74	9374	brageriz	bragerizoù
+75	9375	braog	
+76	9376	bredelfenner	
+77	9377	bredwezher	
+78	9378	brell	
+79	9379	breolimer	
+80	9380	bres	
+81	9381	prezour	bresour
+82	9382	prestadenn	brestadenn
+83	9383	breutadenn	
+84	9384	brezhonekadur	
+85	9385	brientek	
+86	9386	brignen	
+87	9387	brikañ	briket
+88	9388	brimbalerezh	
+89	9389	priolez	briolez
+90	9390	briwerzh	
+91	9391	brizhañ	brizhet
+92	9392	brizhkredennus	
+93	9393	brizhyezh	
+94	9394	broadeladur	broadeladurioù
+95	9395	brochenn	brochennoù
+96	9396	brodet	
+97	9397	brokard	
+98	9398	brokusted	
+99	9399	bronneg	
+100	9400	broudiñ	

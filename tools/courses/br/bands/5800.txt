@@ -1,0 +1,100 @@
+1	5701	kleñved-red	c'hleñved-red gleñved-red
+2	5702	gloaziad	c'hloazidi
+3	5703	koufr	c'houfr
+4	5704	c'hweziñ	c'hwesiñ c'hwezan c'hwezas c'hweze c'hwezec'h c'hwezemp c'hwezen c'hwezent c'hwezes c'hwezet c'hwezez c'hwezfe c'hwezfec'h c'hwezfed c'hwezfemp c'hwezfen c'hwezfent c'hwezfes c'hwezi c'hwezimp c'hwezin c'hwezint c'hwezis c'hwezit c'hwezje c'hwezjec'h c'hwezjed c'hwezjemp c'hwezjen c'hwezjent c'hwezjes c'hwezjoc'h c'hwezjod c'hwezjomp c'hwezjont c'hwezjout c'hwezo c'hwezomp c'hwezont c'hwezor c'hwezot
+5	5705	c'hwil	c'hwiled
+6	5706	tartezenn	dartezenn tartezennoù
+7	5707	daspugner	daspugnerioù
+8	5708	devezh-arat	zevezh-arat
+9	5709	dibarded	zibarded
+10	5710	digasted	zigasted
+11	5711	digoadañ	digoadan digoadas digoade digoadec'h digoademp digoaden digoadent digoades digoadet digoadez digoadfe digoadfec'h digoadfed digoadfemp digoadfen digoadfent digoadfes digoadi digoadimp digoadin digoadint digoadis digoadit digoadiñ digoadje digoadjec'h digoadjed digoadjemp digoadjen digoadjent digoadjes digoadjoc'h digoadjod digoadjomp digoadjont digoadjout digoado digoadomp digoadont digoador digoadot tigoadañ zigoadañ
+12	5712	dinoaz	dinoasoc'h
+13	5713	dipit	zipit
+14	5714	disac'hañ	
+15	5715	disranner	tisranner
+16	5716	divesker	zivesker
+17	5717	divontañ	divont divontan divontas divonte divontec'h divontemp divonten divontent divontes divontet divontez divontfe divontfec'h divontfed divontfemp divontfen divontfent divontfes divonti divontimp divontin divontint divontis divontit divontiñ divontje divontjec'h divontjed divontjemp divontjen divontjent divontjes divontjoc'h divontjod divontjomp divontjont divontjout divonto divontomp divontont divontor divontot tivontañ zivontañ
+18	5718	divouzellañ	divouzellet zivouzellañ
+19	5719	divuhez	zivuhez
+20	5720	dizingalder	dizingalderioù
+21	5721	dizroug	dizrouk
+22	5722	dogan	doganed
+23	5723	dreinek	dreineg
+24	5724	droukrañs	zroukrañs
+25	5725	ec'honder	ec'honderioù
+26	5726	erc'hek	erc'hegoù
+27	5727	frezenn	frezennoù
+28	5728	kaerell	gaerell
+29	5729	geriennoù	c'heriennoù
+30	5730	kibell	gibell kibelloù
+31	5731	grevusted	c'hrevusted
+32	5732	gwaskediñ	gwasked gwaskedan gwaskedas gwaskede gwaskedec'h gwaskedemp gwaskeden gwaskedent gwaskedes gwaskedet gwaskedez gwaskedfe gwaskedfec'h gwaskedfed gwaskedfemp gwaskedfen gwaskedfent gwaskedfes gwaskedi gwaskedimp gwaskedin gwaskedint gwaskedis gwaskedit gwaskedje gwaskedjec'h gwaskedjed gwaskedjemp gwaskedjen gwaskedjent gwaskedjes gwaskedjoc'h gwaskedjod gwaskedjomp gwaskedjont gwaskedjout gwaskedo gwaskedomp gwaskedont gwaskedor gwaskedot kwaskediñ waskediñ
+33	5733	harz-lamm	harzoù-lamm
+34	5734	henvoaz	henvoazioù
+35	5735	horzh	horzhioù
+36	5736	kaotigell	gaotigell
+37	5737	kartouchenn	gartouchenn kartouchennoù
+38	5738	kehel	c'hehel
+39	5739	kevelouri	kevelourioù
+40	5740	kodianidigezh	godianidigezh
+41	5741	korvo	gorvo
+42	5742	korvoerezh	gorvoerezh
+43	5743	koumoulek	goumoulek
+44	5744	krazañ	c'hrazañ grazañ kraz krazan krazas kraze krazec'h krazemp krazen krazent krazes krazet krazez krazfe krazfec'h krazfed krazfemp krazfen krazfent krazfes krazi krazimp krazin krazint krazis krazit kraziñ krazje krazjec'h krazjed krazjemp krazjen krazjent krazjes krazjoc'h krazjod krazjomp krazjont krazjout krazo krazomp krazont krazor krazot
+45	5745	kuñv	guñv
+46	5746	kêriad	gêriz kêriz
+47	5747	lardañ	lard lardan lardas larde lardec'h lardemp larden lardent lardes lardet lardez lardfe lardfec'h lardfed lardfemp lardfen lardfent lardfes lardi lardimp lardin lardint lardis lardit lardiñ lardje lardjec'h lardjed lardjemp lardjen lardjent lardjes lardjoc'h lardjod lardjomp lardjont lardjout lardo lardomp lardont lardor lardot
+48	5748	liver	liverez
+49	5749	louzaoueg	louzaouegoù
+50	5750	lugernus	lugernusañ
+51	5751	maen-bez	vaen-bez
+52	5752	maenad	maenadoù
+53	5753	marc'hañ	marc'het varc'het
+54	5754	margodenn	margodennoù vargodenn
+55	5755	meradur	meradurioù
+56	5756	metan	vetan
+57	5757	mont-ha-dont	vont-ha-dont
+58	5758	neblec'h	
+59	5759	nested	nestedoù
+60	5760	penngarter	benngarter
+61	5761	piaouañ	biaouañ piaou piaouan piaouas piaouat piaoue piaouec'h piaouemp piaouen piaouent piaoues piaouet piaouez piaoufe piaoufec'h piaoufed piaoufemp piaoufen piaoufent piaoufes piaoui piaouimp piaouin piaouint piaouis piaouit piaouje piaoujec'h piaoujed piaoujemp piaoujen piaoujent piaoujes piaoujoc'h piaoujod piaoujomp piaoujont piaoujout piaouo piaouomp piaouont piaouor piaouot piaouout
+62	5762	rannamzer	rannamzerioù
+63	5763	rannvloaz	rannvloazioù
+64	5764	sac'h-dorn	seier-dorn
+65	5765	sapr	saprenn
+66	5766	skiañ	skian skias skie skiec'h skied skiemp skien skient skies skiet skiez skife skifec'h skifed skifemp skifen skifent skifes skii skiimp skiin skiint skiis skiit skije skijec'h skijed skijemp skijen skijent skijes skijoc'h skijod skijomp skijont skijout skio skiomp skiont skior skiot
+67	5767	skouergorneg	skouergornegoù
+68	5768	stokell	stokelloù
+69	5769	talvoudenn	dalvoudenn talvoudennoù
+70	5770	tanveneziek	danveneziek
+71	5771	tarroz	tarrozioù
+72	5772	torr-dimeziñ	dorr-dimeziñ
+73	5773	treitouriñ	dreitouriñ treitouran treitouras treitoure treitourec'h treitouremp treitouren treitourent treitoures treitouret treitourfe treitourfec'h treitourfed treitourfemp treitourfen treitourfent treitourfes treitouri treitourimp treitourin treitourint treitouris treitourit treitourje treitourjec'h treitourjed treitourjemp treitourjen treitourjent treitourjes treitourjoc'h treitourjod treitourjomp treitourjont treitourjout treitouro treitouromp treitouront treitouror treitourot zreitouriñ
+74	5774	vaksinañ	vaksinan vaksinas vaksine vaksinec'h vaksinemp vaksinen vaksinent vaksines vaksinet vaksinez vaksinfe vaksinfec'h vaksinfed vaksinfemp vaksinfen vaksinfent vaksinfes vaksini vaksinimp vaksinin vaksinint vaksinis vaksinit vaksiniñ vaksinje vaksinjec'h vaksinjed vaksinjemp vaksinjen vaksinjent vaksinjes vaksinjoc'h vaksinjod vaksinjomp vaksinjont vaksinjout vaksino vaksinomp vaksinont vaksinor vaksinot
+75	5775	merdead	verdeidi
+76	5776	breizhadelezh	vreizhadelezh
+77	5777	komm	c'homm
+78	5778	lab	laboù
+79	5779	bezant	vezant
+80	5780	bleiniañ	bleiniet
+81	5781	dasorc'h	zasorc'h
+82	5782	desellout	desellet zesellout
+83	5783	diveliel	diveliet
+84	5784	tosenn	dosenn
+85	5785	droukvesk	zroukvesk
+86	5786	ensav	ensavioù
+87	5787	ereadur	ereadurioù
+88	5788	esperout	esperet
+89	5789	feukañ	feuk feukas feuke feukec'h feukemp feuken feukent feukes feukez feukfe feukfec'h feukfed feukfemp feukfen feukfent feukfes feuki feukimp feukin feukint feukis feukit feukiñ feukje feukjec'h feukjed feukjemp feukjen feukjent feukjes feukjoc'h feukjod feukjomp feukjont feukjout feuko feukomp feukont feukor feukot
+90	5790	flemm	flemmoù
+91	5791	gourvab	gourvibien
+92	5792	gwispid	wispidenn
+93	5793	keveliñ	c'heveliñ kevelet
+94	5794	lech	lechioù
+95	5795	melkonius	velkonius
+96	5796	pareour	pareer
+97	5797	pemzekvet	bemzekvet
+98	5798	pennkêr	pennkêrioù
+99	5799	peurbad	beurbad
+100	5800	sklentenn	sklentennoù

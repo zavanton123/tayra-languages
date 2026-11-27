@@ -1,0 +1,100 @@
+1	5601	untu	
+2	5602	unyezhek	
+3	5603	mesker	vesker
+4	5604	wolfram	
+5	5605	yac'haat	yac'ha yac'haad yac'haan yac'haas yac'hae yac'haec'h yac'haemp yac'haen yac'haent yac'haes yac'haet yac'haez yac'hafe yac'hafec'h yac'hafed yac'hafemp yac'hafen yac'hafent yac'hafes yac'hai yac'haimp yac'hain yac'haint yac'hais yac'hait yac'haje yac'hajec'h yac'hajed yac'hajemp yac'hajen yac'hajent yac'hajes yac'hajoc'h yac'hajod yac'hajomp yac'hajont yac'hajout yac'hao yac'haomp yac'haont yac'haor yac'haot
+6	5606	zirkoniom	
+7	5607	ankoù	
+8	5608	lae	
+9	5609	sap	
+10	5610	tin	
+11	5611	a-bep-eil	
+12	5612	almanag	
+13	5613	aparchant	
+14	5614	aprouiñ	aprouet
+15	5615	aradennad-venezioù	
+16	5616	ardeiñ	
+17	5617	askoridik	
+18	5618	banjo	
+19	5619	brizhkredenn	brizhkredennoù
+20	5620	buander	
+21	5621	chouanerezh	
+22	5622	diginkl	
+23	5623	digor-frank	
+24	5624	dik	
+25	5625	disuj	
+26	5626	dizesper	
+27	5627	drev	
+28	5628	eskobel	
+29	5629	esperantek	
+30	5630	frealz	
+31	5631	gleborek	
+32	5632	gwareger	
+33	5633	herr	
+34	5634	hoalerezh	
+35	5635	jod	
+36	5636	jubennour	
+37	5637	kizidig	
+38	5638	klet	
+39	5639	load	
+40	5640	lud	
+41	5641	lus	
+42	5642	maoutken	
+43	5643	mezh	
+44	5644	nepred	
+45	5645	norvegeg	
+46	5646	ognon	
+47	5647	ranngêr	
+48	5648	sev	
+49	5649	skoutez	skouted
+50	5650	stegnet	
+51	5651	sturiadel	
+52	5652	timat	
+53	5653	troadur	
+54	5654	ac'haleno	
+55	5655	drevezet	
+56	5656	fallaenn	
+57	5657	hast	
+58	5658	kent-se	
+59	5659	kreizer	
+60	5660	peuzsur	
+61	5661	tatouet	
+62	5662	trev	
+63	5663	ano	
+64	5664	arc'hwelañ	
+65	5665	beliezh	
+66	5666	berr-ha-berr	
+67	5667	pillig	billig
+68	5668	brenn	
+69	5669	enaouer	
+70	5670	gramadeg	
+71	5671	kemeridigezh	
+72	5672	kreien	
+73	5673	libr	
+74	5674	ode	
+75	5675	og	
+76	5676	skrivadenn	
+77	5677	ter	
+78	5678	triliv	
+79	5679	unnekvet	
+80	5680	seder	
+81	5681	taked	daked zaked
+82	5682	pifal	bifal fife pifan pifas pifañ pife pifec'h pifemp pifen pifent pifes pifet pifez piffe piffec'h piffed piffemp piffen piffent piffes pifi pifimp pifin pifint pifis pifit pifje pifjec'h pifjed pifjemp pifjen pifjent pifjes pifjoc'h pifjod pifjomp pifjont pifjout pifo pifomp pifont pifor pifot
+83	5683	gouin	gouinoù
+84	5684	gwent	went
+85	5685	kelvin	c'helvin
+86	5686	amzeriat	amzeriet
+87	5687	antren	antrean antreas antrejont antrenan antrenas antrene antrenec'h antrenemp antrenen antrenent antrenes antrenet antrenez antrenfe antrenfec'h antrenfed antrenfemp antrenfen antrenfent antrenfes antreni antrenimp antrenin antrenint antrenis antrenit antrenje antrenjec'h antrenjed antrenjemp antrenjen antrenjent antrenjes antrenjoc'h antrenjod antrenjomp antrenjont antrenjout antreno antrenomp antrenont antrenor antrenot antreomp
+88	5688	aotenn	aotennoù
+89	5689	arc'hael	
+90	5690	arc'hantinat	
+91	5691	bazhad	bazhadoù vazhad
+92	5692	beket	veket
+93	5693	penndudenn	benndudenn
+94	5694	bestl	vestl
+95	5695	bevoniel	vevoniel
+96	5696	borodus	vorodus
+97	5697	pouloud	bouloudenn
+98	5698	bredoniel	vredoniel
+99	5699	bruzunañ	bruzunan bruzunas bruzune bruzunec'h bruzunemp bruzunen bruzunent bruzunes bruzunet bruzunez bruzunfe bruzunfec'h bruzunfed bruzunfemp bruzunfen bruzunfent bruzunfes bruzuni bruzunimp bruzunin bruzunint bruzunis bruzunit bruzuniñ bruzunje bruzunjec'h bruzunjed bruzunjemp bruzunjen bruzunjent bruzunjes bruzunjoc'h bruzunjod bruzunjomp bruzunjont bruzunjout bruzuno bruzunomp bruzunont bruzunor bruzunot pruzunañ vruzunañ vruzuniñ
+100	5700	bual	bualed

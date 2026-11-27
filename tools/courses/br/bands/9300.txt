@@ -1,0 +1,100 @@
+1	9201	aozilh	
+2	9202	aplud	
+3	9203	arabadus	
+4	9204	arallrevelezh	
+5	9205	arallreviat	
+6	9206	araoger	
+7	9207	araogour	
+8	9208	arboellour	
+9	9209	arc'hant-bev	
+10	9210	arc'hlas	
+11	9211	ardaouel	
+12	9212	ardivinkerezh	
+13	9213	ardraoñ	
+14	9214	argaserezh	
+15	9215	argerzhadurel	
+16	9216	argiladeg	
+17	9217	argoll	
+18	9218	arlun	
+19	9219	armel-voger	
+20	9220	armenieg	
+21	9221	arouestlañ	
+22	9222	arouezek	
+23	9223	arsavlec'h	
+24	9224	arsell	arselloù
+25	9225	arster	arsterioù
+26	9226	arvariñ	arvaran arvaras arvare arvarec'h arvaremp arvaren arvarent arvares arvaret arvarez arvarfe arvarfec'h arvarfed arvarfemp arvarfen arvarfent arvarfes arvari arvarimp arvarin arvarint arvaris arvarit arvarje arvarjec'h arvarjed arvarjemp arvarjen arvarjent arvarjes arvarjoc'h arvarjod arvarjomp arvarjont arvarjout arvaro arvaromp arvaront arvaror arvarot
+27	9227	arvell	
+28	9228	arzhig	
+29	9229	ask	
+30	9230	askañ	askan askas aske askec'h askemp asken askent askes asket askez askfe askfec'h askfed askfemp askfen askfent askfes aski askimp askin askint askis askit askje askjec'h askjed askjemp askjen askjent askjes askjoc'h askjod askjomp askjont askjout asko askomp askont askor askot
+31	9231	astaler	
+32	9232	astalus	
+33	9233	astat	
+34	9234	astr	
+35	9235	atahiner	
+36	9236	atapi	
+37	9237	atapiet	
+38	9238	atavik	
+39	9239	atebeg	
+40	9240	aters	
+41	9241	avalenneg	
+42	9242	avel-sil	
+43	9243	avel-vor	
+44	9244	aveler	
+45	9245	avi	
+46	9246	avieler	
+47	9247	avielerezh	
+48	9248	avoukez	
+49	9249	avoultrerez	
+50	9250	avrelod	
+51	9251	awener	
+52	9252	awenerez	
+53	9253	azaouez	
+54	9254	azaoueziñ	azaouezet
+55	9255	azasadenn	
+56	9256	azeulidigezh	
+57	9257	azgell	
+58	9258	azgoulenn	azgoulennan azgoulennas azgoulenne azgoulennec'h azgoulennemp azgoulennen azgoulennent azgoulennes azgoulennet azgoulennez azgoulennfe azgoulennfec'h azgoulennfed azgoulennfemp azgoulennfen azgoulennfent azgoulennfes azgoulenni azgoulennimp azgoulennin azgoulennint azgoulennis azgoulennit azgoulennje azgoulennjec'h azgoulennjed azgoulennjemp azgoulennjen azgoulennjent azgoulennjes azgoulennjoc'h azgoulennjod azgoulennjomp azgoulennjont azgoulennjout azgoulenno azgoulennomp azgoulennont azgoulennor azgoulennot
+59	9259	azgwel	
+60	9260	azviñ	azvan azvas azve azvec'h azvediñ azvemp azven azvent azves azvet azvez azvfe azvfec'h azvfed azvfemp azvfen azvfent azvfes azvi azvimp azvin azvint azvis azvit azvje azvjec'h azvjed azvjemp azvjen azvjent azvjes azvjoc'h azvjod azvjomp azvjont azvjout azvo azvomp azvont azvor azvot
+61	9261	añchenn	
+62	9262	pabell	babell
+63	9263	babouz	
+64	9264	babu	
+65	9265	badezañ	
+66	9266	badj	badjoù
+67	9267	paelon	baelon
+68	9268	bageadus	
+69	9269	pakistanat	bakistanat
+70	9270	balaenn	
+71	9271	balirek	
+72	9272	balkon	balkonoù
+73	9273	baloñs	
+74	9274	palvata	balvata
+75	9275	bambouzeg	bambouzegoù
+76	9276	bangounellat	
+77	9277	baotek	
+78	9278	baraenn	baraennoù
+79	9279	barbaou	
+80	9280	parchenn	barchenn
+81	9281	parfeted	barfeted
+82	9282	barilhad	
+83	9283	parlanter	barlanter
+84	9284	barr-pluñv	barroù-pluñv
+85	9285	partapl	bartapl
+86	9286	barzhel	
+87	9287	barzhelezh	
+88	9288	pastezour	bastezour
+89	9289	paterat	baterat
+90	9290	bazhvalan	
+91	9291	pedagogiezh	bedagogiezh
+92	9292	befrez	
+93	9293	beg-e-dog	
+94	9294	bendell	bendelloù
+95	9295	benedisite	
+96	9296	benerezh	
+97	9297	penndog	benndog
+98	9298	pennlavarenn	bennlavarenn
+99	9299	pennsodiñ	bennsodiñ
+100	9300	pennvinistr	bennvinistr

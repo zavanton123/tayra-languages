@@ -1,0 +1,100 @@
+1	8001	lenn-vor	
+2	8002	lestrsaverezh	
+3	8003	levierezh	
+4	8004	levrier	
+5	8005	lezennadur	
+6	8006	lezireg	
+7	8007	lezvugale	
+8	8008	lidambroug	
+9	8009	lidus	
+10	8010	liesegezh	
+11	8011	lieskement	lieskementoù
+12	8012	lieskouc'h	
+13	8013	liesvroadek	
+14	8014	lij	
+15	8015	likentez	
+16	8016	liketenn	
+17	8017	linchiñ	linchet
+18	8018	lineg	
+19	8019	livek	
+20	8020	livrin	
+21	8021	livrizh	
+22	8022	lizherennek	
+23	8023	liñvek	
+24	8024	loargresk	
+25	8025	loenheñvel	
+26	8026	logota	logotaan logotaas logotae logotaec'h logotaemp logotaen logotaent logotaes logotaet logotaez logotafe logotafec'h logotafed logotafemp logotafen logotafent logotafes logotai logotaimp logotain logotaint logotais logotait logotaje logotajec'h logotajed logotajemp logotajen logotajent logotajes logotajoc'h logotajod logotajomp logotajont logotajout logotao logotaomp logotaont logotaor logotaot
+27	8027	lojeris	lojerisoù
+28	8028	lontegezh	
+29	8029	lotuz	
+30	8030	louedañ	louedan louedas louede louedec'h louedemp loueden louedent louedes louedet louedez louedfe louedfec'h louedfed louedfemp louedfen louedfent louedfes louedi louedimp louedin louedint louedis louedit louediñ louedje louedjec'h louedjed louedjemp louedjen louedjent louedjes louedjoc'h louedjod louedjomp louedjont louedjout louedo louedomp louedont louedor louedot
+31	8031	lourennek	
+32	8032	luadenniñ	luadennet
+33	8033	luc'hskeudennour	
+34	8034	luc'hvanner	
+35	8035	luc'hvannañ	luc'hvannet
+36	8036	lufrañ	lufran lufras lufre lufrec'h lufremp lufren lufrent lufres lufret lufrez lufrfe lufrfec'h lufrfed lufrfemp lufrfen lufrfent lufrfes lufri lufrimp lufrin lufrint lufris lufrit lufriñ lufrje lufrjec'h lufrjed lufrjemp lufrjen lufrjent lufrjes lufrjoc'h lufrjod lufrjomp lufrjont lufrjout lufro lufromp lufront lufror lufrot
+37	8037	lurell	
+38	8038	mac'hom	
+39	8039	mac'homer	
+40	8040	maen-badez	
+41	8041	maen-hir	
+42	8042	maeziadez	maeziadoù
+43	8043	maguzenn	maguzennoù
+44	8044	mangez	
+45	8045	marbluñv	
+46	8046	marokan	
+47	8047	mañsonadur	mañsonadurioù
+48	8048	mañsonat	mañsonan mañsonas mañsonañ mañsone mañsonec'h mañsonemp mañsonen mañsonent mañsones mañsonet mañsonfe mañsonfec'h mañsonfed mañsonfemp mañsonfen mañsonfent mañsonfes mañsoni mañsonimp mañsonin mañsonint mañsonis mañsonit mañsoniñ mañsonje mañsonjec'h mañsonjed mañsonjemp mañsonjen mañsonjent mañsonjes mañsonjoc'h mañsonjod mañsonjomp mañsonjont mañsonjout mañsono mañsonomp mañsonont mañsonor mañsonot vañsonat
+49	8049	menajer	
+50	8050	mengleuziañ	
+51	8051	mennek	
+52	8052	merenn-vihan	
+53	8053	merzherez	
+54	8054	mestaol	mestaolioù
+55	8055	meurded	
+56	8056	meutad	
+57	8057	mezv-dall	
+58	8058	minoc'h	
+59	8059	mizieg	
+60	8060	moc'herezh	
+61	8061	mogeriek	
+62	8062	moldovat	
+63	8063	monitour	
+64	8064	montr	montroù
+65	8065	morianetaer	
+66	8066	morvaout	
+67	8067	mougadur	
+68	8068	nac'hidigezh	
+69	8069	naonek	
+70	8070	neodimiom	
+71	8071	neptuegezh	
+72	8072	neuierezh	
+73	8073	neñvel	
+74	8074	nijadeg	
+75	8075	nikel	
+76	8076	nitrek	
+77	8077	niverek	
+78	8078	dor-dal	nor-dal
+79	8079	norvegek	
+80	8080	o-unan-penn	
+81	8081	obolenn	
+82	8082	oged	ogedoù
+83	8083	orbid	orbidoù
+84	8084	osmiom	
+85	8085	ostiziad	
+86	8086	otiz	
+87	8087	pajennaozadur	
+88	8088	panellerezh	
+89	8089	paper-moger	
+90	8090	pardaez	
+91	8091	pariezh	
+92	8092	patromez	
+93	8093	pavez	pavezioù
+94	8094	pechez	
+95	8095	pedagogour	
+96	8096	pedergwern	
+97	8097	pelleilenn	pelleilennoù
+98	8098	pellseller	
+99	8099	pennaotrouniezh	
+100	8100	pennc'hoarier	

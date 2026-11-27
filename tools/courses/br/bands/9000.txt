@@ -1,0 +1,100 @@
+1	8901	chem	
+2	8902	damc'hlas	
+3	8903	damc'houde	
+4	8904	darbariñ	
+5	8905	dedostaat	
+6	8906	dellezegezh	
+7	8907	denheñvelegezh	
+8	8908	ters	ders
+9	8909	devod	
+10	8910	diberzh	
+11	8911	dichañsus	
+12	8912	dielfenner	
+13	8913	difazier	
+14	8914	difur	
+15	8915	digempoell	
+16	8916	dilennel	
+17	8917	dileuridigezh	
+18	8918	disemplañ	
+19	8919	diskrivadur	
+20	8920	distrob	
+21	8921	diuzel	
+22	8922	dizunvan	
+23	8923	dodje	
+24	8924	dorner	
+25	8925	dourennekaat	
+26	8926	doñviñ	doñvan doñvas doñvañ doñve doñvec'h doñvemp doñven doñvent doñves doñvet doñvez doñvfe doñvfec'h doñvfed doñvfemp doñvfen doñvfent doñvfes doñvi doñvimp doñvin doñvint doñvis doñvit doñvje doñvjec'h doñvjed doñvjemp doñvjen doñvjent doñvjes doñvjoc'h doñvjod doñvjomp doñvjont doñvjout doñvo doñvomp doñvont doñvor doñvot
+27	8927	dremmour	
+28	8928	dreog	
+29	8929	drezeg	
+30	8930	duvelliñ	
+31	8931	e-kreizig-kreiz	
+32	8932	eizhad	
+33	8933	elan	
+34	8934	emwel	
+35	8935	enoeiñ	enoean enoeas enoee enoeec'h enoeemp enoeen enoeent enoees enoeet enoeez enoefe enoefec'h enoefed enoefemp enoefen enoefent enoefes enoei enoeimp enoein enoeint enoeis enoeit enoeje enoejec'h enoejed enoejemp enoejen enoejent enoejes enoejoc'h enoejod enoejomp enoejont enoejout enoeo enoeomp enoeont enoeor enoeot
+36	8936	erviñ	ervan ervas erve ervec'h ervemp erven ervent erves ervet ervez ervfe ervfec'h ervfed ervfemp ervfen ervfent ervfes ervi ervimp ervin ervint ervis ervit ervje ervjec'h ervjed ervjemp ervjen ervjent ervjes ervjoc'h ervjod ervjomp ervjont ervjout ervo ervomp ervont ervor ervot
+37	8937	euzhiñ	
+38	8938	evnig	
+39	8939	eñvoradur	
+40	8940	faezhiñ	
+41	8941	falc'h	
+42	8942	falster	
+43	8943	faltazienn	
+44	8944	farsañ	
+45	8945	flammeg	
+46	8946	flav	
+47	8947	fleütal	
+48	8948	poch	foch
+49	8949	fourgasiñ	
+50	8950	frankizenn	
+51	8951	fru	
+52	8952	galfrez	
+53	8953	galisian	
+54	8954	karat	garat
+55	8955	karnata	garnata
+56	8956	karpenn	garpenn
+57	8957	keneve	geneve
+58	8958	glas-mor	
+59	8959	kleuzeur	gleuzeur
+60	8960	goafheñvel	
+61	8961	gouezel	gouezeled
+62	8962	gouher	
+63	8963	gourdouaren	
+64	8964	gramadegour	
+65	8965	krener	grenerien
+66	8966	greüs	
+67	8967	gwallsi	
+68	8968	gwaregata	
+69	8969	gwerinel	
+70	8970	gwezhiañ	
+71	8971	gwilou	gwillou
+72	8972	gwrimenn	
+73	8973	hañv-c'hoañv	
+74	8974	hertz	
+75	8975	hewerzh	
+76	8976	heñvelstumm	
+77	8977	holener	
+78	8978	hollwashaour	
+79	8979	hu	
+80	8980	hual	
+81	8981	huan	
+82	8982	hunegan	
+83	8983	imbroudus	
+84	8984	imram	
+85	8985	jad	
+86	8986	jarneal	jarnean jarneas jarnee jarneec'h jarneemp jarneen jarneent jarnees jarneet jarneez jarnefe jarnefec'h jarnefed jarnefemp jarnefen jarnefent jarnefes jarnei jarneimp jarnein jarneint jarneis jarneit jarneje jarnejec'h jarnejed jarnejemp jarnejen jarnejent jarnejes jarnejoc'h jarnejod jarnejomp jarnejont jarnejout jarneo jarneomp jarneont jarneor jarneot
+87	8987	jarne	jarneoù
+88	8988	jenofl	
+89	8989	jenoflez	
+90	8990	kala-hañv	
+91	8991	kanastell	
+92	8992	kanerezh	
+93	8993	kaniri	
+94	8994	kaour	
+95	8995	kartenn-hent	kartennoù-hent
+96	8996	kastellad	
+97	8997	kendael	
+98	8998	kerc'heiz	
+99	8999	kevranneg	
+100	9000	kevredek	

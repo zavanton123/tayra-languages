@@ -3,7 +3,7 @@
 3	1103	unvan	
 4	1104	noazh	
 5	1105	aerborzh	aerborzhioù
-6	1106	brezeler	brezelerien brezelerion brezelour vrezelour
+6	1106	brezeler	brezelerien brezelerion brezelour brezelourien vrezelour vrezelourien
 7	1107	feunteun	feunteunioù
 8	1108	pempvet	bempvet fempvet pempet
 9	1109	lammat	lammad lamman lammas lamme lammec'h lammed lammemp lammen lamment lammer lammes lammet lammez lammfe lammfec'h lammfed lammfemp lammfen lammfent lammfes lammi lammimp lammin lammint lammis lammit lammje lammjec'h lammjed lammjemp lammjen lammjent lammjes lammjoc'h lammjod lammjomp lammjont lammjout lammo lammoc'h lammomp lammont lammor lammot
@@ -48,7 +48,7 @@
 48	1148	trawalc'h	
 49	1149	votadeg	votadegoù
 50	1150	matematik	matematikoù
-51	1151	klemm	c'hlemm glemm glemmas glemme klemman klemmas klemme klemmec'h klemmemp klemmen klemment klemmes klemmet klemmez klemmfe klemmfec'h klemmfed klemmfemp klemmfen klemmfent klemmfes klemmi klemmimp klemmin klemmint klemmioù klemmis klemmit klemmje klemmjec'h klemmjed klemmjemp klemmjen klemmjent klemmjes klemmjoc'h klemmjod klemmjomp klemmjont klemmjout klemmo klemmomp klemmont klemmor klemmot klemmoù
+51	1151	klemm	c'hlemm c'hlemmoù glemm glemmas glemme glemmoù klemman klemmas klemme klemmec'h klemmemp klemmen klemment klemmes klemmet klemmez klemmfe klemmfec'h klemmfed klemmfemp klemmfen klemmfent klemmfes klemmi klemmimp klemmin klemmint klemmioù klemmis klemmit klemmje klemmjec'h klemmjed klemmjemp klemmjen klemmjent klemmjes klemmjoc'h klemmjod klemmjomp klemmjont klemmjout klemmo klemmomp klemmont klemmor klemmot klemmoù
 52	1152	archer	archerien archerion
 53	1153	martolod	martoloded vartolod vartoloded
 54	1154	poazhañ	boazhat boazhañ foazhañ poazhan poazhas poazhat poazhe poazhec'h poazhemp poazhen poazhent poazhes poazhet poazhez poazhfec'h poazhfed poazhfemp poazhfen poazhfent poazhfes poazhi poazhimp poazhin poazhint poazhis poazhit poazhiñ poazhjec'h poazhjed poazhjemp poazhjen poazhjent poazhjes poazhjoc'h poazhjod poazhjomp poazhjont poazhjout poazho poazhomp poazhont poazhor poazhot

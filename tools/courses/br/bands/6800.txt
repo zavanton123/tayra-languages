@@ -1,0 +1,100 @@
+1	6701	braster	
+2	6702	bredvezeg	
+3	6703	brein-krign	
+4	6704	brezelek	
+5	6705	brezelel	
+6	6706	brikoloù	
+7	6707	bugulgan	bugulganoù
+8	6708	bulgareg	
+9	6709	karrad	c'harrad
+10	6710	kelc'hier	c'helc'hier
+11	6711	kendi	c'hendi
+12	6712	kengereg	c'hengereg
+13	6713	klemmer	c'hlemmer
+14	6714	c'hwervoni	
+15	6715	c'hwezadur	
+16	6716	c'hwezañ	
+17	6717	c'hwiblaer	
+18	6718	c'hwibon	
+19	6719	cherif	
+20	6720	kastiz-lazh	c'hastiz-lazh
+21	6721	kengourener	c'hengourener
+22	6722	kerneveg	c'herneveg
+23	6723	damkanel	
+24	6724	damkanour	
+25	6725	danvezelouriezh	
+26	6726	daoubleget	
+27	6727	daouder	
+28	6728	daouzeksilabennek	
+29	6729	daspugn	
+30	6730	daved	
+31	6731	deiziañ	deizi deizian deizias deizie deiziec'h deiziemp deizien deizient deizies deiziet deiziez deizife deizifec'h deizifed deizifemp deizifen deizifent deizifes deizii deiziimp deiziin deiziint deiziis deiziit deizije deizijec'h deizijed deizijemp deizijen deizijent deizijes deizijoc'h deizijod deizijomp deizijont deizijout deizio deiziomp deiziont deizior deiziot
+32	6732	demokratiezh	
+33	6733	dengar	
+34	6734	dereziek	
+35	6735	desavadurel	
+36	6736	diac'hinad	
+37	6737	diamen	
+38	6738	diawelout	diawelet
+39	6739	dibalamour	
+40	6740	diboan	
+41	6741	dichañs	
+42	6742	dichekadenn	
+43	6743	didalvoudekaat	
+44	6744	didrubuilh	
+45	6745	dieil	
+46	6746	difeiz	
+47	6747	digenvezded	
+48	6748	digomz	
+49	6749	digwener	
+50	6750	dihegar	
+51	6751	dirollerezh	
+52	6752	disheol	
+53	6753	dishualerezh	
+54	6754	diskiantegezh	
+55	6755	disoursi	
+56	6756	disrannour	
+57	6757	distok	
+58	6758	diveleg	
+59	6759	diveradur	
+60	6760	divezouriezh	
+61	6761	divfron	
+62	6762	divinerezh	
+63	6763	diwallerezh	
+64	6764	diwezhadoù	
+65	6765	dizanvezel	
+66	6766	dizintrus	
+67	6767	dizouj	
+68	6768	doueelezh	
+69	6769	dourel	
+70	6770	dousik	
+71	6771	douster	
+72	6772	dreistdonezonet	
+73	6773	dreistnatur	
+74	6774	tro-vrec'h	dro-vrec'h
+75	6775	duilh	duilhioù
+76	6776	eeunik	
+77	6777	egorenn	
+78	6778	eilgeriañ	
+79	6779	ell	
+80	6780	elum	
+81	6781	elzasat	
+82	6782	embregour	
+83	6783	empleg	
+84	6784	emvuhezadur	
+85	6785	emzistruj	
+86	6786	eoullestr	
+87	6787	esaouenn	
+88	6788	estlamm	
+89	6789	etrekarg	
+90	6790	evadeg	evadegoù
+91	6791	evezherezh	
+92	6792	evnoniezh	
+93	6793	ezporzhier	
+94	6794	eürusted	
+95	6795	flouradenn	
+96	6796	flugez	
+97	6797	flus	
+98	6798	fonnusaat	fonnusa fonnusaan fonnusaas fonnusae fonnusaec'h fonnusaemp fonnusaen fonnusaent fonnusaes fonnusaet fonnusaez fonnusafe fonnusafec'h fonnusafed fonnusafemp fonnusafen fonnusafent fonnusafes fonnusai fonnusaimp fonnusain fonnusaint fonnusais fonnusait fonnusaje fonnusajec'h fonnusajed fonnusajemp fonnusajen fonnusajent fonnusajes fonnusajoc'h fonnusajod fonnusajomp fonnusajont fonnusajout fonnusao fonnusaomp fonnusaont fonnusaor fonnusaot
+99	6799	founilh	
+100	6800	fraez	

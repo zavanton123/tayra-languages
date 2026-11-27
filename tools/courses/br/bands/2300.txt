@@ -20,7 +20,7 @@
 20	2220	merenn	verenn
 21	2221	ti-feurm	di-feurm
 22	2222	sol	solioù
-23	2223	korzenn	gorzenn korzennoù
+23	2223	korzenn	c'horzennoù gorzenn korzennoù
 24	2224	dizolo	tizolo zizolo
 25	2225	benañ	benan benas bene benec'h benemp benen benent bener benes benet benez benfe benfec'h benfed benfemp benfen benfent benfes benimp benint benis benit beniñ benje benjec'h benjed benjemp benjen benjent benjes benjoc'h benjod benjomp benjont benjout beno benomp benont benor benot fenis penañ penes venañ veno
 26	2226	fulor	
@@ -29,7 +29,7 @@
 29	2229	yezh-vamm	
 30	2230	saoudat	
 31	2231	adembannadur	
-32	2232	breviñ	brevan brevas brevañ breve brevec'h brevemp breven brevent brever breves brevez brevfe brevfec'h brevfed brevfemp brevfen brevfent brevfes brevi breviañ brevimp brevin brevint brevis brevit brevje brevjec'h brevjed brevjemp brevjen brevjent brevjes brevjoc'h brevjod brevjomp brevjont brevjout brevo brevomp brevont brevor brevot brewiñ
+32	2232	breviñ	brevan brevas brevañ breve brevec'h brevemp breven brevent brever breves brevet brevez brevfe brevfec'h brevfed brevfemp brevfen brevfent brevfes brevi breviañ brevimp brevin brevint brevis brevit brevje brevjec'h brevjed brevjemp brevjen brevjent brevjes brevjoc'h brevjod brevjomp brevjont brevjout brevo brevomp brevont brevor brevot brewiñ
 33	2233	pikol	fikol
 34	2234	blevek	vlevek
 35	2235	sonn	sonnoc'h
@@ -61,7 +61,7 @@
 61	2261	tagus	dagus tagusoc'h
 62	2262	ec'hon	ec'honoc'h
 63	2263	manifestiñ	manifest manifestan manifestas manifestañ manifeste manifestec'h manifestemp manifesten manifestent manifestes manifestet manifestez manifestfe manifestfec'h manifestfed manifestfemp manifestfen manifestfent manifestfes manifesti manifestimp manifestin manifestint manifestis manifestit manifestje manifestjec'h manifestjed manifestjemp manifestjen manifestjent manifestjes manifestjoc'h manifestjod manifestjomp manifestjont manifestjout manifestomp manifestont manifestor manifestot vanifestas vanifeste vanifestiñ
-64	2264	prestañ	brestañ frestañ prestas prestec'h prestemp prestet prestfe prestfec'h prestfed prestfemp prestfen prestfent prestfes prestimp prestin prestint prestiñ prestje prestjec'h prestjed prestjemp prestjen prestjent prestjes prestjoc'h prestjod prestjomp prestjont prestjout presto prestomp prestont prestot
+64	2264	prestañ	brestañ frestañ presta prestas prestec'h prestemp prestet prestfe prestfec'h prestfed prestfemp prestfen prestfent prestfes prestimp prestin prestint prestiñ prestje prestjec'h prestjed prestjemp prestjen prestjent prestjes prestjoc'h prestjod prestjomp prestjont prestjout presto prestomp prestont prestot
 65	2265	diwaller	diwallerez diwallerezed diwallerien ziwaller
 66	2266	hopal	hop hopan hopas hopañ hope hopec'h hopemp hopen hopent hopes hopet hopez hopfe hopfec'h hopfed hopfemp hopfen hopfent hopfes hopi hopimp hopin hopint hopis hopit hopiñ hopje hopjec'h hopjed hopjemp hopjen hopjent hopjes hopjoc'h hopjod hopjomp hopjont hopjout hopo hopomp hopont hopor hopot
 67	2267	pellgargañ	bellgarg bellgargañ fellgargañ pellgarg pellgargan pellgargas pellgarge pellgargec'h pellgargemp pellgargen pellgargent pellgarges pellgarget pellgargez pellgargfe pellgargfec'h pellgargfed pellgargfemp pellgargfen pellgargfent pellgargfes pellgargi pellgargimp pellgargin pellgargint pellgargis pellgargit pellgargje pellgargjec'h pellgargjed pellgargjemp pellgargjen pellgargjent pellgargjes pellgargjoc'h pellgargjod pellgargjomp pellgargjont pellgargjout pellgargo pellgargomp pellgargont pellgargor pellgargot
@@ -96,5 +96,5 @@
 96	2296	marilhañ	marilhan marilhas marilhe marilhec'h marilhemp marilhen marilhent marilhes marilhet marilhez marilhfe marilhfec'h marilhfed marilhfemp marilhfen marilhfent marilhfes marilhi marilhimp marilhin marilhint marilhis marilhit marilhje marilhjec'h marilhjed marilhjemp marilhjen marilhjent marilhjes marilhjoc'h marilhjod marilhjomp marilhjont marilhjout marilho marilhomp marilhont marilhor marilhot
 97	2297	lezenniñ	lezennan lezennas lezenne lezennec'h lezennemp lezennen lezennent lezennes lezennet lezennez lezennfe lezennfec'h lezennfed lezennfemp lezennfen lezennfent lezennfes lezenni lezennimp lezennin lezennint lezennis lezennit lezennje lezennjec'h lezennjed lezennjemp lezennjen lezennjent lezennjes lezennjoc'h lezennjod lezennjomp lezennjont lezennjout lezenno lezennomp lezennont lezennor lezennot
 98	2298	kounnariñ	gounnariñ kounnaran kounnaras kounnare kounnarec'h kounnaremp kounnaren kounnarent kounnares kounnaret kounnarez kounnarfe kounnarfec'h kounnarfed kounnarfemp kounnarfen kounnarfent kounnarfes kounnari kounnarimp kounnarin kounnarint kounnaris kounnarit kounnarje kounnarjec'h kounnarjed kounnarjemp kounnarjen kounnarjent kounnarjes kounnarjoc'h kounnarjod kounnarjomp kounnarjont kounnarjout kounnaro kounnaromp kounnaront kounnaror kounnarot
-99	2299	leviañ	levi levian levias levie leviec'h leviemp levien levient levies leviet leviez levife levifec'h levifed levifemp levifen levifent levifes levii leviimp leviin leviint leviis leviit levije levijec'h levijed levijemp levijen levijent levijes levijoc'h levijod levijomp levijont levijout levio leviomp leviont levior leviot
+99	2299	leviañ	levi levia levian levias levie leviec'h leviemp levien levient levies leviet leviez levife levifec'h levifed levifemp levifen levifent levifes levii leviimp leviin leviint leviis leviit levije levijec'h levijed levijemp levijen levijent levijes levijoc'h levijod levijomp levijont levijout levio leviomp leviont levior leviot
 100	2300	pianoour	bianoourez pianoourez pianoourien

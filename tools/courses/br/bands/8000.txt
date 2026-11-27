@@ -1,0 +1,100 @@
+1	7901	gwarnisadur	
+2	7902	gwaskadur	
+3	7903	gwelidik	
+4	7904	gwered	
+5	7905	gwerso	
+6	7906	gwezboell	
+7	7907	gwial	
+8	7908	gwirionded	
+9	7909	gwirionder	
+10	7910	haderezh	
+11	7911	hantereur	
+12	7912	hantereurvezh	
+13	7913	harneziñ	harnezet
+14	7914	hedred	
+15	7915	hej	
+16	7916	helavarouriezh	
+17	7917	hellazek	
+18	7918	hemolc'her	
+19	7919	henn	
+20	7920	henoniour	
+21	7921	henstumm	henstummoù
+22	7922	heoliek	
+23	7923	hepdale	
+24	7924	herrad	herradoù
+25	7925	hesonerezh	
+26	7926	hewelus	
+27	7927	heñvel-poch	
+28	7928	hiboud	
+29	7929	hiraezhus	
+30	7930	hirhoal	
+31	7931	hirvoan	
+32	7932	hoc'h-unan	
+33	7933	holenek	
+34	7934	hollc'halloudus	
+35	7935	hollel	
+36	7936	hollgaer	
+37	7937	hollouiziek	
+38	7938	hollveliour	
+39	7939	hollveliouriezh	
+40	7940	horolajerezh	
+41	7941	hou	
+42	7942	houlier	
+43	7943	hudurniezh	
+44	7944	hunvreidik	
+45	7945	hêrelezh	
+46	7946	illur	
+47	7947	imbourc'her	
+48	7948	indezeuropat	
+49	7949	ispiserezh	
+50	7950	israelian	
+51	7951	isrannyezh	isrannyezhoù
+52	7952	isurzhiañ	isurzhi isurzhian isurzhias isurzhie isurzhiec'h isurzhiemp isurzhien isurzhient isurzhies isurzhiet isurzhiez isurzhife isurzhifec'h isurzhifed isurzhifemp isurzhifen isurzhifent isurzhifes isurzhii isurzhiimp isurzhiin isurzhiint isurzhiis isurzhiit isurzhije isurzhijec'h isurzhijed isurzhijemp isurzhijen isurzhijent isurzhijes isurzhijoc'h isurzhijod isurzhijomp isurzhijont isurzhijout isurzhio isurzhiomp isurzhiont isurzhior isurzhiot
+53	7953	itriom	
+54	7954	izelbriz	
+55	7955	izelegezh	
+56	7956	jahinerez	
+57	7957	jestraouiñ	jestraou jestraouan jestraouas jestraoue jestraouec'h jestraouemp jestraouen jestraouent jestraoues jestraouet jestraouez jestraoufe jestraoufec'h jestraoufed jestraoufemp jestraoufen jestraoufent jestraoufes jestraoui jestraouimp jestraouin jestraouint jestraouis jestraouit jestraouje jestraoujec'h jestraoujed jestraoujemp jestraoujen jestraoujent jestraoujes jestraoujoc'h jestraoujod jestraoujomp jestraoujont jestraoujout jestraouo jestraouomp jestraouont jestraouor jestraouot
+58	7958	jirafenn	
+59	7959	justik	
+60	7960	kanndi	kanndioù
+61	7961	kar-e-vro	
+62	7962	kasaus	
+63	7963	kastilhanek	
+64	7964	gazenn	kazenn
+65	7965	kabell-touseg	kebell-touseg
+66	7966	keidat	
+67	7967	keitgarek	
+68	7968	kendon	kendonioù
+69	7969	kengejus	
+70	7970	kengreizek	
+71	7971	kentaou	
+72	7972	keuzidigezh	
+73	7973	kignat	c'hignat gignat kign kignan kignas kignañ kigne kignec'h kignemp kignen kignent kignes kignet kignfe kignfec'h kignfed kignfemp kignfen kignfent kignfes kigni kignimp kignin kignint kignis kignit kigniñ kignje kignjec'h kignjed kignjemp kignjen kignjent kignjes kignjoc'h kignjod kignjomp kignjont kignjout kigno kignomp kignont kignor kignot
+74	7974	kintus	
+75	7975	kirieg	
+76	7976	klasek	
+77	7977	klemmvan	klemmvanoù
+78	7978	koachet	
+79	7979	gogez	kogez
+80	7980	kontour	
+81	7981	korfskej	
+82	7982	korrgi	
+83	7983	korz-sukr	
+84	7984	kranek	
+85	7985	kredapl	
+86	7986	kribañ	kriban kribas kribat kribec'h kribemp kriben kribent kribes kribet kribez kribfe kribfec'h kribfed kribfemp kribfen kribfent kribfes kribi kribimp kribin kribint kribis kribit kribje kribjec'h kribjed kribjemp kribjen kribjent kribjes kribjoc'h kribjod kribjomp kribjont kribjout kribomp kribont kribor kribot
+87	7987	krommvegek	
+88	7988	krouadenn	krouadennoù
+89	7989	lagennek	
+90	7990	lajadig	
+91	7991	lamedigezh	
+92	7992	lammañ	
+93	7993	langis	
+94	7994	laodez	
+95	7995	laouenidigezh	
+96	7996	laouer	
+97	7997	lañvaz	
+98	7998	lec'haveiñ	
+99	7999	ledanded	
+100	8000	lenkr	

@@ -1,0 +1,100 @@
+1	5801	sont	sontoù
+2	5802	gwere	were
+3	5803	burutellat	vurutellat
+4	5804	gobari	c'hobari
+5	5805	kabon	c'habon
+6	5806	komiserdi	gomiserdi
+7	5807	kontaouer	c'hontaouer
+8	5808	kroat	groat
+9	5809	meurvaen	meurvein
+10	5810	plavañ	blavañ flavor plav plavan plavas plave plavec'h plavemp plaven plavent plaves plavet plavez plavfe plavfec'h plavfed plavfemp plavfen plavfent plavfes plavi plavimp plavin plavint plavis plavit plavje plavjec'h plavjed plavjemp plavjen plavjent plavjes plavjoc'h plavjod plavjomp plavjont plavjout plavo plavomp plavont plavor plavot
+11	5811	spurj	spurjoù
+12	5812	tadig	zadig
+13	5813	teñvalaat	deñvalaat teñvala teñvalaad teñvalaan teñvalaas teñvalae teñvalaec'h teñvalaemp teñvalaen teñvalaent teñvalaes teñvalaet teñvalaez teñvalafe teñvalafec'h teñvalafed teñvalafemp teñvalafen teñvalafent teñvalafes teñvalai teñvalaimp teñvalain teñvalaint teñvalais teñvalait teñvalaje teñvalajec'h teñvalajed teñvalajemp teñvalajen teñvalajent teñvalajes teñvalajoc'h teñvalajod teñvalajomp teñvalajont teñvalajout teñvalao teñvalaomp teñvalaont teñvalaor teñvalaot
+14	5814	penton	benton fenton
+15	5815	tintal	tint tintan tintas tintañ tinte tintec'h tintemp tinten tintent tintes tintet tintez tintfe tintfec'h tintfed tintfemp tintfen tintfent tintfes tinti tintimp tintint tintis tintit tintje tintjec'h tintjed tintjemp tintjen tintjent tintjes tintjoc'h tintjod tintjomp tintjont tintjout tinto tintomp tintont tintor tintot zint
+16	5816	achuiñ	achuan achuas achue achuec'h achuemp achuen achuent achues achuet achuez achufe achufec'h achufed achufemp achufen achufent achufes achui achuimp achuin achuint achuis achuit achuje achujec'h achujed achujemp achujen achujent achujes achujoc'h achujod achujomp achujont achujout achuo achuomp achuont achuor achuot
+17	5817	adskeudenn	adskeudennoù
+18	5818	adstaliañ	adstaliet
+19	5819	advugelañ	advugelan advugelas advugele advugelec'h advugelemp advugelen advugelent advugeles advugelet advugelez advugelfe advugelfec'h advugelfed advugelfemp advugelfen advugelfent advugelfes advugeli advugelimp advugelin advugelint advugelis advugelit advugelje advugeljec'h advugeljed advugeljemp advugeljen advugeljent advugeljes advugeljoc'h advugeljod advugeljomp advugeljont advugeljout advugelo advugelomp advugelont advugelor advugelot
+20	5820	amprevanlazher	amprevanlazherioù
+21	5821	aourgi	aourgon
+22	5822	aozenn	aozennoù
+23	5823	arc'hopr	arc'hoproù
+24	5824	arguzenniñ	arguzennet
+25	5825	beskontelezh	veskontelezh
+26	5826	bloc'h	bloc'hoù
+27	5827	poelloniezh	boelloniezh
+28	5828	boked	bokedoù
+29	5829	breinadurezh	vreinadurezh
+30	5830	brizh	vrizh
+31	5831	broch	brochoù
+32	5832	buheziñ	buhezet vuheziñ
+33	5833	buzhug	buzhugenn vuzhugenn
+34	5834	karma	c'harma
+35	5835	katekiz	c'hatekiz
+36	5836	kentanv	c'hentanv gentanv
+37	5837	kenvroad	c'henvroad genvroad
+38	5838	kenwerzher	c'henwerzher
+39	5839	kofesour	c'hofesour gofesour
+40	5840	c'hwec'hmiziad	
+41	5841	devoudañ	devoudet zevoudañ
+42	5842	dibriediñ	dibriedet
+43	5843	diferadenn	diferadennoù
+44	5844	diforc'hiñ	ziforc'hiñ
+45	5845	digareziñ	zigareziñ
+46	5846	diribin	diribinoù
+47	5847	dourlivadur	dourlivadurioù zourlivadur zourlivadurioù
+48	5848	draenek	draeneg
+49	5849	dudiañ	dudiet
+50	5850	edeg	edegi edeier
+51	5851	empennañ	empennan empennas empenne empennec'h empennemp empennen empennent empennes empennet empennez empennfe empennfec'h empennfed empennfemp empennfen empennfent empennfes empenni empennimp empennin empennint empennis empennit empennje empennjec'h empennjed empennjemp empennjen empennjent empennjes empennjoc'h empennjod empennjomp empennjont empennjout empenno empennomp empennont empennor empennot
+52	5852	fichañ	fich fichan fichas fiche fichec'h fichemp fichen fichent fiches fichet fichez fichfe fichfec'h fichfed fichfemp fichfen fichfent fichfes fichi fichimp fichin fichint fichis fichit fichiñ fichje fichjec'h fichjed fichjemp fichjen fichjent fichjes fichjoc'h fichjod fichjomp fichjont fichjout ficho fichomp fichont fichor fichot
+53	5853	foeltrañ	foeltras foeltret
+54	5854	fouge	fougeoù
+55	5855	frankizañ	frankizet
+56	5856	frikañ	frik frikan frikas frike frikec'h frikemp friken frikent frikes friket frikez frikfe frikfec'h frikfed frikfemp frikfen frikfent frikfes friki frikimp frikin frikint frikis frikit frikiñ frikje frikjec'h frikjed frikjemp frikjen frikjent frikjes frikjoc'h frikjod frikjomp frikjont frikjout frikomp frikont frikor frikot
+57	5857	fromañ	froman fromas frome fromec'h fromemp fromen froment fromes fromet fromez fromfe fromfec'h fromfed fromfemp fromfen fromfent fromfes fromi fromimp fromin fromint fromis fromit fromiñ fromje fromjec'h fromjed fromjemp fromjen fromjent fromjes fromjoc'h fromjod fromjomp fromjont fromjout fromo fromomp fromont fromor fromot
+58	5858	frotañ	frotan frotas frote frotec'h frotemp froten frotent frotes frotet frotez frotfe frotfec'h frotfed frotfemp frotfen frotfent frotfes froti frotimp frotin frotint frotis frotit frotiñ frotje frotjec'h frotjed frotjemp frotjen frotjent frotjes frotjoc'h frotjod frotjomp frotjont frotjout froto frotomp frotont frotor frotot
+59	5859	froudenn	froudennoù
+60	5860	garedonañ	c'haredonañ garedonet
+61	5861	kendalc'hus	gendalc'hus
+62	5862	geuniek	c'heuniek
+63	5863	gloazus	c'hloazus
+64	5864	klozenn	c'hlozenn glozenn
+65	5865	goaperezh	c'hoaperezh goapaerezh
+66	5866	kofes	gofes
+67	5867	kouc'h	c'houc'h gouc'h
+68	5868	gouelan	gouelaned gouelini
+69	5869	gourdad	c'hourdadoù gourdadoù
+70	5870	gwereañ	gwereet wereañ
+71	5871	gwevnded	wevnded
+72	5872	hizivaat	hiziva hizivaan hizivaas hizivae hizivaec'h hizivaemp hizivaen hizivaent hizivaes hizivaet hizivaez hizivafe hizivafec'h hizivafed hizivafemp hizivafen hizivafent hizivafes hizivai hizivaimp hizivain hizivaint hizivais hizivait hizivaje hizivajec'h hizivajed hizivajemp hizivajen hizivajent hizivajes hizivajoc'h hizivajod hizivajomp hizivajont hizivajout hizivao hizivaomp hizivaont hizivaor hizivaot
+73	5873	ikonenn	ikonennoù
+74	5874	kantar	gantar
+75	5875	kation	c'hationoù kationoù
+76	5876	kevrinek	gevrinek
+77	5877	kewerier	c'hewerier
+78	5878	kig-moc'h	c'hig-moc'h
+79	5879	kilh	gilh kilhoù
+80	5880	klaouier	c'hlaouier
+81	5881	koazhadur	goazhadur
+82	5882	kostezel	gostezel kostezet
+83	5883	kozhañ	gozhañ gozhont kozhan kozhas kozhe kozhec'h kozhemp kozhen kozhent kozhes kozhet kozhez kozhfe kozhfec'h kozhfed kozhfemp kozhfen kozhfent kozhfes kozhi kozhimp kozhin kozhint kozhis kozhit kozhje kozhjec'h kozhjed kozhjemp kozhjen kozhjent kozhjes kozhjoc'h kozhjod kozhjomp kozhjont kozhjout kozho kozhomp kozhont kozhor kozhot
+84	5884	kur	kurioù
+85	5885	kuzhiadell	guzhiadell kuzhiadelloù
+86	5886	leuriañ	leuriet
+87	5887	lizherennañ	lizherennet
+88	5888	magouri	magourioù vagouri
+89	5889	morbreizherezh	vorbreizherezh
+90	5890	paradur	paradurioù
+91	5891	peurwiriekaat	peurwiriekaet
+92	5892	pignidigezh	bignidigezh
+93	5893	pinijennañ	pinijennet
+94	5894	plouzañ	plouzet
+95	5895	pluskenn	bluskenn
+96	5896	regiñ	reg regan regas regañ rege regec'h regemp regen regent reget regez regfe regfec'h regfed regfemp regfen regfent regfes regi regimp regin regint regit regje regjec'h regjed regjemp regjen regjent regjes regjoc'h regjod regjomp regjont regjout rego regomp regont regor regot
+97	5897	reizhadur	reizhadurioù
+98	5898	rodell	rodelloù
+99	5899	ruoc'hal	ruoc'h ruoc'han ruoc'has ruoc'he ruoc'hec'h ruoc'hemp ruoc'hen ruoc'hent ruoc'hes ruoc'het ruoc'hez ruoc'hfe ruoc'hfec'h ruoc'hfed ruoc'hfemp ruoc'hfen ruoc'hfent ruoc'hfes ruoc'hi ruoc'himp ruoc'hin ruoc'hint ruoc'his ruoc'hit ruoc'hje ruoc'hjec'h ruoc'hjed ruoc'hjemp ruoc'hjen ruoc'hjent ruoc'hjes ruoc'hjoc'h ruoc'hjod ruoc'hjomp ruoc'hjont ruoc'hjout ruoc'ho ruoc'homp ruoc'hont ruoc'hor ruoc'hot
+100	5900	sigaretenn	sigaretennoù

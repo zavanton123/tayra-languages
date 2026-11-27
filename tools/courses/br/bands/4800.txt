@@ -1,100 +1,100 @@
-1	4701	butan	
-2	4702	kador-sarmon	c'hadorioù-sarmon
-3	4703	kaher	c'haher
-4	4704	kaliforniom	c'haliforniom
-5	4705	garloc'henn	c'harloc'henn
-6	4706	karrdiour	c'harrdiour
-7	4707	kartenn-vank	c'hartennoù-bank
-8	4708	garzhaoueg	c'harzhaoueg
-9	4709	katod	c'hatod
-10	4710	geiz	c'heiz
-11	4711	kelenndi	c'helenndi
-12	4712	kemener-dour	c'hemener-dour
-13	4713	keuneuta	c'heuneuta keuneutaan keuneutaas keuneutae keuneutaec'h keuneutaemp keuneutaen keuneutaent keuneutaes keuneutaet keuneutaez keuneutafe keuneutafec'h keuneutafed keuneutafemp keuneutafen keuneutafent keuneutafes keuneutai keuneutaimp keuneutain keuneutaint keuneutais keuneutait keuneutaje keuneutajec'h keuneutajed keuneutajemp keuneutajen keuneutajent keuneutajes keuneutajoc'h keuneutajod keuneutajomp keuneutajont keuneutajout keuneutao keuneutaomp keuneutaont keuneutaor keuneutaot
-14	4714	keziom	c'heziom
-15	4715	ki-deñved	c'hi-deñved
-16	4716	kig-ha-farz	c'hig-ha-farz
-17	4717	glac'harus	c'hlac'harus
-18	4718	klefiñ	c'hlefe klef klefan klefas klefe klefec'h klefemp klefen klefent klefes klefet klefez kleffe kleffec'h kleffed kleffemp kleffen kleffent kleffes klefi klefimp klefin klefint klefis klefit klefje klefjec'h klefjed klefjemp klefjen klefjent klefjes klefjoc'h klefjod klefjomp klefjont klefjout klefo klefomp klefont klefor klefot
-19	4719	kleger	c'hleger
-20	4720	kloc'h-galv	c'hloc'h-galv
-21	4721	kloniñ	c'hlonañ klonan klonas klonañ klone klonec'h klonemp klonen klonent klones klonet klonez klonfe klonfec'h klonfed klonfemp klonfen klonfent klonfes kloni klonimp klonin klonint klonis klonit klonje klonjec'h klonjed klonjemp klonjen klonjent klonjes klonjoc'h klonjod klonjomp klonjont klonjout klono klonomp klonont klonor klonot
-22	4722	c'hoant-staotat	
-23	4723	kofad	c'hofad
-24	4724	korfadur	c'horfadur
-25	4725	kouign-amann	c'houign-amann
-26	4726	kouvi	c'houvi
-27	4727	gouyen	c'houyen
-28	4728	gramadegel	c'hramadegel
-29	4729	kravazh	c'hravazh
-30	4730	krign	c'hrign
-31	4731	kroazour	c'hroazour
-32	4732	kropañ	c'hrop krop kropan kropas krope kropec'h kropemp kropen kropent kropes kropez kropfe kropfec'h kropfed kropfemp kropfen kropfent kropfes kropi kropimp kropin kropint kropis kropit kropiñ kropje kropjec'h kropjed kropjemp kropjen kropjent kropjes kropjoc'h kropjod kropjomp kropjont kropjout kropo kropomp kropont kropor kropot
-33	4733	krouilh	c'hrouilh
-34	4734	kub	c'hub
-35	4735	c'hwegont	
-36	4736	c'hwial	c'hwian c'hwias c'hwie c'hwiec'h c'hwiemp c'hwien c'hwient c'hwies c'hwiet c'hwiez c'hwife c'hwifec'h c'hwifed c'hwifemp c'hwifen c'hwifent c'hwifes c'hwii c'hwiimp c'hwiin c'hwiint c'hwiis c'hwiit c'hwije c'hwijec'h c'hwijed c'hwijemp c'hwijen c'hwijent c'hwijes c'hwijoc'h c'hwijod c'hwijomp c'hwijont c'hwijout c'hwio c'hwiomp c'hwiont c'hwior c'hwiot
-37	4737	c'hwibañ	c'hwibas c'hwibe c'hwibec'h c'hwibemp c'hwiben c'hwibent c'hwibes c'hwibet c'hwibez c'hwibfe c'hwibfec'h c'hwibfed c'hwibfemp c'hwibfen c'hwibfent c'hwibfes c'hwibi c'hwibimp c'hwibin c'hwibint c'hwibis c'hwibit c'hwibje c'hwibjec'h c'hwibjed c'hwibjemp c'hwibjen c'hwibjent c'hwibjes c'hwibjoc'h c'hwibjod c'hwibjomp c'hwibjont c'hwibjout c'hwibo c'hwibomp c'hwibont c'hwibor c'hwibot c'hwipañ
-38	4738	c'hwil-derv	c'hwiled-derv
-39	4739	chaloniezh	
-40	4740	chervad	
-41	4741	chevra	chevraan chevraas chevrae chevraec'h chevraemp chevraen chevraent chevraes chevraet chevraez chevrafe chevrafec'h chevrafed chevrafemp chevrafen chevrafent chevrafes chevrai chevraimp chevrain chevraint chevrais chevrait chevraje chevrajec'h chevrajed chevrajemp chevrajen chevrajent chevrajes chevrajoc'h chevrajod chevrajomp chevrajont chevrajout chevrao chevraomp chevraont chevraor chevraot
-42	4742	chilpat	chilp chilpan chilpas chilpe chilpec'h chilpemp chilpen chilpent chilpes chilpet chilpez chilpfe chilpfec'h chilpfed chilpfemp chilpfen chilpfent chilpfes chilpi chilpimp chilpin chilpint chilpis chilpit chilpiñ chilpje chilpjec'h chilpjed chilpjemp chilpjen chilpjent chilpjes chilpjoc'h chilpjod chilpjomp chilpjont chilpjout chilpo chilpomp chilpont chilpor chilpot
-43	4743	chug-frouezh	
-44	4744	gellaat	c'hellae gella gellaan gellaas gellae gellaec'h gellaemp gellaen gellaent gellaes gellaet gellaez gellafe gellafec'h gellafed gellafemp gellafen gellafent gellafes gellai gellaimp gellain gellaint gellais gellait gellaje gellajec'h gellajed gellajemp gellajen gellajent gellajes gellajoc'h gellajod gellajomp gellajont gellajout gellao gellaomp gellaont gellaor gellaot
-45	4745	kondor	c'hondor
-46	4746	damrous	
-47	4747	damzu	
-48	4748	daou-c'hant	
-49	4749	debradus	
-50	4750	debrer-tud	debrerien-dud
-51	4751	delez	delezioù
-52	4752	demat	
-53	4753	demografek	
-54	4754	denek	
-55	4755	dervenneg	
-56	4756	diank	
-57	4757	dibur	
-58	4758	dic'hallek	
-59	4759	dichadennañ	dichadenn dichadennan dichadennas dichadenne dichadennec'h dichadennemp dichadennen dichadennent dichadennes dichadennet dichadennez dichadennfe dichadennfec'h dichadennfed dichadennfemp dichadennfen dichadennfent dichadennfes dichadenni dichadennimp dichadennin dichadennint dichadennis dichadennit dichadenniñ dichadennje dichadennjec'h dichadennjed dichadennjemp dichadennjen dichadennjent dichadennjes dichadennjoc'h dichadennjod dichadennjomp dichadennjont dichadennjout dichadenno dichadennomp dichadennont dichadennor dichadennot
-60	4760	dichal	
-61	4761	didou	
-62	4762	diemouez	
-63	4763	difaezhus	
-64	4764	difraezh	
-65	4765	digened	
-66	4766	digoad	
-67	4767	dihidrogen	
-68	4768	dilugañ	dilug dilugan dilugas diluge dilugec'h dilugemp dilugen dilugent diluges diluget dilugez dilugfe dilugfec'h dilugfed dilugfemp dilugfen dilugfent dilugfes dilugi dilugimp dilugin dilugint dilugis dilugit dilugje dilugjec'h dilugjed dilugjemp dilugjen dilugjent dilugjes dilugjoc'h dilugjod dilugjomp dilugjont dilugjout dilugo dilugomp dilugont dilugor dilugot
-69	4769	dimerc'her	
-70	4770	dindandouar	
-71	4771	dipadapa	
-72	4772	disadorn	
-73	4773	disheñvelded	
-74	4774	dislealded	
-75	4775	dispered	
-76	4776	disproziom	
-77	4777	distenn	distennoc'h
-78	4778	distouver	
-79	4779	disul	
-80	4780	divarc'hañ	divarc'h divarc'han divarc'has divarc'he divarc'hec'h divarc'hemp divarc'hen divarc'hent divarc'hes divarc'het divarc'hez divarc'hfe divarc'hfec'h divarc'hfed divarc'hfemp divarc'hfen divarc'hfent divarc'hfes divarc'hi divarc'himp divarc'hin divarc'hint divarc'his divarc'hit divarc'hiñ divarc'hje divarc'hjec'h divarc'hjed divarc'hjemp divarc'hjen divarc'hjent divarc'hjes divarc'hjoc'h divarc'hjod divarc'hjomp divarc'hjont divarc'hjout divarc'ho divarc'homp divarc'hont divarc'hor divarc'hot tivarc'hañ zivarc'hañ
-81	4781	divlev	
-82	4782	diwel	
-83	4783	diyac'h	
-84	4784	dizanav	
-85	4785	dizant	
-86	4786	dizenoriñ	dizenoran dizenoras dizenore dizenorec'h dizenoremp dizenoren dizenorent dizenores dizenoret dizenorez dizenorfe dizenorfec'h dizenorfed dizenorfemp dizenorfen dizenorfent dizenorfes dizenori dizenorimp dizenorin dizenorint dizenoris dizenorit dizenorje dizenorjec'h dizenorjed dizenorjemp dizenorjen dizenorjent dizenorjes dizenorjoc'h dizenorjod dizenorjomp dizenorjont dizenorjout dizenoro dizenoromp dizenoront dizenoror dizenorot tizenoriñ zizenoriñ
-87	4787	dizenorus	
-88	4788	diziennañ	dizienn diziennan diziennas dizienne diziennec'h diziennemp diziennen diziennent diziennes diziennet diziennez diziennfe diziennfec'h diziennfed diziennfemp diziennfen diziennfent diziennfes dizienni diziennimp diziennin diziennint diziennis diziennit diziennje diziennjec'h diziennjed diziennjemp diziennjen diziennjent diziennjes diziennjoc'h diziennjod diziennjomp diziennjont diziennjout dizienno diziennomp diziennont diziennor diziennot tiziennañ ziziennañ
-89	4789	diziwezh	
-90	4790	teiñ	dois tois
-91	4791	dourlivourez	dourlivourien
-92	4792	drask	
-93	4793	dremedal	
-94	4794	dreolan	
-95	4795	tristaat	dristaat trista tristaan tristaas tristae tristaec'h tristaemp tristaen tristaent tristaes tristaet tristaez tristafe tristafec'h tristafed tristafemp tristafen tristafent tristafes tristai tristaimp tristain tristaint tristais tristait tristaje tristajec'h tristajed tristajemp tristajen tristajent tristajes tristajoc'h tristajod tristajomp tristajont tristajout tristao tristaomp tristaont tristaor tristaot
-96	4796	droug-kein	
-97	4797	droukrañsus	
-98	4798	duenn	duennoù
-99	4799	dugel	
-100	4800	duik	
+1	4701	morlenn	vorlenn
+2	4702	stirenn	stirennoù
+3	4703	bouton	boutonioù boutonoù vouton
+4	4704	itrikañ	itrik itrikan itrikas itrike itrikec'h itrikemp itriken itrikent itrikes itriket itrikez itrikfe itrikfec'h itrikfed itrikfemp itrikfen itrikfent itrikfes itriki itrikimp itrikin itrikint itrikis itrikit itrikje itrikjec'h itrikjed itrikjemp itrikjen itrikjent itrikjes itrikjoc'h itrikjod itrikjomp itrikjont itrikjout itriko itrikomp itrikont itrikor itrikot
+5	4705	chaokat	chaok chaokan chaokas chaokañ chaoke chaokec'h chaokemp chaoken chaokent chaokes chaoket chaokez chaokfe chaokfec'h chaokfed chaokfemp chaokfen chaokfent chaokfes chaoki chaokimp chaokin chaokint chaokis chaokit chaokiñ chaokje chaokjec'h chaokjed chaokjemp chaokjen chaokjent chaokjes chaokjoc'h chaokjod chaokjomp chaokjont chaokjout chaoko chaokomp chaokont chaokor chaokot
+6	4706	kornek	gornek korniek
+7	4707	kuzuliadeg	c'huzuliadeg guzuliadeg
+8	4708	maeronez	vaeronez
+9	4709	poaniañ	boanias boaniañ boanie foaniañ poani poanial poanian poanias poanie poaniec'h poaniemp poanien poanient poanies poaniet poaniez poanife poanifec'h poanifed poanifemp poanifen poanifent poanifes poanii poaniimp poaniin poaniint poaniis poaniit poaniiñ poanije poanijec'h poanijed poanijemp poanijen poanijent poanijes poanijoc'h poanijod poanijomp poanijont poanijout poanio poaniomp poaniont poanior poaniot
+10	4710	rannad	rannadoù
+11	4711	adlenn	adlennan adlennas adlenne adlennec'h adlennemp adlennen adlennent adlennes adlennet adlennez adlennfe adlennfec'h adlennfed adlennfemp adlennfen adlennfent adlennfes adlenni adlennimp adlennin adlennint adlennis adlennit adlennje adlennjec'h adlennjed adlennjemp adlennjen adlennjent adlennjes adlennjoc'h adlennjod adlennjomp adlennjont adlennjout adlenno adlennomp adlennont adlennor adlennot
+12	4712	araogenn	araogennoù
+13	4713	arroudenn	arroudennoù
+14	4714	bevoniezh	vevoniezh
+15	4715	bombezenniñ	bombezennet vombezenniñ
+16	4716	bugel-bihan	bugale-vihan vugale-vihan
+17	4717	kenderc'hadur	c'henderc'hadur genderc'hadur
+18	4718	geometriezh	c'heometriezh geometriezhioù
+19	4719	kigdebrer	c'higdebrer
+20	4720	krennvrezhoneg	c'hrennvrezhoneg
+21	4721	diazezourez	diazezerez diazezour ziazezour
+22	4722	diduiñ	didu didual diduan diduas diduañ didue diduec'h diduemp diduen diduent didues diduet diduez didufe didufec'h didufed didufemp didufen didufent didufes didui diduimp diduin diduint diduis diduit diduje didujec'h didujed didujemp didujen didujent didujes didujoc'h didujod didujomp didujont didujout diduo diduomp diduont diduor diduot tiduiñ ziduiñ
+23	4723	dislonkadenn	dislonkadennoù
+24	4724	trelatiñ	drelatiñ trelatet
+25	4725	treujenn-gaol	dreujenn-gaol
+26	4726	kevezañ	c'hevezañ gevezañ
+27	4727	gwetur	gweturioù wetur
+28	4728	hegasiñ	hegasas hegaset
+29	4729	ibil	ibilien ibilioù ibiloù
+30	4730	intrañ	intr intran intras intre intrec'h intred intremp intren intrent intres intret intrez intrfe intrfec'h intrfed intrfemp intrfen intrfent intrfes intri intrimp intrin intrint intris intrit intriñ intrje intrjec'h intrjed intrjemp intrjen intrjent intrjes intrjoc'h intrjod intrjomp intrjont intrjout intro intromp intront intror introt
+31	4731	madig	madigoù vadigoù
+32	4732	platin	blatin platinoù
+33	4733	poziñ	boze pozet
+34	4734	retred	retredoù
+35	4735	segal	segalenn segalennoù
+36	4736	skrap	skrapoù
+37	4737	sotoni	sotonioù
+38	4738	tec'hadenn	dec'hadenn tec'hadennoù zec'hadenn
+39	4739	bagon	bagonioù fagon vagon
+40	4740	dinac'h	zinac'h
+41	4741	diskregiñ	ziskregiñ
+42	4742	bonnañ	bonnan bonnas bonne bonnec'h bonnemp bonnen bonnent bonnes bonnet bonnez bonnfe bonnfec'h bonnfed bonnfemp bonnfen bonnfent bonnfes bonni bonnimp bonnin bonnint bonnis bonnit bonniñ bonnje bonnjec'h bonnjed bonnjemp bonnjen bonnjent bonnjes bonnjoc'h bonnjod bonnjomp bonnjont bonnjout bonno bonnomp bonnont bonnor bonnot ponnañ vonnañ
+43	4743	roñfl	roñfled roñflez
+44	4744	bevoniour	vevoniour vevoniourien
+45	4745	binimañ	binimet vinimañ
+46	4746	gwarediñ	gwaredan gwaredas gwarede gwaredec'h gwaredemp gwareden gwaredent gwaredes gwaredet gwaredez gwaredfe gwaredfec'h gwaredfed gwaredfemp gwaredfen gwaredfent gwaredfes gwaredi gwaredimp gwaredin gwaredint gwaredis gwaredit gwaredje gwaredjec'h gwaredjed gwaredjemp gwaredjen gwaredjent gwaredjes gwaredjoc'h gwaredjod gwaredjomp gwaredjont gwaredjout gwaredo gwaredomp gwaredont gwaredor gwaredot warediñ
+47	4747	megin	meginoù vegin
+48	4748	spurmantiñ	spurmant spurmantan spurmantas spurmante spurmantec'h spurmantemp spurmanten spurmantent spurmantes spurmantet spurmantez spurmantfe spurmantfec'h spurmantfed spurmantfemp spurmantfen spurmantfent spurmantfes spurmanti spurmantimp spurmantin spurmantint spurmantis spurmantit spurmantje spurmantjec'h spurmantjed spurmantjemp spurmantjen spurmantjent spurmantjes spurmantjoc'h spurmantjod spurmantjomp spurmantjont spurmantjout spurmanto spurmantomp spurmantont spurmantor spurmantot
+49	4749	glavek	c'hlavekañ glaviek
+50	4750	arruout	arru arruan arruas arrue arruec'h arruemp arruen arruent arrues arruet arruez arrufe arrufec'h arrufed arrufemp arrufen arrufent arrufes arrui arruimp arruin arruint arruis arruit arruje arrujec'h arrujed arrujemp arrujen arrujent arrujes arrujoc'h arrujod arrujomp arrujont arrujout arruo arruomp arruont arruor arruot
+51	4751	kleñvel	glañvas gleñvel klañvan klañvas klañve klañvec'h klañvemp klañven klañvent klañves klañvet klañvez klañvfe klañvfec'h klañvfed klañvfemp klañvfen klañvfent klañvfes klañvi klañvimp klañvin klañvint klañvis klañvit klañvje klañvjec'h klañvjed klañvjemp klañvjen klañvjent klañvjes klañvjoc'h klañvjod klañvjomp klañvjont klañvjout klañvo klañvomp klañvont klañvor klañvot kleñver
+52	4752	karedig	c'haredig garedig
+53	4753	tourell	dourell tourelloù zourell
+54	4754	dourvarc'h	dourvarc'hed zourvarc'h
+55	4755	tremeniad	dremenidi tremenidi
+56	4756	kaletaat	c'haletaat galeta galetaat kaleta kaletaan kaletaas kaletae kaletaec'h kaletaemp kaletaen kaletaent kaletaes kaletaet kaletaez kaletafe kaletafec'h kaletafed kaletafemp kaletafen kaletafent kaletafes kaletai kaletaimp kaletain kaletaint kaletais kaletait kaletaje kaletajec'h kaletajed kaletajemp kaletajen kaletajent kaletajes kaletajoc'h kaletajod kaletajomp kaletajont kaletajout kaletao kaletaomp kaletaont kaletaor kaletaot
+57	4757	kaleter	c'haleter galeter
+58	4758	kouign	c'houign c'houignoù gouign kouignoù
+59	4759	gwarant	gwarantoù warant
+60	4760	kannerez	c'hanner ganner kanner kannerezed
+61	4761	kondaonidigezh	c'hondaonidigezh gondaonidigezh kondaonidigezhioù
+62	4762	proton	broton brotonenn protonenn
+63	4763	dalc'her	talc'her zalc'her
+64	4764	balirañ	balir baliran baliras balire balirec'h baliremp baliren balirent balires baliret balirez balirfe balirfec'h balirfed balirfemp balirfen balirfent balirfes baliri balirimp balirin balirint baliris balirit balirje balirjec'h balirjed balirjemp balirjen balirjent balirjes balirjoc'h balirjod balirjomp balirjont balirjout baliro baliromp baliront baliror balirot valir valirañ valire
+65	4765	diforc'hiañ	diforc'hiet ziforc'hiañ
+66	4766	krenañ	grenañ grenet krenan krenas krene krenec'h krenemp krenen krenent krenes krenet krenez krenfe krenfec'h krenfed krenfemp krenfen krenfent krenfes kreni krenimp krenin krenint krenis krenit kreniñ krenje krenjec'h krenjed krenjemp krenjen krenjent krenjes krenjoc'h krenjod krenjomp krenjont krenjout kreno krenoc'h krenomp krenont krenor krenot
+67	4767	paotaat	baota baotaat baotao faotaat paota paotaan paotaas paotae paotaec'h paotaemp paotaen paotaent paotaes paotaet paotaez paotafe paotafec'h paotafed paotafemp paotafen paotafent paotafes paotai paotaimp paotain paotaint paotais paotait paotaje paotajec'h paotajed paotajemp paotajen paotajent paotajes paotajoc'h paotajod paotajomp paotajont paotajout paotao paotaomp paotaont paotaor paotaot
+68	4768	konifl	c'honifled c'honikl c'honikled gonifled
+69	4769	kourser	c'hourser gourser gourserien kourserien
+70	4770	madek	madeg
+71	4771	newton	
+72	4772	gwinter	winter
+73	4773	a-nebeudoù	
+74	4774	a-skouer	
+75	4775	aberiñ	aberan aberas abere aberec'h aberemp aberen aberent aberes aberet aberez aberfe aberfec'h aberfed aberfemp aberfen aberfent aberfes aberi aberimp aberin aberint aberis aberit aberje aberjec'h aberjed aberjemp aberjen aberjent aberjes aberjoc'h aberjod aberjomp aberjont aberjout abero aberomp aberont aberor aberot
+76	4776	ac'hann	
+77	4777	alkoolek	
+78	4778	ampled	
+79	4779	anv-verb	
+80	4780	arvorel	
+81	4781	chal	
+82	4782	chupenn	
+83	4783	davit	
+84	4784	didreuzus	
+85	4785	disivouder	
+86	4786	divouezh	
+87	4787	emgar	
+88	4788	entan	
+89	4789	fazenn	
+90	4790	perch	ferch
+91	4791	ferv	
+92	4792	fiñvusted	
+93	4793	frouezhusted	
+94	4794	gwaskus	
+95	4795	gwenedeg	
+96	4796	henoniel	
+97	4797	henvroat	
+98	4798	hudour	
+99	4799	ideologel	
+100	4800	kentañ-derez	

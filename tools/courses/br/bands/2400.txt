@@ -33,9 +33,9 @@
 33	2333	rodal	rodan rodas rode rodec'h rodemp roden rodent roder rodes rodet rodez rodfe rodfec'h rodfed rodfemp rodfen rodfent rodfes rodi rodimp rodin rodint rodis rodit rodje rodjec'h rodjed rodjemp rodjen rodjent rodjes rodjoc'h rodjod rodjomp rodjont rodjout rodo rodomp rodont rodor rodot
 34	2334	azon	azonioù azonoù
 35	2335	tibetat	dibetaned tibetan tibetaned tibetiz
-36	2336	leskiñ	loskan loskas loske loskec'h loskemp losken loskent losker loskes losket loskez loskfe loskfec'h loskfed loskfemp loskfen loskfent loskfes loski loskimp loskin loskint loskis loskit loskje loskjec'h loskjed loskjemp loskjen loskjent loskjes loskjoc'h loskjod loskjomp loskjont loskjout losko loskomp loskont loskor loskot
+36	2336	leskiñ	lesk loskan loskas loske loskec'h loskemp losken loskent losker loskes losket loskez loskfe loskfec'h loskfed loskfemp loskfen loskfent loskfes loski loskimp loskin loskint loskis loskit loskje loskjec'h loskjed loskjemp loskjen loskjent loskjes loskjoc'h loskjod loskjomp loskjont loskjout losko loskomp loskont loskor loskot
 37	2337	dourañ	douran douras doure dourec'h doured douremp douren dourent dourer doures douret dourez dourfe dourfec'h dourfed dourfemp dourfen dourfent dourfes douri dourimp dourin dourint douris dourit dourje dourjec'h dourjed dourjemp dourjen dourjent dourjes dourjoc'h dourjod dourjomp dourjont dourjout douro douromp douront douror dourot tourañ touro zourañ
-38	2338	pokat	bokat boke boko pokan pokas poke pokec'h pokemp poken pokent pokes poket pokez pokfe pokfec'h pokfed pokfemp pokfen pokfent pokfes poki pokimp pokin pokint pokis pokit pokje pokjec'h pokjed pokjemp pokjen pokjent pokjes pokjoc'h pokjod pokjomp pokjont pokjout poko pokomp pokont pokor pokot
+38	2338	pokat	bokat boke boko fokas pokan pokas poke pokec'h pokemp poken pokent pokes poket pokez pokfe pokfec'h pokfed pokfemp pokfen pokfent pokfes poki pokimp pokin pokint pokis pokit pokje pokjec'h pokjed pokjemp pokjen pokjent pokjes pokjoc'h pokjod pokjomp pokjont pokjout poko pokomp pokont pokor pokot
 39	2339	kloc'h	c'hleier c'hloc'h glec'h kleier kloc'hoù
 40	2340	a-zevri	
 41	2341	da-gaout	
@@ -73,7 +73,7 @@
 73	2373	tiern	dierned tierned
 74	2374	kiger	c'higer giger gigerien
 75	2375	krapañ	c'hrapañ grapat grapañ krapan krapas krapat krape krapec'h krapemp krapen krapent kraper krapes krapet krapez krapfe krapfec'h krapfed krapfemp krapfen krapfent krapfes krapi krapimp krapin krapint krapis krapit krapiñ krapje krapjec'h krapjed krapjemp krapjen krapjent krapjes krapjoc'h krapjod krapjomp krapjont krapjout krapo krapomp krapont krapor krapot krapout
-76	2376	krez	c'hres c'hrez c'hrezioù rez
+76	2376	krez	c'hres c'hrez c'hrezioù krezioù rez
 77	2377	israelat	
 78	2378	lealded	
 79	2379	ozhac'h	

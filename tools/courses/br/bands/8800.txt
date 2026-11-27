@@ -1,0 +1,100 @@
+1	8701	fetisaat	fetisa
+2	8702	forc'hek	forc'het
+3	8703	fougasiñ	fougase
+4	8704	poñsin	foñsined poñsined
+5	8705	frailhañ	frailhet
+6	8706	fromadenn	fromadennoù
+7	8707	frouezhek	frouezhet
+8	8708	kabanenn	gabanenn kabanennoù
+9	8709	kala-bloaz	gala-bloaz
+10	8710	kambrig	gambrig
+11	8711	kanadeg	ganadeg kanadegoù
+12	8712	kannadiezh	gannadiezh
+13	8713	kantvedenn	gantvedenn kantvedennoù
+14	8714	gaol	kaolioù
+15	8715	kartenniñ	gartenniñ kartennan kartennas kartenne kartennec'h kartennemp kartennen kartennent kartennes kartennet kartennez kartennfe kartennfec'h kartennfed kartennfemp kartennfen kartennfent kartennfes kartenni kartennimp kartennin kartennint kartennis kartennit kartennje kartennjec'h kartennjed kartennjemp kartennjen kartennjent kartennjes kartennjoc'h kartennjod kartennjomp kartennjont kartennjout kartenno kartennomp kartennont kartennor kartennot
+16	8716	kas-digas	gas-digas
+17	8717	kavlec'h	gavlec'h kavlec'hioù
+18	8718	keben	geben
+19	8719	keginour	geginour
+20	8720	kelaouer	gelaouer
+21	8721	kengej	gengej kengejoù
+22	8722	kerzhadenn	gerzhadenn kerzhadennoù
+23	8723	kevanaoz	gevanaoz
+24	8724	kibellad	gibellad kibelladoù
+25	8725	kinklerezh	ginklerezh
+26	8726	klemmadenn	glemmadenn klemmadennoù
+27	8727	klogorenn	glogorenn klogorennoù
+28	8728	goek	koek
+29	8729	kontaouerezh	gontaouerezh
+30	8730	goulun	goulunioù
+31	8731	gourdonadur	gourdonadurioù
+32	8732	gourfediñ	kourfediñ
+33	8733	goustilhañ	c'houstilhañ goustilhan goustilhas goustilhe goustilhec'h goustilhemp goustilhen goustilhent goustilhes goustilhet goustilhez goustilhfe goustilhfec'h goustilhfed goustilhfemp goustilhfen goustilhfent goustilhfes goustilhi goustilhimp goustilhin goustilhint goustilhis goustilhit goustilhiñ goustilhje goustilhjec'h goustilhjed goustilhjemp goustilhjen goustilhjent goustilhjes goustilhjoc'h goustilhjod goustilhjomp goustilhjont goustilhjout goustilho goustilhomp goustilhont goustilhor goustilhot koustilhañ
+34	8734	krennus	grennus
+35	8735	kreviñ	greviñ krev krevan krevas kreve krevec'h krevemp kreven krevent kreves krevet krevez krevfe krevfec'h krevfed krevfemp krevfen krevfent krevfes krevi krevimp krevin krevint krevis krevit krevje krevjec'h krevjed krevjemp krevjen krevjent krevjes krevjoc'h krevjod krevjomp krevjont krevjout krevo krevomp krevont krevor krevot
+36	8736	krial	grial krian krias kriañ krie kriec'h kriemp krien krient kries kriet kriez krife krifec'h krifed krifemp krifen krifent krifes krii kriimp kriin kriint kriis kriit kriiñ krije krijec'h krijed krijemp krijen krijent krijes krijoc'h krijod krijomp krijont krijout krio kriomp kriont krior kriot
+37	8737	krikal	grikal griko krikan krikas krike krikec'h krikemp kriken krikent krikes kriket krikez krikfe krikfec'h krikfed krikfemp krikfen krikfent krikfes kriki krikimp krikin krikint krikis krikit krikje krikjec'h krikjed krikjemp krikjen krikjent krikjes krikjoc'h krikjod krikjomp krikjont krikjout kriko krikomp krikont krikor krikot
+38	8738	kroatek	groatek
+39	8739	gup	guped
+40	8740	gwallchañs	wallchañs
+41	8741	gwalleürus	walleürus
+42	8742	gwallhunvre	gwallhunvreoù
+43	8743	gwallziforc'h	gwallziforc'hoù
+44	8744	gwardiñ	gwardet
+45	8745	gwaskenn	gwaskennoù waskenn
+46	8746	gwasker	wasker
+47	8747	gwentañ	gwental gwentan gwentas gwente gwentec'h gwentemp gwenten gwentent gwentes gwentet gwentez gwentfe gwentfec'h gwentfed gwentfemp gwentfen gwentfent gwentfes gwenti gwentimp gwentin gwentint gwentis gwentit gwentje gwentjec'h gwentjed gwentjemp gwentjen gwentjent gwentjes gwentjoc'h gwentjod gwentjomp gwentjont gwentjout gwento gwentomp gwentont gwentor gwentot
+48	8748	gwerinad	werinad
+49	8749	gwerzaouriezh	werzaouriezh
+50	8750	gwiliouderezh	wiliouderezh
+51	8751	gwirvoudelezh	wirvoudelezh
+52	8752	gwrier	wrierez
+53	8753	kêraozouriezh	gêraozouriezh
+54	8754	hegañ	heget
+55	8755	hent-dall	hentoù-dall
+56	8756	hinkin	hinkinoù
+57	8757	hollc'halloud	
+58	8758	iziliek	iziliet
+59	8759	jenevreg	jenevregoù
+60	8760	jiletenn	jiletennoù
+61	8761	kediad	kediadoù
+62	8762	kenkizañ	kenkizet
+63	8763	kester	kesterien
+64	8764	keuziañ	keuzie
+65	8765	kigennañ	kigennet
+66	8766	kloge	klogeoù
+67	8767	koagal	goagal koag koagan koagas koagat koagañ koage koagec'h koagemp koagen koagent koages koaget koagez koagfe koagfec'h koagfed koagfemp koagfen koagfent koagfes koagi koagimp koagin koagint koagis koagit koagje koagjec'h koagjed koagjemp koagjen koagjent koagjes koagjoc'h koagjod koagjomp koagjont koagjout koago koagomp koagont koagor koagot
+68	8768	kordañ	kordet
+69	8769	korollerezh	korollerezhioù
+70	8770	koubl	koubloù
+71	8771	kretadur	kretadurioù
+72	8772	laer-mor	laeron-vor
+73	8773	lampon	lamponed
+74	8774	laonennig	laonennigoù
+75	8775	laouenaat	laouena laouenaan laouenaas laouenae laouenaec'h laouenaemp laouenaen laouenaent laouenaes laouenaet laouenaez laouenafe laouenafec'h laouenafed laouenafemp laouenafen laouenafent laouenafes laouenai laouenaimp laouenain laouenaint laouenais laouenait laouenaje laouenajec'h laouenajed laouenajemp laouenajen laouenajent laouenajes laouenajoc'h laouenajod laouenajomp laouenajont laouenajout laouenao laouenaomp laouenaont laouenaor laouenaot
+76	8776	lazek	lazet
+77	8777	lenkrañ	lenkret
+78	8778	levitenn	levitennoù
+79	8779	lidadur	lidadurioù
+80	8780	livus	livusañ
+81	8781	lodennadur	lodennadurioù
+82	8782	lorc'hañ	lorc'het
+83	8783	lovriñ	lovret
+84	8784	luc'heilañ	luc'heilet
+85	8785	lugell	lugelloù
+86	8786	ma-unan	va-unan
+87	8787	maenek	maeneg
+88	8788	mandolinenn	vandolinenn
+89	8789	marmouzañ	varmouzont
+90	8790	martezead	martezeadoù
+91	8791	mazaouañ	mazaou mazaouan mazaouas mazaoue mazaouec'h mazaouemp mazaouen mazaouent mazaoues mazaouet mazaouez mazaoufe mazaoufec'h mazaoufed mazaoufemp mazaoufen mazaoufent mazaoufes mazaoui mazaouimp mazaouin mazaouint mazaouis mazaouit mazaouiñ mazaouje mazaoujec'h mazaoujed mazaoujemp mazaoujen mazaoujent mazaoujes mazaoujoc'h mazaoujod mazaoujomp mazaoujont mazaoujout mazaouo mazaouomp mazaouont mazaouor mazaouot vazaouañ vazaouet
+92	8792	mañsardenn	mañsardennoù vañsardenn
+93	8793	meinadur	meinadurioù
+94	8794	meizadenn	meizadennoù
+95	8795	mezegadur	mezegadurioù
+96	8796	mirad	miradoù
+97	8797	moereb-kozh	voereb-kozh
+98	8798	molibden	volibden
+99	8799	morediñ	moredet vorediñ
+100	8800	morianez	vorianez

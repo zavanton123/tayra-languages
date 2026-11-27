@@ -9,7 +9,7 @@
 9	309	pouez	bouez fouez pouezioù vouez
 10	310	karg	c'harg c'hargoù garg gargoù kargoù
 11	311	savadur	savadurioù
-12	312	saoz	
+12	312	saoz	saozon
 13	313	kazetenn	c'hazetenn c'hazetennoù gazetenn gazetennoù kazetennoù
 14	314	enezenn	enezennoù
 15	315	studi	studioù
@@ -53,7 +53,7 @@
 53	353	touez	douesk touesk zouesk zouez
 54	354	mignon	mignoned mignonez mignonezed vignon vignoned vignonez
 55	355	gwirionez	wirionez
-56	356	diazez	diazezoù ziazez
+56	356	diazez	diazezoù ziazez ziazezoù
 57	357	servij	servijoù
 58	358	deskiñ	desk deskan deskas deske deskec'h desked deskemp desken deskent desker deskes deskez deskfe deskfec'h deskfed deskfemp deskfen deskfent deskfes deski deskimp deskin deskint deskis deskit deskje deskjec'h deskjed deskjemp deskjen deskjent deskjes deskjoc'h deskjod deskjomp deskjont deskjout desko deskoc'h deskomp deskont deskor deskot tesk teskas teske tesker teskint teskiñ teskjont tesko teskont zesk zeskas zeske zesker zeskfe zeskiñ zeskont
 59	359	arouez	arouezioù
@@ -90,7 +90,7 @@
 90	390	lennegezh	lennegezhioù
 91	391	troad	daoudroad dreid droad droiad treid troadoù troiad zaoudroad zreid zroad zroiad
 92	392	eost	eostoù
-93	393	barzh	barzhed barzhez barzhezed barzhioù parzh varzh varzhed varzhez
+93	393	barzh	barzhed barzhez barzhezed barzhioù parzh parzhioù varzh varzhed varzhez
 94	394	darvoud	darvoudoù zarvoud zarvoudoù
 95	395	berr	berrañ berroc'h ferrat verr verrat verrañ verroc'h
 96	396	seblant	

@@ -1,0 +1,100 @@
+1	9101	yudaz	
+2	9102	a-builh	
+3	9103	a-denn-askell	
+4	9104	a-dizh	
+5	9105	a-fell	
+6	9106	a-gor	
+7	9107	a-lazh-korf	
+8	9108	a-nebeudigoù	
+9	9109	a-razailh	
+10	9110	a-rummadoù	
+11	9111	a-vec'h	
+12	9112	a-viliadoù	
+13	9113	a-vozadoù	
+14	9114	a-vunudoù	
+15	9115	a-youl-gaer	
+16	9116	a-zaouioù	
+17	9117	a-ziabell	
+18	9118	a-ziagent	
+19	9119	a-ziavaez-bro	
+20	9120	a-zilerc'h	
+21	9121	abardaevezh	
+22	9122	abatiel	
+23	9123	abeger	
+24	9124	abegerezh	
+25	9125	abegus	
+26	9126	abid	
+27	9127	abon	
+28	9128	abretaat	abreta abretaan abretaas abretae abretaec'h abretaemp abretaen abretaent abretaes abretaet abretaez abretafe abretafec'h abretafed abretafemp abretafen abretafent abretafes abretai abretaimp abretain abretaint abretais abretait abretaje abretajec'h abretajed abretajemp abretajen abretajent abretajes abretajoc'h abretajod abretajomp abretajont abretajout abretao abretaomp abretaont abretaor abretaot
+29	9129	abrikez	
+30	9130	ach	
+31	9131	ac'hub	
+32	9132	adanv	
+33	9133	adarme	
+34	9134	adc'hanedigezh	
+35	9135	adc'hraet	
+36	9136	addant	addent
+37	9137	addeskiñ	addesk addeskan addeskas addeske addeskec'h addeskemp addesken addeskent addeskes addesket addeskez addeskfe addeskfec'h addeskfed addeskfemp addeskfen addeskfent addeskfes addeski addeskimp addeskin addeskint addeskis addeskit addeskje addeskjec'h addeskjed addeskjemp addeskjen addeskjent addeskjes addeskjoc'h addeskjod addeskjomp addeskjont addeskjout addesko addeskomp addeskont addeskor addeskot
+38	9138	adliester	
+39	9139	adplegañ	adpleg adplegan adplegas adplege adplegec'h adplegemp adplegen adplegent adpleges adpleget adplegez adplegfe adplegfec'h adplegfed adplegfemp adplegfen adplegfent adplegfes adplegi adplegimp adplegin adplegint adplegis adplegit adplegje adplegjec'h adplegjed adplegjemp adplegjen adplegjent adplegjes adplegjoc'h adplegjod adplegjomp adplegjont adplegjout adplego adplegomp adplegont adplegor adplegot
+40	9140	adraoñ	
+41	9141	adrenadur	
+42	9142	adstal	adstalioù
+43	9143	adti	adtiez
+44	9144	advouezhiañ	advouezhiet
+45	9145	adweladenn	
+46	9146	adwiskañ	adwisk adwiskan adwiskas adwiske adwiskec'h adwiskemp adwisken adwiskent adwiskes adwisket adwiskez adwiskfe adwiskfec'h adwiskfed adwiskfemp adwiskfen adwiskfent adwiskfes adwiski adwiskimp adwiskin adwiskint adwiskis adwiskit adwiskiñ adwiskje adwiskjec'h adwiskjed adwiskjemp adwiskjen adwiskjent adwiskjes adwiskjoc'h adwiskjod adwiskjomp adwiskjont adwiskjout adwisko adwiskomp adwiskont adwiskor adwiskot
+47	9147	aelel	
+48	9148	aerel	
+49	9149	aerloman	
+50	9150	aester	
+51	9151	aezoni	
+52	9152	agroaz	
+53	9153	albaneger	albanegerien
+54	9154	albanek	
+55	9155	albumin	
+56	9156	alehont	
+57	9157	alpaerezh	
+58	9158	aluzenus	
+59	9159	amaezhiañ	
+60	9160	amaezhierezh	
+61	9161	amailh	
+62	9162	amailhañ	amailhet
+63	9163	amboulat	
+64	9164	ambrougadeg	ambrougadegoù
+65	9165	ambrougadenn	
+66	9166	amdroc'h	
+67	9167	amgefridiel	
+68	9168	amkan	
+69	9169	amkanañ	amkanan amkanas amkane amkanec'h amkanemp amkanen amkanent amkanes amkanet amkanez amkanfe amkanfec'h amkanfed amkanfemp amkanfen amkanfent amkanfes amkani amkanimp amkanin amkanint amkanis amkanit amkanje amkanjec'h amkanjed amkanjemp amkanjen amkanjent amkanjes amkanjoc'h amkanjod amkanjomp amkanjont amkanjout amkano amkanomp amkanont amkanor amkanot
+70	9170	ampez	
+71	9171	amplaer	amplaerioù
+72	9172	ampletiñ	ampletfe
+73	9173	ampoezonañ	
+74	9174	amprestadenn	amprestadennoù
+75	9175	amprevanoniezh	
+76	9176	amreizhder	
+77	9177	amweladenn	
+78	9178	amzeriañ	
+79	9179	amzeriek	
+80	9180	amzispleg	
+81	9181	anaoudadur	
+82	9182	anaoudeg	
+83	9183	anataenn	
+84	9184	anavezadenniñ	
+85	9185	anell	anelloù
+86	9186	anforenn	anforennoù
+87	9187	angoulet	
+88	9188	angwazhiad	
+89	9189	ankouazh	
+90	9190	ankoun	
+91	9191	annoar	
+92	9192	ansell	
+93	9193	antellañ	antellet
+94	9194	anterinded	
+95	9195	anterinour	
+96	9196	anzavadenn	anzavadennoù
+97	9197	anzaviñ	
+98	9198	aotreadur	
+99	9199	aotrouniel	
+100	9200	aozidigezh	

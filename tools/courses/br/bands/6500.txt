@@ -1,0 +1,100 @@
+1	6401	panez	panes
+2	6402	paseporzh	paseporzhioù
+3	6403	penn-bazh	fenn-bazh
+4	6404	pennsoner	bennsoner
+5	6405	peoc'hgar	
+6	6406	periant	periantoù
+7	6407	plaouiañ	blaouiañ flaouiañ plaoufañ plaoui plaouian plaouias plaouie plaouiec'h plaouiemp plaouien plaouient plaouies plaouiet plaouiez plaouife plaouifec'h plaouifed plaouifemp plaouifen plaouifent plaouifes plaouii plaouiimp plaouiin plaouiint plaouiis plaouiit plaouije plaouijec'h plaouijed plaouijemp plaouijen plaouijent plaouijes plaouijoc'h plaouijod plaouijomp plaouijont plaouijout plaouio plaouiomp plaouiont plaouior plaouiot
+8	6408	plastr	blastr
+9	6409	rakvarn	rakvarnan rakvarnas rakvarne rakvarnec'h rakvarnemp rakvarnen rakvarnent rakvarnes rakvarnet rakvarnez rakvarnfe rakvarnfec'h rakvarnfed rakvarnfemp rakvarnfen rakvarnfent rakvarnfes rakvarni rakvarnimp rakvarnin rakvarnint rakvarnioù rakvarnis rakvarnit rakvarnje rakvarnjec'h rakvarnjed rakvarnjemp rakvarnjen rakvarnjent rakvarnjes rakvarnjoc'h rakvarnjod rakvarnjomp rakvarnjont rakvarnjout rakvarno rakvarnomp rakvarnont rakvarnor rakvarnot
+10	6410	reaktor	reaktorioù
+11	6411	redenn	redennoù
+12	6412	regennad	regennadoù
+13	6413	riboulat	riboulet
+14	6414	riklañ	rikl riklan riklas rikle riklec'h riklemp riklen riklent rikles riklet riklez riklfe riklfec'h riklfed riklfemp riklfen riklfent riklfes rikli riklimp riklin riklint riklis riklit riklje rikljec'h rikljed rikljemp rikljen rikljent rikljes rikljoc'h rikljod rikljomp rikljont rikljout riklo riklomp riklont riklor riklot
+15	6415	rokedenn	rokedennoù
+16	6416	santadur	santadurioù
+17	6417	selladenn	selladennoù
+18	6418	serviedenn	serviedennoù
+19	6419	skourrad	skourradoù
+20	6420	skrabañ	skrab skraban skrabas skrabat skrabe skrabec'h skrabemp skraben skrabent skrabes skrabet skrabez skrabfe skrabfec'h skrabfed skrabfemp skrabfen skrabfent skrabfes skrabi skrabimp skrabin skrabint skrabis skrabit skrabje skrabjec'h skrabjed skrabjemp skrabjen skrabjent skrabjes skrabjoc'h skrabjod skrabjomp skrabjont skrabjout skrabo skrabomp skrabont skrabor skrabot
+21	6421	sortial	sorti sortian sortias sortiañ sortie sortiec'h sortiemp sortien sortient sorties sortiet sortiez sortife sortifec'h sortifed sortifemp sortifen sortifent sortifes sortii sortiimp sortiin sortiint sortiis sortiit sortiiñ sortije sortijec'h sortijed sortijemp sortijen sortijent sortijes sortijoc'h sortijod sortijomp sortijont sortijout sortio sortiomp sortiont sortior sortiot
+22	6422	stalaf	stalafioù
+23	6423	sternañ	sternet
+24	6424	stlabezañ	stlabezet
+25	6425	stourmad	stourmadoù
+26	6426	strinkadenn	strinkadennoù
+27	6427	termometr	termometroù
+28	6428	toullgofet	doullgofet
+29	6429	tour-ged	tourioù-ged
+30	6430	tour-iliz	dour-iliz
+31	6431	treol	treolioù
+32	6432	tun	tunioù
+33	6433	uhelgomzer	uhelgomzerioù
+34	6434	barrennig-stagañ	varrennig-stagañ
+35	6435	buanded	vuanded
+36	6436	gwarellvaez	warellvaez
+37	6437	brennig	brennigennoù
+38	6438	bontañ	bontan bontas bonte bontec'h bontemp bonten bontent bontes bontet bontez bontfe bontfec'h bontfed bontfemp bontfen bontfent bontfes bonti bontimp bontin bontint bontis bontit bontiñ bontje bontjec'h bontjed bontjemp bontjen bontjent bontjes bontjoc'h bontjod bontjomp bontjont bontjout bonto bontomp bontont bontor bontot fontet pontet vontañ
+39	6439	garm	garmoù
+40	6440	bridañ	brid bridan bridas bride bridec'h bridemp briden brident brides bridet bridez bridfe bridfec'h bridfed bridfemp bridfen bridfent bridfes bridi bridimp bridin bridint bridis bridit bridiñ bridje bridjec'h bridjed bridjemp bridjen bridjent bridjes bridjoc'h bridjod bridjomp bridjont bridjout brido bridomp bridont bridor bridot pride
+41	6441	birviken	virviken
+42	6442	ampellañ	ampell ampellet
+43	6443	bennigañ	bennig bennigan bennigas bennige bennigec'h bennigemp bennigen bennigent benniges bennigez bennigfe bennigfec'h bennigfed bennigfemp bennigfen bennigfent bennigfes bennigi bennigimp bennigin bennigint bennigis bennigit bennigje bennigjec'h bennigjed bennigjemp bennigjen bennigjent bennigjes bennigjoc'h bennigjod bennigjomp bennigjont bennigjout bennigo bennigomp bennigont bennigor bennigot pennigañ vennigañ
+44	6444	bizskrivañ	bizskriv bizskrivan bizskrivas bizskrive bizskrivec'h bizskrivemp bizskriven bizskrivent bizskrives bizskrivet bizskrivez bizskrivfe bizskrivfec'h bizskrivfed bizskrivfemp bizskrivfen bizskrivfent bizskrivfes bizskrivi bizskrivimp bizskrivin bizskrivint bizskrivis bizskrivit bizskrivje bizskrivjec'h bizskrivjed bizskrivjemp bizskrivjen bizskrivjent bizskrivjes bizskrivjoc'h bizskrivjod bizskrivjomp bizskrivjont bizskrivjout bizskrivo bizskrivomp bizskrivont bizskrivor bizskrivot
+45	6445	brasjediñ	vrasjed
+46	6446	broñs	broñsoù vroñs
+47	6447	burutellerezh	vurutellerezh
+48	6448	darbarer	zarbarer
+49	6449	dibr	dibroù
+50	6450	dispi	zispi
+51	6451	dizurzhiañ	dizurzhiet
+52	6452	durc'hadur	durc'hadurioù
+53	6453	ersav	ersavioù
+54	6454	frankaat	franka frankaan frankaas frankae frankaec'h frankaemp frankaen frankaent frankaes frankaet frankaez frankafe frankafec'h frankafed frankafemp frankafen frankafent frankafes frankai frankaimp frankain frankaint frankais frankait frankaje frankajec'h frankajed frankajemp frankajen frankajent frankajes frankajoc'h frankajod frankajomp frankajont frankajout frankao frankaomp frankaont frankaor frankaot
+55	6455	goanag	c'hoanag
+56	6456	kafedi	c'hafedi
+57	6457	kevreañ	gevreañ
+58	6458	minellañ	minellet
+59	6459	morad	moriad
+60	6460	moru	morued
+61	6461	moulladur	moulladurioù
+62	6462	muzañ	muzet
+63	6463	pil	piloù
+64	6464	pourvezadur	pourvezadurioù
+65	6465	sorc'henn	sorc'hennoù
+66	6466	staotlec'h	staotlec'hioù
+67	6467	toer	doer
+68	6468	toger	doger
+69	6469	tolpadur	tolpadurioù
+70	6470	unangomz	unangomzoù
+71	6471	chilean	chileaned
+72	6472	deraouiñ	deraou deraouan deraouas deraoue deraouec'h deraouemp deraouen deraouent deraoues deraouet deraouez deraoufe deraoufec'h deraoufed deraoufemp deraoufen deraoufent deraoufes deraoui deraouimp deraouin deraouint deraouis deraouit deraouje deraoujec'h deraoujed deraoujemp deraoujen deraoujent deraoujes deraoujoc'h deraoujod deraoujomp deraoujont deraoujout deraouo deraouomp deraouont deraouor deraouot teraou zeraouiñ
+73	6473	idol	idoloù
+74	6474	kemennadur	c'hemennadur
+75	6475	torchañ	dorchañ torch torchan torchas torche torchec'h torchemp torchen torchent torches torchet torchez torchfe torchfec'h torchfed torchfemp torchfen torchfent torchfes torchi torchimp torchin torchint torchis torchit torchiñ torchje torchjec'h torchjed torchjemp torchjen torchjent torchjes torchjoc'h torchjod torchjomp torchjont torchjout torcho torchomp torchont torchor torchot zorchañ
+76	6476	a-zioc'h	
+77	6477	abafiñ	abafet
+78	6478	abrant	abrantoù
+79	6479	araez	araezioù
+80	6480	arboellañ	arboellet
+81	6481	arguziñ	arguzet
+82	6482	batiri	batirioù
+83	6483	bazhig	bazhigoù vazhig
+84	6484	besel	vesel
+85	6485	bu	bioù
+86	6486	biz-troad	bizied-treid bizied-troad
+87	6487	planter	blanterien
+88	6488	blein	plein vlein
+89	6489	plezhenn	blezhenn plezhennoù
+90	6490	blizidigezh	vlizidigezh
+91	6491	bloaziad	bloaziadoù
+92	6492	boemus	voemus
+93	6493	bourdal	bourd bourdan bourdas bourde bourdec'h bourdemp bourden bourdent bourder bourdes bourdet bourdez bourdfe bourdfec'h bourdfed bourdfemp bourdfen bourdfent bourdfes bourdi bourdimp bourdin bourdint bourdis bourdit bourdje bourdjec'h bourdjed bourdjemp bourdjen bourdjent bourdjes bourdjoc'h bourdjod bourdjomp bourdjont bourdjout bourdo bourdomp bourdont bourdor bourdot vourd vourdal
+94	6494	pourmenerez	bourmenerien pourmenerien
+95	6495	breou	breouioù vreou
+96	6496	bug	bugoù
+97	6497	kaol	c'haol
+98	6498	karavell	c'haravell garavell
+99	6499	kavailh	c'havailh gavailh
+100	6500	gedal	c'hedal gedan gedas gedañ gede gedec'h gedemp geden gedent gedes gedet gedfe gedfec'h gedfed gedfemp gedfen gedfent gedfes gedi gedimp gedin gedint gedis gedit gediñ gedje gedjec'h gedjed gedjemp gedjen gedjent gedjes gedjoc'h gedjod gedjomp gedjont gedjout gedo gedomp gedont gedor gedot kedal

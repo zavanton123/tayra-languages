@@ -1,0 +1,100 @@
+1	6301	parlamanter	barlamanterien
+2	6302	c'hoarigandi	
+3	6303	cholori	
+4	6304	degemerout	
+5	6305	emichañs	
+6	6306	fisel	
+7	6307	follez	
+8	6308	kabaduilh	
+9	6309	laouenan	
+10	6310	moned	
+11	6311	paeroniañ	baeroniañ paeroni paeronian paeronias paeronie paeroniec'h paeroniemp paeronien paeronient paeronies paeroniet paeroniez paeronife paeronifec'h paeronifed paeronifemp paeronifen paeronifent paeronifes paeronii paeroniimp paeroniin paeroniint paeroniis paeroniit paeronije paeronijec'h paeronijed paeronijemp paeronijen paeronijent paeronijes paeronijoc'h paeronijod paeronijomp paeronijont paeronijout paeronio paeroniomp paeroniont paeronior paeroniot paeroniñ
+12	6312	poblekaat	poblekaet
+13	6313	togn	
+14	6314	esa	
+15	6315	ginivelezh	c'hinivelezh
+16	6316	kiañ	giañ gies kies kife kifen kifes
+17	6317	lili	lilienn
+18	6318	melar	velar
+19	6319	rannlu	rannluioù
+20	6320	bigoudenn	vigoudenn
+21	6321	adenkorfadur	adenkorfadurioù
+22	6322	aerwask	aerwaskoù
+23	6323	apotikerezh	apotikerezhioù
+24	6324	argasadenn	argasadennoù
+25	6325	baleer	baleerien valeerien
+26	6326	pedadenn	bedadenn
+27	6327	pellgelennerezh	bellgelennerezh
+28	6328	pellgomzadenn	bellgomzadenn
+29	6329	peton	beton veton
+30	6330	birvidigezh	virvidigezh
+31	6331	bleizig	bleizigoù
+32	6332	blotvil	blotviled
+33	6333	puilhder	builhder
+34	6334	karotez	c'harotez
+35	6335	koadourez	c'hoadour koadourien
+36	6336	c'hoariadenn	c'hoariadennoù
+37	6337	dañvadenn	tañvadenn
+38	6338	tennadeg	dennadeg
+39	6339	deportiñ	deportet
+40	6340	dic'haou	zic'haou
+41	6341	didrec'hus	
+42	6342	diferad	diferadoù
+43	6343	digabestrañ	digabestret zigabestrje
+44	6344	tikedenn	dikedenn
+45	6345	disentidigezh	zisentidigezh
+46	6346	disheolier	disheolieroù
+47	6347	distign	zistign
+48	6348	distignañ	zistignañ
+49	6349	diwezhañ-holl	ziwezhañ-holl
+50	6350	dizeur	dizeurioù
+51	6351	treuzell	dreuzell
+52	6352	drouklazher	zrouklazher
+53	6353	eiladur	eiladurioù
+54	6354	eilskrid	eilskridoù
+55	6355	enteuziñ	enteuzet
+56	6356	eskoriñ	eskoret
+57	6357	evn-mor	evned-mor
+58	6358	fougeal	fougeet
+59	6359	fouzhlec'h	fouzhlec'hioù
+60	6360	galluster	gallusterioù
+61	6361	garedon	garedonoù
+62	6362	karrezenn	garrezenn
+63	6363	gavotenn	gavotennoù
+64	6364	kañfard	gañfard
+65	6365	genn	gennoù
+66	6366	klarinetenn	glarinetenn
+67	6367	kleizenn	gleizenn
+68	6368	koc'henn	goc'henn
+69	6369	gouestoni	c'houestoni
+70	6370	gouzañvus	c'houzañvus
+71	6371	krafañ	c'hrafit grafit
+72	6372	griped	gripedoù
+73	6373	heureuchin	heureuchinez
+74	6374	heñveladur	heñveladurioù
+75	6375	induljañs	induljañsoù
+76	6376	isgenad	isgenadoù
+77	6377	islavarenn	islavarennoù
+78	6378	istim	istimoù
+79	6379	kammober	kammoberoù
+80	6380	kampiñ	c'hampiñ gampiñ kampan kampas kampañ kampe kampec'h kampemp kampen kampent kampes kampet kampez kampfe kampfec'h kampfed kampfemp kampfen kampfent kampfes kampi kampimp kampin kampint kampis kampit kampje kampjec'h kampjed kampjemp kampjen kampjent kampjes kampjoc'h kampjod kampjomp kampjont kampjout kampo kampomp kampont kampor kampot
+81	6381	kenglotadur	kenglotadurioù
+82	6382	kerse	c'herse
+83	6383	keveler	geveler
+84	6384	kimiad	c'himiad
+85	6385	kleñvedus	c'hleñvedus
+86	6386	kêraozañ	kêraozet
+87	6387	langaj	langajoù
+88	6388	lec'hed	lec'hedoù
+89	6389	leñvañ	leñval leñvan leñvas leñve leñvec'h leñvemp leñven leñvent leñves leñvet leñvez leñvfe leñvfec'h leñvfed leñvfemp leñvfen leñvfent leñvfes leñvi leñvimp leñvin leñvint leñvis leñvit leñviñ leñvje leñvjec'h leñvjed leñvjemp leñvjen leñvjent leñvjes leñvjoc'h leñvjod leñvjomp leñvjont leñvjout leñvo leñvomp leñvont leñvor leñvot
+90	6390	lienenn	lienennoù
+91	6391	liorzhour	liorzhourien
+92	6392	liz	lizoù
+93	6393	liñsel	liñselioù
+94	6394	lubaniñ	lubanet
+95	6395	luc'heilerez	luc'heilerezioù
+96	6396	luziadell	luziadelloù
+97	6397	mallus	mallusoc'h
+98	6398	mereng	merengoù
+99	6399	momeder	vomeder
+100	6400	mouest	vouest

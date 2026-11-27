@@ -1,0 +1,100 @@
+1	5301	krignerezh	c'hrignerezh
+2	5302	c'hwezigell	c'hwezigelloù c'hwezigenn
+3	5303	tad-kuñv	dad-kuñv
+4	5304	dasorc'hiñ	dasorc'het tasorc'has zasorc'hiñ
+5	5305	dekved	dekvedoù zekved
+6	5306	diforc'hidigezh	ziforc'hidigezh
+7	5307	diraez	ziraez
+8	5308	direizhded	zireizhded
+9	5309	edaj	edajoù
+10	5310	erien	erienoù
+11	5311	esperniañ	esperniet
+12	5312	farsadenn	farsadennoù
+13	5313	forc'h	ferc'hier
+14	5314	frond	frondoù
+15	5315	kendestenn	c'hendestenn gendestenn kendestennoù
+16	5316	kevalaouriezh	gevalaouriezh
+17	5317	goulev	goulevioù
+18	5318	gwellaenn	gwellaennoù wellaennoù
+19	5319	gwerzaouiñ	gwerzaou gwerzaouan gwerzaouas gwerzaoue gwerzaouec'h gwerzaouemp gwerzaouen gwerzaouent gwerzaoues gwerzaouet gwerzaouez gwerzaoufe gwerzaoufec'h gwerzaoufed gwerzaoufemp gwerzaoufen gwerzaoufent gwerzaoufes gwerzaoui gwerzaouimp gwerzaouin gwerzaouint gwerzaouis gwerzaouit gwerzaouje gwerzaoujec'h gwerzaoujed gwerzaoujemp gwerzaoujen gwerzaoujent gwerzaoujes gwerzaoujoc'h gwerzaoujod gwerzaoujomp gwerzaoujont gwerzaoujout gwerzaouo gwerzaouomp gwerzaouont gwerzaouor gwerzaouot werzaouet werzaouiñ
+20	5320	hollekaat	holleka hollekaas hollekaet
+21	5321	hugenn	hugennoù
+22	5322	kablusted	gablusted
+23	5323	kensoniezh	c'hensoniezh gensoniezh
+24	5324	karv-erc'h	c'harv-erc'h kirvi-erc'h
+25	5325	klozadur	klozadurioù
+26	5326	louzaouenn	louzaouennoù
+27	5327	luc'hskeudennerez	luc'hskeudennerezioù
+28	5328	marc'h-tan	marc'hoù-tan
+29	5329	mojennerezh	vojennerezh
+30	5330	moroniezh	voroniezh
+31	5331	moue	voue
+32	5332	obuz	obuzioù obuzoù
+33	5333	orged	orgedoù
+34	5334	pennvad	bennvad fennvad
+35	5335	pomp	fomp
+36	5336	priol	briol brioled
+37	5337	rentañ-kont	rentaoù-kont
+38	5338	reoliñ	reolet
+39	5339	reuziad	reuziadoù
+40	5340	saladenn	saladennoù
+41	5341	sardin	sardined
+42	5342	skrapadeg	skrapadegoù
+43	5343	sonnel	sonnas sonnet
+44	5344	touller	douller doullerien
+45	5345	touseg	tousegi
+46	5346	treuzkompren	dreuzkompren
+47	5347	barazh	barazhoù varazh
+48	5348	metalouriezh	vetalouriezh
+49	5349	mezviñ	mezvan mezvas mezve mezvec'h mezvemp mezven mezvent mezves mezvet mezvfe mezvfec'h mezvfed mezvfemp mezvfen mezvfent mezvfes mezvi mezvimp mezvin mezvint mezvis mezvit mezvje mezvjec'h mezvjed mezvjemp mezvjen mezvjent mezvjes mezvjoc'h mezvjod mezvjomp mezvjont mezvjout mezvo mezvomp mezvont mezvor mezvot mezwiñ vezvas vezviñ
+50	5350	bourrañ	vourre vourront
+51	5351	yaourt	yaourtoù
+52	5352	dirouestlañ	zirouestlañ
+53	5353	boulig	voulig
+54	5354	morvran	morvrini vorvran
+55	5355	brezelekaat	vrezelekaat
+56	5356	enfredañ	enfredet
+57	5357	fabourz	fabourzioù
+58	5358	gwallvrudañ	gwallvrudet wallvrudent
+59	5359	kabaliñ	gabaliñ kabalet
+60	5360	lochenn	lochennoù
+61	5361	orjal	orjaloù
+62	5362	stignañ	stignet
+63	5363	kadarn	gadarn kadarnañ
+64	5364	soutil	soutiloc'h
+65	5365	geneliezh	c'heneliezh
+66	5366	korfkenn	c'horfkenn korfkennoù
+67	5367	arvez	arvezioù
+68	5368	atalier	atalieroù
+69	5369	barnedigezh	barnedigezhioù varnedigezh
+70	5370	berniad	berniadoù
+71	5371	biniaouer	viniaouerez viniaouerien
+72	5372	ble	vle
+73	5373	galoupat	c'haloupat galoup galoupal galoupan galoupas galoupe galoupec'h galoupemp galoupen galoupent galoupes galoupet galoupez galoupfe galoupfec'h galoupfed galoupfemp galoupfen galoupfent galoupfes galoupi galoupimp galoupin galoupint galoupis galoupit galoupje galoupjec'h galoupjed galoupjemp galoupjen galoupjent galoupjes galoupjoc'h galoupjod galoupjomp galoupjont galoupjout galoupo galoupomp galoupont galoupor galoupot
+74	5374	kenstroll	c'henstroll genstroll
+75	5375	talmañ	dalmañ dalmiñ talman talmec'h talmemp talmen talmes talmet talmez talmfe talmfec'h talmfed talmfemp talmfen talmfent talmfes talmi talmimp talmin talmis talmit talmiñ talmje talmjec'h talmjed talmjemp talmjen talmjent talmjes talmjoc'h talmjod talmjomp talmjont talmjout talmomp talmont talmor talmot
+76	5376	deur	deurioù zeur
+77	5377	diduamant	diduamantoù
+78	5378	divrudañ	divrudet zivrudañ
+79	5379	trajedienn	drajedienn trajediennoù
+80	5380	treizhadenn	dreizhadenn treizhadennoù
+81	5381	trivet	drivet
+82	5382	endroel	endroe endroet
+83	5383	eog	eoged
+84	5384	esaeañ	esaeas
+85	5385	fichennaoueg	fichennaouegoù
+86	5386	galloudezh	c'halloudezh galloudezhioù
+87	5387	kanevedenn	ganevedenn
+88	5388	garanek	c'haranet garanet
+89	5389	kastelodenn	gastelodenn kastelodennoù
+90	5390	kazout	c'hazout gazan gaze gazet gazout kazan kazas kaze kazec'h kazemp kazen kazent kazes kazet kazez kazfe kazfec'h kazfed kazfemp kazfen kazfent kazfes kazimp kazin kazint kazis kazit kazje kazjec'h kazjed kazjemp kazjen kazjent kazjes kazjoc'h kazjod kazjomp kazjont kazjout kazo kazomp kazont kazor kazot
+91	5391	kenskoazell	genskoazell
+92	5392	kevezadenn	gevezadenn
+93	5393	kizidigezh	c'hizidigezh gizidigezh kizidigezhioù
+94	5394	koaniañ	goaniañ koani koanian koanias koanie koaniec'h koaniemp koanien koanient koanies koaniet koaniez koanife koanifec'h koanifed koanifemp koanifen koanifent koanifes koanii koaniimp koaniin koaniint koaniis koaniit koanije koanijec'h koanijed koanijemp koanijen koanijent koanijes koanijoc'h koanijod koanijomp koanijont koanijout koanio koaniomp koaniont koanior koaniot
+95	5395	gouloù-deiz	c'houloù-deiz
+96	5396	harzlammat	harzlamm harzlamman harzlammas harzlamme harzlammec'h harzlammemp harzlammen harzlamment harzlammes harzlammet harzlammez harzlammfe harzlammfec'h harzlammfed harzlammfemp harzlammfen harzlammfent harzlammfes harzlammi harzlammimp harzlammin harzlammint harzlammis harzlammit harzlammje harzlammjec'h harzlammjed harzlammjemp harzlammjen harzlammjent harzlammjes harzlammjoc'h harzlammjod harzlammjomp harzlammjont harzlammjout harzlammo harzlammomp harzlammont harzlammor harzlammot
+97	5397	izelvos	izelvosoù
+98	5398	kantimetr	c'hantimetr gantimetr kantimetroù
+99	5399	karned	c'harned garnedoù karnedoù
+100	5400	karr-samm	c'harr-samm kirri-samm

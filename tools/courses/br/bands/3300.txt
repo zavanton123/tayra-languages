@@ -1,100 +1,100 @@
-1	3201	geriadurour	geriadurourien
-2	3202	kiez	c'hiez giez
-3	3203	koustiañs	goustiañs
-4	3204	gwini	gwinienn
-5	3205	houarnañ	houarnan houarnas houarne houarnec'h houarnemp houarnen houarnent houarnes houarnet houarnez houarnfe houarnfec'h houarnfed houarnfemp houarnfen houarnfent houarnfes houarni houarnimp houarnin houarnint houarnis houarnit houarniñ houarnje houarnjec'h houarnjed houarnjemp houarnjen houarnjent houarnjes houarnjoc'h houarnjod houarnjomp houarnjont houarnjout houarno houarnomp houarnont houarnor houarnot
-6	3206	interamant	interamantoù
-7	3207	korsek	gorsek
-8	3208	koton	c'hoton
-9	3209	krampouezh	c'hrampouezh
-10	3210	lezvab	lezverc'h
-11	3211	paliked	palikedoù
-12	3212	pevarad	pevaradoù
-13	3213	splujer	splujerien
-14	3214	spouron	spouronioù
-15	3215	suner-gwad	sunerion-wad
-16	3216	teneridigezh	deneridigezh
-17	3217	tevder	devder
-18	3218	alp	
-19	3219	barzhaz	varzhaz
-20	3220	diliv	tiliw
-21	3221	friko	frikoioù
-22	3222	miltamm	miltammoù
-23	3223	pif	pifoù
-24	3224	richer	richerioù
-25	3225	antreal	antree antreec'h antreemp antreen antreent antrees antreet antreez antrefe antrefec'h antrefed antrefemp antrefen antrefent antrefes antrei antreimp antrein antreint antreis antreit antreje antrejec'h antrejed antrejemp antrejen antrejent antrejes antrejoc'h antrejod antrejomp antrejout antreo antreont antreor antreot
-26	3226	arnodva	arnodvaoù
-27	3227	togañ	doge togan togas toge togec'h togemp togen togent toges toget togez togfe togfec'h togfed togfemp togfen togfent togfes togi togimp togin togint togis togit togje togjec'h togjed togjemp togjen togjent togjes togjoc'h togjod togjomp togjont togjout togo togomp togont togor togot
-28	3228	erin	erinoù
-29	3229	merc'her	verc'her
-30	3230	adwerzhañ	adwerzh adwerzhan adwerzhas adwerzhe adwerzhec'h adwerzhemp adwerzhen adwerzhent adwerzhes adwerzhet adwerzhez adwerzhfe adwerzhfec'h adwerzhfed adwerzhfemp adwerzhfen adwerzhfent adwerzhfes adwerzhi adwerzhimp adwerzhin adwerzhint adwerzhis adwerzhit adwerzhje adwerzhjec'h adwerzhjed adwerzhjemp adwerzhjen adwerzhjent adwerzhjes adwerzhjoc'h adwerzhjod adwerzhjomp adwerzhjont adwerzhjout adwerzho adwerzhomp adwerzhont adwerzhor adwerzhot
-31	3231	pater	bater
-32	3232	c'hoar-gaer	c'hoarezed-kaer
-33	3233	c'hwezigell	c'hwezigelloù c'hwezigenn
-34	3234	tad-kuñv	dad-kuñv
-35	3235	dekved	dekvedoù zekved
-36	3236	farsadenn	farsadennoù
-37	3237	forc'h	ferc'hier
-38	3238	frond	frondoù
-39	3239	kevalaouriezh	gevalaouriezh
-40	3240	gwellaenn	gwellaennoù wellaennoù
-41	3241	gwerzaouiñ	gwerzaou gwerzaouan gwerzaouas gwerzaoue gwerzaouec'h gwerzaouemp gwerzaouen gwerzaouent gwerzaoues gwerzaouet gwerzaouez gwerzaoufe gwerzaoufec'h gwerzaoufed gwerzaoufemp gwerzaoufen gwerzaoufent gwerzaoufes gwerzaoui gwerzaouimp gwerzaouin gwerzaouint gwerzaouis gwerzaouit gwerzaouje gwerzaoujec'h gwerzaoujed gwerzaoujemp gwerzaoujen gwerzaoujent gwerzaoujes gwerzaoujoc'h gwerzaoujod gwerzaoujomp gwerzaoujont gwerzaoujout gwerzaouo gwerzaouomp gwerzaouont gwerzaouor gwerzaouot werzaouet werzaouiñ
-42	3242	kablusted	gablusted
-43	3243	karv-erc'h	c'harv-erc'h kirvi-erc'h
-44	3244	marc'h-tan	marc'hoù-tan
-45	3245	moroniezh	voroniezh
-46	3246	moue	voue
-47	3247	obuz	obuzioù obuzoù
-48	3248	orged	orgedoù
-49	3249	pomp	fomp
-50	3250	priol	briol brioled
-51	3251	rentañ-kont	rentaoù-kont
-52	3252	sardin	sardined
-53	3253	skrapadeg	skrapadegoù
-54	3254	touller	douller doullerien
-55	3255	touseg	tousegi
-56	3256	mezviñ	mezvan mezvas mezve mezvec'h mezvemp mezven mezvent mezves mezvet mezvfe mezvfec'h mezvfed mezvfemp mezvfen mezvfent mezvfes mezvi mezvimp mezvin mezvint mezvis mezvit mezvje mezvjec'h mezvjed mezvjemp mezvjen mezvjent mezvjes mezvjoc'h mezvjod mezvjomp mezvjont mezvjout mezvo mezvomp mezvont mezvor mezvot mezwiñ vezvas vezviñ
-57	3257	morvran	morvrini vorvran
-58	3258	kadarn	gadarn kadarnañ
-59	3259	soutil	soutiloc'h
-60	3260	geneliezh	c'heneliezh
-61	3261	atalier	atalieroù
-62	3262	biniaouer	viniaouerez viniaouerien
-63	3263	ble	vle
-64	3264	galoupat	c'haloupat galoup galoupal galoupan galoupas galoupe galoupec'h galoupemp galoupen galoupent galoupes galoupet galoupez galoupfe galoupfec'h galoupfed galoupfemp galoupfen galoupfent galoupfes galoupi galoupimp galoupin galoupint galoupis galoupit galoupje galoupjec'h galoupjed galoupjemp galoupjen galoupjent galoupjes galoupjoc'h galoupjod galoupjomp galoupjont galoupjout galoupo galoupomp galoupont galoupor galoupot
-65	3265	talmañ	dalmañ dalmiñ talman talmec'h talmemp talmen talmes talmet talmez talmfe talmfec'h talmfed talmfemp talmfen talmfent talmfes talmi talmimp talmin talmis talmit talmiñ talmje talmjec'h talmjed talmjemp talmjen talmjent talmjes talmjoc'h talmjod talmjomp talmjont talmjout talmomp talmont talmor talmot
-66	3266	treizhadenn	dreizhadenn treizhadennoù
-67	3267	trivet	drivet
-68	3268	eog	eoged
-69	3269	fichennaoueg	fichennaouegoù
-70	3270	kanevedenn	ganevedenn
-71	3271	kastelodenn	gastelodenn kastelodennoù
-72	3272	kazout	c'hazout gazan gaze gazet gazout kazan kazas kaze kazec'h kazemp kazen kazent kazes kazet kazez kazfe kazfec'h kazfed kazfemp kazfen kazfent kazfes kazimp kazin kazint kazis kazit kazje kazjec'h kazjed kazjemp kazjen kazjent kazjes kazjoc'h kazjod kazjomp kazjont kazjout kazo kazomp kazont kazor kazot
-73	3273	kizidigezh	c'hizidigezh gizidigezh kizidigezhioù
-74	3274	koaniañ	goaniañ koani koanian koanias koanie koaniec'h koaniemp koanien koanient koanies koaniet koaniez koanife koanifec'h koanifed koanifemp koanifen koanifent koanifes koanii koaniimp koaniin koaniint koaniis koaniit koanije koanijec'h koanijed koanijemp koanijen koanijent koanijes koanijoc'h koanijod koanijomp koanijont koanijout koanio koaniomp koaniont koanior koaniot
-75	3275	gouloù-deiz	c'houloù-deiz
-76	3276	harzlammat	harzlamm harzlamman harzlammas harzlamme harzlammec'h harzlammemp harzlammen harzlamment harzlammes harzlammet harzlammez harzlammfe harzlammfec'h harzlammfed harzlammfemp harzlammfen harzlammfent harzlammfes harzlammi harzlammimp harzlammin harzlammint harzlammis harzlammit harzlammje harzlammjec'h harzlammjed harzlammjemp harzlammjen harzlammjent harzlammjes harzlammjoc'h harzlammjod harzlammjomp harzlammjont harzlammjout harzlammo harzlammomp harzlammont harzlammor harzlammot
-77	3277	karned	c'harned garnedoù karnedoù
-78	3278	karr-samm	c'harr-samm kirri-samm
-79	3279	kañval	gañvaled kañvaled
-80	3280	kleizhenn	gleizhenn gleizhennoù kleizhennoù
-81	3281	korf-marv	c'horfoù-marv gorf-marv korfoù-marv
-82	3282	martezeañ	martezean martezeas martezee martezeec'h martezeemp martezeen martezeent martezees martezeet martezeez martezefe martezefec'h martezefed martezefemp martezefen martezefent martezefes martezei martezeimp martezein martezeint martezeis martezeit martezeiñ martezeje martezejec'h martezejed martezejemp martezejen martezejent martezejes martezejoc'h martezejod martezejomp martezejont martezejout martezeo martezeomp martezeont martezeor martezeot vartezeañ
-83	3283	mentel	ventel
-84	3284	morzhed	vorzhed
-85	3285	risklañ	risklan risklas riskle risklec'h risklemp risklen risklent riskles risklet risklez risklfe risklfec'h risklfed risklfemp risklfen risklfent risklfes riskli risklimp risklin risklint risklis risklit risklje riskljec'h riskljed riskljemp riskljen riskljent riskljes riskljoc'h riskljod riskljomp riskljont riskljout risklo risklomp risklont risklor risklot
-86	3286	sac'had	sac'hadoù
-87	3287	tommaat	domma dommaas tomma tommaad tommaan tommaas tommae tommaec'h tommaemp tommaen tommaent tommaes tommaet tommaez tommafe tommafec'h tommafed tommafemp tommafen tommafent tommafes tommai tommaimp tommain tommaint tommais tommait tommaje tommajec'h tommajed tommajemp tommajen tommajent tommajes tommajoc'h tommajod tommajomp tommajont tommajout tommao tommaomp tommaont tommaor tommaot
-88	3288	melkoni	velkoni
-89	3289	mez	mezenn vezenn
-90	3290	fil	filoù
-91	3291	kor	c'hor koroù
-92	3292	degemerus	degemerusoc'h zegemerus
-93	3293	den-marc'h	zen-marc'h
-94	3294	mallozhiñ	mallozhan mallozhas mallozhe mallozhec'h mallozhemp mallozhen mallozhent mallozhes mallozhet mallozhez mallozhfe mallozhfec'h mallozhfed mallozhfemp mallozhfen mallozhfent mallozhfes mallozhi mallozhimp mallozhin mallozhint mallozhis mallozhit mallozhje mallozhjec'h mallozhjed mallozhjemp mallozhjen mallozhjent mallozhjes mallozhjoc'h mallozhjod mallozhjomp mallozhjont mallozhjout mallozho mallozhomp mallozhont mallozhor mallozhot vallozhas
-95	3295	reder-mor	reder-bro rederien-vro
-96	3296	traezheg	draezheg traezhegi traezhegoù
-97	3297	kere	c'here gere
-98	3298	blazañ	blasañ blazan blazas blaze blazec'h blazemp blazen blazent blazes blazet blazez blazfe blazfec'h blazfed blazfemp blazfen blazfent blazfes blazi blazimp blazin blazint blazis blazit blazje blazjec'h blazjed blazjemp blazjen blazjent blazjes blazjoc'h blazjod blazjomp blazjont blazjout blazo blazomp blazont blazor blazot plasañ plazas
-99	3299	kelien	c'helien gelien
-100	3300	tavañjer	davañjer tavañjerioù zavañjer
+1	3201	suj	
+2	3202	reoliañ	
+3	3203	posubl	
+4	3204	breujoù	
+5	3205	lin	
+6	3206	didamallet	
+7	3207	barok	varok
+8	3208	feson	fesonioù
+9	3209	savetaiñ	savetaet
+10	3210	awalc'h	
+11	3211	reizhad	reizhadoù
+12	3212	ostilh	ostilhoù
+13	3213	tokarn	dokarn tokarnioù tokarnoù zokarn
+14	3214	dael	daelioù daeloù zael
+15	3215	speurenn	speurennioù speurennoù
+16	3216	klokaat	glokaat glokae klokaet
+17	3217	meizañ	meizet veizas veizañ veizent
+18	3218	kenrouedad	genrouedad
+19	3219	hemolc'hiñ	hemolc'has hemolc'hont
+20	3220	maodiern	vaodiern
+21	3221	amprestañ	amprestet
+22	3222	chaoser	chaoserioù
+23	3223	teuliad	deuliad teuliadoù
+24	3224	dezrevell	dezrevelloù tezrevell zezrevell
+25	3225	troiñ	troio troy
+26	3226	koazez	c'hoazez goazez
+27	3227	tennad	dennad tennadoù zennad
+28	3228	katalog	c'hatalog gatalog katalogoù
+29	3229	chouk	
+30	3230	ekologel	
+31	3231	laez	
+32	3232	muiañ-niver	
+33	3233	raer	
+34	3234	furchadegoù	
+35	3235	e-harz	
+36	3236	indezeuropek	
+37	3237	strujus	
+38	3238	prestik	
+39	3239	enbroad	enbroidi
+40	3240	kerreizh	c'herreizh gerreizh
+41	3241	pastor	bastor
+42	3242	steudad	steudadoù
+43	3243	imor	imorioù imoroù
+44	3244	eztaoliñ	eztaole eztaolet
+45	3245	broadelouriezh	broadelouriezhioù vroadelouriezh
+46	3246	bevedeg	bevedegoù vevedeg
+47	3247	interest	interestoù
+48	3248	skampañ	skampas skampet
+49	3249	plog	blog vlog
+50	3250	esae	esaeoù
+51	3251	koñje	c'hoñje goñje
+52	3252	loarell	loarelloù
+53	3253	stankell	stankellioù stankelloù
+54	3254	bonreizhel	vonreizhel
+55	3255	kamera	c'hamera gamera kameraioù kameraoù
+56	3256	sektenn	sektennoù
+57	3257	endalc'h	endalc'hoù
+58	3258	gennañ	c'hennañ gennet kennañ
+59	3259	faltaziek	faltaziet
+60	3260	komedienn	gomedienn komediennoù
+61	3261	dizoloadenn	dizoloadennoù zizoloadenn
+62	3262	tachad	tachadoù
+63	3263	dafariñ	dafaret zafariñ
+64	3264	meurgêr	meurgêrioù veurgêr
+65	3265	yalc'had	yalc'hadoù
+66	3266	arouezel	
+67	3267	emgannañ	
+68	3268	fenngazetennour	
+69	3269	korfel	
+70	3270	neket	
+71	3271	reizhskrivadur	
+72	3272	zisklêrias	
+73	3273	divoas	
+74	3274	gand	
+75	3275	neptu	
+76	3276	pennkaoz	
+77	3277	urzhaz	
+78	3278	voterien	
+79	3279	pront	front
+80	3280	dibosubl	
+81	3281	euskarat	
+82	3282	skinheaded	
+83	3283	evurus	
+84	3284	rejantez	
+85	3285	gouezelek	c'houezelek
+86	3286	diskred	ziskred
+87	3287	dic'houest	zic'houest
+88	3288	dizalc'hidigezh	
+89	3289	sakramant	sakramantoù
+90	3290	marc'hegañ	varc'hegañ
+91	3291	dismantrañ	dismantret tismantrañ zismantrañ
+92	3292	goaf	c'hoaf goafoù
+93	3293	kentael	genta kenta
+94	3294	kendiviz	c'hendiviz gendiviz kendivizoù
+95	3295	kengevredad	c'hengevredad gengevredad kengevredadoù
+96	3296	koskoriad	c'hoskoriad koskoriadoù
+97	3297	brezeliañ	brezeliet vrezelias vrezeliañ vrezelie
+98	3298	akwariom	akwariomoù
+99	3299	lusker	luskerioù
+100	3300	kevredadel	gevredadel

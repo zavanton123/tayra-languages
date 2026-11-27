@@ -1,100 +1,100 @@
-1	2501	manaveg	
-2	2502	brug	
-3	2503	didruez	
-4	2504	heug	
-5	2505	karantezus	
-6	2506	limestra	
-7	2507	noazus	
-8	2508	serr-noz	
-9	2509	amann	
-10	2510	yun	
-11	2511	lorc'hus	
-12	2512	eilvet	
-13	2513	ampoezon	ampoezonoù
-14	2514	brokus	vrokusañ
-15	2515	droch	zroch
-16	2516	privezioù	brivezioù
-17	2517	troazh	zroazh
-18	2518	dic'hallus	
-19	2519	eneb	eneboù
-20	2520	kafe	kafeoù
-21	2521	risklus	risklusoc'h
-22	2522	heugiñ	heugal heugan heugas heuge heugec'h heugemp heugen heugent heuges heuget heugez heugfe heugfec'h heugfed heugfemp heugfen heugfent heugfes heugi heugimp heugin heugint heugis heugit heugje heugjec'h heugjed heugjemp heugjen heugjent heugjes heugjoc'h heugjod heugjomp heugjont heugjout heugo heugomp heugont heugor heugot
-23	2523	jarl	jarloù
-24	2524	dornell	dornelloù zornell
-25	2525	kenedus	genedus kenedusañ
-26	2526	revr	revrioù
-27	2527	eürus	eürusañ eürusoc'h
-28	2528	erv	irvi
-29	2529	gell-du	c'hell-du
-30	2530	alamaneger	alamanegerien
-31	2531	braventez	vraventez
-32	2532	c'hoariell	c'hoarielloù
-33	2533	dant	zant
-34	2534	dibenn-sizhun	dibennoù-sizhun
-35	2535	fourmaj	fourmajoù
-36	2536	postel	posteloù
-37	2537	pradenn	bradenn pradennoù
-38	2538	presbital	bresbital presbitalioù
-39	2539	stroñs	stroñsoù
-40	2540	hanterour	hanterourez hanterourien
-41	2541	bouzar	vouzar
-42	2542	digreizennañ	digreizenn digreizennan digreizennas digreizenne digreizennec'h digreizennemp digreizennen digreizennent digreizennes digreizennet digreizennez digreizennfe digreizennfec'h digreizennfed digreizennfemp digreizennfen digreizennfent digreizennfes digreizenni digreizennimp digreizennin digreizennint digreizennis digreizennit digreizenniñ digreizennje digreizennjec'h digreizennjed digreizennjemp digreizennjen digreizennjent digreizennjes digreizennjoc'h digreizennjod digreizennjomp digreizennjont digreizennjout digreizenno digreizennomp digreizennont digreizennor digreizennot tigreizennañ zigreizennañ
-43	2543	poultrenn	boultrenn poultrennoù
-44	2544	tristidigezh	dristidigezh
-45	2545	horolaj	horolajoù
-46	2546	nezañ	nez nezan nezas neze nezec'h nezemp nezen nezent nezes nezet nezez nezfe nezfec'h nezfed nezfemp nezfen nezfent nezfes nezi nezimp nezin nezint nezis nezit neziñ nezje nezjec'h nezjed nezjemp nezjen nezjent nezjes nezjoc'h nezjod nezjomp nezjont nezjout nezo nezomp nezont nezor nezot
-47	2547	digas	tigas zigas
-48	2548	o-zri	o-zeir
-49	2549	kouronkañ	gouronkañ kouronk kouronkan kouronkas kouronkat kouronke kouronkec'h kouronkemp kouronken kouronkent kouronkes kouronket kouronkez kouronkfe kouronkfec'h kouronkfed kouronkfemp kouronkfen kouronkfent kouronkfes kouronki kouronkimp kouronkin kouronkint kouronkis kouronkit kouronkiñ kouronkje kouronkjec'h kouronkjed kouronkjemp kouronkjen kouronkjent kouronkjes kouronkjoc'h kouronkjod kouronkjomp kouronkjont kouronkjout kouronko kouronkomp kouronkont kouronkor kouronkot
-50	2550	neuiñ	neu neuan neuas neue neuec'h neued neuemp neuen neuent neuer neues neuet neuez neufe neufec'h neufed neufemp neufen neufent neufes neui neuimp neuin neuint neuis neuit neuje neujen neujes neujout neuo neuoc'h neuomp neuont neuor neuot
-51	2551	karrdi	c'harrdi karrdioù
-52	2552	direizhder	direizhderioù zireizhder
-53	2553	galloudek	c'halloudek galloudekañ galloudekoc'h
-54	2554	kevnid	gevnidenn kevnidenn
-55	2555	kredour	gredourien kredourez kredourien
-56	2556	ivin	ivinoù
-57	2557	mandarin	mandarined vandarined
-58	2558	skubañ	skubal skuban skubas skubat skube skubec'h skubemp skuben skubent skubes skubet skubez skubfe skubfec'h skubfed skubfemp skubfen skubfent skubfes skubi skubimp skubin skubint skubis skubit skubiñ skubje skubjec'h skubjed skubjemp skubjen skubjent skubjes skubjoc'h skubjod skubjomp skubjont skubjout skubo skubomp skubont skubor skubot
-59	2559	biñs	biñsoù piñs viñs viñsoù
-60	2560	piler	pilerioù pileroù
-61	2561	harzhal	harzhan harzhas harzhañ harzhe harzhec'h harzhemp harzhen harzhent harzhes harzhet harzhez harzhfe harzhfec'h harzhfed harzhfemp harzhfen harzhfent harzhfes harzhi harzhimp harzhin harzhint harzhis harzhit harzhiñ harzhje harzhjec'h harzhjed harzhjemp harzhjen harzhjent harzhjes harzhjoc'h harzhjod harzhjomp harzhjont harzhjout harzho harzhomp harzhont harzhor harzhot
-62	2562	korfadurezh	c'horfadurezh gorfadurezh
-63	2563	kiriegezh	giriegezh kiriegezhioù
-64	2564	liñs	lins liñsed liñsoù
-65	2565	hejañ	hejal hejas heje hejet hejfe hejfec'h hejfed hejfemp hejfen hejfent hejfes hejimp hejis hejiñ hejje hejjec'h hejjed hejjemp hejjen hejjent hejjes hejjoc'h hejjod hejjomp hejjont hejjout hejoc'h hejor hejot
-66	2566	bukañ	buk bukan bukas buke bukec'h bukemp buken bukent bukes buket bukez bukfe bukfec'h bukfed bukfemp bukfen bukfent bukfes buki bukimp bukin bukint bukis bukit bukje bukjec'h bukjed bukjemp bukjen bukjent bukjes bukjoc'h bukjod bukjomp bukjont bukjout buko bukomp bukont bukor bukot vuk vukañ
-67	2567	dreser	dreserien dreserion treserez treserien
-68	2568	kaozeadenn	c'haozeadennoù gaozeadenn gaozeadennoù kaozeadennoù
-69	2569	krib	c'hrib c'hriboù grib kriboù
-70	2570	kouviad	c'houviad gouviad gouviidi kouviadez
-71	2571	kell	c'helloù divgell gelloù gilli kelloù killioù
-72	2572	magerez	mager magerezed magerien vagerez vagerien
-73	2573	lopañ	lop lopan lopas lopat lope lopec'h lopemp lopen lopent lopes lopet lopez lopfe lopfec'h lopfed lopfemp lopfen lopfent lopfes lopi lopimp lopin lopint lopis lopit lopiñ lopje lopjec'h lopjed lopjemp lopjen lopjent lopjes lopjoc'h lopjod lopjomp lopjont lopjout lopo lopomp lopont lopor lopot
-74	2574	samm	sammoù semmen
-75	2575	barv	barvenn barvioù
-76	2576	boazañ	boazan boazas boaze boazec'h boazemp boazen boazent boazes boazet boazez boazfe boazfec'h boazfed boazfemp boazfen boazfent boazfes boazi boazimp boazin boazint boazis boazit boaziñ boazje boazjec'h boazjed boazjemp boazjen boazjent boazjes boazjoc'h boazjod boazjomp boazjont boazjout boazo boazomp boazont boazor boazot voazañ voazo
-77	2577	kanab	c'hanab ganab
-78	2578	lasañ	lasan lasas lase lasec'h lasemp lasen lasent laser lases laset lasez lasfe lasfec'h lasfed lasfemp lasfen lasfent lasfes lasi lasimp lasin lasint lasis lasit lasiñ lasje lasjec'h lasjed lasjemp lasjen lasjent lasjes lasjoc'h lasjod lasjomp lasjont lasjout laso lasoc'h lasomp lasont lasor lasot
-79	2579	gwak	gwakañ gwakoc'h wak
-80	2580	neveziñ	nevezan nevezas neveze nevezec'h nevezemp nevezen nevezent nevezes nevezet nevezez nevezfe nevezfec'h nevezfed nevezfemp nevezfen nevezfent nevezfes nevezi nevezimp nevezin nevezint nevezis nevezit nevezje nevezjec'h nevezjed nevezjemp nevezjen nevezjent nevezjes nevezjoc'h nevezjod nevezjomp nevezjont nevezjout nevezo nevezomp nevezont nevezor nevezot
-81	2581	pulluc'hañ	bulluc'has pulluc'h pulluc'han pulluc'has pulluc'he pulluc'hec'h pulluc'hemp pulluc'hen pulluc'hent pulluc'hes pulluc'het pulluc'hez pulluc'hfe pulluc'hfec'h pulluc'hfed pulluc'hfemp pulluc'hfen pulluc'hfent pulluc'hfes pulluc'hi pulluc'himp pulluc'hin pulluc'hint pulluc'his pulluc'hit pulluc'hje pulluc'hjec'h pulluc'hjed pulluc'hjemp pulluc'hjen pulluc'hjent pulluc'hjes pulluc'hjoc'h pulluc'hjod pulluc'hjomp pulluc'hjont pulluc'hjout pulluc'ho pulluc'homp pulluc'hont pulluc'hor pulluc'hot
-82	2582	gwazh-dour	gwazhioù-dour wazh-dour wazhioù-dour
-83	2583	kaoter	gaoter kaoterioù
-84	2584	aspediñ	asped aspedan aspedas aspede aspedec'h aspedemp aspeden aspedent aspedes aspedet aspedez aspedfe aspedfec'h aspedfed aspedfemp aspedfen aspedfent aspedfes aspedi aspedimp aspedin aspedint aspedis aspedit aspedje aspedjec'h aspedjed aspedjemp aspedjen aspedjent aspedjes aspedjoc'h aspedjod aspedjomp aspedjont aspedjout aspedo aspedomp aspedont aspedor aspedot
-85	2585	brodañ	brod brodan brodas brode brodec'h brodemp broden brodent broder brodes brodez brodfe brodfec'h brodfed brodfemp brodfen brodfent brodfes brodi brodimp brodin brodint brodis brodit brodiñ brodje brodjec'h brodjed brodjemp brodjen brodjent brodjes brodjoc'h brodjod brodjomp brodjont brodjout brodo brodomp brodont brodor brodot prodañ prodi vrodañ
-86	2586	treizhañ	dreizh dreizhañ dreizhiñ treizh treizhan treizhas treizhe treizhec'h treizhemp treizhen treizhent treizhes treizhet treizhez treizhfe treizhfec'h treizhfed treizhfemp treizhfen treizhfent treizhfes treizhi treizhiañ treizhimp treizhin treizhint treizhis treizhit treizhiñ treizhje treizhjec'h treizhjed treizhjemp treizhjen treizhjent treizhjes treizhjoc'h treizhjod treizhjomp treizhjont treizhjout treizho treizhomp treizhont treizhor treizhot zreizhañ
-87	2587	farsal	fars farsan farsas farse farsec'h farsemp farsen farsent farser farserien farses farset farsez farsfe farsfec'h farsfed farsfemp farsfen farsfent farsfes farsi farsimp farsin farsint farsis farsit farsje farsjec'h farsjed farsjemp farsjen farsjent farsjes farsjoc'h farsjod farsjomp farsjont farsjout farso farsomp farsont farsor farsot
-88	2588	aluminiom	
-89	2589	atmosferenn	
-90	2590	daneg	
-91	2591	didermen	
-92	2592	gorilh	gorilhed
-93	2593	hegarat	
-94	2594	hungareg	
-95	2595	nev	
-96	2596	roueelezh	
-97	2597	akordeoñs	
-98	2598	alc'houez	
-99	2599	askellek	
-100	2600	fas	
+1	2501	stadunanat	
+2	2502	emsav	emsavioù
+3	2503	timbr	dimbr timbroù
+4	2504	takad	dakad takadoù zakad
+5	2505	a-fet	
+6	2506	marevezh	marevezhioù varevezh
+7	2507	e-leizh	
+8	2508	komunour	c'homunour gomunour
+9	2509	teknik	deknik teknikoù zeknik
+10	2510	milourel	vilourel
+11	2511	termen	dermen termenoù zermen
+12	2512	memestra	
+13	2513	endro	endroioù
+14	2514	patrom	batrom fatrom patromoù
+15	2515	peurrest	beurrest
+16	2516	tagadenn	dagadenn tagadennoù zagadenn
+17	2517	armerzh	armerzhioù
+18	2518	livadur	livadurioù
+19	2519	lennegel	
+20	2520	penn-da-benn	pen-da-benn
+21	2521	ispisial	
+22	2522	termeniñ	dermeniñ dermeno termenet
+23	2523	diorren	tiorren ziorren
+24	2524	lec'hienn	lec'hiennoù
+25	2525	perc'hennañ	berc'hennas berc'hennañ berc'henne ferc'hennañ perc'hennas perc'henner perc'hennet perc'hennont
+26	2526	lañs	
+27	2527	liesseurt	
+28	2528	statud	statudoù
+29	2529	gward	gwarded gwardoù ward warded
+30	2530	nazi	nazied
+31	2531	laoskel	laoskas laoske laoskent laosket laoskjont laosko laoskont
+32	2532	titour	ditour ditouroù titouroù zitour zitouroù
+33	2533	efed	efedoù
+34	2534	dispartiañ	dispartiet tispartias tispartiañ tispartijont tispartiont zispartias zispartiañ zispartie zispartife
+35	2535	implijer	implijerien
+36	2536	unaniezh	unaniezhoù
+37	2537	bonreizh	bonreizhoù vonreizh
+38	2538	dedennañ	dedennet zedennas zedenne zedennet zedenno
+39	2539	merañ	mer meret
+40	2540	a-gevret	
+41	2541	leurenn	leurennoù
+42	2542	prosez	brosez frosez prosezioù prosezoù
+43	2543	desped	
+44	2544	e-maez	
+45	2545	skritur	skriturioù
+46	2546	disklêriat	disklêrias disklêriet tisklêri tisklêrias tisklêrie zisklêrie
+47	2547	kostezenn	c'hostezenn gostezenn kostezennoù
+48	2548	a-hervez	
+49	2549	tammig	dammig tammigoù
+50	2550	mammenn	mammennoù vammenn
+51	2551	oberiant	oberiantoù
+52	2552	emzalc'h	emzalc'hioù emzalc'hoù
+53	2553	kenstrivadeg	c'henstrivadeg genstrivadeg kenstrivadegoù
+54	2554	armerzhel	
+55	2555	bretoned	vretoned
+56	2556	energiezh	energiezhioù energiezhoù
+57	2557	fardañ	fardet fardont
+58	2558	doueez	toueez zoueez
+59	2559	spagnolek	
+60	2560	tierniezh	dierniezh dierniezhoù tierniezhioù tierniezhoù
+61	2561	melestradurezh	melestradurezhioù velestradurezh
+62	2562	foran	
+63	2563	kembraek	gembraek
+64	2564	hollad	
+65	2565	akademiezh	akademiezhioù
+66	2566	arzel	
+67	2567	justis	justisioù
+68	2568	enniñ	enn enne
+69	2569	ensavadur	ensavadurioù
+70	2570	monumant	monumantoù vonumant
+71	2571	kêrbenn	c'hêrbenn gêrbenn
+72	2572	studiadenn	studiadennoù
+73	2573	labouradeg	labouradegoù
+74	2574	kamp	c'hamp gamp kampioù kampoù
+75	2575	klotañ	glotas glotañ glote glotent glotfe glotje gloto glotont klote klotfe klotfent kloto
+76	2576	dieubidigezh	zieubidigezh
+77	2577	politikour	bolitikour bolitikourien politikourien
+78	2578	krogad	c'hrogad grogad krogadoù
+79	2579	sifr	sifroù
+80	2580	ekonomikel	
+81	2581	unvaniezh	unvaniezhioù
+82	2582	embanner	embannerien
+83	2583	feulster	feulsterioù
+84	2584	tailh	dailh tailhoù
+85	2585	domani	domanioù zomani
+86	2586	roueel	
+87	2587	hec'h-unan	
+88	2588	digreskiñ	digresket digresko tigreskas tigreske tigreskfe tigreskiñ zigreskas zigreske zigreskiñ
+89	2589	serc'h	serc'hed
+90	2590	diouer	ziouer
+91	2591	prezegenn	brezegenn prezegennoù
+92	2592	diorroet	ziorroet
+93	2593	listenn	listennoù
+94	2594	broudañ	broudet vroudas vroudañ vroude
+95	2595	broadelour	vroadelour
+96	2596	publik	bublik fublik
+97	2597	genidik	c'henidik
+98	2598	kenañ	
+99	2599	seziz	sezizoù
+100	2600	ekonomiezh	

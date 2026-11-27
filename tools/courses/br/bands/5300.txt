@@ -1,49 +1,100 @@
-1	5201	manal	vanal
-2	5202	banal	vanalenn
-3	5203	barailhat	barailh barailhan barailhas barailhe barailhec'h barailhemp barailhen barailhent barailhes barailhet barailhez barailhfe barailhfec'h barailhfed barailhfemp barailhfen barailhfent barailhfes barailhi barailhimp barailhin barailhint barailhis barailhit barailhje barailhjec'h barailhjed barailhjemp barailhjen barailhjent barailhjes barailhjoc'h barailhjod barailhjomp barailhjont barailhjout barailho barailhomp barailhont barailhor barailhot varailhat
-4	5204	marc'hatadenn	varc'hatadenn
-5	5205	marc'hekaat	marc'heka marc'hekaan marc'hekaas marc'hekae marc'hekaec'h marc'hekaemp marc'hekaen marc'hekaent marc'hekaes marc'hekaet marc'hekaez marc'hekafe marc'hekafec'h marc'hekafed marc'hekafemp marc'hekafen marc'hekafent marc'hekafes marc'hekai marc'hekaimp marc'hekain marc'hekaint marc'hekais marc'hekait marc'hekaje marc'hekajec'h marc'hekajed marc'hekajemp marc'hekajen marc'hekajent marc'hekajes marc'hekajoc'h marc'hekajod marc'hekajomp marc'hekajont marc'hekajout marc'hekao marc'hekaomp marc'hekaont marc'hekaor marc'hekaot varc'hekae
-6	5206	marradeg	varradeg
-7	5207	marvelezh	varvelezh
-8	5208	baskodenn	vaskodenn
-9	5209	mañch	vañcheier
-10	5210	meañs	veañs
-11	5211	meleniñ	melenan melenas melene melenec'h melenemp melenen melenent melenes melenet melenez melenfe melenfec'h melenfed melenfemp melenfen melenfent melenfes meleni melenimp melenin melenint melenis melenit melenje melenjec'h melenjed melenjemp melenjen melenjent melenjes melenjoc'h melenjod melenjomp melenjont melenjout meleno melenomp melenont melenor melenot veleno
-12	5212	viheñvel	
-13	5213	milin-vor	vilin-vor
-14	5214	milionerez	vilionerion
-15	5215	milionvedenn	vilionvedenn
-16	5216	viloni	
-17	5217	mindrailherezig	vindrailherezig
-18	5218	mizer	vizer
-19	5219	biñs-tro	viñs-tro
-20	5220	bleuniaoua	bleuniaouaan bleuniaouaas bleuniaouae bleuniaouaec'h bleuniaouaemp bleuniaouaen bleuniaouaent bleuniaouaes bleuniaouaet bleuniaouaez bleuniaouafe bleuniaouafec'h bleuniaouafed bleuniaouafemp bleuniaouafen bleuniaouafent bleuniaouafes bleuniaouai bleuniaouaimp bleuniaouain bleuniaouaint bleuniaouais bleuniaouait bleuniaouaje bleuniaouajec'h bleuniaouajed bleuniaouajemp bleuniaouajen bleuniaouajent bleuniaouajes bleuniaouajoc'h bleuniaouajod bleuniaouajomp bleuniaouajont bleuniaouajout bleuniaouao bleuniaouaomp bleuniaouaont bleuniaouaor bleuniaouaot vleuniaoua
-21	5221	bolc'h	volc'henn
-22	5222	morek	vorek
-23	5223	bouli	voulienn
-24	5224	mouskanañ	mouskan mouskanan mouskanas mouskane mouskanec'h mouskanemp mouskanen mouskanent mouskanes mouskanet mouskanez mouskanfe mouskanfec'h mouskanfed mouskanfemp mouskanfen mouskanfent mouskanfes mouskani mouskanimp mouskanin mouskanint mouskanis mouskanit mouskaniñ mouskanje mouskanjec'h mouskanjed mouskanjemp mouskanjen mouskanjent mouskanjes mouskanjoc'h mouskanjod mouskanjomp mouskanjont mouskanjout mouskano mouskanomp mouskanont mouskanor mouskanot vouskanañ
-25	5225	bouzarded	vouzarded
-26	5226	vrugeg	
-27	5227	war-gaout	
-28	5228	gwenaneg	wenaneg
-29	5229	gwern-veg	wern-veg
-30	5230	gwiblenn	wiblenn
-31	5231	gwinoniezh	winoniezh
-32	5232	gwinterell	winterell
-33	5233	yec'hedus	
-34	5234	yenerez	yenerezioù
-35	5235	youc'hadenn	youadenn
-36	5236	daoublegañ	daoubleg daoublegan daoublegas daoublege daoublegec'h daoublegemp daoublegen daoublegent daoubleges daoublegez daoublegfe daoublegfec'h daoublegfed daoublegfemp daoublegfen daoublegfent daoublegfes daoublegi daoublegimp daoublegin daoublegint daoublegis daoublegit daoublegiñ daoublegje daoublegjec'h daoublegjed daoublegjemp daoublegjen daoublegjent daoublegjes daoublegjoc'h daoublegjod daoublegjomp daoublegjont daoublegjout daoublego daoublegomp daoublegont daoublegor daoublegot zaoublegañ
-37	5237	dievezhded	zievezhded
-38	5238	dilojadenn	zilojadenn
-39	5239	zink	
-40	5240	dismeg	zismegoù
-41	5241	disoñj	zisoñj
-42	5242	dizaliañ	dizali dizalian dizalias dizalie dizaliec'h dizaliemp dizalien dizalient dizalies dizaliet dizaliez dizalife dizalifec'h dizalifed dizalifemp dizalifen dizalifent dizalifes dizalii dizaliimp dizaliin dizaliint dizaliis dizaliit dizaliiñ dizalije dizalijec'h dizalijed dizalijemp dizalijen dizalijent dizalijes dizalijoc'h dizalijod dizalijomp dizalijont dizalijout dizalio dizaliomp dizaliont dizalior dizaliot tizaliañ zizaliañ
-43	5243	tud-kaer	zud-kaer
-44	5244	addont	addontan addontas addonte addontec'h addontemp addonten addontent addontes addontet addontez addontfe addontfec'h addontfed addontfemp addontfen addontfent addontfes addonti addontimp addontin addontint addontis addontit addontje addontjec'h addontjed addontjemp addontjen addontjent addontjes addontjoc'h addontjod addontjomp addontjont addontjout addonto addontomp addontont addontor addontot
-45	5245	kendalc'hiad	gendalc'hidi
-46	5246	kendalc'hadez	gendalc'hidi
-47	5247	biziñ	bizet viziñ
-48	5248	tred	tridi
-49	5249	kri	c'hri
+1	5201	gwrizienniñ	gwriziennet
+2	5202	louzawouriezh	
+3	5203	skeudennaouer	
+4	5204	spern	
+5	5205	barvek	
+6	5206	bemnoz	
+7	5207	gwechall-gozh	
+8	5208	hanterc'hoar	
+9	5209	purgator	
+10	5210	salm	
+11	5211	sebezet	
+12	5212	tali	dali zali
+13	5213	askorad	askoradoù
+14	5214	bananez	vananezenn
+15	5215	pempvedenn	bempvedenn fempvedenn
+16	5216	beuz	beuzioù
+17	5217	bitrak	bitrakoù
+18	5218	biz-gwalenn	viz-gwalenn
+19	5219	breutadeg	breutadegoù vreutadeg
+20	5220	brezelig	brezeligoù
+21	5221	proleteriezh	broleteriezh
+22	5222	dalc'hus	zalc'hus
+23	5223	diloc'h	
+24	5224	dilouzaouer	zilouzaouer
+25	5225	disprizus	zisprizus
+26	5226	torzhellegezh	dorzhellegezh
+27	5227	dousenn	zousenn
+28	5228	eneplezenn	eneplezennoù
+29	5229	enezad	enezidi
+30	5230	fiñvtresadenn	fiñvtresadennoù
+31	5231	flod	flodoù
+32	5232	kasadenn	gasadenn kasadennoù
+33	5233	geriadurour	geriadurourien
+34	5234	kiez	c'hiez giez
+35	5235	gouestlad	c'houestlad
+36	5236	koustiañs	goustiañs
+37	5237	gwelladenn	gwelladennoù welladenn
+38	5238	gwini	gwinienn
+39	5239	gwirvoudel	wirvoudel
+40	5240	houarnañ	houarnan houarnas houarne houarnec'h houarnemp houarnen houarnent houarnes houarnet houarnez houarnfe houarnfec'h houarnfed houarnfemp houarnfen houarnfent houarnfes houarni houarnimp houarnin houarnint houarnis houarnit houarniñ houarnje houarnjec'h houarnjed houarnjemp houarnjen houarnjent houarnjes houarnjoc'h houarnjod houarnjomp houarnjont houarnjout houarno houarnomp houarnont houarnor houarnot
+41	5241	interamant	interamantoù
+42	5242	jiboez	jiboezoù
+43	5243	kenstag	c'henstag
+44	5244	kornogat	gornogat
+45	5245	korsek	gorsek
+46	5246	koton	c'hoton
+47	5247	krampouezh	c'hrampouezh
+48	5248	lezvab	lezverc'h
+49	5249	livadenn	livadennoù
+50	5250	lêrenn	lêrennoù
+51	5251	moneizel	voneizel
+52	5252	paliked	palikedoù
+53	5253	pennsekretour	bennsekretour
+54	5254	peuliek	peuliet
+55	5255	pevarad	pevaradoù
+56	5256	sinadeg	sinadegoù
+57	5257	skolveuriek	skolveuriet
+58	5258	skript	skriptoù
+59	5259	splujer	splujerien
+60	5260	spouron	spouronioù
+61	5261	suner-gwad	sunerion-wad
+62	5262	talant	dalant
+63	5263	teneridigezh	deneridigezh
+64	5264	tevder	devder
+65	5265	tomatez	domatez
+66	5266	tuadur	zuadur
+67	5267	alp	
+68	5268	barzhaz	varzhaz
+69	5269	amdreiñ	amdreet
+70	5270	chikan	chikanioù
+71	5271	difredañ	difred difredet
+72	5272	diliv	tiliw
+73	5273	friko	frikoioù
+74	5274	miltamm	miltammoù
+75	5275	mirerezh	virerezh
+76	5276	mousfent	vousfent
+77	5277	pif	pifoù
+78	5278	reoliadur	reoliadurioù
+79	5279	roeñvat	roeñvas
+80	5280	saouzaniñ	saouzanet
+81	5281	strobinellañ	strobinellet
+82	5282	daofin	zaofin
+83	5283	richer	richerioù
+84	5284	antreal	antree antreec'h antreemp antreen antreent antrees antreet antreez antrefe antrefec'h antrefed antrefemp antrefen antrefent antrefes antrei antreimp antrein antreint antreis antreit antreje antrejec'h antrejed antrejemp antrejen antrejent antrejes antrejoc'h antrejod antrejomp antrejout antreo antreont antreor antreot
+85	5285	arnodva	arnodvaoù
+86	5286	berrloer	berrloeroù verrloer
+87	5287	dic'hoprañ	dic'hopret zic'hoprañ
+88	5288	jak	jakoù
+89	5289	togañ	doge togan togas toge togec'h togemp togen togent toges toget togez togfe togfec'h togfed togfemp togfen togfent togfes togi togimp togin togint togis togit togje togjec'h togjed togjemp togjen togjent togjes togjoc'h togjod togjomp togjont togjout togo togomp togont togor togot
+90	5290	erin	erinoù
+91	5291	merc'her	verc'her
+92	5292	drek	trek
+93	5293	adwerzhañ	adwerzh adwerzhan adwerzhas adwerzhe adwerzhec'h adwerzhemp adwerzhen adwerzhent adwerzhes adwerzhet adwerzhez adwerzhfe adwerzhfec'h adwerzhfed adwerzhfemp adwerzhfen adwerzhfent adwerzhfes adwerzhi adwerzhimp adwerzhin adwerzhint adwerzhis adwerzhit adwerzhje adwerzhjec'h adwerzhjed adwerzhjemp adwerzhjen adwerzhjent adwerzhjes adwerzhjoc'h adwerzhjod adwerzhjomp adwerzhjont adwerzhjout adwerzho adwerzhomp adwerzhont adwerzhor adwerzhot
+94	5294	pater	bater
+95	5295	blivañ	blivet
+96	5296	kasedig	c'hasedig kasedigoù
+97	5297	kazhig	c'hazhig kizhierigoù
+98	5298	kibelldi	c'hibelldi kibelldioù
+99	5299	c'hoar-gaer	c'hoarezed-kaer
+100	5300	krennoad	c'hrennoad grennoad

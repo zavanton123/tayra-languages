@@ -1,0 +1,100 @@
+1	7001	vandalerezh	
+2	7002	barrekaat	varrekaat
+3	7003	belegiezh	velegiezh
+4	7004	mezventi	vezventi
+5	7005	violoñser	
+6	7006	morouriezh	vorouriezh
+7	7007	morskorneg	vorskorneg
+8	7008	mortuaj	vortuaj
+9	7009	buredad	vuredad
+10	7010	yezher	
+11	7011	alc'hweder	
+12	7012	amjestr	
+13	7013	amspis	
+14	7014	anvadurezh	
+15	7015	balan	
+16	7016	bolchevik	
+17	7017	put	but
+18	7018	kroazstagadur	c'hroazstagadur
+19	7019	charlezenn	
+20	7020	disrog	
+21	7021	domino	
+22	7022	emastenn	
+23	7023	erziwezh	
+24	7024	kroazig	groazig
+25	7025	hil	
+26	7026	hollret	
+27	7027	kala-goañv	
+28	7028	kali	
+29	7029	mammig	
+30	7030	marc'hallac'h	
+31	7031	palm	
+32	7032	renead	
+33	7033	safar	
+34	7034	sparfell	
+35	7035	strobineller	
+36	7036	douareg	touareg
+37	7037	troazhus	
+38	7038	a-daol	
+39	7039	a-dro	
+40	7040	a-ziavaez	
+41	7041	ac'hane	
+42	7042	adtremen	adtremenan adtremenas adtremene adtremenec'h adtremenemp adtremenen adtremenent adtremenes adtremenet adtremenez adtremenfe adtremenfec'h adtremenfed adtremenfemp adtremenfen adtremenfent adtremenfes adtremeni adtremenimp adtremenin adtremenint adtremenis adtremenit adtremenje adtremenjec'h adtremenjed adtremenjemp adtremenjen adtremenjent adtremenjes adtremenjoc'h adtremenjod adtremenjomp adtremenjont adtremenjout adtremeno adtremenomp adtremenont adtremenor adtremenot
+43	7043	alkimiezh	
+44	7044	amresis	amresisan amresisas amresise amresisec'h amresisemp amresisen amresisent amresises amresiset amresisez amresisfe amresisfec'h amresisfed amresisfemp amresisfen amresisfent amresisfes amresisi amresisimp amresisin amresisint amresisis amresisit amresisje amresisjec'h amresisjed amresisjemp amresisjen amresisjent amresisjes amresisjoc'h amresisjod amresisjomp amresisjont amresisjout amresiso amresisomp amresisont amresisor amresisot
+45	7045	angl-ha-norman	
+46	7046	anneziñ	
+47	7047	arouezelezh	
+48	7048	astommañ	astomm astomman astommas astomme astommec'h astommemp astommen astomment astommes astommet astommez astommfe astommfec'h astommfed astommfemp astommfen astommfent astommfes astommi astommimp astommin astommint astommis astommit astommiñ astommje astommjec'h astommjed astommjemp astommjen astommjent astommjes astommjoc'h astommjod astommjomp astommjont astommjout astommo astommomp astommont astommor astommot
+49	7049	avelek	
+50	7050	boudaad	
+51	7051	bremaik	
+52	7052	brouskoad	brouskoadoù
+53	7053	diellevr	
+54	7054	digastizañ	digastizet
+55	7055	disfizius	
+56	7056	dispredet	
+57	7057	distrujer	
+58	7058	diuzañ	
+59	7059	divroerezh	
+60	7060	dizagn	
+61	7061	dizaon	
+62	7062	doliñ	dolo
+63	7063	e-skeud	
+64	7064	etrelakaat	etrelakaet
+65	7065	etretant	
+66	7066	evezhierez	evezhier
+67	7067	finnek	
+68	7068	flouraat	
+69	7069	garid	garidoù
+70	7070	glander	
+71	7071	goadur	
+72	7072	gwenvidik	
+73	7073	hollandat	
+74	7074	joa	
+75	7075	kabestrañ	kabestret
+76	7076	kanus	
+77	7077	kasia	
+78	7078	kenavo	
+79	7079	koantik	
+80	7080	largañ	larg largan largas large largec'h largemp largen largent larges larget largez largfe largfec'h largfed largfemp largfen largfent largfes largi largimp largin largint largis largit largiñ largje largjec'h largjed largjemp largjen largjent largjes largjoc'h largjod largjomp largjont largjout largo largomp largont largor largot
+81	7081	leur-c'hoari	
+82	7082	liesdoueek	
+83	7083	liesskrivañ	liesskrivet
+84	7084	liesyezhek	
+85	7085	liorzherezh	
+86	7086	maltouter	
+87	7087	marell	marelloù
+88	7088	moumoun	
+89	7089	paprika	
+90	7090	pennren	
+91	7091	pennskridaozer	
+92	7092	peurvoud	
+93	7093	pismigañ	pismiget
+94	7094	pleustrer	
+95	7095	pobladur	
+96	7096	reizhegezh	
+97	7097	rog	
+98	7098	skuizhus	
+99	7099	sportva	
+100	7100	stlakadeg	

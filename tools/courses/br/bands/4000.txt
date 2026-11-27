@@ -1,100 +1,100 @@
-1	3901	ruteniom	
-2	3902	saludañ	saludet
-3	3903	satanazet	
-4	3904	serbeg	
-5	3905	silisiom	
-6	3906	skobitell	
-7	3907	skrij	
-8	3908	sonour	
-9	3909	souzañ	souz souzan souzas souze souzec'h souzemp souzen souzent souzes souzet souzez souzfe souzfec'h souzfed souzfemp souzfen souzfent souzfes souzi souzimp souzin souzint souzis souzit souzje souzjec'h souzjed souzjemp souzjen souzjent souzjes souzjoc'h souzjod souzjomp souzjont souzjout souzo souzomp souzont souzor souzot
-10	3910	spagnolegerez	spagnolegerien
-11	3911	stankted	
-12	3912	stleug	
-13	3913	stol	
-14	3914	stribourzh	
-15	3915	sulvezh	
-16	3916	tasad	
-17	3917	ti-emzivaded	
-18	3918	ti-gward	
-19	3919	ti-pediñ	
-20	3920	difluk	tifluk
-21	3921	traet	
-22	3922	uhelvarr	
-23	3923	uvelded	
-24	3924	vanadiom	
-25	3925	vandalerezh	
-26	3926	morouriezh	vorouriezh
-27	3927	yezher	
-28	3928	alc'hweder	
-29	3929	amjestr	
-30	3930	anvadurezh	
-31	3931	balan	
-32	3932	put	but
-33	3933	mammig	
-34	3934	troazhus	
-35	3935	ac'hane	
-36	3936	adtremen	adtremenan adtremenas adtremene adtremenec'h adtremenemp adtremenen adtremenent adtremenes adtremenet adtremenez adtremenfe adtremenfec'h adtremenfed adtremenfemp adtremenfen adtremenfent adtremenfes adtremeni adtremenimp adtremenin adtremenint adtremenis adtremenit adtremenje adtremenjec'h adtremenjed adtremenjemp adtremenjen adtremenjent adtremenjes adtremenjoc'h adtremenjod adtremenjomp adtremenjont adtremenjout adtremeno adtremenomp adtremenont adtremenor adtremenot
-37	3937	alkimiezh	
-38	3938	amresis	amresisan amresisas amresise amresisec'h amresisemp amresisen amresisent amresises amresiset amresisez amresisfe amresisfec'h amresisfed amresisfemp amresisfen amresisfent amresisfes amresisi amresisimp amresisin amresisint amresisis amresisit amresisje amresisjec'h amresisjed amresisjemp amresisjen amresisjent amresisjes amresisjoc'h amresisjod amresisjomp amresisjont amresisjout amresiso amresisomp amresisont amresisor amresisot
-39	3939	astommañ	astomm astomman astommas astomme astommec'h astommemp astommen astomment astommes astommet astommez astommfe astommfec'h astommfed astommfemp astommfen astommfent astommfes astommi astommimp astommin astommint astommis astommit astommiñ astommje astommjec'h astommjed astommjemp astommjen astommjent astommjes astommjoc'h astommjod astommjomp astommjont astommjout astommo astommomp astommont astommor astommot
-40	3940	avelek	
-41	3941	dispredet	
-42	3942	diuzañ	
-43	3943	dizaon	
-44	3944	evezhierez	evezhier
-45	3945	gwenvidik	
-46	3946	hollandat	
-47	3947	kenavo	
-48	3948	largañ	larg largan largas large largec'h largemp largen largent larges larget largez largfe largfec'h largfed largfemp largfen largfent largfes largi largimp largin largint largis largit largiñ largje largjec'h largjed largjemp largjen largjent largjes largjoc'h largjod largjomp largjont largjout largo largomp largont largor largot
-49	3949	leur-c'hoari	
-50	3950	liesyezhek	
-51	3951	maltouter	
-52	3952	paprika	
-53	3953	pobladur	
-54	3954	rog	
-55	3955	skuizhus	
-56	3956	sportva	
-57	3957	tarzhus	
-58	3958	tibeteg	
-59	3959	troadeg	
-60	3960	voulouz	
-61	3961	c'hwezekvet	
-62	3962	devri	zevri
-63	3963	kaleted	galeted
-64	3964	terzhienn-ruz	derzhienn-ruz
-65	3965	doan	toan
-66	3966	dube	tube
-67	3967	minic'hi	vinic'hi
-68	3968	a-uc'h	
-69	3969	afroamerikan	afroamerikaned
-70	3970	aksiom	aksiomoù
-71	3971	annev	annevioù
-72	3972	aveliñ	avelan avelas avelat avelañ avele avelec'h avelemp avelen avelent aveles avelet avelez avelfe avelfec'h avelfed avelfemp avelfen avelfent avelfes aveli avelimp avelin avelint avelis avelit avelje aveljec'h aveljed aveljemp aveljen aveljent aveljes aveljoc'h aveljod aveljomp aveljont aveljout avelo avelomp avelont avelor avelot
-73	3973	barr-avel	barroù-avel
-74	3974	barr-livañ	barroù-livañ
-75	3975	barver	varver
-76	3976	pec'hiñ	bec'hiñ pec'han pec'has pec'he pec'hec'h pec'hemp pec'hen pec'hent pec'hes pec'het pec'hez pec'hfe pec'hfec'h pec'hfed pec'hfemp pec'hfen pec'hfent pec'hfes pec'hi pec'himp pec'hin pec'hint pec'his pec'hit pec'hje pec'hjec'h pec'hjed pec'hjemp pec'hjen pec'hjent pec'hjes pec'hjoc'h pec'hjod pec'hjomp pec'hjont pec'hjout pec'ho pec'homp pec'hont pec'hor pec'hot
-77	3977	pignerez	bignerez fignerez
-78	3978	bismut	vismut
-79	3979	brom	vrom
-80	3980	bruzun	vruzun
-81	3981	kangourou	c'hangouroued
-82	3982	kardeur	c'hardeur
-83	3983	glazenn	c'hlazenn
-84	3984	klor	c'hlor
-85	3985	goulakadenn	c'houlakadenn goulakadennoù
-86	3986	chevr	chevrenn
-87	3987	dañjerusted	zañjerusted
-88	3988	tec'had	dec'hidi
-89	3989	digoadenn	digoadennoù
-90	3990	disliv	dislivet
-91	3991	divarregezh	zivarregezh
-92	3992	divinadell	divinadelloù
-93	3993	dizanaoudek	zizanaoudek
-94	3994	drougiezh	zrougiezh
-95	3995	turzhunell	durzhunell
-96	3996	enklotenn	enklotennoù
-97	3997	fennañ	fennan fennas fenne fennec'h fennemp fennen fennent fennes fennet fennez fennfe fennfec'h fennfed fennfemp fennfen fennfent fennfes fenni fennimp fennin fennint fennis fennit fennje fennjec'h fennjed fennjemp fennjen fennjent fennjes fennjoc'h fennjod fennjomp fennjont fennjout fenno fennomp fennont fennor fennot
-98	3998	fentigell	fentigelloù
-99	3999	fust	fustoù
-100	4000	kenwadelezh	genwadelezh
+1	3901	krib	c'hrib c'hriboù grib kriboù
+2	3902	kouviad	c'houviad gouviad gouviidi kouviadez
+3	3903	kell	c'helloù divgell gelloù gilli kelloù killioù
+4	3904	kontroliñ	c'hontroliñ gontrole gontroliñ kontrole kontrolet
+5	3905	magerez	magerezed vagerez
+6	3906	lopañ	lop lopan lopas lopat lope lopec'h lopemp lopen lopent lopes lopet lopez lopfe lopfec'h lopfed lopfemp lopfen lopfent lopfes lopi lopimp lopin lopint lopis lopit lopiñ lopje lopjec'h lopjed lopjemp lopjen lopjent lopjes lopjoc'h lopjod lopjomp lopjont lopjout lopo lopomp lopont lopor lopot
+7	3907	samm	sammoù semmen
+8	3908	barv	barvenn barvioù
+9	3909	boazañ	boazan boazas boaze boazec'h boazemp boazen boazent boazes boazet boazez boazfe boazfec'h boazfed boazfemp boazfen boazfent boazfes boazi boazimp boazin boazint boazis boazit boaziñ boazje boazjec'h boazjed boazjemp boazjen boazjent boazjes boazjoc'h boazjod boazjomp boazjont boazjout boazo boazomp boazont boazor boazot voazañ voazo
+10	3910	kanab	c'hanab ganab
+11	3911	pikern	fikern pikernioù
+12	3912	lasañ	lasan lasas lase lasec'h lasemp lasen lasent laser lases laset lasez lasfe lasfec'h lasfed lasfemp lasfen lasfent lasfes lasi lasimp lasin lasint lasis lasit lasiñ lasje lasjec'h lasjed lasjemp lasjen lasjent lasjes lasjoc'h lasjod lasjomp lasjont lasjout laso lasoc'h lasomp lasont lasor lasot
+13	3913	gwak	gwakañ gwakoc'h wak
+14	3914	paperenn	baperenn faperenn paperennoù
+15	3915	degasadenn	degasadennoù zegasadenn
+16	3916	neveziñ	nevezan nevezas neveze nevezec'h nevezemp nevezen nevezent nevezes nevezet nevezez nevezfe nevezfec'h nevezfed nevezfemp nevezfen nevezfent nevezfes nevezi nevezimp nevezin nevezint nevezis nevezit nevezje nevezjec'h nevezjed nevezjemp nevezjen nevezjent nevezjes nevezjoc'h nevezjod nevezjomp nevezjont nevezjout nevezo nevezomp nevezont nevezor nevezot
+17	3917	pulluc'hañ	bulluc'has pulluc'h pulluc'han pulluc'has pulluc'he pulluc'hec'h pulluc'hemp pulluc'hen pulluc'hent pulluc'hes pulluc'het pulluc'hez pulluc'hfe pulluc'hfec'h pulluc'hfed pulluc'hfemp pulluc'hfen pulluc'hfent pulluc'hfes pulluc'hi pulluc'himp pulluc'hin pulluc'hint pulluc'his pulluc'hit pulluc'hje pulluc'hjec'h pulluc'hjed pulluc'hjemp pulluc'hjen pulluc'hjent pulluc'hjes pulluc'hjoc'h pulluc'hjod pulluc'hjomp pulluc'hjont pulluc'hjout pulluc'ho pulluc'homp pulluc'hont pulluc'hor pulluc'hot
+18	3918	gwazh-dour	gwazhioù-dour wazh-dour wazhioù-dour
+19	3919	gwidre	gwidreoù widre
+20	3920	kaoter	gaoter kaoterioù
+21	3921	treuzfurmadur	treuzfurmadurioù zreuzfurmadur
+22	3922	aspediñ	asped aspedan aspedas aspede aspedec'h aspedemp aspeden aspedent aspedes aspedet aspedez aspedfe aspedfec'h aspedfed aspedfemp aspedfen aspedfent aspedfes aspedi aspedimp aspedin aspedint aspedis aspedit aspedje aspedjec'h aspedjed aspedjemp aspedjen aspedjent aspedjes aspedjoc'h aspedjod aspedjomp aspedjont aspedjout aspedo aspedomp aspedont aspedor aspedot
+23	3923	brodañ	brod brodan brodas brode brodec'h brodemp broden brodent broder brodes brodez brodfe brodfec'h brodfed brodfemp brodfen brodfent brodfes brodi brodimp brodin brodint brodis brodit brodiñ brodje brodjec'h brodjed brodjemp brodjen brodjent brodjes brodjoc'h brodjod brodjomp brodjont brodjout brodo brodomp brodont brodor brodot prodañ prodi vrodañ
+24	3924	karrekaenn	c'harrekaenn garrekaenn karrekaennoù
+25	3925	dioueriñ	dioueret diouerit tiouere tioueront zioueras zioueret
+26	3926	farsal	fars farsan farsas farse farsec'h farsemp farsen farsent farser farserien farses farset farsez farsfe farsfec'h farsfed farsfemp farsfen farsfent farsfes farsi farsimp farsin farsint farsis farsit farsje farsjec'h farsjed farsjemp farsjen farsjent farsjes farsjoc'h farsjod farsjomp farsjont farsjout farso farsomp farsont farsor farsot
+27	3927	a-wel	
+28	3928	aluminiom	
+29	3929	ardamezouriezh	
+30	3930	atmosferenn	
+31	3931	daneg	
+32	3932	dellezek	
+33	3933	didermen	
+34	3934	diplomatek	
+35	3935	e-se	
+36	3936	egorel	
+37	3937	engraver	
+38	3938	furlukin	
+39	3939	gorilh	gorilhed
+40	3940	hegarat	
+41	3941	hungareg	
+42	3942	mik	
+43	3943	nev	
+44	3944	penitiour	
+45	3945	perc'henniñ	
+46	3946	poellek	
+47	3947	psikologel	
+48	3948	reveulzier	
+49	3949	roueelezh	
+50	3950	sizhunieg	
+51	3951	sonerezhel	
+52	3952	akordeoñs	
+53	3953	alc'houez	
+54	3954	askellek	
+55	3955	didro	
+56	3956	fas	
+57	3957	feilhañs	
+58	3958	galianeg	
+59	3959	leandi	
+60	3960	merdeer	
+61	3961	poloneg	
+62	3962	spletus	
+63	3963	ugentvet	
+64	3964	divyezhegezh	
+65	3965	eun	
+66	3966	morel	
+67	3967	penn-kil-ha-troad	
+68	3968	vikel	
+69	3969	af	
+70	3970	mantrañ	mantret
+71	3971	stadeg	stadegoù
+72	3972	barz	
+73	3973	slovak	
+74	3974	liesdoare	
+75	3975	merzheriañ	merzheriet
+76	3976	aotism	
+77	3977	fav	favenn
+78	3978	foz-difenn	fozioù-difenn
+79	3979	poloniat	boloniat
+80	3980	rod-avel	rodoù-avel
+81	3981	sevenidigezh	sevenidigezhioù
+82	3982	standilhon	standilhonoù
+83	3983	daeroù	zaeroù
+84	3984	digalonekaat	digaloneka digalonekaan digalonekaas digalonekae digalonekaec'h digalonekaemp digalonekaen digalonekaent digalonekaes digalonekaet digalonekaez digalonekafe digalonekafec'h digalonekafed digalonekafemp digalonekafen digalonekafent digalonekafes digalonekai digalonekaimp digalonekain digalonekaint digalonekais digalonekait digalonekaje digalonekajec'h digalonekajed digalonekajemp digalonekajen digalonekajent digalonekajes digalonekajoc'h digalonekajod digalonekajomp digalonekajont digalonekajout digalonekao digalonekaomp digalonekaont digalonekaor digalonekaot tigalonekaat zigalonekaat
+85	3985	feilhañserezh	feilhañserezhioù
+86	3986	kerneveureg	c'herneveureg
+87	3987	morc'hed	vorc'hed
+88	3988	lamp	lampoù
+89	3989	baou	paou
+90	3990	kala	gala
+91	3991	savlec'h	savlec'hioù
+92	3992	arroud	arroudoù
+93	3993	ensellout	ensellet
+94	3994	eurier	eurieroù
+95	3995	kasketenn	gasketenn kasketennoù
+96	3996	ijinenn	ijinennoù
+97	3997	kaezh	gaezh
+98	3998	marchosi	marchosioù
+99	3999	nevezinti	nevezintioù
+100	4000	saoznegerez	saozneger saoznegerien

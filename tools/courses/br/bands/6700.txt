@@ -1,0 +1,100 @@
+1	6601	toksin	toksinoù
+2	6602	toull-noz	toulloù-noz
+3	6603	treflez	dreflez dreflezenn
+4	6604	treizhad	dreizhadez dreizhidi
+5	6605	trolinenn	trolinennoù
+6	6606	bevennañ	vevennañ
+7	6607	vic'haner	vic'hanerien
+8	6608	gwadañ	gwadan gwadas gwade gwadec'h gwademp gwaden gwadent gwades gwadet gwadez gwadfe gwadfec'h gwadfed gwadfemp gwadfen gwadfent gwadfes gwadi gwadimp gwadin gwadint gwadis gwadit gwadiñ gwadje gwadjec'h gwadjed gwadjemp gwadjen gwadjent gwadjes gwadjoc'h gwadjod gwadjomp gwadjont gwadjout gwado gwadomp gwadont gwador gwadot kwadañ wadañ
+9	6609	gwenvidig	wenvidien wenvidig
+10	6610	gwerzhid	gwerzhidoù werzhid
+11	6611	gwrac'hell	gwrac'helloù wrac'hell
+12	6612	yec'hedoniezh	
+13	6613	dasprenañ	zasprenas zasprenañ
+14	6614	dievezh	zievezh
+15	6615	aveiñ	avean aveas avee aveec'h aveemp aveen aveent avees aveet aveez avefe avefec'h avefed avefemp avefen avefent avefes avei aveimp avein aveint aveis aveit aveje avejec'h avejed avejemp avejen avejent avejes avejoc'h avejod avejomp avejont avejout aveo aveomp aveont aveor aveot
+16	6616	diwadañ	diwad diwadan diwadas diwade diwadec'h diwademp diwaden diwadent diwades diwadet diwadez diwadfe diwadfec'h diwadfed diwadfemp diwadfen diwadfent diwadfes diwadi diwadimp diwadin diwadint diwadis diwadit diwadiñ diwadje diwadjec'h diwadjed diwadjemp diwadjen diwadjent diwadjes diwadjoc'h diwadjod diwadjomp diwadjont diwadjout diwado diwadomp diwadont diwador diwadot ziwadañ
+17	6617	gourniz	c'hourniz gournizez
+18	6618	mentañ	mente mentet
+19	6619	pleustradenn	bleustradenn fleustradenn pleustradennoù
+20	6620	rimañ	rimas rime rimet
+21	6621	trouzadell	drouzadell trouzadelloù
+22	6622	tanañ	danañ danet tanet tanfe tanfec'h tanfed tanfemp tanfen tanfent tanfes tanimp tanis tanje tanjec'h tanjed tanjemp tanjen tanjent tanjes tanjoc'h tanjod tanjomp tanjont tanjout tanoc'h tanor tanot zanañ zanjed
+23	6623	kelennerezh	c'helennerezh gelennerezh
+24	6624	kendivizer	c'hendivizer gendivizer
+25	6625	tec'hadeg	dec'hadeg zec'hadeg
+26	6626	diberc'hennañ	diberc'henn diberc'hennan diberc'hennas diberc'henne diberc'hennec'h diberc'hennemp diberc'hennen diberc'hennent diberc'hennes diberc'hennet diberc'hennez diberc'hennfe diberc'hennfec'h diberc'hennfed diberc'hennfemp diberc'hennfen diberc'hennfent diberc'hennfes diberc'henni diberc'hennimp diberc'hennin diberc'hennint diberc'hennis diberc'hennit diberc'henniñ diberc'hennje diberc'hennjec'h diberc'hennjed diberc'hennjemp diberc'hennjen diberc'hennjent diberc'hennjes diberc'hennjoc'h diberc'hennjod diberc'hennjomp diberc'hennjont diberc'hennjout diberc'henno diberc'hennomp diberc'hennont diberc'hennor diberc'hennot
+27	6627	alf	
+28	6628	ave	
+29	6629	bid	
+30	6630	cher	
+31	6631	erlec'hier	
+32	6632	faoued	
+33	6633	jal	
+34	6634	kalanna	
+35	6635	kos	
+36	6636	lir	
+37	6637	marr	
+38	6638	miner	
+39	6639	paskal	
+40	6640	pichon	
+41	6641	rozera	
+42	6642	sarac'h	
+43	6643	gwidor	widor
+44	6644	a-boz	
+45	6645	a-c'haol	
+46	6646	a-c'haoliad	
+47	6647	a-dre	
+48	6648	a-eeun	
+49	6649	a-ispilh	
+50	6650	a-sonn	
+51	6651	a-stumm	
+52	6652	a-vareoù	
+53	6653	a-vernioù	
+54	6654	a-zarn	
+55	6655	abegiñ	abegal abegan abegas abege abegec'h abegemp abegen abegent abeges abeget abegez abegfe abegfec'h abegfed abegfemp abegfen abegfent abegfes abegi abegimp abegin abegint abegis abegit abegje abegjec'h abegjed abegjemp abegjen abegjent abegjes abegjoc'h abegjod abegjomp abegjont abegjout abego abegomp abegont abegor abegot abegout
+56	6656	ac'halese	
+57	6657	adjudant	
+58	6658	adskrid	
+59	6659	advab	
+60	6660	advevañ	advev advevan advevas adveve advevec'h advevemp adveven advevent adveves advevet advevez advevfe advevfec'h advevfed advevfemp advevfen advevfent advevfes advevi advevimp advevin advevint advevis advevit adveviñ advevje advevjec'h advevjed advevjemp advevjen advevjent advevjes advevjoc'h advevjod advevjomp advevjont advevjout advevo advevomp advevont advevor advevot
+61	6661	aerva	
+62	6662	afell	
+63	6663	akordeon	
+64	6664	aktiniom	
+65	6665	akuit	
+66	6666	alkoolegezh	
+67	6667	amanenn	
+68	6668	amskouer	
+69	6669	amzivin	
+70	6670	an-unan	
+71	6671	anduilh	
+72	6672	anez-se	
+73	6673	ankenius	
+74	6674	anv-gwan-verb	
+75	6675	anvonerezh	
+76	6676	araog	
+77	6677	arc'hantus	
+78	6678	armerzhour	
+79	6679	arnevesaat	
+80	6680	arouarek	
+81	6681	arroutet	
+82	6682	arselliñ	
+83	6683	arverer	
+84	6684	arvestal	
+85	6685	avoultriezh	
+86	6686	azot	
+87	6687	azv	
+88	6688	bageerezh	
+89	6689	bageüs	
+90	6690	baraer	
+91	6691	barr-amzer	
+92	6692	bastus	
+93	6693	bec'hiañ	bec'hi bec'hian bec'hias bec'hie bec'hiec'h bec'hiemp bec'hien bec'hient bec'hies bec'hiet bec'hiez bec'hife bec'hifec'h bec'hifed bec'hifemp bec'hifen bec'hifent bec'hifes bec'hii bec'hiimp bec'hiin bec'hiint bec'hiis bec'hiit bec'hije bec'hijec'h bec'hijed bec'hijemp bec'hijen bec'hijent bec'hijes bec'hijoc'h bec'hijod bec'hijomp bec'hijont bec'hijout bec'hio bec'hiomp bec'hiont bec'hior bec'hiot
+94	6694	beked	
+95	6695	berjinez	
+96	6696	bevezadur	
+97	6697	bloavezhiad	
+98	6698	blod	
+99	6699	polod	bolod
+100	6700	boureverezh	

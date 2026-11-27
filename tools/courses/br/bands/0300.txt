@@ -30,14 +30,14 @@
 30	230	pennad	bennad bennadoù fennad fennadoù pennadoù vennad vennadoù
 31	231	familh	familhioù familhoù
 32	232	gwreg	gwragez wragez wreg
-33	233	distreiñ	distroas distroec'h distroet distrofec'h distroiñ distroje distrojec'h distrojed distrojemp distrojen distrojent distrojes distrojoc'h distrojod distrojomp distrojont distrojout distroo tistreiñ tistroas tistroe tistrofe tistrofent tistroio tistroje tistrojont tistroont zistreiñ zistroas zistroe zistroio zistroje zistrojont zistroo zistroont zistroot
-34	234	studiañ	studial studian studias studie studiec'h studiemp studien studient studier studies studiet studiez studife studifec'h studifed studifemp studifen studifent studifes studii studiimp studiin studiint studiis studiit studiiñ studije studijec'h studijed studijemp studijen studijent studijes studijoc'h studijod studijomp studijont studijout studio studiomp studiont studior studiot
+33	233	distreiñ	distroas distroec'h distroet distrofec'h distroin distroiñ distroje distrojec'h distrojed distrojemp distrojen distrojent distrojes distrojoc'h distrojod distrojomp distrojont distrojout distroo tistreiñ tistroas tistroe tistrofe tistrofent tistroio tistroje tistrojont tistroont zistreiñ zistroas zistroe zistroio zistroje zistrojont zistroo zistroont zistroot
+34	234	studiañ	studial studian studias studie studiec'h studiemp studien studient studier studierien studies studiet studiez studife studifec'h studifed studifemp studifen studifent studifes studii studiimp studiin studiint studiis studiit studiiñ studije studijec'h studijed studijemp studijen studijent studijes studijoc'h studijod studijomp studijont studijout studio studiomp studiont studior studiot
 35	235	digant	diganin diganit digantañ digante diganti diganto
-36	236	gounit	c'hounez c'houneze c'hounezer c'hounezet c'hounezo c'hounezont c'hounit gounez gounezan gouneze gounezer gounezet gounezez gounezi gounezimp gounezin gounezint gounezit gounezo gounezoc'h gounezomp gounezont gounezor gounezot gounitan gounitas gounite gounitec'h gounitemp gouniten gounitent gounites gounitet gounitez gounitfe gounitfec'h gounitfed gounitfemp gounitfen gounitfent gounitfes gouniti gounitimp gounitin gounitint gounitis gounitit gounitje gounitjec'h gounitjed gounitjemp gounitjen gounitjent gounitjes gounitjoc'h gounitjod gounitjomp gounitjont gounitjout gounito gounitomp gounitont gounitor gounitot
+36	236	gounit	c'hounez c'hounezas c'houneze c'hounezent c'hounezer c'hounezet c'hounezfe c'hounezfent c'hounezje c'hounezo c'hounezont c'hounit gounez gounezan gounezas gouneze gounezec'h gounezemp gounezen gounezent gounezer gounezes gounezet gounezez gounezfe gounezfec'h gounezfed gounezfemp gounezfen gounezfent gounezfes gounezi gounezimp gounezin gounezint gounezis gounezit gounezje gounezjec'h gounezjed gounezjemp gounezjen gounezjent gounezjes gounezjoc'h gounezjod gounezjomp gounezjont gounezjout gounezo gounezoc'h gounezomp gounezont gounezor gounezot gounitan gounitas gounite gounitec'h gounitemp gouniten gounitent gounites gounitet gounitez gounitfe gounitfec'h gounitfed gounitfemp gounitfen gounitfent gounitfes gouniti gounitimp gounitin gounitint gounitis gounitit gounitje gounitjec'h gounitjed gounitjemp gounitjen gounitjent gounitjes gounitjoc'h gounitjod gounitjomp gounitjont gounitjout gounito gounitomp gounitont gounitor gounitot
 37	237	embann	embannan embannas embannañ embanne embannec'h embannemp embannen embannent embannes embannet embannez embannfe embannfec'h embannfed embannfemp embannfen embannfent embannfes embanni embannimp embannin embannint embannis embannit embanniñ embannje embannjec'h embannjed embannjemp embannjen embannjent embannjes embannjoc'h embannjod embannjomp embannjont embannjout embanno embannomp embannont embannor embannot embannoù
 38	238	miret	mir miras mires mirit miriñ miro mirout viran viras vire virent virer viret virfe virin virje virjont viro viront virout
 39	239	seniñ	sen senan senas sene senec'h senemp senen senent senes senet senez senfe senfec'h senfed senfemp senfen senfent senfes seni senimp senin senint senis senit senje senjec'h senjed senjemp senjen senjent senjes senjoc'h senjod senjomp senjont senjout seno senomp senont senor senot soner sonerez sonerien sonerion sonerioù
-40	240	kastell	c'hastell c'hastelloù c'hastilli c'hestell gastell gastilli kastellioù kastelloù kastilli kestell kistilli
+40	240	kastell	c'hastell c'hastellioù c'hastelloù c'hastilli c'hestell gastell gastilli kastellioù kastelloù kastilli kestell kistilli
 41	241	koulskoude	goulskoude
 42	242	hent	hentoù
 43	243	hir	hirañ hiroc'h
@@ -49,7 +49,7 @@
 49	249	kent	gent
 50	250	kornôg	c'hornaoueg c'hornôg gornaoueg gornôg kornaoueg
 51	251	buan	buanañ buanoc'h vuan vuanoc'h
-52	252	trec'h	drec'h trec'hioù trec'hoù zrec'h
+52	252	trec'h	drec'h drec'hioù drec'hoù trec'hioù trec'hoù zrec'h
 53	253	arc'hant	
 54	254	le	leoù
 55	255	ya	
@@ -67,7 +67,7 @@
 67	267	loen	loened
 68	268	pemp	bemp femp
 69	269	reter	
-70	270	doue	doueoù zoue zoueoù
+70	270	doue	doueed doueoù zoue zoueed zoueoù
 71	271	padout	bad badas bade badent badet badfe badiñ badje bado badont badout fade fadet fado pad padan padas pade padec'h pademp paden padent pader pades padet padez padfe padfec'h padfed padfemp padfen padfent padfes padi padimp padin padint padis padit padiñ padje padjec'h padjed padjemp padjen padjent padjes padjoc'h padjod padjomp padjont padjout pado padomp padont pador padot vader vado
 72	272	devezh	devezhioù zevezh zevezhioù
 73	273	kinnig	c'hinnig c'hinnige c'hinniget c'hinnigoù ginnig ginnigas ginnige ginniget ginnigfe ginnigont ginnigoù kinnigan kinnigas kinnige kinnigec'h kinnigemp kinnigen kinnigent kinniges kinniget kinnigez kinnigfe kinnigfec'h kinnigfed kinnigfemp kinnigfen kinnigfent kinnigfes kinnigi kinnigimp kinnigin kinnigint kinnigis kinnigit kinnigje kinnigjec'h kinnigjed kinnigjemp kinnigjen kinnigjent kinnigjes kinnigjoc'h kinnigjod kinnigjomp kinnigjont kinnigjout kinnigo kinnigomp kinnigont kinnigor kinnigot kinnigoù

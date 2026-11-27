@@ -21,7 +21,7 @@
 21	421	kerzu	
 22	422	pelec'h	belec'h fele pele
 23	423	jeneral	jeneraled
-24	424	kontañ	c'hontañ c'honter gontas gontañ gonter gonterien gonto kontan kontas konte konter konterien kontfe kontfec'h kontfed kontfemp kontfen kontfent kontfes kontimp kontiñ kontje kontjec'h kontjed kontjemp kontjen kontjent kontjes konto kontoc'h kontont kontor kontot
+24	424	kontañ	c'hontañ c'honter gontas gontañ gonter gonterien gonto kontan kontas konte konter konterien kontfe kontfec'h kontfed kontfemp kontfen kontfent kontfes kontimp kontin kontiñ kontje kontjec'h kontjed kontjemp kontjen kontjent kontjes konto kontoc'h kontont kontor kontot
 25	425	degas	degasan degasas degase degasec'h degasemp degasen degasent degases degaset degasez degasfe degasfec'h degasfed degasfemp degasfen degasfent degasfes degasi degasimp degasin degasint degasis degasit degasje degasjec'h degasjed degasjemp degasjen degasjent degasjes degasjoc'h degasjod degasjomp degasjont degasjout degaso degasomp degasont degasor degasot tegas tegasas tegase tegasfe tegasfent tegasjont tegaso zegas zegasas zegase zegasfe zegasje zegasjont zegaso zegasont
 26	426	danevell	danevelloù tanevell zanevell zanevelloù
 27	427	echuiñ	echuan echuas echuañ echue echuec'h echuemp echuen echuent echues echuet echuez echufe echufec'h echufed echufemp echufen echufent echufes echui echuimp echuin echuint echuis echuit echuje echujec'h echujed echujemp echujen echujent echujes echujoc'h echujod echujomp echujont echujout echuo echuomp echuont echuor echuot
@@ -51,7 +51,7 @@
 51	451	egile	
 52	452	yuzev	yuzevez yuzevien yuzevion
 53	453	porzh	berzhier borzh ferzhier forzhioù perzhier porzhioù porzhoù
-54	454	gwezh	gwezhioù gwezhoù wezh wezhioù
+54	454	gwezh	gwezhioù gwezhoù wezh wezhioù wezhoù
 55	455	kreizenn	c'hreizenn c'hreizennoù greizenn greizennoù kreizennoù
 56	456	war-raok	
 57	457	petra	betra
@@ -65,11 +65,11 @@
 65	465	maez	maes maezioù maezoù
 66	466	adarre	
 67	467	ment	mentoù vent ventoù
-68	468	teurel	daolas daole daolent daoler daolfe daolfent daolint daolo daolont deul deuler deurel taolan taolas taole taolec'h taoled taolemp taolen taolent taoler taoles taolet taolez taolfe taolfec'h taolfed taolfemp taolfen taolfent taolfes taoli taolimp taolin taolint taolis taolit taolje taoljec'h taoljed taoljemp taoljen taoljent taoljes taoljoc'h taoljod taoljomp taoljont taoljout taolo taolomp taolont taolor taolot teul teulel teuler zaolet zeul zeuler zeurel
+68	468	teurel	daolas daole daolent daoler daolfe daolfent daolint daolo daolont deul deuler deulioù deurel taolan taolas taole taolec'h taoled taolemp taolen taolent taoler taoles taolet taolez taolfe taolfec'h taolfed taolfemp taolfen taolfent taolfes taoli taolimp taolin taolint taolis taolit taolje taoljec'h taoljed taoljemp taoljen taoljent taoljes taoljoc'h taoljod taoljomp taoljont taoljout taolo taolomp taolont taolor taolot teul teulel teuler teulioù zaolet zeul zeuler zeurel
 69	469	digeriñ	digoran digoras digore digorec'h digored digoremp digoren digorent digorer digores digoret digorez digorfe digorfec'h digorfed digorfemp digorfen digorfent digorfes digori digorimp digorin digorint digoris digorit digoriñ digorje digorjec'h digorjed digorjemp digorjen digorjent digorjes digorjoc'h digorjod digorjomp digorjont digorjout digoro digoroc'h digoromp digoront digoror digorot tigeriñ tigoras tigorer tigorjont tigoro zigeriñ zigoras zigore zigoriñ zigoro
 70	470	terriñ	derriñ dorr dorras dorre dorret dorrfe dorrfent dorrint dorront torr torran torras torre torrec'h torred torremp torren torrent torrer torres torret torrez torrfe torrfec'h torrfed torrfemp torrfen torrfent torrfes torri torrimp torrin torrint torris torrit torrje torrjec'h torrjed torrjemp torrjen torrjent torrjes torrjoc'h torrjod torrjomp torrjont torrjout torro torroc'h torromp torront torror torrot torroù zerriñ zorro
 71	471	reolenn	reolennoù
-72	472	talvezout	dalvez dalvezas dalveze dalvezent dalvezfe dalvezje dalvezo dalvezont dalvezout talvez talvezan talvezas talveze talvezec'h talvezemp talvezen talvezent talvezes talvezet talvezez talvezfe talvezfec'h talvezfed talvezfemp talvezfen talvezfent talvezfes talvezi talvezimp talvezin talvezint talvezis talvezit talvezje talvezjec'h talvezjed talvezjemp talvezjen talvezjent talvezjes talvezjoc'h talvezjod talvezjomp talvezjont talvezjout talvezo talvezomp talvezont talvezor talvezot zalvez zalveze
+72	472	talvezout	dalv dalvez dalvezas dalveze dalvezent dalvezfe dalvezje dalvezo dalvezont dalvezout talvez talvezan talvezas talveze talvezec'h talvezemp talvezen talvezent talvezes talvezet talvezez talvezfe talvezfec'h talvezfed talvezfemp talvezfen talvezfent talvezfes talvezi talvezimp talvezin talvezint talvezis talvezit talvezje talvezjec'h talvezjed talvezjemp talvezjen talvezjent talvezjes talvezjoc'h talvezjod talvezjomp talvezjont talvezjout talvezo talvezomp talvezont talvezor talvezot zalvez zalveze
 73	473	boued	bouedenn bouedoù voued vouedenn
 74	474	hi	
 75	475	adsevel	adsav adsavan adsavas adsave adsavec'h adsavemp adsaven adsavent adsaves adsavet adsavez adsavfe adsavfec'h adsavfed adsavfemp adsavfen adsavfent adsavfes adsavi adsavimp adsavin adsavint adsavis adsavit adsavje adsavjec'h adsavjed adsavjemp adsavjen adsavjent adsavjes adsavjoc'h adsavjod adsavjomp adsavjont adsavjout adsavo adsavomp adsavont adsavor adsavot
@@ -85,7 +85,7 @@
 85	485	ofiser	ofiserez ofiserien ofisour
 86	486	lezel	lezan lezas leze lezec'h lezed lezemp lezen lezent lezer lezes lezet lezez lezfe lezfec'h lezfed lezfemp lezfen lezfent lezfes lezi lezimp lezin lezint lezis lezit lezje lezjec'h lezjed lezjemp lezjen lezjent lezjes lezjoc'h lezjod lezjomp lezjont lezjout lezo lezoc'h lezomp lezont lezor lezot
 87	487	livour	livourez livourezed livourien livourion
-88	488	daremprediñ	darempred darempredan darempredas daremprede darempredec'h darempredemp darempreden darempredent darempredes darempredet darempredez darempredfe darempredfec'h darempredfed darempredfemp darempredfen darempredfent darempredfes darempredi daremprediet darempredimp darempredin darempredint darempredis darempredit darempredje darempredjec'h darempredjed darempredjemp darempredjen darempredjent darempredjes darempredjoc'h darempredjod darempredjomp darempredjont darempredjout darempredo darempredomp darempredont darempredor darempredot tarempred tarempredas taremprede taremprediñ tarempredjont zarempred zarempredas zaremprede zarempredent zaremprediñ zarempredont
+88	488	daremprediñ	darempred darempredan darempredas daremprede darempredec'h darempredemp darempreden darempredent darempredes darempredet darempredez darempredfe darempredfec'h darempredfed darempredfemp darempredfen darempredfent darempredfes darempredi daremprediet darempredimp darempredin darempredint darempredis darempredit darempredje darempredjec'h darempredjed darempredjemp darempredjen darempredjent darempredjes darempredjoc'h darempredjod darempredjomp darempredjont darempredjout darempredo darempredomp darempredont darempredor darempredot darempredoù tarempred tarempredas taremprede taremprediñ tarempredjont zarempred zarempredas zaremprede zarempredent zaremprediñ zarempredont zarempredoù
 89	489	noz	nos nozioù
 90	490	redadeg	redadegoù
 91	491	pinvidik	binvidik binvidikañ pinvidikat pinvidikañ pinvidikoc'h

@@ -1,0 +1,100 @@
+1	7401	goueliañ	goueliet
+2	7402	gouzizañ	c'houziz gouziz gouzizan gouzizas gouzize gouzizec'h gouzizemp gouzizen gouzizent gouzizes gouzizet gouzizez gouzizfe gouzizfec'h gouzizfed gouzizfemp gouzizfen gouzizfent gouzizfes gouzizi gouzizimp gouzizin gouzizint gouzizis gouzizit gouziziñ gouzizje gouzizjec'h gouzizjed gouzizjemp gouzizjen gouzizjent gouzizjes gouzizjoc'h gouzizjod gouzizjomp gouzizjont gouzizjout gouzizo gouzizomp gouzizont gouzizor gouzizot
+3	7403	gwenvidikaat	gwenvidikaet
+4	7404	gwri	gwrioù
+5	7405	haleg	halegenn
+6	7406	hogan	hogin
+7	7407	izelenn	izelennoù
+8	7408	kafein	c'hafein
+9	7409	kengarantez	gengarantez
+10	7410	kestal	gestal kestan kestas kestañ keste kestec'h kestemp kesten kestent kestes kestet kestez kestfe kestfec'h kestfed kestfemp kestfen kestfent kestfes kesti kestimp kestin kestint kestis kestit kestje kestjec'h kestjed kestjemp kestjen kestjent kestjes kestjoc'h kestjod kestjomp kestjont kestjout kesto kestomp kestont kestor kestot
+11	7411	kivij	c'hivij
+12	7412	kouraleg	gouraleg
+13	7413	lennadur	lennadurioù
+14	7414	lorc'hentez	
+15	7415	lostig	lostigoù
+16	7416	luskellerez	luskellerezioù
+17	7417	mouchañ	mouchet vouchañ
+18	7418	pentañ	bentañ fentañ pentan pentas pente pentec'h pentemp penten pentent pentes pentet pentez pentfe pentfec'h pentfed pentfemp pentfen pentfent pentfes penti pentimp pentin pentint pentis pentit pentiñ pentje pentjec'h pentjed pentjemp pentjen pentjent pentjes pentjoc'h pentjod pentjomp pentjont pentjout pento pentomp pentont pentor pentot
+19	7419	perlezenn	berlezenn
+20	7420	peskedus	beskedus
+21	7421	picher	picherioù picheroù
+22	7422	raktommañ	raktomm raktomman raktommas raktomme raktommec'h raktommemp raktommen raktomment raktommes raktommet raktommez raktommfe raktommfec'h raktommfed raktommfemp raktommfen raktommfent raktommfes raktommi raktommimp raktommin raktommint raktommis raktommit raktommje raktommjec'h raktommjed raktommjemp raktommjen raktommjent raktommjes raktommjoc'h raktommjod raktommjomp raktommjont raktommjout raktommo raktommomp raktommont raktommor raktommot
+23	7423	reveulziel	reveulziet
+24	7424	rouestlek	rouestlet
+25	7425	rubrikenn	rubrikennoù
+26	7426	sili	silienn
+27	7427	tennadenn	tennadennoù
+28	7428	toga	doga
+29	7429	toullig	toulligoù
+30	7430	treuzvarc'had	
+31	7431	tridoubl	dridoubl
+32	7432	mored	vored
+33	7433	warc'hoazh	
+34	7434	bokser	bokserien vokserien
+35	7435	kartel	c'hart c'hartel
+36	7436	distokañ	distoket zistokañ
+37	7437	divroc'hañ	zivroc'has
+38	7438	doganiñ	doganan doganas doganañ dogane doganec'h doganemp doganen doganent doganes doganet doganfe doganfec'h doganfed doganfemp doganfen doganfent doganfes dogani doganimp doganin doganint doganis doganit doganje doganjec'h doganjed doganjemp doganjen doganjent doganjes doganjoc'h doganjod doganjomp doganjont doganjout dogano doganomp doganont doganor doganot toganiñ zoganiñ
+39	7439	fregañ	freg fregan fregas frege fregec'h fregemp fregen fregent freges freget fregez fregfe fregfec'h fregfed fregfemp fregfen fregfent fregfes fregfont fregi fregimp fregin fregint fregis fregit fregiñ fregje fregjec'h fregjed fregjemp fregjen fregjent fregjes fregjoc'h fregjod fregjomp fregjont fregjout frego fregomp fregont fregor fregot
+40	7440	kal	c'hal gal
+41	7441	kac'hat	gac'has kac'h kac'han kac'has kac'he kac'hec'h kac'hemp kac'hen kac'hent kac'hes kac'het kac'hez kac'hfe kac'hfec'h kac'hfed kac'hfemp kac'hfen kac'hfent kac'hfes kac'hi kac'himp kac'hin kac'hint kac'his kac'hit kac'hje kac'hjec'h kac'hjed kac'hjemp kac'hjen kac'hjent kac'hjes kac'hjoc'h kac'hjod kac'hjomp kac'hjont kac'hjout kac'ho kac'homp kac'hont kac'hor kac'hot kac'hout
+42	7442	kalonekaat	c'halonekaat galonekaas galonekaat kaloneka kalonekaan kalonekaas kalonekae kalonekaec'h kalonekaemp kalonekaen kalonekaent kalonekaes kalonekaet kalonekaez kalonekafe kalonekafec'h kalonekafed kalonekafemp kalonekafen kalonekafent kalonekafes kalonekai kalonekaimp kalonekain kalonekaint kalonekais kalonekait kalonekaje kalonekajec'h kalonekajed kalonekajemp kalonekajen kalonekajent kalonekajes kalonekajoc'h kalonekajod kalonekajomp kalonekajont kalonekajout kalonekao kalonekaomp kalonekaont kalonekaor kalonekaot
+43	7443	kanell	c'hanell ganell
+44	7444	kasaat	gasaas gasaet kasa kasaan kasaas kasae kasaec'h kasaemp kasaen kasaent kasaes kasaet kasaez kasafe kasafec'h kasafed kasafemp kasafen kasafent kasafes kasai kasaimp kasain kasaint kasais kasait kasaje kasajec'h kasajed kasajemp kasajen kasajent kasajes kasajoc'h kasajod kasajomp kasajont kasajout kasao kasaomp kasaont kasaor kasaot
+45	7445	merat	meren merin verat
+46	7446	milin-dour	vilin-dour vilin-zour
+47	7447	paeamant	baeamant paeamantoù
+48	7448	pareañs	bareañs pareañsoù
+49	7449	pellwelad	bellwelad pellweladoù
+50	7450	pennwisk	bennwisk pennwiskoù
+51	7451	preizhadenn	breizhadenn preizhadennoù
+52	7452	kambrelan	c'hambrelan gambrelan
+53	7453	karroñs	c'harroñs karroñsoù
+54	7454	kegid	c'hegid gegid
+55	7455	kenson	c'henson genson
+56	7456	keñveriadenn	c'heñveriadenn keñveriadennoù
+57	7457	kontammadur	c'hontammadur gontammadur
+58	7458	korc'hwezh	c'horc'hwezh gorc'hwezh korc'hwezhioù
+59	7459	koukoug	c'houkoug goukoug
+60	7460	gounidigezh	c'hounidigezh gounidigezhioù
+61	7461	gourbiolin	c'hourbiolin gourbiolinoù
+62	7462	greantour	c'hreantourien greantourien
+63	7463	kenderc'husted	c'henderc'husted genderc'husted
+64	7464	gevel	c'hevel gevelioù
+65	7465	dastaol	tastaol zastaol
+66	7466	devadenn	devadennoù zevadennoù
+67	7467	dic'hoantañ	dic'hoantet tic'hoantas
+68	7468	ti-skol	diez-skol tiez-skol
+69	7469	difaziañ	difaziet tifazie
+70	7470	dileizhañ	dileizh dileizhan dileizhas dileizhe dileizhec'h dileizhemp dileizhen dileizhent dileizhes dileizhet dileizhez dileizhfe dileizhfec'h dileizhfed dileizhfemp dileizhfen dileizhfent dileizhfes dileizhi dileizhimp dileizhin dileizhint dileizhis dileizhit dileizhje dileizhjec'h dileizhjed dileizhjemp dileizhjen dileizhjent dileizhjes dileizhjoc'h dileizhjod dileizhjomp dileizhjont dileizhjout dileizho dileizhomp dileizhont dileizhor dileizhot tileizhañ tileizhont zileizhañ
+71	7471	dispegañ	dispeg dispegan dispegas dispege dispegec'h dispegemp dispegen dispegent dispeges dispeget dispegez dispegfe dispegfec'h dispegfed dispegfemp dispegfen dispegfent dispegfes dispegi dispegimp dispegin dispegint dispegis dispegit dispegiñ dispegje dispegjec'h dispegjed dispegjemp dispegjen dispegjent dispegjes dispegjoc'h dispegjod dispegjomp dispegjont dispegjout dispego dispegomp dispegont dispegor dispegot tispegañ zispegañ
+72	7472	divec'hiañ	divec'hiet zivec'hiañ
+73	7473	toullgofañ	doullgofañ toullgof toullgofan toullgofas toullgofe toullgofec'h toullgofemp toullgofen toullgofent toullgofes toullgofez toullgoffe toullgoffec'h toullgoffed toullgoffemp toullgoffen toullgoffent toullgoffes toullgofi toullgofimp toullgofin toullgofint toullgofis toullgofit toullgofiñ toullgofje toullgofjec'h toullgofjed toullgofjemp toullgofjen toullgofjent toullgofjes toullgofjoc'h toullgofjod toullgofjomp toullgofjont toullgofjout toullgofo toullgofomp toullgofont toullgofor toullgofot zoullgofañ
+74	7474	tro-gamm	dro-gamm troioù-kamm
+75	7475	enderv	
+76	7476	kanoliañ	ganolias kanoli kanolian kanolias kanolie kanoliec'h kanoliemp kanolien kanolient kanolies kanoliet kanoliez kanolife kanolifec'h kanolifed kanolifemp kanolifen kanolifent kanolifes kanolii kanoliimp kanoliin kanoliint kanoliis kanoliit kanolije kanolijec'h kanolijed kanolijemp kanolijen kanolijent kanolijes kanolijoc'h kanolijod kanolijomp kanolijont kanolijout kanolio kanoliomp kanoliont kanolior kanoliot
+77	7477	kinnigadenn	ginnigadenn kinnigadennoù
+78	7478	kivijañ	givijañ kivijet
+79	7479	korolladeg	gorolladeg korolladegoù
+80	7480	grilhañ	grilhet krilhañ
+81	7481	krommvegenn	grommvegenn krommvegennoù
+82	7482	krozal	grozal grozet kroz krozan krozas krozañ kroze krozec'h krozemp krozen krozent krozes krozet krozez krozfe krozfec'h krozfed krozfemp krozfen krozfent krozfes krozi krozimp krozin krozint krozis krozit krozje krozjec'h krozjed krozjemp krozjen krozjent krozjes krozjoc'h krozjod krozjomp krozjont krozjout krozo krozomp krozont krozor krozot
+83	7483	gwintañ	gwintet wintañ
+84	7484	merc'hodenn	verc'hodenn
+85	7485	milin-avel	milinoù-avel vilin-avel vilinoù-avel
+86	7486	rendaeliñ	rendaele rendaelet
+87	7487	rostañ	rost rostan rostas roste rostec'h rostemp rosten rostent rostes rostet rostez rostfe rostfec'h rostfed rostfemp rostfen rostfent rostfes rosti rostimp rostin rostint rostis rostit rostiñ rostje rostjec'h rostjed rostjemp rostjen rostjent rostjes rostjoc'h rostjod rostjomp rostjont rostjout rosto rostomp rostont rostor rostot
+88	7488	tolzenn	tolzennoù zolzenn
+89	7489	abona	abonaan abonaas abonae abonaec'h abonaemp abonaen abonaent abonaes abonaet abonaez abonafe abonafec'h abonafed abonafemp abonafen abonafent abonafes abonai abonaimp abonain abonaint abonais abonait abonaje abonajec'h abonajed abonajemp abonajen abonajent abonajes abonajoc'h abonajod abonajomp abonajont abonajout abonao abonaomp abonaont abonaor abonaot
+90	7490	adkouezhañ	adkouezh adkouezhan adkouezhas adkouezhe adkouezhec'h adkouezhemp adkouezhen adkouezhent adkouezhes adkouezhet adkouezhez adkouezhfe adkouezhfec'h adkouezhfed adkouezhfemp adkouezhfen adkouezhfent adkouezhfes adkouezhi adkouezhimp adkouezhin adkouezhint adkouezhis adkouezhit adkouezhje adkouezhjec'h adkouezhjed adkouezhjemp adkouezhjen adkouezhjent adkouezhjes adkouezhjoc'h adkouezhjod adkouezhjomp adkouezhjont adkouezhjout adkouezho adkouezhomp adkouezhont adkouezhor adkouezhot
+91	7491	bozek	bozeg
+92	7492	briant	
+93	7493	bron	
+94	7494	chip	
+95	7495	terek	derek
+96	7496	dibikouz	
+97	7497	didon	
+98	7498	dolmen	
+99	7499	drouin	
+100	7500	ferat	ferañ ferec'h feremp ferent feres ferfe ferfec'h ferfed ferfemp ferfen ferfent ferfes feriñ ferjec'h ferjed ferjemp ferjen ferjent ferjes ferjoc'h ferjod ferjomp ferjont ferjout feror

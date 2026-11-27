@@ -1,4 +1,4 @@
-1	1001	divizout	diviz divizan divizas divize divizec'h divizemp divizen divizent divizes divizet divizez divizfe divizfec'h divizfed divizfemp divizfen divizfent divizfes divizi divizimp divizin divizint divizis divizit divizje divizjec'h divizjed divizjemp divizjen divizjent divizjes divizjoc'h divizjod divizjomp divizjont divizjout divizo divizomp divizont divizor divizot tiviz tivizas tivizjont tivizo tivizont tivizout ziviz zivizas zivizjont zivizout
+1	1001	divizout	diviz divizan divizas divize divizec'h divizemp divizen divizent divizes divizet divizez divizfe divizfec'h divizfed divizfemp divizfen divizfent divizfes divizi divizimp divizin divizint divizis divizit divizje divizjec'h divizjed divizjemp divizjen divizjent divizjes divizjoc'h divizjod divizjomp divizjont divizjout divizo divizomp divizont divizor divizot divizoù tiviz tivizas tivizjont tivizo tivizont tivizout ziviz zivizas zivizjont zivizout zivizoù
 2	1002	bir	biroù pir vir
 3	1003	loc'hañ	loc'h loc'han loc'has loc'hat loc'he loc'hec'h loc'hemp loc'hen loc'hent loc'hes loc'het loc'hez loc'hfe loc'hfec'h loc'hfed loc'hfemp loc'hfen loc'hfent loc'hfes loc'hi loc'himp loc'hin loc'hint loc'hioù loc'his loc'hit loc'hiñ loc'hje loc'hjec'h loc'hjed loc'hjemp loc'hjen loc'hjent loc'hjes loc'hjoc'h loc'hjod loc'hjomp loc'hjont loc'hjout loc'ho loc'homp loc'hont loc'hor loc'hot loc'hoù
 4	1004	pinvidigezh	binvidigezh binvidigezhioù finvidigezh finvidigezhioù pinvidigezhioù
@@ -42,7 +42,7 @@
 42	1042	italianeg	
 43	1043	keit	
 44	1044	donder	donderioù zonder
-45	1045	peadra	beadra feadra peadraoù
+45	1045	peadra	beadra feadra feadraoù peadraoù
 46	1046	renkad	renkadoù
 47	1047	kened	c'hened gened
 48	1048	krennard	c'hrennard grennard grennarded grennardenn grennardez krennarded krennardenn krennardez
@@ -72,7 +72,7 @@
 72	1072	treuzkas	dreuzkas dreuzkasont treuzkasan treuzkasas treuzkase treuzkasec'h treuzkasemp treuzkasen treuzkasent treuzkases treuzkaset treuzkasez treuzkasfe treuzkasfec'h treuzkasfed treuzkasfemp treuzkasfen treuzkasfent treuzkasfes treuzkasi treuzkasimp treuzkasin treuzkasint treuzkasis treuzkasit treuzkasje treuzkasjec'h treuzkasjed treuzkasjemp treuzkasjen treuzkasjent treuzkasjes treuzkasjoc'h treuzkasjod treuzkasjomp treuzkasjont treuzkasjout treuzkaso treuzkasomp treuzkasont treuzkasor treuzkasot zreuzkas zreuzkasas
 73	1073	mezeg	mezegez mezeien vezeg vezegez vezeien vezeion
 74	1074	japanat	
-75	1075	aozer	
+75	1075	aozer	aozerien
 76	1076	entre	
 77	1077	nozvezh	nozvezhioù
 78	1078	sot	sotañ

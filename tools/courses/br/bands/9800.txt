@@ -1,0 +1,100 @@
+1	9701	dislavarenn	dislavarennoù
+2	9702	dislealded	
+3	9703	disol	
+4	9704	disouezhadenn	disouezhadennoù
+5	9705	dispalu	
+6	9706	dispered	
+7	9707	displegel	
+8	9708	displegerezh	
+9	9709	displegus	
+10	9710	disprizout	
+11	9711	disproziom	
+12	9712	distagellañ	distagellet
+13	9713	distegner	
+14	9714	distegnañ	distegnet
+15	9715	distenn	distennoc'h
+16	9716	distlabez	
+17	9717	distouver	
+18	9718	distroñsañ	distroñset
+19	9719	distroñs	distroñsoù
+20	9720	distrujus	
+21	9721	disul	
+22	9722	disvoued	
+23	9723	div-vent	
+24	9724	divac'hañ	
+25	9725	divadeziñ	
+26	9726	divarc'hañ	divarc'h divarc'han divarc'has divarc'he divarc'hec'h divarc'hemp divarc'hen divarc'hent divarc'hes divarc'het divarc'hez divarc'hfe divarc'hfec'h divarc'hfed divarc'hfemp divarc'hfen divarc'hfent divarc'hfes divarc'hi divarc'himp divarc'hin divarc'hint divarc'his divarc'hit divarc'hiñ divarc'hje divarc'hjec'h divarc'hjed divarc'hjemp divarc'hjen divarc'hjent divarc'hjes divarc'hjoc'h divarc'hjod divarc'hjomp divarc'hjont divarc'hjout divarc'ho divarc'homp divarc'hont divarc'hor divarc'hot tivarc'hañ zivarc'hañ
+27	9727	divaskellek	
+28	9728	divegañ	diveget
+29	9729	diveiz	
+30	9730	divelfennek	
+31	9731	diverr-amzer	
+32	9732	diverradenn	
+33	9733	divezelezh	
+34	9734	divinouriezh	
+35	9735	divlev	
+36	9736	divodadur	
+37	9737	divragezañ	
+38	9738	divrazañ	
+39	9739	divrazer	
+40	9740	divreizhat	
+41	9741	divuzul	
+42	9742	diwask	
+43	9743	diwel	
+44	9744	diwelusted	
+45	9745	diwerniañ	diwerniet
+46	9746	diwezhel	
+47	9747	diyac'h	
+48	9748	dizanav	
+49	9749	dizant	
+50	9750	dizaveler	
+51	9751	dizenoriñ	dizenoran dizenoras dizenore dizenorec'h dizenoremp dizenoren dizenorent dizenores dizenoret dizenorez dizenorfe dizenorfec'h dizenorfed dizenorfemp dizenorfen dizenorfent dizenorfes dizenori dizenorimp dizenorin dizenorint dizenoris dizenorit dizenorje dizenorjec'h dizenorjed dizenorjemp dizenorjen dizenorjent dizenorjes dizenorjoc'h dizenorjod dizenorjomp dizenorjont dizenorjout dizenoro dizenoromp dizenoront dizenoror dizenorot tizenoriñ zizenoriñ
+52	9752	dizenorus	
+53	9753	dizeriañ	dizeriet
+54	9754	diziennañ	dizienn diziennan diziennas dizienne diziennec'h diziennemp diziennen diziennent diziennes diziennet diziennez diziennfe diziennfec'h diziennfed diziennfemp diziennfen diziennfent diziennfes dizienni diziennimp diziennin diziennint diziennis diziennit diziennje diziennjec'h diziennjed diziennjemp diziennjen diziennjent diziennjes diziennjoc'h diziennjod diziennjomp diziennjont diziennjout dizienno diziennomp diziennont diziennor diziennot tiziennañ ziziennañ
+55	9755	diziwezh	
+56	9756	dizon	
+57	9757	dizorn	
+58	9758	dizornañ	
+59	9759	dizorniañ	
+60	9760	dizunvaniezh	
+61	9761	teiñ	dois tois
+62	9762	donek	
+63	9763	donemonea	
+64	9764	donezonad	
+65	9765	dornel	
+66	9766	dornvicherour	
+67	9767	dornwezhour	
+68	9768	torosennad	dorosennad
+69	9769	toucher	doucher
+70	9770	doueadur	
+71	9771	touellaozadur	douellaozadur
+72	9772	touellivadur	douellivadur
+73	9773	dourdredanel	
+74	9774	dourliv	
+75	9775	dourliverezh	
+76	9776	dourlivourez	dourlivourien
+77	9777	dourus	
+78	9778	dramael	
+79	9779	drask	
+80	9780	treinell	dreinell
+81	9781	dreist-diraez	
+82	9782	dreist-penn	
+83	9783	dreistgwirvoudel	
+84	9784	dreistkred	
+85	9785	dreisttremen	
+86	9786	drekleur	
+87	9787	dremedal	
+88	9788	dreolan	
+89	9789	treuzfurmidigezh	dreuzfurmidigezh
+90	9790	treuzstummadur	dreuzstummadur
+91	9791	treuzwelusted	dreuzwelusted
+92	9792	drevezerezh	
+93	9793	triadenn	driadenn
+94	9794	tristaat	dristaat trista tristaan tristaas tristae tristaec'h tristaemp tristaen tristaent tristaes tristaet tristaez tristafe tristafec'h tristafed tristafemp tristafen tristafent tristafes tristai tristaimp tristain tristaint tristais tristait tristaje tristajec'h tristajed tristajemp tristajen tristajent tristajes tristajoc'h tristajod tristajomp tristajont tristajout tristao tristaomp tristaont tristaor tristaot
+95	9795	troellrod	droellrod
+96	9796	droug-kein	
+97	9797	drougaviz	
+98	9798	droukc'hraet	
+99	9799	droukc'hras	
+100	9800	droukchañs	

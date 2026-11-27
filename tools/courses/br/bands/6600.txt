@@ -1,0 +1,100 @@
+1	6501	kegel	c'hegel gegel
+2	6502	keltiegour	c'heltiegour
+3	6503	kenskriverezh	c'henskriverezh genskriverezh
+4	6504	kenstrollad	c'henstrollad genstrollad
+5	6505	gladdalc'helezh	c'hladdalc'helezh
+6	6506	koadig	c'hoadig
+7	6507	kod-post	c'hod-post
+8	6508	kompoder	c'hompoderioù kompoderioù
+9	6509	kravat	c'hrav grav krav kravad kravan kravas krave kravec'h kravemp kraven kravent kraves kravet kravez kravfe kravfec'h kravfed kravfemp kravfen kravfent kravfes kravi kravimp kravin kravint kravis kravit kravje kravjec'h kravjed kravjemp kravjen kravjent kravjes kravjoc'h kravjod kravjomp kravjont kravjout kravo kravomp kravont kravor kravot
+10	6510	kroateg	c'hroateg
+11	6511	krokodil	c'hrokodil krokodiled
+12	6512	groñj	c'hroñj
+13	6513	kutuilh	c'hutuilh
+14	6514	kwark	c'hwark gwark kwarkoù
+15	6515	c'hwezher	c'hwezherioù
+16	6516	daelel	daelas daelet
+17	6517	damesaat	damesaet zamesaat
+18	6518	darbod	darbodoù
+19	6519	dared	daredenn daredoù tared
+20	6520	teoget	deoget
+21	6521	despizadur	despizadurioù zespizadur
+22	6522	dibenn-pred	dibennoù-pred
+23	6523	difuiñ	difu difuan difuas difue difuec'h difuemp difuen difuent difues difuet difuez difufe difufec'h difufed difufemp difufen difufent difufes difui difuimp difuin difuint difuis difuit difuje difujec'h difujed difujemp difujen difujent difujes difujoc'h difujod difujomp difujont difujout difuo difuomp difuont difuor difuot
+24	6524	digemmañ	digemmet
+25	6525	dilec'hiadenn	dilec'hiadennoù
+26	6526	dileuskel	tileuskel zileuskel
+27	6527	diskolpañ	diskolpet ziskolpañ
+28	6528	distardañ	distard distardan distardas distarde distardec'h distardemp distarden distardent distardes distardet distardez distardfe distardfec'h distardfed distardfemp distardfen distardfent distardfes distardi distardimp distardin distardint distardis distardit distardiñ distardje distardjec'h distardjed distardjemp distardjen distardjent distardjes distardjoc'h distardjod distardjomp distardjont distardjout distardo distardomp distardont distardor distardot tistardañ zistardañ
+29	6529	divroadeg	divroadegoù
+30	6530	toneg	doneg
+31	6531	torchenn	dorchenn torchennoù
+32	6532	tremeniri	dremeniri
+33	6533	drez	dresenn
+34	6534	trimiziek	drimiziek
+35	6535	troellenn	droellenn
+36	6536	drougober	drougoberioù drougoberoù
+37	6537	tud-varc'h	dud-varc'h
+38	6538	enbroadeg	enbroadegoù
+39	6539	enbroañ	enbro enbroan enbroas enbroe enbroec'h enbroemp enbroen enbroent enbroes enbroet enbroez enbrofe enbrofec'h enbrofed enbrofemp enbrofen enbrofent enbrofes enbroi enbroimp enbroin enbroint enbrois enbroit enbroiñ enbroje enbrojec'h enbrojed enbrojemp enbrojen enbrojent enbrojes enbrojoc'h enbrojod enbrojomp enbrojont enbrojout enbroo enbroomp enbroont enbroor enbroot
+40	6540	faoutañ	faoutan faoutas faoute faoutec'h faoutemp faouten faoutent faoutes faoutet faoutez faoutfe faoutfec'h faoutfed faoutfemp faoutfen faoutfent faoutfes faouti faoutimp faoutin faoutint faoutis faoutit faoutiñ faoutje faoutjec'h faoutjed faoutjemp faoutjen faoutjent faoutjes faoutjoc'h faoutjod faoutjomp faoutjont faoutjout faouto faoutomp faoutont faoutor faoutot
+41	6541	flemmskeudenn	flemmskeudennoù
+42	6542	fouzhañ	fouzh fouzhan fouzhas fouzhe fouzhec'h fouzhemp fouzhen fouzhent fouzhes fouzhet fouzhez fouzhfe fouzhfec'h fouzhfed fouzhfemp fouzhfen fouzhfent fouzhfes fouzhi fouzhimp fouzhin fouzhint fouzhis fouzhit fouzhiñ fouzhje fouzhjec'h fouzhjed fouzhjemp fouzhjen fouzhjent fouzhjes fouzhjoc'h fouzhjod fouzhjomp fouzhjont fouzhjout fouzho fouzhomp fouzhont fouzhor fouzhot
+43	6543	fozell	fozelloù
+44	6544	fronell	fronelloù
+45	6545	kabestr	c'habestr gabestr
+46	6546	karabasenn	garabasenn
+47	6547	garenn	garennoù
+48	6548	kasour	c'hasour gasour
+49	6549	kazus	c'hazus gazus
+50	6550	kengevredigezh	c'hengevredigezh gengevredigezh kengevredigezhioù
+51	6551	kenglot	genglot
+52	6552	kerzhadeg	gerzhadeg
+53	6553	gourmarc'had	gourmarc'hadoù
+54	6554	kravatenn	gravatenn kravatennoù
+55	6555	krestenenn	grestenenn
+56	6556	kroazenn	groazenn
+57	6557	gwezhiadur	gwezhiadurioù wezhiadur
+58	6558	hastañ	hastas hastet
+59	6559	heuz	heuzoù
+60	6560	heñvelaat	heñvela heñvelaet
+61	6561	isofiser	isofiserien
+62	6562	jed	jedoù
+63	6563	kaerded	c'haerded gaerded
+64	6564	karavanenn	c'haravanennoù garavanennoù karavanennoù
+65	6565	kempenner	c'hempenner gempenner
+66	6566	kendrec'h	gendrec'h
+67	6567	kevatalder	c'hevatalder gevatalder
+68	6568	kevelerezh	c'hevelerezh kevelerezhioù
+69	6569	klemmgan	c'hlemmgan klemmganoù
+70	6570	kofesaat	gofesae kofesae
+71	6571	kogn	c'hogn kognoù
+72	6572	kontammañ	c'hontammañ gontammañ
+73	6573	kontouriezh	c'hontouriezh gontouriezh
+74	6574	kouchek	gouche kouchet
+75	6575	kouezout	goueze kouezfe
+76	6576	kouviañ	gouvie kouvias kouviet
+77	6577	kribenn	c'hribennoù gribenn
+78	6578	kridienn	gridienn kridiennoù
+79	6579	lakadenn	lakadennoù
+80	6580	lorbiñ	lorbet
+81	6581	louc'h	louc'hoù
+82	6582	meskl	mesklenn meskloù
+83	6583	nesaat	nesa nesaan nesaas nesae nesaec'h nesaemp nesaen nesaent nesaes nesaet nesaez nesafe nesafec'h nesafed nesafemp nesafen nesafent nesafes nesai nesaimp nesain nesaint nesais nesait nesaje nesajec'h nesajed nesajemp nesajen nesajent nesajes nesajoc'h nesajod nesajomp nesajont nesajout nesao nesaomp nesaont nesaor nesaot nessaad
+84	6584	pennad-stur	fennad-stur pennadoù-stur
+85	6585	peurlipat	peurlipet
+86	6586	pigosat	pigosal pigosan pigosas pigose pigosec'h pigosemp pigosen pigosent pigoses pigoset pigosez pigosfe pigosfec'h pigosfed pigosfemp pigosfen pigosfent pigosfes pigosi pigosimp pigosin pigosint pigosis pigosit pigosiñ pigosje pigosjec'h pigosjed pigosjemp pigosjen pigosjent pigosjes pigosjoc'h pigosjod pigosjomp pigosjont pigosjout pigoso pigosomp pigosont pigosor pigosot
+87	6587	pivelezh	bivelezh fivelezh pivelezhioù
+88	6588	plankenn-dre-lien	plankennoù-dre-lien
+89	6589	plezhañ	plezhet
+90	6590	reked	rekedoù
+91	6591	rizenn	rizennoù
+92	6592	santim	santimoù
+93	6593	sklaviñ	sklavet
+94	6594	skornenn	skornennoù
+95	6595	stouvañ	stouvan stouvas stouve stouvec'h stouvemp stouven stouvent stouves stouvet stouvez stouvfe stouvfec'h stouvfed stouvfemp stouvfen stouvfent stouvfes stouvi stouvimp stouvin stouvint stouvis stouvit stouviñ stouvje stouvjec'h stouvjed stouvjemp stouvjen stouvjent stouvjes stouvjoc'h stouvjod stouvjomp stouvjont stouvjout stouvo stouvomp stouvont stouvor stouvot
+96	6596	stuz	stuzioù
+97	6597	taouarc'h	daouarc'h
+98	6598	testiñ	testet
+99	6599	diflukañ	diflukan diflukas difluke diflukec'h diflukemp difluken diflukent diflukes difluket diflukez diflukfe diflukfec'h diflukfed diflukfemp diflukfen diflukfent diflukfes difluki diflukimp diflukin diflukint diflukis diflukit diflukje diflukjec'h diflukjed diflukjemp diflukjen diflukjent diflukjes diflukjoc'h diflukjod diflukjomp diflukjont diflukjout difluko diflukomp diflukont diflukor diflukot tiflukas tiflukañ ziflukañ
+100	6600	dispac'hañ	dispac'han dispac'has dispac'he dispac'hec'h dispac'hemp dispac'hen dispac'hent dispac'hes dispac'het dispac'hez dispac'hfe dispac'hfec'h dispac'hfed dispac'hfemp dispac'hfen dispac'hfent dispac'hfes dispac'hi dispac'himp dispac'hin dispac'hint dispac'his dispac'hit dispac'hje dispac'hjec'h dispac'hjed dispac'hjemp dispac'hjen dispac'hjent dispac'hjes dispac'hjoc'h dispac'hjod dispac'hjomp dispac'hjont dispac'hjout dispac'ho dispac'homp dispac'hont dispac'hor dispac'hot tispac'hañ

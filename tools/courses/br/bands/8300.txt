@@ -1,0 +1,100 @@
+1	8201	soav	
+2	8202	soda	
+3	8203	sonenroller	
+4	8204	sonliv	
+5	8205	soubilh	
+6	8206	soutilded	
+7	8207	splannder	
+8	8208	spluseg	splusegoù
+9	8209	spontadeg	
+10	8210	spontailh	
+11	8211	spoue	
+12	8212	stabiladur	
+13	8213	stadegouriezh	
+14	8214	staliad	staliadoù
+15	8215	stenn	
+16	8216	stered-lostek	steredenn-lostek
+17	8217	stlejell	
+18	8218	stlennegezh	
+19	8219	stlennek	
+20	8220	stoub	
+21	8221	stourmadeg	
+22	8222	strilheoul	
+23	8223	strizhder	
+24	8224	strobinellus	
+25	8225	strollel	
+26	8226	sulfurek	
+27	8227	suraval	
+28	8228	sut	
+29	8229	sutell	
+30	8230	svastika	
+31	8231	taboulinig	
+32	8232	tachennadel	
+33	8233	taerder	
+34	8234	tagos	
+35	8235	talek	
+36	8236	talmerenn	talmerennoù
+37	8237	taol-gwad	
+38	8238	tatouiñ	datouiñ tatou tatouan tatouas tatouañ tatoue tatouec'h tatouemp tatouen tatouent tatouer tatoues tatouez tatoufe tatoufec'h tatoufed tatoufemp tatoufen tatoufent tatoufes tatoui tatouimp tatouin tatouint tatouis tatouit tatouje tatoujec'h tatoujed tatoujemp tatoujen tatoujent tatoujes tatoujoc'h tatoujod tatoujomp tatoujont tatoujout tatouo tatouomp tatouont tatouor tatouot zatouiñ
+39	8239	temzet	
+40	8240	teskanv	
+41	8241	teuzadur	
+42	8242	teñzorour	
+43	8243	ti-meur	
+44	8244	tik	
+45	8245	tilsam	tilsamoù
+46	8246	tisaver	
+47	8247	titaniom	
+48	8248	tolpadeg	tolpadegoù
+49	8249	tolzennek	
+50	8250	torgennek	
+51	8251	torradur	
+52	8252	tortiset	
+53	8253	touellus	
+54	8254	traktour	traktourioù
+55	8255	tramgarr	
+56	8256	tresel	
+57	8257	trezalc'h	
+58	8258	triñchin	
+59	8259	troatad	
+60	8260	trubuilhus	
+61	8261	trueziñ	drueziñ truezal truezan truezas truezañ trueze truezec'h truezemp truezen truezent truezes truezet truezez truezfe truezfec'h truezfed truezfemp truezfen truezfent truezfes truezi truezimp truezin truezint truezis truezit truezje truezjec'h truezjed truezjemp truezjen truezjent truezjes truezjoc'h truezjod truezjomp truezjont truezjout truezo truezomp truezont truezor truezot
+62	8262	tu-gouzañv	
+63	8263	tu-gra	
+64	8264	turmudus	
+65	8265	tus	
+66	8266	ugentad	
+67	8267	uhelek	
+68	8268	ulmenn	
+69	8269	unanderenn	
+70	8270	undoueegezh	
+71	8271	unvaner	
+72	8272	urzhad	
+73	8273	urzhiadur	
+74	8274	bag-pesketa	vag-pesketa
+75	8275	vanilha	
+76	8276	barbarelezh	varbarelezh
+77	8277	marskaoñ	varskaoñ
+78	8278	batalm	vatalm
+79	8279	bazh-eskob	vazh-eskob
+80	8280	mellkeineg	vellkeineged
+81	8281	vertuzius	
+82	8282	meskadeg	veskadeg
+83	8283	bezhina	bezhinaan bezhinaas bezhinae bezhinaec'h bezhinaemp bezhinaen bezhinaent bezhinaes bezhinaet bezhinaez bezhinafe bezhinafec'h bezhinafed bezhinafemp bezhinafen bezhinafent bezhinafes bezhinai bezhinaimp bezhinain bezhinaint bezhinais bezhinait bezhinaje bezhinajec'h bezhinajed bezhinajemp bezhinajen bezhinajent bezhinajes bezhinajoc'h bezhinajod bezhinajomp bezhinajont bezhinajout bezhinao bezhinaomp bezhinaont bezhinaor bezhinaot vezhina
+84	8284	micherelaat	vicherelaat
+85	8285	vilded	
+86	8286	virgulenn	
+87	8287	mojell	vojell
+88	8288	volt	
+89	8289	monedonea	vonedonea
+90	8290	morganez	vorganez
+91	8291	moui	vouienn
+92	8292	bourr	vourr
+93	8293	brañsigell	vrañsigell
+94	8294	brikennerezh	vrikennerezh
+95	8295	brogarantez	vrogarantez
+96	8296	broñsañ	vroñsañ
+97	8297	gwenaner	wenanerien
+98	8298	gwez-derv	wezenn-derv
+99	8299	gwigour	wigour
+100	8300	yaus	

@@ -1,0 +1,100 @@
+1	9001	kazeg-koad	kezeg-koad
+2	9002	kilhevardon	
+3	9003	kiwi	
+4	9004	klegerek	
+5	9005	kleiziad	
+6	9006	kof-gar	
+7	9007	kokenn	
+8	9008	koper	
+9	9009	koumoulennad	
+10	9010	kouralek	
+11	9011	graus	kraus
+12	9012	kravazhataer	
+13	9013	kredus	
+14	9014	krennbennek	
+15	9015	kruz	
+16	9016	lag	
+17	9017	legadiad	
+18	9018	lezennerezh	
+19	9019	lieswreg	
+20	9020	lireu	
+21	9021	lok	
+22	9022	louzaouenn-an-hañv	
+23	9023	luch	
+24	9024	luo	
+25	9025	maen-badeziant	
+26	9026	maendresadur	
+27	9027	maenoniezh	
+28	9028	maeron	maeroned
+29	9029	marellek	
+30	9030	martezeüs	
+31	9031	masikod	
+32	9032	melleg	
+33	9033	mendem	
+34	9034	miaoual	miaouan miaouas miaoue miaouec'h miaouemp miaouen miaouent miaoues miaouet miaouez miaoufe miaoufec'h miaoufed miaoufemp miaoufen miaoufent miaoufes miaoui miaouimp miaouin miaouint miaouis miaouit miaouiñ miaouje miaoujec'h miaoujed miaoujemp miaoujen miaoujent miaoujes miaoujoc'h miaoujod miaoujomp miaoujont miaoujout miaouo miaouomp miaouont miaouor miaouot viaoual
+35	9035	mindrailher	
+36	9036	morredenn	
+37	9037	mors	
+38	9038	mot	
+39	9039	mouskeder	
+40	9040	mouster	mousterioù
+41	9041	musellat	
+42	9042	nizez-vihan	
+43	9043	nouel	
+44	9044	noziñ	nozan nozas noze nozec'h nozemp nozen nozent nozes nozet nozez nozfe nozfec'h nozfed nozfemp nozfen nozfent nozfes nozi nozimp nozin nozint nozis nozit nozje nozjec'h nozjed nozjemp nozjen nozjent nozjes nozjoc'h nozjod nozjomp nozjont nozjout nozo nozomp nozont nozor nozot
+45	9045	o-femp	
+46	9046	oferenniñ	
+47	9047	onneg	
+48	9048	opal	
+49	9049	ourz	
+50	9050	palastr	
+51	9051	paotr-kezeg	
+52	9052	pederrodek	
+53	9053	penefi	
+54	9054	penndanvez	
+55	9055	pennden	
+56	9056	penndu	
+57	9057	peuzvarv	
+58	9058	pipi	
+59	9059	pika	
+60	9060	pilwerzhañ	
+61	9061	pintig	
+62	9062	piramidennek	
+63	9063	pivoena	
+64	9064	pone	
+65	9065	poufal	pouf poufan poufas poufañ poufec'h poufemp poufen poufent poufes poufet poufez pouffec'h pouffed pouffemp pouffen poufi poufimp poufin poufint poufis poufit poufje poufjec'h poufjed poufjemp poufjen poufjent poufjes poufjoc'h poufjod poufjomp poufjont poufjout poufo poufomp poufont poufor poufot
+66	9066	pouilhañ	
+67	9067	proleter	
+68	9068	brout	prout
+69	9069	rav	
+70	9070	rec'h	
+71	9071	rilhetez	
+72	9072	riot	
+73	9073	rod-nezañ	
+74	9074	rouzig	
+75	9075	sparf	
+76	9076	sigur	
+77	9077	sivia	siviaan siviaas siviae siviaec'h siviaemp siviaen siviaent siviaes siviaet siviaez siviafe siviafec'h siviafed siviafemp siviafen siviafent siviafes siviai siviaimp siviain siviaint siviais siviait siviaje siviajec'h siviajed siviajemp siviajen siviajent siviajes siviajoc'h siviajod siviajomp siviajont siviajout siviao siviaomp siviaont siviaor siviaot
+78	9078	skragn	
+79	9079	skrilh	
+80	9080	span	
+81	9081	staol	
+82	9082	stolier	
+83	9083	tarar	
+84	9084	taras	
+85	9085	dejan	tejan
+86	9086	digriz	tigriz
+87	9087	tokarnet	
+88	9088	tomm-berv	
+89	9089	topaz	
+90	9090	tornoziñ	tornoz tornozan tornozas tornoze tornozec'h tornozemp tornozen tornozent tornozer tornozes tornozet tornozez tornozfe tornozfec'h tornozfed tornozfemp tornozfen tornozfent tornozfes tornozi tornozimp tornozin tornozint tornozis tornozit tornozje tornozjec'h tornozjed tornozjemp tornozjen tornozjent tornozjes tornozjoc'h tornozjod tornozjomp tornozjont tornozjout tornozo tornozomp tornozont tornozor tornozot
+91	9091	treuzkemmadur	
+92	9092	tru	
+93	9093	unanded	
+94	9094	urzhier	
+95	9095	balañs	valañs
+96	9096	mammlezenn	vammlezenn
+97	9097	minter	vinter
+98	9098	briad	vriad
+99	9099	gwelt	welt
+100	9100	yarad	

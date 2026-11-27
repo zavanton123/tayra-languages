@@ -1,100 +1,100 @@
-1	3301	dereiñ	dere derean dereas deree dereec'h dereemp dereen dereent derees dereet dereez derefe derefec'h derefed derefemp derefen derefent derefes derei dereimp derein dereint dereis dereit dereje derejec'h derejed derejemp derejen derejent derejes derejoc'h derejod derejomp derejont derejout dereo dereomp dereont dereor dereot teree tereiñ zeree zereiñ zereont
-2	3302	dilec'h	tilec'h zilec'h
-3	3303	bolenn	bolennoù folenn volenn
-4	3304	digevanañ	digevan digevanan digevanas digevane digevanec'h digevanemp digevanen digevanent digevanes digevanet digevanez digevanfe digevanfec'h digevanfed digevanfemp digevanfen digevanfent digevanfes digevani digevanimp digevanin digevanint digevanis digevanit digevanje digevanjec'h digevanjed digevanjemp digevanjen digevanjent digevanjes digevanjoc'h digevanjod digevanjomp digevanjont digevanjout digevano digevanomp digevanont digevanor digevanot tigevanañ tigevane tigevanfe tigevanont zigevan zigevanañ
-5	3305	belo	beloioù pelo velo
-6	3306	brozh	brezhier brozhioù vrozh vrozhioù
-7	3307	youc'hal	youal youañ youc'h youc'han youc'has youc'he youc'hec'h youc'hemp youc'hen youc'hent youc'hes youc'het youc'hez youc'hfe youc'hfec'h youc'hfed youc'hfemp youc'hfen youc'hfent youc'hfes youc'hi youc'himp youc'hin youc'hint youc'his youc'hit youc'hje youc'hjec'h youc'hjed youc'hjemp youc'hjen youc'hjent youc'hjes youc'hjoc'h youc'hjod youc'hjomp youc'hjont youc'hjout youc'ho youc'homp youc'hont youc'hor youc'hot
-8	3308	tridal	dridal trid tridan tridas tride tridec'h tridemp triden trident trides tridet tridez tridfe tridfec'h tridfed tridfemp tridfen tridfent tridfes tridi tridimp tridin tridint tridis tridit tridje tridjec'h tridjed tridjemp tridjen tridjent tridjes tridjoc'h tridjod tridjomp tridjont tridjout trido tridomp tridont tridor tridot
-9	3309	laon	
-10	3310	abostolerezh	
-11	3311	adverc'hañ	adverc'han adverc'has adverc'he adverc'hec'h adverc'hemp adverc'hen adverc'hent adverc'hes adverc'het adverc'hez adverc'hfe adverc'hfec'h adverc'hfed adverc'hfemp adverc'hfen adverc'hfent adverc'hfes adverc'hi adverc'himp adverc'hin adverc'hint adverc'his adverc'hit adverc'hje adverc'hjec'h adverc'hjed adverc'hjemp adverc'hjen adverc'hjent adverc'hjes adverc'hjoc'h adverc'hjod adverc'hjomp adverc'hjont adverc'hjout adverc'ho adverc'homp adverc'hont adverc'hor adverc'hot
-12	3312	alberz	
-13	3313	arar	
-14	3314	arwenn	
-15	3315	avu	
-16	3316	bedeladur	
-17	3317	chaous	
-18	3318	chemet	
-19	3319	chimik	
-20	3320	danzouar	
-21	3321	daoubennek	
-22	3322	denoniezh	
-23	3323	deun	
-24	3324	didrevadenniñ	didrevadenn didrevadennan didrevadennas didrevadenne didrevadennec'h didrevadennemp didrevadennen didrevadennent didrevadennes didrevadennet didrevadennez didrevadennfe didrevadennfec'h didrevadennfed didrevadennfemp didrevadennfen didrevadennfent didrevadennfes didrevadenni didrevadennimp didrevadennin didrevadennint didrevadennis didrevadennit didrevadennje didrevadennjec'h didrevadennjed didrevadennjemp didrevadennjen didrevadennjent didrevadennjes didrevadennjoc'h didrevadennjod didrevadennjomp didrevadennjont didrevadennjout didrevadenno didrevadennomp didrevadennont didrevadennor didrevadennot tidrevadenniñ zidrevadenniñ
-25	3325	digoumoul	
-26	3326	douarour	douarourien
-27	3327	enkrez	
-28	3328	ezvezant	
-29	3329	feltr	
-30	3330	fonologiezh	
-31	3331	fritañ	frit fritan fritas frite fritec'h fritemp friten fritent frites fritet fritfe fritfec'h fritfed fritfemp fritfen fritfent fritfes friti fritimp fritin fritint fritis fritit fritiñ fritje fritjec'h fritjed fritjemp fritjen fritjent fritjes fritjoc'h fritjod fritjomp fritjont fritjout frito fritomp fritont fritor fritot
-32	3332	fritez	
-33	3333	fured	
-34	3334	hañvourez	hañvourien
-35	3335	heliom	
-36	3336	hirded	
-37	3337	islandeg	
-38	3338	isrener	
-39	3339	lezirek	
-40	3340	loenoniourez	loenoniourien
-41	3341	lostek	
-42	3342	loustoni	
-43	3343	lufrus	
-44	3344	matematikel	
-45	3345	nijva	
-46	3346	paler	
-47	3347	radiom	
-48	3348	remerkout	remerk remerkan remerkas remerke remerkec'h remerkemp remerken remerkent remerkes remerket remerkez remerkfe remerkfec'h remerkfed remerkfemp remerkfen remerkfent remerkfes remerki remerkimp remerkin remerkint remerkis remerkit remerkiñ remerkje remerkjec'h remerkjed remerkjemp remerkjen remerkjent remerkjes remerkjoc'h remerkjod remerkjomp remerkjont remerkjout remerko remerkomp remerkont remerkor remerkot
-49	3349	rezin	
-50	3350	roc'hek	
-51	3351	skaf	
-52	3352	sod	
-53	3353	sodiom	
-54	3354	strinkenn	strinkennoù
-55	3355	unyezhek	
-56	3356	wolfram	
-57	3357	yac'haat	yac'ha yac'haad yac'haan yac'haas yac'hae yac'haec'h yac'haemp yac'haen yac'haent yac'haes yac'haet yac'haez yac'hafe yac'hafec'h yac'hafed yac'hafemp yac'hafen yac'hafent yac'hafes yac'hai yac'haimp yac'hain yac'haint yac'hais yac'hait yac'haje yac'hajec'h yac'hajed yac'hajemp yac'hajen yac'hajent yac'hajes yac'hajoc'h yac'hajod yac'hajomp yac'hajont yac'hajout yac'hao yac'haomp yac'haont yac'haor yac'haot
-58	3358	zirkoniom	
-59	3359	ankoù	
-60	3360	tin	
-61	3361	banjo	
-62	3362	brizhkredenn	brizhkredennoù
-63	3363	digor-frank	
-64	3364	drev	
-65	3365	esperantek	
-66	3366	frealz	
-67	3367	gleborek	
-68	3368	herr	
-69	3369	jod	
-70	3370	klet	
-71	3371	lus	
-72	3372	mezh	
-73	3373	nepred	
-74	3374	norvegeg	
-75	3375	ognon	
-76	3376	sev	
-77	3377	skoutez	skouted
-78	3378	timat	
-79	3379	ac'haleno	
-80	3380	hast	
-81	3381	kreizer	
-82	3382	tatouet	
-83	3383	trev	
-84	3384	pillig	billig
-85	3385	brenn	
-86	3386	gramadeg	
-87	3387	ode	
-88	3388	ter	
-89	3389	triliv	
-90	3390	unnekvet	
-91	3391	seder	
-92	3392	pifal	bifal fife pifan pifas pifañ pife pifec'h pifemp pifen pifent pifes pifet pifez piffe piffec'h piffed piffemp piffen piffent piffes pifi pifimp pifin pifint pifis pifit pifje pifjec'h pifjed pifjemp pifjen pifjent pifjes pifjoc'h pifjod pifjomp pifjont pifjout pifo pifomp pifont pifor pifot
-93	3393	gouin	gouinoù
-94	3394	gwent	went
-95	3395	kelvin	c'helvin
-96	3396	antren	antrean antreas antrejont antrenan antrenas antrene antrenec'h antrenemp antrenen antrenent antrenes antrenet antrenez antrenfe antrenfec'h antrenfed antrenfemp antrenfen antrenfent antrenfes antreni antrenimp antrenin antrenint antrenis antrenit antrenje antrenjec'h antrenjed antrenjemp antrenjen antrenjent antrenjes antrenjoc'h antrenjod antrenjomp antrenjont antrenjout antreno antrenomp antrenont antrenor antrenot antreomp
-97	3397	aotenn	aotennoù
-98	3398	arc'hantinat	
-99	3399	bazhad	bazhadoù vazhad
-100	3400	bestl	vestl
+1	3301	diglok	ziglok
+2	3302	alkool	alkooloù
+3	3303	distro-skol	zistro-skol
+4	3304	damkaniezh	damkaniezhioù damkaniezhoù zamkaniezh
+5	3305	engraviñ	engravas engravet
+6	3306	oberiañ	oberiet
+7	3307	staliadur	staliadurioù
+8	3308	danevelliñ	danevellet tanevelliñ zanevelliñ
+9	3309	hoalañ	hoalas hoalet
+10	3310	kempouezañ	gempouezas gempouezañ gempoueze gempouezo kempouezet
+11	3311	adstagañ	adstagas adstaget
+12	3312	adkaver	
+13	3313	difin	
+14	3314	galizeg	
+15	3315	lenneg	
+16	3316	juri	
+17	3317	anglikan	
+18	3318	dienez	
+19	3319	sioulaat	
+20	3320	a-boan	
+21	3321	goursez	c'hoursez
+22	3322	enframmañ	enframm enframmet
+23	3323	ajañs	ajañsoù
+24	3324	bannlev	bannlevioù
+25	3325	treuzkiz	dreuzkiz treuzkizoù zreuzkiz
+26	3326	postadur	postadurioù
+27	3327	ezporzhiañ	ezporzhiet
+28	3328	diplomatiezh	
+29	3329	filmaozer	
+30	3330	intrudu	
+31	3331	hudur	
+32	3332	sabatuet	
+33	3333	strategel	
+34	3334	model	
+35	3335	dibaot	
+36	3336	skeudennaouet	
+37	3337	tireoul	direoul
+38	3338	korfad	c'horfad korfadoù
+39	3339	labourva	labourvaioù labourvaoù
+40	3340	beveziñ	bevezet
+41	3341	heñchañ	heñchas heñchet
+42	3342	lostger	lostgerioù
+43	3343	rendael	rendaeloù
+44	3344	penniliz	benniliz pennilizoù
+45	3345	anadenn	anadennoù
+46	3346	bizantat	vizantat
+47	3347	kerentiezh	c'herentiezh gerentiezh
+48	3348	arhent	arhentoù
+49	3349	skourjezañ	skourjezent skourjezet
+50	3350	bloaziek	vloaziek
+51	3351	sinagogenn	sinagogennoù
+52	3352	truaj	druaj truajoù
+53	3353	damveneg	zamveneg
+54	3354	pennhêrez	bennhêrez
+55	3355	keveziñ	gevez geveziñ gevezont kevez kevezas keveze kevezjont kevezont
+56	3356	brazilian	
+57	3357	diadreñv	
+58	3358	emgefreek	
+59	3359	ervat	
+60	3360	sinaek	
+61	3361	tablez	
+62	3362	vakañsoù	
+63	3363	embarañ	
+64	3364	renadur	
+65	3365	violoñs	
+66	3366	aozour	
+67	3367	olifant	
+68	3368	estaj	estajoù
+69	3369	harnez	harnezioù
+70	3370	daneveller	taneveller
+71	3371	pistrius	bistrius
+72	3372	banvez	banvezioù
+73	3373	rivinañ	rivinet
+74	3374	gourdoner	c'hourdoner
+75	3375	merdeadurezh	verdeadurezh
+76	3376	skinizotop	skinizotopoù
+77	3377	murlivadur	murlivadurioù vurlivadur
+78	3378	diougan	diouganoù tiougan ziougan
+79	3379	dispignat	dispignet tispignas zispignas zispigne
+80	3380	gwallreuz	gwallreuzioù gwallreuzoù wallreuz
+81	3381	galloudegezh	c'halloudegezh galloudegezhioù
+82	3382	urzhiad	urzhiadoù
+83	3383	dezverk	dezverkoù zezverk
+84	3384	soniñ	sonent sonje sonjont sonont
+85	3385	magadur	magadurioù
+86	3386	menoz	menozioù venoz
+87	3387	rannig	rannigoù
+88	3388	kemennadenn	c'hemennadenn gemennadenn kemennadennoù
+89	3389	ac'hubiñ	ac'hubet ac'hubo
+90	3390	dispak	tispak zispak
+91	3391	kompezenn	gompezenn kompezennoù
+92	3392	yoc'henn	yoc'hennoù
+93	3393	diluziañ	diluziet ziluziañ
+94	3394	disoc'hañ	disoc'has disoc'het disoc'ho zisoc'has zisoc'ho zisoc'hont
+95	3395	mekanikerezh	vekanikerezh
+96	3396	kenfeur	c'henfeur kenfeurioù
+97	3397	a-feson	
+98	3398	aktor	
+99	3399	danvezel	
+100	3400	didaer	

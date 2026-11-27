@@ -1,0 +1,100 @@
+1	9401	broudus	
+2	9402	broust-dent	broustoù-dent
+3	9403	brug-roz	
+4	9404	brulu	
+5	9405	bruzhunadur	
+6	9406	bruzunek	
+7	9407	buanaer	
+8	9408	bugaleerezh	
+9	9409	buhezadur	
+10	9410	buhezskriver	
+11	9411	bulgariat	
+12	9412	bultur	
+13	9413	burbu	
+14	9414	butan	
+15	9415	buzad	
+16	9416	kador-sarmon	c'hadorioù-sarmon
+17	9417	kaher	c'haher
+18	9418	kaierig	c'haierig
+19	9419	kaliforniom	c'haliforniom
+20	9420	galvadeg	c'halvadeg
+21	9421	kalzad	c'halzad
+22	9422	kammamzeriad	c'hammamzeriad
+23	9423	gaoliata	c'haoliata
+24	9424	karantezig	c'harantezig
+25	9425	kargloud	c'hargloud
+26	9426	garloc'henn	c'harloc'henn
+27	9427	karrdiour	c'harrdiour
+28	9428	kartenn-vank	c'hartennoù-bank
+29	9429	garzhaoueg	c'harzhaoueg
+30	9430	gastaouiñ	c'hastaouiñ
+31	9431	katekizañ	c'hatekizañ
+32	9432	katekiziad	c'hatekiziad
+33	9433	katod	c'hatod
+34	9434	katolig	c'hatolig
+35	9435	kaviar	c'haviar
+36	9436	gazelenn	c'hazelenn
+37	9437	kefluniad	c'hefluniad
+38	9438	kefrisa	c'hefrisa
+39	9439	geiz	c'heiz
+40	9440	kelenndi	c'helenndi
+41	9441	kelfilm	c'helfilm
+42	9442	kellidsteuñv	c'hellidsteuñv
+43	9443	kemener-dour	c'hemener-dour
+44	9444	kenc'hoarier	c'henc'hoarier
+45	9445	kendalc'husted	c'hendalc'husted
+46	9446	kenstagusted	c'henstagusted
+47	9447	kenstriver	c'henstriver
+48	9448	kensturieg	c'hensturieg
+49	9449	kenurzhiadur	c'henurzhiadur
+50	9450	kenurzhierezh	c'henurzhierezh
+51	9451	kerdin-mouezh	c'herdin-mouezh
+52	9452	keulfe	c'heulfe
+53	9453	keuneuta	c'heuneuta keuneutaan keuneutaas keuneutae keuneutaec'h keuneutaemp keuneutaen keuneutaent keuneutaes keuneutaet keuneutaez keuneutafe keuneutafec'h keuneutafed keuneutafemp keuneutafen keuneutafent keuneutafes keuneutai keuneutaimp keuneutain keuneutaint keuneutais keuneutait keuneutaje keuneutajec'h keuneutajed keuneutajemp keuneutajen keuneutajent keuneutajes keuneutajoc'h keuneutajod keuneutajomp keuneutajont keuneutajout keuneutao keuneutaomp keuneutaont keuneutaor keuneutaot
+54	9454	gevellunedenn	c'hevellunedenn
+55	9455	keziom	c'heziom
+56	9456	keñveriadur	c'heñveriadur
+57	9457	ki-deñved	c'hi-deñved
+58	9458	kig-ha-farz	c'hig-ha-farz
+59	9459	kilhoroù	c'hilhoroù
+60	9460	kivijadur	c'hivijadur
+61	9461	kizellat	c'hizellat
+62	9462	glac'harus	c'hlac'harus
+63	9463	gladel	c'hladel
+64	9464	glaourek	c'hlaourek
+65	9465	klefiñ	c'hlefe klef klefan klefas klefe klefec'h klefemp klefen klefent klefes klefet klefez kleffe kleffec'h kleffed kleffemp kleffen kleffent kleffes klefi klefimp klefin klefint klefis klefit klefje klefjec'h klefjed klefjemp klefjen klefjent klefjes klefjoc'h klefjod klefjomp klefjont klefjout klefo klefomp klefont klefor klefot
+66	9466	kleger	c'hleger
+67	9467	kloc'h-galv	c'hloc'h-galv
+68	9468	kloniñ	c'hlonañ klonan klonas klonañ klone klonec'h klonemp klonen klonent klones klonet klonez klonfe klonfec'h klonfed klonfemp klonfen klonfent klonfes kloni klonimp klonin klonint klonis klonit klonje klonjec'h klonjed klonjemp klonjen klonjent klonjes klonjoc'h klonjod klonjomp klonjont klonjout klono klonomp klonont klonor klonot
+69	9469	c'hoant-staotat	
+70	9470	c'hoantaus	
+71	9471	godisat	c'hodisat
+72	9472	kofad	c'hofad
+73	9473	goidigezh	c'hoidigezh
+74	9474	korfadur	c'horfadur
+75	9475	korniad	c'horniad
+76	9476	goueletenn	c'houeletenn
+77	9477	koug	c'houg
+78	9478	kouign-amann	c'houign-amann
+79	9479	gourlakaat	c'hourlakaas
+80	9480	gourlañchenn	c'hourlañchenn
+81	9481	kouvi	c'houvi
+82	9482	gouyen	c'houyen
+83	9483	gouzav	c'houzav
+84	9484	gradailh	c'hradailh
+85	9485	gramadegel	c'hramadegel
+86	9486	krao	c'hrao
+87	9487	kravazh	c'hravazh
+88	9488	kredusted	c'hredusted
+89	9489	kreizon	c'hreizon
+90	9490	krign	c'hrign
+91	9491	grilh	c'hrilh
+92	9492	kroazour	c'hroazour
+93	9493	kropañ	c'hrop krop kropan kropas krope kropec'h kropemp kropen kropent kropes kropez kropfe kropfec'h kropfed kropfemp kropfen kropfent kropfes kropi kropimp kropin kropint kropis kropit kropiñ kropje kropjec'h kropjed kropjemp kropjen kropjent kropjes kropjoc'h kropjod kropjomp kropjont kropjout kropo kropomp kropont kropor kropot
+94	9494	krouilh	c'hrouilh
+95	9495	kub	c'hub
+96	9496	c'hwedus	
+97	9497	c'hwegont	
+98	9498	c'hwepad	
+99	9499	c'hwezhadenn	
+100	9500	c'hwial	c'hwian c'hwias c'hwie c'hwiec'h c'hwiemp c'hwien c'hwient c'hwies c'hwiet c'hwiez c'hwife c'hwifec'h c'hwifed c'hwifemp c'hwifen c'hwifent c'hwifes c'hwii c'hwiimp c'hwiin c'hwiint c'hwiis c'hwiit c'hwije c'hwijec'h c'hwijed c'hwijemp c'hwijen c'hwijent c'hwijes c'hwijoc'h c'hwijod c'hwijomp c'hwijont c'hwijout c'hwio c'hwiomp c'hwiont c'hwior c'hwiot

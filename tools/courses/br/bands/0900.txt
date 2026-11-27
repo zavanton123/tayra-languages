@@ -1,10 +1,10 @@
-1	801	distruj	distrujoù tistruj zistruj
+1	801	distruj	distrujoù tistruj zistruj zistrujoù
 2	802	droug	drougoù zroug
 3	803	barzhoniezh	varzhoniezh
 4	804	gour	c'hour c'hourion goured gourion gourioù
 5	805	efedus	efedusañ efedusoc'h
 6	806	arab	arabed
-7	807	selaou	selaouan selaouas selaouat selaoue selaouec'h selaouemp selaouen selaouent selaouer selaoues selaouet selaouez selaoufe selaoufec'h selaoufed selaoufemp selaoufen selaoufent selaoufes selaoui selaouimp selaouin selaouint selaouis selaouit selaouiñ selaouje selaoujec'h selaoujed selaoujemp selaoujen selaoujent selaoujes selaoujoc'h selaoujod selaoujomp selaoujont selaoujout selaouo selaouomp selaouont selaouor selaouot
+7	807	selaou	selaouan selaouas selaouat selaoue selaouec'h selaouemp selaouen selaouent selaouer selaouerien selaoues selaouet selaouez selaoufe selaoufec'h selaoufed selaoufemp selaoufen selaoufent selaoufes selaoui selaouimp selaouin selaouint selaouis selaouit selaouiñ selaouje selaoujec'h selaoujed selaoujemp selaoujen selaoujent selaoujes selaoujoc'h selaoujod selaoujomp selaoujont selaoujout selaouo selaouomp selaouont selaouor selaouot
 8	808	kazh	c'hazh c'hizhier gazh gazhez gizhier kazhez kizhier
 9	809	lez-varn	lezioù-barn
 10	810	kig	c'hig gig
@@ -62,7 +62,7 @@
 62	862	surentez	
 63	863	reuz	reuzioù
 64	864	iliz-veur	ilizoù-meur
-65	865	kompagnunezh	c'hompagnunezh gompagnunezh kompagnunezhioù
+65	865	kompagnunezh	c'hompagnunezh c'hompagnunezhioù gompagnunezh kompagnunezhioù
 66	866	eontr	eontred
 67	867	dremm	dremmoù zremm
 68	868	alese	
@@ -77,7 +77,7 @@
 77	877	krenn	c'hrennañ grenn grennas grennañ grenno krennas krennañ krennet krennoc'h
 78	878	koulzad	c'houlzad c'houlzadoù goulzad koulzadoù
 79	879	evn	evned
-80	880	traoñienn	draonienn draoñienn traonienn traoniennoù traoñiennoù zraoñienn
+80	880	traoñienn	draonienn draoñienn traonienn traoniennoù traoñiennoù zraoniennoù zraoñienn
 81	881	straed	straedoù
 82	882	gouenn	c'houenn c'houennoù gouennoù ouenn ouennoù
 83	883	glav	c'hlav c'hlaveier glaveier glavioù klaw

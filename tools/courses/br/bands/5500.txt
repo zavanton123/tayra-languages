@@ -1,0 +1,100 @@
+1	5401	kañval	gañvaled kañvaled
+2	5402	kenderc'her	c'henderc'her genderc'her
+3	5403	kendivizout	gendivizout kendivizet
+4	5404	kenstrivañ	genstriv genstrivañ kenstrivas
+5	5405	kleizhenn	gleizhenn gleizhennoù kleizhennoù
+6	5406	korf-marv	c'horfoù-marv gorf-marv korfoù-marv
+7	5407	logell	logelloù
+8	5408	martezeañ	martezean martezeas martezee martezeec'h martezeemp martezeen martezeent martezees martezeet martezeez martezefe martezefec'h martezefed martezefemp martezefen martezefent martezefes martezei martezeimp martezein martezeint martezeis martezeit martezeiñ martezeje martezejec'h martezejed martezejemp martezejen martezejent martezejes martezejoc'h martezejod martezejomp martezejont martezejout martezeo martezeomp martezeont martezeor martezeot vartezeañ
+9	5409	mentel	ventel
+10	5410	morzhed	vorzhed
+11	5411	nevezc'her	nevezc'herioù
+12	5412	parkad	parkadoù
+13	5413	peurlazhañ	beurlazhañ peurlazhet
+14	5414	risklañ	risklan risklas riskle risklec'h risklemp risklen risklent riskles risklet risklez risklfe risklfec'h risklfed risklfemp risklfen risklfent risklfes riskli risklimp risklin risklint risklis risklit risklje riskljec'h riskljed riskljemp riskljen riskljent riskljes riskljoc'h riskljod riskljomp riskljont riskljout risklo risklomp risklont risklor risklot
+15	5415	sac'had	sac'hadoù
+16	5416	tommaat	domma dommaas tomma tommaad tommaan tommaas tommae tommaec'h tommaemp tommaen tommaent tommaes tommaet tommaez tommafe tommafec'h tommafed tommafemp tommafen tommafent tommafes tommai tommaimp tommain tommaint tommais tommait tommaje tommajec'h tommajed tommajemp tommajen tommajent tommajes tommajoc'h tommajod tommajomp tommajont tommajout tommao tommaomp tommaont tommaor tommaot
+17	5417	melkoni	velkoni
+18	5418	mez	mezenn vezenn
+19	5419	vogalennek	vogalennet
+20	5420	fil	filoù
+21	5421	kor	c'hor koroù
+22	5422	degemerus	degemerusoc'h zegemerus
+23	5423	den-marc'h	zen-marc'h
+24	5424	mallozhiñ	mallozhan mallozhas mallozhe mallozhec'h mallozhemp mallozhen mallozhent mallozhes mallozhet mallozhez mallozhfe mallozhfec'h mallozhfed mallozhfemp mallozhfen mallozhfent mallozhfes mallozhi mallozhimp mallozhin mallozhint mallozhis mallozhit mallozhje mallozhjec'h mallozhjed mallozhjemp mallozhjen mallozhjent mallozhjes mallozhjoc'h mallozhjod mallozhjomp mallozhjont mallozhjout mallozho mallozhomp mallozhont mallozhor mallozhot vallozhas
+25	5425	oleviñ	olevas olevent olevet
+26	5426	reder-mor	reder-bro rederien-vro
+27	5427	traezheg	draezheg traezhegi traezhegoù
+28	5428	kere	c'here gere
+29	5429	blazañ	blasañ blazan blazas blaze blazec'h blazemp blazen blazent blazes blazet blazez blazfe blazfec'h blazfed blazfemp blazfen blazfent blazfes blazi blazimp blazin blazint blazis blazit blazje blazjec'h blazjed blazjemp blazjen blazjent blazjes blazjoc'h blazjod blazjomp blazjont blazjout blazo blazomp blazont blazor blazot plasañ plazas
+30	5430	pradañ	bradañ pradet
+31	5431	kelien	c'helien gelien
+32	5432	kenaozadur	c'henaozadur kenaozadurioù
+33	5433	kêraozour	c'hêraozour gêraozour
+34	5434	tavañjer	davañjer tavañjerioù zavañjer
+35	5435	dereiñ	derean dereas deree dereec'h dereemp dereen dereent derees dereet dereez derefe derefec'h derefed derefemp derefen derefent derefes derei dereimp derein dereint dereis dereit dereje derejec'h derejed derejemp derejen derejent derejes derejoc'h derejod derejomp derejont derejout dereo dereomp dereont dereor dereot teree tereiñ zeree zereiñ zereont
+36	5436	dilec'h	tilec'h zilec'h
+37	5437	bolenn	bolennoù folenn volenn
+38	5438	kreskaat	greskaas greskaat kreskaas kreskae
+39	5439	difretañ	tifretañ zifretañ
+40	5440	digevanañ	digevan digevanan digevanas digevane digevanec'h digevanemp digevanen digevanent digevanes digevanet digevanez digevanfe digevanfec'h digevanfed digevanfemp digevanfen digevanfent digevanfes digevani digevanimp digevanin digevanint digevanis digevanit digevanje digevanjec'h digevanjed digevanjemp digevanjen digevanjent digevanjes digevanjoc'h digevanjod digevanjomp digevanjont digevanjout digevano digevanomp digevanont digevanor digevanot tigevanañ tigevane tigevanfe tigevanont zigevan zigevanañ
+41	5441	belo	beloioù pelo velo
+42	5442	brozh	brezhier brozhioù vrozh vrozhioù
+43	5443	youc'hal	youal youañ youc'h youc'han youc'has youc'he youc'hec'h youc'hemp youc'hen youc'hent youc'hes youc'het youc'hez youc'hfe youc'hfec'h youc'hfed youc'hfemp youc'hfen youc'hfent youc'hfes youc'hi youc'himp youc'hin youc'hint youc'his youc'hit youc'hje youc'hjec'h youc'hjed youc'hjemp youc'hjen youc'hjent youc'hjes youc'hjoc'h youc'hjod youc'hjomp youc'hjont youc'hjout youc'ho youc'homp youc'hont youc'hor youc'hot
+44	5444	tridal	dridal trid tridan tridas tride tridec'h tridemp triden trident trides tridet tridez tridfe tridfec'h tridfed tridfemp tridfen tridfent tridfes tridi tridimp tridin tridint tridis tridit tridje tridjec'h tridjed tridjemp tridjen tridjent tridjes tridjoc'h tridjod tridjomp tridjont tridjout trido tridomp tridont tridor tridot
+45	5445	chin	
+46	5446	etrekeltiek	
+47	5447	laon	
+48	5448	mogn	
+49	5449	rat	
+50	5450	yael	
+51	5451	a-gent	
+52	5452	a-rez	
+53	5453	a-strew	
+54	5454	a-vareadoù	
+55	5455	abostolerezh	
+56	5456	adunvanidigezh	
+57	5457	adverc'hañ	adverc'han adverc'has adverc'he adverc'hec'h adverc'hemp adverc'hen adverc'hent adverc'hes adverc'het adverc'hez adverc'hfe adverc'hfec'h adverc'hfed adverc'hfemp adverc'hfen adverc'hfent adverc'hfes adverc'hi adverc'himp adverc'hin adverc'hint adverc'his adverc'hit adverc'hje adverc'hjec'h adverc'hjed adverc'hjemp adverc'hjen adverc'hjent adverc'hjes adverc'hjoc'h adverc'hjod adverc'hjomp adverc'hjont adverc'hjout adverc'ho adverc'homp adverc'hont adverc'hor adverc'hot
+58	5458	alberz	
+59	5459	amatour	
+60	5460	ambrougañ	
+61	5461	ampar	
+62	5462	amplaet	
+63	5463	arar	
+64	5464	artichaod	
+65	5465	artizan	
+66	5466	arwenn	
+67	5467	avu	
+68	5468	aziat	
+69	5469	bedeladur	
+70	5470	benvegad	
+71	5471	boneg	
+72	5472	brik	
+73	5473	chaous	
+74	5474	chemet	
+75	5475	chimik	
+76	5476	dae	
+77	5477	damdost	
+78	5478	danframm	danframmoù
+79	5479	danzouar	
+80	5480	daoubennek	
+81	5481	darnel	
+82	5482	deiziadiñ	deiziadet
+83	5483	dekvedenn	
+84	5484	dengarour	
+85	5485	denoniezh	
+86	5486	dereadegezh	
+87	5487	dereziadur	
+88	5488	deun	
+89	5489	dezastum	
+90	5490	diabell	
+91	5491	diaez	
+92	5492	didec'hus	
+93	5493	didrevadenniñ	didrevadenn didrevadennan didrevadennas didrevadenne didrevadennec'h didrevadennemp didrevadennen didrevadennent didrevadennes didrevadennet didrevadennez didrevadennfe didrevadennfec'h didrevadennfed didrevadennfemp didrevadennfen didrevadennfent didrevadennfes didrevadenni didrevadennimp didrevadennin didrevadennint didrevadennis didrevadennit didrevadennje didrevadennjec'h didrevadennjed didrevadennjemp didrevadennjen didrevadennjent didrevadennjes didrevadennjoc'h didrevadennjod didrevadennjomp didrevadennjont didrevadennjout didrevadenno didrevadennomp didrevadennont didrevadennor didrevadennot tidrevadenniñ zidrevadenniñ
+94	5494	diflach	
+95	5495	digomprenus	
+96	5496	digoumoul	
+97	5497	direbech	
+98	5498	dishêr	
+99	5499	diveliour	
+100	5500	diwar-dro	

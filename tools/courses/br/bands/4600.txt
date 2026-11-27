@@ -1,100 +1,100 @@
-1	4501	kester	kesterien
-2	4502	koagal	goagal koag koagan koagas koagat koagañ koage koagec'h koagemp koagen koagent koages koaget koagez koagfe koagfec'h koagfed koagfemp koagfen koagfent koagfes koagi koagimp koagin koagint koagis koagit koagje koagjec'h koagjed koagjemp koagjen koagjent koagjes koagjoc'h koagjod koagjomp koagjont koagjout koago koagomp koagont koagor koagot
-3	4503	laer-mor	laeron-vor
-4	4504	lampon	lamponed
-5	4505	laouenaat	laouena laouenaan laouenaas laouenae laouenaec'h laouenaemp laouenaen laouenaent laouenaes laouenaet laouenaez laouenafe laouenafec'h laouenafed laouenafemp laouenafen laouenafent laouenafes laouenai laouenaimp laouenain laouenaint laouenais laouenait laouenaje laouenajec'h laouenajed laouenajemp laouenajen laouenajent laouenajes laouenajoc'h laouenajod laouenajomp laouenajont laouenajout laouenao laouenaomp laouenaont laouenaor laouenaot
-6	4506	livus	livusañ
-7	4507	lugell	lugelloù
-8	4508	ma-unan	va-unan
-9	4509	maenek	maeneg
-10	4510	mandolinenn	vandolinenn
-11	4511	mazaouañ	mazaou mazaouan mazaouas mazaoue mazaouec'h mazaouemp mazaouen mazaouent mazaoues mazaouet mazaouez mazaoufe mazaoufec'h mazaoufed mazaoufemp mazaoufen mazaoufent mazaoufes mazaoui mazaouimp mazaouin mazaouint mazaouis mazaouit mazaouiñ mazaouje mazaoujec'h mazaoujed mazaoujemp mazaoujen mazaoujent mazaoujes mazaoujoc'h mazaoujod mazaoujomp mazaoujont mazaoujout mazaouo mazaouomp mazaouont mazaouor mazaouot vazaouañ vazaouet
-12	4512	moereb-kozh	voereb-kozh
-13	4513	molibden	volibden
-14	4514	morskoul	morskouled
-15	4515	morzholiañ	morzholi morzholian morzholias morzholie morzholiec'h morzholiemp morzholien morzholient morzholies morzholiet morzholiez morzholife morzholifec'h morzholifed morzholifemp morzholifen morzholifent morzholifes morzholii morzholiimp morzholiin morzholiint morzholiis morzholiit morzholije morzholijec'h morzholijed morzholijemp morzholijen morzholijent morzholijes morzholijoc'h morzholijod morzholijomp morzholijont morzholijout morzholio morzholiomp morzholiont morzholior morzholiot vorzholiañ
-16	4516	nadoz-aer	nadozioù-aer
-17	4517	nemedenn	nemedennoù
-18	4518	oksigenañ	oksigenan oksigenas oksigene oksigenec'h oksigenemp oksigenen oksigenent oksigenes oksigenet oksigenez oksigenfe oksigenfec'h oksigenfed oksigenfemp oksigenfen oksigenfent oksigenfes oksigeni oksigenimp oksigenin oksigenint oksigenis oksigenit oksigenje oksigenjec'h oksigenjed oksigenjemp oksigenjen oksigenjent oksigenjes oksigenjoc'h oksigenjod oksigenjomp oksigenjont oksigenjout oksigeno oksigenomp oksigenont oksigenor oksigenot
-19	4519	panerad	paneradoù
-20	4520	beuc'h	peuc'h
-21	4521	poc'han	
-22	4522	rampañ	ramp rampan rampas rampe rampec'h ramped rampemp rampen rampent ramper rampes rampet rampez rampfe rampfec'h rampfed rampfemp rampfen rampfent rampfes rampi rampimp rampin rampint rampis rampit rampje rampjec'h rampjed rampjemp rampjen rampjent rampjes rampjoc'h rampjod rampjomp rampjont rampjout rampomp rampont rampor rampot
-23	4523	rizeg	rizegi rizegoù
-24	4524	saouriñ	saouran saouras saoure saourec'h saouremp saouren saourent saoures saouret saourez saourfe saourfec'h saourfed saourfemp saourfen saourfent saourfes saouri saourimp saourin saourint saouris saourit saourje saourjec'h saourjed saourjemp saourjen saourjent saourjes saourjoc'h saourjod saourjomp saourjont saourjout saouro saouromp saouront saouror saourot
-25	4525	skiber	skiberioù
-26	4526	skopañ	skopan skopas skopat skope skopec'h skopemp skopen skopent skopes skopet skopez skopfe skopfec'h skopfed skopfemp skopfen skopfent skopfes skopi skopimp skopin skopint skopis skopit skopiñ skopje skopjec'h skopjed skopjemp skopjen skopjent skopjes skopjoc'h skopjod skopjomp skopjont skopjout skopo skopomp skopont skopor skopot
-27	4527	skudell	skudilli
-28	4528	stal-vutun	stalioù-butun
-29	4529	stalon	stalonoù
-30	4530	stlakañ	stlak stlakan stlakas stlake stlakec'h stlakemp stlaken stlakent stlakes stlaket stlakez stlakfe stlakfec'h stlakfed stlakfemp stlakfen stlakfent stlakfes stlaki stlakimp stlakin stlakint stlakis stlakit stlakje stlakjec'h stlakjed stlakjemp stlakjen stlakjent stlakjes stlakjoc'h stlakjod stlakjomp stlakjont stlakjout stlako stlakomp stlakont stlakor stlakot
-31	4531	stouv	stouvoù
-32	4532	stroñsañ	stroñsan stroñsas stroñse stroñsec'h stroñsemp stroñsen stroñsent stroñses stroñset stroñsez stroñsfe stroñsfec'h stroñsfed stroñsfemp stroñsfen stroñsfent stroñsfes stroñsi stroñsimp stroñsin stroñsint stroñsis stroñsit stroñsiñ stroñsje stroñsjec'h stroñsjed stroñsjemp stroñsjen stroñsjent stroñsjes stroñsjoc'h stroñsjod stroñsjomp stroñsjont stroñsjout stroñso stroñsomp stroñsont stroñsor stroñsot
-33	4533	targazh	targizhier
-34	4534	tommerez	tommerezioù
-35	4535	tufañ	tuf tufan tufas tufe tufec'h tufed tufemp tufen tufent tufer tufes tufet tufez tuffe tuffec'h tuffed tuffemp tuffen tuffent tuffes tufi tufimp tufin tufint tufis tufit tufiñ tufje tufjec'h tufjed tufjemp tufjen tufjent tufjes tufjoc'h tufjod tufjomp tufjont tufjout tufo tufomp tufont tufor tufot
-36	4536	uhelvor	uhelvorioù
-37	4537	vaksin	vaksinoù
-38	4538	bilieg	vilieg viliegoù
-39	4539	mousc'hoarzhin	mousc'hoarzhan mousc'hoarzhas mousc'hoarzhe mousc'hoarzhec'h mousc'hoarzhemp mousc'hoarzhen mousc'hoarzhent mousc'hoarzhes mousc'hoarzhet mousc'hoarzhez mousc'hoarzhfe mousc'hoarzhfec'h mousc'hoarzhfed mousc'hoarzhfemp mousc'hoarzhfen mousc'hoarzhfent mousc'hoarzhfes mousc'hoarzhi mousc'hoarzhimp mousc'hoarzhint mousc'hoarzhis mousc'hoarzhit mousc'hoarzhje mousc'hoarzhjec'h mousc'hoarzhjed mousc'hoarzhjemp mousc'hoarzhjen mousc'hoarzhjent mousc'hoarzhjes mousc'hoarzhjoc'h mousc'hoarzhjod mousc'hoarzhjomp mousc'hoarzhjont mousc'hoarzhjout mousc'hoarzho mousc'hoarzhomp mousc'hoarzhont mousc'hoarzhor mousc'hoarzhot vousc'hoarzhin vousc'hoarzhont
-40	4540	yac'hus	yac'husoc'h
-41	4541	korolliñ	c'horolliñ gorollerien gorolliñ korollan korollas korollat korolle korollec'h korolled korollemp korollen korollent koroller korollerien korolles korollet korollez korollfe korollfec'h korollfed korollfemp korollfen korollfent korollfes korolli korollimp korollin korollint korollis korollit korollje korolljec'h korolljed korolljemp korolljen korolljent korolljes korolljoc'h korolljod korolljomp korolljont korolljout korollo korollomp korollont korollor korollot
-42	4542	ruziañ	ruze ruzian ruzias ruzie ruziec'h ruziemp ruzien ruzient ruzies ruziet ruziez ruzife ruzifec'h ruzifed ruzifemp ruzifen ruzifent ruzifes ruzii ruziimp ruziin ruziint ruziis ruziit ruzije ruzijec'h ruzijed ruzijemp ruzijen ruzijent ruzijes ruzijoc'h ruzijod ruzijomp ruzijont ruzijout ruzio ruziomp ruziont ruzior ruziot ruzis ruziñ
-43	4543	klouariñ	glouarañ klouaran klouaras klouarañ klouare klouarec'h klouaremp klouaren klouarent klouares klouaret klouarez klouarfe klouarfec'h klouarfed klouarfemp klouarfen klouarfent klouarfes klouari klouarimp klouarin klouarint klouaris klouarit klouarje klouarjec'h klouarjed klouarjemp klouarjen klouarjent klouarjes klouarjoc'h klouarjod klouarjomp klouarjont klouarjout klouaro klouaromp klouaront klouaror klouarot
-44	4544	advamm	
-45	4545	ahez	
-46	4546	ankounac'h	
-47	4547	arc'hdugelezh	
-48	4548	aviañ	avian avias avie aviec'h aviemp avien avient avies aviet aviez avife avifec'h avifed avifemp avifen avifent avifes avii aviimp aviin aviint aviis aviit aviiñ avije avijec'h avijed avijemp avijen avijent avijes avijoc'h avijod avijomp avijont avijout avio aviomp aviont avior aviot aviout
-49	4549	boc'hek	boc'heg
-50	4550	brec'hagn	
-51	4551	brig	
-52	4552	damc'hlas	
-53	4553	damc'houde	
-54	4554	doñviñ	doñvan doñvas doñvañ doñve doñvec'h doñvemp doñven doñvent doñves doñvet doñvez doñvfe doñvfec'h doñvfed doñvfemp doñvfen doñvfent doñvfes doñvi doñvimp doñvin doñvint doñvis doñvit doñvje doñvjec'h doñvjed doñvjemp doñvjen doñvjent doñvjes doñvjoc'h doñvjod doñvjomp doñvjont doñvjout doñvo doñvomp doñvont doñvor doñvot
-55	4555	dreog	
-56	4556	drezeg	
-57	4557	emwel	
-58	4558	enoeiñ	enoean enoeas enoee enoeec'h enoeemp enoeen enoeent enoees enoeet enoeez enoefe enoefec'h enoefed enoefemp enoefen enoefent enoefes enoei enoeimp enoein enoeint enoeis enoeit enoeje enoejec'h enoejed enoejemp enoejen enoejent enoejes enoejoc'h enoejod enoejomp enoejont enoejout enoeo enoeomp enoeont enoeor enoeot
-59	4559	erviñ	ervan ervas erve ervec'h ervemp erven ervent erves ervet ervez ervfe ervfec'h ervfed ervfemp ervfen ervfent ervfes ervi ervimp ervin ervint ervis ervit ervje ervjec'h ervjed ervjemp ervjen ervjent ervjes ervjoc'h ervjod ervjomp ervjont ervjout ervo ervomp ervont ervor ervot
-60	4560	falc'h	
-61	4561	frankizenn	
-62	4562	gouezel	gouezeled
-63	4563	gouher	
-64	4564	gramadegour	
-65	4565	krener	grenerien
-66	4566	gwilou	gwillou
-67	4567	gwrimenn	
-68	4568	hertz	
-69	4569	hewerzh	
-70	4570	hunegan	
-71	4571	jarneal	jarnean jarneas jarnee jarneec'h jarneemp jarneen jarneent jarnees jarneet jarneez jarnefe jarnefec'h jarnefed jarnefemp jarnefen jarnefent jarnefes jarnei jarneimp jarnein jarneint jarneis jarneit jarneje jarnejec'h jarnejed jarnejemp jarnejen jarnejent jarnejes jarnejoc'h jarnejod jarnejomp jarnejont jarnejout jarneo jarneomp jarneont jarneor jarneot
-72	4572	jarne	jarneoù
-73	4573	jenofl	
-74	4574	kala-hañv	
-75	4575	kanastell	
-76	4576	kaour	
-77	4577	kartenn-hent	kartennoù-hent
-78	4578	kerc'heiz	
-79	4579	kazeg-koad	kezeg-koad
-80	4580	klegerek	
-81	4581	kof-gar	
-82	4582	kravazhataer	
-83	4583	kreizenn nukleel	kreizenn nukleel
-84	4584	lok	
-85	4585	louzaouenn-an-hañv	
-86	4586	maeron	maeroned
-87	4587	masikod	
-88	4588	miaoual	miaouan miaouas miaoue miaouec'h miaouemp miaouen miaouent miaoues miaouet miaouez miaoufe miaoufec'h miaoufed miaoufemp miaoufen miaoufent miaoufes miaoui miaouimp miaouin miaouint miaouis miaouit miaouiñ miaouje miaoujec'h miaoujed miaoujemp miaoujen miaoujent miaoujes miaoujoc'h miaoujod miaoujomp miaoujont miaoujout miaouo miaouomp miaouont miaouor miaouot viaoual
-89	4589	mindrailher	
-90	4590	mot	
-91	4591	mouster	mousterioù
-92	4592	nizez-vihan	
-93	4593	nouel	
-94	4594	noziñ	nozan nozas noze nozec'h nozemp nozen nozent nozes nozet nozez nozfe nozfec'h nozfed nozfemp nozfen nozfent nozfes nozi nozimp nozin nozint nozis nozit nozje nozjec'h nozjed nozjemp nozjen nozjent nozjes nozjoc'h nozjod nozjomp nozjont nozjout nozo nozomp nozont nozor nozot
-95	4595	o-femp	
-96	4596	onneg	
-97	4597	ourz	
-98	4598	paotr-kezeg	
-99	4599	piramidennek	
-100	4600	poufal	pouf poufan poufas poufañ poufec'h poufemp poufen poufent poufes poufet poufez pouffec'h pouffed pouffemp pouffen poufi poufimp poufin poufint poufis poufit poufje poufjec'h poufjed poufjemp poufjen poufjent poufjes poufjoc'h poufjod poufjomp poufjont poufjout poufo poufomp poufont poufor poufot
+1	4501	ruzañ	ruzal ruzan ruzas ruze ruzec'h ruzemp ruzen ruzent ruzes ruzet ruzez ruzfe ruzfec'h ruzfed ruzfemp ruzfen ruzfent ruzfes ruzimp ruzin ruzint ruzis ruzit ruziñ ruzje ruzjec'h ruzjed ruzjemp ruzjen ruzjent ruzjes ruzjoc'h ruzjod ruzjomp ruzjont ruzjout ruzo ruzoc'h ruzomp ruzont ruzor ruzot
+2	4502	fallout	fallan fallas falle fallec'h fallemp fallen fallent falles fallet fallez fallfe fallfec'h fallfed fallfemp fallfen fallfent fallfes falli fallimp fallin fallint fallis fallit falliñ fallje falljec'h falljed falljemp falljen falljent falljes falljoc'h falljod falljomp falljont falljout fallo fallomp fallont fallor fallot fallvezout
+3	4503	a-blad	
+4	4504	a-led	
+5	4505	a-spin	
+6	4506	a-vil-vern	
+7	4507	adober	
+8	4508	ampechet	
+9	4509	analiñ	
+10	4510	aozerez	
+11	4511	arc'heskopti	
+12	4512	arvrec'h	
+13	4513	bambouz	
+14	4514	bevaat	
+15	4515	c'hoaz	
+16	4516	denheñvel	
+17	4517	diaoz	
+18	4518	diharz	
+19	4519	donvor	
+20	4520	e-tailh	
+21	4521	finlandat	
+22	4522	fiñvus	
+23	4523	kartennouriezh	gartennouriezh
+24	4524	gwelus	
+25	4525	handelv	
+26	4526	heson	
+27	4527	hoc'h-gouez	
+28	4528	hollveliegezh	
+29	4529	iskerentiad	
+30	4530	kentelius	
+31	4531	kontammus	
+32	4532	koublet	
+33	4533	lec'hiel	
+34	4534	lijer	
+35	4535	liñvel	
+36	4536	loread	
+37	4537	lunedoù	
+38	4538	mouller	
+39	4539	noaz	
+40	4540	pesketaerezh	
+41	4541	peurglok	
+42	4542	psikologiezh	
+43	4543	puraet	
+44	4544	ragistorel	
+45	4545	rannyezhel	
+46	4546	respetad	
+47	4547	rusianek	
+48	4548	sevended	
+49	4549	simant	
+50	4550	steuziadur	
+51	4551	strujusted	
+52	4552	sutal	sutan sutas sutañ sute sutec'h sutemp suten sutent sutes sutet sutez sutfe sutfec'h sutfed sutfemp sutfen sutfent sutfes suti sutimp sutin sutint sutis sutit sutje sutjec'h sutjed sutjemp sutjen sutjent sutjes sutjoc'h sutjod sutjomp sutjont sutjout suto sutomp sutont sutor sutot
+53	4553	ti-moullañ	
+54	4554	trafikerezh	
+55	4555	barrennig	varrennig
+56	4556	ester	
+57	4557	a-dammoù	
+58	4558	achu	
+59	4559	anien	
+60	4560	digudenn	
+61	4561	diskaramzer	
+62	4562	dre-holl	
+63	4563	erotegezh	
+64	4564	helavarded	
+65	4565	hiraezh	
+66	4566	latar	
+67	4567	leton	
+68	4568	sentus	
+69	4569	struj	
+70	4570	aluzenour	aluzener
+71	4571	beilhadeg	beilhadegoù
+72	4572	boemiñ	boemet
+73	4573	damez	
+74	4574	dispis	
+75	4575	etimologiezh	
+76	4576	romantelezh	
+77	4577	fu	
+78	4578	gwe	we
+79	4579	lev	
+80	4580	pebr	
+81	4581	raz	
+82	4582	armel	
+83	4583	demokrat	
+84	4584	klañvidik	
+85	4585	radikal	
+86	4586	brabant	vrabant
+87	4587	nant	nantoù
+88	4588	ardremez	ardremezioù
+89	4589	deskamant	zeskamant
+90	4590	dioksigen	zioksigen
+91	4591	doubladur	doubladurioù
+92	4592	frapad	frapadoù
+93	4593	galianek	c'halianek
+94	4594	gin	c'hin
+95	4595	komper	c'homper gomper
+96	4596	gov	c'hov
+97	4597	gwiaderezh	wiaderezh
+98	4598	hirgarrezek	hirgarrez
+99	4599	polonek	bolonek
+100	4600	prierezh	prierezhioù

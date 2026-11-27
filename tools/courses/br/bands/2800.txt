@@ -1,100 +1,100 @@
-1	2701	pok	bok pokoù
-2	2702	gwalleur	gwalleurioù walleur walleurioù
-3	2703	gwazour	gwazourien gwazourion wazour wazourion
-4	2704	kevalaour	gevalaourien gevalaourion
-5	2705	porpant	borpant porpantoù
-6	2706	atahinañ	atahin atahinal atahinan atahinas atahine atahinec'h atahinemp atahinen atahinent atahines atahinet atahinez atahinfe atahinfec'h atahinfed atahinfemp atahinfen atahinfent atahinfes atahini atahinimp atahinin atahinint atahinis atahinit atahiniñ atahinje atahinjec'h atahinjed atahinjemp atahinjen atahinjent atahinjes atahinjoc'h atahinjod atahinjomp atahinjont atahinjout atahino atahinomp atahinont atahinor atahinot
-7	2707	korrigan	c'horrigan gorriganed gorriganez korriganez
-8	2708	karv	c'hirvi kirvi
-9	2709	schtroumpf	schtroumpfañ schtroumpfed
-10	2710	bos	bosoù vos
-11	2711	sklaeraat	sklaera sklaeraan sklaeraas sklaerae sklaeraec'h sklaeraemp sklaeraen sklaeraent sklaeraes sklaeraet sklaeraez sklaerafe sklaerafec'h sklaerafed sklaerafemp sklaerafen sklaerafent sklaerafes sklaerai sklaeraimp sklaerain sklaeraint sklaerais sklaerait sklaeraje sklaerajec'h sklaerajed sklaerajemp sklaerajen sklaerajent sklaerajes sklaerajoc'h sklaerajod sklaerajomp sklaerajont sklaerajout sklaerao sklaeraomp sklaeraont sklaeraor sklaeraot
-12	2712	talm	dalm talmioù talmoù zalm
-13	2713	trompilh	drompilh trompilhoù
-14	2714	madoberour	madoberer madoberourien vadoberour vadoberourien
-15	2715	adwelout	adwel adwelas adweled adwelje adweljont
-16	2716	kabined	c'habined gabined kabinedoù
-17	2717	difraostañ	difraost difraostan difraostas difraoste difraostec'h difraostemp difraosten difraostent difraostes difraostet difraostez difraostfe difraostfec'h difraostfed difraostfemp difraostfen difraostfent difraostfes difraosti difraostimp difraostin difraostint difraostis difraostit difraostiñ difraostje difraostjec'h difraostjed difraostjemp difraostjen difraostjent difraostjes difraostjoc'h difraostjod difraostjomp difraostjont difraostjout difraosto difraostomp difraostont difraostor difraostot tifraostas tifraostañ zifraostañ
-18	2718	forest	
-19	2719	glein	klein
-20	2720	aked	
-21	2721	c'hwen	
-22	2722	fazius	
-23	2723	henc'hresianeg	
-24	2724	parlamantel	
-25	2725	skuizhder	
-26	2726	taol-mouezh	
-27	2727	merc'heta	merc'hetaan merc'hetaas merc'hetae merc'hetaec'h merc'hetaemp merc'hetaen merc'hetaent merc'hetaes merc'hetaet merc'hetaez merc'hetafe merc'hetafec'h merc'hetafed merc'hetafemp merc'hetafen merc'hetafent merc'hetafes merc'hetai merc'hetaimp merc'hetain merc'hetaint merc'hetais merc'hetait merc'hetaje merc'hetajec'h merc'hetajed merc'hetajemp merc'hetajen merc'hetajent merc'hetajes merc'hetajoc'h merc'hetajod merc'hetajomp merc'hetajont merc'hetajout merc'hetao merc'hetaomp merc'hetaont merc'hetaor merc'hetaot verc'heta
-28	2728	yenijenn	
-29	2729	a-daol-trumm	
-30	2730	fallakr	
-31	2731	yod	
-32	2732	rouz	
-33	2733	trouzus	
-34	2734	kourzh	c'hourzh
-35	2735	fizikour	fizikourien
-36	2736	gwilioud	wilioud
-37	2737	alez	alezioù
-38	2738	levezonus	levezonusañ
-39	2739	brumenn	vrumenn
-40	2740	fleüt	fleütoù
-41	2741	ampoezoniñ	ampoezonan ampoezonas ampoezone ampoezonec'h ampoezonemp ampoezonen ampoezonent ampoezones ampoezonet ampoezonez ampoezonfe ampoezonfec'h ampoezonfed ampoezonfemp ampoezonfen ampoezonfent ampoezonfes ampoezoni ampoezonimp ampoezonin ampoezonint ampoezonis ampoezonit ampoezonje ampoezonjec'h ampoezonjed ampoezonjemp ampoezonjen ampoezonjent ampoezonjes ampoezonjoc'h ampoezonjod ampoezonjomp ampoezonjont ampoezonjout ampoezono ampoezonomp ampoezonont ampoezonor ampoezonot
-42	2742	glanaat	c'hlanaat glana glanaan glanaas glanae glanaec'h glanaemp glanaen glanaent glanaes glanaet glanaez glanafe glanafec'h glanafed glanafemp glanafen glanafent glanafes glanai glanaimp glanain glanaint glanais glanait glanaje glanajec'h glanajed glanajemp glanajen glanajent glanajes glanajoc'h glanajod glanajomp glanajont glanajout glanao glanaomp glanaont glanaor glanaot
-43	2743	islonk	islonkoù
-44	2744	sailh	sailhoù
-45	2745	boujedenn	boujedennoù voujedenn
-46	2746	saotr	saotroù
-47	2747	soubañ	soub souban soubas soube soubec'h soubemp souben soubent soubes soubet soubez soubfe soubfec'h soubfed soubfemp soubfen soubfent soubfes soubi soubimp soubin soubint soubis soubit soubiñ soubje soubjec'h soubjed soubjemp soubjen soubjent soubjes soubjoc'h soubjod soubjomp soubjont soubjout soubo soubomp soubont soubor soubot
-48	2748	adverb	adverboù
-49	2749	ki-dour	c'hi-dour
-50	2750	koantiz	c'hoantiz
-51	2751	talar	dalaroù zalaroù
-52	2752	nadoz	nadozioù
-53	2753	balafenn	balafenned valafenn
-54	2754	karvan	c'harvan garvan karvanoù
-55	2755	karn	c'harn c'harnoù garn karnioù
-56	2756	cheuc'h	
-57	2757	didan	
-58	2758	disi	
-59	2759	dourek	
-60	2760	droug-skevent	
-61	2761	ellig	
-62	2762	flaer	
-63	2763	fromus	
-64	2764	naet	
-65	2765	patatez	
-66	2766	sistr	
-67	2767	solier	
-68	2768	lama	
-69	2769	adkrog	
-70	2770	daouzekvet	
-71	2771	diwelus	
-72	2772	gwinizh	
-73	2773	henvrezhoneg	
-74	2774	hevoud	
-75	2775	kerkoulz	
-76	2776	liorzhañ	liorzhan liorzhas liorzhe liorzhec'h liorzhemp liorzhen liorzhent liorzhes liorzhet liorzhez liorzhfe liorzhfec'h liorzhfed liorzhfemp liorzhfen liorzhfent liorzhfes liorzhi liorzhimp liorzhin liorzhint liorzhis liorzhit liorzhje liorzhjec'h liorzhjed liorzhjemp liorzhjen liorzhjent liorzhjes liorzhjoc'h liorzhjod liorzhjomp liorzhjont liorzhjout liorzho liorzhomp liorzhont liorzhor liorzhot
-77	2777	milour	
-78	2778	moger-greñv	mogerioù-kreñv
-79	2779	nouspet	
-80	2780	salud	
-81	2781	spouronus	
-82	2782	enezourez	enezourien
-83	2783	izeldir	izeldirioù
-84	2784	reunig	reuniged
-85	2785	ri	
-86	2786	porzh-houarn	
-87	2787	salver	
-88	2788	adkanañ	adkan adkanan adkanas adkane adkanec'h adkanemp adkanen adkanent adkanes adkanet adkanez adkanfe adkanfec'h adkanfed adkanfemp adkanfen adkanfent adkanfes adkani adkanimp adkanin adkanint adkanis adkanit adkaniñ adkanje adkanjec'h adkanjed adkanjemp adkanjen adkanjent adkanjes adkanjoc'h adkanjod adkanjomp adkanjont adkanjout adkano adkanomp adkanont adkanor adkanot
-89	2789	aval-douar	avaloù-douar
-90	2790	dargreiz	zargreiz
-91	2791	diskiant	ziskiant
-92	2792	gramm	grammoù
-93	2793	gwiraer	gwiraerion gwiraour
-94	2794	harluad	harluidi
-95	2795	janglenn	janglennoù
-96	2796	loer	loeroù
-97	2797	marmor	varmor
-98	2798	neved	nevedoù
-99	2799	palmez	balmezenn
-100	2800	raklavar	raklavaroù
+1	2701	bourzh	vourzh
+2	2702	digresk	tigresk zigresk
+3	2703	torfedour	dorfedour dorfedourien torfedourien
+4	2704	kehentiñ	c'hehentiñ gehentiñ
+5	2705	disrannañ	disrannet tisrannas tisranne zisrannas zisrannañ zisrannet
+6	2706	kod	c'hod c'hodoù godoù kodoù
+7	2707	mennad	mennadoù
+8	2708	cheñchamant	cheñchamantoù
+9	2709	strategiezh	strategiezhioù strategiezhoù
+10	2710	glot	klot
+11	2711	diazezer	diazezerien ziazezer ziazezerien
+12	2712	mestroniañ	mestroniet vestronias vestroniañ vestronie vestroniont
+13	2713	displijout	displijet tisplij tisplijas tisplije zisplij zisplijas zisplije zisplijo
+14	2714	ijinour	
+15	2715	divodañ	divodet zivodas zivodañ
+16	2716	lignez	lignezioù lignezoù
+17	2717	pergen	bergen
+18	2718	kelc'hiad	c'helc'hiad gelc'hiad kelc'hiadoù
+19	2719	arguzenn	arguzennoù
+20	2720	kenkoulz	
+21	2721	oadvezh	oadvezhioù
+22	2722	gouennañ	c'houennañ
+23	2723	sivil	siviled
+24	2724	emvod	emvodoù
+25	2725	kichen	c'hichen gichen
+26	2726	tonenn	donenn tonennoù zonenn
+27	2727	kendeuziñ	c'hendeuziñ gendeuzas gendeuzet gendeuziñ kendeuzet kendeuzjont kendeuzont
+28	2728	aesaat	aesa aesaet
+29	2729	protestant	brotestant
+30	2730	strollañ	strollas strolle strollet strollfe
+31	2731	estrenvro	
+32	2732	italianek	
+33	2733	sammad	sammadoù
+34	2734	c'hlub	c'hluboù
+35	2735	mell	melloù
+36	2736	kleub	c'hleub gleub kleuboù
+37	2737	bannañ	bannet vannas vannañ
+38	2738	arouezenn	arouezennoù
+39	2739	pled	bled
+40	2740	reizhel	
+41	2741	arabek	
+42	2742	jazz	
+43	2743	glazur	c'hlazur
+44	2744	entanañ	entanet
+45	2745	dramm	drammoù zramm
+46	2746	adtapout	adtap adtapas adtapet adtapje adtapjont
+47	2747	unanenn	unanennoù
+48	2748	c'hwitout	c'hwit c'hwitas c'hwite c'hwitet c'hwitfe c'hwito c'hwitont
+49	2749	diskuliañ	diskulias diskuliet tiskuli tiskuliañ ziskulias ziskuliañ
+50	2750	aerouant	erevent
+51	2751	gwerc'hez	werc'hez
+52	2752	renerezh	
+53	2753	e-keit-se	
+54	2754	trumm	drumm
+55	2755	teknikel	deknikel
+56	2756	kevredigezhel	gevredigezhel
+57	2757	bannoù-treset	vannoù-treset
+58	2758	lazhadegañ	lazhadegas lazhadeget
+59	2759	sujañ	sujas sujet
+60	2760	enrolladenn	enrolladennoù
+61	2761	kornad	c'hornad gornad kornadoù
+62	2762	senedour	senedourien
+63	2763	digenvez	zigenvez
+64	2764	disparti	dispartioù zisparti
+65	2765	kenaozañ	c'henaozañ genaozañ genaozet genaozfe kenaozet
+66	2766	kemmeskañ	c'hemmeskañ gemmeskañ gemmeskent gemmesket kemmesket
+67	2767	enskrivadur	enskrivadurioù
+68	2768	steuñv	steuñvioù steuñvoù
+69	2769	kizellañ	c'hizellañ gizellañ kizellet
+70	2770	plediñ	bledas blede blediñ bledont pledas plede pledet
+71	2771	unvaniñ	unvanas unvanet
+72	2772	raok	
+73	2773	dizalc'hiezh	zizalc'hiezh
+74	2774	sindikad	sindikadoù
+75	2775	desachañ	desach desachet tesachas tesachañ zesach zesachañ zesache zesacho
+76	2776	sonaozour	
+77	2777	gitarour	c'hitarourien gitarourien
+78	2778	dezerzh	dezerzhioù
+79	2779	kontammiñ	gontammet gontammiñ kontammet
+80	2780	punk	bunk funk
+81	2781	irienn	iriennoù
+82	2782	kelaouiñ	c'helaouiñ gelaouiñ
+83	2783	kevezadeg	c'hevezadeg gevezadeg kevezadegoù
+84	2784	treuzfurmiñ	dreuzfurm dreuzfurmas dreuzfurmiñ dreuzfurmje treuzfurm treuzfurmas treuzfurmet
+85	2785	boblad	bobladoù fobladoù poblad pobladoù
+86	2786	korrig	
+87	2787	savidigezh	
+88	2788	reveulzi	
+89	2789	doubl	doubloù zoubl
+90	2790	pennadurezh	bennadurezh pennadurezhioù
+91	2791	stroll	strollioù strolloù
+92	2792	c'hwitadenn	c'hwitadennoù
+93	2793	korvoiñ	c'horvoiñ gorvoiñ korvoet
+94	2794	trevour	drevourien trevourien
+95	2795	produioù	broduioù froduioù
+96	2796	dismantr	dismantroù zismantr
+97	2797	diskrivañ	diskrivet ziskriv ziskrivas ziskrivañ ziskrive
+98	2798	tournamant	dournamant tournamantoù zournamant
+99	2799	hiniennel	
+100	2800	hogozik	
