@@ -247,7 +247,6 @@ internal val ruCommon: Map<String, String> = mapOf(
 
     // FirstRunLanguages.kt
     "Your languages" to "Ваши языки",
-    "You can change them later in Settings." to "Их можно изменить позже в настройках.",
 
     // ManageDictionariesScreen.kt, ManageDictionariesViewModel.kt
     "Preferred" to "Предпочтительные",

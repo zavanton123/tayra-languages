@@ -247,7 +247,6 @@ internal val ptCommon: Map<String, String> = mapOf(
 
     // FirstRunLanguages.kt
     "Your languages" to "Seus idiomas",
-    "You can change them later in Settings." to "Você pode alterá-los depois em Configurações.",
 
     // ManageDictionariesScreen.kt, ManageDictionariesViewModel.kt
     "Preferred" to "Preferidos",

@@ -247,7 +247,6 @@ internal val zhCommon: Map<String, String> = mapOf(
 
     // FirstRunLanguages.kt
     "Your languages" to "你的语言",
-    "You can change them later in Settings." to "你可以稍后在设置中更改。",
 
     // ManageDictionariesScreen.kt, ManageDictionariesViewModel.kt
     "Preferred" to "首选",

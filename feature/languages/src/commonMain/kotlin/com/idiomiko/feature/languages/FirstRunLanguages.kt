@@ -125,8 +125,5 @@ private fun PhoneFirstRunLanguages(
 
 @Composable
 private fun FirstRunHeading() {
-    Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
-        Text(tr("Your languages"), style = AppText.screenTitle)
-        Text(tr("You can change them later in Settings."), style = MaterialTheme.typography.bodyLarge, color = MaterialTheme.colorScheme.onSurfaceVariant)
-    }
+    Text(tr("Your languages"), style = AppText.screenTitle)
 }
