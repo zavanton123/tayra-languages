@@ -714,15 +714,30 @@ def simple_verb_forms(word):
     return frozenset(both_l(forms))
 
 
+# Forms of వేయు "throw" after a past participle, which finish the act (మార్చివేశారు, కొట్టివేసింది); texts also write them
+# contracted on the stem (మార్చేశారు, అమ్మేసింది, తీసేస్తారు).
+VEYU_TAILS = ["వేశాడు", "వేశారు", "వేసింది", "వేశాను", "వేశాయి", "వేసిన", "వేసి", "వేస్తాడు", "వేస్తారు", "వేస్తుంది", "వేస్తున్నారు",
+              "వేయడం", "వేయాలి", "వేయాలని", "వేయడానికి", "వేయండి", "వేసే", "వేశామని", "వేశారని", "వేయవచ్చు"]
+CONTRACTED_TAILS = ["ేశాడు", "ేశారు", "ేసింది", "ేశాను", "ేశాం", "ేశాయి", "ేసిన", "ేసి", "ేస్తాడు", "ేస్తారు", "ేస్తుంది", "ేస్తాను",
+                    "ేస్తున్నారు", "ేయాలి", "ేయండి", "ేసే", "ేసారు", "ేసాడు", "ేశామని", "ేశారని", "ేస్తే", "ేసినా"]
+# Irregular verbs whose citation form takes the reflexive కొను as a regular one does (తెచ్చుకున్నారు, ఇచ్చుకుంటారు).
+REFLEXIVE_IRREGULAR = {"తెచ్చు", "ఇచ్చు"}
+
+
 def verb_forms(word):
-    """A verb's forms with its compounds: the reflexive with కొను (చెప్పుకున్నారు) and పోవు after the past participle
-    (వెళ్ళిపోయాడు)."""
+    """A verb's forms with its compounds: the reflexive with కొను (చెప్పుకున్నారు, జరుపుకున్నారు), and పోవు and వేయు after
+    the past participle (వెళ్ళిపోయాడు, మార్చివేశారు, మార్చేశారు)."""
     forms = set(simple_verb_forms(word))
     stems = verb_stems(word)
+    if word in REFLEXIVE_IRREGULAR:
+        forms |= {word + t for t in KONU_TAILS}
     if stems is None:
-        return forms
+        return both_l(forms)
+    forms |= {word + t for t in KONU_TAILS}
     for stem in stems["past"]:
-        forms |= {stem + "\u0c41" + t for t in KONU_TAILS} | {stem + "\u0c3f" + t for t in POVU_TAILS}
+        forms |= {stem + "\u0c41" + t for t in KONU_TAILS} | {stem + "\u0c3f" + t for t in POVU_TAILS + VEYU_TAILS}
+        if stem[-1] in CONSONANTS:
+            forms |= {stem + t for t in CONTRACTED_TAILS}
     return both_l(forms)
 
 
