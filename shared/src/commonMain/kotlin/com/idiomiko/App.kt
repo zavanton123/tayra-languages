@@ -30,6 +30,7 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.idiomiko.bootstrap.AppBootstrapViewModel
 import com.idiomiko.bootstrap.BootstrapState
 import com.idiomiko.core.domain.settings.SettingsRepository
+import com.idiomiko.core.domain.language.LanguageCodes
 import com.idiomiko.core.domain.repository.LanguageRepository
 import com.idiomiko.core.domain.service.ChineseScriptService
 import com.idiomiko.core.domain.service.LearningLanguageService
@@ -104,6 +105,12 @@ private fun ProvideLearningLanguage(currentId: Long, onChosen: () -> Unit, conte
     val preparing by assets.preparing.collectAsStateWithLifecycle()
     LaunchedEffect(currentId, languages) {
         if (languages.isNotEmpty() && languages.none { it.id == currentId }) learning.ensure(pickUnchosen = false)
+    }
+    // Meanings in the language being learned are asked for again, however they came to match: the
+    // meanings language is synced from the account, the language being learned is this device's own.
+    LaunchedEffect(currentId, native, languages) {
+        val learned = languages.firstOrNull { it.id == currentId } ?: return@LaunchedEffect
+        if (native != null && LanguageCodes.codeFor(learned.name) == native && askLanguagesFor == null) askLanguagesFor = currentId
     }
     val state = remember(languages, currentId, native, knownWords, mine, wordCounts) {
         suspend fun choose(id: Long) {
