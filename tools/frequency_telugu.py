@@ -41,7 +41,7 @@ PLURAL_TAILS = ["", "ను", "ని", "కు", "కి", "లో", "తో", 
                 "నే", "లా", "వంటి", "కంటే", "కన్నా", "కూ", "లోనూ", "తోపాటు", "నుంచి", "నుండి", "వరకు", "దాకా", "పట్ల"]
 # An adjective as a noun or an adverb (మంచిది, పెద్దవాళ్లు, మంచిగా).
 ADJECTIVE_TAILS = ["ది", "దే", "దా", "వి", "వే", "వాడు", "వాళ్లు", "వాళ్ళు", "వారు", "వారి", "దాని", "దానికి", "దాన్ని", "గా", "గానే",
-                   "దిగా", "వాడి", "వాడికి", "దై", "వైన", "మైన"]
+                   "దిగా", "వాడి", "వాడికి", "దై", "వైన", "మైన", "ని", "టి", "నివి", "టివి"]
 # The ordinal and collective forms of a number (రెండవ, రెండో, రెండూ, రెండింటి).
 NUMBER_TAILS = ["వ", "వది", "ో", "ోది", "ింటి", "ింటికి", "ింటిని", "ింటిలో", "ింట", "ూ", "ుగురు"]
 
@@ -498,6 +498,14 @@ def lexicon(dictionaries):
         kinds[form] = {"verb"}
     # An adjective as a noun (పెద్దది, చిన్నది) is the adjective's form.
     for word in [w for w in kinds if w.endswith("ది") and "adj" in kinds.get(w[:-2], ())]:
+        kinds.pop(word)
+    # An adjective in -ని or -టి of one in -a (నల్లని, ఎర్రటి of నల్ల, ఎర్ర), and an adjective as a person (మంచివాడు, పేదవాడు),
+    # are that adjective's forms.
+    for word in [w for w in kinds if w.endswith(("ని", "టి")) and kinds[w] <= {"adj", "noun"} and w not in TELUGU_WORDS
+                 and "adj" in kinds.get(w[:-2], ()) and w[-3] in CONSONANTS]:
+        kinds.pop(word)
+    for word in [w for w in kinds if w.endswith("వాడు") and kinds[w] <= {"adj", "noun"} and w not in TELUGU_WORDS
+                 and "adj" in kinds.get(w[:-4], ())]:
         kinds.pop(word)
     # An ordinal in -వ is its number's form (రెండవ of రెండు).
     for word in [w for w in kinds if w.endswith("వ") and "num" in kinds.get(w[:-1] + "\u0c41", ())]:
