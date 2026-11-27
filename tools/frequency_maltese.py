@@ -21,6 +21,7 @@ written with an i before two consonants (istudenti of studenti, after l-) goes w
 """
 import functools
 import heapq
+import json
 import os
 import re
 import sqlite3
@@ -34,6 +35,8 @@ SEEN_IN = defaultdict(int)
 AMONG_MALTESE = defaultdict(int)
 WRITTEN = defaultdict(int)
 LOWER = defaultdict(int)
+# And how often it is written before a hyphen that is no article's (kontro-eżami, Kon-Katidral).
+HYPHENED = defaultdict(int)
 
 LETTERS = re.compile("[a-zàèìòùċġħż]+")
 VOWELS = set("aeiouàèìòù")
@@ -449,3 +452,296 @@ def induce(pos, lemmas, common, free, suffixed):
         for f in sorted(forms - {shown}):
             lemmas[f].append(shown)
         claimed |= forms | {word, shown}
+
+
+# fold: the words of the counts a listed word's form is filed under, and those dropped as names. A word is listed when it is
+# one of the first LISTED; a name is written in lowercase less than NAME_SHARE of the times no sentence starts with it, and
+# written so at least NAME_LEAST and fewer than NAME_MOST times (Qawra, Grixti, Munxar; not the months, Għid or Xlokk); a
+# compound's piece is written before a hyphen at least PIECE_SHARE of its uses (kontro-eżami, Kon-Katidral, neo-, eko-).
+LISTED = 10_000
+NAME_SHARE = 0.1
+NAME_LEAST = 20
+NAME_MOST = 400
+PIECE_SHARE = 0.5
+# A gloss naming the word a form is of: "grants (plural of għotja)", "(it) is staged ; is raised (form of ttella')", "past
+# participle of għaraf: known", "observed (fem. of mħares)"; not a verbal noun (tħaddim of ħaddem), a word of its own. Or one
+# made of a form and a pronoun: "they gave him (taw + -h)".
+NAMES_BASE = re.compile(r"(?<!verbal noun )(?<!noun )\b(?:passive|mediopassive|plural|paucal|dual|fem\.|feminine|form|participle|"
+                        r"spelling|imperfect|imperative) of ([a-zàèìòùċġħż']+)")
+LEMMA_FIRST = re.compile(r"^\(([a-zàèìòùċġħż']+)\) ")
+JOINED_BASE = re.compile(r"\(([a-zàèìòùċġħż']+) \+ -[a-zàèìòùċġħż']+\)")
+# A gloss marking an adjective's feminine or plural (solved (fem.), academic (pl.)), and one reading as a passive.
+MARKED = re.compile(r"\((?:[^()]*\b)?(?:fem|pl)\.\)|\bfem\.|\bfeminine\b|\bplural\b")
+PASSIVE = re.compile(r"\b(?:be|is|are|was|were|been|being|passive|mediopassive)\b")
+# A gloss reading as a participle (financed, given, paid, entering), and a loanword's participle (ffinanzjat, solvut, oppost,
+# elett, diviż).
+PARTICIPLE = re.compile(r"\b[a-z]+(?:ed|en|ing)\b|\b(?:made|done|built|paid|sold|set|put|held|kept|lost|sent|spent|bought|brought|"
+                        r"taught|caught|found|left|met|told|known|shown|seen|given|taken|written|chosen|born|cut|hit|led|fed|"
+                        r"read|run|won|worn|torn|sworn|struck|stuck|hung|dug|shut|split|spread|burnt|felt|heard|meant)\b")
+LOAN_PARTICIPLE = re.compile(".{3,}(?:at|ut|it|st|ss|tt|ż)")
+# The ends of a feminine or plural (eterna, siewja, xellugija, etniċi, mħallsin), and of a verb's persons (nħarġet, nħarġu).
+ADJECTIVE_ENDS = ("ija", "ja", "a", "i", "in", "jin")
+PERSON_ENDS = ("et", "u", "ew", "aw", "x")
+# The other spellings a word is in, by letter: a vowel for another (konflitt, kunflitt; personaġġ, persunaġġ), s for ż
+# (leġislazzjoni, leġiżlazzjoni).
+SWAPS = {"o": "u", "u": "o", "e": "i", "i": "e", "s": "ż", "ż": "s", "z": "ż"}
+
+
+def consonant(letter):
+    return letter not in VOWELS and letter != "'"
+
+
+def unprothetic_i(word):
+    """[word], and without the i texts write before two consonants (inqabad, nqabad)."""
+    two = len(word) > 3 and word[0] == "i" and consonant(word[1]) and consonant(word[2])
+    return [word, word[1:]] if two else [word]
+
+
+def revoweled(stem):
+    """A stem whose last vowel a feminine, plural or person dropped (mħallsa, nħarġu), with each vowel put back (mħallas,
+    nħareġ, nħoloq); għ is one consonant."""
+    end = 2 if stem.endswith("għ") else 1
+    head = stem[:-end]
+    if len(stem) < 3 or not consonant(stem[-1]) or not head or not consonant(head[-1]):
+        return []
+    return [head + vowel + stem[-end:] for vowel in "aeio"]
+
+
+def participle_verbs(word):
+    """
+    The verbs a participle may be of: a loanword's in -at, -ut, -it, its verb in -a or -ixxa with the doubled first consonant
+    and the i the verbs are written with (ffinanzjat: ffinanzja; preparat: ipprepara; rappurtat: rrapporta; solvut: solva;
+    projbit: pprojbixxa); and an m- participle's (mħallas: ħallas; mniżżel: niżżel).
+    """
+    out = []
+    bare = unprothetic_i(word)[-1]
+    loan = re.fullmatch(r"(.{3,}?)(?:at|ut|it)", bare)
+    if loan:
+        stem = loan.group(1)
+        last = stem.rfind("u")
+        for s in [stem] + ([stem[:last] + "o" + stem[last + 1:]] if last > 0 else []):
+            for verb in (s + "a", s + "ixxa"):
+                out += [verb, s[0] + verb, "i" + s[0] + verb, "i" + verb]
+    if bare.startswith("m") and len(bare) >= 5 and consonant(bare[1]):
+        out.append(bare[1:])
+    return out
+
+
+def masculines(word):
+    """The masculines and singulars a feminine or plural adjective may be of (eterna: etern; komda: komdu; siewja: siewi;
+    etniċi: etniku; mħallsa: mħallas)."""
+    out = []
+    for end in ADJECTIVE_ENDS:
+        if word.endswith(end) and len(word) - len(end) >= 3:
+            stem = word[:-len(end)]
+            out += [stem, stem + "u", stem + "i"] + revoweled(stem)
+    if word.endswith(("ċi", "ka")):
+        out.append(word[:-2] + "ku")
+    return out
+
+
+def perfects(word):
+    """
+    The perfects a verb form may be of: its imperfect's without the person (jitwaqqaf: twaqqaf; tlaħħaq: laħħaq; jinħarġu:
+    nħarġu), its person's without the ending, the dropped vowel put back (nħarġet, nħarġu: nħareġ; ttellgħet: ttella'), each
+    with and without the i before two consonants (inqabad).
+    """
+    out = unprothetic_i(word)
+    for form in list(out):
+        if form[:1] in "jtn" and len(form) > 4:
+            if form[1] == "i" and consonant(form[2]) and consonant(form[3]):
+                out.append(form[2:])
+            elif consonant(form[1]):
+                out.append(form[1:])
+    for form in list(out):
+        for end in PERSON_ENDS:
+            if form.endswith(end) and len(form) - len(end) >= 3:
+                stem = form[:-len(end)]
+                out += [stem] + revoweled(stem) + ([stem[:-2] + "a'"] if stem.endswith("għ") else [])
+    return list(dict.fromkeys(out))
+
+
+def actives(perfect):
+    """The actives a passive may be of: nkiser of kiser, ntalab of talab, ntlagħab of lagħab, ntesa of nesa, nstema' of sema',
+    twaqqaf of waqqaf, ssaħħaħ of saħħaħ."""
+    out = []
+    if perfect.startswith("nt") and len(perfect) > 4:
+        out.append(perfect[2:])
+    if perfect.startswith("n") and len(perfect) > 3:
+        out.append(perfect[1:])
+        if len(perfect) > 4 and perfect[2] == "t":
+            out.append(perfect[1] + perfect[3:])
+    if len(perfect) > 3 and perfect[1] == "t" and consonant(perfect[0]):
+        out.append(perfect[0] + perfect[2:])
+    if len(perfect) > 4 and consonant(perfect[1]) and (perfect[0] == "t" or perfect[0] == perfect[1]):
+        out.append(perfect[1:])
+    return out
+
+
+def unsuffixed(word):
+    """What a verb form with a pronoun written onto it is without it (tawh: taw; narawh: naraw; staqsieh: staqsa)."""
+    out = []
+    for suffix in SUFFIXES + ["x"]:
+        stem = word[:-len(suffix)]
+        if word.endswith(suffix) and len(stem) >= 2:
+            out += [stem] + ([stem[:-2] + "a"] if stem.endswith("ie") else [])
+    return out
+
+
+def spellings(word):
+    """The other spellings of [word]: a consonant doubled or not (dettal, dettall), a letter for another (SWAPS), a verb's
+    first consonant doubled, with or without its i (ittrasferixxa, ttrasferixxa, trasferixxa)."""
+    out = {word[2:]} if len(word) > 4 and word[0] == "i" and word[1] == word[2] and consonant(word[1]) else set()
+    out |= {word[1:]} if len(word) > 3 and word[0] == word[1] and consonant(word[0]) else set()
+    out |= {word[0] + word, "i" + word[0] + word} if consonant(word[0]) and word[0] != word[1:2] else set()
+    for i in range(1, len(word)):
+        letter = word[i]
+        if consonant(letter):
+            out.add(word[:i] + word[i + 1:] if letter == word[i - 1] else word[:i] + letter + word[i:])
+        if letter in SWAPS:
+            out.add(word[:i] + SWAPS[letter] + word[i + 1:])
+    return out - {word}
+
+
+def fold(scores, forms, pos, pack, supplement):
+    """
+    Moves each word of the counts that is a listed word's form into that word, with its forms: a participle (ffinanzjata,
+    mħallsa: ffinanzja, ħallas), a feminine or plural (eterna: etern), a verb's person (jqajjem: qajjem; nħarġet: nħareġ), a
+    passive whose active is listed (ntalab: talab; jitħallas: ħallas), one with a pronoun (tawh: ta), a plural or form its gloss
+    names (kisbiet: kisba), another spelling glossed alike (dettal: dettall). Drops names (Qawra) and a compound's first
+    pieces (kontro, kon); the [pack] glosses (its hand-written ones, [supplement], name the word anywhere). Returns what
+    went where (None: dropped).
+    """
+    ranked = sorted(scores, key=lambda w: (-scores[w], w))
+    listed = set(ranked[:LISTED])
+    owner = {}
+    for word in ranked[:LISTED]:
+        for form, share in forms.get(word, {}).items():
+            if form != word and (form not in owner or share > forms[owner[form]][form]):
+                owner[form] = word
+    glosses, firsts = defaultdict(list), defaultdict(list)
+    db = sqlite3.connect(pack)
+    for word, senses in db.execute("SELECT word_lc, senses FROM entries WHERE pos != 'name' ORDER BY id"):
+        current = [g for s in json.loads(senses) if not {"obsolete", "archaic"} & set(s.get("tags", [])) for g in s.get("glosses", [])]
+        glosses[word] += current
+        firsts[word] += current[:1]
+    db.close()
+    written = {}
+    for line in open(supplement, encoding="utf-8"):
+        word, _, rest = line.rstrip("\n").partition("\t")
+        written[word] = rest.partition("\t")[2]
+
+    def kinds(word):
+        return pos.get(word, set()) - {"name"}
+
+    def listed_as(base):
+        """The listed word [base] is, or is listed under."""
+        return base if base in listed else owner.get(base)
+
+    def fits(word, to):
+        """Whether [word] may be [to]'s form by their kinds: a noun of a noun or adjective, a verb of a verb, an adjective of
+        an adjective or a verb (a participle)."""
+        k, of = kinds(word), kinds(to)
+        return not k or not of or bool(k & of) or "adj" in k and "verb" in of
+
+    def named(word):
+        """The listed word a gloss names [word] a form of: a hand-written one anywhere (jqajjem: "raises (an issue) ; stirs up
+        (form of qajjem)"), Wiktionary's in the first sense of each entry (not qattus "cat", whose second sense is a
+        "euphemistic form of qaddis")."""
+        if word in written:
+            bases = [b for p in re.findall(r"\(([^()]*)\)", written[word]) for b in NAMES_BASE.findall(p) + JOINED_BASE.findall(f"({p})")]
+            # Or one starting with the word it is a spelling or form of, of its consonants (kabbra "(kabbar) to enlarge"; not
+            # grawnd "(sport) ground").
+            bases += [b for b in LEMMA_FIRST.findall(written[word]) if {c for c in b if consonant(c)} <= set(word)]
+        else:
+            found = [NAMES_BASE.findall(g.partition(":")[0]) for g in firsts.get(word, [])]
+            bases = [b[0] for b in found] if found and all(found) else []
+        for base in bases:
+            to = listed_as(base) or listed_as(base.rstrip("'")) or base.endswith("a'") and listed_as(base[:-2] + "għa")
+            if to and to != word and fits(word, to):
+                return to
+        return None
+
+    def verb(word):
+        return "verb" in kinds(word)
+
+    def dictionary_form(word):
+        """Whether the pack glosses a verb as a dictionary form (to install), not an inflected one ((they) are issued)."""
+        return any(g.startswith("to ") for g in glosses.get(word, ()))
+
+    def first(candidates, word, test):
+        for base in candidates:
+            to = listed_as(base)
+            if to and to != word and test(to, base):
+                return to
+        return None
+
+    def target(word):
+        k = kinds(word)
+        found = named(word)
+        if found:
+            return found
+        if "adj" in k and ("noun" not in k or any(MARKED.search(g) for g in glosses.get(word, ()))):
+            # A verb's participle is glossed as one (financed, paid): not immedjat "immediate" (of immedja "to mediate"), nor
+            # favorit "favourite".
+            participial = not glosses.get(word) or any(PARTICIPLE.search(g) for g in glosses[word])
+            marked = any(MARKED.search(g) for g in glosses.get(word, ()))
+            found = participial and first(participle_verbs(word), word, lambda to, base: verb(to)) or first(
+                masculines(word), word, lambda to, base: "adj" in kinds(to) or marked and base == to or participial and (
+                    base != to and verb(to) and bool(LOAN_PARTICIPLE.fullmatch(base) or base.startswith(("m", "im")))))
+            for base in masculines(word) if participial and not found else ():
+                found = first(participle_verbs(base), word, lambda to, b: verb(to))
+                if found:
+                    break
+            if found:
+                return found
+        if k <= {"verb"}:
+            whole = dictionary_form(word)
+            found = first([] if whole else perfects(word)[1:], word, lambda to, base: verb(to))
+            if not found and (not glosses.get(word) or any(PASSIVE.search(g) for g in glosses[word])):
+                for perfect in unprothetic_i(word) if whole else perfects(word):
+                    found = first(actives(perfect), word, lambda to, base: verb(to))
+                    if found:
+                        break
+            if not found and not whole:
+                found = first(unsuffixed(word), word, lambda to, base: verb(to))
+            if found:
+                return found
+        alike = {re.sub(r"\([^)]*\)", "", g).strip().lower() for g in glosses.get(word, ())} - {""}
+        return first(sorted(spellings(word)), word, lambda to, base: k & kinds(to) and scores[to] > scores[word] and alike & {
+            re.sub(r"\([^)]*\)", "", g).strip().lower() for g in glosses.get(to, ())})
+
+    moves = {}
+    for word in ranked:
+        if not LETTERS.fullmatch(word.rstrip("'")):
+            continue
+        found = target(word)
+        if found:
+            moves[word] = found
+        elif SEEN_IN.get(word) and HYPHENED.get(word, 0) >= PIECE_SHARE * SEEN_IN[word]:
+            moves[word] = None
+        elif NAME_LEAST <= WRITTEN.get(word, 0) < NAME_MOST and LOWER.get(word, 0) < NAME_SHARE * WRITTEN[word]:
+            moves[word] = None
+
+    def final(word):
+        """Where [word] goes, following words that go elsewhere themselves (jinħarġu, nħarġu, nħareġ); itself where that
+        is a name or piece dropped, or comes back round."""
+        seen = [word]
+        while moves.get(seen[-1]) and seen[-1] not in seen[:-1]:
+            seen.append(moves[seen[-1]])
+        end = seen[-1]
+        return word if end in seen[:-1] or end in moves else end
+
+    for word in ranked:
+        if word not in moves:
+            continue
+        to = final(word) if moves[word] else None
+        if to == word:
+            continue
+        share, its = scores.pop(word), forms.pop(word, {})
+        if to is None:
+            continue
+        scores[to] += share
+        for form, part in its.items():
+            forms.setdefault(to, {})[form] = forms.get(to, {}).get(form, 0) + part
+    return moves

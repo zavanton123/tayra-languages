@@ -3605,6 +3605,12 @@ def maltese_counts(language, limit, source="leipzig"):
             pieces = maltese_pieces(match.group(0), known)
             if pieces and sentence[match.end():match.end() + 1] == "-" and pieces[-1] + "-" in MALTESE_JOINED:
                 pieces[-1] += "-"
+            elif pieces and sentence[match.end():match.end() + 1] == "-":
+                # A word written before a hyphen and another word is a compound's first piece (kontro-eżami, Kon-Katidral);
+                # not a number before its article (ħdax-il sena), nor this one assimilated (daż-żmien).
+                after = MALTESE_WORD.match(sentence, match.end() + 1)
+                if after and after.group(0).lower() != "il" and after.group(0)[:1].lower() != pieces[-1][-1:]:
+                    frequency_maltese.HYPHENED[pieces[-1]] += 1
             for piece in pieces:
                 counts[piece] += 1
             if pieces:
@@ -7742,6 +7748,11 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
         # A Pashto word's count is only its uses as that word: not as a piece, beside a name or joined (frequency_pashto.fold).
         frequency_pashto.fold(scores, forms, set(pos) | {f for f, of in lemmas.items() if of},
                               os.path.join(DICTIONARIES, "ps-en.sqlite"))
+    if language == "mt":
+        # A Maltese word of the counts that is a listed word's participle, verb form, passive, plural or other spelling is that
+        # word's; names and compounds' first pieces are no words (frequency_maltese.fold).
+        frequency_maltese.fold(scores, forms, pos, os.path.join(DICTIONARIES, "mt-en.sqlite"),
+                               os.path.join(ROOT, "tools", "glosses", "mt-en.tsv"))
     ranked = sorted(scores, key=lambda w: -scores[w])[:size]
     listed, listed_as = set(ranked), set()
     if language == "fa":
