@@ -621,6 +621,7 @@ def load(db, pos, lemmas, common, lexicon_path):
             continue
         have = lemmas.get(form, [])
         lemmas[form] = have + sorted(of - set(have))
+    _LOADED.update(pos=pos, lemmas=lemmas, common=common)
 
 
 def uzbek_base(word, ranks, cache={}):
@@ -650,3 +651,195 @@ def uzbek_base(word, ranks, cache={}):
 EXCLUDE = set("km kg sm mm mln mlrd ni uz".split())
 # The letter oʻ (its name, to the pack), a piece of -dagi, and the misspellings halq (xalq) and etkazmoq (yetkazmoq).
 EXCLUDE |= {"oʻ", "dag", "halq", "etkazmoq"}
+
+
+# The core paradigms: the regular forms every word of the list is listed with, whether the counts have them or not (oʻrnagimda,
+# koʻrasizlar, kechiktirmaganingiz). The counts have only the commoner forms of most words, and courses use the others as often.
+# A noun's possessives and their cases, the plural's, its predicative endings; a verb's tenses with their persons, positive and
+# negative, its participles in -gan, -ayotgan and -adigan, its verbal noun in -ish with possessives and cases, its conditional,
+# imperatives and converbs, and the -ish- of a plural subject (sochishdi). Passive, reflexive and causative verbs are verbs of
+# their own, and get no forms here.
+
+# The third person of a noun whose vowel drops and takes -si besides (singil, singlim, singlisi).
+THIRD = {"singil": "singlisi"}
+
+
+def vowel_stem(word, seen):
+    """
+    The stem a vowel ending joins (vowel_stems), as the counts write it most (yuragi, oʻgʻli, but ittifoqi, banki); with no
+    counts, a dropped vowel where a noun drops it, else a last k or q voiced.
+    """
+    stems = vowel_stems(word)
+    if len(stems) == 1:
+        return word
+    preferred = stems[-1]
+
+    def mass(stem):
+        return sum(seen.get(stem + e, 0) for e in ("i", "im", "ing", "imiz", "ingiz", "ini", "iga", "ida", "idan", "ining"))
+    return max(stems, key=lambda stem: (mass(stem), stem == preferred))
+
+
+def core_noun(word, seen):
+    """A noun's core forms, by slot (pl.1.loc: kitoblarimda)."""
+    v = vowel_stem(word, seen)
+    if ends_in_vowel(word):
+        own = [word + e for e in ("m", "ng", "si", "miz", "ngiz")]
+    else:
+        own = [v + e for e in ("im", "ing", "i", "imiz", "ingiz")]
+        if word.endswith("iy"):
+            own[2] = word + "si"
+        own[2] = THIRD.get(word, own[2])
+    plural = word + "lar"
+    bases = {"": word, "pl": plural, **dict(zip(PERSONS, own))}
+    bases.update({"pl." + p: plural + e for p, e in zip(PERSONS, ("im", "ing", "i", "imiz", "ingiz"))})
+    out = {}
+    for label, base in bases.items():
+        for case, ending in NOUN_CASES:
+            out[f"{label}.{case}"] = dative(base, ending) if ending == "ga" else base + ending
+    for label in ("", "pl", "3", "pl.3"):
+        out[label + ".dagi"] = bases[label] + "dagi"
+    for label in ("", "pl"):
+        for e in ("man", "san", "miz", "siz", "dir", "mi"):
+            out[f"{label}.{e}"] = bases[label] + e
+    out.update({"3.mi": own[2] + "mi", "pl.3.mi": plural + "imi", ".dek": word + "dek"})
+    return out
+
+
+PERSONS = ("1", "2", "3", "1pl", "2pl")
+NOUN_CASES = (("nom", ""), ("gen", "ning"), ("acc", "ni"), ("dat", "ga"), ("loc", "da"), ("abl", "dan"))
+
+
+def core_adjective(word, seen):
+    """An adjective's or number's core forms, by slot."""
+    third = word + "si" if ends_in_vowel(word) or word.endswith("iy") else vowel_stem(word, seen) + "i"
+    out = {"." + e: word + e for e in ("lar", "roq", "man", "san", "miz", "siz", "dir", "mi")}
+    for label, base in (("", word), ("pl", word + "lar"), ("3", third)):
+        for case, ending in NOUN_CASES:
+            out[f"{label}.{case}"] = dative(base, ending) if ending == "ga" else base + ending
+    return out
+
+
+def core_verb(verb):
+    """A verb's core forms, by slot (neg.past.2pl: kechiktirmadingiz)."""
+    s = verb[:-3]
+    vowel = ends_in_vowel(s)
+    out = {}
+
+    def put(label, endings, stem):
+        for e in endings:
+            out[f"{label}{e}"] = stem + e
+    for negative in (False, True):
+        n = "neg." if negative else ""
+        t = s + "ma" if negative else s
+        tv = negative or vowel
+        present = t + ("y" if tv else "a")
+        put(n + "pres:", ("man", "san", "di", "miz", "siz", "dilar", "sizlar", "manmi", "sanmi", "dimi", "mizmi", "sizmi"), present)
+        put(n + "past:", ("m", "ng", "", "k", "ngiz", "lar", "ngizlar", "mmi", "ngmi", "mi", "kmi", "ngizmi"), t + "di")
+        aorist = t + "s" if negative else t + ("r" if vowel else "ar")
+        put(n + "aor:", ("", "man", "san", "miz", "siz", "lar", "mi", "kan", "di", "dim", "ding", "dik", "dingiz", "dilar"), aorist)
+        put(n + "prog:", ("man", "san", "ti", "miz", "siz", "tilar", "sizlar", "timi", "sizmi", "sanmi"), t + "yap")
+        past = dative(t, "gan")
+        put(n + "gan:", ("", "man", "san", "miz", "siz", "lar", "mi", "dir", "da", "dan", "ga", "ni", "ning", "dek"), past)
+        for own in ("i", "im", "ing", "imiz", "ingiz", "lari"):
+            put(f"{n}gan.{own}:", ("", "ni", "ga", "da", "dan", "ning"), past + own)
+        put(n + "cond:", ("m", "ng", "", "k", "ngiz", "lar"), t + "sa")
+        put(n + "conv:", ("", "di", "man", "san", "miz", "siz", "dilar", "mi"), t + ("b" if tv else "ib"))
+        put(n + "ayotgan:", ("", "da", "i", "ini", "ida", "idan", "iga", "im", "imni", "imda", "ing", "ingiz", "ingizni", "imiz",
+                             "imizni", "lar", "lari", "larni"), present + "yotgan" if not tv else t + "yotgan")
+        put(n + "adigan:", ("", "lar", "i", "ini", "ga", "da", "lari", "larni"), present + "digan")
+        polite = t + ("ng" if tv else "ing")
+        out.update({n + "imp": t, n + "imp:2": polite, n + "imp:2pl": polite + "lar", n + "imp:2iz": polite + "iz",
+                    n + "imp:3": t + "sin", n + "imp:3pl": t + "sinlar", n + "imp:gin": dative(t, "gin"),
+                    n + "guncha": dative(t, "guncha"), n + "gach": dative(t, "gach"), n + "imp:1": present + ("" if tv else "y"),
+                    n + "imp:1pl": present + ("lik" if tv else "ylik"), n + "imp:1in": present + ("in" if tv else "yin")})
+    put("moqda:", ("", "man", "san", "miz", "siz", "lar", "dir", "mi"), s + "moqda")
+    put("moqchi:", ("", "man", "san", "miz", "siz", "lar", "mi", "ydi", "ydim"), s + "moqchi")
+    put("mas:", ("dan", "lik", "likni", "likka", "likdan", "ligi", "ligini"), s + "mas")
+    noun = s + ("sh" if vowel else "ish")
+    for own in ("", "i", "im", "ing", "imiz", "ingiz", "lari"):
+        put(f"ish.{own}:", ("", "ni", "ga", "da", "dan", "ning"), noun + own)
+    # The -ish- of a plural subject (sochishdi "they scattered", tozalashadi).
+    put("ish-:", ("di", "adi", "gan", "yapti", "moqda", "sin", "sa", "ib", "ardi", "madi", "maydi", "magan"), noun)
+    return {label: form for label, form in out.items() if form != verb}
+
+
+# The slots left out, the rarest in texts as in stories, to keep the list small: a noun's plural with a possessive other than the
+# third's in a case but the accusative (kitoblarimda, not kitoblarimni), and its plural with a predicative ending (kitoblarman);
+# a verb's participles and verbal noun with a possessive other than the third's in the rarer cases (yozganimdan, yozishingga),
+# its negated questions but for -dimi and -madimi, its negated participles in the rarer cases (yozmaganingdan), and its
+# negated converb but for -mabdi.
+LEFT_OUT = {f"pl.{p}.{c}" for p in ("1", "2", "1pl", "2pl") for c in ("gen", "dat", "loc", "abl")}
+LEFT_OUT |= {"pl." + e for e in ("man", "san", "miz", "siz", "mi")}
+LEFT_OUT |= {f"ish.{p}:{c}" for p in ("im", "ing", "imiz", "ingiz", "lari") for c in ("da", "dan", "ga", "ning")} | {"ish.i:ning"}
+LEFT_OUT |= {f"gan.{p}:{c}" for p in ("im", "ing", "imiz", "ingiz", "lari") for c in ("dan", "ning")}
+LEFT_OUT |= {"adigan:" + e for e in ("ga", "da", "lari", "larni")}
+LEFT_OUT |= {"ayotgan:" + e for e in ("idan", "imiz", "imizni", "ing", "lari", "larni")}
+LEFT_OUT |= {"neg.pres:" + e for e in ("manmi", "sanmi", "mizmi", "sizmi")}
+LEFT_OUT |= {"neg.past:" + e for e in ("mmi", "ngmi", "kmi", "ngizmi")}
+LEFT_OUT |= {"neg.aor:mi", "neg.aor:kan"} | {"neg.prog:" + e for e in ("timi", "sizmi", "sanmi")}
+LEFT_OUT |= {"neg.gan:" + e for e in ("ning", "dek", "dan", "ga")}
+LEFT_OUT |= {f"neg.gan.{p}:{c}" for p in ("i", "im", "ing", "imiz", "ingiz", "lari") for c in ("dan", "ning")}
+LEFT_OUT |= {"neg.ayotgan:" + e for e in ("da", "ida", "idan", "iga", "im", "imni", "imda", "ing", "ingiz", "ingizni", "imiz",
+                                          "imizni", "lari", "larni")}
+LEFT_OUT |= {"neg.adigan:" + e for e in ("ga", "da", "lari", "larni")}
+LEFT_OUT |= {"neg.conv:" + e for e in ("", "man", "san", "miz", "siz", "dilar", "mi")}
+
+
+def core_forms(word, kinds, seen):
+    """The forms [word] of [kinds] is listed with, whether the counts have them or not."""
+    if word in PRONOUNS:
+        return set(PRONOUNS[word].split())
+    out = set()
+    if "verb" in kinds and word.endswith("moq") and len(word) >= 5:
+        out.update(f for slot, f in core_verb(word).items() if slot not in LEFT_OUT)
+    if "noun" in kinds and not kinds & {"conj", "particle"} or word in NOMINAL_ALSO:
+        out.update(f for slot, f in core_noun(word, seen).items() if slot not in LEFT_OUT)
+    elif kinds & {"adj", "num"} and not kinds & {"conj", "prep", "particle"}:
+        out.update(core_adjective(word, seen).values())
+    if "num" in kinds and word != "bir":
+        out.update(word + "ta" + e for e in ("", "si", "dan", "ni", "ga", "sini", "siga", "sidan", "sida"))
+    out.discard(word)
+    return out
+
+
+# What load leaves for with_paradigms: the words' kinds, the words each form is the pack's or the rules' form of, the words.
+_LOADED = {}
+# The core forms with_paradigms left out, by why: another word of the list has it (listed), another word of the pack or the
+# rules does (other), or more than one word of the list makes it (shared).
+COLLISIONS = {"listed": {}, "other": {}, "shared": {}}
+# The core forms with_paradigms added, by word.
+CORE_ADDED = {}
+
+
+def with_paradigms(lines):
+    """[lines] of the list, each word with the core forms (core_forms) no other word of the list or of the pack has."""
+    pos, lemmas, common = _LOADED["pos"], _LOADED["lemmas"], _LOADED["common"]
+    seen = SEEN if isinstance(SEEN, dict) else {}
+    rows = [line.split("\t") for line in lines if not line.startswith("#")]
+    listed = {r[0] for r in rows} | {f for r in rows for f in r[1].split()}
+    core, makers = {}, {}
+    for word, _ in rows:
+        core[word] = sorted(core_forms(word, pos.get(word, set()), seen))
+        for form in core[word]:
+            makers.setdefault(form, []).append(word)
+    out = []
+    for line in lines:
+        if line.startswith("#"):
+            out.append(line)
+            continue
+        word, forms = line.split("\t")
+        added = []
+        for form in core[word]:
+            others = [l for l in lemmas.get(form, ()) if l != word and l in common]
+            if form in listed:
+                if form not in forms.split() and form != word:
+                    COLLISIONS["listed"].setdefault(word, []).append(form)
+            elif others or form in common and pos.get(form, set()) & _OWN_KINDS:
+                COLLISIONS["other"].setdefault(word, []).append(form)
+            elif len(makers[form]) > 1:
+                COLLISIONS["shared"].setdefault(word, []).append(form)
+            else:
+                added.append(form)
+        CORE_ADDED[word] = added
+        out.append(word + "\t" + " ".join(forms.split() + added))
+    return out
