@@ -81,7 +81,7 @@ INFINITIVE_TAILS = ["ಲು", "ಲಿ", "ಲಿಕ್ಕೆ", "ಲೇ", "ೋಣ"
                     "ದು"]
 PAST_TAILS = ["", "ೆ", "ೆನು", "ನು", "ಳು", "ರು", "ೆವು", "ಿರಿ", "ವು", "ಾಗ", "ರೆ", "ರೂ", "ವರು", "ವರ", "ವರನ್ನು", "ವರಿಗೆ", "ವನು", "ವಳು",
               "ುದು", "ಂತೆ", "ುದರಿಂದ", "ರೆಂದು", "ನೆಂದು", "ಳೆಂದು", "ವು", "ಾಗಲೂ", "ರಾದರೂ", "ಾಯಿತು", "ನಂತರ", "ಷ್ಟು", "ರೇ", "ನೇ",
-              "ಳೇ", "ವನ್ನು", "ಾಗಿನಿಂದ", "ುದನ್ನು",
+              "ಳೇ", "ವನ್ನು", "ಾಗಿನಿಂದ", "ುದನ್ನು", "ಂತಹ", "ಂಥ",
               # The verbal noun "that (it) came" (ಬಂದದ್ದು, ಬಂದದ್ದನ್ನು).
               "ದ್ದು", "ದ್ದನ್ನು", "ದ್ದರಿಂದ", "ದ್ದಕ್ಕೆ", "ದ್ದರ", "ದ್ದೇ", "ದ್ದೂ", "ದ್ದಾಗಿದೆ", "ದ್ದರಲ್ಲಿ"]
 # Endings a noun's stem takes that are no case fragment the corpus writes apart (CASE_FRAGMENTS): "up to" (ಶತಮಾನದವರೆಗೆ,
@@ -138,7 +138,10 @@ IRREGULAR = {
 VERB_EXTRA = {
     "ಇರು": ["ಇದ್ದೇನೆ", "ಇದ್ದೀಯ", "ಇದ್ದೀಯಾ", "ಇದ್ದಾನೆ", "ಇದ್ದಾಳೆ", "ಇದೆ", "ಇದ್ದೇವೆ", "ಇದ್ದೀರಿ", "ಇದ್ದೀರಾ", "ಇದ್ದಾರೆ", "ಇವೆ", "ಇದೆಯೇ",
             "ಇದೆಯಾ", "ಇದ್ದಾರೆಯೇ", "ಇದ್ದರೆ", "ಇದ್ದರೂ", "ಇದ್ದರಿಂದ", "ಇದ್ದಾಗ", "ಇದ್ದವರು", "ಇದ್ದುದು", "ಇದ್ದದ್ದು", "ಇದೆಂದು", "ಇದ್ದಾರೆಂದು",
-            "ಇವೆಯೇ", "ಇದ್ದೆ", "ಇದ್ದೆವು", "ಇದ್ದಳು", "ಇದ್ದನು", "ಇದ್ದರು", "ಇದ್ದವು", "ಇದ್ದಿರಿ", "ಇದ್ದೂ", "ಇದ್ದೇ"],
+            "ಇವೆಯೇ", "ಇದ್ದೆ", "ಇದ್ದೆವು", "ಇದ್ದಳು", "ಇದ್ದನು", "ಇದ್ದರು", "ಇದ್ದವು", "ಇದ್ದಿರಿ", "ಇದ್ದೂ", "ಇದ್ದೇ",
+            # The habitual past "used to be" (ಇರುತ್ತಿದ್ದರು; ಹೊಂದಿರುತ್ತಿದ್ದರು "used to have").
+            "ಇರುತ್ತಿದ್ದ", "ಇರುತ್ತಿದ್ದರು", "ಇರುತ್ತಿದ್ದನು", "ಇರುತ್ತಿದ್ದಳು", "ಇರುತ್ತಿತ್ತು", "ಇರುತ್ತಿದ್ದವು", "ಇರುತ್ತಿದ್ದೆ",
+            "ಇರುತ್ತಿದ್ದೆವು"],
     "ಬರು": ["ಬಾ", "ಬನ್ನಿ", "ಬಾರೋ", "ಬಾರೇ", "ಬಾರದು", "ಬಾರದ"],
     "ಕೊಳ್ಳು": ["ಕೊ", "ಕೊಳ್ಳಿ"],
     "ತರು": ["ತಾ", "ತನ್ನಿ"],
@@ -557,6 +560,7 @@ def lexicon(dictionaries):
     names = set()
     glosses = defaultdict(list)
     meanings = defaultdict(set)
+    infinitives = {}
     for pack in ("kn-en", "kn-ru"):
         path = os.path.join(dictionaries, f"{pack}.sqlite")
         if not os.path.exists(path):
@@ -572,6 +576,13 @@ def lexicon(dictionaries):
             # The Russian pack names a verb by its infinitive (ಮಾಡಲು): the word is the verb (ಮಾಡು, ಕುಡಿ of ಕುಡಿಯಲು).
             if pack == "kn-ru" and pos == "verb" and word.endswith("ಲು") and len(word) > 3 and "verb" not in kinds[word]:
                 word = word[:-3] if word[-3] == "ಯ" and word[-4] in "ಿೆ" else word[:-2] + "ು"
+            # So does the English one now and then (ಕಳೆಯಲು "to spend"), when the stem before -ಲು is a verb's whose bare form
+            # is a word of the packs too (ಕಳೆ "weed"; ಬಳಲು "to tire" is a verb in -ಲು).
+            elif pack == "kn-en" and pos == "verb" and word.endswith("ಲು") and len(word) > 3 and word[-3] in CONSONANTS:
+                verb = word[:-3] if word[-3] == "ಯ" and word[-4] in "ಿೆ" else word[:-2] + "ು"
+                stems = verb_stems(verb)
+                if stems and stems[1] + "ಲು" == word:
+                    infinitives[word] = verb
             if pack == "kn-en" and GLOSS_WORD.fullmatch(word):
                 meanings[word] |= {m for g in (g for s in senses for g in s.get("glosses", []))
                                    for part in re.split(r"[,;/]", re.sub(r"\([^)]*\)", "", g))
@@ -583,6 +594,11 @@ def lexicon(dictionaries):
                     glosses[word].append("")
             elif pos == "name" and GLOSS_WORD.fullmatch(word):
                 glosses[word].extend(g for s in senses for g in s.get("glosses", []))
+    for word, verb in sorted(infinitives.items()):
+        if kinds[word] == {"verb"} and (verb in kinds or verb in KANNADA_WORDS):
+            kinds[verb].add("verb")
+            meanings[verb] |= meanings.pop(word, set())
+            del kinds[word]
     packed = set(kinds) | set(KANNADA_WORDS)
     # The gloss packs' names of places and people, by their English name: "word" for a country's, "name" for any other's.
     places = {}
@@ -678,6 +694,15 @@ def verb_stems(word):
     if helper:
         lead = word[:-len(helper)]
         return tuple(lead + x if isinstance(x, str) else [lead + y for y in x] for x in verb_stems(helper))
+    # One beginning with a vowel takes the vowel's sign after a stem of two syllables or more (ಒಳಗಾಗು: ಒಳಗಾದ, ಒಳಗಾಯಿತು;
+    # ಅಸ್ತಿತ್ವದಲ್ಲಿರು: ಅಸ್ತಿತ್ವದಲ್ಲಿದ್ದ; ಹಿಡಿದಿಡು: ಹಿಡಿದಿಟ್ಟ), not after one (ಬಾಗು, ಸಾಗು are verbs of their own).
+    for helper in sorted(IRREGULAR):
+        sign = INDEPENDENT_VOWELS.get(helper[0])
+        if sign and word.endswith(sign + helper[1:]):
+            lead = word[:-len(sign + helper[1:])]
+            if lead and lead[-1] in CONSONANTS and aksharas(lead) >= 2:
+                return tuple(lead + sign + x[1:] if isinstance(x, str) else [lead + sign + y[1:] for y in x]
+                             for x in verb_stems(helper))
     if word in IRREGULAR:
         gerund, past, neuter, perfect = IRREGULAR[word]
         if word.endswith("ು"):
@@ -789,8 +814,19 @@ CASED_ENDINGS = ("ಗಳು", "ಗಳನ್ನು", "ಗಳ", "ಗಳಲ್ಲ�
 SURE_CASES = ("ಗಳು", "ಗಳನ್ನು", "ಗಳಲ್ಲಿ", "ಗಳಿಗೆ", "ದಲ್ಲಿ", "ಯಲ್ಲಿ", "ನಲ್ಲಿ", "ದಿಂದ", "ಯಿಂದ", "ವನ್ನು", "ಯನ್ನು")
 # The endings of a case or the plural a pack's noun may be given in (UNCASED in build).
 UNCASED = ["ಗಳು", "ಗಳನ್ನು", "ಗಳಲ್ಲಿ", "ದಲ್ಲಿ", "ಯಲ್ಲಿ", "ನಲ್ಲಿ", "ದಿಂದ", "ಕ್ಕೆ", "ವನ್ನು", "ಯನ್ನು", "ವು", "ಯು", "ಯರು", "ರು", "ದ"]
+
+
+def aksharas(word):
+    """The syllables [word] is written in (ವೃಂದ is two, ವಿಭವ three)."""
+    return sum(1 for i, c in enumerate(word) if c not in SIGNS and (i == 0 or word[i - 1] != VIRAMA))
+
+
 # A locative with ಇದೆ or ಇರುವ joined on is no verb in -ಲ್ಲು (ಆಸ್ಟ್ರೇಲಿಯಾದಲ್ಲಿದೆ, ತಳದಲ್ಲಿರುವ).
 LOCATIVE_VERBS = ("ದಲ್ಲು", "ನಲ್ಲು", "ಯಲ್ಲು", "ಗಳಲ್ಲು", "ರಲ್ಲು", "ವಲ್ಲು", "ಳಲ್ಲು")
+
+
+# The vowel signs of the vowels (ಆ is ಾ after a consonant).
+INDEPENDENT_VOWELS = {"ಅ": "", "ಆ": "ಾ", "ಇ": "ಿ", "ಈ": "ೀ", "ಉ": "ು", "ಊ": "ೂ", "ಎ": "ೆ", "ಏ": "ೇ", "ಒ": "ೊ", "ಓ": "ೋ"}
 
 
 def induce(unexplained, counts, helpers):
@@ -1000,6 +1036,20 @@ def build(found, size, label):
         if (word not in folded and word not in KANNADA_WORDS and kinds[word] <= {"adj", "verb"}
                 and participles.get(word, word) != word):
             folded[word] = participles[word]
+    # A pack's verb given by its converb or participle whose verb the packs give as another word only (ಎಳೆದು "to pull",
+    # ಎಳೆ "thread") is that word's, now a verb too.
+    converbs = {}
+    for base in sorted(kinds):
+        if "verb" not in kinds[base] and base not in KANNADA_WORDS and base not in folded:
+            stems = verb_stems(base)
+            if stems:
+                converbs.setdefault(stems[3], base)
+                if stems[2].endswith(("ದು", "ತು")):
+                    converbs.setdefault(stems[2], base)
+    for word in sorted(kinds):
+        if word not in folded and word not in KANNADA_WORDS and kinds[word] == {"verb"} and converbs.get(word, word) != word:
+            folded[word] = converbs[word]
+            kinds[converbs[word]].add("verb")
     for word, verb in folded.items():
         kinds.pop(word, None)
         by_hand[word].add(verb)
@@ -1068,6 +1118,23 @@ def build(found, size, label):
                      and (word.endswith(SURE_CASES) or counts.get(h, 0) > counts.get(word, 0))}
             if heads:
                 cased[word] = heads
+    # A pack's verb, adjective or verbal noun that is a form of a verb (ಮಾಡದು "not to do" of ಮಾಡು, ಬಂದಂತಹ "that came",
+    # ಆದದ್ದು "what happened"), or a progressive stem taken for a verb (ಸುತ್ತುತ್ತು of ಸುತ್ತುತ್ತಿರುವ, ಹೊಂದಿರುತ್ತು of
+    # ಹೊಂದಿರುತ್ತಿದ್ದರು), is that verb's.
+    for word in sorted(kinds):
+        noun = kinds[word] <= {"noun", "verb", "adj"} and word.endswith(("ದ್ದು", "ವುದು"))
+        if word in KANNADA_WORDS or word in left_out or word in cased or not (kinds[word] <= {"verb", "adj"} or noun):
+            continue
+        heads = {h for h in ruled.get(word, ()) if h != word and "verb" in kinds[h]}
+        if not heads and word.endswith("ುತ್ತು"):
+            heads = {h for h in ruled.get(word[:-4] + "ತ್ತದೆ", ()) if h != word and "verb" in kinds[h]}
+            # A verb the packs give as a noun only (ಸುತ್ತು "circuit") is a verb too.
+            base = word[:-4]
+            if not heads and base in kinds and base not in KANNADA_WORDS and verb_stems(base):
+                kinds[base].add("verb")
+                heads = {base}
+        if heads:
+            cased[word] = heads
     for word, heads in cased.items():
         kinds.pop(word, None)
         by_hand[word] |= heads
