@@ -95,6 +95,9 @@ FRAGMENTS = frozenset("""
 # "hair"): the app's own list has them.
 EXTRA_WORDS = ("အိုကေ", "တီဗီ", "တီဗွီ")
 
+# Entries of ICU's list the pack lacks that the reader reads as the pack's words (make_lexicon), besides those it finds.
+CUT = {"ခြင်ဆေး": ["ခြင်", "ဆေး"], "အဖျားတက်": ["အဖျား", "တက်"], "လျှပ်ပြက်": ["လျှပ်", "ပြက်"]}
+
 
 # The letters before a final asat whose syllable can take the creaky tone: the nasals, ယ, and the ာ of ော်.
 CREAKY_BEFORE_ASAT = frozenset("\u1004\u1009\u100a\u1014\u1019\u101a\u102c")
@@ -145,13 +148,26 @@ def cuts_into(word, start, end, words):
     return reached[end]
 
 
-def make_lexicon(icu_path):
+def pack_cut(word, pack):
+    """[word] cut between syllables into the fewest words of [pack] (the first such cut), or None if it cannot be."""
+    best = [None] * (len(word) + 1)
+    best[0] = []
+    for i in range(len(word)):
+        if best[i] is None:
+            continue
+        for j in range(i + 1, len(word) + 1):
+            if (j - i < len(word) and my_break(word, j) and word[i:j] in pack
+                    and (best[j] is None or len(best[i]) + 1 < len(best[j]))):
+                best[j] = best[i] + [word[i:j]]
+    return best[len(word)]
+
+
+def icu_words(icu_path, pack):
     """
-    The app's Burmese word list from ICU's (LeRoy Benjamin Sharon's word list): its Burmese entries normalised, a verb or
-    adjective without its citation ending (CITATION_ENDINGS), none the pack lacks that is words and one of ENDINGS (ပြန်လာ
-    is ပြန် + လာ, ရပါတယ် ရ + ပါ + တယ်), and EXTRA_WORDS.
+    ICU's Burmese word list (LeRoy Benjamin Sharon's): its Burmese entries normalised, a verb or adjective without its
+    citation ending (CITATION_ENDINGS), none the pack lacks that is words and one of ENDINGS (ပြန်လာ is ပြန် + လာ, ရပါတယ်
+    ရ + ပါ + တယ်).
     """
-    pack = pack_words()
     words = set()
     for line in open(icu_path, encoding="utf-8-sig"):
         word = line.strip().lstrip("\ufeff")
@@ -164,9 +180,35 @@ def make_lexicon(icu_path):
                 break
         words.add(word)
     known = words | pack
-    kept = {w for w in words if w in pack or not any(len(w) > len(e) and w.endswith(e) and my_break(w, len(w) - len(e))
+    return {w for w in words if w in pack or not any(len(w) > len(e) and w.endswith(e) and my_break(w, len(w) - len(e))
                                                      and cuts_into(w, 0, len(w) - len(e), known) for e in ENDINGS)}
-    return sorted(kept | set(EXTRA_WORDS))
+
+
+def make_lexicon(icu_path):
+    """
+    The app's Burmese word list from ICU's (icu_words), without the entries the pack lacks that are two of its nouns, cut
+    between syllables (ခရုခွံ "snail shell" is ခရု "snail" + ခွံ "shell", လေယာဉ်ကွင်း လေယာဉ် + ကွင်း), nor those of CUT:
+    the reader reads them as the pack's words, which it can look up, as it reads Lao's phrases (LaoParser). Not two words
+    of another kind, which are often one word, a pair of verbs that mean one thing (လုံလောက် "enough", သန်မာ "strong"), nor
+    a word twice (ဖေဖေ "daddy"). The pack's words they are cut into are on the list too, for a reader without the pack; and
+    so are EXTRA_WORDS.
+    """
+    pack = pack_words()
+    db = sqlite3.connect(os.path.join(DICTIONARIES, "my-en.sqlite"))
+    kinds = {}
+    for word, pos in db.execute("SELECT word_lc, pos FROM entries"):
+        kinds.setdefault(my_normalise(word), set()).add(pos)
+    nouns = {w for w, k in kinds.items() if k <= {"noun", "classifier"}}
+    words = icu_words(icu_path, pack)
+    own = set(EXTRA_WORDS)
+    kept, pieces = set(), set()
+    for word in sorted(words):
+        cut = None if word in pack or word in own else CUT.get(word) or pack_cut(word, pack)
+        if word not in CUT and (cut is None or len(cut) != 2 or cut[0] == cut[1] or not all(p in nouns for p in cut)):
+            kept.add(word)
+        else:
+            pieces.update(cut)
+    return sorted(kept | pieces | own)
 
 
 def zawgyi_lines(lines):
