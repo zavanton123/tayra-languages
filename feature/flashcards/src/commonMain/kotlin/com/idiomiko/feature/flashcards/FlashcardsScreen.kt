@@ -42,6 +42,8 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.staticCompositionLocalOf
+import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
@@ -223,6 +225,9 @@ fun FlashcardsScreen(
     val overlay = choosingExample != null || details != null || confirmDelete != null || studyingMore
     // Nothing moves on by itself while something is open over the card.
     LaunchedEffect(overlay) { viewModel.pauseAuto(overlay) }
+    // Over a lesson, the lesson's stages are the way on once the cards are done.
+    val overLesson = inline || LocalStageCheck.current != null
+    CompositionLocalProvider(LocalOverLesson provides overLesson) {
     Scaffold(
         topBar = {
             if (onClose != null) {
@@ -281,6 +286,7 @@ fun FlashcardsScreen(
             modifier = Modifier.padding(padding),
             overlay = overlay,
         )
+    }
     }
     if (studyingMore) StudyMoreDialog(viewModel, onAddNew = viewModel::addNewToday, onStart = viewModel::startPass, onDismiss = { studyingMore = false })
     details?.let { termId -> FlashcardDetails(termId, onNavigate, onClose = { details = null; viewModel.reloadCard() }) }
@@ -1113,6 +1119,8 @@ private fun Finished(state: FlashcardsUiState, actions: FlashcardActions) {
             else -> null
         }
         if (detail != null) Text(detail, style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant, textAlign = TextAlign.Center)
+        // Over a lesson its stages are the way on: none of the ways below.
+        if (LocalOverLesson.current) return@Column
         // Reading is where new cards come from, so it is the way on, back into the text read last.
         state.reading?.let { reading ->
             PrimaryButton(tr("Continue reading"), onClick = { actions.onRead(reading.bookId) }, modifier = NoFocus.padding(top = AppSpacing.s).testTag("continue-reading"), icon = AppIcons.MenuBook)
@@ -1186,3 +1194,6 @@ internal fun CardWait.short(): String {
 }
 
 private val FLASHCARDS_DIALOG_WIDTH = 880.dp
+
+/** Whether the cards are shown over a lesson, whose stages lead on once they are done. */
+internal val LocalOverLesson = staticCompositionLocalOf { false }

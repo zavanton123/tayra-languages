@@ -128,6 +128,8 @@ class FlashcardsScreenTest {
         /** Saves more words in the language, after the first card's. */
         moreTerms: suspend (languageId: Long) -> Unit = {},
         answerMode: AnswerMode = AnswerMode.SHOW,
+        /** Shown over a lesson, whose stages lead on once the cards are done. */
+        overLesson: Boolean = false,
         speech: SpeechRecognition? = null,
     ): FlashcardsViewModel {
         val languageId = runBlocking {
@@ -155,6 +157,7 @@ class FlashcardsScreenTest {
                     CompositionLocalProvider(
                         LocalLearningLanguage provides LearningLanguageState(listOf(languageId to "Portuguese"), languageId) {},
                         LocalFlashcardsDue provides 1,
+                        LocalOverLesson provides overLesson,
                     ) {
                         val state by viewModel.state.collectAsState()
                         var studyingMore by remember { mutableStateOf(false) }
@@ -1038,6 +1041,17 @@ class FlashcardsScreenTest {
         onNodeWithTag("answer-Good").assertIsDisplayed()
         onNodeWithTag("flashcard-answer").performScrollTo().assertIsDisplayed()
         save("FLASHCARD_SCROLL_SCREENSHOT")
+    }
+
+    /** Over a lesson, the cards done leave the way on to the lesson's stages: no reading, more study or previous card. */
+    @Test
+    fun overALessonTheCardsDoneOfferNothingMore() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        show(overLesson = true)
+        onNodeWithContentDescription("More actions").performClick()
+        onNodeWithText("Delete card").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("No cards are due").fetchSemanticsNodes().isNotEmpty() }
+        for (tag in listOf("study-more", "continue-reading")) assertEquals(0, onAllNodesWithTag(tag).fetchSemanticsNodes().size, tag)
+        assertEquals(0, onAllNodesWithText("Previous card").fetchSemanticsNodes().size)
     }
 
     /** Deleting the card on show deletes its word, and the next card, if any, comes up. */
