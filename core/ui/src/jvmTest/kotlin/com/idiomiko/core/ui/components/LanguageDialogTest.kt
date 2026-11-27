@@ -66,7 +66,7 @@ class LanguageDialogTest {
         open(compact = false)
         // The popular ones but Portuguese, being learned already.
         onNodeWithTag("language-chip-POPULAR").assertIsSelected()
-        onNodeWithText("7 languages").assertExists()
+        onNodeWithText("6 languages").assertExists()
         save("LANGUAGE_DIALOG_SCREENSHOT")
         onNodeWithTag("language-chip-ALL").performClick()
         onNodeWithText("29 languages").assertExists()
@@ -93,7 +93,7 @@ class LanguageDialogTest {
         setContent { IdiomikoTheme { ProvideWindowWidth { TargetLanguageDialog(state) } } }
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Select the language to study").fetchSemanticsNodes().isNotEmpty() }
         assertEquals(0, onAllNodesWithText("Choose the language you want to study").fetchSemanticsNodes().size, "no line under the title")
-        onNodeWithText("8 languages").assertExists()
+        onNodeWithText("7 languages").assertExists()
         assertEquals(0, onAllNodesWithTag("current-language").fetchSemanticsNodes().size)
         assertEquals(0, onAllNodesWithContentDescription("Close").fetchSemanticsNodes().size)
         assertEquals(0, onAllNodesWithContentDescription("Back").fetchSemanticsNodes().size, "no way out but choosing")
@@ -114,7 +114,7 @@ class LanguageDialogTest {
         val state = LearningLanguageState(names.mapIndexed { i, n -> (i + 1L) to n }, 0L) {}
         setContent { IdiomikoTheme { ProvideWindowWidth { TargetLanguageDialog(state) } } }
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Select the language to study").fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithText("8 languages").assertExists()
+        onNodeWithText("7 languages").assertExists()
         assertTrue(onNodeWithTag("target-language-dialog").fetchSemanticsNode().boundsInRoot.left > 0f, "a dialog, inset from the window's edge")
     }
 
@@ -142,7 +142,7 @@ class LanguageDialogTest {
             IdiomikoTheme { ProvideWindowWidth { CompositionLocalProvider(LocalLearningLanguage provides state) { ChooseLanguageScreen(onBack = { back++ }) } } }
         }
         onNodeWithText("Add a language").assertExists()
-        onNodeWithText("7 languages").assertExists()
+        onNodeWithText("6 languages").assertExists()
         assertEquals(0, onAllNodesWithTag("language-pt").fetchSemanticsNodes().size, "the language being learned is not offered")
         save("LANGUAGE_DIALOG_PHONE_SCREENSHOT")
         onNodeWithTag("language-chip-ALL").performClick()

@@ -10,7 +10,7 @@ enum class LanguageRegion { EUROPE, ASIA, MIDDLE_EAST, AFRICA, AMERICAS_PACIFIC,
 object LanguageRegions {
     val popular: Set<String> = setOf(
         "English", "Spanish", "French", "German", "Italian", "Portuguese", "Russian",
-        "Japanese", "Korean", "Mandarin Chinese", "Arabic", "Turkish",
+        "Japanese", "Korean", "Mandarin Chinese", "Arabic",
     )
 
     /** The groups of the language named [name], none for a language the catalog does not know. */
