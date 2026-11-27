@@ -129,8 +129,7 @@ internal fun VocabularyLevelPromptContent(state: VocabularySettingsUiState, onPi
                 ChosenLevelStrip(chosen)
             }
         }
-        AppDivider()
-        PromptButtons(state, chosen, onSave, Modifier.padding(horizontal = AppSpacing.xxxl, vertical = AppSpacing.xl))
+        PromptButtons(state, chosen, onSave, Modifier.padding(start = AppSpacing.xxxl, end = AppSpacing.xxxl, bottom = AppSpacing.xxxl))
     }
 }
 
