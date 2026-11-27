@@ -70,6 +70,7 @@ import com.idiomiko.core.ui.components.LocalSyncEntry
 import com.idiomiko.core.ui.components.AccountBadge
 import com.idiomiko.core.ui.components.LocalAccountBadge
 import com.idiomiko.core.ui.components.LocalHiddenSettingsSections
+import com.idiomiko.core.ui.components.LocalLessonOpen
 import com.idiomiko.core.ui.components.LocalSettingsSwitch
 import com.idiomiko.core.ui.components.SettingsSection
 import com.idiomiko.core.ui.navigation.NavigationRequests
@@ -149,16 +150,17 @@ fun AppNavHost(openHome: Int = 0) {
             AccountBadge(p.email, p.name, badgeState.picture, signOut = badgeModel::signOut) { navController.navigate(Route.Account) { launchSingleTop = true } }
         }
     }
+    val lessonOpen = remember { mutableStateOf(false) }
     CompositionLocalProvider(
         LocalPracticeDialog provides practiceDialog, LocalFlashcardsDialog provides flashcardsDialog, LocalFlashcardsPanel provides flashcardsPanel, LocalSyncEntry provides syncEntry, LocalAccountBadge provides accountBadge,
         LocalWebPictures provides koinInject<WebPictures>(), LocalSettingsSwitch provides settingsSwitch,
-        LocalHiddenSettingsSections provides hiddenSections,
+        LocalHiddenSettingsSections provides hiddenSections, LocalLessonOpen provides lessonOpen,
     ) {
     Scaffold(
         bottomBar = {
-            // The playlist player's bar stays while anything is loaded, over the phone's tabs.
+            // The playlist player's bar stays while anything is loaded, over the phone's tabs, but for over a lesson.
             Column {
-                PlayerBar(onNavigate = { navController.navigate(it) { launchSingleTop = true } }, onPlayerScreen = destination?.hasRoute<Route.Player>() == true)
+                if (!lessonOpen.value) PlayerBar(onNavigate = { navController.navigate(it) { launchSingleTop = true } }, onPlayerScreen = destination?.hasRoute<Route.Player>() == true)
                 if (phoneBar) {
                     PhoneNavBar(
                         section = destination?.let(::sectionOf),

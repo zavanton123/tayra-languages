@@ -164,6 +164,7 @@ import com.idiomiko.core.ui.components.ToastHost
 import com.idiomiko.core.ui.components.rememberToastState
 import com.idiomiko.core.ui.components.ErrorMessage
 import com.idiomiko.core.ui.components.LoadingIndicator
+import com.idiomiko.core.ui.components.LocalLessonOpen
 import com.idiomiko.core.ui.components.LocalWindowWidth
 import com.idiomiko.core.ui.components.PrimaryButton
 import com.idiomiko.core.ui.components.QuietButton
@@ -223,6 +224,13 @@ fun ReadingScreen(
     viewModel: ReadingViewModel = koinViewModel(key = "reading-$bookId") { parametersOf(bookId, initialPage) },
 ) {
     val state by viewModel.state.collectAsStateWithLifecycle()
+    // A lesson keeps the playlist player's bar off its screen.
+    val lessonOpen = LocalLessonOpen.current
+    val inLesson = state.lesson != null
+    DisposableEffect(inLesson) {
+        lessonOpen.value = inLesson
+        onDispose { lessonOpen.value = false }
+    }
     val leave: () -> Unit = { state.lesson?.let { onCourse(it.course.id) } ?: if (state.news) onNews() else onHome() }
     val clipboard = LocalClipboardManager.current
     val uriHandler = LocalUriHandler.current
