@@ -194,6 +194,7 @@ import kotlin.random.Random
 import org.koin.core.parameter.parametersOf
 import com.idiomiko.core.ui.components.EdgeScrollbar
 import com.idiomiko.core.ui.components.SpinnerSize
+import com.idiomiko.core.ui.components.SyncingIndicator
 import com.idiomiko.core.ui.components.AppSpinner
 import com.idiomiko.feature.terms.anki.ankiLabel
 import com.idiomiko.core.ui.files.saveBinaryFile
@@ -612,6 +613,7 @@ private fun ReadingHeader(state: ReadingUiState, onAppearance: () -> Unit, onMen
                     modifier = Modifier.semantics { contentDescription = tr("Page {0} of {1}", state.pageNumber, state.pageCount) },
                 )
             }
+            SyncingIndicator()
             AppIconButton(AppIcons.FormatSize, contentDescription = tr("Appearance"), onClick = onAppearance)
             AppIconButton(Icons.Default.Settings, contentDescription = tr("Reader settings"), onClick = onMenu)
         }

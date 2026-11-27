@@ -91,6 +91,24 @@ internal fun SyncStatusButton(entry: SyncEntry) {
 
 private val TICK = 30.seconds
 
+/**
+ * A spinner while a sync is under way, for the phone's bars, which have no room for the wide bar's cloud: shown on
+ * every page while the sync runs, gone once it ends. A tap asks whether to sync now, as the cloud does.
+ */
+@Composable
+fun SyncingIndicator() {
+    val entry = LocalSyncEntry.current?.takeIf { it.running } ?: return
+    val label = tr("Syncing…")
+    Box(
+        Modifier.clip(AppShapes.control).clickable(onClickLabel = tr("Sync now"), role = Role.Button, onClick = entry.open)
+            .semantics { contentDescription = label }
+            .padding(AppSpacing.s).testTag("sync-spinner"),
+        contentAlignment = Alignment.Center,
+    ) {
+        AppSpinner(size = SpinnerSize.Small, color = MaterialTheme.colorScheme.onSurfaceVariant)
+    }
+}
+
 /** A phone page pulled down past its top asks whether to sync, through [onPull]; the indicator never stays spinning. */
 @Composable
 fun PullToSync(enabled: Boolean, onPull: () -> Unit, modifier: Modifier = Modifier, content: @Composable () -> Unit) {

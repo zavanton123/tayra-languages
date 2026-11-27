@@ -163,6 +163,31 @@ class AppTopBarTest {
         onNodeWithTag("account-avatar").assertExists()
     }
 
+    /** A phone's bar spins while a sync runs, on pages with a way back too, and shows nothing once it ends; a tap asks to sync. */
+    @OptIn(ExperimentalTestApi::class)
+    @Test
+    fun aPhonesBarSpinsWhileSyncing() = runDesktopComposeUiTest(width = 400, height = 800) {
+        var asked = 0
+        var entry by mutableStateOf(SyncEntry(running = true) { asked++ })
+        setContent {
+            MaterialTheme {
+                ProvideWindowWidth {
+                    CompositionLocalProvider(LocalSyncEntry provides entry) {
+                        AppTopBar(title = "Flashcards", onNavigate = {}, onBack = {}, section = NavSection.FLASHCARDS)
+                    }
+                }
+            }
+        }
+        onNodeWithContentDescription("Syncing…").assertExists()
+        onNodeWithTag("sync-spinner").performClick()
+        assertEquals(1, asked)
+        saveBar("SYNC_SPINNER_SCREENSHOT")
+        entry = SyncEntry(running = false, lastSynced = kotlin.time.Clock.System.now()) { asked++ }
+        waitForIdle()
+        onNodeWithTag("sync-spinner").assertDoesNotExist()
+        onNodeWithTag("sync-button").assertDoesNotExist()
+    }
+
     /**
      * Signed out, a phone's bar shows a person in a circle in the avatar's place; it opens the account menu, as on the
      * wide bar, whose Settings leads to the phone's list of the settings pages.
