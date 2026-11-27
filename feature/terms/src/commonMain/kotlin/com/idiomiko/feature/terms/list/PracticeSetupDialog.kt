@@ -61,6 +61,7 @@ import com.idiomiko.core.ui.components.AppScreenDialog
 import com.idiomiko.core.ui.components.AppDivider
 import com.idiomiko.core.ui.components.AppIconButton
 import com.idiomiko.core.ui.components.AppIcons
+import com.idiomiko.core.ui.components.AppTooltip
 import com.idiomiko.core.ui.components.FreshViewModels
 import com.idiomiko.core.ui.components.ButtonSize
 import com.idiomiko.core.ui.components.ChipLeading
@@ -435,14 +436,16 @@ private fun TypeGrid(types: List<ExerciseType>, columns: Int, card: @Composable 
     }
 }
 
-/** A type of question to tick, with how many words it can ask about, or why none; greyed when it would ask nothing. */
+/** A type of question to tick, with how many words it can ask about, or why none, and what it asks on hover; greyed when it would ask nothing. */
 @Composable
 private fun TypeCard(type: ExerciseType, ticked: Boolean, state: PracticeSetupState, availability: Pair<Int, String?>, total: Int, answerable: Boolean, modifier: Modifier, onToggle: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     val (words, reason) = availability
     val idle = !state.loading && (words == 0 || !answerable)
-    Row(
-        modifier.clip(AppShapes.card)
+    // What the exercise is shows on hover, keeping the cards to their names and how many words they fit.
+    // The card's share of its row goes on a box of its own: the tooltip's box would not keep to it.
+    Box(modifier) { AppTooltip(type.description(), Modifier.fillMaxSize()) { Row(
+        Modifier.fillMaxSize().clip(AppShapes.card)
             .background(if (ticked) colors.primary.copy(alpha = AppAlpha.tint) else colors.surface)
             .border(AppBorders.hairline(if (ticked) colors.primary else colors.outlineVariant), AppShapes.card)
             .clickable(onClick = onToggle).padding(end = AppSpacing.l, top = AppSpacing.m, bottom = AppSpacing.m, start = AppSpacing.xs)
@@ -454,7 +457,6 @@ private fun TypeCard(type: ExerciseType, ticked: Boolean, state: PracticeSetupSt
         Icon(type.icon(), contentDescription = null, tint = colors.primary, modifier = Modifier.size(AppSizes.iconLarge).alpha(if (idle) AppAlpha.disabled else 1f))
         Column(Modifier.weight(1f).padding(start = AppSpacing.s).alpha(if (idle) AppAlpha.disabled else 1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
             Text(type.label(), style = AppText.itemTitle)
-            Text(type.description(), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
             Text(
                 when {
                     state.loading -> tr("Checking…")
@@ -469,5 +471,5 @@ private fun TypeCard(type: ExerciseType, ticked: Boolean, state: PracticeSetupSt
                 modifier = Modifier.testTag("practice-availability-${type.name}"),
             )
         }
-    }
+    } } }
 }

@@ -12,6 +12,8 @@ import androidx.compose.ui.test.onAllNodesWithTag
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.performClick
+import androidx.compose.ui.geometry.Offset
+import androidx.compose.ui.test.performMouseInput
 import androidx.compose.ui.test.performScrollTo
 import androidx.compose.ui.test.runDesktopComposeUiTest
 import com.idiomiko.core.domain.flashcards.Cloze
@@ -67,6 +69,13 @@ class PracticeSetupDialogTest {
         System.getenv(env)?.let { ImageIO.write(onAllNodes(isRoot()).fetchSemanticsNodes().let { onAllNodes(isRoot())[it.lastIndex] }.captureToImage().toAwtImage(), "png", File(it)) }
     }
 
+    /** Ticks the card tagged [tag], then moves the pointer off it, as a reader does, so its description's tooltip goes. */
+    private fun ComposeUiTest.tick(tag: String) {
+        onNodeWithTag(tag).performScrollTo().performClick()
+        onAllNodes(isRoot())[0].performMouseInput { moveTo(Offset(1f, 1f)) }
+        mainClock.advanceTimeBy(TOOLTIP_GONE_MILLIS)
+    }
+
     private fun ComposeUiTest.text(tag: String) =
         onNodeWithTag(tag, useUnmergedTree = true).fetchSemanticsNode().config[androidx.compose.ui.semantics.SemanticsProperties.Text].joinToString { it.text }
 
@@ -90,8 +99,8 @@ class PracticeSetupDialogTest {
     @Test
     fun typesAreTickedAndStartTheSetup() = runDesktopComposeUiTest(width = 1300, height = 1000) {
         show()
-        ExerciseType.entries.filter { it.skill == PracticeSkill.LISTENING }.forEach { onNodeWithTag("practice-type-${it.name}").performScrollTo().performClick() }
-        onNodeWithTag("practice-type-MEANING").performScrollTo().performClick()
+        ExerciseType.entries.filter { it.skill == PracticeSkill.LISTENING }.forEach { tick("practice-type-${it.name}") }
+        tick("practice-type-MEANING")
         onNodeWithTag("practice-response-TYPE").performClick()
         onNodeWithTag("practice-length-all").performClick()
         onNodeWithTag("start-practice").performClick()
@@ -165,3 +174,6 @@ class PracticeSetupDialogTest {
         assertEquals(20, started?.length, "the length chosen is kept for a practice with more")
     }
 }
+
+/** Longer than a plain tooltip stays up on its own. */
+private const val TOOLTIP_GONE_MILLIS = 2_000L

@@ -32,6 +32,8 @@ import androidx.compose.ui.test.onNodeWithContentDescription
 import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.performClick
+import androidx.compose.ui.geometry.Offset
+import androidx.compose.ui.test.performMouseInput
 import androidx.compose.ui.test.onLast
 import androidx.compose.ui.test.onAllNodesWithContentDescription
 import androidx.compose.ui.test.performKeyInput
@@ -847,7 +849,12 @@ class PracticeScreenTest {
             }
             waitUntil(timeoutMillis = 10_000) { made.isNotEmpty() }
             finish(made.single())
-            ExerciseType.entries.filter { it.skill == PracticeSkill.READING }.forEach { onNodeWithTag("practice-type-${it.name}").performScrollTo().performClick() }
+            // Each card is ticked and left, as a reader moves on, so its description's tooltip does not cover the next.
+            ExerciseType.entries.filter { it.skill == PracticeSkill.READING }.forEach {
+                onNodeWithTag("practice-type-${it.name}").performScrollTo().performClick()
+                onAllNodes(isRoot())[0].performMouseInput { moveTo(Offset(1f, 1f)) }
+                mainClock.advanceTimeBy(2_000)
+            }
             onNodeWithTag("start-practice").performClick()
 
             waitUntil(timeoutMillis = 10_000) { made.size == 2 && onAllNodesWithTag("practice-dialog").fetchSemanticsNodes().isNotEmpty() }
