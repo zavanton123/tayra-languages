@@ -904,7 +904,7 @@ class ReadingHoverTest {
         rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = {}, onCourse = {}, viewModel = vm) }
         rule.waitUntil(5_000) { rule.onAllNodesWithTag("stage-chain").fetchSemanticsNodes().isNotEmpty() }
         assertEquals(ReadingStage.of(hasQuestions = true), vm.state.value.pageStages)
-        assertEquals(ReadingStage.QUESTIONS, vm.state.value.pageStages[2], "after listening")
+        assertEquals(listOf(ReadingStage.REVERSE, ReadingStage.QUESTIONS, ReadingStage.RETELL), vm.state.value.pageStages.takeLast(3), "between reverse translation and retelling")
 
         rule.onNodeWithTag("stage-questions").performClick()
         rule.waitUntil(5_000) { vm.state.value.stage == ReadingStage.QUESTIONS && vm.state.value.items.any { it.renderText == "Quem" } }
@@ -922,7 +922,7 @@ class ReadingHoverTest {
         rule.onAllNodesWithText("Done").assertCountEquals(0)
         rule.onNodeWithTag("check-stage").performClick()
         rule.waitUntil(5_000) { ReadingStage.QUESTIONS in vm.state.value.stages }
-        rule.waitUntil(5_000) { vm.state.value.stage == ReadingStage.WORDS }
+        rule.waitUntil(5_000) { vm.state.value.stage == ReadingStage.RETELL }
         assertTrue(vm.state.value.page === vm.state.value.storyPage, "the next stage works on the story again")
     }
 

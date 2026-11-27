@@ -12,9 +12,6 @@ enum class ReadingStage(val bit: Int) {
     /** Listen to the text, the original blurred. */
     LISTEN(2),
 
-    /** Answer the lesson's questions on the story, the story hidden and each answer blurred. Only lessons with questions have it. */
-    QUESTIONS(128),
-
     /** Look the text's words over again and correct their statuses. */
     WORDS(4),
 
@@ -26,6 +23,9 @@ enum class ReadingStage(val bit: Int) {
 
     /** Turn the translation back into the original, which is blurred until looked at. */
     REVERSE(32),
+
+    /** Answer the lesson's questions on the story, the story hidden and each answer blurred. Only lessons with questions have it. */
+    QUESTIONS(128),
 
     /** Tell the text again in your own words, with the text hidden. */
     RETELL(64),
