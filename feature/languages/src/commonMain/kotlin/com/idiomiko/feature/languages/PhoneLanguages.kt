@@ -16,7 +16,7 @@ import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Add
-import com.idiomiko.core.ui.components.SecondaryButton
+import com.idiomiko.core.ui.components.PrimaryButton
 import androidx.compose.material.icons.filled.KeyboardArrowRight
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
@@ -70,7 +70,7 @@ internal fun PhoneLanguagesScreen(settings: UserSettings, learning: LearningLang
         ScrollColumn(Modifier.padding(padding).fillMaxWidth(), contentModifier = Modifier.padding(horizontal = AppSpacing.l, vertical = AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
             if (learning != null) MyLanguagesCard(learning, viewModel::askToRemove, Modifier.fillMaxWidth(), viewModel.removals.collectAsStateWithLifecycle().value)
             // A phone adds a language on the full-screen list, as from the language menu.
-            SecondaryButton(tr("Add a language"), onClick = { onNavigate(Route.ChooseLanguage) }, icon = Icons.Default.Add, modifier = Modifier.testTag("add-language-button"))
+            PrimaryButton(tr("Add a language"), onClick = { onNavigate(Route.ChooseLanguage) }, icon = Icons.Default.Add, modifier = Modifier.testTag("add-language-button"))
             PhoneLanguageCard(tr("Meanings"), tr("Show meanings in")) {
                 PhoneLanguageRow(native.name, tag = "native-language") { nativeSheet = true }
             }

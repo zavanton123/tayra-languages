@@ -53,7 +53,7 @@ import com.idiomiko.core.ui.components.AppTopBar
 import com.idiomiko.core.ui.components.SettingsSection
 import com.idiomiko.core.ui.components.SettingsPane
 import com.idiomiko.core.ui.components.AddLanguageDialog
-import com.idiomiko.core.ui.components.SecondaryButton
+import com.idiomiko.core.ui.components.PrimaryButton
 import com.idiomiko.core.ui.components.LanguageFlag
 import com.idiomiko.core.ui.components.LocalLearningLanguage
 import com.idiomiko.core.ui.components.LocalWindowWidth
@@ -110,7 +110,7 @@ fun LanguagesScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: 
                 }
                 // The languages being learned, switched between and added to here, then the two other choices.
                 if (learning != null) MyLanguagesCard(learning, viewModel::askToRemove, Modifier.fillMaxWidth(), removals, onLearn = { learning.select(it); changes++ })
-                SecondaryButton(tr("Add a language"), onClick = { adding = true }, icon = Icons.Default.Add, modifier = Modifier.testTag("add-language-button"))
+                PrimaryButton(tr("Add a language"), onClick = { adding = true }, icon = Icons.Default.Add, modifier = Modifier.testTag("add-language-button"))
                 val nativeTile: @Composable (Modifier) -> Unit = { m ->
                     LanguageTile(tr("Meanings"), tr("Show meanings in"), modifier = m) {
                         FlagPicker(
