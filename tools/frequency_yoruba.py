@@ -15,6 +15,8 @@ Much online Yoruba leaves the tones or the dots out, or both (machine translatio
 from sentences written with the marks (well_marked): enough of their words toned and known, and none of the common words
 written without its tones (ati, ninu) or a word without its dots (àwon); a spelling without its tones is never guessed at,
 as several words share it. The list's forms are the standard spellings only.
+
+The marks let some other text through, which is left out (foreign): Chinese pinyin, Vietnamese, Gbe (Fon, Gun), mojibake.
 """
 import functools
 import gzip
@@ -105,6 +107,21 @@ TELL_WORDS = ["àti", "láti", "nínú", "àwọn", "náà", "yìí", "fún", "p
 # A word must be counted this often (all its spellings, all sources) to be listed.
 LEAST_COUNT = 4
 SENTENCE_START = re.compile(r"(?:^|[.!?:;…\"“”«»()\[\]‘’'*-]\s*)$")
+
+# Text in other languages that well_marked lets through, its words having Yoruba's marks and spellings. A word in small
+# letters with marks (an English or French word in a Yoruba sentence has none, or a capital) must have Yoruba's letters and
+# marks only: no c, q, v, x or z and no wh or sh (Gbe and pinyin have them), none of Vietnamese's marks (ư, ă, ẽ, ỏ) or
+# other letters (đ, ɛ, ø); mojibake for the dotted letters (àwvn, æjô, ÿe) fails too. Beside the grave, acute, macron (on n)
+# and dot below, the caron and circumflex write a rising and a falling tone (márǔn, mẹ́sǎn), and older typing writes the dot
+# as a dot above (ṅ), a cedilla (ş) or a plus below. Pinyin's caron (nǐ, wǒmen) and macron on a vowel (duō) are told from
+# the rising tone by a sentence without any of Yoruba's dotted letters. Chinese characters, kana and hangul are foreign.
+YORUBA_LETTERS = set("abdefghijklmnoprstuwy")
+YORUBA_MARKS = {GRAVE, ACUTE, MACRON, DOT_BELOW, "̌", "̂", "̇", "̧", "̟"}
+FOREIGN_SCRIPT = re.compile("[⺀-鿿가-힯぀-ヿ]")
+PINYIN_MARK = re.compile("̌|[aeiou]̄")
+DOTTED = re.compile("[ẹọṣ]")
+# Gbe (Gun) writes ẹ and ọ as Yoruba does; two of its commonest words in one sentence tell it.
+GBE_WORDS = {yoruba_standard(w) for w in ["dọ", "wẹ", "nọ", "ẹn", "lẹ", "mẹ", "enẹ", "ehe", "gbẹtọ", "tọn"]}
 
 # Parts of speech that are no words of a text.
 NOT_WORDS = {"name", "character", "prefix", "suffix", "infix", "interfix", "symbol", "phrase", "proverb", "prep_phrase"}
@@ -254,10 +271,33 @@ def well_marked(words, lexicon):
     return toned >= LEAST_TONED and known >= LEAST_KNOWN and not any(lexicon.is_careless(w) for w in lowercase)
 
 
+def foreign(line):
+    """Whether a well-marked line is in another language or mojibake (YORUBA_LETTERS, YORUBA_MARKS, GBE_WORDS)."""
+    if FOREIGN_SCRIPT.search(line):
+        return True
+    small = line.lower()
+    if PINYIN_MARK.search(unicodedata.normalize("NFD", small)) and not DOTTED.search(small):
+        return True
+    for word in WORD.findall(line):
+        if not word[0].islower():
+            continue
+        letters = unicodedata.normalize("NFD", word.lower())
+        if not any(unicodedata.combining(c) for c in letters):
+            continue
+        if "wh" in letters or "sh" in letters or any(c not in YORUBA_LETTERS and c not in YORUBA_MARKS for c in letters):
+            return True
+    return len(set(WORD.findall(small)) & GBE_WORDS) >= 2
+
+
 def tokens(line, lexicon):
-    """A line's words, lowercase, without the capitalised ones inside a sentence (names) unless the pack writes the word so."""
+    """
+    A line's words, lowercase, without the capitalised ones inside a sentence (names) unless the pack writes the word so, and
+    without acronyms (WHO, PU).
+    """
     for match in WORD.finditer(line):
         word = match.group(0)
+        if word.isupper() and len(word) > 1 and word.isascii():
+            continue
         if word[0].isupper() and not word.isupper() and not SENTENCE_START.search(line[:match.start()]):
             if word not in lexicon.written.get(word.lower(), ()):
                 continue
@@ -292,7 +332,7 @@ def _counts(download, lexicon):
                 continue
             kept[source][1] += 1
             words = WORD.findall(line)
-            if not well_marked(words, lexicon):
+            if not well_marked(words, lexicon) or foreign(line):
                 continue
             key = hash(line)
             if key in seen:
