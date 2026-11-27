@@ -164,14 +164,15 @@ internal fun PhoneTermsScreen(
         ) {
             if (inside) item { Text(tr("Vocabulary"), Modifier.padding(bottom = AppSpacing.m), style = AppText.screenTitle) }
             item { PhoneVocabularyOverview(state.totalTerms, known = state.knownCount, learning = state.learningCount, Modifier.padding(bottom = AppSpacing.m)) }
-            item {
+            // Over a lesson the list is the lesson's few words: no search or filters.
+            if (!inside) item {
                 SearchField(state.filter.search, { q -> viewModel.updateFilter { it.copy(search = q) } }, tr("Search terms or translations"), Modifier.fillMaxWidth().padding(bottom = AppSpacing.m))
             }
             item {
                 Row(Modifier.fillMaxWidth().padding(bottom = AppSpacing.m), horizontalArrangement = Arrangement.spacedBy(AppSpacing.m), verticalAlignment = Alignment.CenterVertically) {
                     val sortLabel = TermSortOption.entries.firstOrNull { it.sort == state.sort }?.label ?: tr("Custom order")
                     SelectButton(sortLabel, onClick = { sorting = true }, modifier = Modifier.weight(1f, fill = false).testTag("phone-sort"), icon = AppIcons.SwapVert)
-                    FiltersButton(open = filtering, count = state.activeFilterCount, onClick = { filtering = true })
+                    if (!inside) FiltersButton(open = filtering, count = state.activeFilterCount, onClick = { filtering = true })
                 }
             }
             state.filter.termIds?.let { ids ->

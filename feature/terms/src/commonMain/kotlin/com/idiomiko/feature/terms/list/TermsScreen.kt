@@ -206,7 +206,7 @@ fun TermsScreen(
                 item { PageHeader(exporting = state.exporting, sending = state.sendingToAnki, onExport = viewModel::exportAnki, onNew = { onNavigate(Route.NewTerm) }) }
                 item { VocabularyOverview(state.totalTerms, known = state.knownCount, learning = state.learningCount, Modifier.padding(bottom = AppSpacing.xl)) }
             }
-            item { Toolbar(state, viewModel, compact) }
+            item { Toolbar(state, viewModel, compact, overText = dialog) }
             if (state.filtersVisible) item(key = "filters") { Column(itemMotion()) { FilterPanel(state, viewModel, pageNote = !dialog) } }
             if (state.activeFilterCount > 0) item { ActiveFilters(state, viewModel, onEdit = { if (!state.filtersVisible) viewModel.toggleFilters() }) }
             // Ticking terms brings their actions into view, above the list.
@@ -331,7 +331,7 @@ private fun DialogHeader(title: String, onClose: () -> Unit) {
 
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
-private fun Toolbar(state: TermsListUiState, viewModel: TermsListViewModel, compact: Boolean) {
+private fun Toolbar(state: TermsListUiState, viewModel: TermsListViewModel, compact: Boolean, overText: Boolean) {
     val colors = MaterialTheme.colorScheme
     val filter = state.filter
     val sortLabel = TermSortOption.entries.firstOrNull { it.sort == state.sort }?.label ?: tr("Custom order")
@@ -341,7 +341,8 @@ private fun Toolbar(state: TermsListUiState, viewModel: TermsListViewModel, comp
         verticalArrangement = Arrangement.spacedBy(AppSpacing.m),
         itemVerticalAlignment = Alignment.CenterVertically,
     ) {
-        SearchField(filter.search, { q -> viewModel.updateFilter { it.copy(search = q) } }, tr("Search terms or translations"), if (compact) Modifier.fillMaxWidth() else Modifier.width(SEARCH_FIELD_WIDTH))
+        // Over a text the list is that text's few words: no search or filters.
+        if (!overText) SearchField(filter.search, { q -> viewModel.updateFilter { it.copy(search = q) } }, tr("Search terms or translations"), if (compact) Modifier.fillMaxWidth() else Modifier.width(SEARCH_FIELD_WIDTH))
         SelectMenu(
             options = TermSortOption.entries,
             selected = TermSortOption.entries.firstOrNull { it.sort == state.sort },
@@ -350,7 +351,7 @@ private fun Toolbar(state: TermsListUiState, viewModel: TermsListViewModel, comp
             value = tr("Sort: {0}", sortLabel),
             icon = AppIcons.SwapVert,
         )
-        FiltersButton(open = state.filtersVisible, count = state.activeFilterCount, onClick = viewModel::toggleFilters)
+        if (!overText) FiltersButton(open = state.filtersVisible, count = state.activeFilterCount, onClick = viewModel::toggleFilters)
         if (!compact) {
             Spacer(Modifier.weight(1f))
             Text(

@@ -260,6 +260,8 @@ class TermsScreenTest {
         }
         waitForList("amizade", "comprar", hidden = listOf("gostar"))
         onNodeWithText("Acredito na amizade.").assertExists()
+        onNodeWithText("Search terms or translations").assertDoesNotExist()
+        onNodeWithText("Filters").assertDoesNotExist()
         System.getenv("TERMS_SCREENSHOT")?.let { ImageIO.write(onAllNodes(isRoot())[0].captureToImage().toAwtImage(), "png", File(it.replace(".png", "-dialog.png"))) }
     }
 
