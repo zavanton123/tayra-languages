@@ -199,7 +199,7 @@ def verb_forms(verb):
 
 def _verb_forms(s, vowel, negative=False):
     out = set()
-    persons = ("man", "san", "di", "miz", "siz", "dilar")
+    persons = ("man", "san", "di", "miz", "siz", "dilar", "sizlar")
     # The infinitive with -chi (intention) and -da (now: bormoqda), and their predicative endings.
     for inf in (s + "moqchi", s + "moqda"):
         out.add(inf)
@@ -210,9 +210,9 @@ def _verb_forms(s, vowel, negative=False):
     out.add(present)
     out.update(present + e for e in persons)
     # The past: bordim, bording, bordi, bordik, bordingiz, bordilar.
-    out.update(s + "di" + e for e in ("m", "ng", "", "k", "ngiz", "lar", "ngizmi", "mi"))
+    out.update(s + "di" + e for e in ("m", "ng", "", "k", "ngiz", "lar", "ngizlar", "ngizmi", "mi"))
     # The progressive: boryapman, boryapti; oʻqiyapti; and the present participle: borayotgan, oʻqiyotgan.
-    out.update(s + "yap" + e for e in ("man", "san", "ti", "miz", "siz", "tilar", "timi", "sizmi"))
+    out.update(s + "yap" + e for e in ("man", "san", "ti", "miz", "siz", "tilar", "sizlar", "di", "timi", "sizmi"))
     ongoing = present + "yotgan" if not vowel else s + "yotgan"
     for p in (ongoing,):
         out.add(p)
@@ -227,10 +227,12 @@ def _verb_forms(s, vowel, negative=False):
     future = present + "digan"
     out.add(future)
     out.update(noun_forms(future))
-    # The aorist: borar, oʻqir; negated bormas; with the endings (borarman, bormasman).
-    aorist = s + "mas" if negative else s + ("r" if vowel else "ar")
+    # The aorist: borar, oʻqir; negated bormas; with the endings (borarman, bormasman), and the habitual past made of it
+    # (borardim, borardik; bormasdi).
+    aorist = s + "s" if negative else s + ("r" if vowel else "ar")
     out.add(aorist)
-    out.update(aorist + e for e in PREDICATIVES + ("di", "kan", "di"))
+    out.update(aorist + e for e in PREDICATIVES + ("di", "kan"))
+    out.update(aorist + "di" + e for e in ("m", "ng", "k", "ngiz", "lar"))
     if negative:
         out.update({s + "sdan", s + "slik", s + "sligi", s + "sligini", s + "sligiga", s + "slikka", s + "slikni", s + "y", s + "ydi"})
     # The converb in -ib and the evidential past: borib, oʻqib, boribdi, boribman; and of a negated verb, bormabdi.
