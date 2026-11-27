@@ -1,0 +1,222 @@
+{
+  "id": "gv-mini-3500",
+  "rankUpTo": 3500,
+  "level": "B2",
+  "title": "Jeshaghtyn as y theay",
+  "description": "Ten short stories about technology and society: the old tram of Laxey and the banking scandal behind it, an aurora forecast from a magnetometer near Ramsey, a schools' debate on nuclear power, a cooking machine in a Peel café, a cargo ship dragging its anchor in a storm, scouts recording birds for university research, an online biology lesson, a baptism streamed with subtitles for a deaf grandfather, a twin-town festival with cricket and skaters, and museum headsets that show a walled town, a mummy and a ghost.",
+  "topic": "Technology and society",
+  "names": [
+    "Angharad",
+    "Tregear",
+    "Laksaa",
+    "Doolish",
+    "Eirlys",
+    "Penrice",
+    "Kenwyn",
+    "Rhumsaa",
+    "Tanwen",
+    "Chegwidden",
+    "Merryn",
+    "Vannin",
+    "Nalbin",
+    "Annest",
+    "Penwarden",
+    "Locryn",
+    "Pheeil",
+    "Sostyn",
+    "Kensa",
+    "Annear",
+    "Teilo",
+    "Lerphoyll",
+    "Ceinwen",
+    "Haldane",
+    "Cadan",
+    "Maghal",
+    "Rhonwen",
+    "Kinloch",
+    "Gwion",
+    "Nesta",
+    "Craigie",
+    "Lorne",
+    "Morcom",
+    "Tremayne",
+    "Elestren",
+    "Nerin",
+    "Tudno",
+    "Learmonth",
+    "Mairi",
+    "Moncrieff",
+    "Matias",
+    "Dunbrae",
+    "Dyfan",
+    "Strachan",
+    "Senan",
+    "Egypt",
+    "Roosh"
+  ],
+  "lessons": [
+    {
+      "title": "Yn tram as y banceyr",
+      "summary": "Angharad Tregear is writing a short history of Laxey and looks into the story of its old tram: an industrialist borrowed money from a Douglas banker to build a tram from the harbour to his mill, with a bridge of record span and a curved track up the hill; two years later a scandal broke when the banker was found to have taken other people's money, and the industrialist sold his mill to repay the villagers; Angharad finds his letter in the archive, so the story is credible.",
+      "newWords": [
+        "tram",
+        "çhynskyleyr",
+        "banceyr",
+        "reaish",
+        "cruillit",
+        "scammylt",
+        "trubbyl",
+        "aayeeil",
+        "credjallagh"
+      ],
+      "text": "Ta Angharad Tregear cummal ayns Laksaa. T'ee screeu lioar veg mychione shennaghys y valley, as 'sy tourey shoh v'ee jeeaghyn er skeeal y tram.\n\nRoish keead blein as ny smoo, va çhynskyleyr cummal ayns Laksaa. Va mwyllin vooar echey faggys da'n traie, as va keead dooinney gobbraghey ayn. Va'n çhynskyleyr laccal tram veih'n phurt gys y vwyllin, son dy beagh y traa er yn raad ny sloo. Agh cha row argid dy liooar echey. Myr shen, hie eh gys banceyr ayns Doolish. Hug y banceyr yn argid da'n çhynskyleyr, as dooyrt y çhynskyleyr dy jinnagh eh yn argid y aayeeil ayns jeih bleeaney.\n\nRen ny obbreeyn droghad noa harrish yn awin. Va reaish y droghad ny smoo na reaish droghad erbee elley 'sy çheer ec y traa shen. Lurg y droghad, va'n raad cruillit, son va'n clieau ard as cruillit neesht. Va'n tram goll seose dy moal, as va sleih y valley jeeaghyn er lesh yindys.\n\nLurg daa vlein, haink trubbyl. Va scammylt mooar ayns ny pabyryn-naight: va'n banceyr er ghoaill argid sleih elley son e hene. Hie yn banceyr gys pryssoon. Va trubbyl er y çhynskyleyr neesht, son cha row yn argid echey dy aayeeil. Agh ren eh yn mwyllin echey y chreck, as hug eh yn argid da sleih y valley.\n\nVa Angharad er chlashtyn y skeeal shoh veih e shenn-ayr. Agh row eh credjallagh? Cha row ee shickyr. Hie ee gys y thie-tashtee ayns Doolish, as hooar ee lettyr veih'n çhynskyleyr. 'Sy lettyr, dooyrt eh: “Ta'n scammylt shoh trome orrym, agh nee'm dagh ping y aayeeil.” Va'n skeeal credjallagh er-y-fa shen.\n\nJiu, cha nel y tram ayn. Agh ta'n droghad foast harrish yn awin, as ta sleih shooyl er y raad cruillit seose y clieau.\n\nFeyshtyn:\nQuoi va laccal tram ayns Laksaa?\nVa'n çhynskyleyr laccal tram veih'n phurt gys y vwyllin.\nQuoi hug yn argid da?\nHug banceyr ayns Doolish yn argid da.\nCre'n trubbyl haink lurg daa vlein?\nVa scammylt mooar: va'n banceyr er ghoaill argid sleih elley.\nCre'n reaish va ec y droghad noa?\nVa reaish y droghad ny smoo na reaish droghad erbee elley 'sy çheer.\nRow'n skeeal credjallagh?\nVa. Hooar Angharad lettyr veih'n çhynskyleyr."
+    },
+    {
+      "title": "Soilshaghyn y twoaie",
+      "summary": "Eirlys Penrice near Ramsey has a small meter in her garden that measures the earth's magnetism, and a computer that turns it and the flux from the sun into a nightly aurora forecast on a scale from one to nine; her neighbour Kenwyn does not trust forecasts, but she says hers is quantitative; one cold February night the forecast is seven, the weather is unstable and the wind sweeps the snow into drifts, but she climbs the bare hill behind the house, the clouds clear, and she phones Kenwyn to come and see the green and red lights.",
+      "newWords": [
+        "faaishnys",
+        "towsheyder",
+        "magnaidys",
+        "flusk",
+        "scailley",
+        "mooadagh",
+        "neuchinjagh",
+        "feayrid",
+        "sheeb",
+        "lhome"
+      ],
+      "text": "Ta Eirlys Penrice cummal ayns thie beg faggys da Rhumsaa. S'mie lhee soilshaghyn y twoaie, as t'ee shirrey ad dagh geurey.\n\nTa towsheyder beg ec Eirlys 'sy gharey. Ta'n towsheyder towse magnaidys y thallooin, as t'eh kianglt rish co-earrooder 'sy thie. Tra ta flusk mooar veih'n ghrian roshtyn y Cruinney, ta magnaidys y thallooin caghlaa, as foddee soilshaghyn y twoaie ve ry-akin. Ta'n co-earrooder cur faaishnys da Eirlys dagh oie: earroo er scailley veih nane gys nuy. Er y scailley shoh, ta nane feer lag, as ta nuy feer vooar.\n\nTa naboo ec Eirlys, Kenwyn. Cha nel credjue echey ayns faaishnys erbee. “Ta'n faaishnys shoh myr faaishnys yn emshir,” dooyrt eh. “Cha nel eh kiart dy mennick.”\n\n“Ta'n faaishnys aym mooadagh,” dooyrt Eirlys. “Cha nel mee jannoo tushtey. Ta mee coontey earrooyn veih'n towsheyder as veih'n flusk 'syn aer.”\n\nUn oie 'sy Toshiaght Arree, va'n faaishnys feer vie: shiaght er y scailley. Agh va'n emshir neuchinjagh. Va bodjallyn çheet as goll, as va'n geay sheebey yn sniaghtey trooid y raad. Ghow Eirlys cooat trome, as hie ee magh 'sy feayrid.\n\nHie ee seose er y clieau lhome cooyl y thie. Cha nel biljyn er y clieau lhome, as ta'n aer mooar as glen. Va sheebaghyn sniaghtey er y raad, as va'n feayrid cho trome dy row ee laccal goll thie. Agh eisht hie ny bodjallyn ersooyl.\n\nVa soilshaghyn glassey as jiarg 'syn aer harrish y keayn. Hug Eirlys çhellvane da Kenwyn. Haink eh seose y clieau, as hass ad cooidjagh 'sy feayrid son oor. Cha dooyrt Kenwyn veg son tammylt. Eisht dooyrt eh: “Va'n faaishnys ayd kiart.”\n\nFeyshtyn:\nCre ta'n towsheyder ec Eirlys towse?\nTa'n towsheyder towse magnaidys y thallooin.\nCre'n scailley ta'n faaishnys jannoo ymmyd jeh?\nTa'n faaishnys cur earroo er scailley veih nane gys nuy.\nCre'n fa ta Eirlys gra dy vel y faaishnys eck mooadagh?\nT'ee coontey earrooyn veih'n towsheyder as veih'n flusk 'syn aer.\nCre'n emshir va ayn er yn oie shen?\nVa'n emshir neuchinjagh, as va sheebaghyn sniaghtey er y raad.\nCre honnick ad er y clieau lhome?\nHonnick ad soilshaghyn glassey as jiarg 'syn aer harrish y keayn."
+    },
+    {
+      "title": "Yn arganey mychione pooar heshveanagh",
+      "summary": "Sixteen-year-old Tanwen Chegwidden goes to a small rural school on the edge of the island, and her teacher Merryn encourages her to speak in the schools' debate in Douglas on whether the island should build a nuclear power station; the other team calls nuclear power the progressive way, and Tanwen answers that as democrats they should let the public choose, but only when it knows where the waste will be kept; she gets a year wrong, admits the mistake, and her team wins, to the pride of her teacher, school and mother.",
+      "newWords": [
+        "cheshveanagh",
+        "oraatagh",
+        "doodee",
+        "ymmyllagh",
+        "greesaght",
+        "eiyrtagh",
+        "deynlaghteyr",
+        "marran",
+        "barriaghtagh",
+        "moyrn"
+      ],
+      "text": "Ta Tanwen Chegwidden shey bleeaney jeig d'eash. T'ee goll gys scoill veg ymmyllagh 'sy sheear, faggys da'n cheayn. Ta queig as daeed scoillaryn 'sy scoill ymmyllagh shoh, as ta'n chooid smoo jeu cummal er thieyn-eirinee.\n\nBleeaney er bleeaney, ta arganey mooar ec scoillyn yn ellan ayns Doolish. 'Sy vlein shoh, va'n feysht: “Lhisagh stashoon pooar heshveanagh ve troggit er Ellan Vannin?” Va'n ynseyder eck, Merryn, laccal Tanwen y chur 'syn arganey, son dy row ee ny h-oraatagh vie. Cha row Tanwen shickyr. “Cha nel ad cur geill da doodee veih scoill ymmyllagh,” dooyrt ee.\n\n“Ta greesaght feer ymmydoil,” dooyrt Merryn, “as ta mish cur greesaght dhyt nish. She oraatagh oo. Cha nel doodee erbee ayns Doolish ny share na oo.”\n\nVa Tanwen arganey noi pooar heshveanagh. Va'n possan elley veih scoill vooar ayns Doolish. Dooyrt y fer oc: “Ta shin eiyrtagh. Ta pooar heshveanagh glen, as cha nel eh cur jaagh 'syn aer. Shen yn raad eiyrtagh.”\n\nEisht loayr Tanwen. “Ta shin ooilley nyn deynlaghteyryn,” dooyrt ee. “Er-y-fa shen, lhisagh y theay reih. Agh cre'n aght foddee y theay reih, tra nagh vel fys oc c'raad nee ad yn stoo heshveanagh y reayll son thousane blein?”\n\nAgh ren ee marran. Dooyrt ee dy row stashoon pooar heshveanagh er ny hroggal ayns Nalbin 'sy vlein 1990. Cha row'n vlein shen kiart. Hass y fer elley seose as dooyrt eh: “Ta marran ayns shen.” Va Tanwen jiarg 'sy eddin, agh dooyrt ee: “Ta. Ren mee marran. Ta deynlaghteyryn gra eh tra ta marran jeant oc.” Ren ny briwnyn gearey.\n\nEc y jerrey, va possan Tanwen barriaghtagh. Va moyrn er Merryn, as va moyrn er ny scoillaryn elley 'sy scoill ymmyllagh. Tra haink Tanwen thie, va moyrn er e moir neesht. “Cha nel moyrn ayns cosney,” dooyrt Tanwen, “agh ta moyrn ayns loayrt dy firrinagh.”\n\nFeyshtyn:\nC'raad ta Tanwen goll gys scoill?\nT'ee goll gys scoill veg ymmyllagh 'sy sheear.\nCre'n fa nagh row Tanwen shickyr?\nDooyrt ee nagh vel sleih cur geill da doodee veih scoill ymmyllagh.\nCre'n feysht va ec yn arganey?\nLhisagh stashoon pooar heshveanagh ve troggit er Ellan Vannin?\nCre'n marran ren Tanwen?\nDooyrt ee blein nagh row kiart son stashoon ayns Nalbin.\nQuoi va barriaghtagh?\nVa possan Tanwen barriaghtagh."
+    },
+    {
+      "title": "Yn jeshaght 'sy chaffee",
+      "summary": "Annest Penwarden runs a pleasant little café by the harbour in Peel and buys a cooking machine from England with two arms that can use a pan and a spoon; the cook Locryn does not want it; on the first morning it cooks a sausage pudding well over the blue gas flame from the pipe, but on the second day the flame is too big, the kitchen fills with smoke and the pudding burns; Locryn, angry, shuts off the pipe and feeds the hungry customers tinned herring and tinned beans; now the machine washes up and Locryn cooks.",
+      "newWords": [
+        "panney",
+        "spein",
+        "putage",
+        "lossan",
+        "piob",
+        "kionneyder",
+        "ferg",
+        "gerjoil",
+        "stainnee"
+      ],
+      "text": "Ta caffee beg ec Annest Penwarden ayns Pheeil, faggys da'n phurt. Ta'n caffee gerjoil: ta ny buird beggey, ta kiaull meein ayn, as ta ny kionneyderyn taggloo as gearey. Ta Locryn gobbraghey 'sy chamyr-aarlee. T'eh er ve coagyrey 'sy chaffee rish feed blein.\n\n'Sy tourey shoh, chionnee Annest jeshaght noa son y chamyr-aarlee. Haink y jeshaght veih Sostyn. Ta daa laue eck, as foddee ee bee y choagyrey lesh panney as spein. “Bee'n obbyr ny sloo trome dhyt lesh y jeshaght shoh,” dooyrt Annest rish Locryn.\n\nCha row Locryn gerjoil. “Cha nel feme aym er jeshaght,” dooyrt eh.\n\nEr y chied voghrey, ren y jeshaght putage y choagyrey. Hug ee yn putage ayns y panney, as hug ee yn aile er. Va'n gas çheet trooid piob veg veih'n voalley, as va lossan gorrym fo'n panney. Ren y jeshaght yn obbyr dy mie: ren ee yn putage y hyndaa lesh y spein, as va'n putage aarloo ayns queig minnidyn.\n\nAgh er y nah laa, va'n lossan ro vooar. Va'n gas çheet trooid y piob dy tappee, as cha row fys ec y jeshaght er shen. Va jaagh dorraghey 'sy chamyr-aarlee, as va'n putage dooie. Va ferg er Locryn. “Jeeagh er y putage!” dooyrt eh, as e ferg feer vooar. Hug eh yn aile ass, as ren eh y piob y ghooney.\n\nVa ny kionneyderyn fuirraghtyn son nyn mee. Ren Locryn skeddan stainnit as poanrey stainnit y choagyrey dauesyn, son dy row ny kionneyderyn laccal bee. Va ny kionneyderyn gerjoil reesht.\n\nLurg shen, ren Annest as Locryn taggloo. Nish, cha nel y jeshaght coagyrey. T'ee glenney yn panney as ny speinyn, as ta Locryn coagyrey yn putage hene. Va ferg er Locryn son tammylt, agh nish t'eh gra dy vel y jeshaght feer ymmydoil.\n\nFeyshtyn:\nQuoi ta gobbraghey 'sy chamyr-aarlee ayns caffee Annest?\nTa Locryn gobbraghey ayn.\nCre ren y jeshaght er y chied voghrey?\nRen ee putage ayns panney, as va'n putage aarloo ayns queig minnidyn.\nCre'n fa va ferg er Locryn er y nah laa?\nVa'n lossan ro vooar, as va'n putage dooie.\nCre ren Locryn son ny kionneyderyn?\nRen eh skeddan stainnit as poanrey stainnit y choagyrey."
+    },
+    {
+      "title": "Yn sterrym as yn aker",
+      "summary": "Kensa Annear is the secretary of a small shipping office in Douglas whose fleet of three cargo ships carries loads to Liverpool; a new system shows every ship on the computer, with all the clocks synchronised; on a stormy winter night the signal from the third ship grows weak and stops, the captain says their anchor is dragging near the rocks, and the harbour master Teilo takes control of the port, issues an official warning and sends out the lifeboat; the ship comes in safely at three in the morning, the client is told the load will be six hours late, and Kensa writes an official report.",
+      "newWords": [
+        "sheckteragh",
+        "flod",
+        "laad",
+        "cliant",
+        "sincroan",
+        "smaghtaghey",
+        "annoonagh",
+        "aker",
+        "barrantoil"
+      ],
+      "text": "She sheckteragh ee Kensa Annear. T'ee gobbraghey ayns oik veg ayns Doolish, faggys da'n phurt. Ta flod beg ec yn oik: three lhongyn traghtys. Ta ny lhongyn shoh goaill laad eddyr Doolish as Lerphoyll: bee, fuygh, gleashtanyn as reddyn elley. Ta Kensa freggyrt çhellvane da ny cliantyn, as t'ee freayll arrey er y flod er y co-earrooder.\n\nTa corys noa 'syn oik. Ta jeshaght er dagh lhong, as ta'n jeshaght cur cowrey dys yn oik dagh minnid. Ta ny claghyn er ny lhongyn as y clag 'syn oik sincroanit, myr shen ta'n traa kiart er dy chooilley jeshaght. Er y co-earrooder, ta Kensa fakin c'raad ta dagh lhong, as cre cho tappee as t'ee goll.\n\nUn oie 'sy gheurey, haink sterrym mooar. Va Kensa 'syn oik marish Teilo, mainshtyr y phurt. She Teilo ta smaghtaghey ny lhongyn ta goll stiagh as magh. Va daa lhong 'sy phurt, agh va'n trass lhong er y keayn, lesh laad trome son cliant ayns Doolish. Va'n cowrey veih'n lhong shen annoonagh. Ayns tammylt, va'n cowrey ny smoo annoonagh, as eisht cha row cowrey erbee ayn.\n\n“Cha nel ad sincroanit nish,” dooyrt Kensa. “Cha nel fys aym c'raad t'ad.”\n\nHug Teilo çhellvane da captan y lhong. “Ta'n gheay ro lajer,” dooyrt y captan. “Ta shin er yn aker faggys da'n chreg, agh ta'n aker tayrn trooid y gheinnagh.”\n\nGhow Teilo smaghtaghey er y phurt. Hug eh raaue barrantoil magh: cha row lhong erbee elley dy goll stiagh ny magh. Hug eh baatey-sauçhey magh neesht. Lurg oor, va'n aker lajer 'sy gheinnagh reesht, as haink y lhong stiagh 'sy phurt dy sauçhey ec three er y chlag 'sy voghrey.\n\n'Sy voghrey, hug y cliant çhellvane da Kensa. “Ta'n laad ayd sauçhey,” dooyrt ee, “agh bee eh shey ooryn anmagh.” “Shen naight vie,” dooyrt y cliant. Ren Kensa screeu coontey barrantoil mychione yn oie. Ec y jerrey, ren ee screeu: “Ta'n jeshaght mie, agh ta feme orrin er sleih neesht.”\n\nFeyshtyn:\nCre'n obbyr t'ec Kensa Annear?\nShe sheckteragh ee ayns oik ayns Doolish.\nCre wheesh dy lhongyn t'ayns y flod?\nTa three lhongyn traghtys 'sy flod.\nRow ny claghyn er ny lhongyn sincroanit?\nVa. Va ny claghyn er ny lhongyn as y clag 'syn oik sincroanit.\nCre haink er y cowrey veih'n trass lhong?\nVa'n cowrey annoonagh, as eisht cha row cowrey erbee ayn.\nCre ren Teilo?\nGhow eh smaghtaghey er y phurt, as hug eh raaue barrantoil magh."
+    },
+    {
+      "title": "Ny scrialtee as ny ushagyn",
+      "summary": "Ceinwen Haldane leads the scouts in Maughold, and they help a university research project on Manx birds with an app on their phones; on the first day the youngest scout Cadan cannot count a hundred starlings and photographs them instead, and gets a good picture of a greenfinch; on the second day a climber from the university goes down the sea cliffs on a rope to count the kittiwake nests; on the third day they find two grebes and a striped chick on a pond in a sheltered hollow between two hills.",
+      "newWords": [
+        "scrialtagh",
+        "ronsey",
+        "trutlag",
+        "glassag",
+        "pirragh",
+        "raiseyder",
+        "lhaggan",
+        "kereen",
+        "rimmeigagh"
+      ],
+      "text": "She Ceinwen Haldane kione-possan ny scrialtee ayns Maghal. 'Sy tourey shoh, va obbyr noa ec ny scrialtee. Va'n ollooscoill jannoo ronsey mychione ushagyn Ellan Vannin, as v'ee laccal fysseree veih'n theay. Va claare er çhellvane ec dagh scrialtagh. Tra va scrialtagh fakin ushag, v'eh screeu ennym yn ushag 'sy chlaare, as v'eh goaill jalloo jeh. Va ny fysseree goll jeeragh gys y ronsey 'syn ollooscoill.\n\nEr y chied laa, va ny scrialtee ayns garey ec y scoill. Va keead trutlag er ny biljyn as er y thalloo. Va ny trutlagyn jannoo sheean mooar. Va Cadan, yn scrialtagh s'aegey, coontey ny trutlagyn, agh v'ad goll seose as sheese, as cha dod eh ad y choontey. “Gow jalloo jeu,” dooyrt Ceinwen. “Foddee shin ad y choontey 'sy jalloo.”\n\nVa glassag ec y voayl-vee neesht. Ta'n ghlassag glass as buigh, as t'ee goaill rass. Ren Cadan jalloo mie jeh'n ghlassag.\n\nEr y nah laa, hie ad gys ny creggyn mooarey faggys da'n cheayn. Ta ny pirree cummal er ny creggyn shoh. Va raiseyder veih'n ollooscoill ayns shen. Hie'n raiseyder sheese ny creggyn er tead, as ren eh coontey ny edd. Va ny scrialtee freayll arrey er y raiseyder veih mullagh ny creggey. Va daa cheead pirragh ayn, as va oohyn ayns ny edd oc.\n\nEr y trass laa, hie ad gys logh beg ayns lhaggan eddyr daa chronk. Ta'n lhaggan sauçhey veih'n gheay, as ta ushagyn ushtey cummal ayn. Va daa eean kereen 'syn ushtey. Va eean kereen beg rimmeigagh marish: va'n kione echey rimmeigagh, doo as bane. Va boggey mooar er Cadan. “Ta'n ushag beg shoh myr y gansee rimmeigagh aym,” dooyrt eh.\n\nEc y jerrey, hug Ceinwen ny fysseree ooilley gys yn ollooscoill. Ghow fer yn ronsey baght jeu, as dooyrt eh dy row obbyr ny scrialtee feer ymmydoil.\n\nFeyshtyn:\nCre'n ronsey va'n ollooscoill jannoo?\nVa'n ollooscoill jannoo ronsey mychione ushagyn Ellan Vannin.\nCre'n fa nagh dod Cadan ny trutlagyn y choontey?\nVa ny trutlagyn goll seose as sheese.\nCre ren y raiseyder er ny creggyn?\nHie eh sheese ny creggyn er tead, as ren eh coontey edd ny pirree.\nC'raad honnick ad yn eean kereen?\nHonnick ad eh 'sy logh beg ayns y lhaggan eddyr daa chronk."
+    },
+    {
+      "title": "Lessoon er y voggyl",
+      "summary": "Every Friday the teacher Rhonwen Kinloch in Castletown gives a biology lesson online that other schools watch on their computers; she feeds green leaves to Gwion, the class's forty-year-old tortoise, and explains chlorophyll; she shows the newts in the tank, whose skin glands make poison and which lay eggs, unlike animals that bear live young; then the camera goes to a nearby farm, where a herd of cattle and an ox show what hoofed animals are, and the parasites on the ox's skin show how a parasite lives on another animal.",
+      "newWords": [
+        "shligganagh",
+        "chlorophyll",
+        "lossag",
+        "fairaig",
+        "breyagh",
+        "griagh",
+        "crubbagh",
+        "dow",
+        "sheadane"
+      ],
+      "text": "Ta Rhonwen Kinloch ny ben-ynsee ayns scoill ayns Balley Chashtal. Dagh Jeheiney, t'ee cur lessoon bea-oaylleeaght er y voggyl. Ta scoillaryn ayns scoillyn elley 'syn ellan jeeaghyn er y lessoon er co-earrooderyn.\n\nEr y Jeheiney shoh, ren ee toshiaght lesh y shligganagh 'sy shamyr-scoill. She Gwion ennym y shligganagh, as t'eh daeed blein d'eash. Hug Rhonwen duillagyn glassey da. “Cre'n fa ta ny duillagyn glass?” dooyrt ee. “Ta chlorophyll ayns ny duillagyn. Ta'n chlorophyll goaill soilshey y ghrian, as ta'n duillag jannoo bee jeh. Ta'n shligganagh gee ny duillagyn, as myr shen, ta bree y ghrian goll stiagh 'sy shligganagh.”\n\nEisht yeeagh ny scoillaryn er y tank. Va daa lossag ayn. “Ta crackan nieunagh ec y lossag,” dooyrt Rhonwen. “Ta fairaigyn beggey 'sy chrackan, as ta ny fairaigyn shoh jannoo nieu. Myr shen, cha nel ny ushagyn gee ny lossagyn.” Ta'n lossag ooh-vreyagh: t'ee cur oohyn 'syn ushtey 'syn arragh. Agh cha nel dagh beishteig ooh-vreyagh. Ta paart jeu bio-vreyagh: ta ny paitçhyn çheet magh bio.\n\n'Sy nah ayrn jeh'n lessoon, hie Rhonwen er y voggyl gys thalloo-eirinys faggys da'n scoill. Va griagh mooar dy ollagh er y vagher. “Ta'n ollagh crubbagh,” dooyrt ee. “She beiyn crubbagh ad, myr y cabbyl as y goayr.”\n\nVa dow 'sy vagher neesht. Va'n dow ny smoo na'n ollagh elley, as va eairkyn mooarey echey. Yeeagh Rhonwen er crackan y dow. Va sheadaneyn beggey er. “Ta sheadane cummal er beishteig elley,” dooyrt ee. “T'eh goaill bee veih, as cha nel eh cur veg da. Ta'n eirinagh cur lheeys er crackan y dow noi ny sheadaneyn.”\n\nEc y jerrey, dooyrt scoillar ayns Rhumsaa er y voggyl: “Vel sheadane ec Gwion?” Ren Rhonwen gearey. “Cha nel. Ta Gwion glen.”\n\nFeyshtyn:\nCre'n fa ta duillagyn glass?\nTa chlorophyll ayns ny duillagyn.\nCre ta fairaigyn y lossag jannoo?\nTa ny fairaigyn ayns y chrackan jannoo nieu.\nCre honnick ny scoillaryn er y vagher?\nHonnick ad griagh mooar dy ollagh, as dow.\nVel y dow crubbagh?\nTa. She beishteig chrubbagh eh, myr y cabbyl as y goayr.\nCre ta sheadane jannoo?\nTa sheadane cummal er beishteig elley, as t'eh goaill bee veih."
+    },
+    {
+      "title": "Yn oikan as y sharmane er y voggyl",
+      "summary": "Nesta Craigie's three-month-old baby Elestren is to be baptised in a small Douglas church, but Nesta's grandfather Lorne, ninety, deaf and a devout Catholic, lives in Ireland and cannot come; the church streams the service, and Nesta's brother adds subtitles so Lorne can read every word; the preacher Morcom Tremayne, who wears no priestly robes, preaches on what the churches have in common, love and mercy, and calls the baby an angel; the stream breaks in the middle and is reconnected, and Lorne writes afterwards that though he is deaf he heard every word.",
+      "newWords": [
+        "oikan",
+        "bouyr",
+        "catoleaghys",
+        "preaçhoor",
+        "saggyrtoil",
+        "sharmane",
+        "cadjinys",
+        "myghin",
+        "ainle",
+        "aachiangle"
+      ],
+      "text": "Ta oikan noa ec Nesta Craigie. She Elestren ennym yn oikan, as t'ee three meeghyn d'eash. Er y Jedoonee shoh, va Elestren dy ve bashtit 'sy cheeill veg ayns Doolish.\n\nTa shenn-ayr Nesta, Lorne, cummal ayns Nerin. T'eh kiare feed as jeih d'eash, as t'eh bouyr. Cha nel eh abyl shooyl foddey, as cha row eh abyl çheet gys Doolish. Ta Lorne credjal ayns catoleaghys. Ta catoleaghys feer scanshoil da, as t'eh goll gys yn agglish dagh Jedoonee. Ta Nesta as e sheshey goll gys keeill elley, keeill veg ayns Doolish.\n\nVa'n keeill cur y shirveish er y voggyl. Agh cre'n aght oddagh Lorne y shirveish y chlashtyn, as eh bouyr? Ren braar Nesta claare noa y chur er y cho-earrooder: va fo-screeuyn çheet er y scaa, myr shen va Lorne abyl lhaih dagh fockle.\n\nShe Morcom Tremayne yn preaçhoor 'sy cheeill. Cha nel eaddagh saggyrtoil er, myr ta er y saggyrt ayns agglish Lorne. Ta cooat doo as lheiney vane er. Agh va'n sharmane echey feer vie. Va'n sharmane mychione cadjinys. “Ta catoleaghys ayn, as ta agglishyn elley ayn,” dooyrt y preaçhoor. “Agh ta cadjinys mooar eddyr ain: ta shin ooilley credjal ayns graih as ayns myghin. Ta myghin Yee er dy chooilley oikan.” Yeeagh eh er Elestren. “Ta'n oikan shoh myr ainle,” dooyrt eh. Va jalloo ainle 'syn uinnag ec kione y cheeill.\n\n'Sy vean jeh'n sharmane, va'n voggyl brisht. Cha row Lorne fakin veg. Ren braar Nesta y co-earrooder y aachiangley, as lurg queig minnidyn, va Lorne aachianglit. Va'n preaçhoor foast loayrt mychione myghin.\n\nLurg y shirveish, hug Lorne çhaghteraght da Nesta: “Ta mee bouyr, agh va mee clashtyn dagh fockle. Va'n sharmane shen mie, ga nagh vel y preaçhoor credjal ayns catoleaghys. Ta cadjinys ain.”\n\nFeyshtyn:\nQuoi ta Elestren?\nShe oikan noa Nesta Craigie ee.\nCre'n fa nagh row Lorne abyl clashtyn y shirveish?\nT'eh bouyr, as t'eh cummal ayns Nerin.\nRow eaddagh saggyrtoil er y preaçhoor?\nCha row. Va cooat doo as lheiney vane er.\nCre va'n sharmane mychione?\nVa'n sharmane mychione cadjinys, graih as myghin."
+    },
+    {
+      "title": "Yn feish 'sy valley lannoonagh",
+      "summary": "Peel is twinned with Dunbrae, a small town in Scotland, and Tudno Learmonth runs a festival there after six months of preparatory video meetings with Mairi Moncrieff, the provost of Dunbrae; the children stay in the youth hostel and the provost in a small inn; on the first day the cricketers of the two towns play in white trousers, with a Chilean student in the Dunbrae side and fans singing and shouting; on the second day young skaters jump at the new park, and a little girl falls and tears her trousers but is not hurt; the whole festival is streamed for the people at home.",
+      "newWords": [
+        "lannoonagh",
+        "smaghteyr",
+        "aarlagh",
+        "oastys",
+        "feish",
+        "criggadagh",
+        "troosyn",
+        "shilleeagh",
+        "baanreydagh",
+        "skyrreyder"
+      ],
+      "text": "Ta Pheeil lannoonagh rish balley beg ayns Nalbin, Dunbrae. Rish feed blein, ta ny baljyn lannoonagh shoh cur cuirraghyn da'n cheilley. 'Sy tourey shoh, va feish mooar ayns Pheeil, as va sleih veih Dunbrae dy heet.\n\nShe Tudno Learmonth ta stiurey yn feish. Va'n obbyr aarlagh trome. Rish shey meeghyn, va cruinnaghtyn aarlagh echey er y voggyl marish Mairi Moncrieff, smaghteyr Dunbrae. Ta smaghteyr myr meoir ayns Nalbin: she ish kione y valley. Ayns ny cruinnaghtyn aarlagh, ren ad reih c'raad va'n sleih veih Dunbrae dy chadley. Va oastys aegid ayns Pheeil, as va thie-oast beg faggys da'n traie. Hie ny paitçhyn gys yn oastys, as hie'n smaghteyr gys y thie-oast.\n\nEr y chied laa jeh'n feish, va cloie criggad. Va possan criggadee veih Dunbrae noi possan veih Pheeil. Va troosyn bane as lheiney vane er dy chooilley chriggadagh. Va criggadagh shilleeagh 'sy possan veih Dunbrae, Matias. She ynseydagh shilleeagh eh ayns Nalbin. “Cha nel ad cloie criggad 'sy çheer aym,” dooyrt Matias, “agh s'mie lhiam eh nish.” Va boggey mooar er ny baanreydee. Va ny baanreydee veih Dunbrae goaill arraneyn, as va ny baanreydee veih Pheeil jannoo sheean mooar neesht.\n\nEr y nah laa, va ny skyrreyderyn ec y pairk noa. Ren ny skyrreyderyn aegey veih ny daa valley lheimyn ard. Huitt skyrreyder beg veih Dunbrae, inneen hoght bleeaney d'eash, as va ny troosyn eck raipit, agh cha row ee gortit.\n\nVa'n feish ooilley er y voggyl, myr shen va sleih ayns Dunbrae abyl jeeaghyn er. Ec y jerrey, loayr y smaghteyr. “Ta ny baljyn lannoonagh ain myr braaraghyn,” dooyrt ee. “Bee'n nah feish ayns Dunbrae.”\n\nFeyshtyn:\nQuoi ta Mairi Moncrieff?\nShe smaghteyr Dunbrae ee, yn balley lannoonagh.\nC'raad hie ny paitçhyn dy chadley?\nHie ad gys yn oastys aegid ayns Pheeil.\nQuoi ta Matias?\nShe criggadagh shilleeagh eh 'sy possan veih Dunbrae.\nCre haink er y skyrreyder beg?\nHuitt ee, as va ny troosyn eck raipit, agh cha row ee gortit."
+    },
+    {
+      "title": "Yn scaanjoon 'sy chashtal",
+      "summary": "Dyfan Strachan works in the castle museum in Castletown, which has new headsets that show another world; ten-year-old Senan and his grandmother visit on Saturday; in the first headset Senan sees the walled town of five hundred years ago; in the next room a real Egyptian mummy lies with silver, iron and gold, and Dyfan explains that iron oxidises in damp air but gold never does; the third headset shows an old Manx playwright's play about a tsar's general and his lover, whose ghost still walks the castle wall, and Senan is frightened until his grandmother laughs; at home he says the real mummy was best.",
+      "newWords": [
+        "boallit",
+        "shirgane",
+        "ocsaidee",
+        "draameyder",
+        "saar",
+        "kionfenee",
+        "lhiannan",
+        "scaanjoon"
+      ],
+      "text": "Ta Dyfan Strachan gobbraghey 'sy thie-tashtee 'sy chashtal ayns Balley Chashtal. 'Sy tourey shoh, ta jeshaghtyn noa 'sy thie-tashtee. Ta'n jeshaght soit er y kione, harrish ny sooillyn, as tra t'ou jeeaghyn trooid, t'ou fakin seihll elley.\n\nEr y Jesarn, haink Senan, jeih bleeaney d'eash, gys y thie-tashtee marish e shenn-voir. Hug Dyfan jeshaght er kione Senan. Honnick Senan y balley myr v'eh roish queig cheead blein: balley beg boallit, lesh boalley ard clagh mygeayrt y valley ooilley. “Cre'n fa va'n balley boallit?” dooyrt Senan. “Son dy reayll noidyn magh,” dooyrt Dyfan.\n\nEisht hie ad gys shamyr elley. Va shirgane ayns shen, shirgane firrinagh veih Egypt. Va'n shirgane shoh er ny chur ayns ooig roish three thousane blein. Va meainyn ayns y kishtey marish: argid, yiarn as airh. “Jeeagh er y yiarn,” dooyrt Dyfan. “Ta'n yiarn ocsaidaghey. Tra ta yiarn ayns aer fliugh, t'eh ocsaidaghey, as t'eh jiarg as brisht. Agh cha nel airh ocsaidaghey rieau.” Ta'n shirgane ayns kishtey glen as çhirrym, son nagh jig y fliughid er.\n\nAyns y trass shamyr, va cloie er y jeshaght. Va'n cloie screeuit liorish draameyder veih Ellan Vannin roish keead blein. Va'n draameyder screeu cloie mychione saar ny Roosh. Va kionfenee ec y saar, as va lhiannan ec y kionfenee: inneen y chashtal shoh. Va'n kionfenee goit 'sy chaggey, as cha daink eh rieau thie. Rere y draameyder, ta scaanjoon y lhiannan foast shooyl er boalley y chashtal 'syn oie, shirrey yn kionfenee.\n\nHonnick Senan y scaanjoon 'sy jeshaght: ben vane ayns coamrey liauyr. Va aggle er. Ghow e shenn-voir y jeshaght jeh e chione, as ren ee gearey. “Cha nel scaanjoon erbee ayn,” dooyrt ee. “She skeeal y draameyder eh.”\n\nTra hie ad thie, dooyrt Senan: “She'n shirgane va share lhiam. Cha row y shirgane ayns jeshaght. V'eh firrinagh.”\n\nFeyshtyn:\nCre honnick Senan 'sy chied jeshaght?\nHonnick eh y balley boallit myr v'eh roish queig cheead blein.\nCre'n fa ta'n yiarn jiarg?\nTa'n yiarn ocsaidaghey ayns aer fliugh.\nQuoi va'n cloie mychione?\nVa'n cloie mychione saar ny Roosh as y kionfenee echey.\nQuoi va'n lhiannan 'sy cloie?\nVa'n lhiannan inneen y chashtal, as va graih eck er y kionfenee.\nCre'n fa va aggle er Senan?\nHonnick eh y scaanjoon 'sy jeshaght: ben vane ayns coamrey liauyr."
+    }
+  ]
+}
