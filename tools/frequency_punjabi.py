@@ -25,7 +25,10 @@ Two that share none stay apart (ਸਾਲ "year", ਸ਼ਾਲ "shawl"; ਪਤ�
 
 Once counted (fold), a form counts only its uses as a word, spread over the corpus's pages: not what one article repeats,
 nor its uses as a piece of a name or of a word a space split (read_usage); a noun mostly so used is a name and left out.
-A verb's forms that tell no verb count for it only beside its telling ones (_unpieced).
+A verb's forms that tell no verb count for it only beside its telling ones (_unpieced). And a word that is another's form
+or spelling is filed under it (_refile): by its glosses ("(variant of ਉਹਨਾਂ)", "(plural of ਕਿਰਿਆ)"), by hand
+(VARIANTS), as a spelling (variant_key, glossed_key), a plural, oblique or feminine (FORM_BASE) or a conjunctive participle
+written as one word (ਬਣਕੇ).
 """
 import heapq
 import io
@@ -546,6 +549,171 @@ def read_usage(corpora, known):
     return seen, spread, {w: min(n, seen[w]) for w, n in lost.items()}
 
 
+# A word of the pack glossed as another's form or spelling ("(variant of ਉਹਨਾਂ) them", "(plural of ਕਿਰਿਆ) actions",
+# "(feminine of ਹੇਠਲਾ) lower", "(oblique of ਕੋਨਾ)", "(colloquial for ਜਿਸ ਦਾ) whose") is that word's; of a word the list
+# lacks, it is that word (ਕੋਨਾ for ਕੋਨੇ), unless a name's (ਲੁਧਿਆਣੇ) or one left out (ਸਿੰਘਾਂ).
+FORM_GLOSS = re.compile(r"\((?:[a-z ,]+?) (?:of|for) ([\u0a00-\u0a7f]+)")
+# Words that are others' spellings, which no rule finds: a dialect's (ਓਸ for ਉਸ, ਚਾਵਲ for ਚੌਲ, ਆਵਦਾ for ਆਪਣਾ) or
+# Hindi's (ਇਤਨਾ for ਇੰਨਾ, ਕਿਸੀ for ਕਿਸੇ).
+VARIANTS = {"ਜ਼ਬਾਨ": "ਜ਼ੁਬਾਨ", "ਓਸ": "ਉਹ", "ਚਾਵਲ": "ਚੌਲ", "ਇਤਨਾ": "ਇੰਨਾ", "ਜਿਨਾ": "ਜੋ", "ਕਿਸੀ": "ਕੋਈ", "ਜੀਹਦਾ": "ਜੋ", "ਓਹਦਾ": "ਉਹ",
+            "ਆਵਦਾ": "ਆਪ", "ਨਈਂ": "ਨਹੀਂ", "ਥੋਡ਼ਾ": "ਥੋੜ੍ਹਾ", "ਤਿਓਹਾਰ": "ਤਿਉਹਾਰ", "ਪ੍ਰਤੀਨਿਧੀ": "ਪ੍ਰਤੀਨਿਧ",
+            "ਪ੍ਰਤਿਨਿੱਧੀ": "ਪ੍ਰਤੀਨਿਧ", "ਆਖਿਰ": "ਆਖਰ"}
+# A plural or oblique the pack has as a word of its own (ਮੁੱਲਾਂ "mullahs", ਗੋਡੇ "knees") is its singular's when that is
+# FORM_BASE times as common or glossed alike; an adjective's feminine (ਹਲਕੀ, ਉੱਘੀ) is its adjective's.
+FORM_BASE = 2
+
+
+def variant_key(word, verb):
+    """[loose], and for a verb as texts write it too: -ਣਾ as -ਨਾ (ਬਦਲਣਾ, ਬਦਲਨਾ), ਉ before -ਣਾ left out (ਚਲਾਉਣਾ, ਚਲਾਣਾ),
+    ਿ, ੀ and ਉ, ਊ alike (ਜਿਊਣਾ, ਜੀਉਣਾ); and ੁਆ as ਵਾ (ਸੁਆਦ, ਸਵਾਦ)."""
+    key = loose(word).replace("ੁਆ", "ਵਾ")
+    if verb:
+        key = re.sub("ਉ?[ਣਨ]ਾ$", "ਨਾ", key.replace("ੀ", "ਿ").replace("ਊ", "ਉ"))
+    return key
+
+
+def glossed_key(word):
+    """[variant_key], with ਿ, ੀ, ੁ, ੂ but a last one left out and ਰ subjoined or not (ਬੀਮਾਰ, ਬਿਮਾਰ; ਹਿਮਾਇਤ, ਹਮਾਇਤ;
+    ਕਿਰਿਆ, ਕ੍ਰਿਆ; ਸਰੋਤ, ਸ੍ਰੋਤ): for two words of the pack glossed alike (_alike)."""
+    key = variant_key(word, False).replace("ਿਰ", "ਰ").replace("੍ਰ", "ਰ").replace("ਈ", "ਇ").replace("ਊ", "ਉ")
+    return re.sub("[ਿੀੁੂ](?=.)", "", key.replace("ੀ", "ਿ").replace("ੂ", "ੁ"))
+
+
+def _alike(first, a, b):
+    """Whether two words of the pack are glossed alike: their first glosses share a word ([first]), or all their glosses
+    half the smaller's (ਹਿਮਾਇਤ, ਹਮਾਇਤ "support")."""
+    return bool(first) or len(a & b) >= max(1, -(-min(len(a), len(b)) // 2))
+
+
+# Words of the pack spelled alike but for glossed_key that are other words, though their glosses meet: ਜੁੱਟ "group, team"
+# (ਜੱਟ "Jatt (ethnic group)"), ਤਸੱਵੁਰ "imagination, mental image" (ਤਸਵੀਰ "picture, image"), ਪਰਵਾਹ "care" (ਪ੍ਰਵਾਹ "flow").
+APART = {"ਜੁੱਟ", "ਤਸੱਵੁਰ", "ਪਰਵਾਹ"}
+
+
+def _pack(dictionaries):
+    """Each word of the pa-en pack's first glosses, and its kinds."""
+    firsts, kinds = {}, {}
+    with sqlite3.connect(os.path.join(dictionaries, "pa-en.sqlite")) as db:
+        for word, kind, senses in db.execute("SELECT word_lc, pos, senses FROM entries ORDER BY id"):
+            firsts.setdefault(word, []).extend(g for s in json.loads(senses)[:1] for g in s.get("glosses", [])[:1])
+            kinds.setdefault(word, set()).add(kind)
+    return firsts, kinds
+
+
+def _merge(word, into, scores, forms):
+    for form, credit in sorted(forms.pop(word, {}).items()):
+        forms[into][form] = forms[into].get(form, 0) + credit
+    scores[into] = sum(forms[into].values())
+    del scores[word]
+
+
+def _refile(scores, forms, pos, lemmas, dictionaries):
+    """
+    Files the words of [scores] that are others' under them, in place: by their glosses (FORM_GLOSS) or by hand (VARIANTS);
+    then a spelling under the commonest (variant_key, glossed_key); then a plural, oblique, feminine (FORM_BASE) or joined
+    conjunctive participle under its word.
+    """
+    firsts, kinds = _pack(dictionaries)
+    glossed, _ = gloss_words(dictionaries)
+    left_out = EXCLUDE | NOT_WORDS
+    merged = {}
+
+    def listed(word, depth=0):
+        while word in merged:
+            word = merged[word]
+        if word in scores:
+            return word
+        for lemma in OVERRIDES.get(word, []) + lemmas.get(word, []) if depth < 3 else []:
+            if lemma != word and listed(lemma, depth + 1):
+                return listed(lemma, depth + 1)
+        return None
+
+    def apply(moves):
+        for word in sorted(moves):
+            into = listed(moves[word])
+            if into and into != word and word in scores:
+                _merge(word, into, scores, forms)
+                merged[word] = into
+
+    def first_words(word):
+        return set(GLOSS_WORD.findall(" ".join(firsts.get(word, ())).lower())) - GLOSS_STOP
+
+    def gloss_of(word):
+        return next((m.group(1) for m in map(FORM_GLOSS.search, firsts.get(word, ())) if m), None)
+
+    for word in sorted(scores):
+        of = gloss_of(word)
+        if not of or of == word or listed(of):
+            continue
+        if lemmas.get(of) or of in OVERRIDES or kinds.get(of) == {"name"} or of in left_out:
+            del scores[word]
+        else:
+            pos[of] = set(pos.get(word, ()))
+            forms[of] = forms.pop(word)
+            scores[of] = scores.pop(word)
+            merged[word] = of
+    apply({w: VARIANTS.get(w) or gloss_of(w) for w in scores if VARIANTS.get(w) or gloss_of(w)})
+
+    moves = {}
+    for key, kinds_of in ((lambda w: (variant_key(w, "verb" in pos.get(w, ())), "verb" in pos.get(w, ())), None),
+                          (glossed_key, "glossed")):
+        groups = {}
+        for word in sorted(scores):
+            if word in WORDS or kinds_of and (word not in glossed or "verb" in pos.get(word, ()) or word in APART):
+                continue
+            groups.setdefault(key(word), []).append(word)
+        for words in groups.values():
+            words.sort(key=lambda w: (-scores[w], w))
+            for i, word in enumerate(words[1:], 1):
+                # Two words of the pack are one only when their glosses share a word (ਸਤਰ "line" and ਸੱਤਰ "seventy" are
+                # two); the second key, only then.
+                head = next((h for h in words[:i] if h not in moves and pos.get(h, set()) & pos.get(word, set()) and (
+                    (_alike(first_words(word) & first_words(h), glossed[word], glossed[h]) if kinds_of else
+                     glossed[word] & glossed[h]) if word in glossed and h in glossed else not kinds_of)), None)
+                if head and word not in moves:
+                    moves[word] = head
+    apply(moves)
+
+    def alike(word, base):
+        """Whether two words of the pack are glossed alike (ਗੋਡੇ "knees", ਗੋਡਾ "knee")."""
+        return bool({g[:4] for g in glossed.get(word, ())} & {g[:4] for g in glossed.get(base, ())})
+
+    spelled = {}
+    for word in sorted(scores, key=lambda w: (-scores[w], w)):
+        spelled.setdefault(loose(word), word)
+    moves = {}
+    for word in sorted(scores):
+        kind = pos.get(word, set())
+        bases = []
+        # A verb's conjunctive participle written as one word (ਬਣਕੇ, ਛੱਡਕੇ, ਆਕੇ for ਬਣ ਕੇ, ਛੱਡ ਕੇ, ਆ ਕੇ).
+        if word.endswith("ਕੇ") and len(word) > 2:
+            verbs = [listed(v) for v in (word[:-2] + "ਣਾ", word[:-2] + "ਨਾ", word[:-2] + "ਉਣਾ")]
+            verbs = [v for v in verbs if v and "verb" in pos.get(v, ())]
+            if verbs:
+                moves[word] = verbs[0]
+                continue
+        if kind and kind <= {"adj"} and word.endswith(("ੀ", "ੀਆਂ")):
+            bases = [(word[:-1] if word.endswith("ੀ") else word[:-4]) + "ਾ"]
+        elif kind and kind <= {"noun"}:
+            # -ਵਾਂ and -ਆਂ after a vowel (ਕਿਰਿਆਵਾਂ, ਕੁੜੀਆਂ), -ਾਂ after a consonant (ਮੁੱਲਾਂ), -ੇ for -ਾ (ਗੋਡੇ).
+            if word.endswith("ਵਾਂ") and word[-4:-3] in VOWEL_SIGNS + VOWELS:
+                bases.append(word[:-3])
+            if word.endswith("ਆਂ") and word[-3:-2] in VOWEL_SIGNS + VOWELS or word.endswith("ਾਂ") and CONSONANT.fullmatch(
+                    word[-3:-2]):
+                bases.append(word[:-2])
+            if word.endswith("ੇ"):
+                bases.append(word[:-1] + "ਾ")
+        for base in bases:
+            # An adjective's own (not ਪੈਨਾ "sharp" as the pack files it, under ਪੈਨ "pen").
+            base = (listed(base) if base in scores or base in merged else None) if "adj" in kind else (
+                listed(base) or spelled.get(loose(base)))
+            if base and len(base) > 1 and base != word and pos.get(base, set()) & kind and (
+                    "adj" in kind or scores[base] >= FORM_BASE * scores[word] or alike(word, base)):
+                moves[word] = base
+                break
+    apply(moves)
+
+
 def _unpieced(scores, forms, pos):
     """
     A verb's forms that tell no verb (its stem, subjunctive, -ੀ, -ੇ: ਚੌਂਕ, ਚੌਂਕੀ of ਚੌਂਕਣਾ, ਜਰੀਏ of ਜਰਨਾ, ਸੀਤਾ of ਸਿਊਣਾ)
@@ -570,7 +738,8 @@ def _unpieced(scores, forms, pos):
 def fold(scores, forms, pos, lemmas, dictionaries, corpora):
     """
     After the counting: a form counts only its uses as a word, spread over the pages (read_usage); a verb's forms that tell
-    none count only beside its telling ones (_unpieced); a noun mostly a name's piece (NAMED_SHARE) is left out.
+    none count only beside its telling ones (_unpieced); a word that is another's form or spelling is that word's (_refile);
+    a noun mostly a name's piece (NAMED_SHARE) is left out.
     """
     known = set(pos) | {f for f, of in lemmas.items() if of}
     seen, spread, lost = read_usage(corpora, known)
@@ -581,6 +750,7 @@ def fold(scores, forms, pos, lemmas, dictionaries, corpora):
                 counted[form] *= spread[form] / seen[form] * (1 - lost.get(form, 0) / seen[form])
         scores[word] = sum(counted.values())
     _unpieced(scores, forms, pos)
+    _refile(scores, forms, pos, lemmas, dictionaries)
     for word in sorted(scores):
         uses = sum(seen[f] for f in forms[word])
         if scores[word] <= 0 or uses and not pos.get(word, set()) - {"noun", "name"} and sum(

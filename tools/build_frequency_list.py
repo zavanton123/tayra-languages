@@ -7749,8 +7749,8 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
         frequency_pashto.fold(scores, forms, set(pos) | {f for f, of in lemmas.items() if of},
                               os.path.join(DICTIONARIES, "ps-en.sqlite"))
     if language == "pa":
-        # A Punjabi word's count is only its uses as that word, spread over the pages: not beside names or as a piece
-        # (frequency_punjabi.fold).
+        # A Punjabi word's count is only its uses as that word, spread over the pages: not beside names or as a piece;
+        # its spellings and its forms the pack has as words go to it (frequency_punjabi.fold).
         frequency_punjabi.fold(scores, forms, pos, lemmas, DICTIONARIES, [
             download(f"https://downloads.wortschatz-leipzig.de/corpora/{corpus}.tar.gz", f"leipzig-{corpus}.tar.gz")
             for corpus in FALLBACKS["pa"]["leipzig"]])
