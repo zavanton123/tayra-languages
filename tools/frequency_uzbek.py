@@ -435,6 +435,16 @@ OVERRIDES = {"qil": ["qilmoq"]}
 # bora "regard" (borasida "as regards"), no form of bormoq for being spelled as its converb.
 OVERRIDES.update({form: ["bora"] for form in "bora borasida borada borasidagi boradagi".split()})
 OVERRIDES.update({form: ["bormoq"] for form in "boraman borasan boramiz borasiz boramanmi borasanmi boramizmi borasizmi".split()})
+# toʻladi is toʻlamoq's "paid" as often as toʻlmoq's "fills"; boʻyi "low" and boʻyida "along" are boʻy's "its side, by its
+# side".
+OVERRIDES.update({"toʻladi": ["toʻlmoq", "toʻlamoq"], "boʻyi": ["boʻy"], "boʻyida": ["boʻy"], "boʻyidagi": ["boʻy"]})
+# The pack's table for chaqmoq has two of chaqirmoq's passive forms.
+OVERRIDES.update({form: ["chaqirmoq"] for form in ("chaqirilmaganiga", "chaqirilishimdan")})
+# Verbs the pack has as another kind only (toʻlamoq "to pay", as a noun).
+VERBS_ALSO = {"toʻlamoq"}
+# Words only the lexicon has that are words of their own, though spelled as another's form: quti "box" (qut "luck"), ini
+# "younger brother" (in "nest").
+OWN_WORDS = {"quti", "ini"}
 
 
 def regular_forms(word, kinds):
@@ -485,6 +495,9 @@ def load(db, pos, lemmas, common, lexicon_path):
     """Adds the lexicon's words and the regular forms above to the English pack's [pos], [lemmas] and [common], as
     load_dictionary has them. [SEEN], the counts, picks the generated forms kept and settles which words are folded."""
     seen = SEEN
+    for word in VERBS_ALSO:
+        if word in pos:
+            pos[word].add("verb")
     for word, kinds in apertium_words(lexicon_path).items():
         if word in common or word in pos and pos[word] & _OWN_KINDS:
             continue
@@ -589,7 +602,7 @@ def load(db, pos, lemmas, common, lexicon_path):
         return _mass(verb_forms(word) - {other} - regular_forms(other, pos.get(other, set())))
 
     # One whose word is rare beside it (dollar, not dol's plural) is a word of its own.
-    as_form = {w for w in LEXICON_ONLY if pos[w] <= _NOMINAL | {"verb"} and not w.endswith("vchi")
+    as_form = {w for w in LEXICON_ONLY if pos[w] <= _NOMINAL | {"verb"} and not w.endswith("vchi") and w not in OWN_WORDS
                and any(bare(g, w) >= FOLD_SHARE * _mass([w]) for g in inflected.get(w, ()) if g != w)}
     for word in as_form:
         LEXICON_ONLY.discard(word)
