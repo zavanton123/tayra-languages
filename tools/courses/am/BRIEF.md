@@ -108,7 +108,8 @@ story; a lesson never needs another lesson to make sense.
   *ሄደች*, *መሄድ* all teach *ሄደ*; *መጣ*, *ይመጣል* teach *መምጣት*.
 - Words of the list hold their prepositions and endings: *ቤት* holds *በቤት*, *ቤቱ*, *ቤቶች*, *የቤታችን*.
   The checker reads a form the list lacks by the rules the list was built with (*ለልጆቻችን* counts as
-  *ልጅ*, *የሚሰብሩት* as *ሰበረ*); only words with no such reading are outside words.
+  *ልጅ*, *የሚሰብሩት* as *ሰበረ*, the first person's gerund *ቆርጬ*, *በልቼ* as *ቆረጠ*, *በላ*, the imperfect
+  *ያስቀምጣል*, *ያድጋል* as *አስቀመጠ*, *አደገ*); only words with no such reading are outside words.
 - About 500 list words are no entry of the dictionary pack (the English Wiktionary lacks *ወደ*, *ግን*,
   *ሌላ*, *ሄደ*, *መጣ*): the learner sees them unglossed, so teach them in a sentence that makes their
   sense clear.
