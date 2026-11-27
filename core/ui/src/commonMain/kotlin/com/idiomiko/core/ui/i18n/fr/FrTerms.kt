@@ -54,7 +54,6 @@ internal val frTerms: Map<String, String> = mapOf(
     "{0} min" to "{0} min",
     "Choose one or more question types." to "Choisissez un ou plusieurs types de questions.",
     "{0} question types selected" to "{0} type de questions sélectionné|{0} types de questions sélectionnés",
-    "Start practice" to "Commencer l’entraînement",
     // PracticeKinds.kt
     "Listen and choose" to "Écouter et choisir",
     "Listen and type" to "Écouter et taper",

@@ -54,7 +54,6 @@ internal val deTerms: Map<String, String> = mapOf(
     "{0} min" to "{0} Min.",
     "Choose one or more question types." to "Wähle eine oder mehrere Fragearten.",
     "{0} question types selected" to "{0} Frageart ausgewählt|{0} Fragearten ausgewählt",
-    "Start practice" to "Übung starten",
     // PracticeKinds.kt
     "Listen and choose" to "Hören und wählen",
     "Listen and type" to "Hören und schreiben",

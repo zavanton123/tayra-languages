@@ -54,7 +54,6 @@ internal val ruTerms: Map<String, String> = mapOf(
     "{0} min" to "{0} мин",
     "Choose one or more question types." to "Выберите один или несколько видов вопросов.",
     "{0} question types selected" to "Выбран {0} вид вопросов|Выбрано {0} вида вопросов|Выбрано {0} видов вопросов",
-    "Start practice" to "Начать тренировку",
     // PracticeKinds.kt
     "Listen and choose" to "Послушать и выбрать",
     "Listen and type" to "Послушать и записать",

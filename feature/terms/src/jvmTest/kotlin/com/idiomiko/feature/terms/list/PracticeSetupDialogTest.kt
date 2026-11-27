@@ -128,7 +128,7 @@ class PracticeSetupDialogTest {
         onNodeWithTag("start-practice").assertIsEnabled()
     }
 
-    /** On a phone the setup takes the whole screen, its choices scroll in one column, and Start practice stays whole at its foot. */
+    /** On a phone the setup takes the whole screen, its choices scroll in one column, and Start stays whole at its foot. */
     @Test
     fun aPhoneScrollsTheChoicesAndKeepsTheStartButtonWhole() = runDesktopComposeUiTest(width = 400, height = 850) {
         show()
@@ -136,10 +136,11 @@ class PracticeSetupDialogTest {
         val screen = onNodeWithTag("practice-setup").getBoundsInRoot()
         assertEquals(400.dp, screen.right - screen.left)
         assertEquals(850.dp, screen.bottom - screen.top)
-        assertTrue(850.dp - onNodeWithTag("start-practice").getBoundsInRoot().bottom < 40.dp, "Start practice sits at the screen's foot")
+        assertTrue(850.dp - onNodeWithTag("start-practice").getBoundsInRoot().bottom < 40.dp, "Start sits at the screen's foot")
         onNodeWithTag("practice-length-all").performScrollTo().performClick()
-        val start = onNodeWithTag("start-practice").fetchSemanticsNode().size
-        assertTrue(start.width > start.height * 2, "Start practice is ${start.width} wide and ${start.height} high")
+        // Not squeezed: wider than high, its label on one line.
+        val start = onNodeWithTag("start-practice").getBoundsInRoot()
+        assertTrue(start.right - start.left > start.bottom - start.top && start.bottom - start.top < 60.dp, "Start is ${start.right - start.left} wide and ${start.bottom - start.top} high")
         onNodeWithTag("start-practice").performClick()
         assertEquals(null, started?.length)
     }
