@@ -352,7 +352,8 @@ class SettingsRepositoryImpl(
 
         const val CURRENT_LANGUAGE = "current_language_id"
         const val THEME = "current_theme"
-        const val EXPERIMENTAL_VIDEOS = "experimental_videos"
+        // A new key: every save wrote the old one, so devices that never chose videos have them stored as on.
+        const val EXPERIMENTAL_VIDEOS = "experimental_videos_opt_in"
         const val SHOW_LEARNING_LEVELS = "show_learning_levels"
         const val STATS_SAMPLE_SIZE = "stats_calc_sample_size"
         const val DAILY_GOAL = "daily_goal_minutes"

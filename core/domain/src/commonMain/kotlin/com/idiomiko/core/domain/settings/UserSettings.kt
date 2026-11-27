@@ -18,8 +18,8 @@ import com.idiomiko.core.domain.service.TranslationEngine
 data class UserSettings(
     val currentLanguageId: Long = 0,
     val themeId: String = DEFAULT_THEME,
-    /** Videos, still an experimental feature: on unless turned off in Experimental features. */
-    val experimentalVideos: Boolean = true,
+    /** Videos, still an experimental feature: off unless turned on in Experiments. */
+    val experimentalVideos: Boolean = false,
     /** Show the four learning levels, 1 to 4, rather than one Learning status; the levels are kept either way. */
     val showLearningLevels: Boolean = false,
     /** Minutes of study a day the reader aims for, reading and flashcards together; Home shows how far today has got. */

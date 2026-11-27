@@ -53,7 +53,6 @@ import kotlinx.coroutines.launch
 import com.idiomiko.core.ui.i18n.UiLanguage
 import com.idiomiko.core.ui.i18n.tr
 import com.idiomiko.core.ui.components.ProvideWindowWidth
-import com.idiomiko.core.ui.isDebugBuild
 import com.idiomiko.core.ui.theme.AppThemes
 import com.idiomiko.core.ui.theme.LocalThemePreview
 import com.idiomiko.core.ui.theme.LocalOwnFonts
@@ -186,8 +185,7 @@ fun App(titleBarInset: Dp = 0.dp) {
                             val due by remember(flashcards) { flashcards.observeDueCount() }.collectAsStateWithLifecycle(0)
                             CompositionLocalProvider(
                                 LocalFlashcardsDue provides due,
-                                // Release builds have no Experiments page to turn them off from, so there they stay on.
-                                LocalVideosEnabled provides (videoSupported && (settings.experimentalVideos || !isDebugBuild)),
+                                LocalVideosEnabled provides (videoSupported && settings.experimentalVideos),
                             ) {
                                 Column {
                                     AppUpdateBanner()

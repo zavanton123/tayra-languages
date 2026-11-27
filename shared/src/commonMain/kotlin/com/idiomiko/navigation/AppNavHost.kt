@@ -74,7 +74,6 @@ import com.idiomiko.core.ui.components.LocalWebPictures
 import com.idiomiko.core.domain.web.WebPictures
 import com.idiomiko.core.ui.components.PullToSync
 import com.idiomiko.core.ui.components.SyncEntry
-import com.idiomiko.core.ui.isDebugBuild
 import androidx.compose.foundation.layout.fillMaxSize
 import org.koin.compose.viewmodel.koinViewModel
 import com.idiomiko.feature.reading.readingGraph
@@ -112,11 +111,9 @@ fun AppNavHost(openHome: Int = 0) {
             }
         }
     }
-    // Only the desktop app updates itself, and only debug builds offer the experiments; elsewhere the pages are left out.
+    // Only the desktop app updates itself; elsewhere its page is left out.
     val koin = getKoin()
-    val hiddenSections = remember(koin) {
-        setOfNotNull(SettingsSection.UPDATES.takeIf { koin.getOrNull<AppUpdateService>() == null }, SettingsSection.EXPERIMENTS.takeUnless { isDebugBuild })
-    }
+    val hiddenSections = remember(koin) { setOfNotNull(SettingsSection.UPDATES.takeIf { koin.getOrNull<AppUpdateService>() == null }) }
     // Phones get the main areas as a bottom bar, except while reading, practising or reviewing flashcards; wider screens have them in the top bar.
     val entry by navController.currentBackStackEntryAsState()
     val destination = entry?.destination
