@@ -6102,6 +6102,10 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
     if language == "ps":
         for w in [w for w in freq if not frequency_pashto.LETTERS.fullmatch(w)]:
             del freq[w]
+    if language == "mn":
+        # Leipzig counts a set phrase (Засгийн газар, уур амьсгал) besides its words, which the reader reads one by one.
+        for w in [w for w in freq if " " in w]:
+            del freq[w]
     label = " + ".join(f"{label} ({SOURCE_LICENCES.get((language, name), SOURCE_LICENCES[name])})" for name, _, label in found)
     if language == "mt":
         # And the Maltese words and forms made for the pack (frequency_maltese).
