@@ -163,7 +163,7 @@ internal fun PhoneTermsScreen(
             item {
                 Row(Modifier.fillMaxWidth().padding(bottom = AppSpacing.m), horizontalArrangement = Arrangement.spacedBy(AppSpacing.m), verticalAlignment = Alignment.CenterVertically) {
                     val sortLabel = TermSortOption.entries.firstOrNull { it.sort == state.sort }?.label ?: tr("Custom order")
-                    SelectButton(sortLabel, onClick = { sorting = true }, modifier = Modifier.testTag("phone-sort"), icon = AppIcons.SwapVert)
+                    SelectButton(sortLabel, onClick = { sorting = true }, modifier = Modifier.weight(1f, fill = false).testTag("phone-sort"), icon = AppIcons.SwapVert)
                     FiltersButton(open = filtering, count = state.activeFilterCount, onClick = { filtering = true })
                 }
             }
