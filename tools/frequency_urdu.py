@@ -6,7 +6,9 @@ The reader (UrduParser) matches a word in Urdu letters without marks: ك as ک, 
 ں, ٹ, ڈ and ڑ are letters of their own and stay. So do these: the pack is written so, and the list counts words so.
 Keep urdu_fold and UrduParser.fold the same.
 """
+import gzip
 import json
+import os
 import re
 import tarfile
 from collections import defaultdict
@@ -172,7 +174,20 @@ NOT_WORDS = {"بھگ", "سام", "دیشی", "روی", "پو", "ال", "وچ", "
              "ہاتھا", "ہکا", "کنڈ", "دیول", "ابراہام", "ایشوریہ", "ٹکا", "سمیر", "سیما", "تابش", "اجیت", "گنت", "جار", "کوش",
              "ائے", "آلا", "اصلا", "وٹ", "کلا", "فتا", "انو", "اونا", "ارتھ", "ویکی", "شکتی", "سلیمانی", "کماری", "دیپکا",
              "جوہی", "مدھو", "پرتھوی", "مہیلا", "ستیہ", "پریا", "جیوتی", "ساہی", "ریکھا", "کلیان", "سیمل", "ابتسام", "مانکی",
-             "کھڑک", "ساہتیہ", "کھنڈ", "پیل", "پورن"}
+             "کھڑک", "ساہتیہ", "کھنڈ", "پیل", "پورن",
+             # Past rank 4700: the suffix گان written apart (نادہندہ گان), the people, films, songs and brands the
+             # sentences write as no word (دیپک کمار, ماڈل مسکان, یوگی آدتیہ ناتھ, امرت راج, اظہر رنگیلا, فلم عاشقی ٹو,
+             # فائر فاکس, وہیل چیئرز, تائی کوانڈو, ناگن چورنگی, میر چاکر, سائی بابا, قلی قطب شاہ, سجن یونین, گبر سنگھ;
+             # رمزی, بالو, عنبر, مانک),
+             # the places کٹک, کورال (کو رال) and the Chola dynasty (چول), pieces of words split by a space the rules miss
+             # (باو لنگ, آ سانی, آ رمی; رمی جمرات aside), the misspelt کوی (کوئی), and words the sentences hardly use but
+             # in Hindi spelled in Urdu letters (ناسنا, ڈاسنا, کھبا, گنگنا, سڑا); and from 5101, more people (سیپ
+             # بلاٹر, راکھی ساونت, سیرل نن, کالو خان, امل, نزہت, عرشی, گلفام), pieces (دہرہ دون, دی ادر, کر نسی of نسنا,
+             # لو دھی, متعارف کریا, کار آمد's کارا, انڈ سٹری), and زنگی, a slur as حبشی is.
+             "گان", "دیپک", "مسکان", "یوگی", "امرت", "رنگیلا", "عاشقی", "فاکس", "چیئرز", "تائی", "ناگن", "چاکر", "سائی",
+             "قلی", "سجن", "گبر", "کٹک", "رال", "چول", "لنگ", "سانی", "رمی", "کوی", "ناسنا", "ڈاسنا", "کھبا", "گنگنا",
+             "سڑا", "رمزی", "بالو", "عنبر", "مانک", "سیپ", "راکھی", "نن", "کالو", "امل", "دون", "ادر", "نسنا", "دھی",
+             "کریا", "زنگی", "نزہت", "عرشی", "گلفام", "کارا", "انڈ"}
 # And the verbs' forms that unlink_lookalikes cannot tell from another word's: بسر of بسر کرنا "spend", no form of بسرنا
 # "forget".
 NOT_VERB_FORMS = {"بسر": "بسرنا"}
@@ -313,6 +328,8 @@ _NAME_PARTS = set("""محمد احمد علی حسین شاہ الدین الر�
 _FAMILIES = set("کپور بچن گاندھی کمار".split())
 # Words written between two names that are no names (اسلم ولد اکرم, پاکستان بمقابلہ بھارت, X عرف Y).
 _BETWEEN_NAMES = {"ولد", "بنت", "زوجہ", "عرف", "بن", "بمقابلہ"}
+# The words written before a work's title (فلم عاشقی, ڈرامہ سیریل), which count as a title's for a word after them.
+_WORKS = set("فلم فلموں ڈرامہ ڈرامے سیریل ناول".split())
 # A word mostly written beside names (NAMED_SHARE of the times the sentences have it) is a name: the news's people.
 NAMED_SHARE = 0.5
 # The fewest times the sentences must have a word for its uses there to settle anything.
@@ -327,6 +344,83 @@ def _gloss_words(senses):
     """The content words of an entry's English glosses."""
     return {w for s in senses for g in s.get("glosses", []) for w in re.findall("[a-z]+", g.lower())
             if len(w) > 2 and w not in _STOP_GLOSS}
+
+
+# The words the pack glosses as a given name or surname (دیپک "Deepak", پریتم), with those it says come from Sanskrit; the
+# words all of whose senses name a place, people, person or faith (ترکستان "Turkestan", زرتشت "Zoroaster", ٹوری "a
+# Tory"); and the words the Urdu and Hindi entries say are borrowed from Sanskrit (سنکیت, پرہار, وکاس, ایشور), which the
+# Urdu news and Wikipedia write seldom: read_usage fills them.
+KINDS = {"given": set(), "hindu_given": set(), "proper": set(), "sanskrit": set()}
+_GIVEN = re.compile(r"\b(given name|surname)\b")
+# A gloss's first words, up to its first comma, colon, bracket or dash.
+_HEAD_GLOSS = re.compile(r"[^,;:(–—]+")
+# The capitalised words a gloss starts with that make no name (A Tory, The Netherlands; To ...).
+_GLOSS_STARTS = {"A", "An", "The", "To", "Any", "One", "Of", "In", "Used", "Short", "Alternative", "Synonym", "Name",
+                 "Abbreviation", "Plural", "Feminine", "Masculine", "Obsolete", "See"}
+_CONNECTORS = {"of", "the", "and", "de", "al", "el", "ibn", "bin"}
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+# The Wiktionary dumps the pack is built from (tools/build_dictionary.py), whose etymologies tell the Sanskrit borrowings.
+DUMPS = (os.path.join(ROOT, "dictionaries", "kaikki.org-dictionary-Urdu.jsonl.gz"),
+         os.path.join(ROOT, "dictionaries", "kaikki.org-dictionary-Hindi.jsonl.gz"))
+# The first line of an etymology that says where the word comes from (after its tree or its verb set).
+_ORIGIN = re.compile(r"(Learned borrowing|Semi-learned borrowing|Borrowed|Inherited|From|Derived|Ultimately|Compound|"
+                     r"Equivalent|Clipping|Calque|Coined|Back-formation|Onomatopoeic|Uncertain|Unknown|Of |Cognate|Related|"
+                     r"Doublet|Possibly|Probably|Perhaps)")
+_SANSKRIT = ("Learned borrowing from Sanskrit", "Borrowed from Sanskrit")
+
+
+def _proper_gloss(gloss, lower):
+    """Whether a gloss names a place, people or person (a Tory): its first words all capitalised, and none of them a word
+    the pack's glosses write in lower case elsewhere (Wine, Baseness, Spanish jasmine)."""
+    head = _HEAD_GLOSS.match(re.sub(r"^(a|an|the) ", "", gloss.strip()))
+    words = head.group(0).split() if head else []
+    if not words or words[0] in _GLOSS_STARTS or not words[0][:1].isupper():
+        return False
+    return all(w in _CONNECTORS or w[:1].isupper() and w.lower().strip(".'’") not in lower for w in words)
+
+
+def _origin(text):
+    for line in text.split("\n"):
+        line = line.strip()
+        if _ORIGIN.match(line):
+            return line
+    return ""
+
+
+def _read_kinds(db):
+    """Fills KINDS from the pack's senses and the dumps' etymologies."""
+    for kind in KINDS.values():
+        kind.clear()
+    entries = defaultdict(list)
+    lower = set()
+    for word, kind, senses in db.execute("SELECT word_lc, pos, senses FROM entries ORDER BY id"):
+        glosses = [g for s in json.loads(senses) for g in s.get("glosses", [])[:1]]
+        entries[urdu_fold(word)].append((kind, glosses))
+        lower.update(w for g in glosses for w in re.findall(r"\b[a-z][a-z'’]+", g))
+    for word, kinds in sorted(entries.items()):
+        glosses = [g for _, gs in kinds for g in gs]
+        given = [g for g in glosses if _GIVEN.search(g)]
+        if given:
+            KINDS["given"].add(word)
+            if any("Sanskrit" in g for g in given):
+                KINDS["hindu_given"].add(word)
+        common = [g for kind, gs in kinds if kind != "name" for g in gs]
+        if common and all(kind not in ("adj", "verb") for kind, _ in kinds) and all(_proper_gloss(g, lower) for g in common):
+            KINDS["proper"].add(word)
+    origins = defaultdict(list)
+    for path in DUMPS:
+        with gzip.open(path, "rt", encoding="utf-8") as f:
+            for line in f:
+                d = json.loads(line)
+                text = (d.get("etymology_text") or "").strip()
+                if path == DUMPS[0]:
+                    spellings = [d.get("word", "")]
+                else:
+                    spellings = [x["form"].strip() for x in d.get("forms", []) if "Urdu" in (x.get("tags") or [])]
+                for spelling in dict.fromkeys(urdu_fold(s) for s in spellings if s):
+                    if text:
+                        origins[spelling].append(_origin(text))
+    KINDS["sanskrit"].update(w for w, found in origins.items() if found and all(o.startswith(_SANSKRIT) for o in found))
 
 
 def _sentences():
@@ -365,9 +459,10 @@ def read_usage(db, pos, lemmas):
             continue
         stems = {w[:5] for w in words}
         foreign[(a, b)] = {p for p in (a, b) if p in glosses and not {w[:5] for w in glosses[p]} & stems}
-    before_name = _NAME_PARTS | _TITLES
+    before_name = _NAME_PARTS | _TITLES | _WORKS
     GLOSSES.clear()
     GLOSSES.update(glosses)
+    _read_kinds(db)
     kinds = ("seen", "verbal", "nominal", "named", "broken", "foreign", "stem_helped", "kar", "perfect_helped", "form_helped",
              "split", "paired")
     usage = {k: {} for k in kinds}
@@ -609,13 +704,30 @@ def _piece(form):
     return min(1.0, _share("broken", form) + _share("split", form) + max(_share("foreign", form), _share("paired", form)))
 
 
+# A word the sentences have (with its forms) fewer than RARE_SEEN times is no word of the list: when all its senses name a
+# place, people or person (KINDS), when the pack glosses it as a Sanskrit given name (the news's Indian people: دیپک,
+# پریتم, ابھشیک, whose word senses Urdu hardly uses) or as a given name the sentences write beside names GIVEN_NAMED_SHARE of
+# the time, and when it is borrowed from Sanskrit (a Hindi word: سنکیت, پرہار, وکاس, ایشور).
+RARE_SEEN = 100
+GIVEN_NAMED_SHARE = 0.15
+
+
+def _no_word(word, counted):
+    """A name, place or Hindi word (KINDS) that the list leaves out."""
+    seen = USAGE["seen"]
+    if sum(seen.get(f, 0) for f in set(counted) | {word}) >= RARE_SEEN:
+        return False
+    return word in KINDS["proper"] or word in KINDS["hindu_given"] or word in KINDS["sanskrit"] \
+        or word in KINDS["given"] and _share("named", word) >= GIVEN_NAMED_SHARE
+
+
 def fold(scores, forms, pos):
     """
     After the counting: a word or form counts only its uses that are that word (read_usage), not those as a piece of a word
     a space split (بڑ, خلا, زبر, ران) or of a two-word word of another sense (مون, صلاح) or of a pair or name (سہن, ناڈو,
     سوراج), and a word mostly written so (PIECE_SHARE) is none; a word written mostly beside names (نسیم, طیب, قیصر) is a
-    name; two spellings of one word (مہینا, مہینہ: the same key, glosses in common) are the commoner one; and NOT_WORDS
-    are left out.
+    name, and so is a rare word of a name's, place's or Hindi kind (_no_word); two spellings of one word (مہینا, مہینہ: the
+    same key, glosses in common) are the commoner one; and NOT_WORDS are left out.
     """
     for word in sorted(scores):
         counted = forms[word]
@@ -625,7 +737,7 @@ def fold(scores, forms, pos):
                 counted[form] *= 1 - piece
     for word in sorted(scores):
         named = word not in _TITLES and word not in _BETWEEN_NAMES and _share("named", word) >= NAMED_SHARE
-        if word in NOT_WORDS or named or _piece(word) >= PIECE_SHARE or _rare_piece(word):
+        if word in NOT_WORDS or named or _piece(word) >= PIECE_SHARE or _rare_piece(word) or _no_word(word, forms[word]):
             del scores[word]
     keyed = {}
     for word in sorted(scores, key=lambda w: (-sum(forms[w].values()), w)):
