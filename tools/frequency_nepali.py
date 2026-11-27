@@ -649,6 +649,34 @@ def _leipzig_sentences(path):
 DIGITS = re.compile(r"[0-9०-९]+")
 
 
+# A word's spellings that differ only in a nasal written as ं or as the nasal of the next letter's row (सम्भावना, संभावना;
+# रङ्ग, रंग), as ं or ँ before a consonant (भैंसी, भैँसी), त्त्व written त्व (महत्त्व, महत्व), a visarga before a consonant (दुःखी, दुखी), a nukta, the eyelash र (पुर्‍याउनु) or a final virama (संसद्, संसद):
+# one word, under its commonest spelling.
+_NASAL_OF = {c: n for n, row in (("ङ", "कखगघ"), ("ञ", "चछजझ"), ("ण", "टठडढ"), ("न", "तथदध"), ("म", "पफबभ")) for c in row}
+_HALF_NASAL = re.compile("([ङञणनम])\u094d([क-ह])")
+
+
+def spelling_key(word):
+    word = word.replace("\u093c", "").replace("र्\u200dय", "र्य").replace("त्त्व", "त्व")
+    word = re.sub("\u0903(?=[क-ह])", "", word).removesuffix("\u094d")
+    word = re.sub("\u0901(?=[क-ह])", "\u0902", word)
+    return _HALF_NASAL.sub(lambda m: "ं" + m.group(2) if _NASAL_OF.get(m.group(2)) == m.group(1) else m.group(0), word)
+
+
+def fold_spellings(scores, totals, forms):
+    """Folds each word into its commonest spelling (spelling_key), in place."""
+    spellings = defaultdict(list)
+    for word in scores:
+        spellings[spelling_key(word)].append(word)
+    for words in spellings.values():
+        if len(words) < 2:
+            continue
+        main = min(words, key=lambda w: (-scores[w], w))
+        for word in words:
+            if word != main:
+                merge(word, main, scores, totals, forms)
+
+
 def merge(word, into, scores, totals, forms):
     """Files [word] and its forms under [into], in place."""
     scores[into] += scores.pop(word)
@@ -697,7 +725,8 @@ def label_of(used):
 def rank(download, dictionaries=DICTIONARIES):
     """
     The words by score, best first, with their scores, their forms' credit (word -> form -> share), their counts in all, and
-    the label of the sources: the pack's words by their forms' counts, each kind of text weighted by WEIGHTS.
+    the label of the sources: the pack's words by their forms' counts, each kind of text weighted by WEIGHTS, spellings folded
+    (fold_spellings).
     """
     counts, used = _counts(download)
     label = label_of(used) + " + English Wiktionary Hindi entries (CC BY-SA 4.0) for the words the ne-en pack lacks"
@@ -756,6 +785,7 @@ def rank(download, dictionaries=DICTIONARIES):
     for word, into in sorted(folded_into.items()):
         if word in scores and into in scores and into not in folded_into:
             merge(word, into, scores, totals, forms)
+    fold_spellings(scores, totals, forms)
     ranked = [w for w in sorted(scores, key=lambda w: (-scores[w], w)) if totals[w] >= LEAST_COUNT
               and NEPALI_FORMS.get(w, w) == w]
     return ranked, scores, forms, totals, label
