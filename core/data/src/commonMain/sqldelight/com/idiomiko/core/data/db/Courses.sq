@@ -13,6 +13,8 @@ CREATE TABLE courses (
     rank_up_to INTEGER
 );
 
+CREATE INDEX courses_language ON courses(language_id);
+
 -- Labels for courses, such as "idiomiko" on the courses made for the app; each is stored once and
 -- linked to every course that has it.
 CREATE TABLE course_tags (
@@ -54,6 +56,8 @@ CREATE TABLE seeded_courses (
     language_id INTEGER NOT NULL REFERENCES languages(id) ON DELETE CASCADE,
     PRIMARY KEY (course_id, language_id)
 );
+
+CREATE INDEX seeded_courses_language ON seeded_courses(language_id);
 
 selectCourses:
 SELECT * FROM courses WHERE language_id = :languageId ORDER BY rank_up_to IS NULL, rank_up_to, created_at, id;

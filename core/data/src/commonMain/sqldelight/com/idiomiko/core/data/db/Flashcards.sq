@@ -36,6 +36,8 @@ CREATE TABLE flashcard_reviews (
     taken_ms INTEGER
 );
 
+CREATE INDEX flashcard_reviews_term ON flashcard_reviews(term_id);
+
 CREATE INDEX flashcard_reviews_at ON flashcard_reviews(reviewed_at);
 
 -- A language's own FSRS parameters, trained on its answers; a language without a row schedules with the defaults.

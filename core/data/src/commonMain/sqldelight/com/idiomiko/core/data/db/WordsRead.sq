@@ -7,6 +7,10 @@ CREATE TABLE words_read (
     updated_at INTEGER NOT NULL DEFAULT 0
 );
 
+CREATE INDEX words_read_language ON words_read(language_id);
+
+CREATE INDEX words_read_page ON words_read(page_id);
+
 insert:
 INSERT INTO words_read(language_id, page_id, read_at, word_count) VALUES (:languageId, :pageId, :readAt, :wordCount);
 

@@ -1,0 +1,11 @@
+-- Indexes on the columns rows are found by when what they point at is deleted: without them each
+-- deleted page, text or word read its whole table, and removing a language took minutes.
+CREATE INDEX IF NOT EXISTS book_tag_map_tag ON book_tag_map(tag_id);
+CREATE INDEX IF NOT EXISTS page_bookmarks_page ON page_bookmarks(page_id);
+CREATE INDEX IF NOT EXISTS course_lessons_book ON course_lessons(book_id);
+CREATE INDEX IF NOT EXISTS news_articles_book ON news_articles(book_id);
+CREATE INDEX IF NOT EXISTS courses_language ON courses(language_id);
+CREATE INDEX IF NOT EXISTS seeded_courses_language ON seeded_courses(language_id);
+CREATE INDEX IF NOT EXISTS flashcard_reviews_term ON flashcard_reviews(term_id);
+CREATE INDEX IF NOT EXISTS words_read_page ON words_read(page_id);
+CREATE INDEX IF NOT EXISTS words_read_language ON words_read(language_id);
