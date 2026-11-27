@@ -443,6 +443,8 @@ KANNADA_SPELLINGS = {"ಮುಂದುವರೆ": "ಮುಂದುವರಿ", "�
                      "ಚರ್ಚು": "ಚರ್ಚ್", "ಮೀಟರು": "ಮೀಟರ್", "ಕಿಲೋಮೀಟರು": "ಕಿಲೋಮೀಟರ್", "ಹೋಟೆಲು": "ಹೋಟೆಲ್", "ಸೆಕೆಂಡು": "ಸೆಕೆಂಡ್",
                      "ಸಿಮೆಂಟು": "ಸಿಮೆಂಟ್", "ಹಾರ್ಮೋನು": "ಹಾರ್ಮೋನ್", "ಬಜಾರು": "ಬಜಾರ್", "ಶೇರ್": "ಶೇರು", "ಕಾರ್": "ಕಾರು",
                      "ವಿದ್ಯುತ್ತು": "ವಿದ್ಯುತ್", "ಸಂಸತ್": "ಸಂಸತ್ತು", "ಪರಿಷತ್": "ಪರಿಷತ್ತು", "ಕಾಯಿದೆ": "ಕಾಯ್ದೆ",
+                     # The spoken ದನಿ of ಧ್ವನಿ "voice", ಒಳ್ಳೆ of ಒಳ್ಳೆಯ "good", and ಟರ್ಕಿ of ತುರ್ಕಿ "Turkey".
+                     "ದನಿ": "ಧ್ವನಿ", "ಒಳ್ಳೆ": "ಒಳ್ಳೆಯ", "ಟರ್ಕಿ": "ತುರ್ಕಿ",
                      # Plurals the packs or the corpus give as words of their own, with their case forms.
                      "ಬ್ಯಾಂಕುಗಳು": "ಬ್ಯಾಂಕ್", "ಪಡೆಗಳು": "ಪಡೆ", "ಪ್ರಕಾರಗಳು": "ಪ್ರಕಾರ", "ಬೆಳೆಗಳು": "ಬೆಳೆ", "ಕಾಲೇಜುಗಳು": "ಕಾಲೇಜು",
                      "ದೊರೆಗಳು": "ದೊರೆ", "ಪ್ರೋಟೀನುಗಳು": "ಪ್ರೋಟೀನ್", "ಕತೆಗಳು": "ಕಥೆ", "ಅವರುಗಳು": "ಅವರು", "ಇವರುಗಳು": "ಇವರು",
@@ -510,6 +512,7 @@ WORD_MARKS = re.compile(r"\b(language|languages|month|day|festival|dance|drama|c
                         r"saturday|sunday|january|february|march|april|may|june|july|august|september|october|november|"
                         r"december)\b", re.I)
 ACRONYM = re.compile(r"^[A-Z]{2,}\b")
+VARIANT_GLOSS = re.compile(r"(?:variant|form|short) (?:of|for) ([\u0c80-\u0cff\u200c\u200d]+)")
 
 
 def gloss_name(gloss):
@@ -561,6 +564,7 @@ def lexicon(dictionaries):
     glosses = defaultdict(list)
     meanings = defaultdict(set)
     infinitives = {}
+    variants = {}
     for pack in ("kn-en", "kn-ru"):
         path = os.path.join(dictionaries, f"{pack}.sqlite")
         if not os.path.exists(path):
@@ -583,6 +587,12 @@ def lexicon(dictionaries):
                 stems = verb_stems(verb)
                 if stems and stems[1] + "ಲು" == word:
                     infinitives[word] = verb
+            # A word the pack calls another's spelling or form (ಯುದ್ದ "(variant of ಯುದ್ಧ) war", ಕರಿದು "having fried (form
+            # of ಕರಿ)", ಬಾಯ್ "mouth (short for ಬಾಯಿ)").
+            first = next((g for sense in senses for g in sense.get("glosses", [])), "")
+            other = VARIANT_GLOSS.search(first)
+            if pack == "kn-en" and other and plain(other.group(1)) != word:
+                variants.setdefault(word, plain(other.group(1)))
             if pack == "kn-en" and GLOSS_WORD.fullmatch(word):
                 meanings[word] |= {m for g in (g for s in senses for g in s.get("glosses", []))
                                    for part in re.split(r"[,;/]", re.sub(r"\([^)]*\)", "", g))
@@ -635,7 +645,7 @@ def lexicon(dictionaries):
         kinds.pop(word, None)
     named = {w for w, gs in glosses.items() if w in kinds and w not in KANNADA_WORDS and w not in countries
              and "" not in gs and kind_of_name(gs, places, common) == "name"}
-    return kinds, set(kinds) - packed, names - set(kinds), named, meanings
+    return kinds, set(kinds) - packed, names - set(kinds), named, meanings, variants
 
 
 def nominal_forms(word):
@@ -999,8 +1009,36 @@ def spelling_neighbours(word):
         elif after != VIRAMA:
             out.add(word[:i + 1] + VIRAMA + c + word[i + 1:])
     out.add(word[:-2] if word.endswith("್ಯ") else word + "್ಯ")
+    # A loanword's first ಇ or ಎ (ಇಂಜಿನಿಯರ್, ಎಂಜಿನಿಯರ್), closing virama (ಪಾಕಿಸ್ತಾನ್, ಪಾಕಿಸ್ತಾನ) and closing m (ಸೋಡಿಯಮ್, ಸೋಡಿಯಂ).
+    if word[:1] in "ಇಎ":
+        out.add({"ಇ": "ಎ", "ಎ": "ಇ"}[word[0]] + word[1:])
+    if word.endswith(VIRAMA):
+        out.add(word[:-1])
+        if word.endswith("ಮ್"):
+            out.add(word[:-2] + "ಂ")
+    elif word[-1:] in CONSONANTS:
+        out.add(word + VIRAMA)
+    if word.endswith("ಂ"):
+        out.add(word[:-1] + "ಮ್")
+    # And its closing u, the consonant doubled or not (ಪೆಟ್ರೋಲು, ಪೆಟ್ರೋಲ್; ಸೈಕಲ್ಲು, ಸೈಕಲ್).
+    if word.endswith("ು") and word[-2:-1] in CONSONANTS:
+        out.add(word[:-1] + VIRAMA)
+        if word[-3:-2] == VIRAMA and word[-4:-3] == word[-2]:
+            out.add(word[:-3])
+    if word.endswith(VIRAMA) and word[-2:-1] in CONSONANTS:
+        out |= {word[:-1] + "ು", word + word[-2] + "ು"}
     out.discard(word)
     return out
+
+
+# The vowel lengths a loanword is written with either way (ಹೈಡ್ರೋಜನ್, ಹೈಡ್ರೊಜನ್): a bare spelling the lexicon lacks is counted for
+# the word it is so written for.
+LOAN_LENGTHS = {"ೊ": "ೋ", "ೋ": "ೊ", "ೆ": "ೇ", "ೇ": "ೆ", "ಿ": "ೀ", "ೀ": "ಿ", "ು": "ೂ", "ೂ": "ು"}
+
+
+def loan_spellings(word):
+    """[word] (a loanword, ending in a virama) with one vowel's length the other way."""
+    return {word[:i] + LOAN_LENGTHS[c] + word[i + 1:] for i, c in enumerate(word) if c in LOAN_LENGTHS}
 
 
 def own_word(one, other):
@@ -1051,7 +1089,7 @@ def english_shares(dictionaries):
 def build(found, size, label):
     """The list: the words of the lexicon and those the corpus shows (induce), by their forms' counts in [found]."""
     dictionaries = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "dictionaries")
-    kinds, glossed, names, named, meanings = lexicon(dictionaries)
+    kinds, glossed, names, named, meanings, variants = lexicon(dictionaries)
     # Counted by their spellings without joiners (plain); written keeps the spellings the corpus writes.
     counts = defaultdict(float)
     raw = defaultdict(int)
@@ -1176,6 +1214,8 @@ def build(found, size, label):
         if not heads:
             for base in unclitic(form):
                 heads = heads | plain_targets(base)
+        if not heads and form.endswith(VIRAMA):
+            heads = {n for n in loan_spellings(form) if n in kinds and n.endswith(VIRAMA) and n not in left_out}
         return heads
 
     ruled = rule(kinds)
@@ -1190,6 +1230,22 @@ def build(found, size, label):
                      and (word.endswith(SURE_CASES) or counts.get(h, 0) > counts.get(word, 0))}
             if heads:
                 cased[word] = heads
+    for word, other in sorted(variants.items()):
+        if word in kinds and word not in KANNADA_WORDS and word not in cased and (other in kinds or other in by_hand):
+            cased[word] = {other} if other in kinds else set(by_hand[other])
+    # An English plural in -s is its singular's, when the pack glosses them alike (ಅವಾರ್ಡ್ಸ್ "awards" of ಅವಾರ್ಡ್, ಸ್ಟಡೀಸ್ of
+    # ಸ್ಟಡಿ, ಸೈನ್ಸಸ್ of ಸೈನ್ಸ್; not ಕೋರ್ಸ್ "course" of ಕೋರ್ "core").
+    def singulars(glosses):
+        return {re.sub(r"(?:ies|es|s)$", "", g) for g in glosses}
+
+    for word in sorted(kinds):
+        if word.endswith("್ಸ್") and word not in KANNADA_WORDS and word not in cased and kinds[word] <= {"noun", "adj"}:
+            singular = next((w for w in (word[:-2], word[:-3] + "ಿ" if word.endswith("ೀಸ್") else "",
+                                         word[:-3] + VIRAMA if word.endswith("ಸಸ್") else "")
+                             if w in kinds and w != word and w not in left_out
+                             and singulars(meanings.get(w, ())) & singulars(meanings.get(word, ()))), None)
+            if singular:
+                cased[word] = {singular}
     # A pack's word in a case of a word of the lexicon of another kind, written bare at least a fifth as often (or a human
     # plural's stem), is that word's, now declined too: ಸದ್ಯದಲ್ಲಿ "at present" of the adverb ಸದ್ಯ, ಮಾತ್ರಕ್ಕೆ of ಮಾತ್ರ,
     # ಬೆಳೆಯನ್ನು "crop" of the verb ಬೆಳೆ, ಮಠದಲ್ಲಿ, ಬಣ್ಣದ್ದು.
