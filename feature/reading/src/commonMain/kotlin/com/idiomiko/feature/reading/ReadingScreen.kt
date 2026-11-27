@@ -372,7 +372,6 @@ fun ReadingScreen(
         onTermList = { onNavigate(Route.Terms(viewModel.pageTermIds(), bookId, state.pageNumber)) },
         onSource = { state.book?.sourceUri?.let { uriHandler.openUri(it) } },
         onSpeechSettings = { onNavigate(Route.Speech) },
-        onTranslationSettings = { onNavigate(Route.OfflineTranslation) },
     )
 
     if (paneOpen) {

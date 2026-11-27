@@ -120,7 +120,6 @@ internal class ReaderPaneActions(
     val onTermList: () -> Unit,
     val onSource: () -> Unit,
     val onSpeechSettings: () -> Unit,
-    val onTranslationSettings: () -> Unit,
 )
 
 internal enum class PaneTab { READING, AUDIO, APPEARANCE }
@@ -178,7 +177,6 @@ internal fun ReaderPane(
             if (showBookmarks) {
                 BookmarksView(state, bookmarks, viewModel, onOpen = { viewModel.goToPage(it); onClose() })
             } else {
-                val toTranslationSettings = { onClose(); actions.onTranslationSettings() }
                 val toSpeechSettings = { onClose(); actions.onSpeechSettings() }
                 TallestTab(
                     PaneTab.entries.indexOf(tab),
@@ -187,7 +185,7 @@ internal fun ReaderPane(
                             Columns(
                                 phone,
                                 { ReadingExperienceCard(state, viewModel, phone); TranslationsCard(state, viewModel) },
-                                { TranslationDisplayCard(state, viewModel, phone); TranslationEngineCard(state, viewModel, toTranslationSettings) },
+                                { TranslationDisplayCard(state, viewModel, phone); TranslationEngineCard(state, viewModel) },
                             )
                         },
                         {
@@ -476,7 +474,7 @@ private fun TranslationDisplayCard(state: ReadingUiState, viewModel: ReadingView
 }
 
 @Composable
-private fun TranslationEngineCard(state: ReadingUiState, viewModel: ReadingViewModel, onTranslationSettings: () -> Unit) {
+private fun TranslationEngineCard(state: ReadingUiState, viewModel: ReadingViewModel) {
     val prefs = state.settings
     val keyed = prefs.googleTranslateApiKey.isNotBlank()
     fun usable(engine: TranslationEngine) = engine != TranslationEngine.GOOGLE || keyed
@@ -491,8 +489,6 @@ private fun TranslationEngineCard(state: ReadingUiState, viewModel: ReadingViewM
             note = { EngineNote(translationNote(prefs.translationEngine)) },
             onSelect = viewModel::setTranslationEngine,
         )
-        AppDivider()
-        LinkRow(tr("Translation settings"), AppIcons.Tune, "translation-settings", onTranslationSettings)
     }
 }
 
