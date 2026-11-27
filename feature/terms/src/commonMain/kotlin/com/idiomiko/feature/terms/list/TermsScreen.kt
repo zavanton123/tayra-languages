@@ -32,7 +32,6 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.Check
 import androidx.compose.material.icons.filled.Close
-import androidx.compose.material.icons.filled.Info
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
@@ -524,7 +523,7 @@ private fun TermsTableHeader(state: TermsListUiState, viewModel: TermsListViewMo
         TableHeaderCell(tr("Term"), Modifier.weight(TERM_WEIGHT), AppIcons.UnfoldMore, active = state.sort.field == TermSortField.TEXT, style = style) { viewModel.sortBy(TermSortField.TEXT) }
         TableHeaderCell(tr("Translation"), Modifier.weight(TRANSLATION_WEIGHT), style = style)
         TableHeaderCell(tr("Example"), Modifier.weight(EXAMPLE_WEIGHT), style = style)
-        TableHeaderCell(tr("Status"), Modifier.width(STATUS_WIDTH), Icons.Default.Info, active = state.sort.field == TermSortField.STATUS, style = style) { viewModel.sortBy(TermSortField.STATUS) }
+        TableHeaderCell(tr("Status"), Modifier.width(STATUS_WIDTH), active = state.sort.field == TermSortField.STATUS, style = style) { viewModel.sortBy(TermSortField.STATUS) }
         TableHeaderCell(tr("Added"), Modifier.width(ADDED_WIDTH), AppIcons.UnfoldMore, active = state.sort.field == TermSortField.CREATED, style = style) { viewModel.sortBy(TermSortField.CREATED) }
         Spacer(Modifier.width(MENU_WIDTH))
     }
