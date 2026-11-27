@@ -379,12 +379,9 @@ internal fun PracticeSetupContent(
             val buttons: @Composable () -> Unit = {
                 PrimaryButton(tr("Start"), onClick = { onStart(setup) }, modifier = Modifier.testTag("start-practice"), enabled = canStart, size = ButtonSize.Large)
             }
-            // A phone has no room for the summary beside the buttons: it goes above them.
+            // A phone keeps its foot to the button alone; the summary would take a line of its own.
             if (compact) {
-                Column(Modifier.fillMaxWidth().padding(horizontal = AppSpacing.xl, vertical = AppSpacing.l), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-                    Text(summary, Modifier.testTag("practice-summary"), style = AppText.emphasis)
-                    Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.End, verticalAlignment = Alignment.CenterVertically) { buttons() }
-                }
+                Row(Modifier.fillMaxWidth().padding(horizontal = AppSpacing.xl, vertical = AppSpacing.m), horizontalArrangement = Arrangement.End, verticalAlignment = Alignment.CenterVertically) { buttons() }
             } else {
                 Row(Modifier.fillMaxWidth().padding(horizontal = AppSpacing.xxxl, vertical = AppSpacing.l), verticalAlignment = Alignment.CenterVertically) {
                     Text(summary, Modifier.weight(1f).padding(end = AppSpacing.m).testTag("practice-summary"), style = AppText.emphasis)
