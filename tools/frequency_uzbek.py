@@ -543,7 +543,8 @@ def load(db, pos, lemmas, common, lexicon_path):
             # A clitic goes onto a form the counts have (uyimi on uyi).
             if seen is None or form in seen:
                 for c in with_clitics(form):
-                    add(c, word)
+                    # A noun in -chi is a doer (oʻyinchi "player", sportchi), no word with the particle -chi.
+                    add(c, word, (c,) if c.endswith("chi") else ())
         if "verb" in kinds and word.endswith("moq"):
             # Its passive, causative and other verbs no source has are counted for it, but make no word its form (kurash
             # "struggle" is no form of kuramoq "to shovel" for being spelled as kura-sh-'s stem).
