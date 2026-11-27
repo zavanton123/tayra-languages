@@ -52,7 +52,7 @@ PLURALS = ["", "हरू", "हरु"]
 # (घरभित्रको, घरनजिकै, घरतिरबाट is rare and left out).
 CASES = ["ले", "लाई", "को", "का", "की", "मा", "बाट", "देखि", "सँग", "संग", "सम्म", "तिर", "भन्दा", "जस्तो", "जस्ता", "जस्ती",
          "भित्र", "माथि", "मुनि", "पछि", "अघि", "बिना", "विना", "सित", "तर्फ", "पट्टि", "भरि", "द्वारा", "प्रति", "अनुसार",
-         "सहित", "बीच", "बाहेक", "निम्ति", "लागि", "नजिक", "अगाडि", "पछाडि", "मार्फत", "वाला", "वाली", "बारे"]
+         "सहित", "बीच", "बाहेक", "निम्ति", "लागि", "नजिक", "अगाडि", "पछाडि", "मार्फत", "वाला", "वाली", "बारे", "भर"]
 STACKED = ["भित्र", "माथि", "मुनि", "पछि", "अघि", "बीच", "तिर", "सम्म", "देखि", "नजिक", "अगाडि", "पछाडि", "तर्फ", "पट्टि",
            "सँग", "संग", "बाट", "बाहिर", "भन्दा", "बारे"]
 SECOND = ["को", "का", "की", "मा", "ले", "लाई"]
@@ -566,8 +566,9 @@ class Analyser:
             for kind, words in self.joined_prefixes.get(stem, ()):
                 if tail in self.after[kind]:
                     verbs |= words
-        # The emphatic -ै on a word that ends in a consonant (एकदमै, ठिकै).
-        if form.endswith("ै") and takes_postpositions(form[:-1], self.kinds.get(form[:-1], set())) and form[-2] not in "ािीुूेैोौंँ्":
+        # The emphatic -ै on a word that ends in a consonant (एकदमै, ठिकै, मात्रै, आजै).
+        if form.endswith("ै") and len(form) > 2 and form[-2] not in "ािीुूेैोौंँ्" \
+                and not self.kinds.get(form[:-1], {"verb"}) <= {"verb"}:
             nouns.setdefault(form[:-1], 1)
         # The contracted emphatic on a participle (गरेकै): को + नै.
         if form.endswith("कै") and form[:-1] + "ो" in self.table:
@@ -576,6 +577,25 @@ class Analyser:
             fewest = min(nouns.values())
             nouns = {w for w, n in nouns.items() if n == fewest}
         return set(nouns), verbs
+
+    def folded(self, form):
+        """
+        The words a word of its own is also a form of by rule, which it is filed under when they are commoner: a number with its
+        classifier or ordinal ending (चारवटा, सातौं), a word with the emphatic -ै (ठीकै), an adjective's agreeing -ा, -ी or -ै
+        (बुढा of बुढो), a noun with भर, भरि "all through" (दिनभर).
+        """
+        out = set()
+        for tail in NUMBER_TAILS:
+            if form.endswith(tail) and "num" in self.kinds.get(form[:-len(tail)], ()):
+                out.add(form[:-len(tail)])
+        if form.endswith("ै") and form[-2] not in "ािीुूेैोौंँ्" and not self.kinds.get(form[:-1], {"verb"}) <= {"verb"}:
+            out.add(form[:-1])
+        if form[-1] in "ाीै" and "adj" in self.kinds.get(form[:-1] + "ो", ()):
+            out.add(form[:-1] + "ो")
+        for tail in ("भर", "भरि"):
+            if form.endswith(tail) and "noun" in self.kinds.get(form[:-len(tail)], ()):
+                out.add(form[:-len(tail)])
+        return out - {form}
 
     def candidates(self, form):
         """(the word the form is itself, or None; the words it is a table's or a verb's form of; those it is a noun's of)."""
@@ -627,6 +647,14 @@ def _leipzig_sentences(path):
 
 # Wikipedia sentences that differ only in their numbers ("X गाउँ विकास समितिको जनसंख्या N छ") are counted once.
 DIGITS = re.compile(r"[0-9०-९]+")
+
+
+def merge(word, into, scores, totals, forms):
+    """Files [word] and its forms under [into], in place."""
+    scores[into] += scores.pop(word)
+    totals[into] += totals.pop(word, 0)
+    for form, credit in forms.pop(word, {}).items():
+        forms[into][form] = forms[into].get(form, 0.0) + credit
 
 
 def _counts(download):
@@ -698,6 +726,7 @@ def rank(download, dictionaries=DICTIONARIES):
     scores = defaultdict(float)
     totals = defaultdict(int)
     forms = defaultdict(dict)
+    folded_into = {}
     for form, (own, verbs, nouns) in found.items():
         value = share[form]
         # A word of its own that the pack has only as a verb's form (भयो, थियो) is that verb's, when the verb is more common
@@ -705,6 +734,11 @@ def rank(download, dictionaries=DICTIONARIES):
         if own:
             taken = verbs and kinds[own] <= {"verb"} and not own.endswith("नु")
             heads = verbs if taken and max(alone.get(v, 0.0) for v in verbs) > value else {own}
+            folded = analyser.folded(own) if heads == {own} else set()
+            if folded and max(alone.get(w, 0.0) for w in folded) > value:
+                heads = folded
+                if len(folded) == 1:
+                    folded_into[own] = next(iter(folded))
         else:
             heads = verbs | nouns
         if not heads:
@@ -718,7 +752,12 @@ def rank(download, dictionaries=DICTIONARIES):
             scores[head] += value * part
             totals[head] += raw[form]
             forms[head][form] = forms[head].get(form, 0.0) + value * part
-    ranked = [w for w in sorted(scores, key=lambda w: (-scores[w], w)) if totals[w] >= LEAST_COUNT]
+    # A word filed under another (चारवटा under चार) takes its own forms with it (चारवटाको).
+    for word, into in sorted(folded_into.items()):
+        if word in scores and into in scores and into not in folded_into:
+            merge(word, into, scores, totals, forms)
+    ranked = [w for w in sorted(scores, key=lambda w: (-scores[w], w)) if totals[w] >= LEAST_COUNT
+              and NEPALI_FORMS.get(w, w) == w]
     return ranked, scores, forms, totals, label
 
 
