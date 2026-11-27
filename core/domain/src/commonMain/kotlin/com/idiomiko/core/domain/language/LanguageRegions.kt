@@ -17,7 +17,7 @@ object LanguageRegions {
     fun of(name: String): Set<LanguageRegion> = regions[name].orEmpty()
 
     private val regions: Map<String, Set<LanguageRegion>> = buildMap {
-        fun put(region: LanguageRegion, vararg names: String) = names.forEach { merge(it, setOf(region), Set<LanguageRegion>::plus) }
+        fun put(region: LanguageRegion, vararg names: String) = names.forEach { this[it] = getOrElse(it) { emptySet() } + region }
         put(
             LanguageRegion.EUROPE,
             "Albanian", "Armenian", "Azerbaijani", "Basque", "Belarusian", "Bosnian", "Breton", "Bulgarian", "Catalan", "Cornish",
