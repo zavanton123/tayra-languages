@@ -4,8 +4,8 @@ Each course teaches one band of 100 words from the Yoruba word frequency list
 (`bands/<rankUpTo>.txt`: index, rank, word, its common spellings). Course `yo-mini-0300` teaches
 ranks 201–300 and may use every word ranked 1–300. Ten lessons, each introducing about ten of the
 band's words, so the course covers the band; a learner who finishes it knows the 300 most common
-words. `themes.tsv` gives each course its theme. The list has 3,050 words, so the last course is
-`yo-mini-3100` (50 words).
+words. `themes.tsv` gives each course its theme. The list has 2,969 words, so the last course is
+`yo-mini-3000` (69 words).
 
 ## What the lessons are: mini stories
 
@@ -54,7 +54,7 @@ story; a lesson never needs another lesson to make sense.
     speech;
   - ranks 1001–2000: longer joined sentences (*nítorí pé*, *ṣùgbọ́n*, *bí ó tilẹ̀ jẹ́ pé*, *kí ... tó*
     "before", *lẹ́yìn tí* "after"), reported speech, a first-person narrator, a letter or a diary;
-  - ranks 2001–3100 (B2): a richer register: connectors (*síbẹ̀síbẹ̀*, *nítorí náà*, *lọ́nà kejì*),
+  - ranks 2001–3000 (B2): a richer register: connectors (*síbẹ̀síbẹ̀*, *nítorí náà*, *lọ́nà kejì*),
     the newspaper column, dialogue, proverbs (*òwe*) explained by their story.
 - **Repetition on purpose**: repeat key words and phrases the way a teacher would — the new words
   three times or more where it reads naturally, the story's key sentence pattern several times
@@ -122,3 +122,6 @@ story; a lesson never needs another lesson to make sense.
 - Contractions are words of their own: *ló* (*ni ó*), *tó* (*tí ó*), *màá* (I will), *wàá* (you
   will), *áá* (he will), *àá* (we will).
 - Some entries are noise of the sources (scripture and Wikipedia): *ọnnì*, *ìjápọ̀*. Skip noise.
+- Past rank 2700 the list was rebuilt without pinyin, Vietnamese, Gbe and mojibake text, with rare
+  mistyped spellings counted for their word (*awọ́n* for *àwọn*), dialect spellings for the standard
+  word (*lénìí* for *lónìí*) and rare names left out; ranks 1–2700 are as the courses were written.
