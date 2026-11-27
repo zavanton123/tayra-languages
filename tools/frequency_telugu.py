@@ -12,12 +12,14 @@ spelling in the list. Words written with ళ్ళ and ళ్ల (వెళ్�
 Words found only in the corpus are left out: every listed word has a dictionary entry or is one of TELUGU_WORDS.
 """
 import functools
+import io
 import json
 import os
 import re
 import sqlite3
+import tarfile
 import unicodedata
-from collections import defaultdict
+from collections import Counter, defaultdict
 
 # As the reader's Telugu wordCharacters, without the digits and the fraction signs (numbers are no words).
 TELUGU_LETTERS = re.compile(r"[ఀ-ౣ‌‍]+")
@@ -478,6 +480,15 @@ def kind_of(kinds):
     return "other"
 
 
+# A word of the pack that is also a person's or a place's name there is left out as a name (named): a given name, a god or a
+# character of the epics, a town (సరళ, మాధవి, గౌరి, దశరథుడు, కావలి). Not when the name is a surname (తోటకూర, మర్రి), a
+# year's, a sign's, a month's, a festival's or a language's.
+NAME_GLOSS = re.compile(r"given name|dynasty|\bname of\b|\btitle of\b|epithet|\b(?:god|goddess|deity|king|queen|sage|rishi|demon|"
+                        r"town|city|village|district|river|mountain|kingdom|wife|husband|son|daughter|father|mother|brother|"
+                        r"sister)\b", re.I)
+KEPT_NAME_GLOSS = re.compile(r"surname|telugu year|zodiac|month|festival|language|day of", re.I)
+
+
 def lexicon(dictionaries):
     """
     The Telugu words and their kinds: the pack's entries (in their modern spelling, -ం for -ము) and TELUGU_WORDS; the pack's
@@ -485,6 +496,8 @@ def lexicon(dictionaries):
     """
     kinds = defaultdict(set)
     names = set()
+    name_glosses = defaultdict(list)
+    word_glosses = defaultdict(list)
     pack_forms = defaultdict(set)
     path = os.path.join(dictionaries, "te-en.sqlite")
     if os.path.exists(path):
@@ -497,8 +510,10 @@ def lexicon(dictionaries):
             word = TELUGU_SPELLINGS.get(modern(word), modern(word))
             if pos == "name":
                 names.add(word)
+                name_glosses[word] += [g for s in json.loads(senses) for g in s.get("glosses", [])]
             elif pos in WORD_KINDS:
                 kinds[word].add(pos)
+                word_glosses[word] += [g for s in json.loads(senses) for g in s.get("glosses", [])]
         for form, lemma in db.execute("SELECT form_lc, lemma FROM forms"):
             if TELUGU_LETTERS.fullmatch(form):
                 pack_forms[form].add(TELUGU_SPELLINGS.get(modern(lemma), modern(lemma)))
@@ -533,7 +548,16 @@ def lexicon(dictionaries):
     # An adjective that is a noun in -ం's stem (కేంద్ర of కేంద్రం, ప్రస్తుత of ప్రస్తుతం) is that word's form.
     for word in [w for w, ks in kinds.items() if ks <= {"adj"} and w + ANUSVARA in kinds]:
         kinds[word + ANUSVARA] |= kinds.pop(word)
-    return kinds, pack_forms, names - set(kinds), spellings
+    # A noun all of whose glosses name one (కుమారస్వామి "a name of Kārtikēya", కాకతీయులు "Kakatiya dynasty", శ్యామల "a female
+    # given name") is one too.
+    for word, glosses in word_glosses.items():
+        if glosses and all(re.match(r"(?:a |the )?(?:name|title|epithet) of\b", g, re.I)
+                           or re.search(r"\bdynasty\b|given name|\bsons of\b|\bmentioned in\b|Mahabharat|Ramayan", g)
+                           for g in glosses):
+            name_glosses[word] += glosses
+    named = {w for w, glosses in name_glosses.items() if w in kinds and w not in TELUGU_WORDS
+             and any(NAME_GLOSS.search(g) for g in glosses) and not any(KEPT_NAME_GLOSS.search(g) for g in glosses)}
+    return kinds, pack_forms, names - set(kinds), spellings, named
 
 
 def plural_forms(plural):
@@ -831,15 +855,111 @@ def word_forms(word, ks):
     return forms
 
 
+# How the news and Wikipedia sentences use a form (read_usage), once its words are known: a page (an article, a web page)
+# counts it PAGE_MOST times at most, so that a word one article repeats (పొటాషియం, కౌరవ) is no common one; and its uses as a
+# name's piece or in English count for nothing: after a title or an initial (శ్రీ కృష్ణ, డా రవి, కె చంద్రశేఖర్), before a
+# surname or గారు (సుబ్బా రావు, బాల గారు), beside Latin letters or a word in a virama no word of the list explains (the news's
+# names and English: జానీ డెప్, పూరి జగన్నాథ్), a loanword in a virama beside another (సిల్వర్ జూబ్లీ, చాట్ షో), or as a piece
+# of a word a space split (ఆసక్తి కరంగా). A noun so used NAMED_SHARE of the times the sentences have it is a name, and left out.
+TELUGU_CORPORA = {"leipzig": ("tel_news_2020_100K", "tel_newscrawl_2011_300K"), "wikipedia_sentences": ("tel_wikipedia_2021_300K",)}
+PAGE_MOST = 2
+NAMED_SHARE = 0.45
+NAMED_LEAST = 20
+TITLES = set("""
+శ్రీ శ్రీమతి శ్రీమాన్ డా డాక్టర్ ప్రొఫెసర్ ప్రొ మిస్టర్ మిస్ సర్ కుమారి మహారాజా మహారాజ్ రాజా పండిట్ సెయింట్ కెప్టెన్ జస్టిస్
+మౌలానా షేక్ సయ్యద్ స్వామి
+""".split())
+NAME_PARTS = set("""
+గారు గారి గారికి గారిని గారితో గారే రెడ్డి నాయుడు శర్మ చౌదరి వర్మ శాస్త్రి గౌడ్ యాదవ్ పటేల్ ఖాన్ సింగ్ కుమార్ ప్రసాద్ రావు
+మూర్తి గాంధీ అలీ ముదిరాజ్ రాజ్ దాస్ నాథ్ జీ
+""".split())
+INITIALS = set("ఎ బి సి డి ఇ ఎఫ్ జి హెచ్ ఐ జె కె ఎల్ ఎం ఎన్ ఓ పి క్యూ ఆర్ ఎస్ టి యు వి డబ్ల్యూ ఎక్స్ వై జెడ్ జడ్".split())
+EDGE = re.compile(r"^[^\u0c00-\u0c7f\w]+|[^\u0c00-\u0c7f\w]+$")
+BREAK = re.compile(r"[.,;:()\[\]\"'!?“”‘’|-]$")
+LATIN = re.compile("[A-Za-z]")
+# Initials written with stops (కె., హెచ్.డి., ఎస్.పి.) lead a name, the stop no break.
+DOTTED = re.compile(r"(?:[\u0c00-\u0c7f]{1,4}\.)+")
+
+
+def _sentences(dictionaries, corpora):
+    """Each sentence of the Leipzig archives [corpora] as (its page, its tokens: each a Telugu word, "latin" or "", and
+    whether a stop or comma ends it)."""
+    for corpus in corpora:
+        path = os.path.join(dictionaries, "frequency-sources", f"leipzig-{corpus}.tar.gz")
+        if not os.path.exists(path):
+            continue
+        with tarfile.open(path) as tar:
+            members = {m.name.rsplit("-", 1)[-1]: m for m in tar.getmembers() if m.isfile()}
+            page_of = {}
+            for line in io.TextIOWrapper(tar.extractfile(members["inv_so.txt"]), encoding="utf-8"):
+                source, sentence = line.rstrip("\n").split("\t")[:2]
+                page_of[sentence] = source
+            for line in io.TextIOWrapper(tar.extractfile(members["sentences.txt"]), encoding="utf-8"):
+                number, _, text = line.rstrip("\n").partition("\t")
+                tokens = []
+                for raw in unicodedata.normalize("NFC", text).split():
+                    bare = EDGE.sub("", raw)
+                    if DOTTED.fullmatch(raw):
+                        tokens.append(("initial", False))
+                        continue
+                    if TELUGU_LETTERS.fullmatch(bare) and not STRAY_JOINER.search(bare):
+                        word = bare
+                    else:
+                        word = "latin" if LATIN.search(bare) else ""
+                    tokens.append((word, bool(BREAK.search(raw))))
+                yield corpus + "/" + page_of.get(number, ""), tokens
+
+
+def read_usage(dictionaries, corpora, known):
+    """
+    How often the sentences of [corpora] have each Telugu form (seen), counting each page PAGE_MOST times at most (spread),
+    and how often as a name's piece or in English (lost), [known] being the forms a word of the list explains.
+    """
+    sentences = sorted(_sentences(dictionaries, corpora), key=lambda s: s[0])
+    seen = Counter()
+    for _, tokens in sentences:
+        seen.update(w for w, _ in tokens if w and w not in ("latin", "initial"))
+
+    def foreign(word):
+        return word == "latin" or (word.endswith(VIRAMA) and word not in known)
+
+    spread, lost, pairs = Counter(), Counter(), Counter()
+    page, on_page = None, Counter()
+    for here, tokens in sentences + [(None, [])]:
+        if here != page:
+            spread.update({w: min(n, PAGE_MOST) for w, n in on_page.items()})
+            page, on_page = here, Counter()
+        last = len(tokens) - 1
+        for i, (word, stop) in enumerate(tokens):
+            if not word or word in ("latin", "initial"):
+                continue
+            on_page[word] += 1
+            before = tokens[i - 1][0] if i and not tokens[i - 1][1] else ""
+            after = tokens[i + 1][0] if i < last and not stop else ""
+            loan = word.endswith(VIRAMA) and any(n == "latin" or n.endswith(VIRAMA) for n in (before, after) if n)
+            if (before in TITLES or before in INITIALS or before == "initial" or after in NAME_PARTS or foreign(before)
+                    or foreign(after) or loan):
+                lost[word] += 1
+            if after and after not in ("latin", "initial") and word + after in known:
+                pairs[word, after] += 1
+    # Two pieces of a word the sentences write whole at least as often as apart (ఆసక్తి కరంగా, ప్రభుత్వ పరంగా).
+    for (a, b), n in sorted(pairs.items()):
+        if seen[a + b] >= n:
+            lost[a] += n
+            lost[b] += n
+    return seen, spread, lost
+
+
 def build(found, size, label, weights=None):
     """The list: the words of the pack and TELUGU_WORDS, by their forms' counts in [found] ((name, counts, label) each), the
     sources weighted by [weights] (name -> share) or alike."""
     dictionaries = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "dictionaries")
-    kinds, pack_forms, names, spellings = lexicon(dictionaries)
+    kinds, pack_forms, names, spellings, named = lexicon(dictionaries)
     weights = weights or {}
     share_of = {name: weights.get(name, 1 / len(found)) for name, _, _ in found}
     scale = sum(share_of.values())
     counts = defaultdict(float)
+    by_source = defaultdict(lambda: defaultdict(float))
     raw = defaultdict(int)
     for name, source, _ in found:
         total = sum(source.values())
@@ -848,6 +968,7 @@ def build(found, size, label, weights=None):
             form = unicodedata.normalize("NFC", form)
             if TELUGU_LETTERS.fullmatch(form) and not STRAY_JOINER.search(form):
                 counts[form] += n / total * share_of[name] / scale
+                by_source[name][form] += n / total * share_of[name] / scale
                 raw[form] += n
 
     alias = dict(TELUGU_SPELLINGS)
@@ -863,15 +984,6 @@ def build(found, size, label, weights=None):
                 kinds[noun] = {"noun"}
                 kinds.pop(word)
                 break
-    # A noun the pack writes in -ము that texts decline in -a (పాలన, పాలనలో; not పాలనం, పాలనంలో) is listed in -a.
-    for word in [w for w in kinds if w.endswith(ANUSVARA) and w not in TELUGU_WORDS and w[:-1] not in kinds]:
-        stem = word[:-1]
-        as_a = sum(counts.get(stem + t, 0) for t in ("లో", "ను", "కు", "లు", "తో", "ల", "కి", "ని"))
-        as_am = sum(counts.get(f, 0) for f in (word + "లో", stem + "ాన్ని", stem + "ానికి", stem + "ాలు", word + "తో", stem + "ాల"))
-        if as_a > 2 * as_am and as_a > counts.get(word, 0) / 5:
-            kinds[stem] = kinds.pop(word)
-            alias[word] = stem
-
     # A noun the pack writes in -ము that texts decline in -a (పాలన, పాలనలో; not పాలనం, పాలనంలో) is listed in -a.
     for word in [w for w in kinds if w.endswith(ANUSVARA) and w not in TELUGU_WORDS and w[:-1] not in kinds]:
         stem = word[:-1]
@@ -988,12 +1100,20 @@ def build(found, size, label, weights=None):
                     return {lead}
         return heads
 
+    found_targets = {form: targets(form) for form in counts}
+    # The news's and Wikipedia's counts are their uses spread over the pages and as no name's piece (read_usage).
+    known = {f for f, heads in found_targets.items() if heads}
+    usage = {name: read_usage(dictionaries, corpora, known) for name, corpora in sorted(TELUGU_CORPORA.items())
+             if name in by_source}
+    for name, (seen, spread, lost) in sorted(usage.items()):
+        for form, share in by_source[name].items():
+            if seen[form]:
+                counts[form] -= share * (1 - spread[form] / seen[form] * (1 - min(lost[form], seen[form]) / seen[form]))
+
     # A form of several words is shared by how common each is by its forms of no other word.
     own = defaultdict(float)
-    found_targets = {}
     for form, share in counts.items():
-        heads = targets(form)
-        found_targets[form] = heads
+        heads = found_targets[form]
         if len(heads) == 1:
             own[next(iter(heads))] += share
     scores = defaultdict(float)
@@ -1032,6 +1152,19 @@ def build(found, size, label, weights=None):
             uses[head] += uses.pop(other, 0.0)
             for f, share in forms.pop(other).items():
                 forms[head][f] = forms[head].get(f, 0.0) + share
+
+    # A noun the pack has as a person's or place's name too (named), or that the sentences mostly use as a name's piece
+    # (NAMED_SHARE), is a name.
+    for word in sorted(scores):
+        if word in named:
+            del scores[word]
+            continue
+        if word in TELUGU_WORDS or not kinds.get(word, {"noun"}) <= {"noun", "adj"}:
+            continue
+        seen_here = sum(u[0][f] for u in usage.values() for f in forms[word])
+        lost_here = sum(min(u[2][f], u[0][f]) for u in usage.values() for f in forms[word])
+        if seen_here >= NAMED_LEAST and lost_here >= NAMED_SHARE * seen_here:
+            del scores[word]
 
     # A word is listed when its forms are written LEAST_COUNT times in all the sources (one use in the small subtitles weighs
     # as much as twenty in the news).
