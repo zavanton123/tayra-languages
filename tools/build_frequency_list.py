@@ -5895,13 +5895,15 @@ def build_burmese(size):
     """
     pack = frequency_burmese.pack_words()
     lexicon = pack | frequency_burmese.lexicon_words()
-    # A noun's or pronoun's induced creaky tone (ဘုရင့်, ကမ္ဘာ့) is its form, unless the pack has it as a word of its own.
+    # A noun's or pronoun's induced creaky tone (ဘုရင့်, ကမ္ဘာ့) is its form, unless the pack has it as a word of its own; and
+    # a spelling of frequency_burmese.SPELLINGS is its word's.
     db = sqlite3.connect(os.path.join(DICTIONARIES, "my-en.sqlite"))
     creaky = {}
     for (word,) in db.execute("SELECT DISTINCT word_lc FROM entries WHERE pos IN ('noun', 'pron')"):
         form = frequency_burmese.creaky(frequency_burmese.my_normalise(word))
         if form and form not in pack:
             creaky.setdefault(form, [frequency_burmese.my_normalise(word)])
+    creaky.update({form: [word] for form, word in frequency_burmese.SPELLINGS.items()})
     OVERRIDES["my"] = creaky
     lexicon |= set(creaky)
     fragments = frequency_burmese.FRAGMENTS

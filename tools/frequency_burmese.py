@@ -92,8 +92,18 @@ FRAGMENTS = frozenset("""
 """.split())
 
 # Loanwords neither the pack nor ICU's list has, which the reader would cut into syllables that are words (အို "old" + ကေ
-# "hair"): the app's own list has them.
+# "hair"): the app's own list has them, and the spellings below.
 EXTRA_WORDS = ("အိုကေ", "တီဗီ", "တီဗွီ")
+
+# Spellings the pack lacks, each filed under the word of the pack it spells, as the list's forms: အကို for အစ်ကို "elder
+# brother"; တစ်လျောက် and တလျှောက် for တစ်လျှောက် "all along" (whose piece လျောက် the cut left alone); မွတ်ဆလင် and
+# မွတ်စလင်မ် for မွတ်စလင် "Muslim" (whose မွတ် it left); the creaky တကယ့် of တကယ် "really" (တကယ့်ကို), which no rule
+# makes, as the adverb takes no creaky tone; and အကျော်ကြား of ကျော်ကြား "famous" (အကျော်ကြားဆုံး "the most famous"),
+# which the cut read as အကျော် + ကြား. The app's own list has them, so the reader reads each whole.
+SPELLINGS = {
+    "အကို": "အစ်ကို", "တစ်လျောက်": "တစ်လျှောက်", "တလျှောက်": "တစ်လျှောက်", "တလျောက်": "တစ်လျှောက်",
+    "မွတ်ဆလင်": "မွတ်စလင်", "မွတ်စလင်မ်": "မွတ်စလင်", "တကယ့်": "တကယ်", "အကျော်ကြား": "ကျော်ကြား", "တဝိုက်": "တစ်ဝိုက်",
+}
 
 # Words the pack lacks that the texts use most, each with its kind: ICU's list has them, and the reader reads them as words
 # of their own, but with no entry in the pack the list had none of them. The connectives and the quotative of the written
@@ -214,7 +224,7 @@ def make_lexicon(icu_path):
     the reader reads them as the pack's words, which it can look up, as it reads Lao's phrases (LaoParser). Not two words
     of another kind, which are often one word, a pair of verbs that mean one thing (လုံလောက် "enough", သန်မာ "strong"), nor
     a word twice (ဖေဖေ "daddy"). The pack's words they are cut into are on the list too, for a reader without the pack; and
-    so are EXTRA_WORDS and the words the frequency list adds by hand (WORDS).
+    so are EXTRA_WORDS, the spellings of SPELLINGS and the words the frequency list adds by hand (WORDS).
     """
     pack = pack_words()
     db = sqlite3.connect(os.path.join(DICTIONARIES, "my-en.sqlite"))
@@ -223,7 +233,7 @@ def make_lexicon(icu_path):
         kinds.setdefault(my_normalise(word), set()).add(pos)
     nouns = {w for w, k in kinds.items() if k <= {"noun", "classifier"}}
     words = icu_words(icu_path, pack)
-    own = set(EXTRA_WORDS) | set(WORDS)
+    own = set(EXTRA_WORDS) | set(SPELLINGS) | set(WORDS)
     kept, pieces = set(), set()
     for word in sorted(words):
         cut = None if word in pack or word in own else CUT.get(word) or pack_cut(word, pack)
