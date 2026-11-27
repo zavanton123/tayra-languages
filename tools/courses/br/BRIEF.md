@@ -4,7 +4,7 @@ Each course teaches one band of 100 words from the Breton word frequency list (`
 index, rank, word, its common forms). Course `br-mini-0300` teaches ranks 201–300 and may use every word
 ranked 1–300. Ten lessons, each introducing about ten of the band's words, so the course covers the band;
 a learner who finishes it knows the 300 most common words. `themes.tsv` gives each course its theme. The
-list has 5,249 words, so the courses stop at rank 5300 (the last band has 49 words).
+list has 9,993 words, so the courses stop at rank 10000 (the last band has 93 words).
 
 ## The register
 
@@ -83,9 +83,13 @@ lesson to make sense.
     gwirionez*, *a-hend-all*; common sayings and idioms explained by the context;
   - ranks 3001–4000: everything before, in a more literary, descriptive style: precise adjectives and clear
     images, the newspaper column (a light reflection on everyday life);
-  - ranks 4001–5300 (C1): more abstract and nuanced content: a short essay or reflective column that weighs two
+  - ranks 4001–6000 (C1): more abstract and nuanced content: a short essay or reflective column that weighs two
     sides, an interview, a portrait, a review; the more specialised words of professions, sciences and the arts,
-    each made clear by its context; long sentences that stay easy to parse.
+    each made clear by its context; long sentences that stay easy to parse;
+  - ranks 6001–8000 (C1): the same, with figurative language and idioms used more freely, and topics that need
+    some background, which the text gives;
+  - ranks 8001–10000 (C2): texts close to what native readers meet: literary prose, academic and journalistic
+    registers, learned words explained by their context. Still standalone, calm and easy to follow.
   After rank 1000 sentences get longer and joined, dialogue can carry more of the story, and a story may be told
   by a first-person narrator or as an e-mail, a letter or a diary entry. From rank 2000 a lesson may also be a
   short informative or opinion text, as long as it is everyday, calm and easy to follow. A learner at the level
@@ -125,10 +129,10 @@ day and the month with a capital (*d'al Lun*, *e miz Genver*), the forms with *d
 
 Names free to use (none is a list word): *Yann, Anna, Erwan, Tangi, Mona, Loeiz, Riwal, Soazig, Youenn, Katell,
 Klervi, Goulven, Enora, Aziliz, Morgan, Nolwenn, Iwan, Ronan, Maela, Brieg, Gwenola, Fañch, Lena, Annaig, Jakez,
-Herve, Mari, Yannig, Gwenael, Maiwenn, Bleuenn, Mikael, Glenn, Tudual, Gaid, Visant, Job, Marivonn, Ewen,
-Gwendal, Jord, Mael, Kaourantin, Gireg, Oanez, Morwenna, Kristell, Nikolaz, Erell, Loig, Yaouen, Meriadeg, Divi*.
+Herve, Mari, Yannig, Gwenael, Maiwenn, Bleuenn, Mikael, Tudual, Gaid, Visant, Job, Marivonn, Ewen,
+Gwendal, Jord, Mael, Kaourantin, Gireg, Oanez, Morwenna, Kristell, Nikolaz, Erell, Loig, Yaouen, Meriadeg*.
 **Not** names here, because they are list words or forms: *Alan, Per, Paol, Malo, Kristen, Armel, Rozenn,
-Sterenn, Paskal, Gwenn*. Check any other name with `rank.py`. Places free to use: *Breizh, Kemper, Brest,
+Sterenn, Paskal, Gwenn, Glenn, Divi*. Check any other name with `rank.py`. Places free to use: *Breizh, Kemper, Brest,
 Roazhon, Naoned, Gwened, Montroulez, Lannuon, Karaez, Gwengamp, Douarnenez, Landerne, Pondi, Dinan, Kemperle,
 Kraozon, Pempoull, Pariz, Iwerzhon, Kembre, Kanada*, and whole in `names`: *Sant-Brieg, An Oriant, Konk-Kerne,
 Kastell-Paol, Sant-Maloù, Enez-Vaz, Bro-C'hall*. Write a name as the grammar requires (*da Vrest*, *da Gemper*,
@@ -179,7 +183,7 @@ Things to know about the Breton list and the checker:
 
 - The courses are pinned to `tools/courses/br/wordlist.tsv`, a copy of the app's `br.tsv`. Its only source is
   Leipzig's 100,000 sentences of the Breton Wikipedia (the subtitles have 7,000 forms), so history, kings, wars and
-  the Church stand early (*roue* 63, *brezel* 85, *mervel* 78) and kitchen words late (*bara* 984, *kafe* 2520).
+  the Church stand early (*roue* 63, *brezel* 85, *mervel* 78) and kitchen words late (*bara* 984, *kafe* 3817).
   Check with `rank.py`; say *tra*, *ti*, *kêr* where the level needs it.
 - **Elided words are two words**: the reader keeps *d'ar*, *n'eo*, *m'en*, *p'edo*, *ma'z* whole, and the checker
   counts them as the two words they are (*da* + *ar*, *ne* + *eo*). *c'h* is one letter.
