@@ -128,6 +128,7 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.idiomiko.core.domain.model.TermStatus
 import com.idiomiko.core.domain.service.LocalTranslationProblem
 import com.idiomiko.core.domain.settings.HotkeyAction
+import com.idiomiko.core.domain.model.BookStats
 import com.idiomiko.core.domain.stats.BookStatsCalculator
 import com.idiomiko.core.ui.audio.rememberCanSpeak
 import com.idiomiko.core.ui.audio.rememberSpeaker
@@ -862,10 +863,15 @@ private fun ReadingBody(
                     style = AppText.screenTitle.copy(color = theme.readingText, textDirection = if (state.language?.rightToLeft == true) TextDirection.Rtl else TextDirection.Ltr),
                 )
             }
-            PageVocabulary(state)
+            val stats = remember(state.storyPage, state.page) { BookStatsCalculator.calculate(state.storyItems) }
+            // The bar of unknown words shows only while some are left.
+            val unknownLeft = stats.distinctUnknowns > 0
+            if (unknownLeft) PageVocabulary(stats)
+            val notice = state.translationProgress != null || state.translationError != null
             state.translationProgress?.let { TranslationProgress(it) }
                 ?: state.translationError?.let { TranslationNotice(it, viewModel, onSettings) }
-            AppDivider(Modifier.padding(bottom = AppSpacing.xl))
+            // A phone's text starts under its bar; a wider page keeps the line under its title.
+            if (unknownLeft || notice || !compact) AppDivider(Modifier.padding(bottom = AppSpacing.xl))
             if (state.stage !in closedNotes) {
                 StageNote(state.stage, state.pageStages, onAction = { openStage(state.stage) }, onClose = { closedNotes += state.stage }, Modifier.padding(bottom = AppSpacing.xl))
             }
@@ -1302,13 +1308,12 @@ private fun TranslationProgress(message: String) {
 
 /** How many of the page's different words are still unknown, as a bar and a count, under the title. */
 @Composable
-private fun PageVocabulary(state: ReadingUiState) {
-    val stats = remember(state.storyPage, state.page) { BookStatsCalculator.calculate(state.storyItems) }
+private fun PageVocabulary(stats: BookStats) {
     val colors = MaterialTheme.colorScheme
     Row(Modifier.fillMaxWidth().padding(top = AppSpacing.m, bottom = AppSpacing.l), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
         StatusDistributionBar(stats, Modifier.widthIn(max = VOCABULARY_BAR_WIDTH).weight(1f, fill = false).fillMaxWidth(), scope = "on this page")
         Text(
-            if (stats.distinctTerms > 0) trPlural(stats.distinctUnknowns, "{0} unknown word", "{0} unknown words") else "—",
+            trPlural(stats.distinctUnknowns, "{0} unknown word", "{0} unknown words"),
             style = MaterialTheme.typography.bodyMedium,
             color = colors.onSurfaceVariant,
             modifier = Modifier.testTag("page-unknown-words"),
