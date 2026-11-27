@@ -165,7 +165,6 @@ internal val elReading: Map<String, String> = mapOf(
     "{0} of {1} right" to "{0} από {1} σωστές",
     "Every answer was right." to "Όλες οι απαντήσεις ήταν σωστές.",
     "Words to look at again: {0}" to "Λέξεις για να ξαναδείτε: {0}",
-    "Practice does not change the status of your words." to "Η εξάσκηση δεν αλλάζει την κατάσταση των λέξεών σας.",
     "Practise again" to "Ξανά εξάσκηση",
     "Practise missed words" to "Εξάσκηση στις λέξεις που χάθηκαν",
     "Back to reading" to "Πίσω στην ανάγνωση",

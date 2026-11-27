@@ -165,7 +165,6 @@ internal val plReading: Map<String, String> = mapOf(
     "{0} of {1} right" to "Dobrze: {0} z {1}",
     "Every answer was right." to "Wszystkie odpowiedzi są poprawne.",
     "Words to look at again: {0}" to "Warto powtórzyć: {0}",
-    "Practice does not change the status of your words." to "Ćwiczenie nie zmienia statusu twoich słów.",
     "Practise again" to "Ćwicz ponownie",
     "Practise missed words" to "Ćwicz pominięte słowa",
     "Back to reading" to "Wróć do czytania",

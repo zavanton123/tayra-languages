@@ -165,7 +165,6 @@ internal val esReading: Map<String, String> = mapOf(
     "{0} of {1} right" to "{0} de {1} aciertos",
     "Every answer was right." to "Todas las respuestas fueron correctas.",
     "Words to look at again: {0}" to "Palabras para repasar: {0}",
-    "Practice does not change the status of your words." to "La práctica no cambia el estado de tus palabras.",
     "Practise again" to "Practicar otra vez",
     "Practise missed words" to "Practicar las palabras falladas",
     "Back to reading" to "Volver a la lectura",

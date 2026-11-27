@@ -165,7 +165,6 @@ internal val frReading: Map<String, String> = mapOf(
     "{0} of {1} right" to "{0} sur {1} bonnes réponses",
     "Every answer was right." to "Toutes les réponses étaient justes.",
     "Words to look at again: {0}" to "Mots à revoir : {0}",
-    "Practice does not change the status of your words." to "L’entraînement ne change pas le statut de vos mots.",
     "Practise again" to "Recommencer",
     "Practise missed words" to "Réviser les mots manqués",
     "Back to reading" to "Retour à la lecture",

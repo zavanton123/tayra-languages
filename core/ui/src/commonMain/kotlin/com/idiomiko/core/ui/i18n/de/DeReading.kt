@@ -165,7 +165,6 @@ internal val deReading: Map<String, String> = mapOf(
     "{0} of {1} right" to "{0} von {1} richtig",
     "Every answer was right." to "Alle Antworten waren richtig.",
     "Words to look at again: {0}" to "Noch einmal ansehen: {0}",
-    "Practice does not change the status of your words." to "Das Üben ändert den Status deiner Wörter nicht.",
     "Practise again" to "Noch einmal üben",
     "Practise missed words" to "Verpasste Wörter üben",
     "Back to reading" to "Zurück zum Lesen",

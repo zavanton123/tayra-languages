@@ -756,7 +756,6 @@ private fun Finished(state: PracticeUiState, actions: PracticeActions) {
             color = colors.onSurfaceVariant,
             textAlign = TextAlign.Center,
         )
-        Text(tr("Practice does not change the status of your words."), style = MaterialTheme.typography.bodySmall, color = colors.outline, textAlign = TextAlign.Center)
         // Missed words lead to practising them again; with none missed, back to where the words came from.
         FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.m, Alignment.CenterHorizontally), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
             if (state.missedTargets.isNotEmpty()) {

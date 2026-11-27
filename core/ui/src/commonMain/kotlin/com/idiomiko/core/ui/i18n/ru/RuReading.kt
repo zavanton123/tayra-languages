@@ -165,7 +165,6 @@ internal val ruReading: Map<String, String> = mapOf(
     "{0} of {1} right" to "Верно {0} из {1}",
     "Every answer was right." to "Все ответы верны.",
     "Words to look at again: {0}" to "Стоит повторить: {0}",
-    "Practice does not change the status of your words." to "Тренировка не меняет статус ваших слов.",
     "Practise again" to "Пройти ещё раз",
     "Practise missed words" to "Повторить пропущенные слова",
     "Back to reading" to "Вернуться к чтению",

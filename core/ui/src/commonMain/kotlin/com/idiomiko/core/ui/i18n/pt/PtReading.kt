@@ -165,7 +165,6 @@ internal val ptReading: Map<String, String> = mapOf(
     "{0} of {1} right" to "{0} de {1} certas",
     "Every answer was right." to "Todas as respostas estavam certas.",
     "Words to look at again: {0}" to "Palavras para rever: {0}",
-    "Practice does not change the status of your words." to "A prática não muda o status das suas palavras.",
     "Practise again" to "Praticar de novo",
     "Practise missed words" to "Praticar as palavras erradas",
     "Back to reading" to "Voltar à leitura",

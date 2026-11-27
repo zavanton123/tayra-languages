@@ -165,7 +165,6 @@ internal val zhReading: Map<String, String> = mapOf(
     "{0} of {1} right" to "答对 {0}/{1}",
     "Every answer was right." to "全部答对了。",
     "Words to look at again: {0}" to "需要再看看的单词：{0}",
-    "Practice does not change the status of your words." to "练习不会改变单词的状态。",
     "Practise again" to "再练一次",
     "Practise missed words" to "练习答错的单词",
     "Back to reading" to "返回阅读",
