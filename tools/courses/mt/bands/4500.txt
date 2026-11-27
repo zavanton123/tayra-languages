@@ -1,100 +1,100 @@
-1	4401	ja	
-2	4402	bravu	brava bravi
-3	4403	deroga	derogi
-4	4404	ddominata	ddominati iddominata iddominati
-5	4405	żgħażugħ	żgħażugħa
-6	4406	mottiv	mottiva mottivi
-7	4407	esperimenta	esperimentajna esperimentajt esperimentat esperimentaw jesperimenta jesperimentaw nesperimenta nesperimentaw tesperimenta
-8	4408	dielja	dwieli
-9	4409	teżorier	teżoriera teżorieri
-10	4410	ramli	ramlija ramlin
-11	4411	konċelebrazzjoni	konċelebrazzjonijiet
-12	4412	daħka	daħqa daħqitha
-13	4413	ressqet	ressqitha ressqithom ressqitu
-14	4414	miskin	imsejken imsieken miskina msejken msieken
-15	4415	furnar	furnara
-16	4416	beraq	berqa
-17	4417	kapitolu	kapitoli
-18	4418	nixxa	inixxi inixxu jnixxi jnixxix jnixxu nixxew nixxieha nixxiet nnixxu tnixxi
-19	4419	rettili	
-20	4420	jinħatru	
-21	4421	prattiku	
-22	4422	naqax	inqix jonqox jonqxu minqux minquxa minquxin nonqox
-23	4423	ikkura	ikkurat jikkura jikkuraha jikkurahom jikkurani jikkuraw jikkurawha jikkurawhom jikkurawlu kkura kkurat nikkura nikkurahom nikkuraw tikkura tikkurah
-24	4424	tinkiseb	
-25	4425	ħanżir	ħanżira ħnieżer
-26	4426	skandaluż	skandaluża skandalużi
-27	4427	leqq	ileqq ileqqu jleqq jleqqu jleqqx tleqq
-28	4428	dokumentat	dokumentata dokumentati
-29	4429	kurrikulu	kurrikula kurrikuli
-30	4430	kejk	kejkijiet
-31	4431	landa	landi laned
-32	4432	salt	
-33	4433	għall-anqas	għallinqas
-34	4434	provduta	provduti
-35	4435	relattiv	relattivi
-36	4436	indikata	indikati ndikata ndikati
-37	4437	irrapurta	irrapurtat irrapurtaw jirrapurta jirrapurtaw jirrapurtax rrapurtajt rrapurtat rrapurtaw rrapurtawx tirrapurtaw tirrapurtax
-38	4438	pontifiċju	pontifiċja pontifiċji
-39	4439	dikjarata	dikjarati
-40	4440	ibn	
-41	4441	issostitwixxa	issostitwixxiet jissostitwixxa jissostitwixxi jissostitwixxihom jissostitwixxix jissostitwixxu jissostitwixxuhom jissostitwixxux nissostitwixxi nissostitwixxu nissostitwixxuha ssostitwixxa ssostitwixxew ssostitwixxewhom tissostitwixxi
-42	4442	organizazzjoni	organizazzjonijiet
-43	4443	likwidu	likwida likwidi
-44	4444	jinqasam	jinqasamx
-45	4445	tawwal	imtawwal intawwal itawlu itawluha itawluhielu itawwal ittawwal jtawlu jtawwal mtawwal ntawlu ntawluh ntawwal ntawwalx tawlet tawlu tawwallha tawwalt titwil ttawwal
-46	4446	nawfraġju	nawfraġji
-47	4447	antiċipa	antiċipajt antiċipat antiċipatx antiċipaw jantiċipa jantiċipaw jantiċipax nantiċipa nantiċipaw tantiċipa
-48	4448	ntlaqgħet	intlaqgħet intlaqgħetx ntlaqgħetx
-49	4449	eleva	elevaha elevana elevar elevat elevaw elevawx jeleva jelevaw televa televah
-50	4450	iċċertifikata	iċċertifikati ċċertifikata ċċertifikati
-51	4451	konċentrament	
-52	4452	ħandaq	ħniedaq ħondoq
-53	4453	narrattiva	narrattivi
-54	4454	rapidu	rapida rapidi
-55	4455	għomru	għomri
-56	4456	emisferu	emisfera emisferi
-57	4457	jitnaqqsu	
-58	4458	konsorzju	konsorzja konsorzji
-59	4459	konkos	konkoss
-60	4460	kolp	kolpi kolpijiet
-61	4461	navata	navati
-62	4462	elettron	elettroni
-63	4463	internament	
-64	4464	konsulenza	konsulenzi
-65	4465	ammiratur	ammiraturi ammiraturu
-66	4466	ġobon	ġobna ġobnijiet
-67	4467	determinanti	
-68	4468	patroċinju	patroċinji
-69	4469	ansjetà	ansjeta ansjetajiet
-70	4470	xaqleb	imxaqleb ixaqilbu ixaqleb ixxaqleb jxaqilbu jxaqleb mxaqleb nxaqleb xaqilbet xaqilbu xaqlib xxaqleb xxaqlibx
-71	4471	abitazzjoni	abitazzjonijiet
-72	4472	ġen	ġeni
-73	4473	jintalab	jintalabx
-74	4474	foster	
-75	4475	pproċessat	ipproċessat ipproċessata ipproċessati pproċessata pproċessati
-76	4476	skomdu	iskomdu skomdi
-77	4477	newtralità	newtralita
-78	4478	unto	
-79	4479	artefatti	
-80	4480	binarja	binarji
-81	4481	paroli	
-82	4482	trunċiera	trunċieri
-83	4483	fena	fnew fniet ifni jifni jifnu jifnuk jifnuna mifni mifnija mifnijin nifnu tifni
-84	4484	ixbħa	jixbħu jixbħuh jixbħuha jixbħuhom jixbħuni jixbħux nixbħu nixbħuh nixbħuhom nixbħuk
-85	4485	xjentifikament	
-86	4486	turija	turijiet
-87	4487	taħdita	
-88	4488	estinzjoni	estinzjonijiet
-89	4489	għarwien	għarwenin għarwiena
-90	4490	ngħalqu	ingħalqu ngħalqux
-91	4491	isma	jsma nismaw nismu smat smew
-92	4492	ċirkwit	ċirkwiti
-93	4493	medalja	medalji
-94	4494	miżien	imwieżen mwieżen
-95	4495	ntalbet	intalbet
-96	4496	krema	kremi
-97	4497	kanoniku	kanonika
-98	4498	rangers	
-99	4499	assessment	assessments
-100	4500	eliminazzjoni	eliminazzjonijiet
+1	4401	ingaġġa	ingaġġajna ingaġġat ingaġġati ingaġġaw jingaġġa jingaġġax ngaġġa ngaġġat ngaġġati ningaġġaw tingaġġa
+2	4402	safejn	
+3	4403	stipendju	istipendji istipendju stipendji
+4	4404	veduti	
+5	4405	parallel	parallela paralleli parallelu
+6	4406	rtir	irtir irtiri rtiri
+7	4407	gradwat	gradwata gradwati
+8	4408	xemxi	xemxija xemxin
+9	4409	ċerimonjali	
+10	4410	ballet	ballett balletti
+11	4411	altru	
+12	4412	stazzjonat	stazzjonata stazzjonati
+13	4413	millimetru	millimetri
+14	4414	valutazzjoni	valutazzjonijiet
+15	4415	mawra	mawriet
+16	4416	xiehda	
+17	4417	privatezza	
+18	4418	suppliment	supplement supplimenti
+19	4419	vetrina	vetrini
+20	4420	telekomunikazzjoni	telekomunikazzjonijiet
+21	4421	ttollera	ittollera ittollerat jittollera jittollerahom jittolleraw jittollerawhom jittollerawx jittollerax nittollera nittolleraw tittollera tollerat ttollerat ttolleraw ttollerax
+22	4422	lapida	lapidi
+23	4423	kolleġġjata	
+24	4424	kroniku	kronika kroniki
+25	4425	terapija	terapiji
+26	4426	mea	
+27	4427	ssimbolizza	issimbolizzat jissimbolizza jissimbolizzaw simbolizzat ssimbolizzat ssimbolizzaw tissimbolizza
+28	4428	kurunell	kurunelli
+29	4429	evanġelista	evanġelisti
+30	4430	mingħal	mingħalih mingħaliha mingħalihom mingħalija mingħalik mingħalikom mingħalina
+31	4431	jixirqilhom	jixirqilhomx
+32	4432	interu	intera interi
+33	4433	ors	orsi orsijiet
+34	4434	distintiv	distintiva distintivi
+35	4435	fjamma	fjammi
+36	4436	zija	zijih zijitha zitu
+37	4437	immodernizza	immodernizzajna immodernizzat immodernizzata immodernizzaw jimmodernizza jimmodernizzaw jimmodernizzawha mmodernizza mmodernizzat mmodernizzata mmodernizzaw mmodernizzawx nimmodernizzaw timmodernizza
+38	4438	allaħares	
+39	4439	astronomu	astronoma astronomi
+40	4440	skonta	jiskonta jiskontaw skontat skontaw tiskonta tiskontaw
+41	4441	reċediv	reċediva reċedivi reċidiv reċidiva reċidivi
+42	4442	fertili	
+43	4443	ħerba	ħereb
+44	4444	ħabsi	ħabsin
+45	4445	votant	
+46	4446	serrħa	inserrħu inserrħulhom iserrħilha iserrħu iserrħulek jserrħu jserrħux nserrħu nserrħuh serrħilha serrħitli serrħitlu serrħitu
+47	4447	mogħoż	mogħża mogħżiet
+48	4448	diriġenti	
+49	4449	ikkanċella	ikkanċellat ikkanċellati ikkanċellaw jikkanċella jikkanċellalha jikkanċellaw jikkanċellawhom kkanċella kkanċellajna kkanċellat kkanċellati kkanċellaw nikkanċella tikkanċella tikkanċellahom
+50	4450	murtal	murtali
+51	4451	rċevuta	irċevuta irċevuti rċevuti
+52	4452	borma	borom
+53	4453	grammatika	grammatiki
+54	4454	andament	
+55	4455	idda	ddew iddejna iddejt iddejtu iddew iddi iddiet iddu jiddejnu jiddi jiddix jiddu niddi niddu tiddi tiddix tiddu
+56	4456	riġenerazzjoni	
+57	4457	nixef	inxif jinxef jinxfu jinxfux ninxef ninxifx nixfet nixfetx nixfu tinxef
+58	4458	vjola	
+59	4459	rrafina	irfina irfinat irfinaw jirfina jirfinaw jirfinawhom nirfina nirfinaw raffinar raffinat rfina rfinajna rfinat rfinaw tirfina
+60	4460	inġenji	nġenji
+61	4461	whip	
+62	4462	repertorju	repertorji
+63	4463	issogra	issograjt issograt issograw issugrat issugraw jissogra jissograw jissograwx jissograx jissugraw jissugrawhom jissugrax nissogra nissograw nissograwx nissugraw ssogra ssograt ssograw ssugraw tissogra tissograx
+64	4464	immatura	immaturajt immaturat immaturaw jimmatura jimmaturaw mmatura mmaturajt mmaturat mmaturatna mmaturaw nimmatura nimmaturaw timmatura timmaturax
+65	4465	massakru	massakra massakri
+66	4466	klikka	
+67	4467	saffa	imsaffi imsoffi insaffu isaffi isaffina issaffa issaffihom issaffina jissaffa jsaffi jsaffiha jsaffik jsaffu msoffi msoffija nissaffaw saffiet saffini ssaffew ssaffi ssaffik ssaffina tisfija tissaffa tissaffiex
+68	4468	qerrieda	qerriedi
+69	4469	miżgħud	miżgħuda miżgħudha miżgħudin
+70	4470	rikostruwit	rikostruwita rikostruwiti
+71	4471	essenzjalment	
+72	4472	beatu	beati
+73	4473	barri	barrin
+74	4474	tentazzjoni	tentazzjonijiet
+75	4475	botaniku	botanika botaniċi
+76	4476	bush	
+77	4477	tempesta	tempesti
+78	4478	fużjoni	fużjonijiet
+79	4479	imita	imitar imitat imitathom imitaw jimita jimitah jimitahom jimitaw jimitawha nimita nimitaw nimitawha nimitawhom timita timitah
+80	4480	superfiċe	superfiċi
+81	4481	lqugħ	ilqugħ
+82	4482	diċenti	
+83	4483	tiben	tibna tibnieh
+84	4484	seren	serena sereni
+85	4485	rijabilitazzjoni	rijabilitazzjonijiet
+86	4486	purament	
+87	4487	pistola	pistoli
+88	4488	ammirazzjoni	
+89	4489	inqasma	jinqasmu jinqasmux ninqasmu
+90	4490	nixfa	nixfiet
+91	4491	kredibbiltà	kredibbilta
+92	4492	https	
+93	4493	polza	
+94	4494	etiku	etiċi
+95	4495	ferraħ	ferraħhom ferraħna ferraħtx ferrħu iferraħ iferraħni iferrħu iferrħuhom jferraħ jferraħna jferrħu jferrħuna nferrħu tferraħ
+96	4496	atteġġjament	atteġġjamenti
+97	4497	komprensiv	komprensiva komprensivi
+98	4498	rix	rixa rixhom rixu rixx
+99	4499	akkanit	akkanita akkaniti
+100	4500	billboard	billboards

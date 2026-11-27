@@ -1,100 +1,100 @@
-1	5501	żvolġa	jiżvolġi jiżvolġu niżvolġi niżvolġu tiżvolġi żvolġew żvolġiet żvolġietx
-2	5502	bastjun	bastjuni
-3	5503	karikatura	karikaturi
-4	5504	maternità	maternita
-5	5505	iżola	iżolaha iżolatx iżolaw jiżola jiżolaw jiżolawni niżolaw tiżola
-6	5506	summien	summiena
-7	5507	tingħalaq	tingħalaqx
-8	5508	komuniżmu	
-9	5509	tħallih	tħalliha tħallihiex tħallihx
-10	5510	implikazzjonijiet	
-11	5511	awtopsja	awtopsji
-12	5512	riskjuż	riskjuża riskjużi
-13	5513	intefgħa	jintefgħu jintefgħux nintefgħu tintefgħa
-14	5514	serenità	serenita
-15	5515	brejk	brejkijiet brejks
-16	5516	ovali	
-17	5517	indirettament	ndirettament
-18	5518	lottu	lotta lottijiet
-19	5519	siġill	siġilli
-20	5520	niġġes	imniġġes iniġġes iniġġsu inniġġsu jniġġes jniġġisx jniġġsu jniġġsux mniġġes niġġisna tniġġes tniġġisx
-21	5521	kompatibbli	
-22	5522	kappa	kappi kappijiet
-23	5523	imprezzabbli	mprezzabbli
-24	5524	militanti	
-25	5525	salon	saloni salons
-26	5526	alleli	
-27	5527	issogra	issograjt issograt issograw jissogra jissograw jissograwx jissograx nissogra nissograw nissograwx ssogra ssograt ssograw tissogra tissograx
-28	5528	sfortuna	isfortuna isfortuni
-29	5529	dubjuż	dubjuża dubjużi
-30	5530	ġeru	ġriewi
-31	5531	kesaħ	iksaħ jiksaħ jiksħu kesħet ksaħt niksaħ tiksaħ
-32	5532	riferut	riferuta riferuti
-33	5533	lewż	lewża
-34	5534	rifużjoni	rifużjonijiet
-35	5535	farfar	farfarha farfarx farfret farfru ifarfar ifarfru infarfar infarfru jfarfar jfarfru tfarfar tfarfir tfarfru
-36	5536	fondat	fondata
-37	5537	faqqa	faqqajtu ifaqqa jfaqqa tfaqqa tfaqqax
-38	5538	perpetwu	perpetwa perpetwi perpetwui
-39	5539	sfaċċat	sfaċċata sfaċċati
-40	5540	iprovda	jiprovdi jiprovdu provda provdew provdieh provdieli provdiet provdietx provdiex tiprovdi
-41	5541	liberament	
-42	5542	ċekken	inċekknu inċekknuh iċekken iċekknu iċekknuhom iċċekken jċekken jċekknu jċekknuh mċekken nċekknu nċekknux tiċkin ċekkinna ċekkinx ċekknet ċekknitha ċekknu ċekknuh ċekknuhom ċċekken
-43	5543	sensittività	sensittivita sensittivitajiet
-44	5544	stabbilità	istabbilità
-45	5545	intlaqgħa	jintlaqgħu nintlaqgħu ntlaqgħat ntlaqgħatx
-46	5546	kripta	kripti
-47	5547	ingann	inganni ngann
-48	5548	mases	
-49	5549	ragħa	irgħa jirgħa jirgħaw jirgħu jirgħuhom tirgħa tirgħu
-50	5550	ntgħażlu	intgħażlu
-51	5551	sufan	sofa sufani sufanijiet
-52	5552	irħas	
-53	5553	nħadmet	inħadmet
-54	5554	imparzjali	mparzjali
-55	5555	illustrazzjoni	illustrazzjonijiet
-56	5556	riżors	
-57	5557	diskoteka	diskoteki
-58	5558	balal	balalu
-59	5559	dqiq	
-60	5560	ġurat	ġurati
-61	5561	ikkumplikat	ikkumplikata ikkumplikati kkumplikat kkumplikata kkumplikati
-62	5562	ħaxixa	
-63	5563	appena	
-64	5564	musrana	imsaren imsarinhom msaren msarinhom
-65	5565	manjetiku	manjetika manjetiċi
-66	5566	bblokka	bblokkaw ibblokka imblokka imblokkat jibblokka jibblokkaw jimblokka jimblokkaw mblokka mblokkat nibblokkaw tibblokka timblokka
-67	5567	proporzjonali	
-68	5568	irsista	irsistejt irsistew jirsisti jirsistix jirsistu nirsistu rsistew tirsisti
-69	5569	kitarrist	kitarrista kitarristi
-70	5570	użanza	
-71	5571	kapolavur	kapolavuri
-72	5572	sajjetta	sajjetti
-73	5573	sikka	sikek sikkitha
-74	5574	softwer	
-75	5575	ħajjat	ħajjata ħajjati
-76	5576	skarta	jiskarta jiskartaw niskarta niskartaw niskartawha skartah skartat tiskarta tiskartah
-77	5577	ipprovoka	ipprovokaha ipprovokat ipprovokaw jipprovoka jipprovokaw jipprovokawhom jipprovokawli jipprovokawna nipprovoka pprovoka pprovokat pprovokaw tipprovoka tipprovokah tipprovokak tipprovokani tipprovokax
-78	5578	abbundanti	
-79	5579	lekċer	lekċers
-80	5580	dazju	dazji
-81	5581	reċta	reċti
-82	5582	fiex	
-83	5583	fraternità	fraternita
-84	5584	ġġenerata	iġġenerata iġġenerati ġġenerati
-85	5585	katekisti	
-86	5586	espożizzjoni	espożizzjonijiet
-87	5587	stanza	istanza istanzi stanzi
-88	5588	kostellazzjoni	kostellazzjonijiet
-89	5589	urta	jurta jurtahom jurtani jurtaw jurtax nurtaw turta turtani turtax urtar urtat urtathom urtaw
-90	5590	inkurunazzjoni	inkurunazzjonijiet
-91	5591	promotur	promoturi
-92	5592	preliminarju	preliminarja preliminarji
-93	5593	vawċer	vawċers
-94	5594	retorika	
-95	5595	musmar	imsiemer msiemer
-96	5596	tħasseb	jitħassbu jitħasseb jitħassibx nitħassbu nitħassbux nitħasseb titħasseb tħassbu tħassibna tħassibt
-97	5597	promenade	
-98	5598	prominenza	prominenzi
-99	5599	inkwadra	inkwadrar inkwadrat jinkwadra jinkwadraw ninkwadra ninkwadraw nkwadra tinkwadra tinkwadrah tinkwadraha tinkwadrax
-100	5600	sottili	
+1	5501	issussidja	issussidjat jissussidja jissussidjaha jissussidjalhom jissussidjaw jissussidjawhom jissussidji nissussidja nissussidjaw ssussidjat ssussidjaw tissussidja
+2	5502	domus	
+3	5503	allele	
+4	5504	mandatorja	mandatorji
+5	5505	unitarju	unitarja unitarji
+6	5506	prassi	
+7	5507	qela	aqli jaqli jaqlu jinqela jinqlew moqli moqlija moqlijin taqli tinqela
+8	5508	gwarniġjon	gwarniġjoni
+9	5509	viżwali	
+10	5510	dem	demi
+11	5511	kalibru	
+12	5512	sillaba	sillabi
+13	5513	xniegħa	xnigħat
+14	5514	liberalizzazzjoni	liberalizzazzjonijiet
+15	5515	idjoma	idjomi
+16	5516	kollettivament	
+17	5517	sintendi	
+18	5518	mlu	mluh
+19	5519	intensità	intensita ntensità
+20	5520	obeżità	obeżita
+21	5521	iddivorzja	ddivorzja ddivorzjat ddivorzjaw divorzjat divorzjata divorzjati iddivorzjaha iddivorzjat iddivorzjatu iddivorzjaw jiddivorzja jiddivorzjaha jiddivorzjaw niddivorzja tiddivorzja
+22	5522	dwett	dwetti
+23	5523	illużjoni	illużjonijiet
+24	5524	kirja	
+25	5525	impożizzjoni	impożizzjonijiet
+26	5526	tut	tuta tuti
+27	5527	qaws	qwas
+28	5528	alpina	alpini
+29	5529	ideoloġiku	ideoloġika ideoloġiċi
+30	5530	ddispra	ddisprat ddispraw ddisprax disprat iddispra iddisprat jiddispra jiddispraw tiddispra tiddisprax
+31	5531	kwartett	kwartetti
+32	5532	primat	primati
+33	5533	nostalġija	nostalġiji
+34	5534	sanità	
+35	5535	stmerrija	istmerrija
+36	5536	funzjonali	
+37	5537	antenna	antenni
+38	5538	nervuż	nervuża nervużi
+39	5539	wisgħa	
+40	5540	jintrabat	jintrabatx
+41	5541	pirati	
+42	5542	ripetutament	
+43	5543	żewwaq	imżewwaq iżewqu iżewwaq iżżewwaq iżżewwaqha jżewqu jżewwaq mżewwaq nżewqu żewqet żewqu żżewwaq
+44	5544	bram	brama
+45	5545	mazzun	imzazen mzazen
+46	5546	bajjad	bajdet bajjada ibajjad imbajjada jbajdu mbajjad tbajdu tbajjad tibjid
+47	5547	org	
+48	5548	sproporzjonat	sproporzjonata sproporzjonati
+49	5549	ċass	ċassa ċassi
+50	5550	miti	
+51	5551	maġija	
+52	5552	nofsiegħa	
+53	5553	wieżen	inwieżnu iwieżen iwieżnu jwieżen jwieżnu nwieżen nwieżnu twieżen wieżnu
+54	5554	ċkunija	ċkunitha ċkunithom ċkuniti ċkunitna ċkunitu
+55	5555	romano	
+56	5556	preċett	preċetti
+57	5557	larva	larvi
+58	5558	sajfi	sajfija sajfin
+59	5559	għaddas	għaddasa
+60	5560	rażan	irżina rżina
+61	5561	alġebra	alġebri
+62	5562	forestali	
+63	5563	evanġelizzazzjoni	
+64	5564	diskrezzjoni	
+65	5565	eventwali	
+66	5566	metafora	metafori
+67	5567	irribella	irribellat irribellaw jirribella jirribellaw rribella rribellat rribellaw rribellawx rribellax tirribella
+68	5568	razzist	razzista razzisti
+69	5569	bandisti	
+70	5570	romantiċiżmu	
+71	5571	konventwali	
+72	5572	elettur	eletturi
+73	5573	iġifieri	
+74	5574	ċintorin	ċintorini ċinturin ċinturini
+75	5575	regolatorji	
+76	5576	xaqliba	
+77	5577	fawwara	fawwariet fawwarieti
+78	5578	ftira	ftajjar
+79	5579	diżgrazzja	diżgrazzji
+80	5580	qiegħa	
+81	5581	terribbli	
+82	5582	alkoħoliku	alkoħolika alkoħoliċi
+83	5583	kkaċċja	ikkaċċat ikkaċċja ikkaċċjat jikkaċċa jikkaċċaw jikkaċċawhom jikkaċċja jikkaċċjaw jikkaċċjawhom kkaċċjat kkaċċjaw nikkaċċa nikkaċċaw nikkaċċjaw tikkaċċa tikkaċċja
+84	5584	artillerija	
+85	5585	notevolment	
+86	5586	kultivazzjoni	kultivazzjonijiet
+87	5587	inkwiżitur	inkwiżituri
+88	5588	maniġerjali	
+89	5589	konvenjenti	
+90	5590	skrin	iskrin iskrins skrins
+91	5591	amel	amilha amilna
+92	5592	bnazzi	
+93	5593	jikkonċerna	
+94	5594	parata	parati
+95	5595	ikkoopera	jikkoopera jikkooperaw jikkooperawx kkoopera kkooperat kkooperaw kkooperawx kkooperax nikkoopera tikkoopera
+96	5596	riformista	riformisti
+97	5597	kalċju	kalċjijiet
+98	5598	preżentatriċi	
+99	5599	kunsinna	kunsinni
+100	5600	ankè	

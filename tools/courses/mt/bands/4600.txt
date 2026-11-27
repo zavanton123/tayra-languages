@@ -1,100 +1,100 @@
-1	4501	nassa	nases nassi
-2	4502	ġarraf	imġarraf iġarraf iġarrfu iġġarraf iġġarrfu jġarraf jġarrfu mġarraf nġarrfu ġarrafna ġarrfet ġarrfu ġġarraf ġġarrafx ġġarrfu ġġarrfux
-3	4503	orjentat	orjentata orjentati
-4	4504	inizzjattiva	inizzjattivi
-5	4505	ordinazzjoni	ordinazzjonijiet
-6	4506	rutina	rutini
-7	4507	riservat	riservata riservati
-8	4508	jinġiebu	jinġieba
-9	4509	servers	
-10	4510	vokazzjonali	
-11	4511	riperkussjonijiet	
-12	4512	tberik	
-13	4513	adoloxxenti	
-14	4514	appostolat	apostolat
-15	4515	xemxi	xemxija xemxin
-16	4516	kkundannati	ikkundannati
-17	4517	stazzjonat	stazzjonata stazzjonati
-18	4518	idolu	idoli
-19	4519	emendata	emendati
-20	4520	delikat	delikati
-21	4521	ntrebħet	intrebħet
-22	4522	mibegħda	
-23	4523	sporadiċi	
-24	4524	ljunfant	iljunfant iljunfanti jljunfant ljunfanti
-25	4525	ħalef	aħlef aħlifli jaħlef maħluf maħlufa naħlef taħlef ħalfet ħalfu ħaliflek ħlift ħliftu
-26	4526	ġovanili	
-27	4527	soċjo	
-28	4528	spiritwalità	ispiritwalita ispiritwalità spiritwalita
-29	4529	privatezza	
-30	4530	ċiviku	ċivika
-31	4531	irrenda	irrendew jirrendi jirrendih jirrendihom jirrendilhom jirrendilu jirrendu jirrenduha jirrendux nirrendi nirrendu rrenda rrendew rrendewx rrendiet tirrendi tirrendih tirrendiha tirrendihiex tirrendilhom tirrendilna
-32	4532	ttollera	ittollera ittollerat jittollera jittollerahom jittolleraw jittollerawhom jittollerawx jittollerax nittollera nittolleraw tittollera tollerat ttollerat ttolleraw ttollerax
-33	4533	vetrina	vetrini
-34	4534	organizzattiv	organizzattiva organizzattivi
-35	4535	ribelljoni	ribelljonijiet
-36	4536	kurunell	kurunelli
-37	4537	jserraħ	iserraħ jserraħx
-38	4538	liċenzjat	liċenzjata liċenzjati
-39	4539	ssimbolizza	issimbolizzat jissimbolizza jissimbolizzaw simbolizzat ssimbolizzat ssimbolizzaw tissimbolizza
-40	4540	ġuf	ġufha ġufhom
-41	4541	intemma	intemmew jintemmu jintemmux ntemmejt ntemmew ntemmiet ntemmitx
-42	4542	parallel	parallela paralleli parallelu
-43	4543	safejn	
-44	4544	stipendju	istipendji istipendju stipendji
-45	4545	ċerimonjali	
-46	4546	veduti	
-47	4547	millimetru	millimetri
-48	4548	rtir	irtir irtiri rtiri
-49	4549	gradwat	gradwata gradwati
-50	4550	xiehda	
-51	4551	valutazzjoni	valutazzjonijiet
-52	4552	altru	
-53	4553	nħatret	inħatret
-54	4554	telekomunikazzjoni	telekomunikazzjonijiet
-55	4555	kabbar	kabbarha kabbarhom kabbarlha kabbarna
-56	4556	kroniku	kronika kroniki
-57	4557	skavat	skavata skavati
-58	4558	mea	
-59	4559	lapida	lapidi
-60	4560	terapija	terapiji
-61	4561	kolleġġjata	
-62	4562	ttajjar	ittajjar ittajjarha ittajjarhom ittajret ittajru jittajjar jittajru nittajjar nittajru tittajjar ttajjarha ttajjarlu ttajret ttajru
-63	4563	interu	intera interi
-64	4564	nfirxet	infirxet
-65	4565	evanġelista	evanġelisti
-66	4566	ors	orsi orsijiet
-67	4567	jixirqilhom	jixirqilhomx
-68	4568	distintiv	distintiva distintivi
-69	4569	mingħal	mingħalih mingħaliha mingħalihom mingħalija mingħalik mingħalikom mingħalina
-70	4570	fjamma	fjammi
-71	4571	kontrollat	kontrollata kontrollati
-72	4572	grafiku	grafika grafiki
-73	4573	astronomu	astronoma astronomi
-74	4574	skonta	jiskonta jiskontaw skontat skontaw tiskonta tiskontaw
-75	4575	vokabularju	vokabularji
-76	4576	fertili	
-77	4577	allaħares	
-78	4578	tgħammed	jitgħammdu jitgħammdux jitgħammed nitgħammed tgħammdet tgħammdu tgħammidna tgħammidt tgħammidx titgħammdu titgħammed
-79	4579	ħabsi	ħabsin
-80	4580	ħerba	ħereb
-81	4581	beatu	beati
-82	4582	votant	
-83	4583	notte	
-84	4584	mnaqqsa	imnaqqsa
-85	4585	kotor	joktor joktru joktrux kotrot kotru ktir oktru toktor
-86	4586	mogħoż	mogħża mogħżiet
-87	4587	bush	
-88	4588	diriġenti	
-89	4589	grammatika	grammatiki
-90	4590	rċevuta	irċevuta irċevuti rċevuti
-91	4591	murtal	murtali
-92	4592	ċirkolazzjoni	
-93	4593	għedt	għedtu għedtx
-94	4594	jiċċaqlaq	jiċċaqlaqx
-95	4595	borma	borom
-96	4596	idda	ddew iddejna iddejt iddejtu iddew iddi iddiet iddu jiddejnu jiddi jiddix jiddu niddi niddu tiddi tiddix tiddu
-97	4597	vjola	
-98	4598	andament	
-99	4599	rrafina	irfina irfinat irfinaw jirfina jirfinaw jirfinawhom nirfina nirfinaw raffinar raffinat rfina rfinajna rfinat rfinaw tirfina
-100	4600	whip	
+1	4501	eliminatorju	eliminatorja eliminatorji
+2	4502	kostitwenti	
+3	4503	farrak	farrakhom farrku farrkuh farrkuli ifarrak ifarrakha ifarrku ifarrkuhom imfarrak infarrak infarrku jfarrak jfarrku jfarrkuha mfarrak nfarrak tfarrak tfarrakni tfarrku
+4	4504	għandiex	
+5	4505	invenzjoni	invenzjonijiet
+6	4506	denominazzjoni	denominazzjonijiet
+7	4507	applikabbli	
+8	4508	ripetizzjoni	repetizzjoni repetizzjonijiet ripetizzjonijiet
+9	4509	ġuridiku	ġuridika ġuridiċi
+10	4510	ikkupja	ikkopja ikkupjaha ikkupjat ikkupjaw ikkupjawhom jikkopja jikkopjaw jikkupjaw jikkupjawha jikkupjawhom kkopja kkopjahom kkopjat kkopjaw kkupjat kkupjaw nikkopjaw nikkupjaw nikkupjawha nikkupjawhom tikkopja tikkupjaha
+11	4511	toqol	
+12	4512	erożjoni	erożjonijiet
+13	4513	irrispettivament	rrispettivament
+14	4514	agħma	għami għamja għomja
+15	4515	kappell	ikpiepel kpiepel
+16	4516	ipperswada	ipperswadew ipperswadiet ipperswadietu ipperswadina ipperswadu jipperswadi jipperswadih jipperswadiha jipperswadihom jipperswadu jipperswaduh jipperswaduha jipperswaduk jipperswaduna nipperswadi nipperswadu pperswada pperswadew pperswadiet tipperswadi tipperswadih tipperswadihom tipperswadini
+17	4517	tumbata	tumbati
+18	4518	offenda	joffendi joffendiha joffendik joffendini joffendix joffendu joffenduh noffendi noffendih noffendihom noffendu noffenduk offendejt offendejtek offendejtu offendew offendewhom offendewna offendieh offendieni offendiet offendiethom offendietlu offendihom offendik offendini toffendi toffendihom
+19	4519	irriċikla	irriċiklat jirriċikla jirriċiklaw nirriċiklaw nirriċiklawhom riċiklat riċiklata riċiklati rriċiklat rriċiklawx tirriċikla
+20	4520	battal	battala battalna battlet battlu ibattal ibattlu imbattal inbattal inbattlu jbattal jbattalni jbattlu mbattal tbattal tbattallu tbattalni tbattlu tbattlux
+21	4521	mastrudaxxa	mastrudaxxi
+22	4522	iġġestixxa	jiġġestixxi jiġġestixxu tiġġestixxi ġestit ġestita ġestiti
+23	4523	fjura	
+24	4524	ħarbat	imħarbat inħarbat iħarbat iħarbtu iħarbtulek iħarbtulna jħarbat jħarbathom jħarbtu jħarbtux mħarbat nħarbat nħarbtu tħarbat tħarbathom tħarbatlek tħarbtu ħarbatha ħarbathom ħarbatna ħarbtet ħarbtitlu ħarbtu ħarbtulu
+25	4525	pollin	pollinu
+26	4526	motivazzjoni	motivazzjonijiet
+27	4527	regatta	regatti
+28	4528	xejjer	inxejjer inxejjirlu inxejru ixejjer ixejru ixejrulna ixxejjer ixxejjirli jxejjer jxejjerhom jxejru tixjir xejjirha xejjirlu xejjirt xejru xxejjer xxejru
+29	4529	difna	difniet difnithom difnitu
+30	4530	medjatur	medjaturi
+31	4531	trawma	trawmi
+32	4532	reġġa'	imreġġa' inreġġgħu ireġġa ireġġgħu ireġġi ireġġu jitreġġgħu jreġġa' jreġġgħu jreġġix jreġġu jreġġux nreġġa nreġġa' nreġġgħu reġġa reġġgħet reġġgħu reġġgħuh reġġiet titreġġa titreġġa' treġġa treġġa' treġġax treġġgħet treġġgħu treġġgħux treġġi treġġigħ treġġix
+33	4533	ewkaristika	
+34	4534	sodisfaċenti	
+35	4535	monetarju	monetarja monetarji
+36	4536	mafkar	imfakar mfakar
+37	4537	rifed	imriffed irfid jirfdu jirfduh jirfduhom jirfed jirfidha mirfud mirfuda mirfudin ntrifed rfid tirfed
+38	4538	ramla	ramliet
+39	4539	suffraġju	suffraġja
+40	4540	konvenjenza	
+41	4541	fibra	fibri
+42	4542	alleat	alleata alleatx
+43	4543	akwati	akkwati
+44	4544	katekiżmu	katekiżmi
+45	4545	paniku	
+46	4546	kollegament	kollegamenti
+47	4547	ferrex	ferrixhom ferrxu iferrex iferrxu iferrxuhom imferrex inferrxu jferrex jferrxu mferrex tferrex tferrixha tferrxu
+48	4548	piedi	
+49	4549	interrogazzjoni	interrogazzjonijiet
+50	4550	offs	
+51	4551	nbsp	
+52	4552	riċiklaġġ	
+53	4553	supermarket	supermarkets
+54	4554	addoċċ	
+55	4555	sostenitur	sostenituri
+56	4556	pronunzja	pronunzji
+57	4557	sabar	jistabar nistabar nistabru sabru sieber stabar stabret stabru tistabar
+58	4558	irresponsabbli	rresponsabbli
+59	4559	beżża'	beżżgħu beżżgħuni beżżgħux ibeżża ibeżżgħu ibeżżgħuh ibeżżgħuk ibeżżgħuna jbeżża jbeżża' jbeżżgħu jbeżżgħuna nbeżżgħu tbeżża tbeżżani tbeżżax tbeżżgħu tbeżżigħ
+60	4560	bużżieqa	bżieżaq
+61	4561	rimi	
+62	4562	qarreb	inqarrbu inqarreb iqarrbu iqarreb iqarribhom jqarrbu jqarrbuhom jqarrbuna jqarreb jqarribhom jqarribna nqarrbu nqarreb qarrbet qarrbu qarrbuh qarrbuha qarribna tqarrbu tqarreb tqarribhom
+63	4563	griżma	
+64	4564	seminarista	seminaristi
+65	4565	kju	kjuwijiet
+66	4566	ħarba	
+67	4567	warajja	
+68	4568	inkompetenza	inkompetenzi
+69	4569	konsultattiv	konsultattiva konsultattivi
+70	4570	odda	oddi
+71	4571	ospitalità	ospitalita
+72	4572	satira	satiri
+73	4573	stonku	istonku
+74	4574	tikka	tikek tikkiet
+75	4575	infieq	infiequ nfieq nfiequ
+76	4576	diżastruż	diżastruża diżastrużi
+77	4577	ulieda	uliedi wlieda wliedi
+78	4578	indura	indurat indurata indurati jindura jindurah ndura ndurat ndurata nduratha ndurati
+79	4579	iskolpa	jiskolpa jiskolpah jiskolpaw jiskolpax jiskolpi niskolpaw niskolpi skolpejt skolpew skolpihom skolpit skolpita skolpiti
+80	4580	iġjene	ġjene
+81	4581	glorjuż	glorjuża glorjużi
+82	4582	istituzzjonali	
+83	4583	ħema	aħmi inħema jaħmi jaħmih jaħmiha jaħmu jinħema moħmi moħmija moħmijin ninħema taħmi tinħema ħmew
+84	4584	abbar	
+85	4585	inkredibbli	nkredibbli
+86	4586	għajjien	għajjenin għajjiena
+87	4587	ċelesti	
+88	4588	mxandra	imxandra
+89	4589	qatra	qatriet qtar
+90	4590	tjubija	tjubitek tjubithom tjubitu
+91	4591	pontifikal	pontifikali
+92	4592	stigma	istigma stigmi
+93	4593	partiġġan	partiġġana partiġġani
+94	4594	regolamentazzjoni	
+95	4595	għasses	għassu jgħasses jgħassisha jgħassisna jgħassu jgħassuhom jgħassulu mgħasses ngħassu tgħasses tgħassu
+96	4596	tmeninijiet	
+97	4597	rejd	rejds
+98	4598	werriet	werrieta
+99	4599	indispensabbli	
+100	4600	safar	

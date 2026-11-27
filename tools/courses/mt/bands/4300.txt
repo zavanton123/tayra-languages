@@ -1,100 +1,100 @@
-1	4201	statistiku	istatistika istatistiċi statistiċi
-2	4202	kunfidenza	kunfidenzi
-3	4203	ekonomikament	
-4	4204	insistenza	nsistenza
-5	4205	pprojbit	ipprojbit ipprojbita ipprojbiti pprojbita pprojbiti
-6	4206	awtostrada	awtostradi
-7	4207	stemma	istemma istemmi stemmi
-8	4208	rum	
-9	4209	mitkellma	
-10	4210	selezzjoni	selezzjonijiet
-11	4211	proprjetarju	proprjetarja proprjetarji
-12	4212	stagħġeb	istagħġib jistagħġbu jistagħġeb nistagħġbu nistagħġbux nistagħġeb nistagħġibx stagħġbet stagħġbu stagħġib stagħġibna stagħġibt stagħġibtx tistagħġeb tistagħġibx
-13	4213	jitqassmu	
-14	4214	pool	
-15	4215	sebat	
-16	4216	mmulta	immulta immultat immultata jimmulta jimmultaw mmultat mmultatu mmultaw timmulta
-17	4217	xabla	ixwabel xwabel
-18	4218	qerq	qerqu
-19	4219	insomma	imsomma msomma nsomma
-20	4220	bżar	bżariet bżaru
-21	4221	rikjest	rikjesta rikjesti
-22	4222	referì	referis
-23	4223	ffjorixxa	ffjorixxew ffjorixxi ffjorixxiet ffjorixxu iffjoriet iffjorixxa iffjorixxew iffjorixxiet iffjorixxu jiffjorixxi jiffjorixxix jiffjorixxu tiffjorixxa tiffjorixxi
-24	4224	vakanti	
-25	4225	ġiri	
-26	4226	klandestin	klandestina klandestini
-27	4227	immaġinazzjoni	
-28	4228	epidemija	epidemiji
-29	4229	xebba	xebbiet
-30	4230	organiżża	jorganiżża jorganiżżaw organiżżajt organiżżat torganiżża torganiżżah torganiżżaw
-31	4231	umdità	umdita
-32	4232	manjiera	manjieri
-33	4233	infrastrutturali	nfrastrutturali
-34	4234	assorbixxa	assorba assorbew assorbewha assorbiet assorbiha assorbit jassorbi jassorbix jassorbu jassorbuha jassorbuhom nassorbi nassorbu tassorbi
-35	4235	tiġieġ	tiġieġa tiġiġiet
-36	4236	sebgħinijiet	
-37	4237	midfielder	midfielders
-38	4238	rilaxxat	rilaxxata rilaxxati
-39	4239	ddaħħlet	iddaħħlet
-40	4240	ippublika	ippublikah ippublikajt ippublikaw jippublikaw nippublika nippublikaw ppublika ppublikaha ppublikajna ppublikajniex ppublikajt ppublikaw tippublika tippublikaha tippublikahom
-41	4241	tifkiriet	tifkirietek
-42	4242	dekorattiv	dekorattiva dekorattivi
-43	4243	melodija	melodiji
-44	4244	prekarju	prekarja prekarji
-45	4245	preventiv	preventiva preventivi
-46	4246	suf	sufu
-47	4247	ssellef	issellef issellfet issellfu issellfuh issellifhom jissellef jissellfu jissellfuhom jissellifx nissellef nissellfu ssellfet ssellfu ssellifx tissellef
-48	4248	influwenzi	nfluwenzi
-49	4249	waddab	imwaddab iwaddab iwaddabhom iwaddbu iwaddbulha iwaddbulhom iwaddbulu iwaddbulux jwaddab jwaddabx jwaddbu jwaddbuh jwaddbulna jwaddbulu nwaddab nwaddbu twaddab twaddabli twaddbu twaddbux waddabha waddabhom waddabli waddablu waddbet waddbu waddbuh waddbuhom waddbulhom waddbulna
-50	4250	traġiku	traġika traġiċi
-51	4251	operattiv	operattiva operattivi
-52	4252	tiswijiet	
-53	4253	żarma	inżarma inżarmaw iżarma iżarmahom iżarmak iżarmaw iżarmawha jżarma jżarmaha jżarmahom jżarmaw jżarmawhom jżarmax nżarmaw żarmah żarmajna żarmajniehom żarmar żarmat żarmathom żarmathomx żarmaw
-54	4254	saltan	insaltan isaltan isaltnu issaltan jsaltan jsaltnu nsaltnu saltnet saltnu ssaltan ssaltanx ssaltnu
-55	4255	munqar	munqarha munqarhom munqaru
-56	4256	għarus	għarajjes għarajjeshom
-57	4257	sinfonija	sinfoniji
-58	4258	qarn	iqrun qrajna qrajnieha qrajniehom qrun qrunha qrunu
-59	4259	pproġetta	ipproġetta ipproġettajna ipproġettajt ipproġettar ipproġettat ipproġettaw jipproġetta jipproġettaw jipproġettawha jipproġettawlu nipproġettaw pproġettajna pproġettat pproġettaw proġettar proġettat tipproġetta tipproġettahom
-60	4260	munxar	
-61	4261	duħħan	dħaħen
-62	4262	rappreżentattiv	rappreżentattiva rappreżentattivi
-63	4263	kellhu	kellhi kellhix kellhux
-64	4264	mafjuż	mafjuża mafjużi
-65	4265	attribwita	attribwiti
-66	4266	tħabat	jitħabat jitħabatli jitħabtu nitħabat nitħabtu titħabat tħabatna tħabatt tħabit tħabtet tħabtu tħabtux
-67	4267	ħażna	ħażniet
-68	4268	perċentwal	perċentwali
-69	4269	flora	
-70	4270	ippremja	ippremjah ippremjani ippremjat ippremjaw jippremja jippremjah jippremjaha jippremjahom jippremjaw jippremjawhom jippremjawx nippremjaw nippremjawhom ppremja ppremjah ppremjat ppremjatu ppremjaw tippremja tippremjah
-71	4271	arċidjoċesi	
-72	4272	reċentement	
-73	4273	dendel	ddendlu dendlu dendluha dendluhom dendlulu iddendlu idendel idendlu idendluha imdendel indendel jdendel jdendilha jdendlu jdendluha jdendlulu mdendel ndendel ndendlu
-74	4274	niżla	niżliet
-75	4275	azjenda	azjendi
-76	4276	ikkalma	ikkalmat ikkalmaw jikkalma jikkalmah jikkalmaha jikkalmahom jikkalmaw jikkalmawhom jikkalmawx kkalma kkalmat kkalmatx kkalmaw nikkalma nikkalmahom nikkalmaw tikkalma tikkalmah
-77	4277	baqra	baqar baqriet
-78	4278	surġent	surġenti
-79	4279	almu	alma
-80	4280	approfitta	approfittajt approfittat approfittaw approfittax japprofitta japprofittaw japprofittawhom japprofittawx japprofittax napprofitta napprofittaw tapprofitta
-81	4281	fortunat	fortunata fortunati
-82	4282	skud	iskud skudi
-83	4283	preferenza	preferenzi
-84	4284	adozzjoni	adozzjonijiet
-85	4285	żeffien	żeffiena
-86	4286	mawżolew	
-87	4287	riabilitazzjoni	
-88	4288	nħeles	inħeles
-89	4289	wessa'	inwessa inwessgħu iwessa iwessgħu jwessa' jwessgħu jwessgħux nwessa' nwessgħu twessa' twessgħu wessa wessajna wessgħet wessgħu
-90	4290	għaffeġ	għaffiġha għaffiġni għaffġet għaffġitni għaffġu imgħaffeġ jgħaffeġ jgħaffiġhom jgħaffġu mgħaffeġ ngħaffeġ ngħaffiġlu ngħaffġu tgħaffeġ tgħaffiġni tgħaffiġx
-91	4291	influss	influssi nfluss
-92	4292	ikkoordina	ikkoordinat jikkoordina jikkoordinaw jikkoordinawx kkoordina kkoordinat kkoordinaw nikkoordinaw tikkoordina
-93	4293	issiġilla	issiġillaha issiġillat issiġillaw jissiġilla jissiġillahom jissiġillaw jissiġillawha ssiġilla ssiġillat ssiġillaw tissiġilla tissiġillah
-94	4294	analisi	
-95	4295	basta	bast imbasta mbasta
-96	4296	fedeltà	fedelta
-97	4297	ironikament	
-98	4298	sempliċità	sempliċita
-99	4299	jinkiseb	
-100	4300	iddaħħla	iddaħħlitlu jiddaħħlu jiddaħħlux niddaħħlu
+1	4201	perċentwal	perċentwali
+2	4202	affilja	affiljat affiljata affiljati affiljaw jaffiljaw taffilja
+3	4203	flora	
+4	4204	azjenda	azjendi
+5	4205	arċidjoċesi	
+6	4206	terroristiku	terroristika terroristiċi
+7	4207	niżla	niżliet
+8	4208	ikkalma	ikkalmat ikkalmaw jikkalma jikkalmah jikkalmaha jikkalmahom jikkalmaw jikkalmawhom jikkalmawx kkalma kkalmat kkalmatx kkalmaw nikkalma nikkalmahom nikkalmaw tikkalma tikkalmah
+9	4209	almu	alma
+10	4210	baqra	baqar baqriet
+11	4211	perjodiku	perjodika perjodiċi
+12	4212	anima	animat animata animaw animi janima janimaw janimawna nanima nanimaw
+13	4213	ċirkolari	ċirkulari ċirkularijiet
+14	4214	surġent	surġenti
+15	4215	approfitta	approfittajt approfittat approfittaw approfittax japprofitta japprofittaw japprofittawhom japprofittawx japprofittax napprofitta napprofittaw tapprofitta
+16	4216	forensiku	forensika forensiċi
+17	4217	preferenza	preferenzi
+18	4218	żeffien	żeffiena
+19	4219	riabilitazzjoni	
+20	4220	għaffeġ	għaffiġha għaffiġni għaffġet għaffġitni għaffġu imgħaffeġ jgħaffeġ jgħaffiġhom jgħaffġu mgħaffeġ ngħaffeġ ngħaffiġlu ngħaffġu tgħaffeġ tgħaffiġni tgħaffiġx
+21	4221	basta	bast imbasta mbasta
+22	4222	fedeltà	fedelta
+23	4223	ikkoordina	ikkoordinat jikkoordina jikkoordinaw jikkoordinawx kkoordina kkoordinat kkoordinaw nikkoordinaw tikkoordina
+24	4224	influss	influssi nfluss
+25	4225	mawżolew	
+26	4226	issiġilla	issiġillaha issiġillat issiġillaw jissiġilla jissiġillahom jissiġillaw jissiġillawha ssiġilla ssiġillat ssiġillaw tissiġilla tissiġillah
+27	4227	ironikament	
+28	4228	sempliċità	sempliċita
+29	4229	iddaħħla	iddaħħlitlu jiddaħħlu jiddaħħlux niddaħħlu
+30	4230	skud	iskud skudi
+31	4231	fortunat	fortunata fortunati
+32	4232	korrispondent	korrispondenta korrispondenti
+33	4233	ipproċeda	ipproċedew ipproċediet jipproċedi jipproċedu jipproċedux nipproċedu pproċeda pproċedew pproċediet tipproċedi tipproċedix
+34	4234	priġunerija	
+35	4235	legat	legata legati
+36	4236	dgħufija	dgħjufija dgħufitu
+37	4237	papiet	
+38	4238	ħaqar	jaħqar jaħqarhom jaħqarni jaħqru jaħqruh maħqur maħqura maħqurin moħqrija naħqru naħqruhom taħqar ħaqarhom ħaqret ħaqritek ħaqru ħaqruh
+39	4239	modifika	modifiki
+40	4240	armla	
+41	4241	pulit	plet pulita puliti
+42	4242	diploma	diplomi
+43	4243	astjena	astjenejt astjenew astjeniet jastjeni jastjenu nastjenu tastjeni
+44	4244	aċċessa	aċċessat aċċessaw jaċċessa jaċċessah jaċċessaha jaċċessahom jaċċessaw jaċċessawha jaċċessawhom jaċċessawlu taċċessa taċċessaha
+45	4245	ribelli	ribellijiet
+46	4246	bumbardament	bombardament bombardamenti bumbardamenti
+47	4247	kartolina	kartolini
+48	4248	suċċessjoni	suċċessjonijiet
+49	4249	dderieġa	dderieġiet dderiġiet ddirieġa idderieġa idderiġiet idderiġietu iddirieġa jidderieġi jidderieġu jiddirieġi jiddirieġu jiddirieġuh nidderieġi nidderieġu niddirieġi tidderieġi tiddirieġi
+50	4250	terrestri	
+51	4251	miżerja	miżerji
+52	4252	muniċipali	
+53	4253	ġerarkija	ġerarkiji
+54	4254	insult	insulti nsult nsulti
+55	4255	ħabbel	imħabbel imħabbla inħabblu iħabbel iħabblu jħabbel jħabbilx jħabblu jħabblux mħabbla nħabblu tħabbel tħabblu ħabbilna ħabbilx ħabblet ħabblu
+56	4256	lift	liftijiet lifts
+57	4257	rxoxta	irxoxt irxoxta irxoxtar irxoxtat irxoxtaw jirxoxta jirxoxtaw nirxoxta rxoxt rxoxtat tirxoxta
+58	4258	folklor	
+59	4259	unifikazzjoni	
+60	4260	iffinalizza	ffinalizza ffinalizzajna ffinalizzat ffinalizzaw finalizzat finalizzata finalizzati iffinalizzajna iffinalizzat jiffinalizza jiffinalizzaw niffinalizzaw tiffinalizza
+61	4261	fargħun	faragħun faragħuni fargħuni
+62	4262	kom	koma komik
+63	4263	eremita	eremiti
+64	4264	lussuż	lussuża lussużi
+65	4265	sfaxxa	isfaxxar jisfaxxa jisfaxxaw nisfaxxaw sfaxxajna sfaxxalhom sfaxxat sfaxxaw tisfaxxa
+66	4266	qarn	iqrun qrajnieha qrajniehom qrun qrunha qrunu
+67	4267	pillola	pilloli
+68	4268	ċomb	
+69	4269	għatba	għatbiet għetiebi
+70	4270	dijametru	dijametri
+71	4271	golden	
+72	4272	pejjep	inpejjep ipejjep ipejjipha ipejpu jpejjep jpejpu jpejpux npejjep pejjipna pejjipt tpejjep tpejjipx
+73	4273	perfezzjoni	perfezzjonijiet
+74	4274	klandestin	klandestina klandestini
+75	4275	miżata	miżati miżatii
+76	4276	installazzjoni	installazzjonijiet
+77	4277	kostrett	kostretta kostretti
+78	4278	proża	
+79	4279	senatur	senaturi
+80	4280	tebut	twiebet
+81	4281	sikur	sikura sikuri
+82	4282	inkarigu	nkarigu
+83	4283	kawt	kawta kawti
+84	4284	apokalissi	
+85	4285	temporanjament	
+86	4286	ġustifikazzjoni	ġustifikazzjonijiet
+87	4287	roża	
+88	4288	prospett	prospetti
+89	4289	predikatur	predikaturi
+90	4290	ġellied	ġellieda
+91	4291	produttiv	produttiva produttivi
+92	4292	welfare	
+93	4293	nixxiegħa	nixxigħat
+94	4294	mergħa	imriegħi mergħat
+95	4295	xini	xwieni
+96	4296	assenza	assenzi
+97	4297	deroga	derogi
+98	4298	bidni	bidnija
+99	4299	ja	
+100	4300	portafoll	portafolli

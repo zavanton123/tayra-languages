@@ -1,100 +1,100 @@
-1	3901	taħdidiet	
-2	3902	diżappuntanti	
-3	3903	tavla	twavel
-4	3904	rivoluzzjonarju	rivoluzzjonarja rivoluzzjonarji
-5	3905	solidu	solida solidi
-6	3906	sms	smss
-7	3907	għajjar	għajjarhom għajjarna għajjarni għajjart għajjartu għajru għajruh għajruni igħajru jgħajjar jgħajjarhom jgħajjarna jgħajjarni jgħajru jgħajruh jgħajruk jgħajrukom jgħajruna mgħajjar ngħajjar ngħajru ngħajruhom tgħajjar tgħajjarhom tgħajjarna tgħajjarni tgħajru tgħajruhom
-8	3908	tournament	tournaments
-9	3909	ħerqa	
-10	3910	ppreparata	ippreparata ippreparati ppreparati
-11	3911	feda	fdejt fdejtna fdew fedina jifdi jifdih jifdihom jifdina jifdu mifdi mifdija mifdijin nifdu nifduk tifdi tifdih tifdina
-12	3912	irregolarità	irregolarita irregolaritajiet rregolaritajiet rregolarità
-13	3913	ċeramika	ċeramiki
-14	3914	propaganda	
-15	3915	xott	xotta xotti xotts
-16	3916	milja	
-17	3917	ġiebja	ġibjun ġibjuni ġwiebi
-18	3918	ġenerożità	ġenerożita
-19	3919	klassifikata	iklassifikata klassifikati
-20	3920	assenja	assenjajt assenjalkom assenjalu assenjar assenjat assenjathom assenjatilha assenjaw jassenja jassenjaw nassenjaw tassenja tassenjalha tassenjax
-21	3921	liebru	liebra liebri liepru
-22	3922	astronomiku	astronomika astronomiċi
-23	3923	kontinwità	kontinwita
-24	3924	sorveljanza	
-25	3925	inklużjoni	inklużjonijiet
-26	3926	bilaterali	
-27	3927	teknoloġiku	teknoloġika teknoloġiċi
-28	3928	għanna	għannew għannieli għannielu għanniet għannu igħanni jgħanni jgħannu jgħannuha jgħannuli jgħannux ngħanni ngħannu tgħanni tgħannu
-29	3929	frekwenti	
-30	3930	suba'	subgħajh subgħajha subgħajhom subgħajn subgħajna subgħu
-31	3931	derivat	derivata derivati
-32	3932	prokuratur	prokuraturi
-33	3933	ripetut	ripetuta ripetuti
-34	3934	saċerdotali	
-35	3935	kampus	kampusijiet
-36	3936	dukat	dukati
-37	3937	kuntistabbli	
-38	3938	qrar	qrara
-39	3939	ingħalqa	jingħalqu jingħalqux ningħalqu
-40	3940	ttiekel	ittiekel ittieklet ittieklu ittieklux jittiekel jittieklu jittikilx jittiklux mittiekel tittiekel tittikilx ttieklet ttieklu
-41	3941	informali	nformali
-42	3942	ħammeġ	inħammġu iħammeġ iħammġu iħammġuha iħammġuk jħammeġ jħammiġlek jħammiġni jħammġu jħammġux mħammeġ nħammġu nħammġuh nħammġux tħammeġ tħammiġx tħammġu ħammġet ħammġu
-43	3943	tbassir	tbassira
-44	3944	sanzjoni	sanzjonijiet
-45	3945	rekwiżit	rekwiżiti
-46	3946	kompetitur	kompetituri
-47	3947	kreatur	kreatura kreaturi
-48	3948	tagħbija	tagħbijiet
-49	3949	artiġjanat	
-50	3950	ħolm	ħolmiet ħolmieti
-51	3951	pavimentar	
-52	3952	patata	
-53	3953	tapit	tapiti twapet
-54	3954	intervisti	
-55	3955	sussegwenti	
-56	3956	satellita	satelliti
-57	3957	konversazzjoni	konversazzjonijiet
-58	3958	invada	invadaha invadat invadew invadewha invadiet invadietha invadiha jinvadi jinvadu jinvaduh jinvaduhom jinvadulhom jinvaduna ninvadu nvada nvadew nvadewna nvadiet tinvadi tinvadiha
-59	3959	irċiva	irċivejna irċivejt irċivew irċivieha irċiviet jirċivi jirċivih rċiva rċivejna rċivejt rċivew rċiviet
-60	3960	popolata	popolati
-61	3961	bibliċi	
-62	3962	tħaffir	tħaffira
-63	3963	raġonevoli	
-64	3964	kwarta	
-65	3965	volontier	volontiera volontieri voluntier voluntieri
-66	3966	ħajjet	
-67	3967	ista	istaju jistaw jistawx jistu jistux jstax nistaw nistawx nistux sta stana tistawx
-68	3968	tadam	tadama tadamiet
-69	3969	kummiedja	kummiedji
-70	3970	sellef	imsellef isellef isellfu isellifni issellfu issellfuh jsellef jsellfu jsellfuhom jsellfuk jsellifha jselliflek jsellifx msellef nsellfux sellfet sellfu sellifli sellifni ssellfu ssellifx
-71	3971	issorvelja	issorveljat issorveljaw jissorvelja jissorveljaw nissorveljaw nissorveljawhom ssorvelja ssorveljat ssorveljaw tissorvelja tissorveljahom
-72	3972	deħlin	
-73	3973	objettiv	objettiva objettivi
-74	3974	bbilanċja	bbilanċjat bilanċjat ibbilanċja ibbilanċjar ibbilanċjat jibbilanċja jibbilanċjaw jibbilanċjawx nibbilanċja nibbilanċjaw tibbilanċja
-75	3975	żgħożija	żgħożitek żgħożitha żgħożithom żgħożiti żgħożitna żgħożitu
-76	3976	tbissem	jitbissem jitbissimlek jitbissimli jitbissimx jitbissmu jitbissmulek jitbissmuli nitbissem nitbissimx nitbissmu nitbissmux tbissimha tbissimt tbissmet tbissmitlu tbissmu titbissem titbissimlu
-77	3977	bonus	bonusijiet
-78	3978	trofej	
-79	3979	fotografu	fotografa fotografi
-80	3980	jinqabad	jinqabadx
-81	3981	tajra	itjur tajriet tajritu tjur
-82	3982	eqqel	
-83	3983	vokali	
-84	3984	ċekk	ċekkijiet ċekks
-85	3985	arroganza	
-86	3986	tqal	jitqal jitqalu titqal tqalet
-87	3987	gramm	gramma grammi
-88	3988	rriskja	irriskja jirriskja jirriskjaw jirriskjawx jirriskjax nirriskjaw rriskjajt rriskjaw tirriskja
-89	3989	kandidatura	kandidaturi
-90	3990	soprataxxa	soprataxxi
-91	3991	dejta	
-92	3992	pil	pili
-93	3993	msaħħa	imsaħħa
-94	3994	leġislazzjoni	leġislazzjonijiet
-95	3995	sekulari	
-96	3996	waqqgħa	inwaqqgħu inwaqqgħuh inwaqqgħuha iwaqqgħu iwaqqgħuh iwaqqgħuha iwaqqgħuhom iwaqqgħulna iwaqqgħuna jwaqqgħu jwaqqgħuha jwaqqgħux nwaqqgħu nwaqqgħux twaqqgħa twaqqgħu twaqqgħux waqqgħalu
-97	3997	leġiżlattiv	leġiżlattiva leġiżlattivi
-98	3998	borġ	braġ bruġ ibraġ
-99	3999	korner	korners
-100	4000	funebri	
+1	3901	paragun	paraguna paraguni
+2	3902	ħerqa	
+3	3903	tournament	tournaments
+4	3904	ċirkolazzjoni	ċirkulazzjoni
+5	3905	irregolarità	irregolarita irregolaritajiet rregolaritajiet rregolarità
+6	3906	propaganda	
+7	3907	ċeramika	ċeramiki
+8	3908	milja	
+9	3909	ġiebja	ġibjun ġibjuni ġwiebi
+10	3910	ġenerożità	ġenerożita
+11	3911	għajjar	għajjarhom għajjarna għajjarni għajjart għajjartu għajruni igħajru jgħajjar jgħajjarhom jgħajjarna jgħajjarni jgħajru jgħajruh jgħajruk jgħajrukom jgħajruna mgħajjar ngħajjar ngħajru ngħajruhom tgħajjar tgħajjarhom tgħajjarna tgħajjarni tgħajru tgħajruhom
+12	3912	kontinwità	kontinwita
+13	3913	inklużjoni	inklużjonijiet
+14	3914	astronomiku	astronomika astronomiċi
+15	3915	liebru	liebra liebri liepru
+16	3916	qajma	inqajmu iqajmu jqajmu jqajmuh jqajmuhom nqajmu qajmilhom tqajmu
+17	3917	qatgħa	qatgħaha qatgħat qatgħatha qtajja qtajja'
+18	3918	bilaterali	
+19	3919	suba'	subgħajh subgħajha subgħajhom subgħajn subgħajna subgħu swaba'
+20	3920	drastiku	drastika drastiċi
+21	3921	teknoloġiku	teknoloġika teknoloġiċi
+22	3922	prokuratur	prokuraturi
+23	3923	rkoppa	irkoppa irkoppitha irkopptejh irkopptejha irkopptejhom irkopptejn irkopptu rkoppitha rkopptejh rkopptejha rkopptejhom rkopptejn rkoppti rkopptu
+24	3924	saċerdotali	
+25	3925	frekwenti	
+26	3926	ekkleżjastiku	ekkleżjastika ekkleżjastiċi
+27	3927	ripetut	ripetuta ripetuti
+28	3928	kampus	kampusijiet
+29	3929	derivat	derivata derivati
+30	3930	dukat	dukati
+31	3931	preċedent	
+32	3932	ingħalqa	jingħalqu jingħalqux ningħalqu
+33	3933	ħammeġ	inħammġu iħammeġ iħammġu iħammġuha iħammġuk jħammeġ jħammiġlek jħammiġni jħammġu jħammġux mħammeġ nħammġu nħammġuh nħammġux tħammeġ tħammiġx tħammġu ħammġet ħammġu
+34	3934	sorveljanza	
+35	3935	informali	nformali
+36	3936	tbassir	tbassira
+37	3937	ista	istaju jistaw jistawx jistu jistux jstax nistaw nistawx nistux sta stana tistaw tistawx
+38	3938	ħlewwa	ħlewwitu
+39	3939	rekwiżit	rekwiżiti
+40	3940	sanzjoni	sanzjonijiet
+41	3941	unanimu	unanima unanimi
+42	3942	kompetitur	kompetituri
+43	3943	kreatur	kreatura kreaturi
+44	3944	grafiku	grafika grafiki grafiċi
+45	3945	pavimentar	
+46	3946	tagħbija	tagħbijiet
+47	3947	tapit	tapiti twapet
+48	3948	patata	
+49	3949	invada	invadaha invadat invadew invadewha invadiet invadietha invadiha jinvadi jinvadu jinvaduh jinvaduhom jinvadulhom jinvaduna ninvadu nvada nvadew nvadewna nvadiet tinvadi tinvadiha
+50	3950	sussegwenti	
+51	3951	għarraq	għarrqet għarrqu igħarraq jgħarraq jgħarraqlu jgħarraqx jgħarrqu jgħarrquh jgħarrquk mgħarraq mgħarrqa ngħarraq ngħarrqu ngħarrquha tagħriq tgħarraq tgħarraqha tgħarrqu
+52	3952	tħaffir	tħaffira
+53	3953	raġonevoli	
+54	3954	esporta	esportaha esportat esportati esportaw jesporta jesportahom jesportaw nesportaw tesporta tesportah tesportaha
+55	3955	tadam	tadama tadamiet
+56	3956	kummiedja	kummiedji
+57	3957	inkuruna	inkurunat inkurunata inkurunati jinkuruna jinkurunaw ninkurunaw nkuruna nkurunat nkurunati
+58	3958	issorvelja	issorveljat issorveljaw jissorvelja jissorveljaw nissorveljaw nissorveljawhom ssorvelja ssorveljat ssorveljaw tissorvelja tissorveljahom
+59	3959	objettiv	objettiva objettivi
+60	3960	ifirħa	jifirħu jifirħulek jifirħulha jifirħuli jifirħulu nifirħu nifirħulek nifirħulha nifirħulhom nifirħulu nifirħux tifirħu
+61	3961	tbissem	jitbissem jitbissimlek jitbissimli jitbissimx jitbissmu jitbissmulek jitbissmuli nitbissem nitbissimx nitbissmu nitbissmux tbissimha tbissimt tbissmet tbissmitlu tbissmu titbissem titbissimlu
+62	3962	żgħożija	żgħożitek żgħożitha żgħożithom żgħożiti żgħożitna żgħożitu
+63	3963	kkastiga	ikkastigar ikkastigat ikkastigati ikkastigaw jikkastiga jikkastigahom jikkastigaw jikkastigawhom jikkastigax kkastigar kkastigat kkastigathom kkastigati kkastigaw nikkastigaw tikkastiga
+64	3964	satellita	satelliti
+65	3965	bonus	bonusijiet
+66	3966	eqqel	
+67	3967	arroganza	
+68	3968	soprataxxa	soprataxxi
+69	3969	ċekk	ċekkijiet ċekks
+70	3970	kwarta	
+71	3971	tqal	jitqal jitqalu titqal tqalet
+72	3972	vokali	
+73	3973	kandidatura	kandidaturi
+74	3974	rriskja	irriskja jirriskja jirriskjaw jirriskjawx jirriskjax nirriskjaw rriskjajt rriskjaw tirriskja
+75	3975	dejta	
+76	3976	pil	pili
+77	3977	borġ	braġ bruġ ibraġ
+78	3978	konformità	konformita
+79	3979	funebri	
+80	3980	akkomoda	akkomodat jakkomoda jakkomodana jakkomodaw jakkomodawha nakkomoda nakkomodahom nakkomodaw takkomoda takkomodahom
+81	3981	korner	korners
+82	3982	konċentrazzjoni	konċentrazzjonijiet
+83	3983	fotografu	fotografa fotografi
+84	3984	nanu	nana nani nantu
+85	3985	ira	irak
+86	3986	ġojjell	ġojjelli
+87	3987	ħolm	
+88	3988	sekulari	
+89	3989	gramm	gramma grammi
+90	3990	qrar	qrara
+91	3991	potenza	potenzi
+92	3992	inflazzjoni	
+93	3993	tajra	tajritu
+94	3994	tranżazzjoni	tranżazzjonijiet
+95	3995	impieg	impiegi mpieg mpiegi
+96	3996	ombudsman	
+97	3997	preċiżament	
+98	3998	diżgwid	diżgwidi
+99	3999	kurjuż	kurjuża kurjużi
+100	4000	ipoteżi	ipoteżijiet

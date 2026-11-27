@@ -1,100 +1,100 @@
-1	7401	kategoriku	kategorika
-2	7402	imminenti	
-3	7403	appartena	jappartieni jappartienu jappartienux tappartieni
-4	7404	esseri	
-5	7405	konsensus	
-6	7406	riporter	reporter
-7	7407	għejjun	għejjuni
-8	7408	studjos	istudjos
-9	7409	mħadda	imħadda imħaded mħaded
-10	7410	ippoża	jippoża jippożaw ppoża tippoża
-11	7411	beżaq	beżaqlu beżqet beżqitlu beżqu bżaqt inbeżaq jobżoq jobżoqha jobżoqlu jobżqu jobżqulu mibżuq nbeżaq obżoq tobżoq tobżoqlu
-12	7412	oasi	
-13	7413	revokata	revokati
-14	7414	dehrlu	dehrli
-15	7415	tbiddlet	
-16	7416	orfni	
-17	7417	sagramentali	
-18	7418	publiku	publika publikaji
-19	7419	dekasteru	dekasteri
-20	7420	issapportja	issapportjajt issapportjat jissapportja jissapportjah jissapportjahom jissapportjaw nissapportja nissapportjaw ssapportjat tissapportja tissapportjahom tissapportjax
-21	7421	lunari	
-22	7422	xjenzjati	
-23	7423	dentist	
-24	7424	ħajra	ħajriet ħajritu
-25	7425	assunzjoni	assunzjonijiet
-26	7426	irrimedja	irrimedjat jirrimedja jirrimedjaha jirrimedjaw nirrimedja nirrimedjaw nirrimedjawha tirrimedja
-27	7427	fotografiku	fotografika fotografiċi
-28	7428	masklu	maskli
-29	7429	deterrent	
-30	7430	fundatriċi	
-31	7431	raġjonevoli	
-32	7432	pjanar	
-33	7433	sebaq	jisboq jisbqu sebqet sebqu tisboq
-34	7434	punteġġ	punteġġi
-35	7435	immortalità	immortalita
-36	7436	evoke	
-37	7437	leaks	
-38	7438	insedjaturi	
-39	7439	parodija	parodiji
-40	7440	eżentati	
-41	7441	eżerċtu	eżerċti
-42	7442	demonju	demonji dimonju
-43	7443	fieħ	fiħx ifuħ ifuħu infuħu jfuħ jfuħu tfuħ
-44	7444	fajjar	fajjarlu fajjart ifajjar jfajjar jfajru
-45	7445	operazzjonali	
-46	7446	vjolinista	vjolinisti
-47	7447	gandlieri	
-48	7448	qliel	jiqliel qlielet
-49	7449	ikkomprometta	ikkompromettiex jikkomprometti jikkompromettu jikkompromettux kkomprometta kkompromettew nikkompromettu tikkomprometti tikkompromettilha tikkompromettina tikkompromettix
-50	7450	ġinnastika	
-51	7451	parapett	parapetti
-52	7452	geddum	geddumhom geddumna geddumu
-53	7453	mortalità	mortalita
-54	7454	pern	prun
-55	7455	tħassir	
-56	7456	testimonjanza	testimonjanzi
-57	7457	qubits	
-58	7458	iddikkjara	ddikkjara ddikkjarajna ddikkjarat iddikkjarat iddikkjaratu jiddikkjara jiddikkjaraw niddikkjaraw tiddikkjara
-59	7459	boss	
-60	7460	dinjitarju	dinjitarji
-61	7461	aperturi	
-62	7462	pranzu	pranzijiet
-63	7463	seftur	seftura sefturi
-64	7464	proverbju	proverbji
-65	7465	gara	garahom garaw igara igaraw igarawlu ingara ingaraw jgaraw
-66	7466	matrimonjali	
-67	7467	salpa	isalpa isalpaw jsalpa jsalpaw salpajt salpat salpaw salpax
-68	7468	ġralhom	
-69	7469	interjuri	
-70	7470	għader	agħder għadir jagħder jagħdirna magħdur magħdura nagħder nagħdru tagħder
-71	7471	emarġinati	
-72	7472	laqta	jlaqtu laqtani laqtat laqtiet
-73	7473	sikurezza	
-74	7474	navi	
-75	7475	parteċipi	
-76	7476	eħodla	jeħodli jeħodlu neħodlu teħodli teħodlu
-77	7477	sagrosant	sagrosanta sagrosanti
-78	7478	nkixef	inkixef
-79	7479	insulina	insulini
-80	7480	xhiex	
-81	7481	mannara	imnanar mnanar
-82	7482	grezz	grezza grezzi grezzii
-83	7483	inċidentalment	nċidentalment
-84	7484	sekondata	sekondati
-85	7485	intervistati	ntervistati
-86	7486	assikurazzjoni	assikurazzjonijiet
-87	7487	intolleranza	intolleranzi
-88	7488	mazza	mazez mazzah
-89	7489	notturna	notturni
-90	7490	prattikanti	
-91	7491	mawwar	mawru
-92	7492	immaterjalizza	immaterjalizzaw jimmaterjalizza jimmaterjalizzaw mmaterjalizza mmaterjalizzat mmaterjalizzaw mmaterjalizzawx mmaterjalizzax timmaterjalizza
-93	7493	bont	bonn
-94	7494	nkixfu	inkixfu
-95	7495	farmaċewtika	
-96	7496	allarma	allarmat allarmaw jallarma jallarmah jallarmak jallarmaw jallarmawx jallarmax nallarma nallarmaw nallarmawx nallarmax tallarma
-97	7497	borgeżija	
-98	7498	xkupa	ixkupa ixkupi xkupi
-99	7499	tavli	
-100	7500	tletinijiet	
+1	7401	korra	ikorru inkorru jkorri jkorru jkorruhom korrejt korrew korriet korrietx nkorru tkorri
+2	7402	rallies	
+3	7403	rand	randa
+4	7404	iskantament	skantament
+5	7405	melanoma	melanomi
+6	7406	povru	povra povri
+7	7407	stabbilizza	jistabbilizza jistabbilizzaw stabbilizzat stabbilizzaw tistabbilizza
+8	7408	kalkulazzjoni	kalkulazzjonijiet
+9	7409	nurseries	
+10	7410	laxk	laxka laxki
+11	7411	lieva	lievi
+12	7412	mortwarja	mortwarji
+13	7413	qamel	
+14	7414	tridimensjonali	
+15	7415	umda	
+16	7416	eżotiċi	
+17	7417	elju	
+18	7418	puntati	
+19	7419	fjur	
+20	7420	kontinġenza	kontinġenzi
+21	7421	riesqa	
+22	7422	burdura	burduri
+23	7423	pitrolju	petrolju
+24	7424	dispaċċ	dispaċċa dispaċċi
+25	7425	xitwi	xitwija xitwin
+26	7426	animaturi	
+27	7427	sfiqa	
+28	7428	logos	
+29	7429	konnettività	konnettivita
+30	7430	nażu	nażi
+31	7431	leaked	
+32	7432	ustizzja	
+33	7433	deffes	deffisna deffist deffset iddeffes iddeffsu ideffes ideffsu indeffsu jdeffes jdeffsu mdeffes ndeffsu
+34	7434	nej	nejja nejjin
+35	7435	riċevuti	
+36	7436	rahan	jirhan rahnet tirhan
+37	7437	minduda	
+38	7438	medjokrità	medjokrita
+39	7439	pawsa	
+40	7440	xettel	inxettlu ixettel ixettlu jxettel jxettlu xettilna xettlet xettlu xxettel xxettlu
+41	7441	taxxabbli	
+42	7442	aromatiċi	
+43	7443	ippronunzja	ippronunzjat ippronunzjaw jippronunzja jippronunzjah jippronunzjaw nippronunzjaw ppronunzjat ppronunzjaw tippronunzja tippronunzjaha
+44	7444	nawtiku	nawtika
+45	7445	sintomu	
+46	7446	enituri	
+47	7447	handbike	
+48	7448	infografika	
+49	7449	urnalisti	
+50	7450	boxxla	
+51	7451	xjuħija	xjuħitha xjuħithom xjuħitu
+52	7452	iddjaloga	iddjalogaw jiddjaloga jiddjalogaw niddjaloga niddjalogaw tiddjaloga
+53	7453	imbarazzanti	mbarazzanti
+54	7454	oxxenità	oxxenita oxxenitajiet
+55	7455	bittija	bettija btieti
+56	7456	misluta	imsielet msielet
+57	7457	arkeoloġi	
+58	7458	radikalment	
+59	7459	ferra	iferra jferra jitferra nferra tferra tferrix titferra
+60	7460	adem	
+61	7461	ammen	amen
+62	7462	ġebbed	imġebbed inġebbdu inġebbduha inġebbed iġebbdu iġebbduha iġebbed iġebbidna iġġebbdu iġġebbed jġebbdu jġebbduh jġebbduha jġebbed jġebbidli mġebbed nġebbdu ġebbidna
+63	7463	akropoli	
+64	7464	ħanfus	ħanfusa ħanfusiet ħniefes
+65	7465	ripatrijazzjoni	
+66	7466	qaddief	qaddiefa
+67	7467	konfessjonarju	konfessjonarji
+68	7468	rodituri	
+69	7469	leġislatur	
+70	7470	billa	billejna billitu ibillu inbilli inbillu jbillu nbillux
+71	7471	kikkra	kikkri
+72	7472	tikħil	tikħila
+73	7473	eċċita	eċitat eċċitat jeċita jeċitani neċita teċita teċitani
+74	7474	informattivi	nformattivi
+75	7475	historia	historii
+76	7476	embargo	embargoi
+77	7477	invalidu	invalidi
+78	7478	sata	satax
+79	7479	bandalori	
+80	7480	minaturi	
+81	7481	portwali	
+82	7482	ambjenta	ambjentat jambjenta jambjentah jambjentaw tambjenta
+83	7483	porfirju	
+84	7484	ċajpar	imċajpar inċajpru iċajpar jiċċajpar jċajpar jċajpru mċajpar ċajpru ċċajpar ċċajparli ċċajpret ċċajpru
+85	7485	konklużżjoni	konklużżjonijiet
+86	7486	bajsikil	bajsikils bicycle
+87	7487	faħxi	faħxija
+88	7488	fiddien	fiddiena fiddieni
+89	7489	sentimentali	
+90	7490	skarpan	iskarpan iskrapan skrapan
+91	7491	assalt	assalta assalti
+92	7492	dispensa	dispensi
+93	7493	itbiegħda	jitbiegħdu nitbiegħdu titbiegħdu
+94	7494	superstizzjoni	superstizzjonijiet
+95	7495	batteżimali	
+96	7496	preżunzjoni	preżunzjonijiet
+97	7497	irristruttura	irristrutturat jirristruttura jirristrutturaw nirristrutturaw rristruttura rristrutturat tirristruttura
+98	7498	għaġġeb	għaġġbet għaġġbitni għaġġibna igħaġġeb imgħaġġeb jgħaġġbu jgħaġġbuk jgħaġġeb jgħaġġibna jgħaġġibni mgħaġġba mgħaġġbin ngħaġġbu tgħaġġeb tgħaġġibni
+99	7499	mmaniġġa	immaniġġa immaniġġar jimmaniġġa jimmaniġġaw maniġġar mmaniġġar mmaniġġata
+100	7500	ruxxmata	ruxxmati

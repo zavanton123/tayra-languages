@@ -1,100 +1,100 @@
-1	6601	butir	
-2	6602	barbaru	barbari
-3	6603	awditorju	awditorji
-4	6604	kwalifikaw	
-5	6605	artiġjani	
-6	6606	raid	
-7	6607	fwieħa	fwejjaħ
-8	6608	involontarju	volontarja volontarji
-9	6609	qireq	qroqq
-10	6610	mdendla	imdendla
-11	6611	appoġġata	appoġġati
-12	6612	ordinanza	ordinanzi
-13	6613	imponenti	
-14	6614	ġenoċidju	ġenoċidji
-15	6615	ekkleżjastiċi	
-16	6616	mfissra	imfissra
-17	6617	iggrava	ggravat iggravat iggravaw jiggrava jiggravaw tiggrava tiggravax
-18	6618	garr	garrejt garret igorr igorru ingorr ingorru jgorr jgorrilha jgorru ngorru tgorr
-19	6619	formulazzjoni	formulazzjonijiet
-20	6620	montana	montani
-21	6621	raqda	
-22	6622	komputazzjoni	komputazzjonijiet
-23	6623	kient	kientx
-24	6624	mekka	
-25	6625	travu	travi
-26	6626	liberazzjoni	
-27	6627	karkar	ikarkar ikarkarhom ikarkru imkarkar jkarkar karkarhom karkret karkru nkarkru tkarkar tkarkarx
-28	6628	vaska	vaski
-29	6629	ħadlu	ħadli ħadlux
-30	6630	rarament	
-31	6631	immanifattura	immanifatturat immanifatturaw jimmanifattura jimmanifatturaw jimmanifatturawhom jimmanifatturawlha mmanifatturat mmanifatturaw timmanifattura
-32	6632	ewroparlamentari	
-33	6633	makabru	makabra makabri
-34	6634	realistiċi	
-35	6635	riditx	
-36	6636	ħata	jaħti jaħtix jaħtu jaħtux naħtux taħti taħtu
-37	6637	audit	
-38	6638	tiġrif	tiġrifa
-39	6639	ikraħ	
-40	6640	qabru	qwabar
-41	6641	sallum	
-42	6642	umiljazzjoni	umiljazzjonijiet
-43	6643	pajżana	pajżani
-44	6644	lampier	lampieri
-45	6645	vertiċi	
-46	6646	ċena	ċeni ċenti ċentu
-47	6647	investitur	
-48	6648	jinfirxu	
-49	6649	severa	severi
-50	6650	irrabjat	
-51	6651	iċċaqilqa	jiċċaqilqu jiċċaqilqux niċċaqilqu
-52	6652	annessa	annessah annessat annessaw annessawhom annessiet jannessi jannessu
-53	6653	oħodla	joħodli joħodlu noħodlu toħodli toħodlu
-54	6654	ikkonsagra	ikkonsagrah ikkonsagrani ikkonsagraw jikkonsagra jikkonsagraha jikkonsagraw kkonsagra kkonsagrah kkonsagrani nikkonsagra tikkonsagra
-55	6655	dineb	dinbu dinibx dnibt jidneb nidneb nidnibx tidneb tidnibx
-56	6656	qajmu	qajmuh qajmuhom qajmuna
-57	6657	taqtigħa	
-58	6658	kelna	
-59	6659	raħħas	imraħħas inraħħsu iraħħas jraħħas jraħħsu nraħħsu raħħasli traħħas traħħsu
-60	6660	ispezzjona	jispezzjona jispezzjonaw jispezzjonawlu nispezzjonaw spezzjona spezzjonat spezzjonaw tispezzjona
-61	6661	solitu	solita soliti
-62	6662	idealment	
-63	6663	bażikament	
-64	6664	dundjan	dundjani
-65	6665	innoċenza	
-66	6666	immunità	immunita
-67	6667	iffortifika	ffortifika ffortifikat ffortifikaw ffortifikawha iffortifikat iffortifikaw iffortifikawha jiffortifika jiffortifikaw tiffortifika
-68	6668	statwarju	istatwarju statwarji
-69	6669	rmiġġ	irmiġġ irmiġġi rmiġġi
-70	6670	mnebbaħ	imnebbaħ
-71	6671	spareġġ	ispareġġ
-72	6672	jindifen	
-73	6673	vina	vini
-74	6674	għerusija	għerusijiet
-75	6675	tbaħħir	
-76	6676	jintebaħ	jintebaħx
-77	6677	imbarazza	imbarazzah imbarazzat imbarazzaw jimbarazza jimbarazzahom jimbarazzaw mbarazza mbarazzat mbarazzaw timbarazza timbarazzah
-78	6678	riffieda	
-79	6679	kommemorazzjoni	kommemorazzjonijiet
-80	6680	għarqa	għarqiet għarqitha
-81	6681	filantropiku	filantropika
-82	6682	aċċessibilità	aċċessibilita
-83	6683	emfasizza	emfasizzat emfasizzaw jemfasizza jemfasizzaw nemfasizza nemfasizzaw temfasizza
-84	6684	immudellar	mmudellar
-85	6685	ereżija	ereżiji
-86	6686	titqajjem	
-87	6687	ikkalkola	ikkalkolajt ikkalkolat jikkalkola jikkalkolah jikkalkolaw jikkalkolawx kkalkola kkalkolat nikkalkola nikkalkolaw nikkalkolawha
-88	6688	sarkofagu	sarkofagi
-89	6689	leħja	
-90	6690	indifferenza	ndifferenza
-91	6691	qassar	imqassar inqassru iqassar iqassru jqassar jqassru jqassruha mqassar qassarha qassarhom qassru taqsir tqassru
-92	6692	bijoloġiċi	
-93	6693	meraviljuż	meraviljuża meraviljużi
-94	6694	paraventu	paraventi
-95	6695	kolla	kolli
-96	6696	rkuprati	irkuprati
-97	6697	kurat	kurata kurati
-98	6698	siment	
-99	6699	għer	jgħir jgħiru ngħir ngħiru tgħir tgħirx
-100	6700	sserraħ	isserraħ isserraħx sserraħhom sserraħna sserraħx
+1	6601	geżwer	geżwirhom igeżwru imgeżwer ingeżwer jgeżwer jgeżwru jgeżwruhom mgeżwer tgeżwer tgeżwru
+2	6602	merċa	
+3	6603	estenzjoni	
+4	6604	ippruva	ippruvaha jippruva jippruvah jippruvax nippruva nippruvaha nippruvax ppruva ppruvax tippruvaha tippruvax
+5	6605	ħafi	ħafja ħafjin
+6	6606	pitgħada	
+7	6607	ante	
+8	6608	raża	
+9	6609	aluminju	aluminjum
+10	6610	sodju	
+11	6611	awtentika	awtentikat jawtentika jawtentikaw
+12	6612	integration	
+13	6613	avventuruż	avventuruża avventurużi
+14	6614	nee	
+15	6615	kontemplazzjoni	
+16	6616	ħġaru	ħġara
+17	6617	ħmira	
+18	6618	provokazzjoni	provokazzjonijiet
+19	6619	kopertura	
+20	6620	maqdes	imqades mqades
+21	6621	konkrit	
+22	6622	eċċella	eċċellaw jeċċella jeċċellaw neċċellaw teċċella
+23	6623	bajtar	bajtra
+24	6624	vjeġġ	vjeġġi
+25	6625	vażun	vażuni
+26	6626	vit	viti
+27	6627	rendiment	rendimenti
+28	6628	senduq	senduqha senduqhom senduqu sniedaq
+29	6629	minkeb	minkbejh minkbejhom minkbejn minkbu
+30	6630	terrazza	terrazzi
+31	6631	metrika	
+32	6632	ċirasa	
+33	6633	direttriċi	
+34	6634	zarina	
+35	6635	ensemble	
+36	6636	traditur	tradituri
+37	6637	irrigazzjoni	
+38	6638	alissa	
+39	6639	wiegħda	wiegħdi
+40	6640	qaxxar	imqaxxar iqaxxar iqaxxarlu iqaxxru iqaxxruhom jqaxxar jqaxxarha jqaxxarx jqaxxru mqaxxar qaxxarha qaxxarhom qaxxru qaxxrulu tqaxxar tqaxxru tqaxxrux
+41	6641	ekoloġija	
+42	6642	loġistika	
+43	6643	ritaljazzjoni	ritaljazzjonijiet
+44	6644	rimarki	
+45	6645	spirali	ispirali
+46	6646	rakkmu	rakkmi
+47	6647	ġawhra	ġawhriet
+48	6648	proklama	proklami
+49	6649	qargħa	qargħi
+50	6650	effettività	effettivita
+51	6651	mażżra	mażżri
+52	6652	xebbah	ixxebbah ixxebbahha ixxebbhu ixxebbhuh jxebbah jxebbhu mxebbah nxebbhu nxebbhuh xebbaħ xebbaħhom
+53	6653	osservabbli	
+54	6654	għalf	
+55	6655	stimolu	istimoli istimolu stimola stimoli
+56	6656	fażola	
+57	6657	imbuttatura	mbuttatura
+58	6658	kummerċjalment	
+59	6659	imbuttata	imbuttati mbuttati
+60	6660	żrinġ	żrinġijiet
+61	6661	bukkett	bukketti
+62	6662	għorfa	għorfiet għorof
+63	6663	aġġustament	aġġustamenti
+64	6664	viġilanza	
+65	6665	kullana	kullani
+66	6666	testwali	
+67	6667	qotni	qotnija qotnin
+68	6668	ave	
+69	6669	tfittix	
+70	6670	ikkumpensa	ikkumpensat jikkumpensa jikkumpensah jikkumpensaw kkumpensa kkumpensajna kkumpensat kkumpensatx kkumpensaw tikkumpensa tikkumpensax
+71	6671	glaċjali	
+72	6672	bugeddum	
+73	6673	mag	
+74	6674	prototip	prototipi prototipu
+75	6675	lekċerer	lekċerers
+76	6676	ħdura	
+77	6677	pubblikan	pubblikani
+78	6678	terran	
+79	6679	mastri	
+80	6680	inviżibbli	
+81	6681	kasbar	ikasbar ikasbarhom ikasbru imkasbar jkasbar jkasbarha jkasbarhom jkasbarni jkasbru jkasbruha kasbret kasbru kasbruna mkasbar nkasbru tkasbar tkasbir
+82	6682	ogħli	
+83	6683	dilemma	dilemmi
+84	6684	invista	invistat jinvista jinvistah jinvistaha jinvistahom jinvistani jinvistaw jinvistawha jinvistawhom ninvista ninvistak ninvistaw
+85	6685	tassonomija	
+86	6686	antropoloġija	
+87	6687	fawl	fawls
+88	6688	marġni	marġnijiet
+89	6689	konġestjoni	konġestjonijiet
+90	6690	ddestina	ddestinat destinat iddestinat
+91	6691	pożati	
+92	6692	intensifika	intensifikajna intensifikat intensifikaw intensifikax jintensifika jintensifikaw nintensifikaw ntensifikat tintensifika
+93	6693	grammatikali	
+94	6694	imperfett	imperfetta mperfetta
+95	6695	turnament	
+96	6696	rikatt	rikatti
+97	6697	awtiżmu	
+98	6698	brutali	
+99	6699	utru	
+100	6700	ntoppi	intoppi

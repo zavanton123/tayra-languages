@@ -1,100 +1,100 @@
-1	5901	maġija	
-2	5902	qiegħa	qigħan
-3	5903	mazzun	imzazen mzazen
-4	5904	ħliqa	ħlejjaq ħlejqa
-5	5905	larva	larvi
-6	5906	ċkunija	ċkunitha ċkunithom ċkuniti ċkunitna ċkunitu
-7	5907	romano	
-8	5908	alġebra	alġebri
-9	5909	demmem	demmu
-10	5910	forestali	
-11	5911	sajfi	sajfija sajfin
-12	5912	eventwali	
-13	5913	għaddas	għaddasa
-14	5914	preċett	preċetti
-15	5915	rażan	irżina rżina
-16	5916	anima	animat animaw animi janima janimaw janimawna nanima nanimaw
-17	5917	għedna	
-18	5918	diskrezzjoni	
-19	5919	irribella	irribellat irribellaw jirribella jirribellaw rribella rribellat rribellaw rribellawx rribellax tirribella
-20	5920	bassra	ibassru inbassru jbassru nbassru nbassruh nbassrux
-21	5921	esibizzjoni	esibizzjonijiet
-22	5922	metafora	metafori
-23	5923	evanġelizzazzjoni	
-24	5924	eżodu	
-25	5925	salini	
-26	5926	razzist	razzista razzisti
-27	5927	romantiċiżmu	
-28	5928	jindifnu	jindifnux
-29	5929	elettur	eletturi
-30	5930	ftira	ftajjar
-31	5931	iġifieri	
-32	5932	xaqliba	
-33	5933	fawwara	fawwariet fawwarieti
-34	5934	regolatorji	
-35	5935	artillerija	
-36	5936	terribbli	
-37	5937	notevolment	
-38	5938	kkaċċja	ikkaċċat ikkaċċja ikkaċċjat jikkaċċa jikkaċċaw jikkaċċawhom jikkaċċja jikkaċċjaw jikkaċċjawhom kkaċċjat kkaċċjaw nikkaċċa nikkaċċaw nikkaċċjaw tikkaċċa tikkaċċja
-39	5939	arju	arji
-40	5940	diżgrazzja	diżgrazzji
-41	5941	kultivazzjoni	kultivazzjonijiet
-42	5942	alkoħoliku	alkoħolika alkoħoliċi
-43	5943	intelletwali	ntelletwali
-44	5944	msaqqfa	imsaqqfa
-45	5945	jitlestew	
-46	5946	konvenjenti	
-47	5947	inkwiżitur	inkwiżituri
-48	5948	maniġerjali	
-49	5949	skrin	iskrin iskrins skrins
-50	5950	kalċju	kalċjijiet
-51	5951	immaniġġja	immaniġġjaw jimmaniġġja jimmaniġġjah jimmaniġġjaw mmaniġġja mmaniġġjat mmaniġġjaw nimmaniġġjaw timmaniġġja timmaniġġjahom
-52	5952	riformista	riformisti
-53	5953	ikkoopera	jikkoopera jikkooperaw jikkooperawx kkoopera kkooperat kkooperaw kkooperawx kkooperax nikkoopera tikkoopera
-54	5954	ankè	
-55	5955	parata	parati
-56	5956	jikkonċerna	
-57	5957	kanoniċi	
-58	5958	preżentatriċi	
-59	5959	bnazzi	
-60	5960	kunsinna	kunsinni
-61	5961	modest	modesta modesti
-62	5962	tabakk	
-63	5963	datata	datati
-64	5964	reċediv	reċediva reċedivi
-65	5965	mħaffra	imħaffra
-66	5966	għodwa	għodwiet
-67	5967	qlubi	qlubija qlubin
-68	5968	irreklama	irreklamat jirreklama jirreklamaw jirreklamawha jirreklamawhom nirreklamaw rreklama rreklamat rreklamaw tirreklama
-69	5969	kilwa	kliewi
-70	5970	profetiku	profetika
-71	5971	itħassra	jitħassru nitħassru nitħassruh titħassru
-72	5972	kantina	kantini
-73	5973	duna	duni
-74	5974	ġegħla	inġegħlu inġegħluhom iġegħlu iġegħluh iġegħluhom iġegħluk jġegħlu jġegħluh jġegħluhom jġegħluk nġegħluhom ġegħlitha ġegħlithom ġegħlitna ġegħlitni ġegħlitu ġegħltu
-75	5975	invażiv	invażiva invażivi
-76	5976	velenuż	velenuża velenużi
-77	5977	ħabrek	inħabirku inħabrek iħabirku iħabrek jħabirku jħabrek nħabirku tħabirku tħabrek tħabrik ħabirket ħabirku ħabrikna
-78	5978	amment	
-79	5979	tintalab	tintalabx
-80	5980	duda	dudu
-81	5981	kartapesta	
-82	5982	partiġjan	partiġjana partiġjani
-83	5983	akru	akra akri
-84	5984	depressjoni	depressjonijiet
-85	5985	nqabdet	inqabdet
-86	5986	assedjat	assedjata assedjathom assedjati
-87	5987	pleġġ	
-88	5988	suġġetta	
-89	5989	delikata	
-90	5990	interċetta	interċettat interċettaw jinterċetta jinterċettaw jinterċettawhom jinterċettu nterċetta nterċettat tinterċetta tinterċettah
-91	5991	tramm	trammijiet tramms
-92	5992	kliniċi	
-93	5993	satiriku	satirika
-94	5994	arbitrarju	arbitrarja arbitrarji
-95	5995	ippresieda	jippresiedi jippresiedu ppresieda tippresiedi
-96	5996	portiku	
-97	5997	sogħba	
-98	5998	inkariga	inkarigah inkarigi nkariga nkarigah nkarigahom
-99	5999	banana	banan
-100	6000	preċedentament	
+1	5901	itniżżla	jitniżżlu jitniżżlux tniżżla
+2	5902	iffilmja	ffilmja ffilmjat ffilmjaw iffilmjat jiffilmja jiffilmjah jiffilmjaw niffilmja niffilmjaw
+3	5903	qatta	qatet qattahom
+4	5904	finanzjara	finanzjari
+5	5905	sedqa	
+6	5906	għanda	
+7	5907	ċediment	ċedimenti
+8	5908	gradwazzjoni	gradwazzjonijiet
+9	5909	pedana	pedani pedanti
+10	5910	tigra	tigri
+11	5911	ana	anax
+12	5912	pudina	pudini
+13	5913	dubbien	dbieben dubbiena
+14	5914	sopran	soprana soprani
+15	5915	barrakka	barrakki
+16	5916	litteriżmu	
+17	5917	manipulazzjoni	manipulazzjonijiet
+18	5918	ikkontempla	jikkontempla jikkontemplaw jikkontemplawx kkontempla kkontemplajna kkontemplat kkontemplaw nikkontempla nikkontemplahom nikkontemplaw tikkontempla tikkontemplahom tikkontemplax
+19	5919	neża'	inżajt jinża jinża' jinżgħu neżax neżgħu ninża' ninżgħu ninżgħux nżajna tinża tinża' tinżax
+20	5920	persistenti	
+21	5921	aw	
+22	5922	tuffieħa	
+23	5923	sofferenza	sofferenzi
+24	5924	xorok	
+25	5925	magażin	magażins
+26	5926	blogger	bloggers
+27	5927	manteniment	
+28	5928	labra	labar
+29	5929	ħarrub	ħarruba ħarrubu
+30	5930	reġistratur	reġistraturi
+31	5931	kilba	
+32	5932	sol	sola soli
+33	5933	papat	papati
+34	5934	abdika	abdikat abdikaw jabdika jabdikaw jabdikawx nabdikaw tabdika
+35	5935	riġment	riġmenti
+36	5936	ikkultiva	ikkultivajna ikkultivat ikkultivathom ikkultivaw jikkultiva jikkultivaw jikkultivawhom kkultivat kkultivaw kkultivawha nikkultivaw nikkultivawha nikkultivawhom tikkultiva
+37	5937	bilwieqfa	
+38	5938	mtarrġa	imtarrġa
+39	5939	qalziet	qliezet
+40	5940	intens	intensa intensi
+41	5941	namra	namri namriet
+42	5942	ssikka	issikka issikkaha issikkajtx issikkar issikkat jissikka jissikkah jissikkaw nissikkaw ssikkat tissikka
+43	5943	dabbar	dabbarlu dabbarna dabbart dabbarx dabbru ddabbar idabbar idabbru iddabbar jdabbar jdabbru ndabbar ndabbru
+44	5944	kalvarju	kalvarji
+45	5945	liżar	lożor
+46	5946	inugwaljanza	inegwaljanza inugwaljanzi
+47	5947	invażuri	
+48	5948	benniena	
+49	5949	sekwestru	sekwestri
+50	5950	abbru	abbra
+51	5951	xadin	xadina xadini
+52	5952	distrettwali	
+53	5953	jikkonċernaw	jikkonċernawhom jikkonċernawkom
+54	5954	ħmerija	ħmerijiet
+55	5955	ventilator	ventilators
+56	5956	kajman	kajmana kajmani
+57	5957	diżordni	diżordnijiet
+58	5958	injezzjoni	injezzjonijiet
+59	5959	egoist	egoista egoisti
+60	5960	kattiv	kattiva kattivi
+61	5961	deklin	
+62	5962	pin	
+63	5963	organizzazjoni	organizzazjonijiet
+64	5964	irrivela	irrevela irrevelah irrevelat irrivelat jirrevela jirrevelalhom jirrivela jirrivelaw rrevelat rrivela rrivelaha rrivelalu rrivelat rrivelax tirrivela
+65	5965	ġenwinament	
+66	5966	doganali	
+67	5967	ġublew	ġublews
+68	5968	ċċentralizza	iċċentralizza iċċentralizzat jiċċentralizza jiċċentralizzaw tiċċentralizza ċentralizzat ċentralizzata ċentralizzati ċċentralizzat
+69	5969	mantell	mantelli
+70	5970	ventilazzjoni	
+71	5971	idroġenu	
+72	5972	multinazzjonali	
+73	5973	onorarja	
+74	5974	graffiti	
+75	5975	ostakola	jostakola jostakolah jostakolaw jostakolawx jostakolax ostakolalu ostakolat ostakolaw tostakola tostakolax
+76	5976	parità	parita paritajiet parititi
+77	5977	lakemm	
+78	5978	tribali	
+79	5979	ruf	rufa rufin rufina
+80	5980	rregolarizza	irregolarizzat jirregolarizza jirregolarizzalhom jirregolarizzaw regolarizzat rregolarizzat rregolarizzawx tirregolarizza
+81	5981	eċċitanti	
+82	5982	laqqgħa	ilaqqgħana ilaqqgħu ilaqqgħuh ilaqqgħuha ilaqqgħuk inlaqqgħu inlaqqgħuhom jlaqqgħana jlaqqgħani jlaqqgħu jlaqqgħuhom laqqgħajt laqqgħajtu laqqgħat laqqgħatha laqqgħatni laqqgħatu laqqgħitu nlaqqgħu tlaqqgħana tlaqqgħu
+83	5983	ivara	ivaraw jivaru jvara jvaraw varat varata varati
+84	5984	aggressjoni	aggressjonijiet
+85	5985	wiżż	wiżża wiżżu
+86	5986	dottor	
+87	5987	galassja	galassji
+88	5988	sottospeċi	sottospeċijiet
+89	5989	skadenza	iskadenza iskadenzi skadenzi
+90	5990	prerogattiva	prerogattivi
+91	5991	marzjali	
+92	5992	salott	salotti
+93	5993	estradizzjoni	
+94	5994	imirħa	jimirħu jimirħux nimirħu
+95	5995	għatxan	għatxana
+96	5996	skossi	iskossi
+97	5997	filtru	filtri
+98	5998	multilingwiżmu	
+99	5999	teoriku	teoretiku teorika teoriċi
+100	6000	eku	eki

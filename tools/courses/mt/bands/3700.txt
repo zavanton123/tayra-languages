@@ -1,100 +1,100 @@
-1	3601	żifen	jiżfen jiżfinha jiżfnu niżfen niżfnu tiżfen żifinha żifnet żifnu
-2	3602	safra	safrana safriet safritx
-3	3603	banju	banjijiet
-4	3604	numeruża	numerużi
-5	3605	eko	
-6	3606	ggverna	ggvernar ggvernat ggvernaw gvernar gvernat iggvernar iggvernat iggvernaw igvernar jiggverna jiggvernaw niggvernaw tiggverna
-7	3607	rreaġixxa	irreaġew irreaġixxew irreaġixxiet jirreaġixxi jirreaġixxix jirreaġixxu nirreaġixxi nirreaġixxu rreaġixxew rreaġixxewx rreaġixxiet rreaġixxu tirreaġixxi
-8	3608	mgħax	imgħax imgħaxijiet imgħaxx
-9	3609	irrappurtata	irrappurtati rrappurtata rrappurtati
-10	3610	inferjuri	nferjuri
-11	3611	skrutinju	iskrutinju
-12	3612	ċiklist	ċiklista ċiklisti
-13	3613	baħri	baħrija baħrin
-14	3614	żebgħa	żebgħat
-15	3615	pijunier	pijunieri
-16	3616	baċir	baċiri
-17	3617	mnejn	imnejn
-18	3618	paċenzja	
-19	3619	kompromess	kompromessi
-20	3620	jitpoġġew	jitpoġġewx
-21	3621	predeċessur	predeċessuri
-22	3622	ħakkiem	ħakkiema
-23	3623	azzar	
-24	3624	dijabete	
-25	3625	salvaġġ	salvaġġa salvaġġi selvaġġ slavaġ
-26	3626	limitazzjoni	limitazzjonijiet
-27	3627	awguri	
-28	3628	irraġuna	irraġunajt irraġunaw jirraġuna jirraġunaw jirraġunawx nirraġuna nirraġunaw rraġuna rraġunajt rraġunat rraġunaw tirraġuna
-29	3629	ittrasferixxa	ittrasferixxew ittrasferixxiet jittrasferixxi jittrasferixxu nittrasferixxu tittrasferixxi ttrasferixxa ttrasferixxiet ttrasferixxiex
-30	3630	irrekordja	irrekordjajt irrekordjat jirrekordja jirrekordjah jirrekordjaw nirrekordja nirrekordjah nirrekordjaw nirrekordjawhom rrekordja rrekordjajna rrekordjajt rrekordjat rrekordjatha rrekordjatu rrekordjaw tirrekordja
-31	3631	allokazzjoni	allokazzjonijiet
-32	3632	uffiċini	
-33	3633	hieni	henjin hienja
-34	3634	driegħ	dirgħajh dirgħajha dirgħajhom dirgħajn dirgħajna driegħek driegħhom driegħi driegħna driegħu
-35	3635	rinomat	rinomata rinomati
-36	3636	welled	inwelldu inwellduhom iwelldu jwelldu jwelled mwelled nwelldu welldet wellditlu welldu wellduhom welldulu wellidha wellidhom wellidna wellidni wellidt wellidtni
-37	3637	pulmun	pulmuni
-38	3638	xeba'	jixba jixba' jixbax jixbgħu nixba nixba' nixbgħu nixbgħux tixba' xbajna xbajt xbajtux xbajtx xeba xebaw xebax xebgħet xebgħetx xebgħu
-39	3639	ħarta	
-40	3640	jitwaqqaf	
-41	3641	pixxina	pixxini
-42	3642	torċa	torċi
-43	3643	sqaq	isqaq isqaqien sqaqien
-44	3644	iddisinjata	ddisinjata ddisinjati iddisinjati
-45	3645	imprenditur	imprendituri
-46	3646	niseġ	insiġ insiġt insiġthom jinseġ jinsiġha jinsġu jinsġuha jinsġux minsuġ minsuġa minsuġin ninsġu nisġet nisġu nsiġ tinseġ tinsiġhom
-47	3647	ktejjeb	ktejbiet
-48	3648	viżta	viżti
-49	3649	ringrazzjament	ringrazzjamenti
-50	3650	marċa	marċi marċijiet
-51	3651	kafè	kafe kafejiet
-52	3652	omosesswali	
-53	3653	ġir	
-54	3654	xemgħa	xemgħat
-55	3655	kontenitur	kontenituri
-56	3656	jissaħħaħ	jissaħħaħx
-57	3657	fidwa	
-58	3658	siegħat	
-59	3659	integrità	integrita
-60	3660	tfajjel	
-61	3661	trasformazzjoni	trasformazzjonijiet
-62	3662	matur	matura maturi
-63	3663	kemxejn	
-64	3664	mafja	
-65	3665	mgħejjun	mgħejjuna mgħejjunin
-66	3666	għomor	għomorha għomorhom għomorkom
-67	3667	ċentimetru	ċentimetri
-68	3668	impenja	impenjajna impenjani impenjaw jimpenja jimpenjana jimpenjani jimpenjaw mpenja nimpenja nimpenjaw timpenja timpenjaw timpenjax
-69	3669	jiddispjaċini	jiddispjaċinix
-70	3670	ballut	balluta
-71	3671	faħam	faħma
-72	3672	sponsor	isponsor isponsors sponsors
-73	3673	bdot	bdoti
-74	3674	għawm	
-75	3675	opposta	opposti
-76	3676	interazzjoni	interazzjonijiet
-77	3677	informatika	
-78	3678	bħallikieku	
-79	3679	sospensjoni	sospensjonijiet
-80	3680	isirqa	jisirqu jisirquh jisirquha jisirquhom jisirqulek jisirqulna jisirqulu jisirquna jisirquni jisirqux nisirqu nisirquha tisirqu
-81	3681	kattar	ikattar ikattru imkattar inkattru jkattar jkattru jkattruhom jkattrux jtkattar kattarhom kattarli kattart kattret kattru mkattar nkattru tkattir tkattru
-82	3682	tolleranza	tolleranzi
-83	3683	ddubita	ddubitat ddubitaw ddubitax iddubita iddubitajt iddubitaw jiddubita jiddubitah jiddubitaha jiddubitaw jiddubitawna niddubita niddubitaw tiddubita tiddubitaw
-84	3684	nterrogat	interrogat interrogata interrogati nterrogati
-85	3685	esiġa	esiġejt esiġiet jesiġi jesiġu nesiġi nesiġix nesiġu nesiġuh tesiġi
-86	3686	titnaqqas	titnaqqasx
-87	3687	ħaqqaq	ħaqqet ħaqqu ħaqqux
-88	3688	kumdità	kumdita kumditajiet
-89	3689	inqalgħa	jinqalgħu jinqalgħux ninqalgħu ninqalgħux nqalgħa nqalgħat tinqalgħux
-90	3690	veġetazzjoni	veġetazzjonijiet
-91	3691	infinit	infinita infiniti nfinita nfiniti
-92	3692	eterna	
-93	3693	estrazzjoni	estrazzjonijiet
-94	3694	kontea	
-95	3695	istmu	istmi
-96	3696	superviżjoni	superviżjonijiet
-97	3697	ċivil	
-98	3698	obbligata	obbligati
-99	3699	frodi	
-100	3700	dependenti	dipendenti
+1	3601	ċenteżmu	ċenteżmi
+2	3602	wessa'	inwessa inwessgħu iwessa iwessgħu jitwessa jwessa' jwessgħu jwessgħux nwessa' nwessgħu titwessa twessa' twessgħu wessa wessajna wessgħet wessgħu
+3	3603	fanal	fanali
+4	3604	monumentali	
+5	3605	ħnejja	ħnejjiet
+6	3606	soċju	soċja soċji
+7	3607	estint	estinta estinti estintu
+8	3608	eżerċita	eżerċitat eżerċitaw eżerċitawhom jeżerċita jeżerċitah jeżerċitaha jeżerċitaw jeżerċitawx jeżerċitax neżerċita neżerċitaw neżerċitawhom teżerċita teżerċitahom teżerċitax
+9	3609	inizjalment	
+10	3610	kometa	kometi
+11	3611	ġudikatura	
+12	3612	sensja	sensji
+13	3613	xpruna	ixpruni jixpruna jixprunaw jixprunawna nixpruna nixprunaw tixpruna xprunat xprunaw xpruni
+14	3614	ambizzjuż	ambizzjuża ambizzjużi
+15	3615	gerger	gergirt gergirtx gergret gergru igerger igergru ingerger ingergru jgerger jgergru jgergrux ngerger ngergirx ngergru tgerger tgergir tgergirx
+16	3616	ugwali	
+17	3617	lenti	lentijiet
+18	3618	storbju	istorbju
+19	3619	segwenti	
+20	3620	ttanta	ittanta ittantaha ittantar ittantat ittantaw ittantax ittentat jittanta jittantah jittantaha jittantahom jittantaw jittentaw nittanta nittantahom nittantak nittantaw tittanta tittantah tittantani tittantawx ttantar ttantat ttantatu ttantaw ttantax
+21	3621	riċessjoni	riċessjonijiet
+22	3622	maltempata	maltempati
+23	3623	artiġjanat	artiġġjanat
+24	3624	ċċara	iċċara iċċarajna iċċarar iċċarat iċċaraw jiċċara jiċċaraha jiċċarahom jiċċaralhom jiċċaraw jiċċarax jċċara niċċara niċċaralek niċċaraw tiċċara tiċċaraw tiċċarax ċċarar ċċarat
+25	3625	dominanti	
+26	3626	inutli	
+27	3627	skrizzjoni	iskrizzjoni iskrizzjonijiet skrizzjonijiet
+28	3628	lingwaġġ	lingwaġġi
+29	3629	sigarett	sigaretti sigarrett sigarretti
+30	3630	ġirja	ġirjiet
+31	3631	altitudni	altitudnijiet
+32	3632	veterinarju	veterinarja veterinarji
+33	3633	ittraskura	ittraskurajna ittraskurajt ittraskurat ittraskurata ittraskurati jitraskura jitraskurah jittraskura jittraskuraha jittraskurahom jittraskuraw jittraskurawx nitraskuraw nittraskura nittraskuraw nittraskurawx titraskura titraskurax tittraskura tittraskurax traskurajna traskurat traskurata traskurati traskuraw ttraskura ttraskurajna ttraskurat ttraskurata ttraskurati ttraskuraw
+34	3634	lanċa	laneċ
+35	3635	lumi	lumija
+36	3636	elevazzjoni	elevazzjonijiet
+37	3637	qroll	
+38	3638	manifest	manifesti
+39	3639	midfilder	midfilders
+40	3640	linka	inka
+41	3641	korrettiv	korrettiva korrettivi
+42	3642	web	
+43	3643	rikkezza	rikkezzi
+44	3644	ferħan	ferħana ferħanin
+45	3645	katavru	katavri
+46	3646	inġenerali	nġenerali
+47	3647	xelter	xelterijiet xelters
+48	3648	grotta	grotti
+49	3649	ggverna	ggvernar ggvernat ggvernaw gvernar gvernat iggverna iggvernar iggvernat iggvernaw igvernar jiggverna jiggvernaw niggvernaw tiggverna
+50	3650	strixxa	istrixxa istrixxi strixxat strixxi
+51	3651	denju	denja denji
+52	3652	wiki	wikijiet
+53	3653	hena	
+54	3654	ideoloġija	ideoloġiji
+55	3655	ekoloġiku	ekoloġika ekoloġiċi
+56	3656	solitudni	
+57	3657	mkabbar	imkabbar imkabbra imkabbrin mkabbra mkabbrin
+58	3658	terzjarju	terzjarja terzjarji
+59	3659	bolla	
+60	3660	funtana	funtani
+61	3661	tennis	
+62	3662	enċiklopedija	enċiklopediji
+63	3663	organiku	organika organiċi
+64	3664	armonija	armoniji
+65	3665	żżejjed	iżżejjed
+66	3666	taqlib	taqliba
+67	3667	folja	folji
+68	3668	ewwelnett	
+69	3669	tattika	tattiki
+70	3670	adozzjoni	addozzjoni addozzjonijiet adozzjonijiet
+71	3671	misraħ	imsieraħ msieraħ
+72	3672	żifen	jiżfen jiżfinha jiżfnu niżfen niżfnu tiżfen żifinha żifnet żifnu
+73	3673	normalità	normalita
+74	3674	numeruża	numerużi
+75	3675	banju	banjijiet
+76	3676	goff	goffa goffi
+77	3677	mgħax	imgħax imgħaxijiet imgħaxx
+78	3678	magru	magra magri
+79	3679	inferjuri	nferjuri
+80	3680	safra	safrana safriet safritx
+81	3681	baħri	baħrija baħrin
+82	3682	irrilaxxa	irrilaxxat irrilaxxaw jirrilaxxa jirrilaxxah jirrilaxxaw jirrilaxxawhom rilaxxat rilaxxata rilaxxati rrilaxxa rrilaxxat rrilaxxaw tirrilaxxa tirrilaxxah
+83	3683	żebgħa	żebgħat
+84	3684	ċiklist	ċiklista ċiklisti
+85	3685	paċenzja	
+86	3686	pijunier	pijunieri
+87	3687	baċir	baċiri
+88	3688	motto	mottu
+89	3689	żarma	inżarma inżarmaw iżarma iżarmahom iżarmak iżarmaw iżarmawha iżżarma iżżarmaw jiżżarma jiżżarmaw jżarma jżarmaha jżarmahom jżarmaw jżarmawhom jżarmax nżarmaw tiżżarma żarmah żarmajna żarmajniehom żarmar żarmat żarmathom żarmathomx żarmaw żżarma żżarmah żżarmat
+90	3690	ħakkiem	ħakkiema
+91	3691	predeċessur	predeċessuri
+92	3692	dijabete	
+93	3693	azzar	
+94	3694	skrutinju	iskrutinju
+95	3695	irraġuna	irraġunajt irraġunaw jirraġuna jirraġunaw jirraġunawx nirraġuna nirraġunaw rraġuna rraġunajt rraġunat rraġunaw tirraġuna
+96	3696	limitazzjoni	limitazzjonijiet
+97	3697	mnejn	imnejn
+98	3698	allokazzjoni	allokazzjonijiet
+99	3699	hieni	henjin hienja
+100	3700	driegħ	dirgħajh dirgħajha dirgħajhom dirgħajn dirgħajna driegħek driegħhom driegħi driegħna driegħu

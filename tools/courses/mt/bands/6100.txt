@@ -1,100 +1,100 @@
-1	6001	judo	
-2	6002	zalza	zlazi
-3	6003	statura	istatura
-4	6004	ġene	
-5	6005	rrelevanti	irrelevanti
-6	6006	indulġenza	indulġenzi
-7	6007	sostnuta	sostnuti
-8	6008	ostilità	ostilita ostilitajiet
-9	6009	xterdet	
-10	6010	buttuna	buttuni
-11	6011	skorjati	
-12	6012	żibel	
-13	6013	qarsa	
-14	6014	akronimu	
-15	6015	soċjaliżmu	
-16	6016	ftaħir	ftaħiri
-17	6017	dispost	disposta disposti
-18	6018	ippreġudika	ippreġudikat jippreġudika jippreġudikalna jippreġudikaw jippreġudikawx jippreġudikax nippreġudikax ppreġudika ppreġudikaw tippreġudika tippreġudikalu
-19	6019	bullettin	bullettini
-20	6020	analitiku	analitika
-21	6021	temporali	
-22	6022	koeżjoni	
-23	6023	spa	ispa ispina spina
-24	6024	ikkompara	ikkomparat jikkompara jikkomparah jikkomparaw jikkomparawx kkompara kkomparat nikkompara tikkompara tikkomparah
-25	6025	bijoloġika	
-26	6026	dominanza	dominanzi
-27	6027	nominali	
-28	6028	tren	treni trenijiet trinek
-29	6029	prefiss	prefissi
-30	6030	speranza	isperanza isperanzi
-31	6031	jintqal	jintqalu
-32	6032	sostenibbiltà	sostenibbilta
-33	6033	kredenzjali	
-34	6034	benesseri	
-35	6035	mandra	imnajdra mnajdra
-36	6036	bojkott	bojkotts
-37	6037	tattiċi	
-38	6038	qegħdha	
-39	6039	mistagħdra	
-40	6040	solitarju	solitarji
-41	6041	proteina	proteini
-42	6042	balieni	
-43	6043	mirakoluż	mirakoluża mirakolużi
-44	6044	ikkuntattjata	ikkuntattjati kkuntattjata kkuntattjati
-45	6045	sponsorizzazzjoni	isponsorizzazzjoni sponsorizzazzjonijiet
-46	6046	bidunett	
-47	6047	jiddispjaċih	jiddispjaċiha jiddispjaċihiex jiddispjaċihx
-48	6048	bbumbardja	bbumbardjar bbumbardjat bbumbardjaw bbumbardjawha ibbumbardaw ibbumbardja ibbumbardjar ibbumbardjat ibbumbardjaw ibbumbardjawha jibbumbardja jibbumbardjaw jibbumbardjawha jibbumbardjawhom jibbumbardjawna tibbumbardja
-49	6049	mdaqqas	imdaqqas
-50	6050	nstemgħet	instemgħet nstemgħetx
-51	6051	maniġment	
-52	6052	sabta	
-53	6053	kummentatur	kummentaturi
-54	6054	għina	għinitu igħina jgħina jgħini tgħina tgħini
-55	6055	wegħdu	wegħduh wegħduhom wegħduna
-56	6056	wadi	
-57	6057	stele	istele
-58	6058	kalzetta	kalzetti
-59	6059	ikkumpara	ikkumparat jikkumpara kkumpara kkumparat tikkumpara tikkumparaha
-60	6060	immudella	immudellat jimmudella jimmudellahom jimmudellalu jimmudellaw mmudella mmudellat mmudellaw nimmudella nimmudellaw timmudella timmudellana
-61	6061	disa	
-62	6062	affaċja	affaċjat affaċjaw jaffaċja jaffaċjaw jaffaċjax taffaċja
-63	6063	sesswalità	sesswalita
-64	6064	impenjattiva	impenjattivi
-65	6065	konfessur	konfessuri
-66	6066	rotazzjoni	rotazzjonijiet
-67	6067	ċiklun	ċikluni
-68	6068	konsolazzjoni	konsolazzjonijiet
-69	6069	waħx	uħux
-70	6070	blues	
-71	6071	prefettura	prefetturi
-72	6072	orali	
-73	6073	ferrieħi	ferreħija
-74	6074	labtu	labtijiet
-75	6075	twelled	twellidhom
-76	6076	umbrella	umbrelel
-77	6077	rqaq	irqaq irqaqet jirqaqu tirqaq
-78	6078	pedina	pedini
-79	6079	skrivan	iskrivan iskrivani skrivani
-80	6080	salamun	
-81	6081	jintgħażlu	
-82	6082	fejda	
-83	6083	nitolbok	
-84	6084	benefiċjarju	benefiċjarji
-85	6085	migranti	
-86	6086	umdu	umdi
-87	6087	bbukkja	bbukkjaw ibbukkjar ibbukkjaw jibbukkja jibbukkjaw nibbukkja nibbukkjaw tibbukkja
-88	6088	donna	donni
-89	6089	bżonnjuż	bżonnjuża bżonnjużi
-90	6090	mitoloġiku	mitoloġika mitoloġiċi
-91	6091	warajk	
-92	6092	definittivament	
-93	6093	immilita	immilitajt immilitaw jimmilita jimmilitaw mmilita mmilitaw nimmilita nimmilitaw timmilita
-94	6094	sebaħ	isbaħ jisbaħ nisbaħ sbaħna sebħet sebħu tisbaħ
-95	6095	weġgħa	
-96	6096	intriċċi	
-97	6097	differenzjali	
-98	6098	sagristan	sagristana sagristani
-99	6099	ħtif	
-100	6100	dimensja	
+1	6001	briju	
+2	6002	għaġġla	
+3	6003	tużżana	tużżani
+4	6004	debba	dwieb
+5	6005	gerżuma	gerżumtu grieżem griżmejh griżmejha griżmejhom griżmejn griżmejna
+6	6006	arterjali	
+7	6007	konċistorju	konċistorji
+8	6008	antikwata	antikwati
+9	6009	ostili	
+10	6010	sinċerità	sinċerita
+11	6011	issimplifika	issemplifika issimplifikat issimplifikaw jissemplifika jissemplifikaw jissemplifikawhom jissimplifika jissimplifikalna jissimplifikaw nissemplifikaw nissimplifika nissimplifikaw semplifikat ssemplifikaw ssimplifika ssimplifikat ssimplifikaw ssimplifikawha tissimplifika
+12	6012	inkalja	inkaljat inkaljaw jinkaljaw ninkalja ninkaljaw nkalja tinkalja
+13	6013	osservatorju	osservatorji
+14	6014	evakwa	evakwat evakwati evakwaw jevakwa jevakwaw tevakwa
+15	6015	xerrej	xerrejja
+16	6016	terraq	interraq interrqu iterraq iterrqu itterraq jterraq jterrqu nterraq nterrqu terrqet tterraq
+17	6017	ippompja	ippompjat ippumpjajna ippumpjat jippompja jippompjaw jippumpjaw jippumpjawlhom jppompja ppompjat ppumpjat ppumpjaw tippompja
+18	6018	ippressa	ippressat ippressaw jippressa jippressani jippressaw jippressawlha jippressawx nippressa nippressaw nippressawx ppressa ppressat ppressaw
+19	6019	stenbaħ	jistenbaħ jistenbħu nistenbaħ nistenbħu stenbaħna stenbaħt stenbħet stenbħitx stenbħu tistenbaħ
+20	6020	adura	jadura jadurah jaduraha jaduraw jadurawni jadurax nadura nadurah nadurak naduraw tadura tadurani
+21	6021	paviment	pavimenti
+22	6022	rilokazzjoni	rilokazzjonijiet
+23	6023	fetu	feta feti
+24	6024	alhekk	
+25	6025	muġugħ	muġugħa
+26	6026	mseħbin	imseħbin
+27	6027	preokkupazzjoni	preokkupazzjonijiet
+28	6028	għollieq	għolliqiet
+29	6029	konvoj	konvojs
+30	6030	inkwilin	inkwilini
+31	6031	uragan	uragani
+32	6032	diskursata	diskursati
+33	6033	imprenditorija	
+34	6034	terra	
+35	6035	diskrepanza	diskrepanzi
+36	6036	korteżija	kortesija kortesiji
+37	6037	razzjonali	
+38	6038	ċikliżmu	
+39	6039	dakkar	dakkir dakkret dakkritni ddakkar ddakkru idakkar idakkarha iddakkar iddakkarna iddakkru imdakkar jdakkar jdakkru mdakkar ndakkru
+40	6040	natural	
+41	6041	tkissir	
+42	6042	assurd	assurda assurdi
+43	6043	leġjun	leġjuni
+44	6044	feliċi	
+45	6045	innega	jinnega jinnegaha jinnegahom jinnegaw ninnegaw nnega nnegat tinnega tinnegalu tinnegax
+46	6046	gwadann	gwadanni
+47	6047	feddej	feddejja
+48	6048	ragħad	ragħda
+49	6049	universalment	
+50	6050	kunjat	kunjata kunjati kunjatu
+51	6051	sopravivenza	
+52	6052	speċjalizzazzjoni	ispeċjalizzazzjoni ispeċjalizzazzjonijiet speċjalizzazzjonijiet
+53	6053	ifformula	fformula fformulat fformulaw fformulawha ifformola ifformulaw jifformola jifformolaw jifformula jifformulaw tifformola tifformula
+54	6054	ina	inijiet
+55	6055	ibridu	ibrida ibridi
+56	6056	simpatiku	simpatika simpatiċi
+57	6057	sedimenti	
+58	6058	kaos	
+59	6059	terapewtiku	terapewtiċi
+60	6060	żibeġ	żibġa żibġiet
+61	6061	bażilka	
+62	6062	ċangatura	ċangaturi
+63	6063	essenza	essenzi
+64	6064	sapun	sapuna
+65	6065	kkonsla	jikkonsla jikkonslah jikkonslaw kkonslahom konsolat nikkonsla nikkonslaw tikkonsla
+66	6066	ħiet	inħit inħitha inħithom iħit iħitu iħituha jinħietu jħitu meħjut meħjuta meħjutin nħit tħit tħitli ħat ħatni ħietet ħietu ħit ħithom ħitt
+67	6067	polari	
+68	6068	esperta	
+69	6069	xxala	ixxala ixxalajna jixxala jixxalaw nixxalaw tixxala xalar xxalaw
+70	6070	issoda	issodat issudat jissoda jissodaw jissudaw nissudaw ssoda ssodat ssudajna ssudat tissoda
+71	6071	ami	amina
+72	6072	ġurnalistiku	ġurnalistika
+73	6073	volontarjament	
+74	6074	silet	insiltu islet jinsilet jinsiltu jislet jislitha mislut mislutin nislet nislitilna nislitli nsiltu siltu slit tinsilet tislet
+75	6075	konfiska	konfiski
+76	6076	dann	
+77	6077	dehen	
+78	6078	ħenn	iħenn jħenn jħennu nħennu tħenn tħennx ħennejt ħennew ħennu
+79	6079	teatrin	teatrini
+80	6080	ikkjarifika	ikkjarifikat jikkjarifika jikkjarifikaw kkjarifika nikkjarifika tikkjarifika
+81	6081	naqsa	inaqsu inaqsulek innaqsu innaqsuhom naqsilhom nnaqsu tnaqsu
+82	6082	kilogramma	
+83	6083	mangia	
+84	6084	tħawwil	
+85	6085	armonika	armoniċi
+86	6086	inkoraġġiment	nkoraġġiment
+87	6087	mentalment	
+88	6088	spiritwalment	
+89	6089	dment	
+90	6090	dab	dabu ddub dewbien dub iddub idub idubu jdub jdubu jdubux
+91	6091	irranka	irrankat jirranka nirrankaw rranka rrankajna rrankat tirranka
+92	6092	sserraħ	isserraħ isserraħni isserraħx sserraħhom sserraħlu sserraħna sserraħx
+93	6093	reġgħa	reġgħat reġgħax
+94	6094	vespri	
+95	6095	italiana	italiani
+96	6096	awtoritratt	awtoritratti
+97	6097	aristokrazija	aristokraziji
+98	6098	illegalità	illegalita illegalitajiet
+99	6099	logħoba	
+100	6100	mobbiltà	

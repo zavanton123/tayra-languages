@@ -1,100 +1,100 @@
-1	4701	interrogazzjoni	interrogazzjonijiet
-2	4702	offs	
-3	4703	nbsp	
-4	4704	paniku	
-5	4705	katekiżmu	katekiżmi
-6	4706	piedi	
-7	4707	telqa	intelqu ntelqu telqilhom
-8	4708	ferrex	ferrixhom ferrxu iferrex iferrxu iferrxuhom imferrex inferrxu jferrex jferrxu mferrex tferrex tferrixha tferrxu
-9	4709	mxandra	imxandra
-10	4710	sostenitur	sostenituri
-11	4711	pronunzja	pronunzji
-12	4712	mwaħħla	imwaħħla
-13	4713	supermarket	supermarkets
-14	4714	riċiklaġġ	
-15	4715	pontifikal	pontifikali
-16	4716	addoċċ	
-17	4717	bużżieqa	bżieżaq
-18	4718	beżża'	beżżgħu beżżgħuni beżżgħux ibeżża ibeżżgħu ibeżżgħuh ibeżżgħuk ibeżżgħuna jbeżża jbeżża' jbeżżgħu jbeżżgħuna nbeżżgħu tbeżża tbeżżani tbeżżax tbeżżgħu tbeżżigħ
-19	4719	irresponsabbli	rresponsabbli
-20	4720	rimi	
-21	4721	tradiment	tradimenti
-22	4722	ħarba	
-23	4723	qarreb	inqarrbu inqarreb iqarrbu iqarreb iqarribhom jqarrbu jqarrbuhom jqarrbuna jqarreb jqarribhom jqarribna nqarrbu nqarreb qarrbet qarrbu qarrbuh qarrbuha qarribna tqarrbu tqarreb tqarribhom
-24	4724	griżma	
-25	4725	seminarista	seminaristi
-26	4726	inkompetenza	inkompetenzi
-27	4727	konsultattiv	konsultattiva konsultattivi
-28	4728	warajja	
-29	4729	tikka	tikek tikkiet
-30	4730	ospitalità	ospitalita
-31	4731	awto	
-32	4732	stonku	istonku
-33	4733	kella	inkelli inkellu jkellu kelliex
-34	4734	beħsiebu	
-35	4735	diżastruż	diżastruża diżastrużi
-36	4736	iġjene	ġjene
-37	4737	ċelesti	
-38	4738	ulieda	uliedi wlieda wliedi
-39	4739	istituzzjonali	
-40	4740	inkredibbli	nkredibbli
-41	4741	glorjuż	glorjuża glorjużi
-42	4742	għajjien	għajjenin għajjiena
-43	4743	pparkjata	ipparkjata ipparkjati pparkjati
-44	4744	qatra	qatriet qtar
-45	4745	mfakkra	imfakkra
-46	4746	restorant	restoranti
-47	4747	rejd	rejds
-48	4748	jbiegħ	ibiegħ ibiegħha ibiegħhom jbiegħha jbiegħhom
-49	4749	tjubija	tjubitek tjubithom tjubitu
-50	4750	regolamentazzjoni	
-51	4751	stigma	istigma stigmi
-52	4752	werriet	werrieta
-53	4753	tmeninijiet	
-54	4754	safar	
-55	4755	indispensabbli	
-56	4756	għasses	għassu jgħasses jgħassisha jgħassisna jgħassu jgħassuhom jgħassulu mgħasses ngħassu tgħasses tgħassu
-57	4757	vertikali	
-58	4758	partiġġan	partiġġana partiġġani
-59	4759	trijonf	trijonfi
-60	4760	ikkonfronta	ikkonfrontat ikkonfrontaw jikkonfronta jikkonfrontah jikkonfrontaw jikkonfrontawha jikkonfrontawhiex jikkonfrontawx kkonfronta kkonfrontani kkonfrontat kkonfrontaw nikkonfrontaw tikkonfronta
-61	4761	qadef	aqdef jaqdef jaqdfu naqdef naqdfu qadfet qadfu qdif qdifna taqdef
-62	4762	koperta	koperti kopertina
-63	4763	flessibbli	
-64	4764	korda	kordi
-65	4765	libbes	ilibbes ilibbisna ilibbsu ilibbsuh ilibbsuha ilibbsuhom ilibbsuni imlibbes jlibbes jlibbisha jlibbishom jlibbsu jlibbsuna jlibbsux libbisha libbishom libbiskom libbisna libbisni libbist libbisthom libbistu libbsu libbsuh libbsulu libbsuni mlibbes nlibbes nlibbsu tlibbes tlibbisni tlibbsu
-66	4766	kattidral	kattidrali
-67	4767	ikkordina	ikkordinat jikkordina jikkordinaw kkordina kkordinat kkordinaw nikkordina tikkordina
-68	4768	xirja	xirjiet
-69	4769	ndaqqa	indaqqu jindaqqu jndaqqu ndaqqu
-70	4770	jbiegħu	ibiegħa ibiegħu ibiegħuh jbiegħuh jbiegħuhom jbiegħux
-71	4771	kommunità	kommunita kommunitajiet
-72	4772	rifuġju	refuġju rifuġji
-73	4773	bordi	bordijiet
-74	4774	panel	
-75	4775	imblokk	imblokki
-76	4776	ġemgħa	ġemgħat ġmiegħi
-77	4777	għadab	għadbu jagħdab magħdub tagħdabx
-78	4778	interċessjoni	interċessjonijiet
-79	4779	ipperikola	jipperikola jipperikolaha jipperikolahielu jipperikolalek jipperikolalna jipperikolaw jipperikolax nipperikolaw nipperikolawx pperikola pperikolat pperikolaw tipperikola tipperikolalhom tipperikolax
-80	4780	mirqum	mirquma
-81	4781	onlajn	
-82	4782	pprietka	ippridkar ippridkat ipprietka jipprietka jipprietkalhom jipprietkalu jipprietkaw jippritkaw nipprietka nipprietkaw pprietkat pprietkaw ppritkaw tipprietka
-83	4783	bilanċjata	bilanċjati
-84	4784	lineari	linjari
-85	4785	ristrutturar	
-86	4786	sterlina	isterlina sterlini
-87	4787	protettur	protetturi
-88	4788	awtorizzazzjoni	awtorizzazzjonijiet
-89	4789	kok	koka koki kokijiet
-90	4790	ortografija	ortografiji
-91	4791	għira	
-92	4792	iddokumenta	ddokumenta ddokumentaha ddokumentat ddokumentaw iddokumentat iddokumentaw jiddokumenta jiddokumentaw jiddokumentawha jiddokumentawx niddokumenta niddokumentaw tiddokumenta
-93	4793	parrokjali	
-94	4794	urna	urni
-95	4795	ġgant	iġganti ġganta ġigant
-96	4796	infieq	nfieq
-97	4797	xkora	ixkejjer ixkora xkejjer
-98	4798	ġemellaġġ	ġemellaġġi
-99	4799	litru	litri
-100	4800	tressqet	
+1	4701	teoloġiku	teoloġika teoloġiċi
+2	4702	irribatta	irribattu jirribatti jirribattu nirribatti nirribattu nirribattuh rribatta rribattew rribattiehom rribattietx rribattiex tirribatti
+3	4703	għarus	
+4	4704	inevitabbli	
+5	4705	roqgħa	irqajja rqajja
+6	4706	romol	romlot romlu tormol
+7	4707	adekwat	adekwata adekwati
+8	4708	kreditu	krediti kredtu
+9	4709	riljiev	riljievi
+10	4710	ħamrani	ħamranija ħamranin
+11	4711	definittiv	definittiva definittivi
+12	4712	irriforma	irriformaha irriformajna irriformat irriformatha irriformaw jirriforma jirriformaha jirriformaw nirriforma nirriformaw rriforma rriformat tirriforma tirriformah
+13	4713	ċereali	
+14	4714	difer	difrejh difrejha difrejhom difrejn difrejna difri difru dwiefer
+15	4715	ħawwel	imħawwel inħawlu inħawwlu iħawlu iħawwel iħawwlu jħawlu jħawluha jħawwel jħawwlu mħawwel nħawlu nħawwlu tħawlu tħawwel tħawwlu ħawlu ħawwilha ħawwilna
+16	4716	memorandum	memoranda
+17	4717	klawsola	klawsoli
+18	4718	staħba	jistaħba jistaħbew mistoħbi mistoħbija mistoħbijin nistaħbew staħbew staħbiet staħbilu tistaħba
+19	4719	qarrieq	qarrieqa
+20	4720	algoritmu	algoritmi
+21	4721	grande	
+22	4722	fawna	
+23	4723	ċellulari	
+24	4724	perfettament	
+25	4725	akut	akuta akuti
+26	4726	pjaga	pjagi
+27	4727	ottimiżmu	
+28	4728	tipjip	
+29	4729	epiku	epika epiki epiċi
+30	4730	djaknu	djakni
+31	4731	tramm	tram tramijiet trammijiet tramms trams
+32	4732	ħjata	ħjatat
+33	4733	xarrab	imxarrab imxarrba imxarrbin inxarrab ixarrab ixarrbu ixxarrab ixxarrbu jixxarrab jixxarrbu jxarrab jxarrbu mxarrab mxarrba mxarrbin nxarrab tixxarrab xarrbet
+34	4734	kruha	
+35	4735	saqqaf	imsaqqaf imsaqqfa isaqqaf issaqqaf jsaqqaf jsaqqfu msaqqaf msaqqafa msaqqfa saqqfu ssaqqaf tisqif
+36	4736	ent	enta enti entijiet
+37	4737	tħaddet	jitħaddet jitħaddtu mitħaddet nitħaddet nitħaddtu titħaddet tħaddit tħadditna tħaddtu
+38	4738	fostom	
+39	4739	velenu	valenu veleni
+40	4740	fastidju	fastidji
+41	4741	vandalu	vandali
+42	4742	inċineratur	inċineraturi
+43	4743	ipproklama	ipproklamah ipproklamaha ipproklamajna ipproklamat ipproklamaw jipproklama jipproklamah jipproklamaw nipproklama pproklama pproklamaha pproklamat pproklamaw tipproklama
+44	4744	ddevja	ddevjat ddevjaw ddevjawha devjat iddevja iddevjat iddevjaw jiddevja jiddevjaw jiddevjax niddevja niddevjaw tiddevja
+45	4745	billejl	
+46	4746	snooker	isnooker
+47	4747	bejjet	bejjtu bejtet bejtu ibejjet ibejjtu ibejtu jbejjet jbejjitx jbejtu jbejtux tbejjet tbejjitx tbejtu
+48	4748	kuraġġuż	kuraġġuża kuraġġużi
+49	4749	eżiljat	eżiljata eżiljati eżiljatu
+50	4750	faraġ	
+51	4751	neputijiet	neputijietu
+52	4752	preċipitazzjoni	preċipitazzjonijiet
+53	4753	andhom	andhomx
+54	4754	dax	
+55	4755	ċerva	ċriev ċrievi
+56	4756	lotterija	lotteriji
+57	4757	renda	irendi irendu jrendi jrendix jrendu jrenduna jrendux rendew rendewx rendiet trendi trendih
+58	4758	sofistikat	sofistikata sofistikati
+59	4759	ippersista	ippersistew ippersistiet jippersisti jippersistu nippersistu ppersistew ppersistiet tippersisti tippersistu
+60	4760	internazzjonalment	nternazzjonalment
+61	4761	impunità	impunita mpunità
+62	4762	veloċi	
+63	4763	korsija	korsiji
+64	4764	ċikkulata	ċikkulati ċikkulatina
+65	4765	ħeffa	
+66	4766	għożża	
+67	4767	trippla	ittrippla jitripplaw jittrippla jittripplaw tittrippla trippli ttrippla
+68	4768	prestiġju	
+69	4769	stalla	installajna istalel istalla istallar jistalla jistallaw nstallajna stalel stallat stallaw
+70	4770	bijodiversità	bijodiversita bijodiversitajiet
+71	4771	xjentisti	
+72	4772	sinodu	sinodi
+73	4773	abbandun	abbandunhom abbanduni
+74	4774	azzarda	azzardajna azzardajt azzardajtx azzardat azzardaw azzardawx azzardax ażżarda ażżardat jazzarda jazzardaw jazzardawx jazzardax jażżarda nazzarda nazzardaw nazzardax nażżarda tazzarda tazzardawx tażżarda
+75	4775	ark	arkijiet
+76	4776	kollass	
+77	4777	għandhu	għandhux
+78	4778	statistiku	istatistiċi statistiċi
+79	4779	għejja	għajja għajjejt għajjew għajjiet għajjiex għajjtu għejjejt għejjew għejjieh għejjiet jgħajju jgħajjuh jgħejja jgħejjew
+80	4780	majjal	majjali
+81	4781	oranġjo	
+82	4782	għarrieda	
+83	4783	folk	
+84	4784	tlaqliq	
+85	4785	aspira	aspirat jaspira jaspiraw naspiraw taspira
+86	4786	ħliqa	ħlejqa ħlejqiet
+87	4787	arterja	arterji
+88	4788	burdata	burdati
+89	4789	gratitudni	
+90	4790	instabbiltà	instabbilta instabilita instabilità
+91	4791	webbes	imwebbes iwebbes iwebbsu jwebbes jwebbislu jwebbsu nwebbes nwebbsux twebbes twebbis twebbsu webbist webbsu
+92	4792	misterjuż	misterjuża misterjużi
+93	4793	denfil	delfin delfini dniefel
+94	4794	kontestant	kontestanta kontestanti
+95	4795	katedra	katedri kattedra
+96	4796	arka	arki
+97	4797	produttività	produttivita
+98	4798	porvli	
+99	4799	konsistenza	
+100	4800	umilja	jumilja jumiljah jumiljaha jumiljani jumiljaw numiljaw tumilja tumiljah tumiljaha tumiljax umiljana umiljani umiljanti umiljat
