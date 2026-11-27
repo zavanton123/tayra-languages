@@ -211,7 +211,7 @@ TELUGU_WORDS = {
     "లేదు": ("adv", "లేని లేక లేకుండా లేనప్పుడు లేదని లేవు లేను లేరు లేడు లేము లేకపోతే లేకపోయినా లేకపోవడం లేకపోవడంతో లేదే లేనిది "
                     "లేనివారు లేనట్లు లేకుండానే లేదో లేదంటే"),
     "కాదు": ("adv", "కాదా కాదని కాను కావు కాడు కాము కాక కాదే కాదో"),
-    "కావాలి": ("verb", "కావాలని కావాల్సిన కావాల్సి కావాలా కావాలంటే కావాలనే కావలసిన కావలసి కావలెను"),
+    "కావాలి": ("verb", "కావాలని కావాల్సిన కావాల్సి కావాలా కావాలంటే కావాలనే కావలసిన కావలసి కావలెను కావాలో"),
     "తెలుసు": ("adv", "తెలుసా తెలుసని తెలుసుగా"),
     # Everyday words the pack lacks.
     "ధన్యవాదం": ("noun", "ధన్యవాదాలు"),
@@ -771,6 +771,8 @@ def verb_forms(word):
 # The light verbs texts join to a noun (బాధపడుతున్నారు, ఏర్పాటుచేశారు, మొదలుపెట్టారు, అడుగుపెట్టింది, ఆశ్చర్యపోయారు): such a
 # form the pack has no verb for is read as the noun, whose light verb a learner knows.
 LIGHT_VERBS = ("పడు", "చేయు", "పెట్టు", "వేయు", "పోవు", "ఇచ్చు", "కొట్టు")
+# Leads that are no noun's: అందచేశారు is అందజేయు "hand over", not అందం's.
+LIGHT_NOT = {"అందం"}
 
 
 @functools.lru_cache(maxsize=None)
@@ -1103,7 +1105,11 @@ def build(found, size, label, weights=None):
                 by_clitic.add(form)
         if not heads and form not in names:
             for lead in light_split(form):
-                if kinds.get(lead, set()) & {"noun", "adj"}:
+                # A past participle with పోవు or వేయు is its verb's (మారిపోతూ of మారు).
+                verb = lead[:-1] + "\u0c41" if lead.endswith("\u0c3f") else None
+                if verb and "verb" in kinds.get(verb, ()):
+                    return {verb}
+                if kinds.get(lead, set()) & {"noun", "adj"} and lead not in LIGHT_NOT:
                     return {lead}
         return heads
 
