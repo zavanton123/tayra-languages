@@ -1,0 +1,198 @@
+{
+  "id": "lv-mini-3000",
+  "rankUpTo": 3000,
+  "level": "B2",
+  "title": "Īsas slejas",
+  "description": "Ten short newspaper columns on everyday life: shopping with a basket in Cēsis, a woman who cannot fall asleep, a clean-up day at a village cemetery, a heatwave seen from a Riga clinic, a student's money, a mother's safe and her data on distant servers, a council's plan to close a village school, a folk-tale ballet, a dog from an animal shelter, and a bronze sergeant by an old railway station.",
+  "topic": "Small columns",
+  "names": [
+    "Cēsīs",
+    "Latvijā",
+    "Talsiem",
+    "Konrāds",
+    "Rīgā",
+    "Rīgas",
+    "Pārdaugavā",
+    "Ziemassvētku",
+    "Daugavas",
+    "Daugavu",
+    "Ilārs",
+    "Eiropas",
+    "Kanādu",
+    "Īrijā",
+    "Zviedrijā",
+    "Ukrainas",
+    "Solveiga",
+    "Solveigu",
+    "Solveigai",
+    "Otīlija",
+    "Otīlijas",
+    "Otīlijai",
+    "Bernhards",
+    "Šteinbergs"
+  ],
+  "lessons": [
+    {
+      "title": "Ar grozu uz lielveikalu",
+      "summary": "A pensioner in Cēsis writes about taking his old basket to the supermarket instead of plastic bags: how few bags reach recycling, why the small basket changed what he buys, and why fresh food is worth its price.",
+      "newWords": [
+        "lielveikals",
+        "maisiņš",
+        "pārstrāde",
+        "grozs",
+        "salāts",
+        "dārgi",
+        "saldums",
+        "apstrādāt",
+        "derīgs"
+      ],
+      "text": "Katru sestdienu es eju uz lielveikalu, kas atrodas mūsu ielas galā Cēsīs. Tas ir liels un gaišs veikals, kurā var nopirkt gandrīz visu. Tomēr jau gadu es tur eju ar savu veco grozu. Kaimiņi smaidot jautā, vai es dodos uz tirgu. Nē, es dodos uz to pašu lielveikalu, tikai bez plastmasas maisiņiem.\n\nAgrāk es pie kases katru reizi paņēmu divus vai trīs maisiņus. Mājās es tos liku skapī, un pēc mēneša skapis bija pilns ar maisiņiem. Daļu es izmantoju atkritumiem, bet pārējos vienkārši izmetu. Kādu dienu es tos saskaitīju un nobijos. Cik maisiņu es esmu izmetis savā dzīvē? Droši vien vairākus tūkstošus.\n\nRunājot par pārstrādi, daudzi saka, ka plastmasu taču var pārstrādāt. Tā ir tikai daļēja taisnība. Es lasīju, ka pārstrādē nonāk tikai neliela daļa no visiem maisiņiem. Pārējie paliek zemē un ūdenī. Turklāt arī pārstrāde prasa enerģiju un naudu. Tātad labākais maisiņš ir tas, kuru neviens nav uztaisījis.\n\nTagad man ir grozs. Grozā viss labi stāv: maize, piens, olas un salāti. Salātus es pērku katru nedēļu, jo vasarā tos ēdu gandrīz katru dienu. Grozā salāti paliek svaigi un nesaspiežas, kā tas bieži notika maisiņā.\n\nNo otras puses, grozs ir mainījis arī to, ko es pērku. Grozā nav daudz vietas. Tāpēc es vairs nepērku lielas kastes ar saldumiem un apstrādātu gaļu, kas mēnešiem ilgi stāv veikalā. Mans ārsts jau sen teica, ka apstrādāta gaļa nav derīga veselībai. Arī saldumi nav derīgi, īpaši manā vecumā. Ja pārtika ir stipri apstrādāta, tajā parasti ir daudz sāls un cukura. Tagad saldumu mājās ir mazāk, un es jūtos labāk.\n\nProtams, svaigi dārzeņi un augļi maksā dārgi. Ziemā par salātiem jāmaksā īpaši dārgi. Tomēr slimot ir vēl dārgāk. Ja rēķina visu gadu, es tagad iztērēju pat mazāk nekā agrāk, jo nepērku lietas, kas nav vajadzīgas.\n\nMans padoms ir vienkāršs: ņemiet līdzi grozu vai vienu stipru maisiņu, ko var izmantot daudzas reizes. Labs grozs ir derīgs ilgus gadus. Varbūt nākamajā sestdienā mēs satiksimies lielveikalā – katrs ar savu grozu.\n\nJautājumi:\nAr ko autors iet uz lielveikalu?\nAutors iet uz lielveikalu ar savu veco grozu.\nKo viņš agrāk darīja ar maisiņiem?\nDaļu maisiņu viņš izmantoja atkritumiem, bet pārējos izmeta.\nKo autors raksta par pārstrādi?\nPārstrādē nonāk tikai neliela daļa maisiņu, un pārstrāde prasa enerģiju un naudu.\nKāpēc viņš vairs nepērk daudz saldumu?\nGrozā nav daudz vietas, un saldumi nav derīgi veselībai.\nVai svaigi dārzeņi ir lēti?\nNē, svaigi dārzeņi maksā dārgi, bet slimot ir vēl dārgāk."
+    },
+    {
+      "title": "Kad nevar aizmigt",
+      "summary": "A woman who could not fall asleep for months tries counting sheep and a sleep app, sees a doctor who finds no symptoms, and learns from a psychologist about balance, slow breathing and a lighter blanket.",
+      "newWords": [
+        "aizmigt",
+        "pusnakts",
+        "aita",
+        "garlaicīgi",
+        "aplikācija",
+        "simptoms",
+        "psihologs",
+        "līdzsvars",
+        "lēni",
+        "sega"
+      ],
+      "text": "Pagājušajā rudenī es vairākus mēnešus nevarēju aizmigt. Es gāju gulēt desmitos, bet vēl pusnaktī gulēju ar atvērtām acīm. Pusnakts, viens, divi... Es dzirdēju, kā pulkstenis virtuvē sit stundas. No rīta es biju nogurusi un dusmīga.\n\nVispirms es mēģināju vecās metodes. Es skaitīju aitas. Viena aita, divas aitas, simts aitas. Tas bija ļoti garlaicīgi, bet aizmigt es tāpat nevarēju. Tad es lejupielādēju telefonā aplikāciju miegam. Aplikācija mērīja, cik ilgi es guļu, un katru rītu rādīja skaitļus. Tomēr skaitļi mani tikai uztrauca vēl vairāk. Turklāt telefona gaisma pusnaktī acīm nav derīga.\n\nBeidzot es aizgāju pie ārsta. Ārsts jautāja par simptomiem. Vai man sāp galva? Vai sirds sitas pārāk ātri? Vai es vakarā dzeru kafiju? Nekādu slimības simptomu nebija. Ārsts teica, ka tas ir stress, un ieteica man runāt ar psihologu.\n\nPsihologs bija mierīgs vīrietis ap sešdesmit. Pie psihologa es gāju piecas reizes. Viņš paskaidroja, ka manā dzīvē nav līdzsvara. Es daudz strādāju, vakarā vēl lasu darba vēstules un nekad neatpūšos. „Cilvēkam ir vajadzīgs līdzsvars starp darbu un atpūtu,” viņš teica. „Bez līdzsvara arī prāts nevar nomierināties.”\n\nPsihologs man iemācīja dažas vienkāršas lietas. Stundu pirms gulēšanas jānoliek telefons malā. Jāelpo lēni: lēni jāieelpo un vēl lēnāk jāizelpo. Guļamistabā jābūt vēsi, un segai jābūt vieglai. Es nopirku jaunu, vieglāku segu, jo vecā sega bija pārāk silta.\n\nViņš arī teica, ka nav jābaidās, ja kādu nakti neizdodas aizmigt. Ja pēc pusstundas miega vēl nav, labāk piecelties un palasīt kaut ko vienkāršu. Lai ir mazliet garlaicīgi – tas palīdz. Kad ir garlaicīgi, acis pašas sāk aizvērties.\n\nPagāja mēnesis. Mans miegs lēni kļuva labāks. Tagad es parasti aizmiegu pusstundas laikā, un pusnakts mani vairs nebiedē. Dažreiz es vēl atceros savas aitas un smaidu.\n\nJa jūs arī nevarat aizmigt, nemeklējiet palīdzību tikai aplikācijā. Parunājiet ar ārstu vai psihologu. Un vispirms padomājiet par līdzsvaru savā dzīvē.\n\nJautājumi:\nKad autore vēl gulēja ar atvērtām acīm?\nViņa vēl pusnaktī gulēja ar atvērtām acīm.\nKāpēc aplikācija nepalīdzēja?\nSkaitļi aplikācijā viņu tikai uztrauca vēl vairāk.\nVai ārsts atrada slimības simptomus?\nNē, nekādu slimības simptomu nebija.\nKo psihologs paskaidroja?\nViņš paskaidroja, ka viņas dzīvē nav līdzsvara starp darbu un atpūtu.\nKā jāelpo pirms miega?\nJāelpo lēni: lēni jāieelpo un vēl lēnāk jāizelpo.\nKāpēc autore nopirka jaunu segu?\nVecā sega bija pārāk silta."
+    },
+    {
+      "title": "Talka pie vecās kapsētas",
+      "summary": "A villager near Talsi writes about this year's spring clean-up day at the old cemetery: mending a crooked fence, old furniture and window frames dumped in the woods, why leaves may not be burned, firewood for the school and rubbish left by the river's current.",
+      "newWords": [
+        "talka",
+        "kapsēta",
+        "greizs",
+        "iesist",
+        "mēbele",
+        "rāmis",
+        "sadedzināt",
+        "malka",
+        "straume"
+      ],
+      "text": "Katru gadu aprīļa beigās Latvijā notiek Lielā talka. Tā ir diena, kad tūkstošiem cilvēku iziet ārā un sakārto savu pagalmu, parku vai mežu. Talka latviešiem ir sena tradīcija. Agrāk kaimiņi sanāca talkā, lai kopā uzceltu māju vai savāktu ražu. Darbs gāja ātrāk, un vakarā visi kopā ēda un dziedāja.\n\nŠogad mūsu ciemā pie Talsiem talka notika pie vecās kapsētas. Kapsēta atrodas uz kalna pie upes. Tur guļ daudzi mūsu senči. Daudzus gadus kapsētu neviens īsti nesakārtoja. Sēta bija greiza, zāle bija gara, un starp kokiem bija atkritumi.\n\nMēs sanācām divdesmit cilvēki. Vīrieši vispirms laboja greizo sētu. Mans kaimiņš Konrāds nomainīja vecos dēļus, un es iesitu tajos naglas. Es neesmu meistars, tāpēc dažas naglas es iesitu greizi. Konrāds smējās, izvilka tās un pats iesita no jauna.\n\nSievietes un bērni lika lapas un atkritumus maisos. Meža malā mēs atradām kaudzi vecu mēbeļu: dīvānu, divus krēslus un skapi. Kāds šo kaudzi mēbeļu bija atvedis un vienkārši izmetis. Vienu mēbeli, mazu koka galdiņu, Konrāds paņēma sev. Atradām arī vecus logu rāmjus. Daži rāmji bija pat ar stiklu, tāpēc bērniem mēs teicām, lai tiem netuvojas.\n\nKo darīt ar tik daudz lapām un zariem? Agrāk tos vienkārši sadedzināja turpat pie kapsētas. Tomēr tagad lapas sadedzināt nedrīkst, jo dūmi ir slikti veselībai un uguns var izplatīties mežā. Turklāt rāmjus ar veco krāsu un daudzas no vecajām mēbelēm sadedzināt ir īpaši bīstami. Tāpēc no pašvaldības atbrauca liela mašīna, kas aizveda visu, ko mēs atradām.\n\nNo lielākajiem zariem iznāca laba malka. Malku Konrāds aizveda uz skolu, kur ziemā vajag daudz siltuma. Skolas direktore bija priecīga, jo malka tagad maksā daudz.\n\nBeigās mēs aizgājām uz upi. Upes straume pavasarī ir stipra. Tā nes zarus, plastmasas pudeles un pat kādu vecu riepu. Vienā vietā straume visu atstāj krastā. Tur mēs piepildījām trīs maisus ar atkritumiem.\n\nVakarā mēs sēdējām pie kapsētas vārtiem, dzērām tēju un ēdām maizi ar sieru. Sēta vairs nebija greiza, un kapsēta izskatījās sakārtota. Talka nav tikai darbs. Talkā cilvēki satiekas un jūt, ka šī vieta pieder visiem.\n\nJautājumi:\nKas ir talka?\nTalka ir diena, kad cilvēki kopā sakārto savu pagalmu, parku vai mežu.\nKur šogad notika talka autora ciemā?\nTalka notika pie vecās kapsētas.\nKo darīja Konrāds?\nKonrāds nomainīja greizās sētas vecos dēļus.\nKo viņi atrada meža malā?\nViņi atrada kaudzi vecu mēbeļu un logu rāmjus.\nKāpēc lapas nedrīkst sadedzināt?\nDūmi ir slikti veselībai, un uguns var izplatīties mežā.\nKo upes straume atstāj krastā?\nStraume atstāj krastā zarus, pudeles un citus atkritumus."
+    },
+    {
+      "title": "Karstums pilsētā",
+      "summary": "A family doctor in a small clinic in Pārdaugava writes about a July heatwave in Riga: twice as many patients, a motorcyclist in a black jacket, volleyball at noon, bright light clothes, plenty of water and the tigers at the zoo who rest in the shade.",
+      "newWords": [
+        "karstums",
+        "rīdzinieks",
+        "spožs",
+        "klīnika",
+        "slimnieks",
+        "motocikls",
+        "volejbols",
+        "maksimāli",
+        "spilgts",
+        "tīģeris"
+      ],
+      "text": "Šī gada jūlijā Rīgā trīs nedēļas bija tāds karstums, kādu daudzi rīdzinieki neatceras. Gaisa temperatūra bija 32, 33, pat 35 grādi. Saule bija spoža jau no rīta, un dienas vidū ielās gandrīz nebija cilvēku. Daudzi rīdzinieki aizbrauca uz laukiem vai pie jūras.\n\nEs strādāju par ģimenes ārsti nelielā klīnikā Pārdaugavā. Karstuma laikā mūsu klīnikā bija divreiz vairāk slimnieku nekā parasti. Lielākā daļa slimnieku bija veci cilvēki, kuri dzīvo pēdējā stāvā un visu dienu sēž karstā dzīvoklī. Daudziem sāpēja galva, un viņi jutās ļoti vāji.\n\nTomēr karstums nav bīstams tikai vecajiem. Kādu dienu klīnikā atveda jaunu vīrieti, kurš visu dienu bija braucis ar motociklu pa pilsētu. Viņam mugurā bija melna jaka, jo uz motocikla bez jakas braukt nav droši. Spožajā saulē zem tumšās jakas viņam kļuva slikti, un viņš gandrīz nokrita no motocikla.\n\nArī jaunieši bieži aizmirst par karstumu. Daugavas krastā un pie jūras viņi visu dienu spēlē volejbolu. Volejbols ir lieliska spēle, bet dienas vidū, kad saule ir visspožākā, labāk spēlēt nevajag. Volejbolu var spēlēt arī vakarā, kad kļūst vēsāks.\n\nKā sevi pasargāt? Mani ieteikumi ir vienkārši. Dzeriet maksimāli daudz ūdens, arī tad, ja negribas dzert. Dienas vidū maksimāli palieciet ēnā vai mājās. Izvēlieties gaišas drēbes un cepuri. Tumšas drēbes saulē kļūst karstas ātrāk nekā gaišas. Spilgtas krāsas nav problēma, ja tās ir gaišas: spilgts dzeltens krekls ir labāks par melnu. Ja jūsu kaimiņš ir vecs un dzīvo viens, piezvaniet viņam vai aizejiet pie viņa.\n\nAr dzīvniekiem ir tāpat. Rīgas zooloģiskajā dārzā tīģeri karstuma laikā visu dienu guļ ēnā un gandrīz nekustas. Darbinieki tīģeriem dod lielus ledus gabalus ar gaļu iekšā. Tīģeri ilgi spēlējas ar ledu un tad apēd gaļu. Varbūt mums visiem der mācīties no tīģeriem: karstumā nesteigties un maksimāli atpūsties.\n\nKad beidzot atnāca lietus, visi rīdzinieki bija priecīgi. Mūsu klīnikā atkal bija parasts slimnieku skaits, un es varēju aiziet atvaļinājumā.\n\nJautājumi:\nCik ilgi Rīgā bija karstums?\nRīgā trīs nedēļas bija liels karstums.\nKas notika klīnikā karstuma laikā?\nKlīnikā bija divreiz vairāk slimnieku nekā parasti.\nKāpēc jaunajam vīrietim ar motociklu kļuva slikti?\nViņš visu dienu brauca spožajā saulē, un viņam mugurā bija melna jaka.\nKad labāk spēlēt volejbolu?\nVolejbolu labāk spēlēt vakarā, kad kļūst vēsāks.\nKo ārste iesaka darīt karstumā?\nViņa iesaka dzert maksimāli daudz ūdens un izvēlēties drēbes gaišās vai spilgtās krāsās.\nKo darbinieki zooloģiskajā dārzā dod tīģeriem?\nViņi dod tīģeriem lielus ledus gabalus ar gaļu iekšā."
+    },
+    {
+      "title": "Studenta nauda",
+      "summary": "An engineering student in Riga writes about living on little money: the rent for his room, a state scholarship of not quite two hundred euros, the discipline it takes, whether the assessment behind it is fair, and a friend who resumed his studies thanks to a European grant.",
+      "newWords": [
+        "inženieris",
+        "īre",
+        "stipendija",
+        "nepilns",
+        "disciplīna",
+        "novērtējums",
+        "taisnīgs",
+        "atsākt",
+        "grants"
+      ],
+      "text": "Es studēju Rīgā, lai kļūtu par inženieri. Mans tēvs ir inženieris, un arī vectēvs bija inženieris, kurš būvēja tiltus pār Daugavu. Esmu trešajā kursā, un šajā rakstā gribu pastāstīt, kā students dzīvo ar nelielu naudu.\n\nMans lielākais izdevums ir īre. Es dzīvoju vienā dzīvoklī ar diviem citiem studentiem, un katram ir sava istaba. Īre par manu istabu ir 250 eiro mēnesī. Ziemā vēl jāmaksā par siltumu un elektrību. Īres cenas Rīgā aug katru gadu, un daudzi studenti dzīvo tālu no centra, kur īre ir zemāka. No mana dzīvokļa līdz universitātei ir nepilna stunda ar autobusu.\n\nMana galvenā nauda ir stipendija. Valsts stipendiju saņem studenti ar labākajām atzīmēm. Stipendija ir neliela, nepilni 200 eiro mēnesī, bet man tā ir ļoti svarīga. Ar stipendiju es samaksāju gandrīz visu īri. Pārējo es nopelnu vasarā, kad strādāju būvē.\n\nLai saņemtu stipendiju, ir vajadzīga disciplīna. Es katru dienu ceļos septiņos, nekad nekavēju lekcijas un vakarā mācos vismaz trīs stundas. Draugi saka, ka studentam jābauda dzīve. Viņiem ir taisnība, bet bez disciplīnas es stipendiju nesaņemtu. Disciplīna man ir svarīgāka par ballītēm.\n\nKatra semestra beigās mēs saņemam novērtējumu par katru priekšmetu. Šis novērtējums nosaka, kurš saņems stipendiju nākamajā semestrī. Vai tas ir taisnīgi? No vienas puses, stipendija ir jānopelna. No otras puses, daži studenti vakaros strādā, lai samaksātu īri, un viņiem nav laika mācīties. Viņu novērtējums ir sliktāks nevis tāpēc, ka viņi ir slinki, bet tāpēc, ka viņiem nav naudas. Taisnīgs būtu tāds noteikums, kas ņem vērā arī to.\n\nMans draugs Ilārs pagājušajā gadā pārtrauca studijas, jo viņam vajadzēja strādāt. Pēc nepilna gada viņš studijas atsāka. Tas bija iespējams, jo mūsu fakultāte piedalās lielā pētījumā, ko finansē Eiropas grants. No šī granta divi studenti saņem algu par darbu laboratorijā. Ilārs pieteicās, un viņu paņēma. Tagad viņam ir gan darbs, gan studijas vienā vietā. Grants beigsies pēc diviem gadiem, bet līdz tam Ilārs būs pabeidzis studijas. Viņš saka, ka bez granta nekad nebūtu atsācis mācīties.\n\nStudenta dzīve nav viegla, bet tā ir laba skola. Tā māca plānot naudu, laiku un spēkus. Inženierim tas noderēs visu dzīvi.\n\nJautājumi:\nPar ko autors grib kļūt?\nAutors grib kļūt par inženieri.\nCik liela ir viņa īre?\nĪre par viņa istabu ir 250 eiro mēnesī.\nKas saņem valsts stipendiju?\nValsts stipendiju saņem studenti ar labākajām atzīmēm.\nKāpēc autoram vajadzīga disciplīna?\nBez disciplīnas viņš nesaņemtu stipendiju.\nKāpēc novērtējums ne vienmēr ir taisnīgs?\nDaži studenti vakaros strādā, un viņiem nav laika mācīties.\nKā Ilārs varēja atsākt studijas?\nNo Eiropas granta viņš saņem algu par darbu laboratorijā."
+    },
+    {
+      "title": "Mammas seifs un mākonis",
+      "summary": "After his mother's death a man opens her old safe easily but needs two months to get access to her e-mail; he searches it, finds letters she wrote with a machine translation, moves her photos from a company's servers to two disks, deletes his own extra pictures and names his daughter as the recipient of his accounts.",
+      "newWords": [
+        "seifs",
+        "piekļuve",
+        "pārmeklēt",
+        "tulkojums",
+        "serveris",
+        "izdzēst",
+        "pārlikt",
+        "saņēmējs",
+        "veidotājs"
+      ],
+      "text": "Mana māte nomira pirms diviem gadiem. Pēc viņas palika vecs metāla seifs. Seifā mamma glabāja dokumentus, dažas rotas un vēstules. Atslēga bija viņas somā, un seifu es atvēru tajā pašā dienā.\n\nAr mammas datoru bija grūtāk. Tur bija viņas fotogrāfijas, vēstules un rēķini, bet paroli nezināja neviens. Lai iegūtu piekļuvi viņas e-pastam, man vajadzēja rakstīt uzņēmumam, sūtīt dokumentus un gaidīt divus mēnešus. Piekļuve mirušā cilvēka kontam nav vienkārša lieta.\n\nKad piekļuvi beidzot saņēmu, es vairākus vakarus pārmeklēju viņas e-pastu. Es pārmeklēju katru mapi un meklēju fotogrāfijas un vēstules no radiniekiem. Atradu vēstules, kuras viņa rakstīja savai māsai uz Kanādu. Daļa vēstuļu bija angliski, jo māsas mazbērni latviski nerunā. Mamma tās rakstīja ar datora tulkojuma palīdzību. Tulkojums nebija labs, un dažas rindas lasot es smējos. Tomēr no katra tulkojuma bija skaidrs, cik ļoti viņa mīlēja savu māsu.\n\nTad es sapratu, cik maz es zinu par to, kur glabājas mūsu dati. Mammas fotogrāfijas neglabājās viņas datorā, bet uzņēmuma serveros kaut kur Īrijā vai Zviedrijā. Serveris ir liels dators, kas strādā dienu un nakti. Ja uzņēmums nolemj kontu slēgt, visu var izdzēst vienā mirklī.\n\nTāpēc es nolēmu visu pārlikt uz savu datoru. Fotogrāfijas no servera es pārliku uz diviem diskiem. Vienu disku es glabāju mājās, otru – mammas vecajā seifā. Tagad seifam atkal ir jēga.\n\nTurklāt es padomāju par sevi. Manā telefonā ir tūkstošiem fotogrāfiju. Daudzas no tām es nekad vairs neskatīšos. Kāpēc tās glabāt? Es sāku izdzēst liekās. Izdzēst ir grūti, jo katra bilde liekas svarīga. Tomēr tas, kas paliek, ir vērtīgāks.\n\nViena lieta mani pārsteidza. Daudzi pakalpojumi ļauj iepriekš norādīt cilvēku, kas pēc tavas nāves saņems piekļuvi tavam kontam. Šis saņēmējs varēs lejupielādēt tavas fotogrāfijas un vēstules. Pakalpojumu veidotāji par to ir padomājuši, bet mēs paši par to domājam reti. Es norādīju savu meitu kā saņēmēju. Pēc tam es uzrakstīju īsu vēstuli pakalpojuma veidotājiem un pateicos viņiem. Es ceru, ka arī citu pakalpojumu veidotāji par to padomās. Iesaku arī jums norādīt savu saņēmēju.\n\nJautājumi:\nKas palika pēc autora mātes?\nPēc viņas palika vecs metāla seifs un dators.\nCik ilgi autors gaidīja piekļuvi e-pastam?\nViņš gaidīja divus mēnešus.\nKo viņš atrada, kad pārmeklēja e-pastu?\nViņš atrada vēstules, kuras māte rakstīja savai māsai uz Kanādu.\nKur glabājās mātes fotogrāfijas?\nTās glabājās uzņēmuma serveros.\nKur autors pārlika fotogrāfijas?\nViņš pārlika fotogrāfijas uz diviem diskiem.\nKo autors norādīja kā saņēmēju?\nViņš norādīja kā saņēmēju savu meitu."
+    },
+    {
+      "title": "Skola ciemā pie ezera",
+      "summary": "A villager in Vidzeme writes about the council's plan to close the small village school: the opposition is against it, residents and deputies discuss it for three hours, he sees a contradiction in the plan, a former headmaster makes a sensible proposal, and the council votes for it.",
+      "newWords": [
+        "pavēstīt",
+        "nodoms",
+        "opozīcija",
+        "diskutēt",
+        "pretruna",
+        "saistīties",
+        "integrācija",
+        "prātīgs",
+        "nobalsot"
+      ],
+      "text": "Pagājušajā mēnesī mūsu novada dome pavēstīja, ka grib slēgt mazo skolu ciemā pie ezera. Domes priekšsēdētājs to pavēstīja sēdē īsā runā. Viņš teica, ka skolā mācās tikai 40 bērnu un ka skolas uzturēšana ir pārāk dārga. Domes nodoms ir vest bērnus ar autobusu uz lielo skolu pilsētā, 20 kilometrus no ciema.\n\nDomes opozīcija bija pret šo nodomu. Opozīcijas deputāti teica, ka skolas slēgšana nozīmē ciema beigas. Ja nebūs skolas, jaunas ģimenes uz ciemu nepārcelsies, un pēc desmit gadiem ciemā dzīvos tikai pensionāri.\n\nEs aizgāju uz sapulci, kur iedzīvotāji varēja diskutēt ar deputātiem. Mēs diskutējām trīs stundas. Vecāki stāstīja, ka bērniem būs jāceļas sešos, lai paspētu uz autobusu. Deputāti stāstīja par budžetu. Diskutēt bija grūti, jo abām pusēm bija sava taisnība.\n\nSapulcē es pamanīju vienu pretrunu. Dome raksta savās programmās, ka grib, lai laukos dzīvotu vairāk cilvēku. Tajā pašā laikā tā slēdz skolu – vietu, ar ko saistās visa ciema dzīve. Ar skolu saistās ciema svētki, koncerti, sports un bibliotēka. Arī mana bērnība saistās ar šo skolu. Šo pretrunu neviens no deputātiem nevarēja izskaidrot.\n\nSkolā mācās arī seši bērni no Ukrainas. Viņu skolotāja sapulcē teica, ka mazā klasē integrācija notiek ātrāk. Bērni ātri iemācās latviešu valodu un atrod draugus, jo skolotājam ir laiks katram bērnam. Lielā skolā integrācija būtu grūtāka.\n\nTad runāja bijušais skolas direktors, vecs un prātīgs vīrs. Viņš ieteica neslēgt skolu, bet atstāt tajā tikai pirmās sešas klases. Vecākie bērni brauktu uz pilsētu, kur ir labākas laboratorijas un vairāk priekšmetu. Ēkā varētu atvērt arī bērnudārzu, lai to izmantotu pilnīgāk. Tas bija prātīgs priekšlikums, un daudzi zālē piekrita.\n\nPēc mēneša dome nobalsoja. Par direktora priekšlikumu nobalsoja deviņi deputāti, pret – seši. Skola paliek, kaut arī mazāka. Es domāju, ka tas ir prātīgi: nauda ir svarīga, bet ciems bez skolas nevar dzīvot.\n\nJautājumi:\nKo dome pavēstīja pagājušajā mēnesī?\nDome pavēstīja, ka grib slēgt mazo skolu ciemā pie ezera.\nKāds bija domes nodoms?\nDomes nodoms bija vest bērnus ar autobusu uz lielo skolu pilsētā.\nKo teica opozīcija?\nOpozīcija teica, ka skolas slēgšana nozīmē ciema beigas.\nKāpēc mazā klasē integrācija notiek ātrāk?\nSkolotājam ir laiks katram bērnam.\nKo ieteica bijušais direktors?\nViņš ieteica atstāt skolā pirmās sešas klases un atvērt bērnudārzu.\nKā dome nobalsoja?\nPar direktora priekšlikumu nobalsoja deviņi deputāti, pret – seši."
+    },
+    {
+      "title": "Ķēniņa meita uz skatuves",
+      "summary": "A grandmother writes about Latvian folklore and taking her granddaughter Solveiga to a children's ballet based on a folk tale about a proud king, a maiden and a shepherd, where the children's laughter fills the hall and the girl's own talent begins to show.",
+      "newWords": [
+        "folklora",
+        "ķēniņš",
+        "lepns",
+        "jaunava",
+        "gudrība",
+        "smiekls",
+        "svētība",
+        "balets",
+        "iedvesma",
+        "izpausties"
+      ],
+      "text": "Mana mazmeita Solveiga ir septiņus gadus veca. Viņa zina daudzas filmas, bet līdz šim nezināja gandrīz nevienu latviešu pasaku. Tāpēc šoziem es nolēmu viņu iepazīstināt ar mūsu folkloru.\n\nLatviešu folklorā ir tūkstošiem dainu, teiku un pasaku. Daudzās pasakās ir ķēniņš, viņa meita un nabags puisis. Ķēniņš parasti ir lepns un bagāts. Viņš negrib dot savu meitu nabagam. Tomēr puisis ir gudrs un labs, un beigās viņš uzvar. Tautas gudrība šajās pasakās izpaužas ļoti vienkārši: labs cilvēks ir vairāk vērts nekā bagāts, un gudrība ir stiprāka par spēku.\n\nPagājušajā mēnesī es ar Solveigu biju operā uz bērnu baletu. Balets bija veidots pēc latviešu pasakas. Tajā lepns ķēniņš meklē vīru savai meitai. Ķēniņa meita ir skaista jaunava, kura nekad nesmejas. Ķēniņš pavēsta, ka dos meitu par sievu tam, kurš viņu pirmais liks smieties. Uz pili brauc bagāti kungi, bet jaunava nesmejas. Tad atnāk vienkāršs gans ar savu kazu, un kaza sāk dejot. Jaunava sāk smieties, un viņas smiekli skan pa visu pili.\n\nSmiekli skanēja arī zālē. Bērni smējās tik skaļi, ka dažreiz nevarēja dzirdēt mūziku. Es sen nebiju dzirdējusi tik daudz bērnu smieklu vienā vietā. Saka, ka smiekli ir labākās zāles, un tajā vakarā es tam pilnīgi piekritu.\n\nBaleta beigās lepnais ķēniņš saprot, ka gans ir labs cilvēks. Viņš dod jaunajiem savu svētību, un visi dejo kāzās. Vecāku svētība latviešu pasakās ir ļoti svarīga. Bez svētības laimīgu beigu nav.\n\nKad mēs braucām mājās, Solveiga visu ceļu dejoja tramvaja ejā. Mājās viņa paņēma manu veco lakatu un rādīja man ganu, kazu un jaunavu. Tad es sapratu, ka viņas talants dejot izpaužas jau tagad. Es biju ļoti lepna uz viņu.\n\nPasakas ir bijušas iedvesma daudziem rakstniekiem, komponistiem un māksliniekiem. Šis balets bija iedvesma arī manai mazmeitai. Tagad Solveiga dejo bērnu deju kolektīvā, un katru vakaru viņa man lūdz pastāstīt vēl vienu pasaku par ķēniņu.\n\nJautājumi:\nAr ko autore gribēja iepazīstināt mazmeitu?\nViņa gribēja iepazīstināt Solveigu ar latviešu folkloru.\nKāds parasti ir ķēniņš latviešu pasakās?\nĶēniņš parasti ir lepns un bagāts.\nKā tautas gudrība izpaužas pasakās?\nLabs cilvēks ir vairāk vērts nekā bagāts, un gudrība ir stiprāka par spēku.\nKas lika jaunavai smieties?\nJaunavai lika smieties gana kaza, kas sāka dejot.\nKo ķēniņš dod jaunajiem baleta beigās?\nĶēniņš dod viņiem savu svētību.\nKāpēc var teikt, ka balets bija iedvesma Solveigai?\nPēc baleta Solveiga sāka dejot bērnu deju kolektīvā."
+    },
+    {
+      "title": "Suns no patversmes",
+      "summary": "A father writes about how his daughter Otīlija's dream of a dog came true: an invitation to an animal shelter's open day, a grey dog that barked at every stranger and slowly got better, a deer in the forest, and a birthday cake for the dog.",
+      "newWords": [
+        "piepildīties",
+        "ielūgums",
+        "patversme",
+        "svešinieks",
+        "uzlaboties",
+        "vaigs",
+        "briedis",
+        "augsti",
+        "torte"
+      ],
+      "text": "Mūsu meita Otīlija trīs gadus sapņoja par suni. Katru Ziemassvētku vakaru viņa lūdza tikai vienu dāvanu – suni. Mēs ar sievu ilgi domājām, jo suns nav rotaļlieta. Pērn pavasarī Otīlijas sapnis beidzot piepildījās.\n\nViss sākās ar ielūgumu. Mūsu pilsētas dzīvnieku patversme sūtīja ielūgumu uz atvērto durvju dienu. Ielūgumā bija rakstīts, ka visi var atnākt, iepazīties ar dzīvniekiem un aizvest kādu suni pastaigā. Mēs nolēmām aiziet.\n\nPatversmē bija vairāk nekā 30 suņu. Daži bija veci, daži slimi, daži bija atrasti uz ceļa. Patversmes darbiniece mums stāstīja par katru suni. Otīlija apstājās pie liela pelēka suņa, kurš sēdēja stūrī un neskatījās uz cilvēkiem. „Viņš ir ļoti bailīgs,” teica darbiniece. „Viņš rej uz katru svešinieku. Pirmajās nedēļās jūs viņam būsiet svešinieki.”\n\nOtīlija tomēr negribēja nevienu citu. Pēc nedēļas pelēkais suns brauca pie mums mājās. Sākumā viņš gulēja zem galda un ēda tikai naktī. Viņš rēja uz katru svešinieku pie durvīm un pat uz mani. Tomēr pamazām viss sāka uzlaboties. Pēc mēneša suns jau nāca pie Otīlijas un laizīja viņai vaigu. Pēc diviem mēnešiem uzlabojās arī viņa veselība, un viņa spalva kļuva spīdīga.\n\nVasarā mēs sākām iet ar suni garās pastaigās mežā. Kādā rītā mēs ieraudzījām briedi. Briedis stāvēja ceļa malā, liels un mierīgs. Suns sastinga. Tad briedis augsti palēca un pazuda starp kokiem. Suns gribēja skriet pakaļ, bet Otīlija viņu turēja. Viņa teica: „Briedim mežā ir savas mājas, un mums ir savas.” Tagad mežā suns vienmēr meklē briedi un lec augsti gaisā, kad redz putnu.\n\nOktobrī bija gads, kopš suns dzīvo pie mums. Otīlija nolēma, ka tā būs suņa dzimšanas diena. Viņa uzcepa torti no gaļas un burkāniem, jo parastu torti suņiem ēst nedrīkst. Suns apēda visu torti dažās sekundēs. Otīlija smējās, un suns viņai atkal laizīja vaigu.\n\nJa jūs domājat par suni, aizejiet uz patversmi. Tur daudzi suņi gaida savas mājas. Varbūt arī jūsu ģimenē kāds sapnis piepildīsies.\n\nJautājumi:\nKad Otīlijas sapnis piepildījās?\nOtīlijas sapnis par suni piepildījās pērn pavasarī.\nKādu ielūgumu ģimene saņēma?\nViņi saņēma ielūgumu uz patversmes atvērto durvju dienu.\nKā suns uzvedās ar svešiniekiem?\nViņš rēja uz katru svešinieku.\nKas uzlabojās pēc diviem mēnešiem?\nUzlabojās suņa veselība, un suns jau laizīja Otīlijai vaigu.\nKo viņi ieraudzīja mežā?\nViņi ieraudzīja briedi, kas augsti palēca un pazuda starp kokiem.\nNo kā Otīlija uzcepa torti?\nViņa uzcepa torti no gaļas un burkāniem."
+    },
+    {
+      "title": "Bronzas seržants pie stacijas",
+      "summary": "A local historian writes about the bronze statue of a sergeant by the town's old railway station: in 1919 he and his soldiers removed the rails to stop an enemy train, the statue was taken down in Soviet times and put back in 1990, and children still climb on its base and stand in a circle around it.",
+      "newWords": [
+        "bronza",
+        "seržants",
+        "sliede",
+        "stingri",
+        "trieciens",
+        "uzkāpt",
+        "riņķis",
+        "robs"
+      ],
+      "text": "Pie mūsu pilsētas vecās dzelzceļa stacijas stāv neliels piemineklis. Tas ir no bronzas: jauns vīrietis ar šauteni rokās. Garāmgājēji to bieži nepamana. Es daudzus gadus pētu mūsu pilsētas vēsturi, un šim bronzas seržantam ir interesants stāsts, ko vērts zināt.\n\nTas notika 1919. gada pavasarī, Brīvības cīņu laikā. Seržants Bernhards Šteinbergs bija 22 gadus vecs. Viņam pavēlēja ar desmit kareivjiem sargāt dzelzceļu pie stacijas. Kādā naktī viņi uzzināja, ka uz pilsētu brauc ienaidnieka vilciens ar ieročiem un kareivjiem. Seržants zināja, ka viņa desmit vīri vilcienu neapturēs.\n\nTāpēc seržants nolēma noņemt sliedes. Vīri strādāja visu nakti. Seržants stingri pavēlēja nerunāt un nesmēķēt, lai ienaidnieks viņus nepamanītu. Viņi noņēma sliedes divsimt metru garumā un aiznesa tās mežā. Rītausmā vilciens apstājās pie vietas, kur sliedes beidzās. Tas bija smags trieciens ienaidniekam, jo bez šiem ieročiem ienaidnieks nevarēja ieņemt pilsētu.\n\nPēc kara pilsētas iedzīvotāji uzcēla seržantam pieminekli. Tēlnieks to izlēja no bronzas. Padomju gados pieminekli novāca, un tas bija trieciens daudziem vecajiem cilvēkiem. Bronzu gribēja izkausēt, bet stacijas darbinieks to paslēpa šķūnī. 1990. gadā pieminekli atkal uzlika atpakaļ savā vietā.\n\nJa paskatās uzmanīgi, seržanta plecā var redzēt nelielu robu. Daži saka, ka tas ir no lodes. Patiesībā robs radās, kad pieminekli veda uz šķūni un tas nokrita no ratiem. Es to zinu no stacijas darbinieka dēla, kurš ir jau ļoti vecs.\n\nTagad pie pieminekļa notiek dzīve. Bērni mīl uzkāpt uz pieminekļa pamata, un vecāki viņiem to stingri neaizliedz. Kad es biju mazs, es arī uzkāpu tur un turējos pie bronzas zābaka. Katru gadu 11. novembrī skolēni sastājas riņķī ap pieminekli un noliek ziedus. Vienreiz es stāvēju šajā riņķī kopā ar savu mazdēlu.\n\nMūsu vēsture nav tikai grāmatās. Tā stāv arī pie stacijas: bronzas seržants, mazliet greizs no laika, ar robu plecā.\n\nJautājumi:\nKo bērni mīl darīt pie pieminekļa?\nBērni mīl uzkāpt uz pieminekļa pamata.\nKo seržants darīja 1919. gada pavasarī?\nViņš ar saviem kareivjiem noņēma sliedes, lai apturētu ienaidnieka vilcienu.\nKo seržants stingri pavēlēja?\nViņš stingri pavēlēja nerunāt un nesmēķēt.\nKāpēc tas bija trieciens ienaidniekam?\nBez ieročiem ienaidnieks nevarēja ieņemt pilsētu.\nKā radās robs seržanta plecā?\nRobs radās, kad piemineklis nokrita no ratiem.\nKo skolēni dara 11. novembrī?\nSkolēni sastājas riņķī ap pieminekli un noliek ziedus."
+    }
+  ]
+}
