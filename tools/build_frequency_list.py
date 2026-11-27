@@ -5768,9 +5768,9 @@ def build_khmer(size):
                 for span, _ in found:
                     bound.add("".join(span))
                     parts["".join(span)] = span
-        return spelled, together
+        return spelled, together, uses, pairs
 
-    spelled, together = cut(None)
+    spelled, together, _, _ = cut(None)
     by_folded = {khmer_fold(w): w for w in sorted(pack)}
     swapped = {}
     for word, n in together.items():
@@ -5785,11 +5785,13 @@ def build_khmer(size):
     # The reader cuts Khmer by how common its words are, as the list it ships with ranks them (KhmerParser), so the list is
     # built again from cuts made with the last one's ranks until they no longer change it, at most KHMER_ROUNDS times.
     listed = khmer_whole_words(extra - known, written, spelled, spellings, known)
-    ranks, text, label = None, None, None
+    ranks, text, label, pieces = None, None, None, set()
     for round_ in range(KHMER_ROUNDS + 1):
         joined = len(bound)
-        spelled, together = cut(ranks)
-        built, label = khmer_list(sources, spelled, together, pack, spellings, size, listed)
+        spelled, together, uses, pairs = cut(ranks)
+        # A piece stays one once found, so that the rounds settle.
+        pieces |= khmer_pieces(uses, pairs, written, known | extra | bound | {khmer_fold(s) for s in spellings})
+        built, label = khmer_list(sources, spelled, together, pack, spellings, size, listed, pieces)
         print(f"km round {round_}: {'unchanged' if built == text else 'changed'}, {len(bound) - joined} compounds joined", file=sys.stderr)
         if built == text and len(bound) == joined:
             break
@@ -5879,10 +5881,40 @@ def khmer_phrase(word, words):
     return ends[len(word)]
 
 
-def khmer_list(sources, spelled, together, pack, spellings, size, listed=frozenset()):
+# A word the list would have is a piece of longer ones and left out (khmer_pieces) when the cut finds it, as a word, in less
+# than KHMER_PIECE_WHOLE of the places it is written, the rest inside longer words it found (សំណ of សំណង់ and សំណល់, សុភ of
+# សុភមង្គល), and the articles write it whole in less than KHMER_PIECE_WRITTEN of the times they write it; or when
+# KHMER_PIECE_BESIDE of its uses are next to letters no word covers, the rest of a word the cut lacks (រតិ, ង៉ា, កម).
+KHMER_PIECE_WHOLE = 0.05
+KHMER_PIECE_WRITTEN = 0.1
+KHMER_PIECE_BESIDE = 0.3
+
+
+def khmer_pieces(uses, pairs, written, words):
+    """The words the cut ([uses], [pairs]) found that are pieces of others (KHMER_PIECE_WHOLE, KHMER_PIECE_BESIDE), folded."""
+    found = {w for w in uses if khmer_word(w, words)}
+    inside = khmer_inside(found, uses)
+    beside = defaultdict(int)
+    for (a, b), n in pairs.items():
+        if not khmer_word(b, words):
+            beside[a] += n
+        if not khmer_word(a, words):
+            beside[b] += n
+    inside_written = khmer_inside(found, written)
+    pieces = set()
+    for word in found:
+        n = uses[word]
+        alone = written.get(word, 0)
+        if n < KHMER_PIECE_WHOLE * (n + inside[word]) and alone < KHMER_PIECE_WRITTEN * (alone + inside_written[word]) \
+                or beside[word] >= KHMER_PIECE_BESIDE * n:
+            pieces.add(word)
+    return pieces - {khmer_fold(w) for w in frequency_km.KHMER_WORDS}
+
+
+def khmer_list(sources, spelled, together, pack, spellings, size, listed=frozenset(), pieces=frozenset()):
     """
     The Khmer list from the words each source was cut into ([spelled]), each in the spelling the pack has, with the words
-    the pack lacks that [listed] has (folded).
+    the pack lacks that [listed] has (folded), without the pieces of longer words [pieces] has (folded).
     """
     # Each word in the spelling the pack has, the commoner in the texts where it has both.
     best = {}
@@ -5903,6 +5935,7 @@ def khmer_list(sources, spelled, together, pack, spellings, size, listed=frozens
     OVERRIDES["km"] = {best.get(khmer_fold(s), s): [best.get(khmer_fold(w), w)] for s, w in spellings.items()}
     KHMER_LISTED.clear()
     KHMER_LISTED.update(best[w] for w in listed if w in best)
+    EXCLUDE["km"] = frequency_km.KHMER_EXCLUDE | {best[w] for w in pieces if w in best}
     text, label = build_list("km", found, size)
     lines = []
     for line in text.splitlines(keepends=True):
