@@ -4,8 +4,8 @@ Each course teaches one band of 100 words from the Tamil word frequency list
 (`bands/<rankUpTo>.txt`: index, rank, word, its common forms). Course `ta-mini-0300` teaches ranks
 201–300 and may use every word ranked 1–300. Ten lessons, each introducing about ten of the band's
 words, so the course covers the band; a learner who finishes it knows the 300 most common words.
-`themes.tsv` gives each course its theme. The list has 6,187 words: the last course is `ta-mini-6200`
-(87 words).
+`themes.tsv` gives each course its theme. The list has 5,889 words: the last course is `ta-mini-5900`
+(ranks 5801–5889).
 
 ## The list
 
@@ -18,7 +18,10 @@ it. So:
 - **Every listed word has an entry in `dictionaries/ta-en.sqlite`** (but for a few dozen everyday
   words added by hand: தற்போது, ஏனெனில், ஏதாவது, வயது, அடிப்படை, பட்டியல்…). The pack is small
   (12,600 entries): common words it lacks are not in the list at all (நிமிடம் is there only as
-  நிமிஷம்'s form). Check each word you teach against its entry (WRITER-BRIEF step 6).
+  நிமிஷம்'s form). Check each word you teach against its entry (WRITER-BRIEF step 6). The list past
+  rank 4000 was rebuilt: it opens with seven verbs made with இடு that the pack lacks (வெளியிடு
+  "publish", திட்டமிடு, போட்டியிடு, உத்தரவிடு, பார்வையிடு, கையெழுத்திடு, மண்டியிடு), and leaves out
+  the names, spoken words and pieces of other words the earlier bands had.
 - **The ranks lean to the news.** Words of reports rank high (அரசு 47, நிறுவனம் 80, வழங்கு 91,
   தெரிவி 98, மாவட்டம் 105), everyday words lower than in speech (அம்மா 184, அப்பா 316). Write
   everyday stories anyway: a high-ranked formal word goes into an ordinary scene (a small company
@@ -107,7 +110,7 @@ lesson never needs another lesson to make sense.
   - ranks 3001–5000: a richer written register: the Sanskrit-derived and the pure Tamil words of
     newspapers and books beside their everyday ones, made plain by context; a column, a letter, an
     interview, a short essay that weighs two sides; long sentences that stay easy to parse;
-  - ranks 5001–6187 (C1): the same, with the specialised words of the sciences, the arts and
+  - ranks 5001–5889 (C1): the same, with the specialised words of the sciences, the arts and
     public life, each made clear by its context.
   After rank 1000 sentences get longer and dialogue can carry more of the story; a story may be told
   by a first-person narrator or as a letter, a message or a diary entry. From rank 2000 a lesson may
