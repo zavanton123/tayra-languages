@@ -4,8 +4,10 @@ Each course teaches one band of 100 words from the Albanian word frequency list
 (`bands/<rankUpTo>.txt`: index, rank, word, its common forms). Course `sq-mini-0300` teaches ranks
 201–300 and may use every word ranked 1–300. Ten lessons, each introducing about ten of the band's
 words, so the course covers the band; a learner who finishes it knows the 300 most common words.
-`themes.tsv` gives each course its theme. The list has 6,583 words, so there are 66 courses; the
-last band (6501–6583) has 83 words.
+`themes.tsv` gives each course its theme. The list has 6,219 words, so there are 63 courses; the
+last band (6201–6219) has 19 words. Past rank 3900 the list was rebuilt (2026-11-27) without name
+pieces, plurals and forms ranked as words, Gheg and archaic words and noise; ranks 1–3900 are as
+they were.
 
 ## What the lessons are: mini stories
 
@@ -83,7 +85,7 @@ story; a lesson never needs another lesson to make sense.
   - ranks 4001–5000 (C1): everything before, with more abstract and nuanced content: a short
     essay or reflective column that weighs two sides, an interview, a portrait, a review; precise
     vocabulary for feelings, ideas and processes; long sentences that stay easy to parse;
-  - ranks 5001–6600 (C1): the same, with the more specialised words of professions, sciences and
+  - ranks 5001–6219 (C1): the same, with the more specialised words of professions, sciences and
     the arts, each made clear by its context, figurative language and idioms used more freely, and
     topics that need some background, which the text gives.
   After rank 1000 sentences get longer and joined (*sepse*, *kur*, *ndërsa*, *edhe pse*, *prandaj*,
