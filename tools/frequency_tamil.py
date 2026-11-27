@@ -561,6 +561,8 @@ def read_usage(corpora, nouns):
 # பத்மநாபன்; பரலோக ராஜ்யம்) and a clitic -ஆ, -ஏ or -ஓ on the nominative (ரங்கா, அகிலா of ரங்கு, அகில்), as names and the
 # spoken forms are written. They count for the noun at most PIECE_MOST times its telling forms.
 PIECE_MOST = 1.0
+# The share of a noun's count another spelling must have for the noun to be listed under it (build).
+SPELLED_SHARE = 0.5
 
 
 def pieces(word):
@@ -717,6 +719,18 @@ def build(found, size, label, weights=None, corpora=()):
         if polite and polite not in scores and forms[word].get(polite, 0.0) > forms[word].get(word, 0.0):
             ranked[i] = polite
             forms[polite] = forms.pop(word)
+    # A noun counted mostly by another spelling its table gives it, no form the rules make nor its stem with an ending
+    # (ரதம் of இரதம், ஜெராக்ஸ் of ஜிராக்ஸ், பவளம் of பவழம்), is listed under that spelling, as texts write it.
+    heads = set(ranked)
+    for i, word in enumerate(ranked):
+        if "noun" not in kinds.get(word, ()) or kinds[word] & {"pron", "verb"} or not forms[word]:
+            continue
+        top = max(sorted(forms[word]), key=lambda f: forms[word][f])
+        if (top != word and top not in heads and forms[word][top] >= SPELLED_SHARE * scores[word] and top in table
+                and not top.startswith(word[:-1]) and top not in word_forms(word, kinds[word], {}, helpers)):
+            ranked[i] = top
+            heads.add(top)
+            forms[top] = forms.pop(word)
     lines = [f"# source: {label}", f"# words: {len(ranked)}"]
     for word in ranked:
         listed = sorted(forms[word], key=lambda f: -forms[word][f])[:FORMS_LISTED]
