@@ -162,6 +162,20 @@ HAUSA_FORMS = {
     "jar": "ja", "tsaida": "tsayar", "marawa": "mara", "gaisa": "gaisuwa", "girme": "girma", "kasu": "kasa",
     "yiyuwa": "yiwuwa", "jiyo": "ji", "dau": "ɗauka", "dena": "daina", "addabi": "addaba", "addabe": "addaba",
     "kowannensu": "kowanne", "yinsa": "yin", "yinta": "yin", "yinwa": "yunwa", "sa'annan": "sannan",
+    # Spellings the writers reported: kanwa for ƙanwa "younger sister" (not kanwa "potash", which text seldom has), diba and
+    # ɗibar for ɗiba "scoop", dumi for ɗumi "warmth" (no ɗuma "beat"), mutuƙar for matuƙar, ɗumbin for ɗimbin, waƙanda for
+    # waɗanda; the plurals ƙananu (ƙarami) and fukafukai (fiffike), and dahu, the grade 7 of dafa "cook".
+    "kanwa": "ƙanwa", "diba": "ɗiba", "ɗiba": "ɗiba", "ɗibar": "ɗiba", "dumi": "ɗumi", "ɗumi": "ɗumi", "mutuƙar": "matuƙa",
+    "mutukar": "matuƙa", "ɗumbin": "ɗimbin", "waƙanda": "wanda", "ƙananu": "ƙarami", "kananu": "ƙarami",
+    "fukafukai": "fiffike", "fikafikai": "fiffike", "fikafikan": "fiffike", "dahu": "dafa",
+    # Plurals and linked forms of words the rules do not reach: zawarawa (bazawara "divorcee"), muggan (mugu), shahararen
+    # (shahararre).
+    "zawarawa": "bazawara", "zawarawan": "bazawara", "muggan": "mugu", "shahararen": "shahararre",
+    # Feminines the rules do not make (musulma "Muslim woman", makauniya "blind woman") and spellings (murmurshi, ainahi).
+    "musulma": "musulmi", "musulmar": "musulmi", "makauniya": "makaho", "makauniyar": "makaho", "murmurshi": "murmushi",
+    "ainahi": "ainihi", "ainahin": "ainihi", "yanyin": "yanayi", "hukumci": "hukunci", "hukumcin": "hukunci",
+    # Plurals whose glosses the rules do not match to their singular's: akidu "beliefs" (aƙida "ideology"), rukuna (rukuni).
+    "akidu": "aƙida", "aƙidu": "aƙida", "rukuna": "rukuni", "rukunan": "rukuni",
 }
 # Words the pack lacks that are spelled as a hooked word is without its hook, and are words of their own: ki "you" (ƙi "refuse"),
 # yaya "how" (ƴaƴa "children", written 'ya'ya), haka "so" (haƙa "dig"), kala "kind", kadara "property".
@@ -281,6 +295,22 @@ def verbal_heads(keys):
             stem = word[:-3]
             out |= {stem, stem + "e"} | ({stem[:-1]} if stem[-1] == stem[-2] else set())
     return out
+
+
+# Words of a gloss that say nothing of its sense.
+GLOSS_STOP = {"to", "be", "a", "an", "the", "of", "up", "out", "over", "on", "in", "into", "from", "for", "with", "something",
+              "someone", "somebody", "oneself", "become", "get", "getting", "make", "do", "one", "by", "verb", "as", "at", "or",
+              "and", "off", "down", "away", "about", "very", "much", "many", "being", "thing", "things", "kind", "type"}
+
+
+def glossed_alike(a, b):
+    """Whether two lists of glosses share a word of four letters or more, or the first five letters of one (spoil, spoiled;
+    tired, tiredness), what is in brackets aside."""
+    def words(glosses):
+        found = {w for g in glosses for w in re.findall(r"[a-z]+", GLOSS_PARENS.sub(" ", g).lower())
+                 if len(w) >= 4 and w not in GLOSS_STOP}
+        return found | {w[:-1] for w in found if w.endswith("s") and not w.endswith("ss")}
+    return any(x[:5] == y[:5] for x in words(a) for y in words(b))
 
 
 def heads_alike(a, b):
@@ -958,12 +988,15 @@ VERBAL_NOUN_SHARE = 0.7
 # kori "chase away" (kore "green"), biyo "follow hither" (biya "pay"), zame "slip" (zama), zaɓi "choice" (zaɓe "election"),
 # tuntuɓe "stumbling" (tuntuɓi "contact"), aike "errand" (aika), fito "come out" (fita), lamunci "tolerate" (lamunce
 # "guarantee"), rame "grow thin" (rama), ɗago "lift" (ɗage "postpone"), kunno "emerge" (kunna "switch on").
-OWN_GRADES = {"faru", "saki", "kori", "biyo", "zame", "zaɓi", "tuntuɓe", "aike", "fito", "lamunci", "rame", "ɗago", "kunno"}
+OWN_GRADES = {"faru", "saki", "kori", "biyo", "zame", "zaɓi", "tuntuɓe", "aike", "fito", "lamunci", "rame", "ɗago", "kunno",
+              "damu", "zare", "huce", "kullu", "gabaci", "ƙare", "daɗe", "bushe", "shanye", "farke", "tsare", "ɗage", "rayu"}
 # The words HAUSA_FORMS files forms under, which are words whatever their spelling (karya "break" beside ƙarya "lie").
 HAND_WORDS = {w for words in HAUSA_FORMS.values() for w in words.split(",") if w}
 FEMININE_GLOSS = re.compile(r"\b(?:fem|female|woman|girl|heroine)\b")
 # A gloss that names an action or state, as a verbal noun's does (killing, satisfaction, ability, failure).
 VERBAL_GLOSS = re.compile(r"^\S*(?:ing|ion|ment|ance|ence|ity|ness|ure|al)$")
+# A gloss of a possessed word or of a verbal noun with its object ("their habitats", "(bi shi) following him").
+POSSESSIVE_GLOSS = re.compile(r"\b(?:my|his|her|its|our|your|their|him|them|us|me)\b")
 
 
 def _fold_heads(heads, share, written, after_subject, lexicon):
@@ -978,9 +1011,11 @@ def _fold_heads(heads, share, written, after_subject, lexicon):
         return score.get(w, 0.0) > 0 and heads.get(w, frozenset()) in (frozenset(), frozenset({w}))
 
     unhooked = defaultdict(set)
+    plainly = defaultdict(set)
     for w in score:
         if head(w):
             unhooked[w.translate(DEHOOK)].add(w)
+            plainly[w.translate(DEHOOK).replace("'", "")].add(w)
 
     def listed(w):
         """The word of the list [w] is counted as: itself, the one word its spelling is a form of (fice: fita; not a grade 5
@@ -1006,22 +1041,173 @@ def _fold_heads(heads, share, written, after_subject, lexicon):
         return "verb" in lexicon.kinds.get(x, ()) or any(VERBAL_GLOSS.match(k.split()[0]) for k in keys) \
             or heads_alike(verbal_heads(set(keys)), verbal_heads(gloss_keys(lexicon.senses.get(verb, []))))
 
+    def pack_verb(w):
+        return "verb" in lexicon.kinds.get(w, ())
+
+    def spelt(w):
+        """[w] as a word of the list, or its hooked spelling (akida: aƙida); not a form of another word."""
+        if head(w):
+            return w
+        found = unhooked.get(w.translate(DEHOOK), set())
+        return next(iter(found)) if len(found) == 1 else None
+
+    def singulars(x):
+        """The listed words a plural's shape makes its singular, the commonest first (see singular)."""
+        if len(x) < 5 or verbness(x) >= NOUN_VERB:
+            return []
+        stems = []
+        if re.fullmatch(r".+o[^aeiou']i", x) or x.endswith("una"):
+            stems.append(x[:-3])
+        if x.endswith("aye") or re.fullmatch(r".*([^aeiou'])a\1e", x):
+            stems.append(x[:-3])
+        if x.endswith(("ai", "u")):
+            stems.append(x[:-2] if x.endswith("ai") else x[:-1])
+        # The doers in ma-...-ci have plurals in ma-...-ta (makusanci, makusanta; mabuƙaci, mabuƙata).
+        if x.startswith("ma") and x.endswith("ta"):
+            stems = [x[:-2] + "c"]
+        found = {w for w in (spelt(st + v) for st in stems for v in ("i" if x.endswith("ta") and x.startswith("ma") else "aeiou"))
+                 if w and w != x}
+        return sorted(found, key=lambda w: (-score.get(w, 0.0), w))
+
+    def singular(x, plain=False):
+        """The listed singular of a plural (rundunoni, rokoki, muhallai, akidu, wajaje, makusanta: runduna, roka, muhalli,
+        akida, waje, makusanci): a plural the pack glosses as one, or one the pack lacks that is rarer than its singular;
+        with [plain], any form so made (takwarori of takwarorinsu)."""
+        found = singulars(x)
+        if not found:
+            return None
+        word = found[0]
+        if plain:
+            return word
+        glosses = lexicon.senses.get(x, [])
+        first = gloss_keys(glosses[:1])
+        if glosses:
+            single = [g if not english_singular(g) else english_singular(g) for g in glosses]
+            if (first and all(english_singular(k) for k in first) or x.startswith("ma")) \
+                    and (not lexicon.senses.get(word) or glossed_alike(single, lexicon.senses.get(word, []))):
+                return word
+            return None
+        return word if score.get(word, 0.0) > score.get(x, 0.0) and not lexicon.kinds.get(x) else None
+
+    def masculine(x):
+        """The listed masculine singular of a feminine or plural adjective (zaɓaɓɓu, haifaffiya, gurɓatattu: zaɓaɓɓe,
+        haifaffe, gurɓatacce), or of its linked form (gurɓatacciyar, fasassun)."""
+        if verbness(x) >= NOUN_VERB:
+            return None
+        if x[-1:] in ("n", "r") and x[:-1].endswith(tuple(e for e, _ in ADJECTIVE_ENDINGS) + ("iya", "u")):
+            return masculine(x[:-1])
+        for ending, male in ADJECTIVE_ENDINGS:
+            if x.endswith(ending) and len(x) >= len(ending) + 3 and listed(x[:-len(ending)] + male):
+                return listed(x[:-len(ending)] + male)
+        m = re.fullmatch(r"(.+)(.)\2(?:iya|u)", x)
+        return listed(m.group(1) + 2 * m.group(2) + "e") if m and m.group(2) not in "aeiou'" else None
+
+    def linked_word(stem):
+        """The word a linked form is of, when the list has it (bin, takwarorin, muhallan: bi's bin, takwara, muhalli)."""
+        word = listed(stem)
+        if word:
+            return word
+        if stem[-1:] not in ("n", "r") or len(stem) < 4:
+            return None
+        bare = stem[:-1]
+        for form in [bare] + ([stem[:-2] + "ai"] if stem.endswith("an") else []):
+            word = listed(form) or singular(form, plain=True)
+            if word:
+                return word
+        return None
+
+    def possessed(x):
+        """The word of a possessive or a verbal noun with its object the pack has as an entry (muhallansu "their habitats",
+        hayyacinta "her senses", binsa "following him"): its linked form's word, or that form without its linker when text
+        has it."""
+        glosses = lexicon.senses.get(x, [])
+        ending = next((p for p in POSSESSIVES if x.endswith(p)), None)
+        if not ending or not any(POSSESSIVE_GLOSS.search(g) for g in glosses[:2]):
+            return None
+        stem = x[:-2]
+        if stem[-1:] not in ("n", "r") or len(stem) < 3 or verbness(x) >= POSSESSIVE_VERB:
+            return None
+        return linked_word(stem) or (stem[:-1] if len(stem) >= 5 and written.get(stem[:-1], 0) + written.get(stem, 0) else None)
+
+    def linked(x):
+        """The word of a linked form the pack has as an entry, glossed as its word is or not at all, and no verb by text
+        (mamatan "the dead", muguntar "wickedness", safofin "socks": mamaci, mugu, safa)."""
+        if x[-1:] not in ("n", "r") or len(x) < 6 or pack_verb(x) or verbness(x) >= NOUN_VERB:
+            return None
+        bare = x[:-1]
+        senses = lexicon.senses.get(x, [])
+        for word in singulars(bare) + [listed(bare), x.endswith("an") and listed(x[:-2] + "ai")]:
+            if word and word != x and score[word] > score.get(x, 0.0) and (
+                    not senses or glossed_alike(senses, lexicon.senses.get(word, []) + lexicon.senses.get(bare, []))):
+                return word
+        return None
+
+    def grade_base(x):
+        """The verb a grade in -e, -o, -u or -i is of (komo, karɓe, rarrabe, ruɗe, mirgine, juye: koma, karɓa, rarraba, ruɗa,
+        mirgina, juya; haƙiƙance: haƙiƙanta), the -a verb first: one the text has as a verb as it does the grade, or one the
+        pack has as a verb as it does the grade, whichever is commoner."""
+        if len(x) < 4 or x[-1] not in "eoui":
+            return None
+        m = GRADE_STEM.search(x[:-1])
+        for stem in [x[:-1]] + ([x[:-1][:m.start()] + PALATAL[m.group(0)]] if m else []):
+            for v in "aie":
+                b = stem + v
+                if b == x or not head(b):
+                    continue
+                if stem == x[:-1] and verbness(x) >= GRADE_VERB and score[b] > score.get(x, 0.0) and verbness(b) >= BASE_VERB:
+                    return b
+                # Its main senses alike (damu "worry" is no grade of dama "chance").
+                if pack_verb(x) and pack_verb(b) and v == "a" \
+                        and glossed_alike(lexicon.senses.get(x, [])[:3], lexicon.senses.get(b, [])[:2]):
+                    return b
+                # Both verbs of the pack and the grade one by text, however glossed (ruɗe "confuse": ruɗa "deceive").
+                if stem == x[:-1] and v == "a" and pack_verb(x) and pack_verb(b) and verbness(x) >= GRADE_VERB:
+                    return b
+        # A grade 6 in -wo of a verb in a vowel (kirawo: kira).
+        if x.endswith("wo") and len(x) >= 6 and listed(x[:-2]) and (pack_verb(x) or verbness(x) >= GRADE_VERB) \
+                and (pack_verb(x[:-2]) or verbness(x[:-2]) >= BASE_VERB):
+            return listed(x[:-2])
+        return None
+
     def base(x):
+        # A form by hand whose word is listed (ƙananu: ƙarami; dumi, counted through the pack's dumin: ɗumi).
+        hand = HAUSA_FORMS.get(x)
+        if hand and "," not in hand and hand != x and listed(hand):
+            return listed(hand)
         if x in OWN_GRADES or x in HAUSA_FORMS or x in HAND_WORDS:
             return None
         # A word whose own spelling is counted as another's form (rushewa: rushe, naɗi: naɗa).
         if len(heads.get(x, ())) == 1 and x not in heads[x] and head(next(iter(heads[x]))):
             return next(iter(heads[x]))
-        if len(x) >= 4 and x[-1] in "eoui" and verbness(x) >= GRADE_VERB:
-            # The verb as it is written, no other word's form or spelling (dore "last" is no ɗora "place on").
-            for v in "aie":
-                b = x[:-1] + v
-                if b != x and head(b) and score[b] > score[x] and verbness(b) >= BASE_VERB:
-                    return b
+        # A spelling without the hooks or the apostrophe of a commoner word the list has (dumi, alumma, jamaa, d'aya: ɗumi,
+        # al'umma, jama'a, ɗaya), that the pack lacks or glosses as that word (not kasa "fail" beside ƙasa "land").
+        if x not in HAUSA_PLAIN_WORDS:
+            spelled = (unhooked.get(x, set()) if x == x.translate(DEHOOK) else set()) \
+                | (plainly.get(x.translate(DEHOOK).replace("'", ""), set()) if "'" not in x or "'" in x[1:] else set())
+            spelled = {w for w in spelled - {x} if w.translate(DEHOOK) != x.translate(DEHOOK) or x == x.translate(DEHOOK)}
+            if len(spelled) == 1:
+                word = next(iter(spelled))
+                if x not in lexicon.kinds and score[word] > score[x] or score[word] > 2 * score[x] \
+                        and glossed_alike(lexicon.senses.get(x, []), lexicon.senses.get(word, [])):
+                    return word
+        # A spelling the pack names in brackets ("ɗinbin: (ɗimbin) a great many").
+        for gloss in lexicon.senses.get(x, [])[:2]:
+            for text in GLOSS_PARENS.findall(gloss):
+                spelling = hausa_clean(text).lower()
+                if WORD.fullmatch(spelling) and spelling != x and listed(spelling) \
+                        and distance(skeleton(spelling), skeleton(x)) <= 1:
+                    return listed(spelling)
+        b = grade_base(x)
+        if b:
+            return b
         if x.endswith("wa") and len(x) >= 4:
-            verb = listed(x[:-2])
-            if verb and (len(x) >= 5 or "verb" in lexicon.kinds.get(verb, ())) and verbness(x[:-2]) >= NOUN_VERB \
-                    and score[x] <= VERBAL_NOUN_SHARE * score[verb] and verbal(x, verb):
+            stem = x[:-2]
+            verb = listed(stem) or grade_base(stem)
+            # The pack's verbal noun glossed as its word is (gajiyawa "getting tired": gajiya "tiredness"; rikicewa
+            # "confusion": rikice "confused") needs no verb by text.
+            glossed = verb and glossed_alike(lexicon.senses.get(x, []), lexicon.senses.get(verb, []))
+            if verb and (len(x) >= 5 or pack_verb(verb)) and (verbness(stem) >= NOUN_VERB or glossed) \
+                    and score.get(x, 0.0) <= VERBAL_NOUN_SHARE * score.get(verb, 0.0) and verbal(x, verb):
                 return verb
         if x.endswith("uwa") and len(x) >= 6:
             for stem in (x[:-3] + "a", x[:-3] + "e"):
@@ -1041,7 +1227,16 @@ def _fold_heads(heads, share, written, after_subject, lexicon):
                     not lexicon.senses.get(x) and len(x) >= 5
                     or any(re.search(r"\bmy\b", g) for g in lexicon.senses.get(x, []))):
                 return word
-        return None
+        # An adjective in -arwa of a grade 5 verb (ƙayatarwa, nishaɗantarwa: ƙayatar, nishaɗantar); not a noun (sadarwa
+        # "communication").
+        if x.endswith("arwa") and len(x) >= 7 and listed(x[:-2]) and "noun" not in lexicon.kinds.get(x, ()):
+            return listed(x[:-2])
+        # A feminine in -iya of a noun in -a, glossed so or not in the pack (jakadiya: jakada).
+        if x.endswith("iya") and len(x) >= 7 and listed(x[:-3] + "a") and score[listed(x[:-3] + "a")] > score[x] \
+                and (any(FEMININE_GLOSS.search(g) for g in lexicon.senses.get(x, [])) or not lexicon.senses.get(x)) \
+                and lexicon.kinds.get(listed(x[:-3] + "a"), set()) & NOMINAL:
+            return listed(x[:-3] + "a")
+        return possessed(x) or masculine(x) or singular(x) or linked(x)
 
     target = {}
     for x in sorted(score):
@@ -1060,6 +1255,10 @@ def _fold_heads(heads, share, written, after_subject, lexicon):
     for form, words in heads.items():
         if words & target.keys():
             heads[form] = frozenset(final(w) for w in words)
+    # A folded word text has that was counted only through its forms (rundunoni, through rundunonin) is its word's form too.
+    for x in sorted(target):
+        if not heads.get(x) and share.get(x, 0.0) > 0:
+            heads[x] = frozenset({final(x)})
     return target
 
 
