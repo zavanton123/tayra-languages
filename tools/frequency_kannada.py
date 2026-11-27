@@ -65,10 +65,18 @@ PRESENT_TAILS = ["ತ್ತೇನೆ", "ತ್ತೀಯ", "ತ್ತೀಯೆ", 
 INFINITIVE_TAILS = ["ಲು", "ಲಿ", "ಲಿಕ್ಕೆ", "ಲೇ", "ೋಣ", "ಬೇಕು", "ಬೇಕಾದ", "ಬೇಕಾಗಿದೆ", "ಬೇಕಾಗಿತ್ತು", "ಬೇಕಾಯಿತು", "ಬೇಕಾಗುತ್ತದೆ",
                     "ಬೇಕೆಂದು", "ಬೇಕಿತ್ತು", "ಬೇಕಾಗಿ", "ಬೇಕಾದರೆ", "ಬೇಕೇ", "ಬೇಡ", "ಬೇಡಿ", "ಬಹುದು", "ಬಹುದಾದ", "ಬಹುದೇ", "ಬಾರದು",
                     "ಬಾರದ", "ಬಲ್ಲ", "ಬಲ್ಲರು", "ದೆ", "ದ", "ದಿರಲು", "ದಿದ್ದರೆ", "ದಂತೆ", "ದವರು", "ಲಿಲ್ಲ", "ಲ್ಲ", "ಲಾರ", "ಲಾರೆ",
-                    "ಲಾರರು", "ಲಾಗದ", "ಲಾರದು", "ಲೆಂದು", "ಲೇಬೇಕು", "ಲಿದೆ", "ಲಿದ್ದಾರೆ", "ಲಿರುವ", "ಲಿದ್ದ", "ಲಿಲ್ಲವೇ", "ಲೂ"]
+                    "ಲಾರರು", "ಲಾಗದ", "ಲಾರದು", "ಲೆಂದು", "ಲೇಬೇಕು", "ಲಿದೆ", "ಲಿದ್ದಾರೆ", "ಲಿರುವ", "ಲಿದ್ದ", "ಲಿಲ್ಲವೇ", "ಲೂ",
+                    # The negative "it does not" (ಮಾಡದು, ತಿಳಿಯದು).
+                    "ದು"]
 PAST_TAILS = ["", "ೆ", "ೆನು", "ನು", "ಳು", "ರು", "ೆವು", "ಿರಿ", "ವು", "ಾಗ", "ರೆ", "ರೂ", "ವರು", "ವರ", "ವರನ್ನು", "ವರಿಗೆ", "ವನು", "ವಳು",
               "ುದು", "ಂತೆ", "ುದರಿಂದ", "ರೆಂದು", "ನೆಂದು", "ಳೆಂದು", "ವು", "ಾಗಲೂ", "ರಾದರೂ", "ಾಯಿತು", "ನಂತರ", "ಷ್ಟು", "ರೇ", "ನೇ",
-              "ಳೇ", "ವನ್ನು", "ಾಗಿನಿಂದ", "ುದನ್ನು"]
+              "ಳೇ", "ವನ್ನು", "ಾಗಿನಿಂದ", "ುದನ್ನು",
+              # The verbal noun "that (it) came" (ಬಂದದ್ದು, ಬಂದದ್ದನ್ನು).
+              "ದ್ದು", "ದ್ದನ್ನು", "ದ್ದರಿಂದ", "ದ್ದಕ್ಕೆ", "ದ್ದರ", "ದ್ದೇ", "ದ್ದೂ", "ದ್ದಾಗಿದೆ", "ದ್ದರಲ್ಲಿ"]
+# Endings a noun's stem takes that are no case fragment the corpus writes apart (CASE_FRAGMENTS): "up to" (ಶತಮಾನದವರೆಗೆ,
+# ದಿನಗಳವರೆಗೆ), "as much as" (ಭಾಗದಷ್ಟು) and the quotative (ಕಾರಣವೆಂದು, ಮನೆಯೆಂದು).
+UPTO_TAILS = ["ವರೆಗೆ", "ವರೆಗೂ", "ವರೆಗಿನ"]
+QUOTE_TAILS = ["ೆಂದು", "ೆಂಬ", "ೆಂದರೆ", "ೆಂದೇ"]
 
 # Past stems that are not the regular -ಇದ (-ದ after -i, -e): gerund, past relative stem, third person neuter past, and the
 # stem the perfect is made on (ಹೋಗಿ + ದ್ದಾನೆ, ಬಂದಿ + ದೆ).
@@ -145,8 +153,8 @@ KANNADA_WORDS = {
     "ಇವರು": ("pron", "ಇವರ ಇವರನ್ನು ಇವರಿಗೆ ಇವರಲ್ಲಿ ಇವರಿಂದ ಇವರೂ ಇವರೇ ಇವರಿಗೂ ಇವರೊಂದಿಗೆ ಇವರದು"),
     "ಇವನು": ("pron", "ಇವನ ಇವನನ್ನು ಇವನಿಗೆ ಇವನಲ್ಲಿ ಇವನಿಂದ ಇವನೂ ಇವನೇ ಇವ"),
     "ಇವಳು": ("pron", "ಇವಳ ಇವಳನ್ನು ಇವಳಿಗೆ ಇವಳಲ್ಲಿ ಇವಳಿಂದ ಇವಳೂ ಇವಳೇ"),
-    "ಅವು": ("pron", "ಅವನ್ನು ಅವನ್ನೂ ಅವನ್ನೇ ಅವುಗಳು ಅವುಗಳ ಅವುಗಳನ್ನು ಅವುಗಳಿಗೆ ಅವುಗಳಲ್ಲಿ ಅವುಗಳಿಂದ ಅವೂ ಅವೇ ಅವುಗಳೂ ಅವುಗಳೇ ಅವುಗಳಲ್ಲೂ"),
-    "ಇವು": ("pron", "ಇವನ್ನು ಇವನ್ನೂ ಇವನ್ನೇ ಇವುಗಳು ಇವುಗಳ ಇವುಗಳನ್ನು ಇವುಗಳಿಗೆ ಇವುಗಳಲ್ಲಿ ಇವುಗಳಿಂದ ಇವೂ ಇವೇ ಇವುಗಳೂ ಇವುಗಳೇ ಇವುಗಳಲ್ಲೂ"),
+    "ಅವು": ("pron", "ಅವಕ್ಕೆ ಅವಲ್ಲದೆ ಅವಲ್ಲದೇ ಅವನ್ನು ಅವನ್ನೂ ಅವನ್ನೇ ಅವುಗಳು ಅವುಗಳ ಅವುಗಳನ್ನು ಅವುಗಳಿಗೆ ಅವುಗಳಲ್ಲಿ ಅವುಗಳಿಂದ ಅವೂ ಅವೇ ಅವುಗಳೂ ಅವುಗಳೇ ಅವುಗಳಲ್ಲೂ"),
+    "ಇವು": ("pron", "ಇವಕ್ಕೆ ಇವಲ್ಲದೆ ಇವಲ್ಲದೇ ಇವನ್ನು ಇವನ್ನೂ ಇವನ್ನೇ ಇವುಗಳು ಇವುಗಳ ಇವುಗಳನ್ನು ಇವುಗಳಿಗೆ ಇವುಗಳಲ್ಲಿ ಇವುಗಳಿಂದ ಇವೂ ಇವೇ ಇವುಗಳೂ ಇವುಗಳೇ ಇವುಗಳಲ್ಲೂ"),
     "ತಾನು": ("pron", "ತನ್ನನ್ನು ತನಗೆ ತನ್ನಲ್ಲಿ ತನ್ನಿಂದ ತಾನೂ ತಾನೇ ತನಗೂ ತನ್ನದು ತನ್ನದೇ ತನ್ನೊಂದಿಗೆ ತನ್ನನ್ನೇ"),
     "ತಾವು": ("pron", "ತಮ್ಮ ತಮ್ಮನ್ನು ತಮಗೆ ತಮ್ಮಲ್ಲಿ ತಮ್ಮಿಂದ ತಾವೂ ತಾವೇ ತಮಗೂ ತಮ್ಮದು ತಮ್ಮದೇ ತಮ್ಮೊಂದಿಗೆ ತಮ್ಮನ್ನೇ"),
     "ಆತ": ("pron", "ಆತನು ಆತನ ಆತನನ್ನು ಆತನಿಗೆ ಆತನಲ್ಲಿ ಆತನಿಂದ ಆತನೂ ಆತನೇ ಆತನೊಂದಿಗೆ"),
@@ -226,7 +234,7 @@ KANNADA_WORDS = {
     "ವಿರುದ್ಧ": ("postp", "ವಿರುದ್ಧದ ವಿರುದ್ಧವಾಗಿ"),
     "ಹೊರತು": ("postp", "ಹೊರತಾಗಿ ಹೊರತುಪಡಿಸಿ"),
     "ಕಡೆಗೆ": ("postp", ""),
-    "ಸುತ್ತ": ("postp", "ಸುತ್ತಲೂ ಸುತ್ತಮುತ್ತ ಸುತ್ತಮುತ್ತಲಿನ"),
+    "ಸುತ್ತ": ("postp", "ಸುತ್ತಲೂ ಸುತ್ತಮುತ್ತ ಸುತ್ತಮುತ್ತಲಿನ ಸುತ್ತಮುತ್ತಲ ಸುತ್ತಮುತ್ತಲೂ"),
     "ಮುಂಚೆ": ("adv", "ಮುಂಚಿನ"),
     "ಬಳಿ": ("postp", "ಬಳಿಯ ಬಳಿಗೆ ಬಳಿಯಲ್ಲಿ"),
     # Conjunctions and particles.
@@ -411,13 +419,16 @@ KANNADA_FORMS = {
     # ಕಲೆ "art" in compounds (ಕಲಾವಿದ, ಕಲಾ ಪ್ರದರ್ಶನ), not ಕಲಿ "learn" asked a question.
     "ಕಲಾ": "ಕಲೆ",
 }
+# ಮಗು's plural ಮಕ್ಕಳು with its cases (ಮಕ್ಕಳಿಗಾಗಿ, ಮಕ್ಕಳವರೆಗೆ).
+KANNADA_FORMS.update({"ಮಕ್ಕಳ" + t: "ಮಗು" for t in PLURAL_TAILS + UPTO_TAILS if "ಮಕ್ಕಳ" + t not in KANNADA_FORMS})
 # Two spellings of one word: the second's count and forms go to the first (ಸರಕಾರ to ಸರ್ಕಾರ, ಕಾಲೇಜ್ to ಕಾಲೇಜು).
 KANNADA_SPELLINGS = {"ಮುಂದುವರೆ": "ಮುಂದುವರಿ", "ಕಂಪೆನಿ": "ಕಂಪನಿ", "ಸರಕಾರ": "ಸರ್ಕಾರ", "ಜತೆ": "ಜೊತೆ", "ಇತರೆ": "ಇತರ", "ಕಾಲೇಜ್": "ಕಾಲೇಜು",
                      "ವಿಶ್ವವಿದ್ಯಾನಿಲಯ": "ವಿಶ್ವವಿದ್ಯಾಲಯ", "ಅಂತಾರಾಷ್ಟ್ರೀಯ": "ಅಂತರರಾಷ್ಟ್ರೀಯ", "ಇಂಡಿಯ": "ಇಂಡಿಯಾ", "ಅಮೇರಿಕ": "ಅಮೇರಿಕಾ",
+                     "ಅಮೆರಿಕಾ": "ಅಮೇರಿಕಾ", "ಅಮೆರಿಕ": "ಅಮೇರಿಕಾ",
                      # Loanwords written with and without a closing u (ಮೀಟರ್, ಮೀಟರು): the commoner spelling keeps the word.
                      "ಚರ್ಚು": "ಚರ್ಚ್", "ಮೀಟರು": "ಮೀಟರ್", "ಕಿಲೋಮೀಟರು": "ಕಿಲೋಮೀಟರ್", "ಹೋಟೆಲು": "ಹೋಟೆಲ್", "ಸೆಕೆಂಡು": "ಸೆಕೆಂಡ್",
                      "ಸಿಮೆಂಟು": "ಸಿಮೆಂಟ್", "ಹಾರ್ಮೋನು": "ಹಾರ್ಮೋನ್", "ಬಜಾರು": "ಬಜಾರ್", "ಶೇರ್": "ಶೇರು", "ಕಾರ್": "ಕಾರು",
-                     "ವಿದ್ಯುತ್ತು": "ವಿದ್ಯುತ್", "ಸಂಸತ್": "ಸಂಸತ್ತು", "ಪರಿಷತ್": "ಪರಿಷತ್ತು",
+                     "ವಿದ್ಯುತ್ತು": "ವಿದ್ಯುತ್", "ಸಂಸತ್": "ಸಂಸತ್ತು", "ಪರಿಷತ್": "ಪರಿಷತ್ತು", "ಕಾಯಿದೆ": "ಕಾಯ್ದೆ",
                      # Plurals the packs or the corpus give as words of their own, with their case forms.
                      "ಬ್ಯಾಂಕುಗಳು": "ಬ್ಯಾಂಕ್", "ಪಡೆಗಳು": "ಪಡೆ", "ಪ್ರಕಾರಗಳು": "ಪ್ರಕಾರ", "ಬೆಳೆಗಳು": "ಬೆಳೆ", "ಕಾಲೇಜುಗಳು": "ಕಾಲೇಜು",
                      "ದೊರೆಗಳು": "ದೊರೆ", "ಪ್ರೋಟೀನುಗಳು": "ಪ್ರೋಟೀನ್", "ಕತೆಗಳು": "ಕಥೆ", "ಅವರುಗಳು": "ಅವರು", "ಇವರುಗಳು": "ಇವರು",
@@ -500,36 +511,47 @@ def lexicon(dictionaries):
 
 def nominal_forms(word):
     """The case, plural and predicate forms of a noun or adjective, by its ending, with its masculine and human plural
-    declensions apart (they are taken only where the corpus has them)."""
+    declensions apart (they are taken only where the corpus has them), and for a noun in -a its forms written in -ā
+    (ಆಸ್ಟ್ರೇಲಿಯಾದಲ್ಲಿ of ಆಸ್ಟ್ರೇಲಿಯ), taken likewise."""
     last = word[-1]
-    plain, masculine, human = set(), set(), set()
+    plain, masculine, human, long = set(), set(), set(), set()
     plural = word + ("‌ಗಳ" if last == VIRAMA else "ಗಳ")
-    plain |= {plural + t for t in PLURAL_TAILS}
+    plain |= {plural + t for t in PLURAL_TAILS + UPTO_TAILS + ["ಷ್ಟು"]}
     if last in CONSONANTS:
         glide = word + "ವ"
-        plain |= {glide + t for t in NOMINAL_TAILS} | {word + t for t in DA_TAILS}
+        plain |= {glide + t for t in NOMINAL_TAILS + QUOTE_TAILS} | {word + t for t in DA_TAILS}
+        plain |= {word + "ದ" + t for t in UPTO_TAILS + ["ಷ್ಟು"]}
         masculine |= {word + "ನ" + t for t in NOMINAL_TAILS + OBLIQUE_TAILS}
         human |= {word + "ರ" + t for t in NOMINAL_TAILS + OBLIQUE_TAILS}
+        long |= {word + "ಾ" + t for t in DA_TAILS} | {word + "ಾವ" + t for t in NOMINAL_TAILS}
     elif last == "ು":
         stem = word[:-1]
-        plain |= {stem + t for t in NOMINAL_TAILS + OBLIQUE_TAILS[1:] + INA_TAILS}
+        plain |= {stem + t for t in NOMINAL_TAILS + OBLIQUE_TAILS[1:] + INA_TAILS + QUOTE_TAILS}
+        plain |= {stem + "ಿನ" + t for t in UPTO_TAILS}
         # The Sanskrit nouns in -u and ಮಗು take the glide (ಗುರುವಿನ, ವಸ್ತುವನ್ನು, ಮಗುವಿಗೆ).
         glide = word + "ವ"
         plain |= {glide + t for t in NOMINAL_TAILS + ["ಿಗೆ", "ಿಗೂ", "ಿಗಾಗಿ"] + INA_TAILS}
     elif last in "ಿೀೆೇೈ" or last in "ಇಈಎಏಐ":
         glide = word + "ಯ"
-        plain |= {glide + t for t in YA_TAILS} | {word + t for t in DATIVE_TAILS}
+        plain |= {glide + t for t in YA_TAILS + UPTO_TAILS + QUOTE_TAILS} | {word + t for t in DATIVE_TAILS}
         human |= {glide + "ರ" + t for t in NOMINAL_TAILS + OBLIQUE_TAILS}
     elif last in "ಾೂೋೌ":
         glide = word + "ವ"
-        plain |= {glide + t for t in NOMINAL_TAILS + ["ಿಗೆ"] + INA_TAILS} | {word + t for t in DATIVE_TAILS}
+        plain |= {glide + t for t in NOMINAL_TAILS + ["ಿಗೆ"] + INA_TAILS + QUOTE_TAILS} | {word + t for t in DATIVE_TAILS}
+        # A name in -ā takes the -a declension's -ದ and -ಕ್ಕೆ (ಚೀನಾದಲ್ಲಿ, ಅಮೆರಿಕಾಕ್ಕೆ).
+        if last == "ಾ":
+            plain |= {word + t for t in DA_TAILS} | {word + "ದ" + t for t in UPTO_TAILS}
     elif last == VIRAMA:
         # A loanword ending in a consonant: ಬಸ್‌ನಲ್ಲಿ, ಕ್ರಿಕೆಟ್‌ನ, or with the vowel the case brings (ಕ್ರಿಕೆಟಿನ, ಕ್ರಿಕೆಟನ್ನು).
         for joined in (word + "‌", word):
             plain |= {joined + t for t in ["ನ", "ನಲ್ಲಿ", "ನಿಂದ", "ಗೆ", "ನ್ನು", "ನೊಂದಿಗೆ", "ನಂತೆ", "ಗಳು", "ಗಾಗಿ"]}
         stem = word[:-1]
         plain |= {stem + t for t in ["ಿನ", "ಿನಲ್ಲಿ", "ಿನಿಂದ", "ಿಗೆ", "ನ್ನು", "ು", "ೂ", "ೇ", "ಾಗಿ", "ಾದ"]}
-    return plain, masculine, human
+        # A people's plural doubles the last consonant or takes the vowel (ಅಮೆರಿಕನ್ನರು, ಜರ್ಮನರು).
+        if len(word) > 2 and word[-2] in CONSONANTS:
+            human |= {word + word[-2] + "ರ" + t for t in NOMINAL_TAILS + OBLIQUE_TAILS}
+            human |= {stem + "ರ" + t for t in NOMINAL_TAILS + OBLIQUE_TAILS}
+    return plain, masculine, human, long
 
 
 def adjective_forms(word):
@@ -615,11 +637,14 @@ def word_forms(word, ks, counts, helpers):
     if kind == "verb" and "num" not in ks:
         forms |= verb_forms(word, helpers)
     if kind in ("noun", "adj") or ks & {"noun", "adj", "num"}:
-        plain, masculine, human = nominal_forms(word)
+        plain, masculine, human, long = nominal_forms(word)
         forms |= plain
         glide = word + "ಯ" if word[-1] in "ಿೀೆೇೈ" else word
-        for extra, telling in ((masculine, ("ನನ್ನು", "ನಿಗೆ", "ನು")), (human, ("ರನ್ನು", "ರಿಗೆ", "ರು"))):
-            if sum(1 for t in telling if counts.get(glide + t, 0) > 0) >= TELLING_FORMS:
+        # A loanword's human plural is told by its doubled or vowelled stem (ಅಮೆರಿಕನ್ನರು, ಜರ್ಮನರು).
+        people = (word + word[-2], word[:-1]) if word[-1] == VIRAMA and len(word) > 2 else (glide,)
+        for extra, stems, telling in ((masculine, (glide,), ("ನನ್ನು", "ನಿಗೆ", "ನು")), (human, people, ("ರನ್ನು", "ರಿಗೆ", "ರು")),
+                                      (long, (word,), ("ಾದಲ್ಲಿ", "ಾಕ್ಕೆ", "ಾದಿಂದ", "ಾವನ್ನು"))):
+            if sum(1 for t in telling for stem in stems if counts.get(stem + t, 0) > 0) >= TELLING_FORMS:
                 forms |= extra
     if "adj" in ks:
         forms |= adjective_forms(word)
