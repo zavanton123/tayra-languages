@@ -4,8 +4,8 @@ Each course teaches one band of 100 words from the Mongolian word frequency list
 (`bands/<rankUpTo>.txt`: index, rank, word, its common forms). Course `mn-mini-0300` teaches ranks
 201–300 and may use every word ranked 1–300. Ten lessons, each introducing about ten of the band's
 words, so the course covers the band; a learner who finishes it knows the 300 most common words.
-`themes.tsv` gives each course its theme. The list has 4,355 words, so there are 44 courses,
-`mn-mini-0100` … `mn-mini-4400` (the last teaches ranks 4301–4355).
+`themes.tsv` gives each course its theme. The list has 4,263 words, so there are 43 courses,
+`mn-mini-0100` … `mn-mini-4300` (the last teaches ranks 4201–4263).
 
 ## What the lessons are: mini stories
 
@@ -122,3 +122,7 @@ then `C1`.
 - Skip list noise: names and titles (*чингис*, *улаанбаатар*, *богд*, *байгал*), the
   multi-word entries (*засгийн газар*, *элчин сайд*, *гэр бүл*: the checker counts their words
   one by one) and the rare homographs a common word's form made (*авс*, *эрхий*, *дун*, *монголч*).
+- Past rank 3800 the list was rebuilt without that noise: it has no multi-word entries, leaves out
+  the names the texts capitalise (places, people, gods, titles, peoples), and files a verb's
+  participles and converbs (*хуурсан*, *бололгүй*) and the pack's form entries under their words.
+  What is left there is rare but real: plain things, animals, plants, tools, food, science words.
