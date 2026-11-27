@@ -137,10 +137,20 @@ internal val zhCommon: Map<String, String> = mapOf(
     "Learning language: {0}" to "学习语言：{0}",
     "Select the language to study" to "选择要学习的语言",
     "Search languages" to "搜索语言",
+
+    // LearningLanguage.kt, the language chips
+    "Popular" to "热门",
+    "My languages" to "我的语言",
+    "Europe" to "欧洲",
+    "Asia" to "亚洲",
+    "Middle East" to "中东",
+    "Africa" to "非洲",
+    "Americas & Pacific" to "美洲与太平洋",
+    "Classical" to "古典语言",
+    "Constructed" to "人造语言",
     "All languages" to "全部语言",
     "{0} languages" to "{0} 种语言",
     "No languages match" to "没有匹配的语言",
-    "Jump to {0}" to "跳转到 {0}",
     "Selected" to "已选择",
 
     // TagInput.kt

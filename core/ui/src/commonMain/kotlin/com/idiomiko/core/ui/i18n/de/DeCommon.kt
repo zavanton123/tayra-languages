@@ -137,10 +137,20 @@ internal val deCommon: Map<String, String> = mapOf(
     "Learning language: {0}" to "Lernsprache: {0}",
     "Select the language to study" to "Sprache zum Lernen wählen",
     "Search languages" to "Sprachen suchen",
+
+    // LearningLanguage.kt, the language chips
+    "Popular" to "Beliebt",
+    "My languages" to "Meine Sprachen",
+    "Europe" to "Europa",
+    "Asia" to "Asien",
+    "Middle East" to "Naher Osten",
+    "Africa" to "Afrika",
+    "Americas & Pacific" to "Amerika & Pazifik",
+    "Classical" to "Klassische",
+    "Constructed" to "Plansprachen",
     "All languages" to "Alle Sprachen",
     "{0} languages" to "{0} Sprache|{0} Sprachen",
     "No languages match" to "Keine passenden Sprachen",
-    "Jump to {0}" to "Zu {0} springen",
     "Selected" to "Ausgewählt",
 
     // TagInput.kt

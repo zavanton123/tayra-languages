@@ -137,10 +137,20 @@ internal val plCommon: Map<String, String> = mapOf(
     "Learning language: {0}" to "Język nauki: {0}",
     "Select the language to study" to "Wybierz język do nauki",
     "Search languages" to "Szukaj języków",
+
+    // LearningLanguage.kt, the language chips
+    "Popular" to "Popularne",
+    "My languages" to "Moje języki",
+    "Europe" to "Europa",
+    "Asia" to "Azja",
+    "Middle East" to "Bliski Wschód",
+    "Africa" to "Afryka",
+    "Americas & Pacific" to "Ameryki i Pacyfik",
+    "Classical" to "Klasyczne",
+    "Constructed" to "Sztuczne",
     "All languages" to "Wszystkie języki",
     "{0} languages" to "{0} język|{0} języki|{0} języków",
     "No languages match" to "Brak pasujących języków",
-    "Jump to {0}" to "Przejdź do {0}",
     "Selected" to "Wybrano",
 
     // TagInput.kt

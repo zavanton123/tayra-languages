@@ -1,10 +1,12 @@
 package com.idiomiko.core.ui.components
 
-import androidx.compose.runtime.mutableIntStateOf
-import androidx.compose.ui.platform.LocalDensity
-import androidx.compose.ui.layout.onSizeChanged
 import com.idiomiko.core.domain.morphology.ChineseScript
 import androidx.compose.foundation.LocalIndication
+import com.idiomiko.core.domain.language.LanguageRegions
+import com.idiomiko.core.domain.language.LanguageRegion
+import androidx.compose.runtime.key
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -42,7 +44,6 @@ import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
-import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.setValue
 import androidx.compose.runtime.staticCompositionLocalOf
 import androidx.compose.ui.Alignment
@@ -53,6 +54,7 @@ import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.focus.focusRequester
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.semantics.contentDescription
+import androidx.compose.ui.semantics.selected
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
@@ -70,7 +72,6 @@ import com.idiomiko.core.ui.theme.AppShapes
 import com.idiomiko.core.ui.theme.AppSizes
 import com.idiomiko.core.ui.theme.AppSpacing
 import com.idiomiko.core.ui.theme.AppText
-import kotlinx.coroutines.launch
 
 /**
  * The language being learned and the ones to choose from; [languages] are ids with their English names, shown through `tr`.
@@ -280,15 +281,12 @@ private fun PhoneLanguageList(state: LearningLanguageState?, title: String, onBa
     var query by remember { mutableStateOf("") }
     val needle = query.trim().lowercase()
     val mine = if (onBack == null) emptyList() else state?.myChoices.orEmpty()
-    val others = state?.choices.orEmpty().filter { it !in mine && it.matches(needle) }
+    val offered = state?.choices.orEmpty().filter { it !in mine }
+    val chips = languageChips(offered, mine = emptyList())
+    var chip by remember { mutableStateOf(chips.first()) }
+    val others = shownLanguages(offered, emptyList(), chip, needle)
     val list = rememberLazyListState()
-    val scope = rememberCoroutineScope()
-    // The rows before the languages: search and the heading.
-    val rowsBefore = 2
-    val letters = others.map { tr(it.label).first().uppercaseChar() }.distinct()
-    // The first choice, made once, is a plain list; adding a language from the settings has the letters to jump by.
-    val indexed = onBack != null && letters.size > 1
-    var indexWidth by remember { mutableIntStateOf(0) }
+    LaunchedEffect(chip) { list.scrollToItem(0) }
     Scaffold(
         topBar = {
             CenterAlignedTopAppBar(
@@ -312,43 +310,30 @@ private fun PhoneLanguageList(state: LearningLanguageState?, title: String, onBa
                         fieldModifier = Modifier.testTag("language-search"),
                     )
                 }
-                item { PhoneSectionTitle(tr("All languages"), trPlural(others.size, "{0} language", "{0} languages")) }
+                item {
+                    LanguageChipRow(chips, chip.takeIf { needle.isEmpty() }, { it.count(offered, emptyList()) }, Modifier.padding(top = AppSpacing.m), inset = AppSpacing.l) {
+                        query = ""
+                        chip = it
+                    }
+                }
+                item { PhoneSectionTitle(if (needle.isEmpty()) chip.title() else tr("All languages"), trPlural(others.size, "{0} language", "{0} languages")) }
                 if (others.isEmpty()) {
                     item { Text(tr("No languages match"), Modifier.padding(horizontal = AppSpacing.l, vertical = AppSpacing.l), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant) }
                 }
                 itemsIndexed(others, key = { _, choice -> choice.tag }) { index, choice -> Column(itemMotion()) {
                     Row(
                         Modifier.fillMaxWidth().clickable { onChosen(); state.select(choice) }
-                            .padding(start = AppSpacing.xxl, end = if (indexed) AppSpacing.huge else AppSpacing.xxl, top = AppSpacing.m, bottom = AppSpacing.m).testTag(choice.tag),
+                            .padding(horizontal = AppSpacing.xxl, vertical = AppSpacing.m).testTag(choice.tag),
                         verticalAlignment = Alignment.CenterVertically,
                         horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl),
                     ) {
                         LanguageFlag(choice.label, 30.dp, Modifier.clip(AppShapes.tiny))
                         Text(tr(choice.label), Modifier.weight(1f), style = MaterialTheme.typography.bodyLarge, maxLines = 1, overflow = TextOverflow.Ellipsis)
                     }
-                    if (index < others.lastIndex) AppDivider(Modifier.padding(start = AppSpacing.l, end = if (indexed) AppSpacing.xxxl else AppSpacing.l), color = colors.outlineVariant.copy(alpha = AppAlpha.muted))
+                    if (index < others.lastIndex) AppDivider(Modifier.padding(horizontal = AppSpacing.l), color = colors.outlineVariant.copy(alpha = AppAlpha.muted))
                 }}
             }
-            if (indexed) {
-                Column(Modifier.align(Alignment.CenterEnd).onSizeChanged { indexWidth = it.width }.padding(end = AppSpacing.xs), horizontalAlignment = Alignment.CenterHorizontally) {
-                    letters.forEach { letter ->
-                        Text(
-                            letter.toString(),
-                            Modifier.clip(AppShapes.circle)
-                                .clickable(onClickLabel = tr("Jump to {0}", letter.toString())) {
-                                    val target = others.indexOfFirst { tr(it.label).first().uppercaseChar() == letter }
-                                    if (target >= 0) scope.launch { list.animateScrollToItem(rowsBefore + target) }
-                                }
-                                .padding(horizontal = AppSpacing.xs, vertical = AppSpacing.xxs)
-                                .testTag("index-$letter"),
-                            style = AppText.badge,
-                            color = colors.primary,
-                        )
-                    }
-                }
-            }
-            // On the desktop, the bar runs beside the letters rather than under them.
-            EdgeScrollbar(list, Modifier.padding(end = with(LocalDensity.current) { indexWidth.toDp() }))
+            EdgeScrollbar(list)
         }
     }
 }
@@ -408,8 +393,13 @@ private fun LanguageDialog(
     // A phone's keyboard would cover the languages.
     LaunchedEffect(Unit) { if (!width.isCompact) runCatching { focus.requestFocus() } }
     val needle = query.trim().lowercase()
-    val mine = if (mode == LanguageDialogMode.ADD) state.myChoices else emptyList()
-    val others = state.choices.filter { it !in mine && it.matches(needle) }
+    val excluded = if (mode == LanguageDialogMode.ADD) state.myChoices else emptyList()
+    val offered = state.choices.filter { it !in excluded }
+    // Switching starts on the languages being learned; choosing a new one, on the popular ones.
+    val mine = if (mode == LanguageDialogMode.SWITCH) state.myChoices else emptyList()
+    val chips = languageChips(offered, mine)
+    var chip by remember { mutableStateOf(chips.first()) }
+    val others = shownLanguages(offered, mine, chip, needle)
     val current = state.current.takeIf { mode == LanguageDialogMode.SWITCH }
     AppDialogSurface(onDismissRequest = onDismiss, modifier = Modifier.fillMaxHeight(if (width.isCompact) 1f else 0.92f).testTag(if (required) "target-language-dialog" else "language-dialog"), maxWidth = 1160.dp, dismissible = !required) {
         Column(Modifier.padding(horizontal = if (width.isCompact) AppSpacing.xl else AppSpacing.xxxl, vertical = AppSpacing.xxl)) {
@@ -426,8 +416,13 @@ private fun LanguageDialog(
                 modifier = Modifier.fillMaxWidth().padding(top = AppSpacing.xxl),
                 fieldModifier = Modifier.focusRequester(focus).testTag("language-search"),
             )
-            ScrollColumn(Modifier.fillMaxWidth().weight(1f), contentModifier = Modifier.padding(top = AppSpacing.s, end = AppSpacing.l)) {
-                SectionTitle(tr("All languages"), trPlural(others.size, "{0} language", "{0} languages"))
+            LanguageChipRow(chips, chip.takeIf { needle.isEmpty() }, { it.count(offered, mine) }, Modifier.padding(top = AppSpacing.l)) {
+                query = ""
+                chip = it
+            }
+            // Each chip's languages start from the top.
+            key(chip) { ScrollColumn(Modifier.fillMaxWidth().weight(1f), contentModifier = Modifier.padding(top = AppSpacing.s, end = AppSpacing.l)) {
+                SectionTitle(if (needle.isEmpty()) chip.title() else tr("All languages"), trPlural(others.size, "{0} language", "{0} languages"))
                 if (others.isEmpty()) {
                     Text(tr("No languages match"), Modifier.padding(vertical = AppSpacing.l), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
                 }
@@ -440,7 +435,57 @@ private fun LanguageDialog(
                         repeat(columns - row.size) { Spacer(Modifier.weight(1f)) }
                     }
                 }
-            }
+            } }
+        }
+    }
+}
+
+/** A chip narrowing the languages offered: those being learned, the popular ones, every one, or one group's. */
+private enum class LanguageChip(val region: LanguageRegion? = null) {
+    MINE, POPULAR, ALL,
+    EUROPE(LanguageRegion.EUROPE), ASIA(LanguageRegion.ASIA), MIDDLE_EAST(LanguageRegion.MIDDLE_EAST), AFRICA(LanguageRegion.AFRICA),
+    AMERICAS_PACIFIC(LanguageRegion.AMERICAS_PACIFIC), CLASSICAL(LanguageRegion.CLASSICAL), CONSTRUCTED(LanguageRegion.CONSTRUCTED);
+
+    fun holds(choice: LanguageChoice, mine: List<LanguageChoice>): Boolean = when (this) {
+        MINE -> choice in mine
+        POPULAR -> choice.name in LanguageRegions.popular
+        ALL -> true
+        else -> region in LanguageRegions.of(choice.name)
+    }
+
+    fun count(offered: List<LanguageChoice>, mine: List<LanguageChoice>): Int = offered.count { holds(it, mine) }
+
+    @Composable
+    fun title(): String = when (this) {
+        MINE -> tr("My languages")
+        POPULAR -> tr("Popular")
+        ALL -> tr("All")
+        EUROPE -> tr("Europe")
+        ASIA -> tr("Asia")
+        MIDDLE_EAST -> tr("Middle East")
+        AFRICA -> tr("Africa")
+        AMERICAS_PACIFIC -> tr("Americas & Pacific")
+        CLASSICAL -> tr("Classical")
+        CONSTRUCTED -> tr("Constructed")
+    }
+}
+
+/** The chips that hold any of the languages [offered], All always; the first is the one to start on. */
+private fun languageChips(offered: List<LanguageChoice>, mine: List<LanguageChoice>): List<LanguageChip> =
+    LanguageChip.entries.filter { it == LanguageChip.ALL || it.count(offered, mine) > 0 }
+
+/** The languages under [chip], or, while [needle] is searched for, those of every chip that match it. */
+@Composable
+private fun shownLanguages(offered: List<LanguageChoice>, mine: List<LanguageChoice>, chip: LanguageChip, needle: String): List<LanguageChoice> =
+    if (needle.isEmpty()) offered.filter { chip.holds(it, mine) } else offered.filter { it.matches(needle) }
+
+/** The chips in a row that scrolls sideways, each with how many languages it holds; none is lit while searching. */
+@Composable
+private fun LanguageChipRow(chips: List<LanguageChip>, selected: LanguageChip?, count: (LanguageChip) -> Int, modifier: Modifier = Modifier, inset: Dp = 0.dp, onSelect: (LanguageChip) -> Unit) {
+    // The inset scrolls with the chips, so the row lines up with the search box yet runs to the edge.
+    Row(modifier.fillMaxWidth().horizontalScroll(rememberScrollState()).padding(horizontal = inset), horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+        chips.forEach { chip ->
+            SelectableChip(chip.title(), selected = chip == selected, onClick = { onSelect(chip) }, count = count(chip), modifier = Modifier.semantics { this.selected = chip == selected }.testTag("language-chip-${chip.name}"))
         }
     }
 }

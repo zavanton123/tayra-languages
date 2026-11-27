@@ -9,6 +9,8 @@ import androidx.compose.ui.test.ExperimentalTestApi
 import androidx.compose.ui.test.captureToImage
 import androidx.compose.ui.test.isRoot
 import androidx.compose.ui.test.assertIsDisplayed
+import androidx.compose.ui.test.performTextInput
+import androidx.compose.ui.test.assertIsSelected
 import androidx.compose.ui.test.onAllNodesWithTag
 import androidx.compose.ui.test.onAllNodesWithText
 import androidx.compose.ui.test.onAllNodesWithContentDescription
@@ -58,11 +60,29 @@ class LanguageDialogTest {
         System.getenv(env)?.let { waitForIdle(); ImageIO.write(onAllNodes(isRoot())[0].captureToImage().toAwtImage(), "png", File(it)) }
     }
 
+    /** Adding a language starts on the popular ones; the chips narrow the rest by group, and searching looks through every one. */
     @Test
     fun wideWindow() = runDesktopComposeUiTest(width = 1586, height = 1000) {
         open(compact = false)
-        onNodeWithText("29 languages").assertExists()
+        // The popular ones but Portuguese, being learned already.
+        onNodeWithTag("language-chip-POPULAR").assertIsSelected()
+        onNodeWithText("7 languages").assertExists()
         save("LANGUAGE_DIALOG_SCREENSHOT")
+        onNodeWithTag("language-chip-ALL").performClick()
+        onNodeWithText("29 languages").assertExists()
+        onNodeWithTag("language-chip-EUROPE").performClick()
+        onNodeWithText("28 languages").assertExists()
+        assertEquals(0, onAllNodesWithTag("language-la").fetchSemanticsNodes().size, "Latin is classical")
+        assertEquals(0, onAllNodesWithTag("language-chip-AFRICA").fetchSemanticsNodes().size, "no chip for a group with nothing in it")
+        assertEquals(0, onAllNodesWithTag("language-chip-MINE").fetchSemanticsNodes().size, "the languages being learned are not offered for adding")
+        // Russian is in Asia as well as Europe.
+        onNodeWithTag("language-chip-ASIA").performClick()
+        onNodeWithText("1 language").assertExists()
+        onNodeWithTag("language-ru").assertExists()
+        onNodeWithTag("language-search").performTextInput("lat")
+        onNodeWithText("2 languages").assertExists()
+        onNodeWithTag("language-la").assertExists()
+        onNodeWithTag("language-lv").assertExists()
     }
 
     /** With no language chosen yet, as on first start, the dialog asks for one and cannot be closed without choosing. */
@@ -73,27 +93,28 @@ class LanguageDialogTest {
         setContent { IdiomikoTheme { ProvideWindowWidth { TargetLanguageDialog(state) } } }
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Select the language to study").fetchSemanticsNodes().isNotEmpty() }
         assertEquals(0, onAllNodesWithText("Choose the language you want to study").fetchSemanticsNodes().size, "no line under the title")
-        onNodeWithText("30 languages").assertExists()
+        onNodeWithText("8 languages").assertExists()
         assertEquals(0, onAllNodesWithTag("current-language").fetchSemanticsNodes().size)
         assertEquals(0, onAllNodesWithContentDescription("Close").fetchSemanticsNodes().size)
         assertEquals(0, onAllNodesWithContentDescription("Back").fetchSemanticsNodes().size, "no way out but choosing")
-        assertEquals(0, onAllNodesWithTag("index-A").fetchSemanticsNodes().size, "a plain list, without the letters to jump by")
+        onNodeWithTag("language-chip-POPULAR").assertIsSelected()
         // A phone gives the choice the whole screen rather than a dialog over the page.
         val list = onNodeWithTag("target-language-dialog").fetchSemanticsNode().boundsInRoot
         assertEquals(0f, list.left)
         assertEquals(with(density) { 420.dp.toPx() }, list.right, 1f)
         save("TARGET_LANGUAGE_DIALOG_SCREENSHOT")
+        onNodeWithTag("language-chip-EUROPE").performClick()
         onNodeWithTag("language-be").performClick()
         assertEquals(listOf(2L), chosen)
     }
 
-    /** A wide window asks for the first language in a dialog, with every language as a tile. */
+    /** A wide window asks for the first language in a dialog, starting on the popular languages as tiles. */
     @Test
     fun aWideWindowAsksForTheFirstLanguageInADialog() = runDesktopComposeUiTest(width = 1586, height = 1000) {
         val state = LearningLanguageState(names.mapIndexed { i, n -> (i + 1L) to n }, 0L) {}
         setContent { IdiomikoTheme { ProvideWindowWidth { TargetLanguageDialog(state) } } }
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Select the language to study").fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithText("30 languages").assertExists()
+        onNodeWithText("8 languages").assertExists()
         assertTrue(onNodeWithTag("target-language-dialog").fetchSemanticsNode().boundsInRoot.left > 0f, "a dialog, inset from the window's edge")
     }
 
@@ -111,7 +132,7 @@ class LanguageDialogTest {
         assertEquals(0, onAllNodesWithText("Add a language").fetchSemanticsNodes().size, "no dialog")
     }
 
-    /** The phone's screen: the languages not being learned, with a letter index that brings them into view, and a choice that goes back. */
+    /** The phone's screen: the languages not being learned, under chips and a search that finds any, and a choice that goes back. */
     @Test
     fun theLanguageScreen() = runDesktopComposeUiTest(width = 420, height = 900) {
         val chosen = mutableListOf<Long>()
@@ -121,12 +142,12 @@ class LanguageDialogTest {
             IdiomikoTheme { ProvideWindowWidth { CompositionLocalProvider(LocalLearningLanguage provides state) { ChooseLanguageScreen(onBack = { back++ }) } } }
         }
         onNodeWithText("Add a language").assertExists()
-        onNodeWithText("29 languages").assertExists()
+        onNodeWithText("7 languages").assertExists()
         assertEquals(0, onAllNodesWithTag("language-pt").fetchSemanticsNodes().size, "the language being learned is not offered")
         save("LANGUAGE_DIALOG_PHONE_SCREENSHOT")
-        // Far down the list, Swedish is not even laid out yet.
-        assertEquals(0, onAllNodesWithTag("language-sv").fetchSemanticsNodes().size)
-        onNodeWithTag("index-S").performClick()
+        onNodeWithTag("language-chip-ALL").performClick()
+        onNodeWithText("29 languages").assertExists()
+        onNodeWithTag("language-search").performTextInput("swe")
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("language-sv").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithTag("language-sv").assertIsDisplayed().performClick()
         assertEquals(listOf(names.indexOf("Swedish") + 1L), chosen)

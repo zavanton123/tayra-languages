@@ -137,10 +137,20 @@ internal val ruCommon: Map<String, String> = mapOf(
     "Learning language: {0}" to "Изучаемый язык: {0}",
     "Select the language to study" to "Выберите язык для изучения",
     "Search languages" to "Поиск языков",
+
+    // LearningLanguage.kt, the language chips
+    "Popular" to "Популярные",
+    "My languages" to "Мои языки",
+    "Europe" to "Европа",
+    "Asia" to "Азия",
+    "Middle East" to "Ближний Восток",
+    "Africa" to "Африка",
+    "Americas & Pacific" to "Америка и Океания",
+    "Classical" to "Классические",
+    "Constructed" to "Искусственные",
     "All languages" to "Все языки",
     "{0} languages" to "{0} язык|{0} языка|{0} языков",
     "No languages match" to "Подходящих языков нет",
-    "Jump to {0}" to "Перейти к {0}",
     "Selected" to "Выбрано",
 
     // TagInput.kt

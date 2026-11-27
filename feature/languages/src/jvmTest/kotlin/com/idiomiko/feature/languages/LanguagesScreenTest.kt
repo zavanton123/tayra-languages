@@ -62,8 +62,11 @@ class LanguagesScreenTest {
         // The language to learn is chosen in the large dialog of every language, the current one ticked.
         onNodeWithTag("learning-language").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Select the language to study")).fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithText("3 languages").assertExists()
+        // It opens on the languages being learned, here Portuguese alone, ticked.
+        onNodeWithText("1 language").assertExists()
         onNodeWithContentDescription("Selected").assertExists()
+        onNodeWithTag("language-chip-ALL").performClick()
+        onNodeWithText("3 languages").assertExists()
         System.getenv("LANGUAGES_MENU_SCREENSHOT")?.let { path -> waitForIdle(); ImageIO.write(onAllNodes(isRoot())[0].captureToImage().toAwtImage(), "png", File(path)) }
         onNodeWithTag("language-de").performClick()
         waitUntil(timeoutMillis = 5_000) { learningId == 2L }

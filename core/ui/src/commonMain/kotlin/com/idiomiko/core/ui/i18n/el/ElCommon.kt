@@ -137,10 +137,20 @@ internal val elCommon: Map<String, String> = mapOf(
     "Learning language: {0}" to "Γλώσσα εκμάθησης: {0}",
     "Select the language to study" to "Επιλέξτε τη γλώσσα που θα μελετήσετε",
     "Search languages" to "Αναζήτηση γλωσσών",
+
+    // LearningLanguage.kt, the language chips
+    "Popular" to "Δημοφιλείς",
+    "My languages" to "Οι γλώσσες μου",
+    "Europe" to "Ευρώπη",
+    "Asia" to "Ασία",
+    "Middle East" to "Μέση Ανατολή",
+    "Africa" to "Αφρική",
+    "Americas & Pacific" to "Αμερική & Ειρηνικός",
+    "Classical" to "Κλασικές",
+    "Constructed" to "Τεχνητές",
     "All languages" to "Όλες οι γλώσσες",
     "{0} languages" to "{0} γλώσσα|{0} γλώσσες",
     "No languages match" to "Δεν βρέθηκαν γλώσσες",
-    "Jump to {0}" to "Μετάβαση σε: {0}",
     "Selected" to "Επιλεγμένη",
 
     // TagInput.kt
