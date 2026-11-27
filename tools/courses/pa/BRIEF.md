@@ -4,8 +4,8 @@ Each course teaches one band of 100 words from the Punjabi word frequency list
 (`bands/<rankUpTo>.txt`: index, rank, word, its common forms). Course `pa-mini-0300` teaches ranks
 201–300 and may use every word ranked 1–300. Ten lessons, each introducing about ten of the band's
 words, so the course covers the band; a learner who finishes it knows the 300 most common words.
-`themes.tsv` gives each course its theme. The list has 8,290 words: the last course is `pa-mini-8300`
-(ranks 8201–8290).
+`themes.tsv` gives each course its theme. The list has 7,483 words: the last course is `pa-mini-7500`
+(ranks 7401–7483).
 
 Punjabi is written here in Gurmukhi (ਗੁਰਮੁਖੀ), the script of East Punjab, never in Shahmukhi.
 
@@ -68,12 +68,9 @@ story; a lesson never needs another lesson to make sense.
   - ranks 5001–6000 (C1): the same, with the more specialised words of professions, sciences and
     the arts, each made clear by its context, and texts that explain a process or compare
     viewpoints in some depth;
-  - ranks 6001–8000 (C1): the same, with figurative language and idioms used more freely, words
+  - ranks 6001–7483 (C1): the same, with figurative language and idioms used more freely, words
     chosen for their shades of meaning, and topics that need some background, which the text
-    gives;
-  - ranks 8001–8290 (C2): texts close to what native readers meet: literary prose, academic and
-    journalistic registers, learned words explained by their context. Still standalone, calm and
-    easy to follow for a reader at the level.
+    gives.
   After rank 1000 sentences get longer and joined, dialogue can carry more of the story, and a story
   may be told by a first-person narrator or as an e-mail, a letter or a diary entry. From rank 2000 a
   lesson may also be a short informative or opinion text, as long as it is everyday, calm and easy to
@@ -185,6 +182,12 @@ Levels: up to rank 300 `A1`, up to 1000 `A2`, up to 2000 `B1`, up to 4000 `B2`, 
   words rank high (*ਸਰਕਾਰ* 86, *ਖੇਤਰ* 81, *ਅਨੁਸਾਰ* 98, *ਸਾਹਿਤ*), and everyday ones low: *ਮਾਂ* 161,
   *ਭਰਾ* 223, *ਕੁੜੀ* 279, *ਭੈਣ* 343, *ਮੁੰਡਾ* 461, *ਦੋਸਤ* 464, *ਚਾਹ* 614, *ਦੁੱਧ* 623, *ਕਮਰਾ* 740,
   *ਰੋਟੀ* 819, *ਕੁੱਤਾ* 987, *ਬਿੱਲੀ* (as *ਬਿੱਲਾ*) 1142, *ਕਿੱਥੇ* 1174, *ਕਦੋਂ* 1223.
+- **Past rank 3100 the list was rebuilt** (ranks 1–3100 and their bands are as they were): a word counts
+  each article or web page twice at most, and not where it is a piece of a name (after a title, before
+  *ਸਿੰਘ*, *ਕੌਰ*, *ਖ਼ਾਨ* or a surname); given names, places and the English of names and titles are out
+  (*ਐਡਵਰਡ*, *ਸੰਗਰੂਰ*, *ਹੈਲਥ*); other spellings, plurals, obliques and feminines are filed under their word
+  (*ਸਵਾਦ* under *ਸੁਆਦ*, *ਬਦਲਨਾ* under *ਬਦਲਣਾ*, *ਮੁੱਲਾਂ* under *ਮੁੱਲ*, *ਹੇਠਲੀ* under *ਹੇਠਲਾ*, *ਬਣਕੇ*
+  under *ਬਣਨਾ*); *ਆਗਿਆ* "permission" (3101) and *ਸਤਰ* "line" are words of their own.
 - Every list word has an entry in the pa-en dictionary pack (English Wiktionary), which is small:
   common words it lacks are not in the list at all (*ਪਰਿਵਾਰ* is, but not *ਦੌਰਾਨ*, *ਸ਼ਾਮਲ*, *ਸਿਰਫ*,
   *ਹਿੱਸਾ*, *ਲਗਭਗ*, *ਦਾਲ*, *ਪਾਪਾ*, *ਬੇਟੀ*). Such a word counts as outside the range at every level:
