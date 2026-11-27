@@ -7748,6 +7748,12 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
         # A Pashto word's count is only its uses as that word: not as a piece, beside a name or joined (frequency_pashto.fold).
         frequency_pashto.fold(scores, forms, set(pos) | {f for f, of in lemmas.items() if of},
                               os.path.join(DICTIONARIES, "ps-en.sqlite"))
+    if language == "pa":
+        # A Punjabi word's count is only its uses as that word, spread over the pages: not beside names or as a piece
+        # (frequency_punjabi.fold).
+        frequency_punjabi.fold(scores, forms, pos, lemmas, DICTIONARIES, [
+            download(f"https://downloads.wortschatz-leipzig.de/corpora/{corpus}.tar.gz", f"leipzig-{corpus}.tar.gz")
+            for corpus in FALLBACKS["pa"]["leipzig"]])
     if language == "mt":
         # A Maltese word of the counts that is a listed word's participle, verb form, passive, plural or other spelling is that
         # word's; names and compounds' first pieces are no words (frequency_maltese.fold).

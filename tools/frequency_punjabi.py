@@ -22,12 +22,20 @@ ones are left out by hand (NOT_WORDS), and WORDS are added by hand.
 And the pack has many words twice, spelled with and without the nukta or addak (ਜ਼ਮੀਨ and ਜਮੀਨ, ਖ਼ੁਸ਼ੀ and ਖੁਸ਼ੀ, ਪੱਗ
 and ਪਗ): two words spelled so that share a word of their glosses are one, under the spelling texts use most (spellings).
 Two that share none stay apart (ਸਾਲ "year", ਸ਼ਾਲ "shawl"; ਪਤਾ "address", ਪੱਤਾ "leaf").
+
+Once counted (fold), a form counts only its uses as a word, spread over the corpus's pages: not what one article repeats,
+nor its uses as a piece of a name or of a word a space split (read_usage); a noun mostly so used is a name and left out.
+A verb's forms that tell no verb count for it only beside its telling ones (_unpieced).
 """
 import heapq
+import io
 import json
 import os
 import re
 import sqlite3
+import tarfile
+import unicodedata
+from collections import Counter
 
 NUKTA = "਼"
 ADDAK = "ੱ"
@@ -463,3 +471,118 @@ def relink(freq, pos, lemmas, is_word, count, overrides, excluded, dictionaries,
         for form in forms - {word}:
             lemmas[form] = [word]
     return {w: [head] for w, head in moved.items() if w not in overrides}
+
+
+# How the sentences use a word (read_usage), once it is counted: a page (an article, a web page) counts it PAGE_MOST times at
+# most, so that a word one article or blog repeats (ਰਾਮਾਨੁਜਨ, ਸਪਿੱਨੌਰ, ਜਨਮਸਾਖੀ) is not a common one; and its uses as a name's
+# piece count for nothing: after a title (ਡਾ ਰਵਿੰਦਰ, ਸ੍ਰੀ ਲੰਕਾ), before a Sikh or Muslim name's second part or a surname
+# (ਕੁਲਦੀਪ ਸਿੰਘ, ਸਲਮਾਨ ਖ਼ਾਨ, ਸੰਜੇ ਦੱਤ), or beside a word no word of the list explains that the sentences have fewer than
+# RARE_SEEN times (the news's and Wikipedia's other names and English: ਰਿਚਰਡ ਨਿਕਸਨ, ਮਾਰਟਿਨ ਲੂਥਰ, ਹੋਮ ਗਾਰਡ).
+PAGE_MOST = 2
+RARE_SEEN = 40
+TITLES = set("""
+ਡਾ ਸ ਸ੍ਰ ਸ੍ਰੀ ਸ਼੍ਰੀ ਸ੍ਰੀਮਤੀ ਸ਼੍ਰੀਮਤੀ ਸਰ ਸੇਂਟ ਕਿੰਗ ਲਾਰਡ ਪੰਡਤ ਪੰਡਿਤ ਮਿਸਟਰ ਮਿਸ ਮੌਲਾਨਾ ਬਾਬਾ ਭਾਈ ਸੰਤ ਪ੍ਰੋ ਪ੍ਰੋਫੈਸਰ
+ਪ੍ਰੋਫ਼ੈਸਰ ਮਹਾਰਾਜਾ ਰਾਜਾ ਰਾਣੀ ਬੀਬੀ ਸ਼ੇਖ ਮੀਆਂ ਸਰਦਾਰ ਗਿਆਨੀ ਜਥੇਦਾਰ ਕਾਮਰੇਡ ਹਜ਼ਰਤ ਬਾਬੂ ਕੈਪਟਨ ਕਰਨਲ ਮੇਜਰ ਸਵਾਮੀ ਮੁਹੰਮਦ
+""".split())
+NAME_PARTS = set("""
+ਸਿੰਘ ਕੌਰ ਖ਼ਾਨ ਖਾਨ ਅਲੀ ਮੁਹੰਮਦ ਕੁਮਾਰ ਪ੍ਰਸਾਦ ਨਾਥ ਰਾਓ ਸ਼ਰਮਾ ਗੁਪਤਾ ਵਰਮਾ ਗਾਂਧੀ ਦੱਤ ਬਾਜਵਾ ਸੰਧੂ ਗਿੱਲ ਢਿੱਲੋਂ ਸਿੱਧੂ ਗਰੇਵਾਲ
+ਬਰਾੜ ਚੀਮਾ ਬੇਦੀ ਕਪੂਰ ਜੋਸ਼ੀ ਯਾਦਵ ਪਟੇਲ ਮਹਿਤਾ ਮਲਿਕ ਅਹਿਮਦ ਹੁਸੈਨ
+""".split())
+# A noun the sentences use as a name's piece (above) NAMED_SHARE of the times they have it is a name, and left out.
+NAMED_SHARE = 0.45
+LETTERS = re.compile("[\u0a01-\u0a65\u0a70-\u0a75]+")
+
+
+def _sentences(corpora):
+    """Each sentence of the Leipzig archives [corpora] as (its page, its words)."""
+    for path in corpora:
+        if not path:
+            continue
+        name = os.path.basename(path)
+        with tarfile.open(path) as tar:
+            members = {m.name.rsplit("-", 1)[-1]: m for m in tar.getmembers() if m.isfile()}
+            page_of = {}
+            for line in io.TextIOWrapper(tar.extractfile(members["inv_so.txt"]), encoding="utf-8"):
+                source, sentence = line.rstrip("\n").split("\t")[:2]
+                page_of[sentence] = source
+            for line in io.TextIOWrapper(tar.extractfile(members["sentences.txt"]), encoding="utf-8"):
+                number, _, text = line.rstrip("\n").partition("\t")
+                yield name + "/" + page_of.get(number, ""), LETTERS.findall(unicodedata.normalize("NFC", text))
+
+
+def read_usage(corpora, known):
+    """
+    How often the sentences have each word (seen), counting each page PAGE_MOST times at most (spread), and how often as a
+    name's piece or as a piece of a word a space split (lost; see PAGE_MOST).
+    """
+    sentences = sorted(_sentences(corpora), key=lambda s: s[0])
+    seen = Counter()
+    for _, words in sentences:
+        seen.update(words)
+
+    def rare(word):
+        return word and word not in known and seen[word] < RARE_SEEN
+
+    spread, lost, pairs = Counter(), Counter(), Counter()
+    page, on_page = None, Counter()
+    for here, words in sentences + [(None, [])]:
+        if here != page:
+            spread.update({w: min(n, PAGE_MOST) for w, n in on_page.items()})
+            page, on_page = here, Counter()
+        on_page.update(words)
+        last = len(words) - 1
+        for i, word in enumerate(words):
+            before = words[i - 1] if i else ""
+            after = words[i + 1] if i < last else ""
+            if before in TITLES or after in NAME_PARTS or rare(before) or rare(after):
+                lost[word] += 1
+            if after and word + after in known:
+                pairs[word, after] += 1
+    # Two pieces of a word the sentences write whole at least as often as apart (ਬਹੁ ਗਿਣਤੀ, ਨਵ ਉਦਾਰਵਾਦੀ, ਡਾਕ ਖ਼ਾਨਾ).
+    for (a, b), n in sorted(pairs.items()):
+        if seen[a + b] >= n:
+            lost[a] += n
+            lost[b] += n
+    return seen, spread, {w: min(n, seen[w]) for w, n in lost.items()}
+
+
+def _unpieced(scores, forms, pos):
+    """
+    A verb's forms that tell no verb (its stem, subjunctive, -ੀ, -ੇ: ਚੌਂਕ, ਚੌਂਕੀ of ਚੌਂਕਣਾ, ਜਰੀਏ of ਜਰਨਾ, ਸੀਤਾ of ਸਿਊਣਾ)
+    count for it only when at most INDUCED_LOOSE times its telling forms (verb_forms, IRREGULAR), its stem INDUCED_STEM
+    times, as induce has it: else they are another word's or a name.
+    """
+    for verb in sorted(scores):
+        if "verb" not in pos.get(verb, ()) or not verb_stem(verb):
+            continue
+        stem, letters = verb_stem(verb)
+        made = verb_forms(stem, letters)
+        tells = {loose(f) for f, telling in made.items() if telling} | {loose(f) for f in IRREGULAR.get(verb, "").split()}
+        stems = {loose(stem), loose(stem[:-1])} if verb.endswith("ਉਣਾ") else {loose(stem)}
+        counted = forms[verb]
+        telling = sum(c for f, c in counted.items() if loose(f) in tells)
+        for form in sorted(counted):
+            if loose(form) not in tells and counted[form] > (INDUCED_STEM if loose(form) in stems else INDUCED_LOOSE) * telling:
+                del counted[form]
+        scores[verb] = sum(counted.values())
+
+
+def fold(scores, forms, pos, lemmas, dictionaries, corpora):
+    """
+    After the counting: a form counts only its uses as a word, spread over the pages (read_usage); a verb's forms that tell
+    none count only beside its telling ones (_unpieced); a noun mostly a name's piece (NAMED_SHARE) is left out.
+    """
+    known = set(pos) | {f for f, of in lemmas.items() if of}
+    seen, spread, lost = read_usage(corpora, known)
+    for word in sorted(scores):
+        counted = forms[word]
+        for form in sorted(counted):
+            if seen[form]:
+                counted[form] *= spread[form] / seen[form] * (1 - lost.get(form, 0) / seen[form])
+        scores[word] = sum(counted.values())
+    _unpieced(scores, forms, pos)
+    for word in sorted(scores):
+        uses = sum(seen[f] for f in forms[word])
+        if scores[word] <= 0 or uses and not pos.get(word, set()) - {"noun", "name"} and sum(
+                lost.get(f, 0) for f in forms[word]) >= NAMED_SHARE * uses:
+            del scores[word]
