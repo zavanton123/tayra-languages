@@ -252,14 +252,13 @@ class TermEditScreenTest {
         onNode(hasText("The screen under")).assertExists()
     }
 
-    /** In the phone reader's sheet, the word's pronunciation and its first dictionary sense show at once, above the dictionary. */
+    /** In the phone reader's sheet, the word's pronunciation shows at once; its senses are left to the dictionary below. */
     @Test
-    fun aPhonesWordSheetShowsThePronunciationAndFirstSenseAtOnce() = runDesktopComposeUiTest(width = 400, height = 900) {
+    fun aPhonesWordSheetShowsThePronunciationAtOnce() = runDesktopComposeUiTest(width = 400, height = 900) {
         openEditor("semana", DictionaryId("pt", "en"), sheet = true)
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasTestTag("term-first-sense-preview")).fetchSemanticsNodes().isNotEmpty() }
-        // At the top of the sheet, before the dictionary repeats them in full.
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasTestTag("term-pronunciation-preview")).fetchSemanticsNodes().isNotEmpty() }
         onNode(hasText("siˈmane") and hasAnyAncestor(hasTestTag("term-pronunciation-preview")), useUnmergedTree = true).assertExists()
-        onNode(hasText("week") and hasAnyAncestor(hasTestTag("term-first-sense-preview")), useUnmergedTree = true).assertExists()
+        onNode(hasTestTag("term-first-sense-preview")).assertDoesNotExist()
     }
 
     /** The word's page shows how far practice has taken it, beside its flashcard. */

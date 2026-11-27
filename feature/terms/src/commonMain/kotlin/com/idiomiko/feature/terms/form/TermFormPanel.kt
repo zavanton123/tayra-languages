@@ -247,12 +247,8 @@ private fun TermFormContent(
             ?: online.dictionary.takeIf { pack?.state !is PackState.Installed && !it.isEmpty }
         val summaryEntry = effectiveDictionary?.entries?.firstOrNull { candidate -> candidate.senses.any { sense -> sense.glosses.any(String::isNotBlank) } }
             ?: effectiveDictionary?.entries?.firstOrNull()
-        val compactSummary = CompactWordSummary(
-            // A saved/user-edited pronunciation is more specific than a dictionary reading or IPA.
-            pronunciation = listOf(draft.romanization, summaryEntry?.reading.orEmpty(), summaryEntry?.ipa.orEmpty()).firstOrNull { it.isNotBlank() }?.trim(),
-            firstSense = summaryEntry?.senses?.firstOrNull { sense -> sense.glosses.any(String::isNotBlank) }
-                ?.glosses?.filter(String::isNotBlank)?.joinToString("; "),
-        )
+        // A saved/user-edited pronunciation is more specific than a dictionary reading or IPA.
+        val pronunciation = listOf(draft.romanization, summaryEntry?.reading.orEmpty(), summaryEntry?.ipa.orEmpty()).firstOrNull { it.isNotBlank() }?.trim()
         val dictionaryBlock: @Composable () -> Unit = {
             val code = language?.let { LanguageCodes.codeFor(it.name) }
             // Wiktionary's table of the word opens from the Dictionary card, in a dialog of its own.
@@ -327,10 +323,9 @@ private fun TermFormContent(
                 if (empty) {
                     Text(tr("Type a word or phrase to look it up."), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
                 } else {
-                    if (sheet) compactSummary.pronunciation?.let { CompactDetailPreview(tr("Pronunciation"), it, "term-pronunciation-preview") }
+                    if (sheet) pronunciation?.let { CompactDetailPreview(tr("Pronunciation"), it, "term-pronunciation-preview") }
                     TranslationField(state, viewModel, compact = true)
                     StatusSelector(selected = draft.status, onSelect = viewModel::setStatus, large = true)
-                    if (sheet) compactSummary.firstSense?.let { CompactDetailPreview(tr("Dictionary"), it, "term-first-sense-preview", maxLines = 2) }
                 }
             }
             dictionaryBlock()
@@ -388,14 +383,12 @@ internal fun ConfirmDeleteTerm(text: String, onConfirm: () -> Unit, onDismiss: (
     )
 }
 
-private data class CompactWordSummary(val pronunciation: String?, val firstSense: String?)
-
 /** One quiet fact in the phone reader's initial word-details viewport. */
 @Composable
-private fun CompactDetailPreview(label: String, value: String, testTag: String, maxLines: Int = 1) {
+private fun CompactDetailPreview(label: String, value: String, testTag: String) {
     Column(Modifier.fillMaxWidth().testTag(testTag), verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
         Text(label.uppercase(), style = AppText.overline, color = MaterialTheme.colorScheme.onSurfaceVariant)
-        Text(value, style = MaterialTheme.typography.bodyLarge, maxLines = maxLines, overflow = TextOverflow.Ellipsis)
+        Text(value, style = MaterialTheme.typography.bodyLarge, maxLines = 1, overflow = TextOverflow.Ellipsis)
     }
 }
 
