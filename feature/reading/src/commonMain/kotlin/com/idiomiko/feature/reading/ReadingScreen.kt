@@ -1357,9 +1357,9 @@ private fun ReadingFooter(
             SourceChip(source) { uriHandler.openUri(source) }
         }
         if (state.isFirstPage && last && !showPracticeAll && !showAnki && !showPlaylist && !showFinish) return@Column
-        // Reaches the page's edges, below the text.
+        // Reaches the page's edges, below the text, a line above it.
         val strip = Modifier.bleed(edgePadding).drawBehind { drawLine(colors.outlineVariant, Offset.Zero, Offset(size.width, 0f), 1.dp.toPx()) }
-            .background(colors.onSurface.copy(alpha = AppAlpha.faint)).padding(horizontal = edgePadding, vertical = if (compact) AppSpacing.l else AppSpacing.xl)
+            .padding(horizontal = edgePadding, vertical = if (compact) AppSpacing.l else AppSpacing.xl)
         Row(strip.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
             if (!state.isFirstPage) {
                 FooterCircle(tr("Previous page"), Icons.AutoMirrored.Filled.ArrowBack, FooterCircleStyle.Outlined, Modifier.testTag("footer-previous")) { viewModel.goToRelativePage(-1) }
