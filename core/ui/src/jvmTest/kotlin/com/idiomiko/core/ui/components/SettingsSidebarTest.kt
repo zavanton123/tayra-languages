@@ -84,7 +84,7 @@ class SettingsSidebarTest {
         val visited = mutableListOf<Route>()
         setContent { MaterialTheme { ProvideWindowWidth { Page(SettingsSection.CLEAR_DATA, onNavigate = { visited += it }) } } }
         assertEquals(
-            listOf("General", "Goals", "Languages", "Flashcards", "Vocabulary", "Hotkeys", "Speech", "Playlists", "Translation", "Backups", "Clear data", "Updates", "Experiments"),
+            listOf("General", "Languages", "Goals", "Flashcards", "Vocabulary", "Hotkeys", "Speech", "Playlists", "Translation", "Backups", "Clear data", "Updates", "Experiments"),
             SettingsSection.entries.map { it.label },
         )
         onNodeWithTag("settings-section-CLEAR_DATA").assertIsSelected()
@@ -96,18 +96,18 @@ class SettingsSidebarTest {
         assertEquals(listOf<Route>(Route.Backups), visited)
     }
 
-    /** Goals follows General, lit while its page is open, and opens from the others. */
+    /** Goals follows Languages, lit while its page is open, and opens from the others. */
     @Test
-    fun goalsFollowsGeneralAndIsLitOnItsPage() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+    fun goalsFollowsLanguagesAndIsLitOnItsPage() = runDesktopComposeUiTest(width = 1586, height = 1000) {
         val visited = mutableListOf<Route>()
         setContent { MaterialTheme { ProvideWindowWidth { Page(SettingsSection.GOALS, onNavigate = { visited += it }) } } }
-        assertEquals(SettingsSection.GOALS, SettingsSection.entries[1])
+        assertEquals(SettingsSection.GOALS, SettingsSection.entries[2])
         onNodeWithTag("settings-section-GOALS").assertIsSelected()
         onNodeWithTag("settings-section-GENERAL").assertIsNotSelected()
         val general = onNodeWithTag("settings-section-GENERAL").fetchSemanticsNode().boundsInRoot
         val goals = onNodeWithTag("settings-section-GOALS").fetchSemanticsNode().boundsInRoot
         val languages = onNodeWithTag("settings-section-LANGUAGES").fetchSemanticsNode().boundsInRoot
-        assertTrue(goals.top >= general.bottom && languages.top >= goals.bottom, "Goals sits between General and Languages")
+        assertTrue(languages.top >= general.bottom && goals.top >= languages.bottom, "Languages sits between General and Goals")
         onNodeWithTag("settings-section-GENERAL").performClick()
         assertEquals(listOf<Route>(Route.Settings), visited)
     }

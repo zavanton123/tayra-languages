@@ -36,7 +36,7 @@ class SettingsMenuTest {
                 }
             }
         }
-        val shown = listOf("General", "Goals", "Languages", "Flashcard settings", "Vocabulary settings", "Speech", "Playlist settings", "Translation", "Backups", "Clear data")
+        val shown = listOf("General", "Languages", "Goals", "Flashcard settings", "Vocabulary settings", "Speech", "Playlist settings", "Translation", "Backups", "Clear data")
         val tops = shown.map { onNodeWithTag("settings-menu-$it").fetchSemanticsNode().boundsInRoot.top }
         assertEquals(tops.sorted(), tops, "in the sidebar's order")
         for (gone in listOf("Updates", "Experiments", "Hotkeys")) assertEquals(0, onAllNodesWithTag("settings-menu-$gone").fetchSemanticsNodes().size, gone)

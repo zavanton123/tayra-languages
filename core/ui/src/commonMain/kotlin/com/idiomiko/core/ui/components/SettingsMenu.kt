@@ -17,8 +17,8 @@ import com.idiomiko.core.ui.theme.AppSpacing
 /** The settings pages a phone lists, in the wide window's sidebar order, less the hotkeys a phone has no use for. */
 internal val phoneSettingsPages = listOf(
     MoreEntry("General", AppIcons.MoreGeneral, Route.Settings),
-    MoreEntry("Goals", AppIcons.MoreGoals, Route.Goals),
     MoreEntry("Languages", AppIcons.MoreLanguages, Route.Languages),
+    MoreEntry("Goals", AppIcons.MoreGoals, Route.Goals),
     MoreEntry("Flashcards", AppIcons.Flashcards, Route.FlashcardSettings, tag = "Flashcard settings"),
     MoreEntry("Vocabulary", AppIcons.MoreVocabularySettings, Route.VocabularySettings, tag = "Vocabulary settings"),
     MoreEntry("Speech", AppIcons.MoreSpeech, Route.Speech),
