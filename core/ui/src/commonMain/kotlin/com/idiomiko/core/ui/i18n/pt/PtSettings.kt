@@ -240,7 +240,7 @@ internal val ptSettings: Map<String, String> = mapOf(
     "Hears your answers when you practise speaking. It runs on this computer, with no network once downloaded." to "Ouve as suas respostas quando pratica a fala. Funciona neste computador, sem rede depois de transferido.",
     "Languages I'm learning" to "Idiomas que estou aprendendo",
     "Learning now" to "Aprendendo agora",
-    "Learn now" to "Aprender agora",
+    "Learn" to "Aprender",
     "{0} was removed" to "{0} foi removido",
     "Removing {0}…" to "A remover {0}…",
     "{0} was removed, but some downloads stayed" to "{0} foi removido, mas algumas transferências ficaram",

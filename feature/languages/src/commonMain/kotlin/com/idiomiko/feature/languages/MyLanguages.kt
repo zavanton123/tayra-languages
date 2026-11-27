@@ -67,7 +67,7 @@ internal fun MyLanguagesCard(
                     if (note.isNotEmpty()) Text(note, style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
                 }
                 if (choice != learning.current) {
-                    QuietButton(tr("Learn now"), onClick = { onLearn(choice) }, size = ButtonSize.Compact, modifier = Modifier.testTag("learn-" + choice.tag))
+                    QuietButton(tr("Learn"), onClick = { onLearn(choice) }, size = ButtonSize.Compact, modifier = Modifier.testTag("learn-" + choice.tag))
                 }
                 QuietButton(tr("Remove"), onClick = { onRemove(choice.id, choice.name) }, tone = ButtonTone.Danger, size = ButtonSize.Compact, modifier = Modifier.testTag("remove-" + choice.tag))
             }

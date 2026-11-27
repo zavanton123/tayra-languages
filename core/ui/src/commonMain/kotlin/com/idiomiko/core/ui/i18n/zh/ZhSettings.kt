@@ -240,7 +240,7 @@ internal val zhSettings: Map<String, String> = mapOf(
     "Hears your answers when you practise speaking. It runs on this computer, with no network once downloaded." to "在你练习口语时听取你的回答。它在这台电脑上运行，下载后无需网络。",
     "Languages I'm learning" to "我在学的语言",
     "Learning now" to "正在学习",
-    "Learn now" to "现在学习",
+    "Learn" to "学习",
     "{0} was removed" to "已移除{0}",
     "Removing {0}…" to "正在移除{0}…",
     "{0} was removed, but some downloads stayed" to "已移除{0}，但部分下载内容仍保留",
