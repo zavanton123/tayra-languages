@@ -166,7 +166,10 @@ def table_stems(word, table):
 
 
 def ruled_stems(word):
-    """The stems of a verb in -u the pack has no table for, conjugated as எழுது (எழுதுகிற, எழுதின, எழுதுவ, எழுத)."""
+    """The stems of a verb in -u the pack has no table for, conjugated as எழுது (எழுதுகிற, எழுதின, எழுதுவ, எழுத), but for
+    one made with இடு, conjugated as இடு (பயிரிடுகிற, பயிரிட்ட, பயிரிடுவ, பயிரிட)."""
+    if word.endswith("ிடு") and len(word) > 3:
+        return word + "கிற", word[:-1] + "்ட", word + "வ", word[:-1]
     if word.endswith("ு") and len(word) > 2 and word[-2] in CONSONANTS:
         return word + "கிற", word[:-1] + "ின", word + "வ", word[:-1]
     return None, None, None, None
