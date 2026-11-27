@@ -2,7 +2,6 @@ package com.idiomiko.feature.languages
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.idiomiko.core.domain.service.LanguageRemoval
 import com.idiomiko.core.domain.service.LanguageRemovalService
 import com.idiomiko.core.domain.service.RemovalJob
 import com.idiomiko.core.domain.settings.SettingsRepository
@@ -13,7 +12,6 @@ import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.stateIn
-import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 
 /**
@@ -23,8 +21,8 @@ import kotlinx.coroutines.launch
 class LanguagesViewModel(private val settings: SettingsRepository, private val removal: LanguageRemovalService? = null) : ViewModel() {
     val state: StateFlow<UserSettings> = settings.settings
 
-    /** A language asked about before it is removed, with what removing it deletes once counted. */
-    data class RemovalPrompt(val languageId: Long, val name: String, val removal: LanguageRemoval? = null)
+    /** A language asked about before it is removed. */
+    data class RemovalPrompt(val languageId: Long, val name: String)
 
     private val _removing = MutableStateFlow<RemovalPrompt?>(null)
     val removing: StateFlow<RemovalPrompt?> = _removing.asStateFlow()
@@ -46,13 +44,9 @@ class LanguagesViewModel(private val settings: SettingsRepository, private val r
         settings.update { it.copy(nativeLanguage = if (native != learningCode) native else it.nativeLanguage, uiLanguage = ui) }
     }
 
-    /** Asks whether to remove the language with [languageId], counting what would go. */
+    /** Asks whether to remove the language with [languageId]. */
     fun askToRemove(languageId: Long, name: String) {
         _removing.value = RemovalPrompt(languageId, name)
-        viewModelScope.launch {
-            val counted = removal?.preview(languageId) ?: return@launch
-            _removing.update { if (it?.languageId == languageId) it.copy(removal = counted) else it }
-        }
     }
 
     fun dismissRemoval() {

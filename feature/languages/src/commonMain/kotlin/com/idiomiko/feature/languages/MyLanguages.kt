@@ -26,7 +26,6 @@ import com.idiomiko.core.ui.components.LanguageFlag
 import com.idiomiko.core.ui.components.LanguageChoice
 import com.idiomiko.core.ui.components.LearningLanguageState
 import com.idiomiko.core.ui.components.QuietButton
-import com.idiomiko.core.ui.components.formatSize
 import com.idiomiko.core.ui.i18n.formatCount
 import com.idiomiko.core.ui.i18n.tr
 import com.idiomiko.core.ui.i18n.trPlural
@@ -84,24 +83,17 @@ internal fun MyLanguagesCard(
     }
 }
 
-/** Asks before a language goes, saying what goes with it. */
+/** Asks before a language goes, saying what goes with it; nothing is counted, so it can be confirmed at once. */
 @Composable
 internal fun RemoveLanguageDialog(prompt: LanguagesViewModel.RemovalPrompt, onConfirm: () -> Unit, onDismiss: () -> Unit) {
     val name = tr(prompt.name)
-    val counted = prompt.removal
-    val text = if (counted == null) tr("Counting what it has…") else buildList {
-        add(trPlural(counted.texts, "{0} text", "{0} texts", formatCount(counted.texts)))
-        add(trPlural(counted.words, "{0} saved word", "{0} saved words", formatCount(counted.words)))
-        if (counted.downloadBytes > 0) add(tr("{0} of downloads", formatSize(counted.downloadBytes)))
-    }.let { parts ->
-        tr("Everything you have in {0} is deleted: {1}, with your progress and flashcards. This cannot be undone.", name, parts.joinToString(", "))
-    }
+    val text = tr("Everything you have in {0} is deleted: texts, saved words, progress, flashcards and downloads. This cannot be undone.", name)
     AppDialog(
         onDismissRequest = onDismiss,
         modifier = Modifier.testTag("remove-language-dialog"),
         title = { Text(tr("Remove {0}?", name)) },
         text = { Text(text) },
-        confirmButton = { QuietButton(tr("Remove"), onClick = onConfirm, tone = ButtonTone.Danger, enabled = counted != null, modifier = Modifier.testTag("confirm-remove")) },
+        confirmButton = { QuietButton(tr("Remove"), onClick = onConfirm, tone = ButtonTone.Danger, modifier = Modifier.testTag("confirm-remove")) },
         dismissButton = { QuietButton(tr("Cancel"), onClick = onDismiss) },
     )
 }

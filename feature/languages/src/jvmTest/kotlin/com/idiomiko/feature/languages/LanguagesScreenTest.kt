@@ -8,6 +8,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.graphics.toAwtImage
 import androidx.compose.ui.test.ExperimentalTestApi
 import androidx.compose.ui.test.captureToImage
+import androidx.compose.ui.test.assertIsEnabled
 import androidx.compose.ui.test.assertIsNotEnabled
 import androidx.compose.ui.test.hasText
 import androidx.compose.ui.test.isRoot
@@ -168,8 +169,9 @@ class LanguagesScreenTest {
         onNodeWithTag("remove-language-de").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Remove German?").fetchSemanticsNodes().isNotEmpty() }
         assertEquals(2L, viewModel.removing.value?.languageId)
-        // Nothing is removed before what goes is counted.
-        onNodeWithTag("confirm-remove").assertIsNotEnabled()
+        // Nothing is counted first: the removal can be confirmed at once.
+        onNodeWithText("texts, saved words, progress, flashcards and downloads", substring = true).assertExists()
+        onNodeWithTag("confirm-remove").assertIsEnabled()
         onNodeWithText("Cancel").performClick()
         waitUntil(timeoutMillis = 5_000) { viewModel.removing.value == null }
     }

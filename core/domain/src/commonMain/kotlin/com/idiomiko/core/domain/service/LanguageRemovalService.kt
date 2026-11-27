@@ -24,9 +24,6 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
 
-/** What removing a language deletes: its texts, its saved words, and the bytes its downloads take. */
-data class LanguageRemoval(val texts: Int, val words: Int, val downloadBytes: Long)
-
 /** A language being removed in the background, under its English [name]; once [done], with what could not be removed. */
 data class RemovalJob(val languageId: Long, val name: String, val done: Boolean = false, val problems: List<String> = emptyList())
 
@@ -80,23 +77,6 @@ class LanguageRemovalService(
     /** Forgets the finished removal of [languageId], once the app has said it is done. */
     fun noticed(languageId: Long) {
         _jobs.update { jobs -> jobs.filterNot { it.languageId == languageId && it.done } }
-    }
-
-    /** What removing the language with [languageId] would delete. */
-    suspend fun preview(languageId: Long): LanguageRemoval {
-        val texts = books.getBooks().count { it.languageId == languageId }
-        val words = terms.list(TermListFilter(languageId = languageId, minStatus = TermStatus.NEW_1, maxStatus = TermStatus.WELL_KNOWN), TermListSort(), 0, 1).totalCount
-        val code = sharedCode(languageId) ?: return LanguageRemoval(texts, words, 0)
-        var bytes = 0L
-        coursePacks.refresh()
-        bytes += coursePacks.packs.value.filter { it.pack.languageCode == code }.sumOf { (it.state as? PackState.Installed)?.sizeBytes ?: 0 }
-        bookPacks.refresh()
-        bytes += bookPacks.packs.value.filter { it.pack.languageCode == code }.sumOf { (it.state as? PackState.Installed)?.sizeBytes ?: 0 }
-        dictionaries.refresh()
-        bytes += dictionaries.packs.value.filter { isFor(it.pack.id, code) }.sumOf { (it.state as? PackState.Installed)?.sizeBytes ?: 0 }
-        bytes += quietly { voices(code).sumOf { (_, pkg) -> pkg.sizeBytes } } ?: 0
-        bytes += quietly { translationModels(code).sumOf { it.sizeBytes } } ?: 0
-        return LanguageRemoval(texts, words, bytes)
     }
 
     /** Removes the language with [languageId] and all that is kept for it; returns what could not be removed, with why. */
@@ -191,13 +171,5 @@ class LanguageRemovalService(
 
     private companion object {
         const val PIVOT = "en"
-    }
-
-    private suspend fun <T> quietly(action: suspend () -> T): T? = try {
-        action()
-    } catch (e: CancellationException) {
-        throw e
-    } catch (e: Exception) {
-        null
     }
 }

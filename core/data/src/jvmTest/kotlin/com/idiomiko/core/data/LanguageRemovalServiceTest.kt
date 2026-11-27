@@ -30,7 +30,6 @@ import com.idiomiko.core.domain.model.TermStatus
 import com.idiomiko.core.domain.repository.DictionaryRepository
 import com.idiomiko.core.domain.service.BookService
 import com.idiomiko.core.domain.service.DictionaryService
-import com.idiomiko.core.domain.service.LanguageRemoval
 import com.idiomiko.core.domain.service.LanguageRemovalService
 import com.idiomiko.core.domain.service.LanguageService
 import com.idiomiko.core.domain.service.LearningLanguageService
@@ -184,16 +183,12 @@ class LanguageRemovalServiceTest {
         learning.select(german)
         learning.select(portuguese)
 
-        // A course pack of 1,000 bytes, a book pack of 2,000, a dictionary of 4,000, a voice of 8,000 and two translation models of 16,000.
-        assertEquals(LanguageRemoval(texts = 1, words = 2, downloadBytes = 47_000), service.preview(portuguese))
-
         assertEquals(emptyList(), service.remove(portuguese))
         assertEquals(german, settings.current.currentLanguageId, "the next language being learned takes its place")
         assertEquals(listOf(german), learning.mine())
         assertEquals(listOf("Wolf"), books.getBooks().map { it.title })
         val fresh = languages.findByName("Portuguese")!!
         assertTrue(fresh.id != portuguese, "the language comes back empty")
-        assertEquals(LanguageRemoval(0, 0, 0), service.preview(fresh.id))
         assertEquals(setOf("courses-en"), coursePackStore.installed)
         assertTrue(bookPackStore.installed.isEmpty())
         assertEquals(setOf(deRu), dictionaryStore.installed)
