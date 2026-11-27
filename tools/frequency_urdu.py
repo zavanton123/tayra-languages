@@ -247,7 +247,23 @@ def mend(db, pos, lemmas, common):
                 made.setdefault(form, []).append(word)
     for form, words in made.items():
         lemmas[form] = list(dict.fromkeys(words))
+    file_oblique_plurals(pos, lemmas)
 
+
+def file_oblique_plurals(pos, lemmas):
+    """
+    Gives the oblique plural of a masculine noun in -ہ that the pack gave to a word spelled as its stem (پیمانوں of پیمانہ,
+    not پیمان "vow"; دانوں of دانہ, not دان) to that noun, when the sentences have the noun and its oblique (پیمانہ,
+    پیمانے) more often than the other word.
+    """
+    seen = USAGE["seen"]
+    for form in sorted(lemmas):
+        stem = form[:-2]
+        noun = stem + "ہ"
+        if not form.endswith("وں") or stem not in lemmas[form] or "noun" not in pos.get(noun, ()) or form in OVERRIDES:
+            continue
+        if seen.get(noun, 0) + seen.get(stem + "ے", 0) > seen.get(stem, 0):
+            lemmas[form] = list(dict.fromkeys(noun if lemma == stem else lemma for lemma in lemmas[form]))
 
 
 # How the news and Wikipedia sentences use the words (Leipzig's, the build's third source): the builder sets SENTENCES to
