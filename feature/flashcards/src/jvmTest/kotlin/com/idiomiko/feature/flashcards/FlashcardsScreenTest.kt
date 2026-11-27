@@ -108,7 +108,8 @@ class FlashcardsScreenTest {
     private val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("idiomiko-flash", ".db").also { it.delete() }))
     private val languages = LanguageRepositoryImpl(provider)
     private val terms = TermRepositoryImpl(provider)
-    private val settings = SettingsRepositoryImpl(MapSettings())
+    // Most of these answer with all four buttons; the two-button default is tested on its own.
+    private val settings = SettingsRepositoryImpl(MapSettings()).also { runBlocking { it.update { s -> s.copy(flashcardTwoButtons = false) } } }
     private val service = FlashcardService(FlashcardRepositoryImpl(provider), terms, settings)
     private val sentence = "Quando precisamos comprar alguma coisa, passamos no supermercado."
     private var termId = 0L

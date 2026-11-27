@@ -45,6 +45,7 @@ import javax.imageio.ImageIO
 import kotlin.test.Test
 import com.idiomiko.core.domain.flashcards.NewCardMix
 import kotlin.test.assertEquals
+import kotlin.test.assertTrue
 
 /** The daily limits, the wanted retention and the learning steps of the flashcards. */
 @OptIn(ExperimentalTestApi::class)
@@ -80,8 +81,10 @@ class FlashcardSettingsScreenTest {
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Use steps such as 1m 10m").fetchSemanticsNodes().isNotEmpty() }
         assertEquals("", settings.current.flashcardRelearnSteps, "clearing the field saved no steps; the unreadable text was not saved")
 
+        // Two answer buttons are on from the start; the switch turns them off.
+        assertTrue(settings.current.flashcardTwoButtons)
         onNodeWithText("Two answer buttons").performScrollTo().performClick()
-        waitUntil(timeoutMillis = 5_000) { settings.current.flashcardTwoButtons }
+        waitUntil(timeoutMillis = 5_000) { !settings.current.flashcardTwoButtons }
 
         onNodeWithContentDescription("Maximum interval").performScrollTo().performTextClearance()
         onNodeWithContentDescription("Maximum interval").performTextInput("365")
@@ -103,7 +106,7 @@ class FlashcardSettingsScreenTest {
 
         onNodeWithText("Reset").performScrollTo().performClick()
         waitUntil(timeoutMillis = 5_000) { settings.current.flashcardNewPerDay == 20 && settings.current.flashcardLearnSteps == "1m 10m" && settings.current.flashcardRelearnSteps == "10m" }
-        assertEquals(false, settings.current.flashcardTwoButtons, "reset brings the four buttons back")
+        assertEquals(true, settings.current.flashcardTwoButtons, "reset brings the two buttons back")
         assertEquals(0, settings.current.flashcardReviewsPerDay)
         assertEquals(NewCardMix.AFTER_REVIEWS, settings.current.flashcardNewMix)
         assertEquals(false to 0, settings.current.flashcardShowTimer to settings.current.flashcardAutoAnswer)
@@ -251,7 +254,7 @@ class FlashcardSettingsScreenTest {
         waitUntil(timeoutMillis = 5_000) { settings.current.flashcardLearnSteps == "30s 5m" }
 
         onNodeWithTag("phone-two-buttons").performScrollTo().performClick()
-        waitUntil(timeoutMillis = 5_000) { settings.current.flashcardTwoButtons }
+        waitUntil(timeoutMillis = 5_000) { !settings.current.flashcardTwoButtons }
         onNodeWithTag("phone-how-it-works").performScrollTo().performClick()
         onNodeWithText("Every word at status 1 to 4 has a card.", substring = true).assertExists()
         onNodeWithTag("phone-reset-flashcards").performScrollTo().performClick()

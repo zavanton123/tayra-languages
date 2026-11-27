@@ -98,7 +98,7 @@ data class UserSettings(
     /** Read the sentence (or word) aloud when a flashcard's answer is shown. */
     val flashcardAutoplay: Boolean = true,
     /** Answer flashcards with Again and Good only, Hard and Easy left out. */
-    val flashcardTwoButtons: Boolean = false,
+    val flashcardTwoButtons: Boolean = true,
     /**
      * New cards added to the day's limit on this device, as "day|language:count,…": the study day
      * they were added on, then each language's extra; another day's are gone.
