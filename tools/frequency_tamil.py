@@ -601,7 +601,7 @@ def build(found, size, label, weights=None):
         heads = set() if nameless(form) else decide(form)
         if not heads:
             continue
-        weights_of = {h: alone.get(h, 0.0) for h in heads}
+        weights_of = {h: alone.get(h, 0.0) for h in sorted(heads)}
         whole = sum(weights_of.values())
         for head in heads:
             part = weights_of[head] / whole if whole else 1 / len(heads)
