@@ -13,6 +13,7 @@ import androidx.compose.ui.test.hasText
 import androidx.compose.ui.test.isRoot
 import androidx.compose.ui.test.onAllNodesWithText
 import androidx.compose.ui.test.onLast
+import androidx.compose.ui.test.onNodeWithContentDescription
 import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.onRoot
@@ -57,9 +58,13 @@ class LanguagesScreenTest {
         }
 
         assertTrue(onAllNodesWithText("Changes saved").fetchSemanticsNodes().isEmpty(), "nothing has changed yet")
+        // The language to learn is chosen in the large dialog of every language, the current one ticked.
         onNodeWithTag("learning-language").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Select the language to study")).fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("3 languages").assertExists()
+        onNodeWithContentDescription("Selected").assertExists()
         System.getenv("LANGUAGES_MENU_SCREENSHOT")?.let { path -> waitForIdle(); ImageIO.write(onAllNodes(isRoot())[0].captureToImage().toAwtImage(), "png", File(path)) }
-        onAllNodesWithText("German").onLast().performClick()
+        onNodeWithTag("language-de").performClick()
         waitUntil(timeoutMillis = 5_000) { learningId == 2L }
         onNodeWithText("Changes saved").assertExists()
 

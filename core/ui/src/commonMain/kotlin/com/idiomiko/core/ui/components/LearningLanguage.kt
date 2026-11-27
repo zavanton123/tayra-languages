@@ -361,24 +361,41 @@ private fun PhoneSectionTitle(title: String, note: String? = null) {
     }
 }
 
+/** What the language dialog is for: adding a language not learned yet, the first one, or switching to any language. */
+private enum class LanguageDialogMode { ADD, FIRST, SWITCH }
+
+/**
+ * The language to learn, chosen from every language with the current one ticked, as the settings
+ * offer it on a wide window; it closes without a choice.
+ */
+@Composable
+fun StudyLanguageDialog(state: LearningLanguageState, onDismiss: () -> Unit, onSelect: (LanguageChoice) -> Unit = state::select) =
+    LanguageDialog(state, onDismiss, LanguageDialogMode.SWITCH, onSelect)
+
 /**
  * Asks for the language to learn while none is chosen, as on first start; it stays until one is.
  * A phone gives it the whole screen, as its list of languages to add; wider windows a dialog.
  */
 @Composable
 fun TargetLanguageDialog(state: LearningLanguageState) {
-    if (!LocalWindowWidth.current.isCompact) return LanguageDialog(state, onDismiss = {}, required = true)
+    if (!LocalWindowWidth.current.isCompact) return LanguageDialog(state, onDismiss = {}, mode = LanguageDialogMode.FIRST)
     AppFullScreenDialog { PhoneLanguageList(state, tr("Select the language to study"), onBack = null, onChosen = {}) }
 }
 
 /**
- * The languages to add, as a dialog: those not being learned yet, each as a tile in a grid,
- * narrowed by a search box that has the focus from the start on wide screens. The native language
- * is listed but cannot be chosen. A [required] choice, the first language, offers every language
- * and has no way to close the dialog but choosing.
+ * The languages to choose from, as a dialog: each as a tile in a grid, narrowed by a search box
+ * that has the focus from the start on wide screens. Adding one lists those not being learned yet;
+ * the first one, every language, with no way to close the dialog but choosing; switching, every
+ * language with the current one ticked.
  */
 @Composable
-private fun LanguageDialog(state: LearningLanguageState, onDismiss: () -> Unit, required: Boolean = false) {
+private fun LanguageDialog(
+    state: LearningLanguageState,
+    onDismiss: () -> Unit,
+    mode: LanguageDialogMode = LanguageDialogMode.ADD,
+    onSelect: (LanguageChoice) -> Unit = state::select,
+) {
+    val required = mode == LanguageDialogMode.FIRST
     val colors = MaterialTheme.colorScheme
     val width = LocalWindowWidth.current
     val columns = when (width) {
@@ -391,14 +408,15 @@ private fun LanguageDialog(state: LearningLanguageState, onDismiss: () -> Unit, 
     // A phone's keyboard would cover the languages.
     LaunchedEffect(Unit) { if (!width.isCompact) runCatching { focus.requestFocus() } }
     val needle = query.trim().lowercase()
-    val mine = if (required) emptyList() else state.myChoices
+    val mine = if (mode == LanguageDialogMode.ADD) state.myChoices else emptyList()
     val others = state.choices.filter { it !in mine && it.matches(needle) }
+    val current = state.current.takeIf { mode == LanguageDialogMode.SWITCH }
     AppDialogSurface(onDismissRequest = onDismiss, modifier = Modifier.fillMaxHeight(if (width.isCompact) 1f else 0.92f).testTag(if (required) "target-language-dialog" else "language-dialog"), maxWidth = 1160.dp, dismissible = !required) {
         Column(Modifier.padding(horizontal = if (width.isCompact) AppSpacing.xl else AppSpacing.xxxl, vertical = AppSpacing.xxl)) {
             Row(verticalAlignment = Alignment.Top) {
                 Column(Modifier.weight(1f)) {
-                    Text(if (required) tr("Select the language to study") else tr("Add a language"), style = AppText.screenTitle)
-                    if (!required) Text(tr("Start learning another language"), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
+                    Text(if (mode == LanguageDialogMode.ADD) tr("Add a language") else tr("Select the language to study"), style = AppText.screenTitle)
+                    if (mode == LanguageDialogMode.ADD) Text(tr("Start learning another language"), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
                 }
                 if (!required) AppIconButton(Icons.Default.Close, contentDescription = tr("Close"), onClick = onDismiss, style = IconButtonStyle.Tonal, tint = colors.onSurface)
             }
@@ -417,7 +435,8 @@ private fun LanguageDialog(state: LearningLanguageState, onDismiss: () -> Unit, 
                 others.chunked(columns).forEach { row ->
                     Row(Modifier.fillMaxWidth().padding(bottom = AppSpacing.m), horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
                         row.forEach { choice ->
-                            LanguageTile(choice, Modifier.weight(1f)) { onDismiss(); state.select(choice) }
+                            val chosen = choice == current
+                            LanguageTile(choice, Modifier.weight(1f), chosen) { onDismiss(); if (!chosen) onSelect(choice) }
                         }
                         repeat(columns - row.size) { Spacer(Modifier.weight(1f)) }
                     }
@@ -437,16 +456,19 @@ private fun SectionTitle(title: String, note: String? = null) {
 
 /** A language to choose: its flag and name. */
 @Composable
-private fun LanguageTile(choice: LanguageChoice, modifier: Modifier, onClick: () -> Unit) {
+private fun LanguageTile(choice: LanguageChoice, modifier: Modifier, chosen: Boolean = false, onClick: () -> Unit) {
+    val colors = MaterialTheme.colorScheme
     val press = remember { MutableInteractionSource() }
     Row(
         modifier.height(LANGUAGE_TILE_HEIGHT).pressScale(press).cardSurface(AppShapes.panel)
+            .then(if (chosen) Modifier.border(AppBorders.selected(), AppShapes.panel) else Modifier)
             .clickable(press, LocalIndication.current, onClick = onClick).padding(horizontal = AppSpacing.l).testTag(choice.tag),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(AppSpacing.l),
     ) {
         LanguageFlag(choice.label, 22.dp)
         Text(tr(choice.label), Modifier.weight(1f), style = AppText.emphasis, maxLines = 1, overflow = TextOverflow.Ellipsis)
+        if (chosen) Icon(Icons.Default.Check, contentDescription = tr("Selected"), tint = colors.primary, modifier = Modifier.size(AppSizes.iconMedium))
     }
 }
 

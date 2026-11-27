@@ -51,6 +51,7 @@ import com.idiomiko.core.ui.components.AppMenuItem
 import com.idiomiko.core.ui.components.AppTopBar
 import com.idiomiko.core.ui.components.SettingsSection
 import com.idiomiko.core.ui.components.SettingsPane
+import com.idiomiko.core.ui.components.StudyLanguageDialog
 import com.idiomiko.core.ui.components.LanguageFlag
 import com.idiomiko.core.ui.components.LocalLearningLanguage
 import com.idiomiko.core.ui.components.LocalWindowWidth
@@ -83,8 +84,12 @@ fun LanguagesScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: 
     var changes by remember { mutableIntStateOf(0) }
     val removing by viewModel.removing.collectAsStateWithLifecycle()
     val removals by viewModel.removals.collectAsStateWithLifecycle()
+    var choosingLearned by remember { mutableStateOf(false) }
     removing?.let { RemoveLanguageDialog(it, onConfirm = viewModel::remove, onDismiss = viewModel::dismissRemoval) }
 
+    if (choosingLearned && learning != null) {
+        StudyLanguageDialog(learning, onDismiss = { choosingLearned = false }, onSelect = { learning.select(it); changes++ })
+    }
     if (compact) {
         PhoneLanguagesScreen(settings, learning, viewModel, onNavigate, onBack)
         return
@@ -112,6 +117,8 @@ fun LanguagesScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: 
                                 onSelect = { learning?.select(it); changes++ },
                                 modifier = Modifier.testTag("learning-language"),
                                 flagName = { it.label },
+                                // Every language to learn, in the large dialog rather than a long menu.
+                                onOpen = { choosingLearned = true },
                             )
                         }
                     }
@@ -221,6 +228,8 @@ internal fun <T> FlagPicker(
     flagName: (T) -> String = name,
     /** Why an option cannot be chosen, or null when it can; such options are listed dimmed. */
     unavailable: (T) -> String? = { null },
+    /** Opens a choice of its own in place of the menu, when given. */
+    onOpen: (() -> Unit)? = null,
 ) {
     val colors = MaterialTheme.colorScheme
     var open by remember { mutableStateOf(false) }
@@ -228,7 +237,7 @@ internal fun <T> FlagPicker(
         Row(
             Modifier.fillMaxWidth().clip(AppShapes.compact).background(colors.surface)
                 .border(AppBorders.hairline(colors.outline.copy(alpha = AppAlpha.muted)), AppShapes.compact)
-                .clickable(enabled = options.isNotEmpty()) { open = true }
+                .clickable(enabled = options.isNotEmpty()) { if (onOpen != null) onOpen() else open = true }
                 .padding(horizontal = AppSpacing.xl, vertical = AppSpacing.l),
             verticalAlignment = Alignment.CenterVertically,
         ) {
