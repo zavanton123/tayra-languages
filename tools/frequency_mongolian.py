@@ -19,7 +19,8 @@ were words of their own. So:
 - the harmonic variants of the little words are one word (уу, үү, юү; вэ, бэ; даа, дээ, доо, дөө; руу, рүү, лүү), юу
   "what" is a word of its own, not уу's variant, and a number's attributive form is the number's (гурван of гурав);
 - names are no words: those the texts capitalise inside a sentence (Стокгольм, Гачуурт) and those the pack glosses only as
-  a place, people, god, title or book (хурмаст, ринбүчи, данжуур).
+  a place, people, god, title or book (хурмаст, ринбүчи, данжуур);
+- an adjective or adverb spelled as a verb's participle or converb is its form (хуурсан of хуурах, бололгүй of болох).
 """
 import io
 import json
@@ -36,7 +37,8 @@ _KINDS = {"noun", "adj", "verb", "adv", "pron", "prep", "num", "conj", "det", "i
 # harmonic form of уу", "dative-locative of гар".
 _FORM_GLOSS = re.compile(
     r"(tense|participle|converb|cvb|supine|indicative|case|plural|singular|genitive|accusative|dative|ablative|instrumental|comitative|"
-    r"directive|possessive|harmonic form|conditioned form|mood|imperative)\b.*?\bof ([а-яёөү]+)", re.I)
+    r"directive|possessive|harmonic form|conditioned form|mood|imperative|terminative|concessive|precative|optative)\b"
+    r".*?\bof ([а-яёөү]+)", re.I)
 _LETTER_NAME = re.compile(r"name of the Cyrillic script letter|letter of the Mongolian alphabet")
 # A gloss naming a voice ("causative voice in -уулах of цуглах"): the verb is a word of its own.
 _VOICE_GLOSS = re.compile(r"\bvoice\b", re.I)
@@ -109,6 +111,8 @@ NUMBERS = {
 # Forms sent by hand: words a commoner word's form is spelled as (эмээ "grandmother", not эм's; өвөө "grandfather"), and
 # the pack's wrong links (амаар is ам's, not унших's).
 MONGOLIAN_OVERRIDES = {"эмээ": ["эмээ"], "өвөө": ["өвөө"], "амаар": ["ам"], "сайтай": ["сайн"], "дуун": ["дуу"], "хаанаас": ["хаана"]}
+# The pack's entries of a form: бологчид "plural of бологч", хурууд "dried curds" (хуруу's plural), урид (урьд).
+MONGOLIAN_OVERRIDES.update({"бологчид": ["болох"], "хурууд": ["хуруу"], "урид": ["урьд"]})
 # Forms spelled as a rarer word's (авсан of авс "coffin", эрхийн of эрхий "thumb", монголчууд of монголч "Mongolist"): the common
 # word's alone.
 for _word, _forms in {
@@ -137,6 +141,10 @@ for _word, _forms in {
     MONGOLIAN_OVERRIDES.update({_form: [_word] for _form in _forms.split()})
 # A name's genitive the Russian pack has as an adjective ("European").
 MONGOLIAN_EXCLUDE = {"европын"}
+# And the rare words and loans past the courses' first 3,800 (the Russian pack's words of other packs' forms, Russian
+# words in names) whose counts are other words' (ониг "joke" of онгон's онгууд, анга of анги's ангийнх, ури of урид, даж
+# of дайн дажин, лис of лист, щит).
+MONGOLIAN_EXCLUDE |= {"ониг", "анга", "ури", "даж", "лис", "щит", "түргэ"}
 # And names the rules below cannot tell, seen too seldom: рах (the demon Rahu), хуйхуй "Hui people", цэдэнбализм.
 MONGOLIAN_EXCLUDE |= {"рах", "хуйхуй", "цэдэнбализм"}
 # Nouns in use spelled as a verb's stem or form, the verb's in the pack (ор "bed", ор "enter!"); the rarer ones (ав "hunt",
@@ -155,6 +163,10 @@ _STARTS = ".!?:;«»\"“”„'‘’()—–-"
 # gods, Indra)", "Rinpoche (title of a lama)", "Tengyur (Buddhist canon)", "Jangar (epic)", "Kidan (people or person)".
 _NAME_GLOSS = re.compile(r"^[A-Z][^(]*\((?:[^)]*\W)?(?:city|town|river|lake|mountains?|monastery|epic|canon|title|"
                          r"gods?|deity|people|tribe|ethnic group|khaganate)\b")
+
+# A verb's past participles and its converb "without", which the packs gloss as adjectives and adverbs too ("roasted",
+# "not placed", бололгүй "without becoming").
+_PARTICIPLES = ("сан", "сэн", "сон", "сөн", "аагүй", "ээгүй", "оогүй", "өөгүй", "лгүй")
 
 _VOWELS = "аоуэөүияеёюы"
 _LONG = ("аа", "оо", "ээ", "өө", "уу", "үү", "ай", "ой", "уй", "үй", "эй", "ий", "ии", "иа", "яа", "ёо", "еэ", "юу", "юү")
@@ -375,6 +387,8 @@ def verb_forms(verb, agents=True):
     out.update({x + "х", x + "х" + a + "д", x + "х" + aa + "р", x + "хгүй", x + "хыг", x + "хийг", x + "хын", x + "хийн",
                 x + "х" + aa + "с", x + "х" + tai, x + "х" + a + "д" + aa, x + "х" + aa + "с" + aa,
                 x + "хд" + aa, x + "х" + aa + "р" + aa})
+    # The converb "without" (бололгүй, явалгүй, хийлгүй).
+    out.add(x + "лгүй")
     # A stem in a sibilant keeps its vowel before -ж (үзэж, хүсэж).
     out.update({joined + "ж", joined + "жээ"})
     # The agent noun in -гч and its cases and plural (хаагч, хаагчид, хаагчдын).
@@ -600,15 +614,35 @@ def load(db, pos, lemmas, common, dictionaries):
         if pos[word] & _KINDS <= {"noun", "adj"} and any(pos.get(n, set()) & {"noun"} for n in generated[word]):
             common.pop(word)
             lemmas[word] = sorted(n for n in generated[word] if "noun" in pos.get(n, set()))
+    # And an adjective or adverb spelled as a verb's past participle or converb "without" is that form (хуурсан
+    # "roasted" of хуурах, тавигдаагүй, бололгүй), not one spelled as another form (түргэн "quick", бүтэн "whole"); and
+    # a noun spelled as a noun's case form and glossed as that noun is, that case form (араатны "wild beast; predator"
+    # of араатан "beast; predator").
+    for word in [w for w in common if w in generated and w not in kept]:
+        kinds = pos[word] & _KINDS
+        if kinds in ({"adj"}, {"adv"}) and word.endswith(_PARTICIPLES):
+            of = sorted(v for v in generated[word] if "verb" in pos.get(v, set()) and v in common)
+        elif kinds == {"noun"}:
+            of = sorted(n for n in generated[word] if n != word and "noun" in pos.get(n, set()) and n in common
+                        and word in noun_forms(n) and set(glossed.get(n, ())) & set(glossed.get(word, ())))
+        else:
+            continue
+        if of:
+            common.pop(word)
+            lemmas[word] = of
     # The other packs' words the English one lacks, but not their verb forms (the Russian pack's хийж "делая", байжээ) and
     # adjectives that are a word's case form (улсын "государственный").
     added = []
+    # A noun only they have that is spelled as a verb's stem, its imperative (орш "profit" and орш "dwell!", бүрх, зод),
+    # is left to the verb, whose forms its own would take (оршийн, бүрхэд).
+    stems = {verb_stems(v)[0][0] for v in common if "verb" in pos.get(v, set()) and v.endswith("х")}
     for word, kinds in others.items():
         if pos.get(word, set()) & _KINDS or word in OWN or word in letters:
             continue
         if "verb" in kinds and not word.endswith("х"):
             kinds = kinds - {"verb"}
-        if not kinds or word in generated and not kinds & {"noun"} or is_name(word, kinds):
+        if not kinds or word in generated and not kinds & {"noun"} or "verb" not in kinds and word in stems or (
+                is_name(word, kinds)):
             continue
         pos[word] |= kinds
         common[word] = word
