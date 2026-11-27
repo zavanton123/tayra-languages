@@ -5839,14 +5839,29 @@ MY_ROUNDS = 6
 # Burmese Wikipedia's articles of fewer letters than this are left out: 122,000 of its 147,000 are stubs, 52,000 of them a
 # bot's village tracts ("X ကျေးရွာအုပ်စု ... မြို့နယ် ... ခရိုင်၌ တည်ရှိသည်"), which put their words in the first hundred.
 MY_WIKI_MIN_LETTERS = 500
+# A word the pack has as a name too is a name if the subtitles use it less than this share of how often the articles do.
+MY_NAME_SUBTITLES = 0.03
+
+
+# A run of letters written after a title and a space (ဦး ဘဆွေ) is counted under MY_TITLED and the run: its first words are a
+# name's (frequency_burmese.name_words).
+MY_TITLED = "\x01"
 
 
 def burmese_runs(lines):
-    """The runs of Burmese letters of the Unicode lines of [lines], read as the reader reads them (my_normalise), how often each."""
+    """
+    The runs of Burmese letters of the Unicode lines of [lines], read as the reader reads them (my_normalise), how often each;
+    one written after a title and a space under MY_TITLED and the run.
+    """
     runs = defaultdict(int)
     for line in frequency_burmese.zawgyi_lines(lines):
-        for match in frequency_burmese.MY_RUN.finditer(frequency_burmese.my_normalise(line)):
-            runs[match.group(0)] += 1
+        line = frequency_burmese.my_normalise(line)
+        last, end = None, 0
+        for match in frequency_burmese.MY_RUN.finditer(line):
+            run = match.group(0)
+            titled = last in frequency_burmese.TITLES and line[end:match.start()].isspace()
+            runs[MY_TITLED + run if titled else run] += 1
+            last, end = run, match.end()
     return runs
 
 
@@ -5891,8 +5906,12 @@ def build_burmese(size):
     words and the app's own list's, files/lexicon/my.txt), into its likeliest words by the last round's ranks. Words do not
     inflect: each is its own, but for the induced creaky tone of a noun or pronoun (frequency_burmese.creaky), its form. A
     word is counted only between words, as Lao's: not next to letters no word covers, nor next to a syllable of a foreign
-    word or name (frequency_burmese.FRAGMENTS), nor such a syllable itself.
+    word or name (frequency_burmese.FRAGMENTS), nor such a syllable itself; nor as a name's (frequency_burmese.name_words),
+    nor as a piece of a longer word of the pack or of ICU's list that the cut reads as its pieces (frequency_burmese.inside).
+    A word the texts use as a name's frequency_burmese.NAMED_SHARE of the times is left out, and so is one the pack has as a
+    name too that the subtitles use less than MY_NAME_SUBTITLES as often as the articles (frequency_burmese.named).
     """
+    normalise = frequency_burmese.my_normalise
     pack = frequency_burmese.pack_words()
     lexicon = pack | frequency_burmese.lexicon_words()
     # A noun's or pronoun's induced creaky tone (ဘုရင့်, ကမ္ဘာ့) is its form, unless the pack has it as a word of its own; and
@@ -5900,13 +5919,17 @@ def build_burmese(size):
     db = sqlite3.connect(os.path.join(DICTIONARIES, "my-en.sqlite"))
     creaky = {}
     for (word,) in db.execute("SELECT DISTINCT word_lc FROM entries WHERE pos IN ('noun', 'pron')"):
-        form = frequency_burmese.creaky(frequency_burmese.my_normalise(word))
+        form = frequency_burmese.creaky(normalise(word))
         if form and form not in pack:
-            creaky.setdefault(form, [frequency_burmese.my_normalise(word)])
+            creaky.setdefault(form, [normalise(word)])
     creaky.update({form: [word] for form, word in frequency_burmese.SPELLINGS.items()})
     OVERRIDES["my"] = creaky
     lexicon |= set(creaky)
     fragments = frequency_burmese.FRAGMENTS
+    verbs = {normalise(w) for (w,) in db.execute("SELECT word_lc FROM entries WHERE pos IN ('verb', 'adj')")}
+    compounds = lexicon | frequency_burmese.icu_words(
+        download(frequency_burmese.ICU_DICT, f"icu-{frequency_burmese.ICU_VERSION}-burmesedict.txt"), pack)
+    named_too = frequency_burmese.named(db)
     sources = [("wikipedia", burmese_runs(burmese_wikipedia_lines()), "my.wikipedia.org articles")]
     import gzip
     path = download(MY_SUBTITLES, "opus-opensubtitles-v2024-my.txt.gz")
@@ -5918,17 +5941,33 @@ def build_burmese(size):
         segment = segmenter("my", lexicon, ranks)
         counted = {}
         found = []
+        as_name = defaultdict(int)
         for name, runs, source_label in sources:
             counts = defaultdict(int)
-            for run, n in runs.items():
-                if run not in counted:
-                    pieces = segment(run)
+            for key, n in runs.items():
+                if key not in counted:
+                    titled = key.startswith(MY_TITLED)
+                    pieces = segment(key[len(MY_TITLED):] if titled else key)
                     known = [p in lexicon and p not in fragments for p in pieces]
-                    counted[run] = [piece for i, piece in enumerate(pieces)
-                                    if known[i] and (i == 0 or known[i - 1]) and (i + 1 == len(pieces) or known[i + 1])]
-                for piece in counted[run]:
+                    names = frequency_burmese.name_words(pieces, titled, verbs)
+                    lost = names | frequency_burmese.inside(pieces, compounds)
+                    between = [i for i in range(len(pieces))
+                               if known[i] and (i == 0 or known[i - 1]) and (i + 1 == len(pieces) or known[i + 1])]
+                    counted[key] = ([pieces[i] for i in between if i not in lost], [pieces[i] for i in between if i in names])
+                words, named = counted[key]
+                for piece in words:
                     counts[piece] += n
-            found.append((name, dict(counts), source_label))
+                for piece in named:
+                    as_name[piece] += n
+            found.append((name, counts, source_label))
+        totals = {name: sum(counts.values()) for name, counts, _ in found}
+        share = {name: {w: c / totals[name] for w, c in counts.items()} for name, counts, _ in found}
+        left_out = {w for w, c in as_name.items() if c >= frequency_burmese.NAMED_SHARE * (c + sum(
+            counts.get(w, 0) for _, counts, _ in found))}
+        left_out |= {w for w in named_too if share["wikipedia"].get(w, 0) and share.get("opensubtitles", {}).get(w, 0)
+                     < MY_NAME_SUBTITLES * share["wikipedia"][w]}
+        found = [(name, {w: c for w, c in counts.items() if w not in left_out}, source_label)
+                 for name, counts, source_label in found]
         built, label = build_list("my", found, size)
         print(f"my round {round_}: {'unchanged' if built == text else 'changed'}", file=sys.stderr)
         if built == text:

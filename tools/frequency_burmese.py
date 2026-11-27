@@ -15,6 +15,7 @@ leaves out every line of a source that Google's myanmartools takes for Zawgyi (z
 
 Usage: python3 tools/frequency_burmese.py --lexicon   writes files/lexicon/my.txt from ICU's burmesedict.txt
 """
+import json
 import os
 import re
 import sqlite3
@@ -130,6 +131,76 @@ WORDS = {
 
 # Entries of ICU's list the pack lacks that the reader reads as the pack's words (make_lexicon), besides those it finds.
 CUT = {"ခြင်ဆေး": ["ခြင်", "ဆေး"], "အဖျားတက်": ["အဖျား", "တက်"], "လျှပ်ပြက်": ["လျှပ်", "ပြက်"]}
+
+# The titles written before a person's name (ဦး "U", ဒေါ် "Daw", ဆရာတော် "Sayadaw", အသျှင် "Ashin", ဘဒ္ဒန္တ before a
+# monk's name), whose name is made of ordinary words or of Pali ones (ဦးတင်ဦး, ဒေါ်ခင်စန်း, ဆရာတော်ဦးဝဏ္ဏ): the name's
+# words, up to NAME_WORDS of them, written after it or after it and a space, count for nothing (name_words). ကို "Ko", မ "Ma"
+# and မောင် "Maung" are titles too, but ကို is the object particle and မ "not" as well: they count only first in a stretch
+# of letters, and only before a word the pack has as no verb or adjective (one after them is ကို's or မ's: မသွားဘူး).
+TITLES = frozenset(["ဦး", "ဒေါ်", "ဆရာတော်", "အသျှင်", "ဦးဇင်း", "ဦးပဉ္ဇင်း", "ဘဒ္ဒန္တ", "ဒေါက်တာ", "ဗိုလ်ချုပ်", "သခင်"])
+FIRST_TITLES = frozenset(["ကို", "မ", "မောင်"])
+NAME_WORDS = 3
+# A name ends at a particle or postposition: the ENDINGS and these.
+NAME_ENDS = frozenset(ENDINGS + ("တွင်", "အား", "ဖြင့်", "၏", "ကား", "သည်", "တို့", "ဟု", "လို့"))
+# A word the counts have NAMED_SHARE of the times as a name's (name_words) is a name, and left out.
+NAMED_SHARE = 0.4
+
+
+def name_words(pieces, titled, verbs):
+    """
+    The indexes of the words of [pieces], a stretch of letters cut into words, that are a name's: those after a title
+    (TITLES) in it, or at its start when [titled] (the stretch is written after a title and a space), or after one of
+    FIRST_TITLES that starts it and is followed by no word of [verbs].
+    """
+    starts = [0] if titled else []
+    for at, piece in enumerate(pieces):
+        if piece in TITLES or at == 0 and piece in FIRST_TITLES and not (len(pieces) > 1 and pieces[1] in verbs):
+            starts.append(at + 1)
+    out = set()
+    for start in starts:
+        for i in range(start, min(len(pieces), start + NAME_WORDS)):
+            if pieces[i] in NAME_ENDS or pieces[i] in TITLES:
+                break
+            out.add(i)
+    return out
+
+
+# A word with no more than INSIDE_WORDS words, the word next to it among them, that make a longer word of the pack or of
+# ICU's list is that word's piece where the cut reads them apart (inside).
+INSIDE_WORDS = 3
+
+
+def inside(pieces, words):
+    """
+    The indexes of the words of [pieces], a stretch of letters cut into words, that are pieces of a longer word of [words]:
+    the reader reads ခရုခွံ "snail shell" as ခရု + ခွံ (make_lexicon), and the cut may read a word of the pack as its pieces
+    where they are commoner.
+    """
+    out = set()
+    for start in range(len(pieces)):
+        joined = pieces[start]
+        for end in range(start + 1, min(len(pieces), start + INSIDE_WORDS)):
+            joined += pieces[end]
+            if joined in words:
+                out.update(range(start, end + 1))
+    return out
+
+
+# The pack's names, given names and royal titles, but for the days and months the pack has as names too.
+NAME_GLOSS = re.compile(r"given name|royal title|surname")
+CALENDAR_GLOSS = re.compile(r"day|January|February|March|April|May|June|July|August|September|October|November|December|month")
+
+
+def named(db):
+    """The words the pack [db] has as names too: a name, a given name, a royal title; not the days and months."""
+    out, calendar = set(), set()
+    for word, pos, senses in db.execute("SELECT word_lc, pos, senses FROM entries"):
+        glosses = " ".join(g for s in json.loads(senses) for g in s.get("glosses", []))
+        if pos == "name" or NAME_GLOSS.search(glosses):
+            out.add(my_normalise(word))
+        if CALENDAR_GLOSS.search(glosses):
+            calendar.add(my_normalise(word))
+    return out - calendar
 
 
 # The letters before a final asat whose syllable can take the creaky tone: the nasals, ယ, and the ာ of ော်.
