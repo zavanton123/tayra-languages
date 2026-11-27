@@ -1,12 +1,8 @@
 package com.idiomiko.feature.languages
 
 import com.idiomiko.core.ui.i18n.tr
-import androidx.compose.animation.AnimatedVisibility
-import androidx.compose.animation.fadeIn
-import androidx.compose.animation.fadeOut
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.mutableIntStateOf
-import kotlinx.coroutines.delay
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -26,7 +22,6 @@ import androidx.compose.foundation.layout.width
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.Check
-import androidx.compose.material.icons.filled.CheckCircle
 import androidx.compose.material.icons.filled.KeyboardArrowDown
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
@@ -52,6 +47,8 @@ import com.idiomiko.core.ui.components.AppMenuItem
 import com.idiomiko.core.ui.components.AppTopBar
 import com.idiomiko.core.ui.components.SettingsSection
 import com.idiomiko.core.ui.components.SettingsPane
+import com.idiomiko.core.ui.components.rememberToastState
+import com.idiomiko.core.ui.components.ToastHost
 import com.idiomiko.core.ui.components.AddLanguageDialog
 import com.idiomiko.core.ui.components.PrimaryButton
 import com.idiomiko.core.ui.components.LanguageFlag
@@ -60,7 +57,6 @@ import com.idiomiko.core.ui.components.LocalWindowWidth
 import com.idiomiko.core.ui.components.NavSection
 import com.idiomiko.core.ui.components.PageColumn
 import com.idiomiko.core.ui.components.ScreenHeader
-import com.idiomiko.core.ui.components.StatusTints
 import com.idiomiko.core.ui.components.cardSurface
 import com.idiomiko.core.ui.navigation.Route
 import org.koin.compose.viewmodel.koinViewModel
@@ -82,8 +78,11 @@ fun LanguagesScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: 
     val learningCode = learning?.currentName?.let(LanguageCodes::codeFor)
     val ui = LanguageCatalog.interfaceOption(settings.uiLanguage)
     val compact = LocalWindowWidth.current.isCompact
-    // Counts the changes made here, so each one shows "Changes saved" for a moment.
+    // Counts the changes made here, each saved at once and said so in a snackbar, in place of a Save button.
     var changes by remember { mutableIntStateOf(0) }
+    val toast = rememberToastState()
+    ToastHost(toast)
+    LaunchedEffect(changes) { if (changes > 0) toast.show(tr("Changes saved")) }
     val removing by viewModel.removing.collectAsStateWithLifecycle()
     val removals by viewModel.removals.collectAsStateWithLifecycle()
     var adding by remember { mutableStateOf(false) }
@@ -94,7 +93,7 @@ fun LanguagesScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: 
         AddLanguageDialog(learning, onDismiss = { adding = false }, onSelect = { learning.select(it); changes++ })
     }
     if (compact) {
-        PhoneLanguagesScreen(settings, learning, viewModel, onNavigate, onBack)
+        PhoneLanguagesScreen(settings, learning, viewModel, onNavigate, onBack, onChanged = { changes++ })
         return
     }
     Scaffold(
@@ -105,9 +104,7 @@ fun LanguagesScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: 
             // The room beside the settings sidebar, which may hold one column only.
             val wide = LocalWindowWidth.current.isExpanded
             PageColumn(inner) {
-                ScreenHeader(tr("Languages"), null, onBackToSettings = onBack) {
-                    if (!compact) SavedNote(changes)
-                }
+                ScreenHeader(tr("Languages"), null, onBackToSettings = onBack)
                 // The languages being learned, switched between and added to here, then the two other choices.
                 if (learning != null) MyLanguagesCard(learning, viewModel::askToRemove, Modifier.fillMaxWidth(), removals, onLearn = { learning.select(it); changes++ })
                 PrimaryButton(tr("Add a language"), onClick = { adding = true }, icon = Icons.Default.Add, modifier = Modifier.testTag("add-language-button"))
@@ -147,27 +144,7 @@ fun LanguagesScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: 
                         uiTile(Modifier.fillMaxWidth())
                     }
                 }
-                if (compact) SavedNote(changes)
             }
-        }
-    }
-}
-
-/** Settings are saved as soon as they change; after each of the [changes] this says so for a few seconds, in place of a Save button. */
-@Composable
-private fun SavedNote(changes: Int) {
-    var visible by remember { mutableStateOf(false) }
-    LaunchedEffect(changes) {
-        if (changes == 0) return@LaunchedEffect
-        visible = true
-        delay(2_500)
-        visible = false
-    }
-    AnimatedVisibility(visible, enter = fadeIn(), exit = fadeOut()) {
-        Row(verticalAlignment = Alignment.CenterVertically) {
-            Icon(Icons.Default.CheckCircle, contentDescription = null, tint = StatusTints.ok, modifier = Modifier.size(AppSizes.iconLarge))
-            Spacer(Modifier.width(AppSpacing.m))
-            Text(tr("Changes saved"), style = AppText.emphasis, color = StatusTints.ok)
         }
     }
 }

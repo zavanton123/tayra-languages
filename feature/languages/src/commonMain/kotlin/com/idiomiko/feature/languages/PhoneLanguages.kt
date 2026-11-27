@@ -56,7 +56,15 @@ import com.idiomiko.core.ui.theme.AppText
  * sheet of the languages with their flags; the learning one is tinted.
  */
 @Composable
-internal fun PhoneLanguagesScreen(settings: UserSettings, learning: LearningLanguageState?, viewModel: LanguagesViewModel, onNavigate: (Route) -> Unit, onBack: () -> Unit) {
+internal fun PhoneLanguagesScreen(
+    settings: UserSettings,
+    learning: LearningLanguageState?,
+    viewModel: LanguagesViewModel,
+    onNavigate: (Route) -> Unit,
+    onBack: () -> Unit,
+    /** Called after each change, which is saved at once. */
+    onChanged: () -> Unit = {},
+) {
     val colors = MaterialTheme.colorScheme
     val native = LanguageCatalog.nativeOption(settings.nativeLanguage)
     val learningCode = learning?.currentName?.let(LanguageCodes::codeFor)
@@ -68,7 +76,7 @@ internal fun PhoneLanguagesScreen(settings: UserSettings, learning: LearningLang
         containerColor = colors.surfaceContainerLow,
     ) { padding ->
         ScrollColumn(Modifier.padding(padding).fillMaxWidth(), contentModifier = Modifier.padding(horizontal = AppSpacing.l, vertical = AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
-            if (learning != null) MyLanguagesCard(learning, viewModel::askToRemove, Modifier.fillMaxWidth(), viewModel.removals.collectAsStateWithLifecycle().value)
+            if (learning != null) MyLanguagesCard(learning, viewModel::askToRemove, Modifier.fillMaxWidth(), viewModel.removals.collectAsStateWithLifecycle().value, onLearn = { learning.select(it); onChanged() })
             // A phone adds a language on the full-screen list, as from the language menu.
             PrimaryButton(tr("Add a language"), onClick = { onNavigate(Route.ChooseLanguage) }, icon = Icons.Default.Add, modifier = Modifier.testTag("add-language-button"))
             PhoneLanguageCard(tr("Meanings"), tr("Show meanings in")) {
@@ -85,7 +93,7 @@ internal fun PhoneLanguagesScreen(settings: UserSettings, learning: LearningLang
             name = { tr(it.name) }, flagName = { it.name },
             unavailable = { if (it.code == learningCode) tr("You are learning it") else null },
             onDismiss = { nativeSheet = false },
-            onPick = { nativeSheet = false; viewModel.setNativeLanguage(it.code, learningCode) },
+            onPick = { nativeSheet = false; viewModel.setNativeLanguage(it.code, learningCode); onChanged() },
         )
     }
     if (uiSheet) {
@@ -93,7 +101,7 @@ internal fun PhoneLanguagesScreen(settings: UserSettings, learning: LearningLang
             tr("Interface language"), LanguageCatalog.interfaceLanguages, selected = ui,
             name = { it.name }, flagName = { LanguageCatalog.nativeOption(it.code).name },
             onDismiss = { uiSheet = false },
-            onPick = { uiSheet = false; viewModel.setInterfaceLanguage(it.code) },
+            onPick = { uiSheet = false; viewModel.setInterfaceLanguage(it.code); onChanged() },
         )
     }
 }

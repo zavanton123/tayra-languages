@@ -124,6 +124,8 @@ class LanguagesScreenTest {
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("You are learning it").fetchSemanticsNodes().isNotEmpty() }
         onAllNodesWithText("Russian").onLast().performClick()
         waitUntil(timeoutMillis = 5_000) { settings.current.nativeLanguage == "ru" }
+        // Saved at once, and said so in a snackbar.
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Changes saved").fetchSemanticsNodes().isNotEmpty() }
 
         onNodeWithTag("interface-language").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Русский").fetchSemanticsNodes().isNotEmpty() }
