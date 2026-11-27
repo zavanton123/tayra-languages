@@ -159,7 +159,9 @@ def possessives(word):
     """A noun's possessive forms (otam, otasi; kitobim, kitobi; yuragim, oʻgʻlim), without the plural's."""
     if ends_in_vowel(word):
         return [word + e for e in ("m", "ng", "si", "miz", "ngiz")]
-    return [v + e for v in vowel_stems(word) for e in ("im", "ing", "i", "imiz", "ingiz")]
+    # A word in -iy takes -si as a vowel does (vodiysi, oliysi).
+    out = [v + e for v in vowel_stems(word) for e in ("im", "ing", "i", "imiz", "ingiz")]
+    return out + [word + "si"] if word.endswith("iy") else out
 
 
 def noun_forms(word, plural=True):
@@ -171,6 +173,8 @@ def noun_forms(word, plural=True):
         out.update(cases(base))
         out.update(base + e for e in PREDICATIVES)
         out.add(base + "da" + "gi")
+        # Those there (nafaqadagilar, uydagilarga).
+        out.update(base + "dagi" + e for e in ("lar", "larni", "larga", "larning", "lardan", "ni", "ga", "dan"))
         for p in possessives(base) + [base + "lari"] if base == word else [base + e for e in ("im", "ing", "i", "imiz", "ingiz")]:
             out.add(p)
             out.update(cases(p))
