@@ -1,5 +1,5 @@
-1	3901	uthull	uthulla uthulle uthullën uthullës
-2	3902	rrypinë	rrypin
+1	3901	kthjelloj	kthjell kthjella kthjelli kthjellim kthjellohet kthjelloje kthjellojmë kthjellojnë kthjellova kthjelltë kthjellu kthjelluar kthjellur
+2	3902	uthull	uthulla uthulle uthullën uthullës
 3	3903	kullotë	kullota kullotash kullotat kullotave kullote kullotën kullotës
 4	3904	bram	brami bramin
 5	3905	shurroj	shurro shurroi shurroja shurroje shurron shurronte shurruar
@@ -9,92 +9,92 @@
 9	3909	lëvore	levore lëvoren lëvoret lëvorja
 10	3910	rrafshoj	rrafshoi rrafshojmë rrafshojnë rrafshoni rrafshonin rrafshonte rrafshuam rrafshuan rrafshuar
 11	3911	konsensus	
-12	3912	shog	shogun
-13	3913	tamë	tama
-14	3914	gjitar	gjitare gjitari gjitarë gjitarësh gjitarët gjitarëve
-15	3915	hambar	hambari hambarin hambarit hambarë hambarët
-16	3916	granit	granitet graniti granitin granitit
-17	3917	çarmatos	çarmatosa çarmatose çarmatosi çarmatosim çarmatosin çarmatosja çarmatosje çarmatosur
-18	3918	bajonetë	bajoneta bajonetat bajonete bajonetës
-19	3919	rreng	rrengje rrengu
-20	3920	kaçurrel	kaçurrela kaçurrele
-21	3921	shtatëdhjetë	
-22	3922	kamxhik	kamxhiku kamxhikun kamxhikut kamxhikë
-23	3923	harboj	harbor harbuar
-24	3924	varrë	varra varre varrën varrës
-25	3925	kapitalist	kapitaliste kapitalisti kapitalistin kapitalistë kapitalistët kapitalistëve
-26	3926	shahin	shahini shahinin shahinit
-27	3927	qytetëroj	qytetëruar
-28	3928	greqisht	
-29	3929	kunj	kunja kunjat kunjin
-30	3930	ereksion	ereksione ereksionet ereksioni ereksionin ereksionit
-31	3931	mëz	mës mëza mëzat mëzi mëzin
-32	3932	bashkëfajtor	bashkëfajtore bashkëfajtori bashkëfajtorin bashkëfajtorë bashkëfajtorët
-33	3933	karotë	karota karotat karotave karote karotën karotës
-34	3934	parësor	parësore parësorë
-35	3935	bal	bala bali balo
-36	3936	katrahurë	katrahura katraurë
-37	3937	ndih	ndihni ndihshim ndihtë ndihu ndihur ndihëm ndihën
-38	3938	bashkëkohor	bashkohor bashkëkohore
-39	3939	kerr	kerre kerret kerri kerrin kerrit
-40	3940	qeramikë	qeramika qeramike qeramikën qeramikës
-41	3941	shtatëmbëdhjetë	
-42	3942	tetëmbëdhjetë	
-43	3943	merkur	merkuri merkurin merkurit mërkur
-44	3944	kombësi	kombësia kombësie kombësinë kombësisë kombësitë kombësive
-45	3945	djeshëm	
-46	3946	saksi	saksia saksin saksinë saksisë saksit
-47	3947	bashkatdhetar	bashkatdhetari bashkatdhetarin bashkatdhetarit bashkatdhetarë bashkatdhetarët bashkatdhetarëve
-48	3948	rrënim	rrënime rrënimeve rrënimi rrënimin rrënimit
-49	3949	tigan	tigani tiganin tiganit tiganë tiganët
-50	3950	cjap	cap capi cjapi cjapin cjapit
-51	3951	gjem	gjema gjeme gjemi gjemë
-52	3952	zemërgjerë	
-53	3953	shpat	shpate shpatet shpati shpatin
-54	3954	qëmoti	qemoti
-55	3955	mort	morte morti
-56	3956	beretë	bereta beretat beretave berete beretën
-57	3957	flijim	flijime flijimet flijimi flijimin flijimit
-58	3958	rig	riga
-59	3959	kanoçe	kanoçen kanoçes kanoçet kanoçeve kanoçja
-60	3960	magjyp	magjup xhip
-61	3961	grerëz	grenzë grerëza grerëzash grerëzat grerëzave grerëzën grerëzës
-62	3962	emigroj	emigroi emigroje emigrojmë emigrojnë emigron emigroni emigronin emigronte emigrova emigruan emigruar
-63	3963	hekuros	hekurosa hekurose hekuroset hekurosin hekurosja hekurosje hekurosni hekuroste hekurosur
-64	3964	shtrembër	
-65	3965	edh	edha edhi
-66	3966	sutjena	sutjenat sutjenave
-67	3967	rilindem	rilindur
-68	3968	mënjanoj	mënjano mënjanoi mënjanojmë mënjanojnë mënjanon mënjanoni mënjanonin mënjanonte mënjanova mënjanuan mënjanuar
-69	3969	pip	pipa pipat
-70	3970	zhele	zhelen zheles zhelesh
-71	3971	fajkua	fajkoi
-72	3972	asllan	asllani asllanin
-73	3973	zbathur	
-74	3974	deficit	deficiti deficitin
-75	3975	qahem	qahesh qahet
-76	3976	anketë	anketa anketat anketave ankete anketën anketës
-77	3977	gdhij	gdhi gdhifsh gdhijnë gdhike gdhin gdhinë gdhirë gdhiu gdhive
-78	3978	thërrime	thërime thërrimen thërrimet thërrimeve
-79	3979	punësohem	punësohej punësohen punësoheni punësohesh punësoheshin punësohet punësova
-80	3980	llap	lap llapa llapi llapin llapit
-81	3981	troftë	trofta troftash troftat trofte troftën troftës
-82	3982	lëmoshë	lëmosha lëmoshat
-83	3983	vigan	vigani viganin viganë viganët viganëve
-84	3984	përkufizoj	përkufizo përkufizohet përkufizoi përkufizoje përkufizojmë përkufizojnë përkufizon përkufizoni përkufizonin përkufizonte përkufizuar
-85	3985	arkeolog	arkeologe arkeologu arkeologun arkeologut arkeologë arkeologësh arkeologët arkeologëve
-86	3986	ishalla	
-87	3987	hardhi	ardhi hardhia hardhie hardhisë hardhitë hardhive
-88	3988	aerodrom	aerodromet aerodromi aerodromin aerodromit
-89	3989	heteroseksual	heteroseksuale heteroseksuali heteroseksualë heteroseksualët
-90	3990	superyll	superyjet superylli superyllin superyllit
-91	3991	dyllë	dylli dyllin dyllit
-92	3992	çimento	çimentoja çimentos
-93	3993	ujore	
-94	3994	zebër	zebra zebrat zebrën
-95	3995	hidrogjen	hidrogjeni hidrogjenin hidrogjenit
-96	3996	puçërr	puçrra puçrrat puçrrave puçrrën
-97	3997	përpjetë	
-98	3998	dak	daku dakun
-99	3999	çupë	çupa çupat çupën çupës
-100	4000	verbal	verbale
+12	3912	gjitar	gjitare gjitari gjitarë gjitarësh gjitarët gjitarëve
+13	3913	hambar	hambari hambarin hambarit hambarë hambarët
+14	3914	çarmatos	çarmatosa çarmatose çarmatosi çarmatosim çarmatosin çarmatosja çarmatosje çarmatosur
+15	3915	bajonetë	bajoneta bajonetat bajonete bajonetës
+16	3916	rreng	rrengje rrengu
+17	3917	kaçurrel	kaçurrela kaçurrele
+18	3918	shtatëdhjetë	
+19	3919	kamxhik	kamxhiku kamxhikun kamxhikut kamxhikë
+20	3920	kapitalist	kapitaliste kapitalisti kapitalistin kapitalistë kapitalistët kapitalistëve
+21	3921	qytetëroj	qytetëruar
+22	3922	greqisht	
+23	3923	kunj	kunja kunjat kunjin
+24	3924	ereksion	ereksione ereksionet ereksioni ereksionin ereksionit
+25	3925	bashkëfajtor	bashkëfajtore bashkëfajtori bashkëfajtorin bashkëfajtorë bashkëfajtorët
+26	3926	karotë	karota karotat karotave karote karotën karotës
+27	3927	parësor	parësore parësorë
+28	3928	katrahurë	katrahura katraurë
+29	3929	bashkëkohor	bashkohor bashkëkohore
+30	3930	qeramikë	qeramika qeramike qeramikën qeramikës
+31	3931	shtatëmbëdhjetë	
+32	3932	tetëmbëdhjetë	
+33	3933	merkur	merkuri merkurin merkurit mërkur
+34	3934	kombësi	kombësia kombësie kombësinë kombësisë kombësitë kombësive
+35	3935	djeshëm	
+36	3936	saksi	saksia saksin saksinë saksisë saksit
+37	3937	bashkatdhetar	bashkatdhetari bashkatdhetarin bashkatdhetarit bashkatdhetarë bashkatdhetarët bashkatdhetarëve
+38	3938	rrënim	rrënime rrënimeve rrënimi rrënimin rrënimit
+39	3939	tigan	tigani tiganin tiganit tiganë tiganët
+40	3940	cjap	cap capi cjapi cjapin cjapit
+41	3941	zemërgjerë	
+42	3942	qëmoti	qemoti
+43	3943	mort	morte morti
+44	3944	beretë	bereta beretat beretave berete beretën
+45	3945	flijim	flijime flijimet flijimi flijimin flijimit
+46	3946	kanoçe	kanoçen kanoçes kanoçet kanoçeve kanoçja
+47	3947	grerëz	grenzë grerëza grerëzash grerëzat grerëzave grerëzën grerëzës
+48	3948	emigroj	emigroi emigroje emigrojmë emigrojnë emigron emigroni emigronin emigronte emigrova emigruan emigruar
+49	3949	hekuros	hekurosa hekurose hekuroset hekurosin hekurosja hekurosje hekurosni hekuroste hekurosur
+50	3950	shtrembër	
+51	3951	edh	edha edhi
+52	3952	sutjena	sutjenat sutjenave
+53	3953	mënjanoj	mënjano mënjanoi mënjanojmë mënjanojnë mënjanon mënjanoni mënjanonin mënjanonte mënjanova mënjanuan mënjanuar
+54	3954	zhele	zhelen zheles zhelesh
+55	3955	fajkua	fajkoi
+56	3956	zbathur	
+57	3957	deficit	deficiti deficitin
+58	3958	qahem	qahesh qahet
+59	3959	anketë	anketa anketat anketave ankete anketën anketës
+60	3960	gdhij	gdhi gdhifsh gdhijnë gdhike gdhin gdhinë gdhirë gdhiu gdhive
+61	3961	thërrime	thërime thërrimen thërrimet thërrimeve
+62	3962	troftë	trofta troftash troftat trofte troftën troftës
+63	3963	lëmoshë	lëmosha lëmoshat
+64	3964	vigan	vigani viganin viganë viganët viganëve
+65	3965	përkufizoj	përkufizo përkufizohet përkufizoi përkufizoje përkufizojmë përkufizojnë përkufizon përkufizoni përkufizonin përkufizonte përkufizuar
+66	3966	arkeolog	arkeologe arkeologu arkeologun arkeologut arkeologë arkeologësh arkeologët arkeologëve
+67	3967	ishalla	
+68	3968	hardhi	ardhi hardhia hardhie hardhisë hardhitë hardhive
+69	3969	aerodrom	aerodromet aerodromi aerodromin aerodromit
+70	3970	heteroseksual	heteroseksuale heteroseksuali heteroseksualë heteroseksualët
+71	3971	superyll	superyjet superylli superyllin superyllit
+72	3972	dyllë	dylli dyllin dyllit
+73	3973	shpat	shpatet shpati shpatin
+74	3974	çimento	çimentoja çimentos
+75	3975	ujore	
+76	3976	zebër	zebra zebrat zebrën
+77	3977	hidrogjen	hidrogjeni hidrogjenin hidrogjenit
+78	3978	puçërr	puçrra puçrrat puçrrave puçrrën
+79	3979	përpjetë	
+80	3980	çupë	çupa çupat çupën çupës
+81	3981	verbal	verbale
+82	3982	kriket	kriketi
+83	3983	bambu	bambuja bambuje
+84	3984	loçkë	loçka
+85	3985	sodit	soditje soditur soditës
+86	3986	pasiv	pasive pasivë
+87	3987	mamuth	mamuthi mamuthin mamuthit mamuthë mamuthët
+88	3988	turbinë	turbina turbinat turbinave turbine turbinën turbinës
+89	3989	kallëzoj	kallxoj kallëzoi kallëzoja kallëzojmë kallëzojnë kallëzon kallëzonte kallëzove kallëzuar
+90	3990	radioaktivitet	radioaktiviteti radioaktivitetit
+91	3991	ëmbëlsi	ëmbëlsia ëmbëlsinë ëmbëlsisë
+92	3992	ciklon	ciklone ciklonet cikloni ciklonin ciklonit
+93	3993	damar	damarët
+94	3994	medoemos	
+95	3995	thumboj	thumboi thumbojnë thumbon thumbonte thumbuar
+96	3996	hamendje	hamendja hamendjet hamendjeve
+97	3997	pornografik	pornografike pornografikë
+98	3998	historikisht	
+99	3999	përkufizim	përkufizimi
+100	4000	çakall	çakaj çakalli çakej çakejtë çakejve

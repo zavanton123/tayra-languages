@@ -1,5 +1,5 @@
 # source: FrequencyWords sq (OpenSubtitles 2018) (CC BY-SA 4.0) + Leipzig Corpora Collection sqi_news_2019_1M, sqi_news_2020_1M (terms at https://wortschatz.uni-leipzig.de/en/download)
-# words: 6583
+# words: 6219
 të	të t
 e	e
 jam	është jam je ishte janë jemi jetë qe jeni qenë isha jesh ishin ishe jem jenë qoftë ishim qënë qenka ishit jan ish qenke ji qofsh qenkan jini qeshësh qofshin qenkeni qenkam qeshë qofsha qofshi qenkemi jom qenëve qenësh qofshit
@@ -1218,7 +1218,7 @@ sinqertë	sinqertë sinqert sinqerta sinqertët
 ndër	ndër
 përtej	përtej
 shënoj	shënoi shënon shënoj shënojë shënuan shënojnë shënohet shënonte shëno shënoni shënoje shënojmë shënova shënoja shënuam shënonin shënonim shënove
-palloj	palluar palloj pallon pallo pallova palloja pallohesh palloi pallojë pallonte pallohemi palloje pallove pallohet pallojnë pallohem pallojmë pallomë pallohen palloheni palloheshin pallohesha pallohej palloni palluat palluan pallonin palluam pallonim
+palloj	palluar palloj pallon pallo pallova palloja pallohesh pallojë pallonte pallohemi palloje pallove pallohet pallojnë pallohem pallojmë pallomë pallohen palloheni palloheshin pallohesha pallohej palloni palluat palluan pallonin palluam pallonim
 pistë	pistë pista pistën piste pistës pistat pistave
 kullë	kulla kullë kullën kullat kullës kullave kulle kulli kullash
 kuzhinë	kuzhinë kuzhina kuzhinës kuzhinën kuzhine guzhinë kuzhinat kuzhinave
@@ -3599,7 +3599,7 @@ vrajë	vraje vraja vrajës
 kënaqë	kënaqë kënaqësh
 qëparë	qëparë
 helikë	helikat helika helikën helikë
-adresohem	adresuar adresohet adresohen adresohem adresohesh adresojnë adreson adresojmë adreso adresoi adresuan adresova adresoje adresonte adresoheshin adresohej adresoni adresohemi adresoheni adresonin
+adresohem	adresuar adresohet adresohen adresohem adresohesh adresoheshin adresohej adresohemi adresoheni
 norvegjez	norvegjez norvegjeze
 farkëtar	farkëtar farkëtarit farkëtari farkëtarin farkëtarët farkëtarë farkëtarëve
 cilindër	cilindër cilindri cilindrat cilindrin cilindra cilindrit cilindrave
@@ -3900,45 +3900,35 @@ ujor	ujor ujorë
 karshi	karshi
 ibrik	ibrik ibriku ibrikut ibrikun ibrikë ibrikët
 sistematik	sistematike sistematik sistematikë
+kthjelloj	kthjellu kthjellohet kthjelltë kthjelloj kthjellojmë kthjellojnë kthjelluar kthjellur kthjellova kthjelloje kthjelli kthjellim kthjella kthjell
 uthull	uthull uthulla uthullën uthullës uthulle
-rrypinë	rrypin
 kullotë	kullota kullotë kullotat kullotës kullotën kullotave kullote kullotash
 bram	bram brami bramin
 shurroj	shurroj shurron shurruar shurronte shurro shurroi shurroja shurroje
 dinjitoz	dinjitoze dinjitoz
 shekullor	shekullore shekullor shekullorë
-qepallë	qepallat qepalla qepallës qepallën qepallave
+qepallë	qepallë qepallat qepalla qepallës qepallën qepallave
 lëvore	lëvore lëvoren lëvorja lëvoret levore
 rrafshoj	rrafshuar rrafshojmë rrafshoj rrafshoi rrafshojnë rrafshuam rrafshuan rrafshonte rrafshoni rrafshonin
 konsensus	konsensus
-shog	shogun
-tamë	tama
 gjitar	gjitarë gjitarët gjitar gjitarësh gjitare gjitarëve gjitari
 hambar	hambar hambarin hambari hambarët hambarit hambarë
-granit	granit graniti granitet granitit granitin
 çarmatos	çarmatosur çarmatos çarmatosa çarmatosi çarmatosja çarmatose çarmatosje çarmatosim çarmatosin
 bajonetë	bajoneta bajonetat bajonetë bajonetës bajonete
 rreng	rreng rrengje rrengu
 kaçurrel	kaçurrela kaçurrel kaçurrele
 shtatëdhjetë	shtatëdhjetë
 kamxhik	kamxhik kamxhiku kamxhikun kamxhikë kamxhikut
-harboj	harbor harbuar
-varrë	varrë varra varre varrën varrës
 kapitalist	kapitalist kapitaliste kapitalistët kapitalistëve kapitalistin kapitalistë kapitalisti
-shahin	shahini shahin shahinit shahinin
-qytetëroj	qytetëruar
+qytetëroj	qytetëroj qytetëruar
 greqisht	greqisht
 kunj	kunj kunja kunjat kunjin
 ereksion	ereksion ereksioni ereksionet ereksione ereksionit ereksionin
-mëz	mëzi mës mëz mëza mëzin mëzat
 bashkëfajtor	bashkëfajtor bashkëfajtore bashkëfajtori bashkëfajtorë bashkëfajtorët bashkëfajtorin
 karotë	karota karotë karotat karote karotën karotës karotave
 parësor	parësor parësore parësorë
-bal	bala bali bal balo
 katrahurë	katrahurë katraurë katrahura
-ndih	ndihu ndihëm ndihtë ndih ndihshim ndihni ndihën ndihur
 bashkëkohor	bashkëkohore bashkëkohor bashkohor
-kerr	kerri kerr kerrin kerrit kerret kerre
 qeramikë	qeramike qeramikës qeramikë qeramikën qeramika
 shtatëmbëdhjetë	shtatëmbëdhjetë
 tetëmbëdhjetë	tetëmbëdhjetë
@@ -3950,36 +3940,27 @@ bashkatdhetar	bashkatdhetarët bashkatdhetarëve bashkatdhetarë bashkatdhetari 
 rrënim	rrënim rrënimin rrënimit rrënimi rrënime rrënimeve
 tigan	tigan tiganin tigani tiganët tiganë tiganit
 cjap	cjap cjapi cap cjapin cjapit capi
-gjem	gjemë gjeme gjem gjema gjemi
 zemërgjerë	zemërgjerë
-shpat	shpat shpatet shpatin shpati shpate
 qëmoti	qëmoti qemoti
 mort	morti morte mort
 beretë	beretat beretë beretën bereta beretave berete
 flijim	flijim flijimin flijimit flijimi flijimet flijime
-rig	rig riga
 kanoçe	kanoçe kanoçes kanoçen kanoçja kanoçeve kanoçet
-magjyp	xhip magjup
 grerëz	grenzë grerëzash grerëzat grerëza grerëz grerëzës grerëzave grerëzën
 emigroj	emigruar emigrojnë emigroi emigruan emigronte emigroni emigronin emigron emigrojmë emigroje emigroj emigrova
 hekuros	hekuros hekurosur hekurosje hekuroste hekurosa hekurose hekuroset hekurosja hekurosni hekurosin
 shtrembër	shtrembër
 edh	edh edha edhi
 sutjena	sutjena sutjenat sutjenave
-rilindem	rilindur
 mënjanoj	mënjanuar mënjanon mënjanoni mënjanojnë mënjanoj mënjanojmë mënjanova mënjano mënjanoi mënjanonte mënjanuan mënjanonin
-pip	pip pipa pipat
 zhele	zhele zhelen zheles zhelesh
 fajkua	fajkua fajkoi
-asllan	asllani asllanin asllan
 zbathur	zbathur
 deficit	deficit deficiti deficitin
 qahem	qahem qahesh qahet
 anketë	anketa anketës anketë anketat anketën ankete anketave
-gdhij	gdhirë gdhive gdhi gdhin gdhike gdhifsh gdhijnë gdhiu gdhinë
+gdhij	gdhij gdhirë gdhive gdhi gdhin gdhike gdhifsh gdhijnë gdhiu gdhinë
 thërrime	thërrime thërrimet thërime thërrimen thërrimeve
-punësohem	punësohen punësohem punësohet punësohesh punësova punësohej punësoheni punësoheshin
-llap	llapit llapi llap lap llapin llapa
 troftë	troftë trofta troftës troftat trofte troftash troftën
 lëmoshë	lëmoshë lëmosha lëmoshat
 vigan	vigan viganë vigani viganin viganëve viganët
@@ -3991,18 +3972,17 @@ aerodrom	aerodrom aerodromi aerodromin aerodromet aerodromit
 heteroseksual	heteroseksual heteroseksuale heteroseksualë heteroseksuali heteroseksualët
 superyll	superyll superylli superyllin superyllit superyjet
 dyllë	dylli dyllin dyllë dyllit
+shpat	shpat shpatet shpatin shpati
 çimento	çimento çimentos çimentoja
 ujore	ujore
 zebër	zebra zebrat zebër zebrën
 hidrogjen	hidrogjenit hidrogjen hidrogjeni hidrogjenin
 puçërr	puçrra puçërr puçrrat puçrrën puçrrave
 përpjetë	përpjetë
-dak	daku dak dakun
 çupë	çupë çupa çupën çupës çupat
 verbal	verbal verbale
 kriket	kriket kriketi
 bambu	bambuje bambu bambuja
-angari	hangari angari
 loçkë	loçka loçkë
 sodit	sodit soditës soditur soditje
 pasiv	pasive pasiv pasivë
@@ -4016,42 +3996,30 @@ damar	damarët damar
 medoemos	medoemos
 thumboj	thumbon thumbuar thumbojnë thumboi thumboj thumbonte
 hamendje	hamendje hamendjet hamendja hamendjeve
-alpe	alpet alpe alpeve
 pornografik	pornografik pornografike pornografikë
 historikisht	historikisht
 përkufizim	përkufizimi përkufizim
 çakall	çakalli çakejtë çakall çakej çakejve çakaj
-apë	apa api apë
-cung	sung cungu çung cung cungut cungun
 admirueshëm	admirueshme admirueshëm
 rebelohem	rebeluar rebelohet rebelohen rebeloheni rebeloheshin rebelohemi rebelohu rebelohesh rebelohem rebelohej
-celik	celiku celik celikun
 pusht	pusht pushti pushtin pushtit pushta
 rrime	rrime
 glukozë	glukozës glukoza glukozë glukozën
 arabisht	arabisht
 gjakpirës	gjakpirës gjakpirësit gjakpirësin
-besëlidhje	besëlidhjen besëlidhjes besëlidhja besëlidhje besëlidhjet
 direktivë	direktiva direktivat direktivë direktivës direktivën direktivave direktive
 kastravec	kastravec kastraveci kastraveca kastravecat kastravecë
-cen	cen ceni cenit cene
-njom	njoma njomur njomi njome njomje njom njomja njomni
+varrë	varrë varra varrën varrës
 përvetësoj	përvetësuar përvetësoj përvetësoi përvetësojnë përvetëso përvetësuam përvetëson përvetësoni përvetësuan përvetësojmë përvetësonin përvetësonte
-shpor	shporu shpori
-ashe	asher ashe
-paskal	paskal paskali
 zbërthej	zbërthej zbërthyer zbërtheva
 pishman	pishman pishmani
 çalë	çalë çali çala çalës çalën çale
-kurt	kurtë
-lajle	lajla
 miush	miushe miushi miush miushin
 grindavec	grindavece grindavec
 orgji	orgji orgjish orgjinë orgjie orgjia orgjisë orgjive orgjitë
 muskulor	muskulor muskulore
 zanafillë	zanafilla zanafillës zanafillën zanafille zanafillë zanafillat
 aristokrat	aristokrat aristokrate aristokratët aristokrati aristokratëve aristokratë
-oman	oman omanit omani omanin
 xhenxhefil	xhenxhefil xhenxhefili xhenxhefilit xhenxhefilin
 diarre	diarre diarreja diarreje
 resë	resin resë rese
@@ -4061,39 +4029,28 @@ mëmë	mëmë mem mëma mamë mëmës
 skëterrë	skëterrë skëterra skëterrës skëterre
 veriperëndim	veriperëndim veriperëndimi
 ekologji	ekologjike ekologjisë ekologji ekologjia ekologjinë
-enjt	enjtja enjtën
-sakatoj	sakatuar sakatoje sakatove sakaton sakatoja sakatonte sakatuan
-ëndë	ëndër ënde ënda ëndë
-arësye	arësye
+sakatoj	sakatoj sakatuar sakatoje sakatove sakaton sakatoja sakatonte sakatuan
 ujësjellës	ujësjellësit ujësjellësi ujësjellës ujësjellësin ujësjellësve
-loke	loke loken loket lokesh lokja
 parakaloj	parakalon parakaluar parakalojnë parakaloj parakaloi parakalo parakaloje parakaluan parakalonin parakalonte
 kep	kepi kepin kep kepa kepën
 ledhatoj	ledhatoj ledhatuar ledhatonte ledhaton ledhatojmë ledhatoja
-hajgare	hajgare
 tregtim	tregtimit tregtimi tregtim tregtimin tregtimet
 larvë	larva larvë
-kuç	kuçi kuc kuç kuçit kuçë kuçin
 ligjëratë	ligjëratat ligjërata ligjëratë ligjëratave ligjëratës ligjëratën ligjërate ligjëratash
-nes	nes
 deng	deng dengu
 lagështirë	lagështirë lagështirën lagështira
 kuku	kuku
 altoparlant	altoparlant altoparlantin altoparlanti altoparlantët altoparlantë altoparlantëve altoparlantit
 kësulë	kësulë kësula kësulën kësulës
-tatë	tate tata
+tatë	tatë tate tata
 lavazh	lavazh lavazhi lavazho lavazhit lavazhin lavazhe lavazhet lavazheve
-lipë	lipa lipën
-joshë	joshë joshësh joshe josha joshën
-kith	kithi kith kithit kithin
 noçkë	noçka noçkë noçkat noçkën
 juglindje	juglindje juglindja
 anembanë	anembanë
 ekzekutues	ekzekutuesi ekzekutues ekzekutuesit ekzekutuesin ekzekutuesve
-gjeth	gjeth gjethet gjetheve gjethesh gjethin
-dafinë	dafina dafinë dafinat
 fajësi	fajësinë fajësia fajësi
 gjyle	gjyle gjylet gjyles gjylja gjyleve
+punësohem	punësohen punësohem punësohet punësohesh punësohej punësoheni punësoheshin
 udhëkryq	udhëkryq udhëkryqi
 admirim	admirimin admirimi admirim
 zgavër	zgavrën zgavër zgavra zgavërr zgavrat zgavre
@@ -4102,31 +4059,24 @@ dalëngadalë	dalëngadalë
 furtunë	furtunë furtune furtuna fortunë furtunës furtunave furtunat furtunën
 hallakat	hallakatur hallakat hallakatje
 shul	shul shuli shulin shulit
-marramendje	marramendje
 kompozoj	kompozuar kompozoj kompozon kompozonte kompozoi kompozo kompozova
+marramendje	marramendje
 ndrikull	ndrikulla ndrikull ndrikulle ndrikullat
-arsimoj	arsimuar arsimonte arsimuan arsimojnë
+arsimoj	arsimoj arsimuar arsimonte arsimuan arsimojnë
 vektor	vektor vektori vektorin vektorit vektorët vektorëve vektorë
 buron	buron buroi buruar
-hangër	hangër ngrënë hangra hongër
-thëri	thëni
 xixëllonjë	xixëllonja xixëllonjë xixëllonjat xixëllonjash
 bënj	bëntë bënja bënj
 bujtinë	bujtinë bujtina bujtinat bujtine bujtinave bujtinën bujtinës
-qek	qeka qek
-pincë	pincat pinca pincën pince
-hum	hum huma
+pincë	pincë pincat pinca pincën pince
 thjeshtësi	thjeshtësinë thjeshtësia thjeshtësi
-nëmë	nëma nom nomi namë
 azot	azotit azot azoti
 bojkotoj	bojkotuar bojkotojnë bojkotojmë bojkoton bojkotuan bojkotoj bojkoto bojkotoi bojkotoni bojkotonin bojkotonte bojkotonim bojkotuam
 push	push pushi
 zotësi	zotësi zotësinë zotësia zotësie zotësitë zotësisë
 malësi	malësisë malësi malësinë malësia malësie malësitë malësive
 sqetull	sqetullat sqetulla sqetull sqetullën sqetullave sqetullës
-gren	gren grent grenit
 tonelatë	tonelata tonelatë tonelatat tonelatave
-korrje	korrjes korrje korrjeve korrjen korrjet korrja
 papërcaktuar	papërcaktuar
 yjor	yjore yjor
 qelizor	qelizor qelizore qelizorë
@@ -4136,21 +4086,17 @@ verbërisht	verbërisht
 dervish	dervishi dervish dervishit dervishin dervishëve dervishët
 mllef	mllefin mllefi mllef mllefit mllefe mllefet
 logjistikë	logjistike logjistikën logjistikës logjistikë logjistika
-qas	qasja qasur qaste qasni qas qasim qasin qasnin qasën qasi
 arkeologjik	arkeologjike arkeologjik arkeologjikë
 sahat	sahat sahatit sahati sahatin sahate sahatet
 platin	platini platin
 koeficient	koeficient koeficienti koeficientin koeficientit koeficiente koeficienteve koeficientet koefiçent
-strugë	strugë strugës struga strugën
 miqësohem	miqësuar miqësohet miqësohen miqësohemi miqësohesha miqësoheshit miqësoheni miqësohesh miqësohem miqësohuni
-lang	lang langjet
 gjobit	gjobitur gjobit gjobitën gjobiti gjobitje gjobitja
 lejekalim	lejekalimin lejekalim lejekalimi lejekalimet
-vërshoj	vërshuar vërshojnë vërshon vërshuan vërshoi vërshonin
+vërshoj	vërshoj vërshuar vërshojnë vërshon vërshuan vërshoi vërshonin
 harpë	harpës harpë harpa harpën harpat
-pjell	polli pjell pjellin pjellur pollën
 gjashtëmbëdhjetë	gjashtëmbëdhjetë
-pic	pica pic picat pici
+pjell	polli pjell pjellin pjellur pollën
 gjashtëdhjetë	gjashtëdhjetë
 gjeolog	gjeolog gjeologët gjeologu gjeologë gjeologësh gjeologëve
 kallaj	kallaji kallajit kallaj
@@ -4161,69 +4107,56 @@ përditësoj	përditësuar përditësoj përditësoni përditësojnë përditës
 pederasti	pederasti
 gjirafë	gjirafë gjirafën gjirafa gjirafave gjirafat gjirafe
 hajni	hajni hajnisë hajnia hajninë hajnie hajnitë
-ritë	ritën ritës ritë
 pjepër	pjepri pjepër pjepra pjeprat pjeprin pjeprit
-goro	goro
 çelur	çelur
-tallë	tallë tallësh tallës tallash talle tallën talla
-shotë	shote shotë shotës shotet shotat shota shotën
 shatërvan	shatërvani shatërvan shatërvanit shatërvanë shatërvanët shatërvanin
 shapkë	shapka shapkat shapkë shapkën
 zanor	zanor
-gjetiu	gjetkë gjetiu gjeti gjetaj njeti
 tekstil	tekstilit tekstilesh tekstileve tekstili tekstilet tekstile tekstil
-kthjelloj	kthjellohet kthjelloj kthjellojmë kthjellojnë kthjelluar kthjellova kthjelloje
-kthjell	kthjellu kthjelltë kthjellur kthjellim kthjelli kthjella kthjell
+korrje	korrjes korrje korrjeve korrjen korrjet
 kodrinë	kodrina kodrinë kodrinës kodrine kodrinave kodrinën kodrinat
 jugperëndim	jugperëndim jugperëndimi
-lëvdoj	lëvduar lëvdoni lëvdon lëvdojnë lëvdoja lëvdojmë lëvdoi
-shakë	shakat shakave shakash shake
-rrudhos	rrudhosur rrudhur rrudhos rrudh rrudha
+lëvdoj	lëvdoj lëvduar lëvdoni lëvdon lëvdojnë lëvdoja lëvdojmë lëvdoi
+rrudhos	rrudhosur rrudhur rrudhos rrudh
 zift	ziftit zifti zift
-garth	garth garthin
 ramazan	ramazan ramazani ramazanin
 mishngrënës	mishngrënës mishngrënëse
-naze	naze
 lëvozhgë	lëvozhga lëvozhgë lëvozhgat lëvozhgën lëvozhgës
 sfurk	sfurqe sfurk sfurku sfurkun sfurqet sfurkat sfurka
-ode	oda ode odja oden odes
 vis	viset vise viseve vis visi visit
 soj	soji soj
 shkencërisht	shkencërisht
-lopçar	lopçar lopçari lopçarin lopçarë lopçarët
 kanxhë	kanxhat kanxha kanxhën kanxhe ganxhë kanxhë
 kinezisht	kinezisht
+lopçar	lopçar lopçari lopçarin lopçarë lopçarët
 shkrumb	shkrumb
-strohë	stroh strofa strofat strofe
+strohë	strohë stroh strofa strofat strofe
 jargë	jargë jargët jargëve jarga
-gazmend	gazmend gazment gazmendi
 shtrembërim	shtrembërim shtrembërime shtrembërimin shtrembërimeve shtrembërimi shtrembërimet shtrembërimit
 astrologji	astrologjike astrologjia astrologjisë astrologji astrologjinë
 gjinore	gjinore
 tog	togu tog togut togje
 vaksinoj	vaksinuar vaksinojmë vaksinojnë vaksinuat vaksinuan vaksinoj vaksinoni
 lokalitet	lokalitetin lokalitet lokaliteti lokalitetit lokalitetet lokalitete lokaliteteve
-stufë	stufa stufë stufën stufat stufës stufave stufe
 sopatë	sopatën sopatë sopata
+stufë	stufa stufë stufën stufat stufës stufave stufe
 dëfrej	dëfryer dëfreni dëfryet dëfren dëfreu dëfrente dëfreva dëfrej
 përkrahës	përkrahës
 afatshkurtër	afatshkurtër
 panjë	panje panjës panjë panjat panjën
-ujerë	ujera ujerat ujerave
+ujerë	ujerë ujera ujerat ujerave
 lejlek	lejlek lejleku lejlekët lejlekut lejlekëve lejlekun lejlekë
 mbij	mbijnë mbive mbirë mbiva mbij
 doemos	doemos
 mpij	mpi mpinte mpij mpiu mpin
 dëmshëm	dëmshëm
 spinaq	spinaq spinaqi spinaqin
-cut	cute cut
 autonomi	autonomi autonominë autonomisë autonomia
-absorboj	absorbuar absorbon absorbojnë absorbonte absorbohet absorbohen
+absorboj	absorboj absorbuar absorbon absorbojnë absorbonte absorbohet absorbohen
 kremtim	kremtimin kremtim kremtimit kremtimet kremtimi kremtimeve kremtime
 shëmbëlltyrë	shëmbëlltyra shëmbëlltyrë shëmbëlltyrën shëmbëlltyrës shëmbëlltyrat shëmbëlltyre
-kath	kathrin kath kathi
-fell	fell
 zogth	zogth zogtha
+gjetiu	gjetkë gjetiu gjetaj njeti
 sensual	sensuale sensual
 folje	folje folja foljes foljen foljeve foljet
 astronom	astronomët astronom
@@ -4231,14 +4164,14 @@ tetëdhjetë	tetëdhjetë
 ajkë	ajkë ajka ajkën ajkës ajke
 rreshtim	rreshtim rreshtimi rreshtimit rreshtimin rreshtimet rreshtimeve
 saç	saç saçin
+njom	njoma njomi njome njomje njom njomja njomni
 rumun	rumun rumunët rumunë rumunëve rumuni rumunin
 vjershë	vjershë vjersha vjershat
 diktoj	diktuar diktoj diktova
 gjëndër	gjëndra gjëndrat gjëndrave gjëndrash gjëndrës gjëndrën gjëndër gjëndre
 shndrit	shndrit shndritur shndrite shndritje shndriti
-fishkëllej	fishkëlle fishkëllen fishkëllyer fishkëlleu fishkëllyen fishkëlleva fishkëllenin fishkëllejnë
+fishkëllej	fishkëllej fishkëlle fishkëllen fishkëllyer fishkëlleu fishkëllyen fishkëlleva fishkëllenin fishkëllejnë
 shkreh	shkrehur shkreh shkrehje shkrehe shkreha shkrehim shkrehu
-malë	malë male mala malës malën
 çengel	çengel çengelat çengelin çengela çengeli
 jasemin	jasmin jasemin jasemi jaseminë
 rrem	rrema rrem rremat rremi
@@ -4248,21 +4181,17 @@ rrënjësor	rrënjësor rrënjësore
 cipë	cipa cipën cipë cipe cipave cipës cipat
 seksualitet	seksualitetin seksualitetit seksualitet
 bërës	bërës bërësin bërësit bërësi bërësve
-sanë	sanin sane sanë sana
-dejë	deja dejës deje
 sënduk	sëndukun sënduk sënduku sëndukut sëndukët
-krua	kruash krua kroje kroit krojet krojeve kroin kroi
 kuk	kuk
 altruist	altruist altruiste
 ngricë	ngricë ngrica ngricat ngricën ngricës ngricave ngrice ngricash
 pëllumbeshë	pëllumbesha pëllumbeshë
+krua	kruash krua kroje kroit krojet krojeve kroin
 çiltër	çiltër
-gani	gani
-manushaqe	manushaqe manushaqet manushaqes manushaqeve manushaqja manushaqen
 parcelë	parcelë parcela parcelave parcelat parcelës parcele parcelën parcelash
 bajat	bajate bajat
 qurra	qyrra qurra qurre qurrat
-harlë	harli
+harlë	harlë harli
 nëntëdhjetë	nëntëdhjetë
 përgjakshëm	përgjakshëm
 etapë	etapë etapa etapave etapat etapën etape etapës
@@ -4271,7 +4200,6 @@ pot	pot
 shqiptim	shqiptimi shqiptimin shqiptim shqiptimit
 kundërsulm	kundërsulm
 turrë	turrën turrë turrës tire tira turra
-bic	bice bici bicit bicin bic
 farefis	farefis farefisi farefisin farefisit
 mendjemadhësi	mendjemadhësi mendjemadhësinë mendjemadhësisë mendjemadhësia
 takat	takat takatin takati
@@ -4280,7 +4208,6 @@ shpretkë	shpretka shpretkën shpretkë shpretke shpretkës
 abstrakt	abstrakte abstrakt
 adoleshencë	adoleshencës adoleshencën adoleshencë adoleshenca
 përfill	përfillur përfillim përfill përfillin përfillja përfille përfilli përfillte përfillën përfillni përfillje
-batoj	baton batoni batonit batonin batuar bato batuat
 vyshkem	vyshket vyshken vyshkur vyshkesh vyshkem vyshkej vyshkemi
 shkrepës	shkrepëse shkrepës
 shfuqizoj	shfuqizuar shfuqizoi shfuqizojnë shfuqizuan shfuqizon shfuqizoj shfuqizove shfuqizojmë shfuqizonte shfuqizonin
@@ -4290,61 +4217,51 @@ mbështjellëse	mbështjellëse mbështjellëset mbështjellësja
 verbëri	verbëri verbëria verbërinë
 lyth	lytha lyth lythat lythave lythin
 patologji	patologjike patologji patologjia patologjinë
-op	op
 çapkën	çapkën çapkëne çapkënë çapkëni
 turqisht	turqisht
 arsimtar	arsimtarët arsimtar arsimtarëve arsimtarë arsimtarit arsimtari arsimtarin
-ag	ag agje agu agun
 vegjë	vegjëi vegjë
 hare	hare
-murriz	murrizi murrizit murriz murrizin
-poçe	poçe poçen poçet poçeve
 lagë	lagësh lagë
+mëz	mës mëz mëza mëzin mëzat
+poçe	poçe poçen poçet poçeve
 çoban	çobani çoban çobanit çobanët çobanin çobanë
 aids	aids aids-in aids-i
 karficë	karficë karfica
 barnatore	barnatore barnatorja barnatoret barnatoreve barnatores barnatoren
-thrak	thrakës thraka thrakë
 rrëshqitëse	rrëshqitës rrëshqitëse
+thrak	thrak thrakës thraka thrakë
 serrë	serra serrë serrat serrave serrës
 permanent	permanente permanent
 lëvdatë	lëvdata lëvdatat lëvdatë lëvdatave lëvdate
-lakoj	lakuar lakon lako lakoni
-bahe	baha bahet bahen bahesh
-lende	len lende lendeje lend land lënde lenden lendeve lendet lendes lendesh linde
+lakoj	lakoj lakuar lakon lako lakoni
+bahe	bahe baha bahet bahen bahesh
 gjeografi	gjeografinë gjeografi gjeografia gjeografie
-mugull	mugulla mugullën
+mugull	mugull mugulla mugullën
 qurrash	qurrash qyrrash qurrashë qurrashe
-visk	viski
-cabe	cabe
 llavë	llavë llavës llave llavave llava llavën
 projektues	projektues projektuesi projektuesit projektuesve projektuesin
 bashkëjetoj	bashkëjetojmë bashkëjetojnë bashkëjetuar bashkëjeton bashkëjetuan bashkëjetova bashkëjetonte bashkëjetoj bashkëjetonin bashkëjetoni bashkëjetonim bashkëjetoi
 kurban	kurban kurbane
 gjuhësor	gjuhësore gjuhësor gjuhësorë
 kontradiktë	kontradiktë kontradikta kontradiktave kontradiktat kontradikte kontradiktash
-sanksionoj	sanksionuar sanksionon sanksionoi sanksiononte sanksionojnë sanksionojmë sanksionuan sanksiononin
+sanksionoj	sanksionoj sanksionuar sanksionon sanksionoi sanksiononte sanksionojnë sanksionojmë sanksionuan sanksiononin
 vresht	vresht vreshtin vreshti vreshta vreshtit vreshtat vreshtave
-shkretoj	shkretuar shkreton shkretojnë shkretoi shkretuan
+shkretoj	shkretoj shkretuar shkreton shkretojnë shkretoi shkretuan
 rrojë	rrojë rrojës
 hierarki	hierarkinë hierarkia hierarki hierarkitë hierarkisë hierarkie hierarkive
 kamatë	kamata kamatë kamatat kamate kamatave kamatës kamatën
 korit	korit korita
-abrash	abrashi abrashit abrashin
-rangë	range rangë
 nguroj	nguruar nguron nguronte nguroj nguro nguroi nguruat nguroja ngurojnë nguroni nguruan
 pilaf	pilaf
 ëndje	ëndje ëndja
-qerpik	qerpikët qerpiku qerpikëve qerpikë qerpikut
+qerpik	qerpik qerpikët qerpiku qerpikëve qerpikë qerpikut
 marrëzisht	marrëzisht marrëzísht
-festohem	festohet festohen festohej festoheshin festuar
-krehër	krehër krehrin krahën krehën krehra
+festohem	festohem festohet festohen festohej festoheshin
 thelë	thelë thela thelat thele
 vendtakim	vendtakim vendtakimi vendtakimin vendtakime vendtakimit
 sinonim	sinonim sinonime sinonimi sinonimin
-frashër	frashëri frashër frashërin
-jak	jak jaku jakët
-lartësoj	lartësuar lartësojnë lartëson lartësoi lartësojmë lartësuan
+lartësoj	lartësoj lartësuar lartësojnë lartëson lartësoi lartësojmë lartësuan
 vang	vang
 gurmaz	gurmazin gurmaz gurmazit gurmazi
 pardje	pardje
@@ -4352,7 +4269,6 @@ evident	evidente evident
 thërrmoj	thërrmuar thërrmon thërrmoj thërmuar
 prime	prime primet primeve
 bisturi	bisturi bisturinë
-brij	brin brirë brij brika brinin brinit
 kalcium	kalcium kalciumi
 pjalm	pjalm pjalmi
 gërshet	gërsheta gërshet gërshetat gërshetin
@@ -4360,9 +4276,9 @@ bashkëjetesë	bashkëjetesa bashkëjetesës bashkëjetesë bashkëjetesën bash
 gurrë	gurri gurrë gurra gurrës gurrën gurrat
 bërbëlit	bërbëlit
 hungërim	hungërima hungërim
-esh	es esh eshë eshin
 brushë	brushën brushë brusha brushës brushat
 qefin	qefin
+hangër	hangër hangra hongër
 statikë	statike statik statikë statika
 idealist	idealist idealisti idealistë idealistët idealistësh
 hebraik	hebraike hebraik hebraikë
@@ -4374,11 +4290,10 @@ shtupë	shtupë shtupën shtupa shtupat shtupës
 bocë	boca bocën bocë bocat bocave
 padiskutueshëm	padiskutueshëm
 belbëzoj	belbëzon belbëzoj belbëzonte belbëzova belbëzojnë belbëzoje belbëzoja belbëzoi belbëzuar
-flijoj	flijuar flijoj flijohet flijuan flijoni flijon flijohej flijojnë flijoi flijohen
+flijoj	flijuar flijoj flijohet flijuan flijoni flijon flijojnë flijohej flijoi flijohen
 rumune	rumune rumunen rumunet
 përparëse	përparëse përparësen përparëset
 vazhdë	vazhdën vazhda vazhdë
-xhungë	xhungë xhunga xhungën xhungat xhungës
 ninullë	ninullë ninulla ninulle ninullën ninullat ninullave
 bobo	bobo obobo
 tras	trase tras
@@ -4391,83 +4306,78 @@ avaz	avaz avazit avazin avazi
 zhabë	zhabë zhaba zhabën zhabave zhabës
 kokore	kokore kokoren
 kërci	kërci kërcinjtë kërcirin kërciri kërcinjve
-mavijos	mavijosur
+mavijos	mavijos mavijosur
 ëndërrimtar	ëndërrimtar ëndërrimtarë
-rrua	rruash rrua rroi
 akrobat	akrobate akrobat
+rrua	rruash rrua
 sida	sida
-injorohem	injorohet injorohej injorohen injorohemi injoroheni injoruar injorova
+injorohem	injorohem injorohet injorohej injorohen injorohemi injoroheni
 kallamar	kallamari kallamar
 tërshërë	tërshërë tërshëra tërshërën tërshëre tërshërës
-gdhendje	gdhendje gdhendjen gdhendjet gdhendja gdhendjes
 teshtij	teshtiu teshtij teshtirë teshtiva
 saji	saji
 këqyr	kqyr këqyr këqyri këqyrin këqyrja këqyrur këqyrim këqyre këqyrje këqyrni këqyrte
-bezdisem	bezdisesh bezdisem bezdiset bezdisen bezdiseni bezdisur
 ashkël	ashklën ashkla ashkël ashër
-shpurë	shpuri shpurën shpurës shpure shpura shpurë
-tus	tus tuta
-bulë	bule bulat
-pipëz	pipëz pipëza pipëzën pipëzat
+bulë	bulë bule bulat
 ngjeth	ngjethës ngjeth ngjethem
+pipëz	pipëz pipëza pipëzën pipëzat
+trikë	trikë trike trika trikat
 xhingël	xhingla xhingël
-trikë	trike trika trikat
-arrç	arç
-timër	timën
 shqit	shqit shqite shqitur shqiti shqitja
+lulediell	lulediell luledielli
 rit	rit
-lulediell	luledielli
 sistematikisht	sistematikisht
-vjehrrë	vjehrrën vjehrrës vjehrra vjehrrë vjehrrat vjehrre vjehrrave
 gjeometrik	gjeometrike gjeometrik
-parmë	parme parma parmë
-gjëmoj	gjëmon gjëmojnë gjëmojmë gjëmonin gjëmoni gjëmuan gjëmuar gjëmonte
 anatomi	anatomisë anatominë anatomia anatomi anatomie
-matematikan	matematikan matematikanët matematikanë matematikanëve matematikani
+gjëmoj	gjëmoj gjëmon gjëmojnë gjëmojmë gjëmonin gjëmoni gjëmuan gjëmuar gjëmonte
 çark	çark çarku çarqet çarqe
+matematikan	matematikan matematikanët matematikanë matematikanëve matematikani
 zhanër	zhanër zhanri zhanrit zhanrin zhanreve zhanret zhanre
 kulaç	kulaç kulaçe kulaçit kulaçi kulaçin
 gramatikë	gramatikë gramatikën gramatika gramatike gramatikës
 ateist	ateist ateistët ateiste ateistëve ateistë
 agjëroj	agjëron agjëruar agjëroj agjërojmë agjëroni agjërojnë agjëroi agjëruan agjëronin agjëronte
 gatë	gate gatë
+gdhendje	gdhendje gdhendjen gdhendjet gdhendjes
 kotec	kotec koteci
-shpëlaj	shpëlarë shplaj shpërlaj
+shpëlaj	shpëlaj shpëlarë shplaj shpërlaj
 temjan	temjan temjanin temjanit temjani
 sha	sha
-konsistoj	konsiston konsistonte konsistuar konsistojnë konsistonin
+konsistoj	konsistoj konsiston konsistonte konsistuar konsistojnë konsistonin
 bask	basket bask baskë baske baskët baskëve
-milor	milon milori
+bezdisem	bezdisesh bezdisem bezdiset bezdisen bezdiseni
 psikologjikisht	psikologjikisht
-avashtë	avashtë
 lakuriqësi	lakuriqësi lakuriqësia lakuriqësinë lakuriqësie lakuriqësisë
+avashtë	avashtë
+shpurë	shpuri shpurën shpurës shpure shpurë
 çart	çartë çartje çart çartur
 rrebesh	rrebesh rrebeshi rrebeshe rrebesheve rrebeshet rrebeshesh
 ndërsjellë	ndërsjellë
 kundërvë	kundërvënë kundërvunë kundërvure kundërvura kundërvë
 zët	zit zët
 shumëngjyrësh	shumëngjyrëshe shumëngjyrësh
-jaran	jaran jarani
 boçe	boçe boçja boçet
 sinagogë	sinagoga sinagogën sinagogë sinagogat sinagogës sinagoge sinagogave
-grimcoj	grimcuar grimcohen grimcoi grimcojnë grimcuat grimcoje
-gop	gopi gop
+grimcoj	grimcoj grimcuar grimcohen grimcoi grimcojnë grimcuat grimcoje
 brohoritje	brohoritje
-pjerr	pjerrët
+malë	malë mala malës malën
+pjerr	pjerr pjerrët
 mëshiroj	mëshiroftë mëshiruar mëshiro mëshiroj mëshiron mëshirojnë
 skalit	skalitur skalit skalis skalitën
+vjehrrë	vjehrrën vjehrrës vjehrrë
 socializëm	socializmi socializmit socializmin socializëm
 myk	myk
 fashizëm	fashizmit fashizmin fashizmi fashizëm
 trangull	tranguj trangull trangujt trangullit trangulli trangujve
-bizon	bizonet bizon bizoneve bizonin bizoni
-çandër	çandra
-leckaman	leckaman leckamane leckamani
-qukapik	qukapik qukapikun qukapikët qukapiku
 bibilush	bibilushin bibilush bibilushi
+bizon	bizonet bizon bizoneve bizonin bizoni
 cekëtinë	cekëtinë cekëtinën cekëtina cektinë
 cingëroj	cingëron cingëroj cingëroi cingëro
+leckaman	leckaman leckamane leckamani
+qukapik	qukapik qukapikun qukapikët qukapiku
+çandër	çandër çandra
 malok	maloku malok malokut malokët malokun
+qas	qasur qaste qasni qas qasim qasin qasnin qasën qasi
 yndyrshëm	yndyrshëm
 biokimi	biokimike biokimi biokimia biokimisë biokimie biokiminë
 vlonjat	vlonjatët vlonjat vlonjati vlonjatëve vlonjatë vlonjatin vlonjatit
@@ -4480,57 +4390,52 @@ darë	dare darë dara darën
 ligjëroj	ligjëruar ligjëron ligjëroi ligjëroj ligjërojnë ligjëronte ligjëruan ligjërojmë
 mbarësi	mbarësi mbarësia mbarësinë mbarësisë
 paradoks	paradoks
+krehër	krehër krehrin krehra
 kaush	kaush kaushët kaushin kausha kaushi
 lon	lon
-erëzë	erëzat
+erëzë	erëzë erëzat
 tërthortë	tërthortë tërthor
 kokëfortësi	kokëfortësi kokëfortësia kokëfortësisë kokëfortësinë
-rrenacak	rrenacak rrenc
 fink	fing fink
 myshk	myshk myshku myshqet
+rrenacak	rrenacak rrenc
+gjeth	gjeth gjethin
 shurdhoj	shurdhon shurdhuar shurdhoj shurdhove shurdhova shurdhojnë
 ftohtësi	ftohtësi ftohtësinë ftohtësia ftohtësisë
-herdhe	herdhet herdheve herdhe
 cifël	cifël ciflat cifla ciflave
+herdhe	herdhet herdheve herdhe
 kadife	kadife
 fyell	fyell fyellit fyellin fyelli
 ngrys	ngrysur ngrys ngrysje ngryste
-çair	çairit çair çairi çairin çaire
-spango	spango spangon spangoje
 bishtalec	bishtalecin bishtalec bishtaleca bishtaleci bishtalecit bishtalecave
+spango	spango spangon spangoje
 shumëzoj	shumëzoje shumëzuar shumëzon shumëzojmë shumëzoi shumëzoj shumëzove shumëzojnë
 thundër	thundrat thundra thundër thundrave thundrën
-fugë	fuga
-ujdis	ujdisur ujdis ujdisi ujdisët
-shaloj	shaloni shaluar shalojmë shaluan shaloi shaloje
 mbinatyrshëm	mbinatyrshëm
-kuak	kuak
-bun	bun buni
-rruzull	rruzullit rruzull
+shaloj	shaloj shaloni shaluar shalojmë shaluan shaloi shaloje
+ujdis	ujdisur ujdis ujdisi ujdisët
 dukshmëri	dukshmëria dukshmëri
+rruzull	rruzullit rruzull
 kazmë	kazmë kazmën kazme kazma kazmës
-serë	serë
 bojaxhi	bojaxhinj bojaxhiu bojaxhi bojaxhiun bojaxhinjtë bojaxhiut
 trajtë	trajtë trajtën trajta trajtat trajtave trajtës
 pompoj	pompon pompuar pompo pompova pompoj pompojmë pomponin pompojnë pompuan
-citë	citat cita
+citë	citë citat cita
 hollohem	holluar hollohem hollohet
-ceke	ceket ceke cekja
 bashkëveprim	bashkëveprim bashkëveprimi bashkëveprimin bashkëveprimet bashkëveprimit bashkëveprimeve
 tavë	tavë tavën tava tave tavës
 atribut	atributet atribut
 ngjyej	ngjyer ngjyej ngjyejnë ngjeu ngjyejmë ngjyen
 llaç	llaç llaçi lloç llaçit llaçin
-teposhtë	teposhtë
-glasë	glasë glasën glase glasa
+brij	brin brij brika
 doracak	doracakun doracak doracaku doracakut doracakë
+teposhtë	teposhtë
 blertë	blertë
-çam	çam çame çamët çamëve çami çamit çamë
+çam	çam çame çamët çamëve çami çamit
 kusi	kusi kusia kusisë kusinë kusive kusitë
-kreshnik	kreshnik kreshnikëve kreshniku kreshnikut kreshnikun kreshnikët
 aludoj	aluduar aludon aludoi aludojnë aluduan aludonte aludoj
-shqitem	shqitet shqitej shqiten shqitu shqitesh shqitur
 kalli	kalli kallinj kallinjtë kalliri
+shqitem	shqitem shqitet shqitej shqiten shqitu shqitesh
 zeshkan	zeshkane zeshkan
 lavd	lavdin lavde lavdet lavd
 sulmim	sulmim sulmimit sulmime sulmimin sulmimet sulmimi
@@ -4538,6 +4443,7 @@ arkeologji	arkeologjisë arkeologjinë arkeologji arkeologjia
 therës	therëse therës
 lulishte	lulishte lulishtes lulishtet lulishten lulishtja lulishteve
 napolon	napoloni napolonit napolon napolonin napolona
+ceke	ceket ceke
 rrëmoj	rrëmuar rrëmon rrëmove rrëmoj rrëmo rrëmoni rrëmojnë
 vrenjt	vrenjtur vrenjt vrenjte vrenjtje vrenjtin
 zbritja	zbritja
@@ -4546,23 +4452,22 @@ gjeologjik	gjeologjike gjeologjik
 zëvendëspresident	zëvendëspresidenti zëvendëspresident zëvendëspresidentin zëvendëspresidentit zëvendëspresidentët zëvendëspresidentë
 ngastër	ngastra ngastër
 fruth	fruthi fruth fruthin
-domosdo	domosdo
 atësi	atësisë atësinë atësia atësie atësi
+domosdo	domosdo
 mazë	maze mazë mazash
-gëloj	gëlon gëlojnë gëlonte gëluar gëlonin
+gëloj	gëloj gëlon gëlojnë gëlonte gëluar gëlonin
 cicërimë	cicërimën cicërima cicërimat cicërimë cicërime cicërimave cicërimës cicërimash
 druvar	druvar druvarët druvari druvarë
-capë	cape capa
+capë	capë cape capa
 paarsyeshëm	paarsyeshëm
-botanikë	botanik botanike
-arap	arapi arap arapit arapin
+botanikë	botanikë botanik botanike
 bamje	bamje bamjet bamjeve bamja
 përpëlit	përpëlitje përpëlitur përpëlit përpëlite
 qeros	qeros qerose
-sylesh	sylesh syleshi
-spicë	spice spica spicat
-reze	reze rezet
 kaçubë	kaçube kaçuba kaçubë kaçubën kaçubat
+reze	reze rezet
+spicë	spicë spice spica spicat
+sylesh	sylesh syleshi
 zall	zall zalli zallin zallit
 finik	finiks finik
 qemer	qemer qemerët qemerë
@@ -4570,86 +4475,66 @@ agjërim	agjërimin agjërimit agjërimi agjërim
 stof	stof stofin stofi
 dendësi	dendësia dendësi dendësinë dendësisë
 poç	poç
-fengem	fengu
 dëfrehem	dëfrehemi dëfrehem
 shter	shterur shterim shtera shtere shteri shterin shter
 moçëm	moçme moçëm
 facoletë	faculetë facoletë facoletën facolete facolet facoleta
 llixhë	llixha llixhë llixhat llixhe llixhën llixhave
-dilet	dilet
-dac	daci dacit dacin dac daca
 majmë	majmë
 cenim	cenim cenimi cenimin cenimit
 vapor	vapor vapori vaporit vaporë vaporin vaporët
 epitet	epitet epitetin epitete epitetet epiteti epitetit epitetesh
 pajë	pajë paja pajën pajës
 korçar	korçarët korçar korçarëve korçari korçarë korçarit korçarin
-vesht	vesht vreshta vreshtat
-vetëvendos	vetëvendosja vetëvendosur vetëvendose
 parahistorik	parahistorike parahistorik
 çudibërës	çudibërës çudibërëse
 gjermanishte	gjermanishten gjermanishtes gjermanishtja gjermanishte
 pakuptueshëm	pakuptueshëm
 rigon	rigoni rigon
-shkurtohem	shkurtohen shkurtohet shkurtoheshin shkurtohej shkurtuar shkurton shkurtoi shkurtojmë shkurtoni shkurtoje shkurtoja shkurtojnë shkurtove shkurtonte shkurtuan shkurtonim shkurto shkurtonin shkurtova shkurtuat
+shkurtohem	shkurtohem shkurtohen shkurtohet shkurtoheshin shkurtohej
 pijetore	pijetore pijetoren pijetores pijetoret
 mavijosje	mavijosje mavijosjet
 mbarëkombëtar	mbarëkombëtare mbarëkombëtar mbarëkombëtarë
-doke	doket doke
 alfabetik	alfabetik alfabetike
-klor	klor klorit klorin klori
+doke	doket doke
 ashtë	ashtë ashte ashtës ashta
-maç	maç maçet maçi maçe
-trashi	trashi
+klor	klor klorit klorin klori
 dorështrënguar	dorështrënguar
-bokë	boka bokës
+maç	maç maçet maçi
 katund	katund katundin katundit katundi katundet katunde katundeve
-fjollë	fjolla fjollë fjollës fjollat fjollën
 llapë	llapën llapë llapa llape
 lab	lab labe
 nevojtore	nevojtore
-faki	fakir faki
 imoral	imorale imoral
-potkua	patkua patkoi patkonjtë
-cagë	cage
-shkath	shkathtë shkathte
+potkua	potkua patkua patkoi patkonjtë
+shkath	shkath shkathtë shkathte
 zhivë	zhivë zhiva zhivën
-nektarinë	nektarin nektarinat
-qiellzë	qiellze qiellzën qiellzës qiellzë
 duhanxhi	duhanxhi duhanxhiu duhanxhinjtë duhanxhinj
-thep	thepat thep thepa thepave
+qiellzë	qiellze qiellzën qiellzës qiellzë
 matrapaz	matrapaz
+thep	thepat thep thepa thepave
 enciklopedi	enciklopedi enciklopedia enciklopedinë enciklopedisë enciklopeditë
-shtall	shtallë shtalla
+shtall	shtall shtallë shtalla
 lundër	lundra lundër lundrat lundrën lundrës
 dekorativ	dekorative dekorativ dekorativë
-ënjt	ënjtje ënjtur ënjtja ënjtën ënjta
-ngërth	ngërç
+ënjt	ënjt ënjtje ënjtur ënjtja ënjtën ënjta
+ngërth	ngërth ngërç
 thëngjill	thëngjilli thëngjij thëngjill thëngjillit thëngjillin
-gega	gega
-llukë	lluka llukë
-nepërkë	nepërkë nepërka nepërkave
-ceq	ceqe ceqet ceqeve ceqesh
-kolibër	kolibri kolibrin kolibrat kolibër
-brumbull	brumbull
-vade	vader vade
-nuselalë	nuselalë nuselala
 avit	avis avit
+brumbull	brumbull
 epshor	epshor epshore
+kolibër	kolibri kolibrin kolibrat kolibër
+nepërkë	nepërkë nepërka nepërkave
+nuselalë	nuselalë nuselala
 abstenim	abstenim abstenime abstenimi abstenimin abstenimit
 burrëror	burrërore burrëror
 nur	nuri nur nure
 fortësi	fortësinë fortësia fortësi fortësisë
-brej	brej brente brejnë brejtur breja breni brenin
-bibë	bibë biba bibe bibës bibën
 sublim	sublime sublim
 hiçgjë	hiçgjë
 pykë	pykë pyka pykën pykat pyke pykave
-thupër	thupra thupër thuprat thuprën
 llucë	llucë lluca lluce llucës
-curr	curri cur currit currin curr curra currë
-vesë	vesa vesë
-motivohem	motivohet motivohen motivuar motivohesh motivon motivoheni motivohemi motivohem motivova motivojnë motivoja motivoi motivojmë motivonte motivoni motivuan motivonin
+thupër	thupra thupër thuprat thuprën
 veprimtar	veprimtarit veprimtar veprimtarin veprimtarë veprimtarëve veprimtarët veprimtarësh
 vrer	vrer vreri vner vrerin
 drojë	droje drojë drojet droja drojën
@@ -4659,179 +4544,155 @@ pritem	pritem
 thi	thi thitë
 avash-avash	avash-avash
 metaforik	metaforike metaforik
-famull	famulli famullin famullit
-flatër	flatrat flatra
+famull	famull famulli famullin famullit
+flatër	flatër flatrat flatra
 vajtje-ardhje	vajtje-ardhje
 jozyrtarisht	jozyrtarisht
 petk	petkun petku petka petk petkut petkat
 hyrje-dalje	hyrje-daljet hyrje-dalje hyrje-daljeve hyrje-dalja hyrje-daljes hyrje-daljen
 aerodinamik	aerodinamike aerodinamik
-hieroglif	hieroglifet hieroglife hieroglifi
-sini	sinisha sini
+hieroglif	hieroglif hieroglifet hieroglife hieroglifi
+burmë	burmë burma
 thekër	thekër thekre thekrës
-burmë	burma
 tëmth	tëmth tëmthi tëmthit tëmthin
-bis	bis
-thëllëzë	thëllëza thëllëzash thëllëzë thëllëzën thëllëzave
 luleshitës	luleshitësi luleshitës
 prikë	prikën prikë prika
+thëllëzë	thëllëza thëllëzash thëllëzë thëllëzën thëllëzave
 botërisht	botërisht
-rrëndës	rrëndësi
 berk	berkut berk berku
-celinë	celine celina celinës celinën celinë
 enigmatik	enigmatike enigmatik
 fjalosem	fjalosemi fjalosem
 gërhas	gërhitur gërhas
 zhguall	zhguall zhguallit zhgualli
-vjedull	vjedull vjedulla vjedullat
 gul	gul
-adham	adham
 lambrik	lambrik
-alem	aleni
 pordhac	pordhac pordhaci
+vjedull	vjedull vjedulla vjedullat
 osh	oshte osha oshe osh oshtë
 zellshëm	zellshëm
-dardhan	dardan
 paradigmë	paradigmë paradigmës paradigma paradigmën paradigmat paradigme paradigmave
 dergj	dergjet dergjur dergj
 autonom	autonom
 përafrim	përafrimi përafrim përafrimin përafrimit përafrime përafrimet
 trastë	trastë trastën trasta traste
-visar	visar visarin visari visarit visare
 sociologji	sociologji sociologjisë sociologjia sociologjinë
 zverdh	zverdhur zverdhe zverdhje zverdh zverdhja
 supersticioz	supersticioze supersticioz
 shtuara	shtuara
 hirtë	hirtë
-avari	avari
 durrsak	durrsakët durrsak durrsakëve durrsakë durrsaku durrsakun durrsakut
-bejkë	bejkër bekë bege bejkën beg
+bejkë	bejkë bejkër bekë bege bejkën beg
 malësor	malësor malësorëve malësorët malësori malësore malësorë malësorit malsor
 vajgur	vajguri vajgur vajgurin
 daltë	daltë dalte dalta daltës daltën
 tiji	tiji
 bioteknologji	bioteknologjisë bioteknologjia bioteknologjinë bioteknologji
-mallëngjej	mallëngjyer mallëngjen mallëngjeu mallëngjeva
+mallëngjej	mallëngjej mallëngjyer mallëngjen mallëngjeu mallëngjeva
 biolog	biolog
-cit	citim cit citi cita
-luspë	luspa luspat
+luspë	luspë luspa luspat
+cit	citim cit citi
 prefekturë	prefektura prefekturës prefekture prefekturat prefekturë prefekturave
 rjep	rjepi rjep rjepim rjepin rjepur
 lezet	lezet
+brej	brej brente brejnë brejtur breja
 shfuqizim	shfuqizimin shfuqizimi shfuqizimit shfuqizim
 koprac	koprac koprace
 ambalazh	ambalazh ambalazhin ambalazhe ambalazhi ambalazhet ambalazhit ambalazheve
-epem	epa epur
+epem	epem epa epur
 tespihe	tespihet tespihesh tespihe tespije tespiheve
 maraj	maraja maraj
-grah	graf
-bashkëveproj	bashkëvepruar bashkëvepron bashkëvepronte bashkëveprojmë bashkëveprojnë bashkëveproni
-spurdhjak	spurdhjak spurdhjaku
+bashkëveproj	bashkëveproj bashkëvepruar bashkëvepron bashkëvepronte bashkëveprojmë bashkëveprojnë bashkëveproni
 ndëryjor	ndëryjore ndëryjor
-ratë	ratë
+spurdhjak	spurdhjak spurdhjaku
 april	april
-shuk	shuk shuku shukur shukun shuka shuke
+ratë	ratë
 hordhi	hordhitë hordhive hordhi hordhisë
-doç	doçi doçit doçin
-birrem	birren bjerrë
+shuk	shuk shuku shukur shukun shuka shuke
 toskë	toska toskës toskë toskën toskët toske
-legë	lega legat legës
 mag	mag magu
 dang	dang
-zdryp	strip
 analogji	analogji analogjia analogjitë analogjisë analogjinë analogjive
 aga	aga agë agai agait agallarëve agallarë
-gogë	gogja goga goge gogën gogës
-stromë	strom stroma
-shpirtkeq	shpirtkeq shpirtkeqi
-qëro	qëron qëroi
-tërfil	tërfil tërfili
-tingulloj	tingullon tingullonte tingulloni
-trinë	trina trinë trinën
 gjiton	gjitone gjiton gjitonët
-mackë	macke mackë mackat
 gulçoj	gulçuar gulçon gulçoj gulçojnë gulçoja
 gërdallë	gërdalla gërdallë gërdalle gërdallave gërdallës
-qere	qereke
+mackë	macke mackë mackat
+qëro	qëro qëron qëroi
+shpirtkeq	shpirtkeq shpirtkeqi
+tingulloj	tingulloj tingullon tingullonte tingulloni
+trinë	trina trinë trinën
+tërfil	tërfil tërfili
+birrem	birrem birren
 terminologji	terminologji terminologjia terminologjinë terminologjisë
 urinim	urinimit urinimi urinimin urinim
 kanun	kanuni kanunin kanunit kanun kanunet kanuneve
 përkrenare	përkrenare përkrenarja përkrenaren përkrenares
 dhëmballë	dhëmballë dhëmballët dhëmballën dhëmballa dhëmballat
-tredhur	tredhur
+lende	lende lendeje lend lenden lendeve lendet lendes lendesh
 elb	elb elbi elbit elbin
 lakim	lakim lakimin lakimi lakime lakimet lakimit
+tredhur	tredhur
 veprues	veprues vepruese vepruesi
 oazë	oaza oazë oaze oazën
 gjizë	gjizë gjiza
-pupë	pupa pupës pupën pupe
 shterp	shterpë shterp
 abonim	abonim abonimit abonimin abonimi abonimet abonimeve abonime
 shoshë	shoshë shoshën shoshe shosha
 sulfur	sulfur sulfuri sulfurit
-kopër	kopër kopra
 dredhëz	dredhëza dredhëz dredhëzat dredhë
+kopër	kopër kopra
 vaki	vaki
-mpiks	mpiksje mpiksur mpiksja
-manjë	manja manjat manjës manjën manje
-trashem	trashet trashesh trashen trashur
-qel	qel qelë qela
+mpiks	mpiks mpiksje mpiksur mpiksja
+kacafyt	kacafyt kacafytje kacafytur
 laring	laringu laringun laringut laring
-kacafyt	kacafytje kacafytur
+qel	qel qelë qela
+trashem	trashem trashet trashesh trashen
 monarki	monarkisë monarki monarkie monarkia monarkinë monarkitë
 zhavorr	zhavorr zhavorrin zhavorrit zhavorri
 pllakos	pllakosur pllakosja pllakos pllakose pllakosje pllakosi pllakosën
 sintaksë	sintaksë sintaksa sintakse sintaksën
-hurmë	hurma hurmat hurmave
+hurmë	hurmë hurma hurmat hurmave
 rre	rre rreja rreje rresh
 gjeometri	gjeometri gjeometrisë gjeometrie gjeometrinë
 automat	automatin automate automat
 amvisë	amvise amvisa amvisë amvisën amvisat amvisave
-thinjë	thinja thinjat thinjash thinjave thinje
-farkë	farkë farka farkës
+thinjë	thinjë thinja thinjat thinjash thinjave thinje
 gjeologji	gjeologjia gjeologjisë gjeologji
 përshesh	përshesh
 jorgan	jorgan jorganë jorganit jorgani jorganin
-muskuloz	muskuloz muskuloze
 llokum	llokum llokume llokumet llokumin
-kushtrim	kushtrim kushtrimi kushtrimit kushtrimin
+muskuloz	muskuloz muskuloze
 yjësi	yjësitë yjësisë yjësia yjësi yjësinë
 embargo	embargo
-letargji	letargji letargjie letargjisë letargjia letargjinë
 kaldajë	kaldaja kaldajës kaldajën kaldajat kaldajave kaldajë kaldaje
+letargji	letargji letargjie letargjisë letargjia letargjinë
 gjuhëtar	gjuhëtarët gjuhëtar gjuhëtari gjuhëtarit gjuhëtarëve gjuhëtarin gjuhëtarë
 llahtarshëm	llahtarshëm
 nge	nge ngae
-përjetësoj	përjetësojnë përjetësuar përjetëson përjetësuan përjetësoi përjetësonte
+përjetësoj	përjetësoj përjetësojnë përjetësuar përjetëson përjetësuan përjetësoi përjetësonte
 refren	refren refrene refreni refrenin refrenit refrenet
-kallumë	kallum
 panoramë	panoramë
-pluskoj	pluskon pluskojnë pluskonin pluskonte
 eshkë	eshkë eshka
+pluskoj	pluskoj pluskon pluskojnë pluskonin pluskonte
 sisë	sisa sisë
 rrëzë	rrëzë rrëza rrëzës rrëze
 cicëroj	cicëroj cicëruan cicërojnë cicëron cicëronin cicëruar cicëroi
-galinë	galina
-ndryj	ndryrë
-mih	mihur mihi mihim miha mihja
-grosh	grosh groshësh
+galinë	galinë galina
+mih	mih mihur mihi mihim miha mihja
 ithtar	ithtarët ithtar ithtarëve ithtarë ithtari
 autogol	autogol autogoli autogolin autogolit autogolat autogola
-pështym	pështysh pështyma
 tunxh	tunxhi tunxhit tunxh
 pris	prist pris
-gabonjë	gabojë
-plep	plepi plepave plepat plepa plepit
-çakë	çakën çakës çaka
-cke	cke
-kosinus	kosinus
-pitas	pitas
-thak	thaks
-mëllenjë	mëllenja mëllenjë
+gabonjë	gabonjë gabojë
+motivohem	motivohet motivohen motivohesh motivoheni motivohemi motivohem
+plep	plep plepi plepave plepat plepa plepit
 cofëtinë	cofëtinë coftinë cofëtina
-sisor	sisorë sisor
 gërric	gërric gërricje gërricur gërricni
+kosinus	kosinus
+mëllenjë	mëllenja mëllenjë
+sisor	sisorë sisor
 sjellës	sjellës sjellësi sjellësit
+çakë	çakë çakën çakës
 irracional	irracionale irracional
 kalldrëm	kalldrëm kalldrëmi
 mërgatë	mërgata mërgatës mërgatën mërgatë
@@ -4841,26 +4702,23 @@ napë	napa napë nape napën
 rozmarinë	rozmarinë rozmarina
 usta	usta ustallarët ustallarë ustallarëve
 karafil	karafil karafila karafili karafilin karafilit karafilat
-turrem	turret turrur turra
 gizë	giza gizës gizë
-çuç	çuçi çuçin çuçit
 shtëllungë	shtëllungë shtëllunga shtëllungat shtëllungave
 teshtimë	teshtima teshtimën teshtimë teshtimës teshtimave teshtimat teshtime tështimë
-tangë	tangi tanga tangat
-çuk	çuk çuku çuka çukur çukën
-djerr	djerrë dorra djerr dora
+tangë	tangë tangi tanga tangat
 atraksion	atraksion
+djerr	djerrë dorra djerr
 shushunjë	shushunja shushunjë shushunjat
 matematikisht	matematikisht
 hernie	hernie hernia
 pulpë	pulpë pulpës pulpa pulpat pulpën
 vragë	vraga vragë vragat
-bilë	bilën bila bilës
+bilë	bilë bilën bila bilës
 nyell	nyejt nyejve nyelli nyellit nyejsh nyell
 përsos	përsosim përsosa përsos përsosëm përsosi përsosja përsosje
 kërrus	kërrusur kërrus
 biseksual	biseksuale biseksual
-shelg	shelgut shelgjeve shelgu shelgjet
+shelg	shelg shelgut shelgjeve shelgu shelgjet
 gogël	gogël goglat gogla goglave
 blozë	blozë bloza bloze
 poligon	poligon
@@ -4868,1718 +4726,1496 @@ malazez	malazez
 zverk	zverkun zverkut zverk zverku
 aciditet	aciditet aciditetin aciditeti aciditetit
 kërcell	kërcell kërcelli kërcejtë
-kalloj	kallo kallon
 grazhd	grazhd grazhdi
+kalloj	kalloj kallo kallon
 rusishte	rusishten rusishtja rusishte
 tërthorazi	tërthorazi
 resh	reshtë resh
-tis	tis
 urtësinë	urtësinë
 satirë	satirë satire satirave satira satirës satirën satirat
 xhufkë	xhufka xhufkë xhufkat xhufkën xhufke
-rrasë	rrasë rrasat rrase rrasa rrasën
 cub	cuba cubat cub cubash cubave cubi
-rrajë	rraja rrajës rrajën rrajave
-log	log logu
 baroneshë	baronesha baroneshë baroneshën
+log	log logu
 erozion	erozioni erozion erozionin erozionit
-balë	bale balës balën bala
 përnjëherësh	përnjëherësh
-shat	shatin shat shatë
-pjesëz	pjesëz
 arsenik	arsenik arseniku
+pjesëz	pjesëz
+vendrojë	vendrojë vendroje vendroja vendrojën vendrojave
 zogë	zogë zogat zoga
-vendrojë	vendroje vendroja vendrojën vendrojave
-prurës	prurësi prurës
 gjinkallë	gjinkalla gjinkallat gjinkallën gjinkallë gjinkallave
+prurës	prurësi prurës
 kurbinas	kurbinasit kurbinasve kurbinas
 nacionalizëm	nacionalizmi nacionalizmin nacionalizëm
-shtijë	shtije shtija
+shtijë	shtijë shtije shtija
 namaz	namaz
 kalium	kalium
-devolli	devolli
-çerr	çerri çerr çerrat
 makut	makut makute
-shtrojë	shtrojë shtroja shtroje
+çerr	çerri çerr çerrat
 efektivisht	efektivisht
 reper	reper reperë
-zejtar	zejtari zejtar zejtarin zejtarët zejtarë zejtarëve zejtarësh
+shtrojë	shtrojë
 utopi	utopi utopinë utopia utopie utopitë utopisë
+zejtar	zejtari zejtar zejtarin zejtarët zejtarë zejtarëve zejtarësh
 hajat	ajet hajati hajatin hajatit hajat
-bymej	bymehet
 suedisht	suedisht
-zgurdulloj	zgurdulluar zgurdullon zgurdullojmë zgurdulloni zgurdulloja
 njëzetepesë	njëzetepesë
 pantofël	pantofla pantofël
-gjër	gjër
-rrasht	rreshtë
+rrasë	rrasë rrasat
+zgurdulloj	zgurdulloj zgurdulluar zgurdullon zgurdullojmë zgurdulloni zgurdulloja
+rrasht	rrasht rreshtë
 dyvjeçar	dyvjeçare dyvjeçar
 ngaj	ngaje ngaj
 ujdhesë	ujdhesa ujdhesë
+boa	boat boa
 bukël	bukël
 hanxhi	hanxhi hanxhiu
-boa	boat boa
+shat	shatin shat
 zhabinë	zhabinën zhabinë zhabinës zhabina
-fildishtë	fildishtë
 shkoq	shkoqur shkoq
-grifshë	grifshë grifshat grifsha
 çjerr	çjerr çjerrë çjerrin çjerrim
-shosh	shosh shoshën shoshim shoshi shoshe shosha
-qivur	qivur qivuri qivurit qivurin
-qye	qej
-llahtari	llahtari llahtaria
-thërrmijë	thërrmija thërrmi
-sodomi	sodomi sodomisë
-tredh	tredh trodha
+grifshë	grifshë grifshat
 ith	itha ith
-thimth	thimtha thimthat
+llahtari	llahtari llahtaria
 murr	murrit murri murr
+qivur	qivur qivuri qivurit qivurin
+qye	qye qej
+sodomi	sodomi sodomisë
+thimth	thimth thimtha thimthat
+thërrmijë	thërrmijë thërrmija thërrmi
+tredh	tredh trodha
 bashkërendoj	bashkërenduar bashkërendojmë bashkërendoj bashkërendojnë bashkërendon bashkërenduan bashkërendonte
 antropologji	antropologjisë antropologjinë antropologjia antropologji
 parabolë	parabolë parabola parabolën
 gëlqere	gëlqere gëlqerja gëlqereje
-nalt	nalt
-mbars	mbarsur mbars
 cart	carta cart carti
+mbars	mbarsur mbars
 pllajë	pllaja pllajë pllajën pllajës pllaje pllajat
 gjëmë	gjëmë gjëmën gjëma gjëmat gjëmës gjëmave
 argat	argat
 bajraktar	bajraktari bajraktarit bajraktarin bajraktarët bajraktar bajraktarë bajraktarëve
-kokëçarje	kokëçarje
+vesht	vesht
 grumbullues	grumbulluese grumbullues
+kokëçarje	kokëçarje
 baladë	baladë
-tejdukshëm	tejdukshëm
-qymyrgur	qymyrgurit qymyrgur qymyrgurin qymyrguri
 margaritar	margaritarë margaritar margaritarët margaritari
+qymyrgur	qymyrgurit qymyrgur qymyrgurin qymyrguri
+tejdukshëm	tejdukshëm
 vishnjë	vishnje vishnja vishnjë
 afsh	afsh afshin afshi afshet
 denjoj	denjuar denjoj denjoja denjon denjoi denjonte denjojnë
-putë	puta
+putë	putë puta
 serbisht	serbisht
 bumerang	bumerang
 patëllxhan	patëllxhan patëllxhani patëllxhanit patëllxhanin
 bashkëngjis	bashkëngjitur bashkëngjis bashkëngjita
 nepotizëm	nepotizmi nepotizëm nepotizmin
 kapedan	kapedan
-kri	kri kria
 disertacion	disertacionin disertacionit disertacion disertacionet
-kafjall	kaftjall kafjall kafjallin kafjalli
-polem	polet polem
-baloj	balon
+kri	kri kria
 dioqezë	dioqeza dioqezës dioqezë dioqezën dioqezat dioqezave
-bathë	batha bathës bathën bathë
-pendoj	pendova pendove penduan penduar
 biograf	biograf biografin biografit
-harb	harbut
 eufemizëm	eufemizëm
+harb	harb harbut
 patok	patok patoku patokut
+pendoj	pendoj pendova pendove penduan
 diagnostik	diagnostike diagnostik diagnostikë
 siluetë	silueta siluetë siluetën siluetës
-finok	finok finoku
-përç	përça
-kllapë	kllapa kllapën kllapës
 dosë	dosa dosë dosën
+finok	finok finoku
+kllapë	kllapë kllapa kllapën kllapës
+përç	përç përça
 krahasues	krahasuese krahasues
 dashakeq	dashakeqe dashakeq
-kinetikë	kinetike
+kinetikë	kinetikë kinetike
 gem	gem gemi gema
+pic	pic pici
 timonier	timonier timonieri timonierë timonierit timonierin
 kaliumi	kaliumi
-cof	cofur cofësh cofsh coftë cofë
+cof	cof cofur cofësh cofsh coftë cofë
 baraspeshë	baraspeshën baraspeshë baraspesha
-plug	plug plugun plugu plugut
 ndajfolje	ndajfolje
+plug	plug plugun plugu plugut
 abetare	abetarja abetaren abetare abetaret abetares abetareve
 kafshëror	kafshërore kafshëror
 autore	autore
-sanxhak	sanxhakut sanxhak sanxhaku sanxhakun
-kullos	kullosa kullota
 andej-këtej	andej-këtej
-lëroj	lëruar lëronte lëroi
 dëngël	dënglat dëngël dënglave
-vickë	vicki vicka
+kullos	kullos kullosa
+lëroj	lëroj lëruar lëronte lëroi
+vickë	vickë vicki vicka
 shquhet	shquhet
 këndë	këndë kandë
-fishk	fishkur fishka
+fishk	fishk fishkur fishka
 koks	koks koksi
 selvi	selvi selvish selvitë selvia selvisë selvive selvie
-kurrgjë	kurrgjë kurgjo kurrgjo
 dibran	dibranët dibran dibranë dibranëve dibrani
 aliazh	aliazh aliazhit aliazhe
-kapardisem	kapardisur
 pjekë	pjekë
 arnoj	arnojmë arno arnuar arnoj arnon
-zbath	zbathi zbathni zbathim zbath
-përcëlloj	përcëlluar përcëllon përcëllova
 guvë	guva guvën guvë
-jes	jes
+përcëlloj	përcëlloj përcëlluar përcëllon përcëllova
 kominoshe	kominoshe
+zbath	zbathi zbathni zbathim zbath
 qiellgërvishtës	qiellgërvishtës qiellgërvishtësit
 qyqe	qyqe qyqja
-molë	molë mola mole
-leshterik	leshterikët leshterikë leshterik leshterikësh
-thjeshtër	thjeshtri thjeshtrit thjeshtër
-rriskë	rriska rriskat rriske
-nduk	nduk nduki ndukje ndukim
-gushëkuq	gushëkuqi
-krinë	krina
-ulok	ulok ulog
 antifrizë	antifrizë antifriz
-çamarrok	çamarrok çamarrokët
-nafakë	nafaka nafak
+gushëkuq	gushëkuq gushëkuqi
+leshterik	leshterikët leshterikë leshterik leshterikësh
+molë	molë
+nafakë	nafakë nafaka nafak
+nduk	nduk nduki ndukje ndukim
+rriskë	rriskë rriska rriskat rriske
 rrëmih	rrëmih rrëmihur
-thyesë	thyes thyesë
+thjeshtër	thjeshtri thjeshtrit thjeshtër
+ulok	ulok ulog
+çamarrok	çamarrok çamarrokët
 bulkth	bulkth bulktha
 zbokth	zbokth zbokthit zbokthin zbokthi
-cikoj	ciko cikon
-kaç	kaç kaçi kaçin
-burbuqe	burbuqe
+cikoj	cikoj ciko cikon
 bac	bac baca bacë
 përdorshëm	përdorshëm
 majdanoz	majdanoz majdanozi
 dyndje	dyndje
-zhur	zhur zhuri
 plis	plisat plisa plis plisi plisave plisin plisit
 gjuhësi	gjuhësisë gjuhësi gjuhësinë gjuhësia
 lahutë	lahutë lahuta lahutës lahutën
-papat	papas
 teprim	teprimi teprim teprimet teprime teprimit
-saraç	seref saraçi saraçit saraçin
-lush	lush lushi lushit
 fukara	fukara
 tjegull	tjegullave tjegull tjegulla tjegullat
 bashkëfshatar	bashkëfshatarët bashkëfshatarë bashkëfshatarëve bashkëfshatar bashkëfshatari bashkëfshatarin
-bakall	bakaj bakalli bakall bakallin bakallit
-dërmoj	dërmuar dërmon
+dërmoj	dërmoj dërmuar dërmon
 natrium	natrium
 kut	kut kute
-zarzavate	zarzavate
 diafragmë	diafragmë diafragma diafragmën diafragmës
+zarzavate	zarzavate
 mëmëdhe	mëmëdhe mëmëdheun mëmëdheut mëmëdheu
 shtazarak	shtazarake shtazarak
-vig	vig vigut
 dynja	dynja dynjaja
-abuzohem	abuzohet abuzohen abuzohej abuzuar
-ndëshkimor	ndëshkimore
+abuzohem	abuzohem abuzohet abuzohen abuzohej
 dushk	dushku dushk dushqe
-luftanije	luftanije
+ndëshkimor	ndëshkimor ndëshkimore
 kastile	kastile
+luftanije	luftanije
 imperializëm	imperializmit imperializmi imperializmin imperializëm
-vogëli	vogëli
 amzë	amzë amzës amza
+vogëli	vogëli
 zhurmoj	zhurmuar zhurmojmë zhurmoj zhurmon zhurmonin
 jevg	jevg jevgjit jevgu
-gushë	gushë gusha gushës
-ligjzbatues	ligjzbatuese ligjzbatues
 aderim	aderimin aderim aderimi aderimit aderime aderimet aderimeve
-kaps	kaps
-prrar	përralle
+ligjzbatues	ligjzbatuese ligjzbatues
 athët	athët
 menjë	menja menjë
-cip	cipin cipa cip cim cipave cipat
 zanatçi	zanatçiu zanatçi zanatçinj zanatçinjtë zanatçinjve
 abonuar	abonuar
-rrap	rrapit rrap rrapi rrapin rrepe rrapeve
 përthith	përthith
-cale	cale calja
 ironikisht	ironikisht
 prush	prush prushi prushit
-vol	vol
 gajle	gajle
 miqësisht	miqësisht
+algjebër	algjebrën algjebër algjebra algjebrës
 pingul	pingul
 qelibar	qelibar qelibari
 stilograf	stilograf stilografi stilografë
 çajnik	çajnik çajnikun çajniku
-algjebër	algjebrën algjebër algjebra algjebrës
 atletikë	atletikë atletika atletikën
 lukth	lukth
 sofër	sofër sofra sofrat
-tota	tota totë
 shkallmoj	shkallmoj shkallmuar
 abat	abati abat
 nëntëmbëdhjetë	nëntëmbëdhjetë
-përftoj	përftuar përftoni përftojmë përftojnë përftonte përftoi përftuan përfton
+rrap	rrapit rrap rrapi rrapin rrapeve
+përftoj	përftoj përftuar përftoni përftojmë përftojnë përftonte përftoi përftuan përfton
 tepsi	tepsi tepsinë tepsisë tepsia
 shollë	shollë shuall
-amshoj	amshuar
+amshoj	amshoj amshuar
 sherbet	sherbet sherbeti
 hobe	hobet hobe
-rabat	rabat rabati rabatit
 aerodinamikë	aerodinamikën aerodinamikë
-shtog	shtogu shtogut
+rabat	rabat rabati rabatit
 dëlirë	dëlirë
+shtog	shtog shtogu shtogut
 borzilok	borzilok borziloku borzilokut borzilokun
 ibret	ibret
-mërmërit	mërmëritur mërmërite mërmërita mërmëriti
+mërmërit	mërmërit mërmëritur mërmërite mërmërita mërmëriti
 ndryshore	ndryshore ndryshoret
-nodhie	nodhi
 lëngë	lëngë
-kembë	kembë
-gore	gore gorë
 amfib	amfib amfibe
-vijëzoj	vijëzuar vijëzojnë
-cok	coke coka
-avan	avans
+vijëzoj	vijëzoj vijëzuar vijëzojnë
 rasë	rasa rasë rase rasën rasat
 oligarki	oligarkia oligarki oligarkisë oligarkinë oligarkie
 ligjërim	ligjërimi ligjërimit ligjërimin ligjërim ligjërime ligjërimet
 brokë	broke brokë broka
-rrikë	rrika rrikave
-krifë	krifën krifë krifa
 gdhe	gdhe gdhë
-morth	morthi
-musht	musht
+krifë	krifën krifë krifa
+rrikë	rrikë rrika rrikave
 abdes	abdes
-përafrohem	përafrohet përafruar përafrohu përafrohen përafrohemi
+morth	morth morthi
+musht	musht
+përafrohem	përafrohem përafrohet përafruar përafrohu përafrohen përafrohemi
 mjedër	mjedër mjedrat mjedra mjedrës
 personifikoj	personifikon personifikoj personifikove personifikuar personifikojnë personifikonte
 dynd	dyndur dyndën dyndja dynd
 çap	çapja çap çape çapi
 urth	urthi urth urthit urthin
-kukutë	kukutë kukutës
-dhjatë	dhjata dhjatë
-kryqëzor	kryqëzor kryqëzorin
-kaproll	kaproj kaprolli
-fuzhnjë	fuzhnjë fuzhnjat
-mret	mreti mretit
-mbërtheckë	mbërtheckat mbërtheckën
-hungëroj	hungëroj hungëron
 bati	bati batia
-plugoj	plugoj plugoja
+dhjatë	dhjata dhjatë
+fuzhnjë	fuzhnjë fuzhnjat
+hungëroj	hungëroj hungëron
+kaproll	kaproll kaproj kaprolli
+kryqëzor	kryqëzor kryqëzorin
+kukutë	kukutë kukutës
+mbërtheckë	mbërtheckë mbërtheckat mbërtheckën
+mug	mug mugun mugu
 plehëroj	plehërojnë plehëroj
-rreckaman	rreckamanë rreckaman
-mug	mugun mugu
-zgjyrë	zgjyrë zgjyrat zgjyra
+plugoj	plugoj plugoja
 përkore	përkore përkores përkoren përkorja
-shët	shët
-shtremb	shtrembur
-astar	astarte
+rreckaman	rreckamanë rreckaman
+zgjyrë	zgjyrë zgjyrat zgjyra
 kaliqafë	kaliqafë
-mjau	mjau
-lukër	lukën
-çlidh	çlidhje
-qiparis	qiparisit
+krakë	krakë kraku
 masturbues	masturbues
-rugjë	rugë
-byk	byk
-curran	curran
-krakë	kraku
 mendër	mendër
+mjau	mjau
+qiparis	qiparis qiparisit
+rugjë	rugjë rugë
+shët	shët
+çlidh	çlidh çlidhje
 zhvirgjëroj	zhvirgjëruar zhvirgjëroj zhvirgjëronin
 mblesëri	mblesëri mblesëria
 ulcerë	ulcerë ulcera ulcerat ulcerave ulcerës ulcerën
-transkriptim	transkriptim transkriptimin transkriptimi transkriptimet transkriptime
 bakllava	bakllava bakllavaja
-çajtore	çajtore çajtoren çajtoreve çajtoret
 qiraxhi	qiraxhiu qiraxhi qiraxhinjtë qiraxhiut qiraxhinj
+transkriptim	transkriptim transkriptimin transkriptimi transkriptimet transkriptime
+çajtore	çajtore çajtoren çajtoreve çajtoret
 aritmetikë	aritmetikë aritmetikën aritmetike aritmetika
 balluke	balluke baluke balluket
 akord	akord
-cipras	cipras ciprasi
-homoseksualitet	homoseksualitetin homoseksualiteti homoseksualitetit
+homoseksualitet	homoseksualitet homoseksualitetin homoseksualiteti homoseksualitetit
 jashtëmartesor	jashtëmartesore jashtëmartesor
-zhvlerësoj	zhvlerësuar zhvlerësoi zhvlerësova zhvlerëson zhvlerësojnë zhvlerësojmë
-zeje	zeje zejesh zejeve zejen zejes zejet zeja
+zhvlerësoj	zhvlerësoj zhvlerësuar zhvlerësoi zhvlerësova zhvlerëson zhvlerësojnë zhvlerësojmë
 kërp	kërp kërpi kërpit
-nenexhik	nenexhik nenexhiku
 lug	lug lugjet lugu lugut lugjeve lugun
+nenexhik	nenexhik nenexhiku
 tematik	tematikë tematike tematik
-çok	çok çoku çokut
 atashe	atashe
 dubloj	dublojmë dubloi dubloj dubluar dublon dublonte
+zeje	zeje zejesh zejeve zejen zejes
 skuth	skuth skuthi skutha
 jetësoj	jetësuar jetësoj jetësojmë jetësojnë jetësoi jetësuam jetësoni jetësonte
 huall	huell hojet huall hoje hojeve
 mullë	mulla mullë mulle
-zvjellët	zhdërvjellët
 pelegrin	pelegrin pelegrini pelegrinit pelegrinin
-shqarr	shar shqarri shqarrin
-rimbursoj	rimbursojmë rimbursuar rimbursova rimburson rimbursojnë
+shqarr	shqarr shar shqarri shqarrin
+zvjellët	zvjellët zhdërvjellët
+rimbursoj	rimbursoj rimbursojmë rimbursuar rimbursova rimburson rimbursojnë
 gjakmarrje	gjakmarrje gjakmarrjes gjakmarrja gjakmarrjen gjakmarrjet
-ago	ago
-lëngoj	lëngon lëngojnë lëngonte lënguar
-mbarohem	mbarohet mbarohen mbaruar mbarova
+lëngoj	lëngoj lëngon lëngojnë lëngonte lënguar
 fit	fit fiti
+mbarohem	mbarohem mbarohet mbarohen
+gushë	gushë gushës
 gojëdhënë	gojëdhënë gojëdhënat gojëdhëna gojëdhënave
 ujitës	ujitës ujitëse
 fiziologji	fiziologji fiziologjisë fiziologjinë
-përmalloj	përmalluar
-iriq	iriq iriqi
 përflak	përflakur përflak përflakje përflakja
+përmalloj	përmalloj përmalluar
+iriq	iriq iriqi
 cironkë	cironka cironkë cironkat cironke
-zbaticë	zbaticë zbatica zbaticat
 pjesëtoj	pjesëtoj pjesëtuar pjesëtojmë pjesëton
-llokmë	llokmë llokma llokmat
-rrej	rrej rrejtur
-laraskë	laraska laraskave laraskë laraskat
+zbaticë	zbaticë zbatica zbaticat
 bitum	bitumit bitum bitumi
 bollgur	bollgur bullgur bollguri
+laraskë	laraska laraskave laraskë laraskat
+llokmë	llokmë llokma llokmat
+rrej	rrej rrejtur
 ysht	yshtur ysht yshtim yshtja
-arbën	arbën arber
 asbest	asbest asbesti
-rrokaqiell	rrokaqiell rrokaqiej
 kodosh	kodosh
 tenjë	tenja tenjë tenjat
 absorbim	absorbimit absorbimin absorbimi absorbim
-vanë	vane vanës vanë
+hijeshoj	hijeshoj hijeshoi hijeshon hijeshuat hijeshojnë hijeshuar
 kaposh	kaposh kaposhi kaposhët
-hijeshoj	hijeshoi hijeshon hijeshuat hijeshojnë hijeshuar
+vanë	vane vanës vanë
 zhbllokohet	zhbllokohet
-nallban	nallban nallbani nallbanit
 përkthyese	përkthyese përkthyesja përkthyeses përkthyesen
-peshohem	peshohen peshohesh peshohet peshuar
 buldozer	buldozer
-rendoj	renduar
-blerinë	blerina blerinës blerinën
-ajros	ajrosje ajrosja ajrosni ajrosur ajrosin
+peshohem	peshohem peshohen peshohesh peshohet
+rendoj	rendoj renduar
+ajros	ajros ajrosje ajrosja ajrosni ajrosur ajrosin
 vilajet	vilajetit vilajetin vilajeti vilajeteve vilajet vilajete vilajetet
-çalaman	çalaman
-puq	puqin puq puqa
-karabush	karabush karabushi
+adet	adetet adet adete adetin
 apologji	apologji apologjinë apologjia
 jud	judi jud
-adet	adetet adet adete adetin
+karabush	karabush karabushi
+puq	puqin puq puqa
+çalaman	çalaman
 kajsi	kajsi kajsia kajsie kajsisë kajsitë
 cucë	cucë cuca
 sqepar	sqeparin sqeparë sqepar
-cube	cube cupe
-çiflig	çiflig çifligut çifligun çifligu çifligje çiflik
 filan	filan
-shartoj	shartuar
+çiflig	çiflig çifligut çifligun çifligu çifligje çiflik
+cube	cube
+krep	krep krepa krepat
 murrët	murrmë murrët
-krep	krepa krepat
-shkozë	shkozë shkoza shkozës shkozën shkoze
-shtambë	shtambë shtamba
-shqopë	shqope shqopa
+shartoj	shartoj shartuar
+shqopë	shqopë shqope shqopa
 shqyerje	shqyerje shqyerjeve
-kreshmë	kreshme kreshmëve kreshmët meshari
+shtambë	shtambë shtamba
+kreshmë	kreshmë kreshme kreshmëve kreshmët meshari
+brëndës	brëndës brëndësi
 cermë	cermë
-karroqe	karroqe
-brëndës	brëndësi
 hungarisht	hungarisht
-vidër	vidër vidra
-zemërmadh	zemërmadh zemërmadhe
-orëndreqës	orëndreqës orëndreqësi
+karroqe	karroqe
 kësmet	kësmet kësmeti
 ledh	ledhet ledhi ledh
+orëndreqës	orëndreqës orëndreqësi
+vidër	vidër vidra
+zemërmadh	zemërmadh zemërmadhe
 apati	apatinë apatia apati
-trok	trok
-tezgjah	tezgjahu
-këlshejt	këlshejti
-bovë	bovë
-thelmë	thelma
-brith	britha
-njeringrënës	njeringrënës
-mosmirënjohje	mosmirënjohje
-cang	cang
-hamam	hamam
-fistik	fëstëk
-blatim	blatim
-kubël	kubla
 afishë	afishë
-oktavë	oktavë
-lekur	lekur
-fildish	fildish
-shkrif	shkrifët
-cikërrimë	cikërrima cikërrime
-rriqër	rriqër rriqën
-baule	baule baules
-hauz	hauzi hauz
-turjelë	tryelë turjelë turjelën
-dredhkë	dredhkë dredhkën
-bishtajë	bishtajë bishtajat
-jonxhë	jonxhë jonxhës jonxhën
-harrueshëm	harrueshme harrueshëm
 arkivist	arkivist arkivistin arkivisti
+baule	baule baules
+bishtajë	bishtajë bishtajat
+blatim	blatim
+bovë	bovë
+brith	brith britha
+cang	cang
+cikërrimë	cikërrimë cikërrima cikërrime
+dredhkë	dredhkë dredhkën
+fildish	fildish
+fistik	fistik fëstëk
+gërthas	gërthas gërthit gërthitje gërthet gërthita
+harrueshëm	harrueshme harrueshëm
+hauz	hauzi hauz
+jonxhë	jonxhë jonxhës jonxhën
+kubël	kubël kubla
+këlshejt	këlshejt këlshejti
+lekur	lekur
 mburracak	mburracakë mburracak
-gërthas	gërthit gërthitje gërthet gërthita
-lafshë	lafsha lafshë lafshat
-gjir	gjirit gjirin gjir gjiri ngjir
+mosmirënjohje	mosmirënjohje
+njeringrënës	njeringrënës
+oktavë	oktavë
+rriqër	rriqër rriqën
+shkrif	shkrif shkrifët
+tezgjah	tezgjah tezgjahu
+thelmë	thelmë thelma
+trok	trok
+turjelë	tryelë turjelë turjelën
 dëshirueshëm	dëshirueshëm
-drizë	drizë driza drizës
 përtoj	përtoj përtonit përton përtojnë përtoni përtuar përtoi përtonte përtonin
 yrysh	irish yrysh
 jofitimprurës	jofitimprurëse jofitimprurës
 gjedhe	gjedhe gjedhet gjedheve
-cërrik	cërrik cërrikut cërriku
 afërisht	afërisht
 horë	hora horë horës horash hore
 ushtoj	ushtojnë ushtoj ushtuar ushton ushtuan
-nazizëm	nazizmi nazizmin
+nazizëm	nazizëm nazizmi nazizmin
 pashmangshmërisht	pashmangshmërisht
-mortje	mortja mortje
 diapazon	diapazoni diapazon diapazonit
 këndell	këndellur këndell këndellim këndellje këndellja
+mortje	mortja mortje
 autoambulancë	autoambulancë
 jetëshkrim	jetëshkrimin jetëshkrim jetëshkrimi
-laraman	laraman laramani laramane
-pështjell	pështjellim
 ateizëm	ateizëm ateizmin ateizmi ateizmit
+laraman	laraman laramani laramane
+pështjell	pështjell pështjellim
 kronologji	kronologji kronologjia kronologjinë kronologjisë
-njëtrajtshëm	njëtrajtshëm
 erëz	erëz
+njëtrajtshëm	njëtrajtshëm
 pashpjegueshëm	pashpjegueshëm
 ishullor	ishullore ishullor
-rade	rade
 panxhar	panxhar panxhari
-gërdec	gërdecit gërdec gërdecin gërdeci
-rekës	rekës
+rade	rade
 aderoj	aderuar aderoja aderon aderoi aderojnë aderoj aderojmë aderonin aderuan
 larmi	larmi larminë larmia
 letargjik	letargjik letargjike
-stopohem	stopuar stopohuni stopohet
+stopohem	stopohem stopuar stopohuni stopohet
 fierak	fierak fierakët fieraku fierakëve fierakut fierakë fierakun
-qos	qosja qosa
 nëntoger	nëntogeri nëntoger nëntogerit
-djalëri	djalërisë djalëria djalërinë
+djalëri	djalëri djalërisë djalëria djalërinë
 përgjithësim	përgjithësime përgjithësim përgjithësimet përgjithësimit
 dixhitalizim	dixhitalizimit dixhitalizimi dixhitalizimin dixhitalizim
 mjegullnajë	mjegullnaja mjegullnajë
 thjeshtëzoj	thjeshtëzoj thjeshtëzuar
-quk	quka quku
 curril	curril currilave currilat
 sedër	sedër sedra sedrën
-bardhok	bardhok bardhush bardhak bardhoku bardhoc
 radikalizëm	radikalizmit radikalizmin radikalizmi radikalizëm
 altruizëm	altruizëm altruizmi
+cip	cipin cip cim
 ndë	ndë
 degëz	degëza degëzat degëz
+pasdrekë	pasdrekë pasdreke
 qamet	qamet kiamet
-pasdrekë	pasdreke
-ujti	uti ulti
 shquaj	shquan shquaj shquante shquanin shquajnë
 kuksian	kuksianët kuksian kuksianëve kuksianë kuksiani
-cakoj	cako cakoni cakonit cakonin cakuar cakon
-drapër	drapër draprin
 dekadent	dekadent dekadente
+drapër	drapër draprin
 nëngrup	nëngrupe nëngrupi nëngrupeve nëngrupin nëngrupet nëngrupit nëngrup
-treçerek	treçerek
-noc	noc
+harlis	harlis harlisur
 jehon	jehon
-harlis	harlisur
+noc	noc
 tellall	tellall tellallë
-ngulmoj	ngulmon ngulmonte ngulmuar ngulmoi ngulmojnë
+treçerek	treçerek
+ngulmoj	ngulmoj ngulmon ngulmonte ngulmuar ngulmoi ngulmojnë
 shkërmoq	shkërmoqur shkërmoqi shkërmoq shkërmoqën
-pallaskë	pallaska pallaskat pallaskës
 dhallë	dhallë
 loqe	loqe
 zdrukthëtar	zdrukthëtari zdrukthëtar
-stuhishëm	stuhishëm
 mamës	mamës
 njëzetekatër	njëzetekatër
+stuhishëm	stuhishëm
 tërthore	tërthore tërthorja
 meskin	meskine meskin
-hithër	hithra hithrat hithrës hithrën hithre hidh hithrave hithër
-shkarpë	shkarpa
 gjezdis	gjezdis gjezdisim gjezdisur gjezdiste
+shkarpë	shkarpë shkarpa
 shtagë	shtagë shtaga shtagat
 vranët	vranët
 krutan	krutanët krutanëve krutan
-shqep	shqep shqepur shkopinj
-zjarrmi	zjarrmi zjarrmia
 abazhur	abazhur
-gjiriz	gjiriz
 bëshëm	bëshëm
-dybek	dybekun dybeku dybekut
-puk	puka puki
+dybek	dybek dybekun dybeku dybekut
+gjiriz	gjiriz
+zjarrmi	zjarrmi zjarrmia
 hartoj	hartoj
+sakicë	sakicë sakicën sakica
+shqep	shqep shqepur
 shquhem	shquhem
 shëllirë	shëllirë
 zgjebe	zgjebe zgjeben zgjebja
-sakicë	sakicë sakicën sakica
-kërriç	kiç kërriçi
-ushtë	ushte ushtën ushta
-fyl	fyl fyle
-laureshë	lauresha
-purgator	purgator
+kërriç	kërriç kiç kërriçi
+ushtë	ushtë ushte ushtën ushta
 dra	dra
-huj	huj
-ulkonjë	ulkonjë ulkonja
+fyl	fyl fyle
 havi	havi havie
+huj	huj
 kudhër	kudhër kudhrën kudhra
+laureshë	laureshë lauresha
 luleradhiqe	luleradhiqe luleradhiqet luleradhiqeve
-shprehës	shprehëse shprehës
+purgator	purgator
 gramatikor	gramatikore gramatikor
-cuban	cuban
-pellë	pella
+shprehës	shprehëse shprehës
 aba	aba
-rreshk	rreshkur
-rrëmujaxhi	rrëmujaxhi rrëmujaxhinj
 ath	athe atha ath
+cuban	cuban
+pellë	pellë pella
+rreshk	rreshk rreshkur
+rrëmujaxhi	rrëmujaxhi rrëmujaxhinj
 shtriqem	shtriqem shtriqur
 beratas	beratas beratasit beratasi beratasve
-cepë	cepe cepë cepa
-matjan	matjani matjanët matjanit matjan matjanin matjanëve
+hithër	hithra hithrat hithrës hithrën hithre hithrave hithër
 djallëzi	djallëzi djallëzia djallëzinë
-meh	mef meh meha
-mnerë	merje mere
-kotëletë	kotëletë
+matjan	matjani matjanët matjanit matjan matjanin matjanëve
+amper	amperi amper amperin
+aç	aç
+begatshëm	begatshëm
+bozhure	bozhure bozhuret
+brukë	brukë bruke
+bubullon	bubullon
+cath	cath
+cepë	cepe cepë
+cërcëritje	cërcëritje cërcëritjen
+dallë	dalla dallë
+dudum	dudum
+duhmë	duhmë
+dëng	dëng
 dërti	dërti
+egjër	egjër
+epshëm	epshëm
+fakulltet	fakulltet fakullteti
+fyelltar	fyelltar fyelltarin fyelltari
+gjembaç	gjembaç
+gogësij	gogësij gogësimë gogësijnë gogësinë
+grih	grihu grih
+guf	guf gufi gufin
+gurgulloj	gurgulloj gurgullon
 hamës	hamës
+harraq	harraq
+harrje	harrje
+hidrat	hidrati hidratit hidrat
+hikërr	hikërr hikrra
+horrë	horrë
+kacafytem	kacafytem
+kalk	kalk
+karuc	karuc karuci
+keqardhës	keqardhës
+kordhë	kordhë kordë kordha
+kotëletë	kotëletë
+lebeti	lebetie lebeti
+lingë	lingë linga
+llafos	llafos llafosje
+luri	luri
+lëneshë	lëneshë
+majhosh	majhosh majhoshe
+meh	mef meh
 ndoh	ndoh
 ndrys	ndrys
-lëneshë	lëneshë
-pijan	pijan
-gurgulloj	gurgullon
-lingë	linga
-sandali	sandali
-luri	luri
-begatshëm	begatshëm
-epshëm	epshëm
-oler	oleri
-cërcëritje	cërcëritjen
-thithëlopë	thithëlopë
-xunkth	xunkthi
-harrje	harrje
-tharbët	tharbët
-brukë	bruke
-dëng	dëng
-bubullon	bubullon
-cime	cimet
-harraq	harraq
-cath	cath
-ngalem	ngalur
-çepi	çefi
-vasile	vasile
-egjër	egjër
-gjembaç	gjembaç
-kacafytem	kacafytem
-bozhure	bozhuret
-shpet	shpeti
-çakëll	çakëll
-ulurij	uluritur
-duhmë	duhmë
-ujdhesar	ujdhesarët
-vulvë	vulvë
-keqardhës	keqardhës
-dudum	dudum
-shtrofkë	shtrofka
-kalk	kalk
+ngalem	ngalem ngalur
+ngij	ngij ngirë ngiva
 njehsor	njehsor
-vangoj	vango
-horrë	horrë
-aç	aç
-karuc	karuc karuci
-fyelltar	fyelltarin fyelltari
-llafos	llafos llafosje
+oler	oler oleri
+pijan	pijan
+pjellje	pjellje pjelljes pjelljet pjellja
 pështiros	pështiros pështirosni
-kordhë	kordë kordha
-trishtil	trishtil trishtili
+sandali	sandali
 shishqebap	shishqebap shishqebapi
-grih	grihu grih
-dallë	dalla dallë
-ngij	ngirë ngiva
-vringëlloj	vringëlluar vringëllon
-thyese	thyeset thyese
-lebeti	lebetie lebeti
-guf	gufi gufin
-hikërr	hikërr hikrra
-majhosh	majhosh majhoshe
-fakulltet	fakulltet fakullteti
-pjellje	pjelljes pjelljet pjellja
 shkep	shkepja shkep shkepnin
-gogësij	gogësimë gogësijnë gogësinë
-amper	amperi amper amperin
-hidrat	hidrati hidratit hidrat
+shpet	shpet shpeti
+shtrofkë	shtrofkë shtrofka
 tejzë	tejzat tejza tejzë
-qyrë	qyre qyrat
-cungoj	cunguar cungon cungoi
-muhaxhir	muhaxhiri muhaxhirë
-cekë	cekë cekës ceka cekën
-shfrej	shfryrë shfrej
+tharbët	tharbët
+thithëlopë	thithëlopë
+thyese	thyeset thyese
+trishtil	trishtil trishtili
+ujdhesar	ujdhesar ujdhesarët
+ulurij	ulurij uluritur
+vangoj	vangoj vango
+vasile	vasile
+vringëlloj	vringëlloj vringëlluar vringëllon
+vulvë	vulvë
+xunkth	xunkth xunkthi
+çakëll	çakëll
+çepi	çepi çefi
+qyrë	qyrë qyre qyrat
+cungoj	cungoj cunguar cungon cungoi
 kuçedër	kulshedër kuçedrës kuçedra kuçedrën kuçedër
-mërgoj	mërguar mërgonte mërgoi mërgojnë mërguan
-gresë	gresa gresës gresën
-afirmoj	afirmuar afirmoi afirmon afirmojnë afirmonte afirmojmë afirmuan
-përgjithësoj	përgjithësuar përgjithësojnë
-tharm	tharmë tharmin tharmi tharm
+mërgoj	mërgoj mërguar mërgonte mërgoi mërgojnë mërguan
+afirmoj	afirmoj afirmuar afirmoi afirmon afirmojnë afirmonte afirmojmë afirmuan
 idealizëm	idealizmi idealizëm
-hutë	hutë huta hutës hutën
+përgjithësoj	përgjithësoj përgjithësuar përgjithësojnë
+tharm	tharmë tharmin tharmi tharm
 karrotrec	karrotrec karrotreci karrotrecësh
 monografi	monografi monografinë monografisë monografia monografie monografive monografitë monografish
 gargarë	gargarë gargare
 niseshte	niseshte
 groshë	groshë groshe groshën groshësh grosha
 demagogji	demagogji demagogjia demagogjinë demagogjisë
-ulqinak	ulqinaku ulqinakët ulqinakut ulqinakun
+cekë	cekë cekës
 derivat	derivat
-rrogoz	rrogoz
 dermatologji	dermatologjisë dermatologji
+rrogoz	rrogoz
 rrufë	rrufa rrufës rrufë rrufën
 lezhjan	lezhjan lezhjanët lezhjane lezhjani lezhjanë lezhjanëve lezhjanin lezhjanit
-kikë	kikës kikë kika kikën kike
-drejtshkrim	drejtshkrimi drejtshkrimin drejtshkrim
 avancë	avancë
+drejtshkrim	drejtshkrimi drejtshkrimin drejtshkrim
 abstenoj	abstenuar abstenuan abstenoi abstenojnë abstenon abstenoj
-propagandoj	propaganduar propagandon propagandojnë propagandonte propagandonin propaganduan propagandoi
-shtangë	shtangë shtanga shtangën shtange shtangës
+propagandoj	propagandoj propaganduar propagandon propagandojnë propagandonte propagandonin propaganduan propagandoi
 pasthirrmë	pasthirrmë pasthirrma pasthirrmat
 vatan	vatan vatanin vatani
 tagër	tagër tagri
 lashtësi	lashtësi lashtësia lashtësinë
 shqipëroj	shqipëruar shqipërojnë shqipëron shqipëroj
 anshëm	anshëm
-vyeshëm	vyeshëm
 kosë	kosë kosa kosën
 krunde	krunde krundet
-bares	bares
+vyeshëm	vyeshëm
 grish	grish grishte grishja grishje
-lez	lez lezë leze
-kalaman	kalamajt kalamaj kalamani
-brom	brom
 bostan	bostanit bostaneve bostani bostan bostanin
-ngadalësi	ngadalësi ngadalësinë ngadalësia
+brom	brom
 elokuencë	elokuencë elokuencën elokuenca
+kalaman	kalaman kalamajt
+ngadalësi	ngadalësi ngadalësinë ngadalësia
 dasmor	dasmor dasmorët dasmorë dasmorëve dasmorësh
-grahmë	grahmat grahmave grahmën
 gegë	gegët gege gegë gegëve
-vetëshërbim	vetëshërbim vetëshërbimi vetëshërbimit
-shtatorë	shtatorë
-xhuma	xhuma
+grahmë	grahmë grahmat grahmave grahmën
 kllapi	kllapi kllapia
+shtatorë	shtatorë
+vetëshërbim	vetëshërbim vetëshërbimi vetëshërbimit
 dhe/ose	dhe/ose
+kapërdij	kapërdij kapërdirë
 kryeneçësi	kryeneçësi kryeneçësia
-kapërdij	kapërdirë
-llup	llupë llupën llupi
 kërmë	kërmë kërma kërmat
+llup	llup llupë llupën llupi
 jurisprudencë	jurisprudencës jurisprudencën jurisprudencë jurisprudenca
-vobektë	vobektë arbëresh
 kroatisht	kroatisht
-shpërfillje	shpërfillje shpërfilljen shpërfilljes shpërfilljeje shpërfillja
+vobektë	vobektë
 pult	pult pulte
-plor	plor plori plorit
-përafroj	përafruar përafrojnë përafron përafrojmë përafronte
-pullaz	pullaz pullaze pullazi pullazet
 bor	bor
-latoj	latuar laton lato
-smirë	smira smirë
 idiomë	idiomë idiomave idioma idiomat
+latoj	latoj latuar laton lato
+pullaz	pullaz pullaze pullazi pullazet
+smirë	smira smirë
+shpërfillje	shpërfillje shpërfilljen shpërfilljes shpërfilljeje
 vjerr	vora vjerr vjerrë
-kaci	kaci
-syth	syth sythat sytha
 fustanellë	fustanellën fustanella fustanellë
+kaci	kaci
 pusullë	pusullë pusullat pusullën
+syth	syth sythat sytha
 fend	fend fendi fende
 zheg	zheg zhegu zhegun
-mjergull	mjergull mjegullë
 albanolog	albanologu albanologut albanolog albanologët albanologë albanologëve albanologun
-sefer	sefer
-rraqe	rraqe
 bullgarisht	bullgarisht
+rraqe	rraqe
 hiperbolë	hiperbolë hiperbola
-përemër	përemrat përemri
+mjergull	mjergull
+përemër	përemër përemrat përemri
 krupë	krupën krupë krupa
 demografi	demografi demografia demografinë
 maqedonisht	maqedonisht
-çinar	çinari çinar
-bukëpjekës	bukëpjekës
 atelie	atelie
+bukëpjekës	bukëpjekës
 grykësi	grykësi grykësia grykësinë
-shtegtoj	shtegtojnë shtegtuar shtegton
+shtegtoj	shtegtoj shtegtojnë shtegtuar shtegton
 sebep	sebep sebepi sebepe sebepin
-parvjet	parvjet
-transkriptoj	transkriptuar transkriptoi
 jerm	jerm jermi
+parvjet	parvjet
+transkriptoj	transkriptoj transkriptuar transkriptoi
 shitblerje	shitblerje
-cingonë	ciganë
-thagmë	thagmë thagma
-invadim	invadim invadimit invadimi
-zvetënoj	zvetënuar
-krasit	krasitja krasit krasitur krasitje
+cingonë	cingonë ciganë
 intonacion	intonacion intonacionin intonacioni
+invadim	invadim invadimit invadimi
+krasit	krasitja krasit krasitur krasitje
+thagmë	thagmë thagma
+zvetënoj	zvetënoj zvetënuar
 vallahi	valla vallahi
-çafkë	çafkë çafka
 gërryerje	gërryerje
-selino	selinë selino selinoja
+çafkë	çafkë çafka
 krahasueshëm	krahasueshëm
 arkaik	arkaike arkaik
-tështij	tështinë tështi tështin tështimë
-shitoj	shituar
-çare	çare
-gramatikisht	gramatikisht
 atrofi	atrofi
-blatoj	blato blatuar
+blatoj	blatoj blato blatuar
+gramatikisht	gramatikisht
 pjesëtim	pjesëtim
-përzhit	përzhiti përzhitje përzhita
+përzhit	përzhit përzhiti përzhitje përzhita
 shtrëngesë	shtrëngesa shtrëngesë
+çare	çare
 kavajas	kavajas kavajasit kavajasi kavajasve
-yshtje	yshtje yshtja
-err	err
-shumëzim	shumëzim
-mefshtë	mefshtë
 brazdë	brazda brazdë
-shparg	shpargu
+err	err
+mefshtë	mefshtë
 plasarit	plasarit plasarita
-micë	mice micë
-kredh	kredhin krodha kredhur
+shparg	shparg shpargu
+shumëzim	shumëzim
+tështij	tështij tështinë tështi tështin
+yshtje	yshtje
+kredh	kredh kredhin krodha kredhur
 togfjalësh	togfjalëshi togfjalëshin togfjalësh togfjalëshit togfjalëshat
-ngërthej	ngërthen ngërthyer ngërthejnë
-endë	endë enda
-sinus	sinus
-zhapi	zhapik shapi
-meleq	melek
-lylc	lulës
-sapë	sapa
-mistri	mistri
-ungji	ungji
-buzëqumësht	buzëqumësht
+ngërthej	ngërthej ngërthen ngërthyer ngërthejnë
 armëtar	armëtar armëtarëve
-rrëshirë	rrëshirë
-drang	drang drangu
-pejgamber	pejgamber
+buzëqumësht	buzëqumësht
+endë	endë
 kërbisht	kërbishtja kërbisht
-magar	magar magarin
-sherp	sherpa sherpi
+mistri	mistri
+pejgamber	pejgamber
+rrëshirë	rrëshirë
+sherp	sherp sherpa sherpi
+sinus	sinus
 vërvit	vërvit vërvitur vërviti
+zhapi	zhapi zhapik shapi
 hajdutëri	hajdutëri hajdutërinë hajdutëria hajdutëritë
-myftar	myftari miftar myftar muhtarit muhtar myftarin
-cuk	cuku cuka
-cikë	cikë cike cikës cika cikën
-censurë	censurë
+cuk	cuk cuku cuka
 amvisëri	amvisëri
-lëmoj	lëmon
-cërka	cërka
-tarr	tarr
-strall	stralli
-urroj	urroj
-ofshamë	ofshamë
-ekuinoks	ekuinoks
-morrac	morracak
-bythëqirë	bythëqira
-acetilen	acetilen
-vrikë	vrikë
-thelbsisht	thelbsisht
+censurë	censurë
 -u	-u
-çafë	çafën
-blem	blem
-parmëz	parmëz
-muskulaturë	muskulaturë
-imtësoj	imtësuar
-gjobis	gjobis
-kompensatë	kompensatë
-guall	guaj
-avullore	avullore
-rribë	rriba
-largesë	largese
-pantomimë	pantomimë
-zemërngushtë	zemërngushtë
-majasëll	majasëll
-gabel	gabel
-tëharr	tëharrje
-dijetare	dijetare
-stap	stap
-pensë	pense
-urlë	urla
-mbarsje	mbarsje
-trashaman	trashaman
-gashtë	gashtë
-shejtanllëk	shejtanllëk
-fellë	fella
-shkartoj	shkartuar
-cezium	cezium
-ehull	ehull
-paganizëm	paganizëm
-deroj	deron
-shtyr	shtyr
+abanoz	abanoz abanozi
+acetilen	acetilen
 armëpunues	armëpunues
-ungj	ungj
-qihem	qihem
-fërgohem	fërgohem
-fjalaman	fjalaman
-shpirtmadh	shpirtmadh
-hasëll	hasëll
-gërdit	gërditur
+avullore	avullore
 bigë	bigë
-bubu	bubu
-majicë	majica
-kocë	kocë
-vrragë	vrragë
-kular	kular
-hakërri	hakërri
-cirkoj	cirkojmë
-tartabiqe	tartabiqe
-xhade	xhade
-hajgarexhi	hajgarexhi
-abanoz	abanozi
-guriçkë	guriçka
 bigëzim	bigëzim
-shpjegueshëm	shpjegueshëm
-vjedhëse	vjedhëse
-jeh	jeh
-zoologji	zoologji
-vigël	vigël
-ciflos	ciflosur ciflosa
-satanizëm	satanizmi satanizmit
-zamkë	zamkën zamkë
-taketuke	taketukja taketuket
-termodinamikë	termodinamikës termodinamika
-kulë	kulë kula
-luzmë	luzma luzmat
+bubu	bubu
+bythëqirë	bythëqirë bythëqira
+cezium	cezium
+ciflos	ciflos ciflosur ciflosa
+cirkoj	cirkoj cirkojmë
+deroj	deroj deron
+dijetare	dijetare
+ehull	ehull
+ekuinoks	ekuinoks
+fellë	fellë fella
+fjalaman	fjalaman
+fërgohem	fërgohem
+gabel	gabel
+gashtë	gashtë
+gjobis	gjobis
 gjëlpërë	gjëlpërë gjëlpërat
-naxhake	naxhaken naxhaket
-xhehenem	xhehenemi xhehenem
-tejdukshmëri	tejdukshmëria tejdukshmërisë
-langua	langoi langua
-thekë	thekës thekë
+guall	guall guaj
+guriçkë	guriçkë guriçka
+gërdit	gërdit gërditur
+hakërri	hakërri
+hasëll	hasëll
+imtësoj	imtësoj imtësuar
 jargavan	jargavan jargavani
+jeh	jeh
+kocë	kocë
+kompensatë	kompensatë
+kular	kular
+kulë	kulë kula
+lafshë	lafshë lafshat
+langua	langoi langua
+largesë	largesë largese
+luzmë	luzmë luzma luzmat
+lëmoj	lëmoj lëmon
+majasëll	majasëll
+mbarsje	mbarsje
+morrac	morrac morracak
+muskulaturë	muskulaturë
 mëshqerrë	mëshqerrë mëshqerre
+naxhake	naxhake naxhaken naxhaket
+ofshamë	ofshamë
+paganizëm	paganizëm
+pantomimë	pantomimë
+parmëz	parmëz
+qihem	qihem
+rribë	rribë rriba
+satanizëm	satanizëm satanizmi satanizmit
+shejtanllëk	shejtanllëk
+shkartoj	shkartoj shkartuar
+shpirtmadh	shpirtmadh
+shpjegueshëm	shpjegueshëm
+shtyr	shtyr
+stap	stap
+strall	strall stralli
+taketuke	taketuke taketukja taketuket
+tarr	tarr
+tartabiqe	tartabiqe
+tejdukshmëri	tejdukshmëri tejdukshmëria tejdukshmërisë
+termodinamikë	termodinamikë termodinamikës termodinamika
+thekë	thekës thekë
+thelbsisht	thelbsisht
+trashaman	trashaman
+tëharr	tëharr tëharrje
+ungj	ungj
+urlë	urlë urla
+urroj	urroj
+vigël	vigël
+vjedhëse	vjedhëse
+vrikë	vrikë
+vrragë	vrragë
+xhade	xhade
+xhehenem	xhehenemi xhehenem
+zamkë	zamkën zamkë
+zemërngushtë	zemërngushtë
 zokth	zokth zoktha
+zoologji	zoologji
+çafë	çafë çafën
 shporet	shporetin shporet shporetit shporeti
 kurbet	kurbet kurbetit kurbeti gurbet
 bankënotë	bankënotë bankënotat bankënota bankënotave
-vitore	vitore
 krap	krap krapi
 kaza	kazanë kazaja kazasë kaza
-qok	qoka qokë qoku qokën
+qok	qok qoka qokë qoku qokën
 iftar	iftar
-vangë	vangu vanga vangës
+albanologji	albanologjisë albanologji albanologjia albanologjinë
 autokrat	autokrat
 gjanë	gjana gjanë
 softuer	softuer softuerë
-albanologji	albanologjisë albanologji albanologjia albanologjinë
-afirmohem	afirmuar afirmohet afirmohej afirmohen afirmoheni
-afrimohem	afirmuar afirmohet afirmohej afirmohen afirmoheni
 ashiqare	ashiqare
 çifteli	çifteli çiftelisë çiftelia çiftelinë
 goc	goci goc
-qarr	qarri qarrit qarrin
+amulli	amulli amullinë
 etimologji	etimologjinë etimologjia etimologjisë etimologji
 kujë	kujën kujë kuja
-amulli	amulli amullinë
-eth	ethët eth
-admirohem	admiroheni admirohet admirohen admiruar admiron admiroja admironi admirojmë admirojnë admironin admiroje admirova admironte admiroi admiro admironit admironim
+admirohem	admirohem admiroheni admirohet admirohen
 feminizëm	feminizmin feminizmi feminizëm
 marksizëm	marksizmi marksizëm marksizmin
-ngadhënjej	ngadhënjejnë ngadhënjyer ngadhënjen ngadhënjeu ngadhënjyem
 cullak	cullak
 morfologji	morfologji morfologjia morfologjinë morfologjisë
+ngadhënjej	ngadhënjej ngadhënjejnë ngadhënjyer ngadhënjen ngadhënjeu ngadhënjyem
 minorancë	minorancë minorance minoranca
-mullis	mullisë mullisëve mullisët
+mullis	mullis mullisë mullisëve mullisët
 rrojmë	rrojmë
 vetiu	vetiu
-mexhite	mexhit
 ngutshëm	ngutshëm
 qyl	qyl qyli
 ligjërues	ligjërues
-ndërsej	ndërsejmë ndërsyer ndërse ndërsyen ndërsen
-dëftoj	dëftoi dëftojnë dëfton dëftonte
-vijosh	vjosë vijosh
-çaush	çaushi çaush
+dëftoj	dëftoj dëftoi dëftojnë dëfton dëftonte
+ndërsej	ndërsej ndërsejmë ndërsyer ndërse ndërsyen ndërsen
 amëz	amëz
-opingë	opingë opinga opingat opingën
 hirrë	hirrë hirra
+opingë	opingë opinga opingat opingën
 autokton	autokton
 kolaudim	kolaudimit kolaudimin kolaudimi kolaudim
-çapok	çapoku çapokut
 lushnjar	lushnjar lushnjari lushnjarët lushnjarë lushnjarëve
 kolorit	kolorite kolorit koloritin koloriti
 simptomatik	simptomatike simptomatik
-çartem	çartem çartur
+cikë	cikë cikës
 qenësor	qenësore qenësor
 vakëf	vakëfeve vakëfit vakëf vakëfi vakëfe vakëfet
 cem	cem cemi
 zarar	zarar zarari
-krushk	krushqit krushkun krushq krushku krushqve
+krushk	krushk krushqit krushkun krushq krushku krushqve
+bajrak	bajrak bajraku bajrakut bajrakun
 fusnotë	fusnotë fusnota
-bajrak	bajraku bajrakut bajrakun
-enjë	enjë ënjë enjën
-aftësoj	aftësuar
+aftësoj	aftësoj aftësuar
 bletari	bletari bletaria bletarinë
+enjë	enjë ënjë enjën
 jomiqësor	jomiqësor jomiqësore
 radiolog	radiologu radiolog
+bëz	bëz bez beze
 derman	derman
-bëz	bez beze
-narcizëm	narcizmi narcizmin
+narcizëm	narcizëm narcizmi narcizmin
 ngratë	ngratë
 ymër	ymrin ymri ymër
 grevist	grevist grevistë greviste
-vreshtar	vreshtarët vreshtarëve vreshtarë
-çaf	çif cif
-copëzoj	copëzon copëzuar
+vreshtar	vreshtar vreshtarët vreshtarëve vreshtarë
+bulmetore	bulmetorja bulmetore
+copëzoj	copëzoj copëzon copëzuar
 lym	lym lyme lymin
 lëngatë	lëngata lëngatën lëngatë lëngatës
 mikrobiologji	mikrobiologji
 pjesore	pjesore
-bulmetore	bulmetorja bulmetore
+çaf	çaf çif cif
 tiranas	tiranas tiranasit
 rigë	rigën rigës rigë riga
-kaçkavall	kaçkavall
-buj	buj bujtur
 azgan	azgan
+buj	buj bujtur
 diqysh	diqysh
-hendboll	hendboll hendbollin hendbolli
+kaçkavall	kaçkavall
 hasmëri	hasmëri hasmëria hasmëritë hasmërive
-voc	voca voci vocit
-rrek	rrekur rrek
+hendboll	hendboll hendbollin hendbolli
+selino	selino selinoja
+mbruhem	mbruhem mbrujtur
 miop	miope miop
-mbruhem	mbrujtur
-gjok	gjok gjokë
-dëmshpërblej	dëmshpërblyer dëmshpërblejnë dëmshpërblen dëmshpërblente dëmshpërbleje
-nahijë	nahi nahije
+rrek	rrekur rrek
+dëmshpërblej	dëmshpërblej dëmshpërblyer dëmshpërblejnë dëmshpërblen dëmshpërblente dëmshpërbleje
 ëmbëltore	ëmbëltore ëmbëltoret ëmbëltorja
-fiqir	fiqiri
+fiqir	fiqir fiqiri
 shqyptare	shqyptaret shqyptare
+bonjë	bonjë bonjat bonje bonjës
 imagjinueshëm	imagjinueshëm
-bonjë	bonjat bonje bonjës
-kallm	kallm kallëm kallmi
-kurm	kurm kurmin kurmi
-vezullon	vezullon
-arixhi	arixhinjsh arixhinj arixhiu
-çirak	çirak
-lulëkuqe	lulëkuqeve lulëkuqe lulëkuqet
+arixhi	arixhi arixhinjsh arixhinj arixhiu
 brymë	bryma brymë
+kurm	kurm kurmin kurmi
+lulëkuqe	lulëkuqeve lulëkuqe lulëkuqet
+vezullon	vezullon
+çirak	çirak
 elbasanas	elbasanas elbasanasi elbasanasit
-cakë	cakës cakë caka cake cakën
-thuk	thuktë
-begenis	begenis begenisur
-vëngër	vëngër
-papaja	papaja
-meshin	meshin meshini
-lacë	lace lacat laca
-grigjë	grigjën grigjës
-kic	kici kice
-cirë	cira
 adash	adashin adash adashi
-usht	ushta usht
+begenis	begenis begenisur
+cirë	cirë cira
+grigjë	grigjë grigjën grigjës
+kic	kic kici kice
+lacë	lacë lace lacat laca
+meshin	meshin meshini
+papaja	papaja
+shtangë	shtangë shtangës
+thuk	thuk thuktë
+vëngër	vëngër
 alarmim	alarmim alarmimit
-mësysh	mësysh
-gjedhë	gjëthë gjedhë
-runë	runë runa
-amësi	amësie amësia
+amësi	amësi amësie amësia
 gak	gak
-dune	dunja dune
-afishoj	afishuar afishojnë afishonte
-kotorr	kotorri kotorrit kotorr
-hasm	hasmi hasmit hasmin
+gjedhë	gjëthë gjedhë
+kallm	kallm kallmi
+mësysh	mësysh
+runë	runë runa
+afishoj	afishoj afishuar afishojnë afishonte
 bronkit	bronkiti bronkit bronkitit bronkitin
-verr	verri verra
-anesë	anese anesa
-bruz	bruz
-shkoqit	shkoqitur
-këna	këna
+hasm	hasm hasmi hasmit hasmin
+përafroj	përafroj përafrojnë përafron përafrojmë përafronte
 abdikim	abdikimin abdikim
-mëkëmb	mëkëmbur
-përciptazi	përciptazi
+anesë	anesë anese anesa
 astrofizikë	astrofizikë
 bonjak	bonjak bonjaku
-bors	borsat borsa borsi
+bors	bors borsat borsa borsi
+bruz	bruz
 cucëll	cucëll
 frëngji	frëngjia frëngji
-bec	beci
+këna	këna
+mëkëmb	mëkëmb mëkëmbur
+përciptazi	përciptazi
+shkoqit	shkoqit shkoqitur
+verr	verr verri
 jodemokratik	jodemokratike jodemokratik
-qafir	kafir qafiri
-zymbyl	zymbyl zymbylit
+dyzetepesë	dyzetepesë
+jofetar	jofetar jofetare
+punësi	punësi punësisë
+qafir	qafir kafir qafiri
+qytë	qyta qytë
 rrëfyes	rrëfyesin rrëfyes
 shpyllëzoj	shpyllëzoj shpyllëzuar
-dyzetepesë	dyzetepesë
-qytë	qyta qytë
-ballas	ballas
-punësi	punësisë
-jofetar	jofetare
+zymbyl	zymbyl zymbylit
 anemi	anemi
 kumt	kumtin kumt kumti
-krup	krup krupa
-llagap	llagap llagapi
-thashethemexhi	thashethemexhi thashethemexhinjtë
-kullumbri	kulumbri
-gepek	gepek
-hurdhë	hurdha hurdhë
-ëndërrim	ëndërrim
-llohë	llo
-sterrë	sterrë
-trumbë	trumë trumba
+akth	akth
+cakërroj	cakërroj cakërrojmë cakërruar
 erz	erz
 farmakologji	farmakologjinë farmakologji
-gaztor	gaztorin gaztorit
-cakërroj	cakërrojmë cakërruar
-akth	akth
-kruspull	kruspull
-xeheror	xeheror xeherorëve
-ofshaj	ofshajnë ofsharë
+gaztor	gaztor gaztorin gaztorit
+gepek	gepek
+hurdhë	hurdha hurdhë
 kanavacë	kanavacën kanavacë
+krup	krup
+kruspull	kruspull
+kullumbri	kullumbri kulumbri
+llagap	llagap llagapi
+llohë	llohë llo
+ofshaj	ofshaj ofshajnë ofsharë
 pasoni	pasoni
-përçap	përçapje
-mëtoj	mëton mëtojnë mëtonte
+përçap	përçap përçapje
+sterrë	sterrë
+thashethemexhi	thashethemexhi thashethemexhinjtë
+trumbë	trumbë trumë trumba
+xeheror	xeheror xeherorëve
+ëndërrim	ëndërrim
+gjir	gjir ngjir
 aktivizëm	aktivizmi aktivizëm aktivizmin
+mëtoj	mëtoj mëton mëtojnë mëtonte
 kthinë	kthinave kthinë kthinat kthina
-bojkotim	bojkotim
-autokraci	autokraci
 autobiografik	autobiografik autobiografike
-biografik	biografike biografik biografikë
+autokraci	autokraci
+bojkotim	bojkotim
 copëzim	copëzimi copëzimit copëzimin copëzim
-qose	qose qosja
-kukoj	kuko
-arrëz	arrëz arrëza
-cac	caca caci cac
+biografik	biografike biografik biografikë
 dallëndyshe	dallëndyshe dallëndyshja dallëndyshet dallëndysheve
-rreptësi	rreptësi rreptësia rreptësinë
 dygjuhësi	dygjuhësinë dygjuhësia dygjuhësi
-cikloj	cikloj cikloni ciklonit ciklonin
-bës	bës
-qimnon	qimnon
-hajneshë	hajneshat
-mështekër	mështekën
-shtathedhur	shtathedhur
-vranësi	vranësi
-bundë	bunda
-dënjë	dënjë
-muf	muf
-arrëthyese	arrëthyese
-pjergull	pjergullat
-caktar	caktar
-lahur	lahuri
-vjelës	vjelës
-çalok	çalok
-tetëkëmbësh	tetëkëmbëshi
-shkulm	shkulmi
-bletar	bletar
-xhuxhmaxhuxh	xhuxhmaxhuxhët
-nëntësh	nëntësh
-suret	suret
-sëmbim	sëmbim
-bojëkafe	bojëkafe
-gërmuq	gërmuq
-zgërdhihem	zgërdhyer
-theror	theror
-hakërrohem	hakërrohem
-çalim	çalime
-gjerb	gjerbi
-plëndës	plans
-zhytër	zhytër
-qyrek	qyrekët
-shtatëkëndësh	shtatëkëndësh
-gufoj	gufon
-qafëz	qafëzat
-armenishte	armenishte
-shpirë	shpirë
-llumë	llumë
-semitik	semitike
-hejë	hejë
-copan	copani
-urdhë	urdhat
-arushan	arushan
-mbërdhe	mbërdhe
-hipizëm	hipizmi
-astrobiolog	astrobiolog
-kungatë	kungatë
-gjenealogji	gjenealogjia
-birth	birth
-këndmatës	këndmatës
-ajnik	ajnik
-fiziolog	fiziologu
-lulesë	lulesë
-korp	korpi
-çyryk	çyryk
-tepë	tepë
-malloj	malloj
-elips	elips
-absolutizëm	absolutizmi
-morsë	morsë
-fonemë	fonemat
-lapë	lapës
-vogëlimë	vogëlimë
-homonim	homonim
-harrohem	harrohem
-shtarët	shtarët
-rrëmbythje	rrëmbythje
-dhel	dhele
-ortografi	ortografi
-gjalm	gjalmë
-shkal	shkalët
-rrëfyestore	rrëfyestorja
-thark	thark
-ujshëm	ujshëm
-invadoj	invadojnë
-tridhjetenjë	tridhjetenjë
-shtatoj	shtatova
-apostrof	apostrof
-denjësi	denjësinë
-shumëkëmbësh	shumëkëmbëshi
-vedër	vedra
-ditëzi	ditëzi
-karkanxholl	karkanxholli
-allosua	allosoj
-gojëtari	gojëtari
-arpunues	arpunues
-nao	nao
-ninananë	ninanana
-naforë	naforën
-mbërdhi	mërdhij
-cjape	cjape
-cingël	cingla
-shëmbëllej	shëmbëllej
-çalë-çalë	çalë-çalë
-islandisht	islandisht
-mikologji	mikologji
-embriologji	embriologji
-zorshëm	zorshëm
-mlysh	mlysh
-byc	byc
-fustë	fustë
-cirkat	cirkatur
-shprohë	shprohe
-abak	abakët
-zhyej	zhyeva
+rreptësi	rreptësi rreptësia rreptësinë
+abak	abak abakët
+abonoj	abonoj abonova
+absolutizëm	absolutizëm absolutizmi
+allosua	allosua allosoj
 angullin	angullin
-doca	doca
-lezbik	lezbik
-gurabije	gurabije
-agër	agër
-çarti	çarti
-fic	fica
-inj	inj
-pekmez	pekmez
-zhvoshk	zhvoshkje
-gargull	garguj
-truaj	truar
-frri	fërri
-bërsi	bërsi
-ofsh	ofsh
-zalis	zalis
-ngjicë	ngjica
-brinar	brinar
-prangë	prangë
-harmi	harm
-mardhë	mardhë
-sutë	sutë
-verigë	verigë
-tridhjetetre	tridhjetetre
-lugatë	lugatë
-rrokoll	rrokoll
-vrug	vrugu
-felë	felat
-yzengji	yzengji
-cedër	cedri
-grremç	grremçin
-ekspresionizëm	ekspresionizëm
-treme	tremja
-bemol	bemol
-dredhje	dredhje
+apostrof	apostrof
+armenishte	armenishte
+arpunues	arpunues
+arrëthyese	arrëthyese
+arushan	arushan
 aspër	aspër
-vadhë	vadhe
-bollë	bollat
+astrobiolog	astrobiolog
+bemol	bemol
+birth	birth
+bletar	bletar
+bojëkafe	bojëkafe
+bollë	bollë bollat
+brinar	brinar
+bundë	bundë bunda
+byc	byc
+bërsi	bërsi
+caktar	caktar
+cedër	cedër cedri
+cikloj	cikloj
+cingël	cingël cingla
+cjape	cjape
+denjësi	denjësi denjësinë
+dhel	dhel dhele
+dhelpëri	dhelpëri dhelpërinë
+ditëzi	ditëzi
+doca	doca
+dredhje	dredhje
+dënjë	dënjë
+ekspresionizëm	ekspresionizëm
+elips	elips
+embriologji	embriologji
+felë	felë felat
+fic	fic fica
+fiziolog	fiziolog fiziologu
+flladit	flladit flladitje
+fonemë	fonemë fonemat
+fustë	fustë
+gargull	gargull garguj
+gjalm	gjalm gjalmë
+gjenealogji	gjenealogji gjenealogjia
+gjerb	gjerb gjerbi
+gojëtari	gojëtari
+grremç	grremç grremçin
+gufoj	gufoj gufon
+gurabije	gurabije
+gërmuq	gërmuq
+hakërrohem	hakërrohem
+harmi	harmi harm
+harrohem	harrohem
+hejë	hejë
+hipizëm	hipizëm hipizmi
 hith	hith
-abonoj	abonova
-totolesh	totolesh
-klenje	kleni
+homonim	homonim
+inj	inj
+invadoj	invadoj invadojnë
+islandisht	islandisht
+karkanxholl	karkanxholl karkanxholli
+kungatë	kungatë
+këndmatës	këndmatës
+lahur	lahur lahuri
+lapë	lapë lapës
+lezbik	lezbik
+llumë	llumë
+lugatë	lugatë
+lulesë	lulesë
+mardhë	mardhë
+mbërdhe	mbërdhe
+mbërdhi	mbërdhi mërdhij
+mikologji	mikologji
+mlysh	mlysh
+morsë	morsë
+muf	muf
+mështekër	mështekër mështekën
+naforë	naforë naforën
+ngjicë	ngjicë ngjica
+ninananë	ninananë ninanana
+nëntësh	nëntësh
+ofsh	ofsh
+ortografi	ortografi
+pekmez	pekmez
+pjergull	pjergull pjergullat
+plëndës	plëndës plans
+prangë	prangë
+qafëz	qafëz qafëzat
+qimnon	qimnon
+qyrek	qyrek qyrekët
+rrokoll	rrokoll
+rrëfyestore	rrëfyestore rrëfyestorja
+rrëmbythje	rrëmbythje
+semitik	semitik semitike
+shfrej	shfrej
+shkal	shkal shkalët
+shkulm	shkulm shkulmi
+shpirë	shpirë
+shprohë	shprohë shprohe
+shtarët	shtarët
+shtathedhur	shtathedhur
+shtatoj	shtatoj shtatova
+shtatëkëndësh	shtatëkëndësh
+shumëkëmbësh	shumëkëmbësh shumëkëmbëshi
+shëmbëllej	shëmbëllej
+suret	suret
+sutë	sutë
+sëmbim	sëmbim
+tarabë	tarabë tarabën
+tepë	tepë
+tetëkëmbësh	tetëkëmbësh tetëkëmbëshi
+thark	thark
+theror	theror
 tipos	tipos
-flladit	flladitje
-dhelpëri	dhelpërinë
-tarabë	tarabën
+totolesh	totolesh
+treme	treme tremja
+tridhjetenjë	tridhjetenjë
+tridhjetetre	tridhjetetre
+truaj	truaj truar
+ujshëm	ujshëm
+urdhë	urdhë urdhat
+vadhë	vadhë vadhe
+vedër	vedër vedra
+verigë	verigë
+vjelës	vjelës
+vogëlimë	vogëlimë
+vranësi	vranësi
+vrug	vrug vrugu
+xhuxhmaxhuxh	xhuxhmaxhuxh xhuxhmaxhuxhët
+yzengji	yzengji
+zalis	zalis
+zgërdhihem	zgërdhihem zgërdhyer
+zhvoshk	zhvoshk zhvoshkje
+zhytër	zhytër
+zorshëm	zorshëm
+çalim	çalim çalime
+çalok	çalok
+çalë-çalë	çalë-çalë
+çartem	çartem
+çarti	çarti
+çyryk	çyryk
+drugë	drugë druge druga
 shqyptar	shqyptar shqyptari
-drugë	druge druga
 dropullit	dropullit dropullitët
-lexueshëm	lexueshëm
 gjirokastrit	gjirokastrit
+lexueshëm	lexueshëm
 postulat	postulat postulate postulatet
 shahist	shahisti shahist shahistë shahistët shahistin
 lehonë	lehonë lehona lehonat lehonave
-bullar	bullari
-jagodë	jagoda
-vllah	vlleh vllehve vllah
 bejtexhi	bejtexhi bejtexhiu bejtexhinj bejtexhinjtë
+vllah	vlleh vllehve vllah
 argjinaturë	argjinaturat argjinatura argjinaturave argjinaturës argjinaturë
-mangan	mangan
 hulli	hulli hullinë hullitë hullie
-qatip	qatip
-belush	belushi
-izë	isë
+mangan	mangan
 kandar	kandari kandar
-ndalues	ndaluese ndalues
 dygjuhësh	dygjuhëshe dygjuhësh
-serbishte	serbishten serbishtja
-neps	nepsin neps nepsi
 kallëzues	kallëzuesit kallëzuesi kallëzues
 mirditor	mirditor mirditori mirditorët mirditorëve mirditorë
-rrum	rrumi
-orr	orr
+ndalues	ndaluese ndalues
+neps	nepsin neps nepsi
+serbishte	serbishte serbishten serbishtja
 emërore	emërore
 gafil	gafil
+mëllagë	mëllagë mëllaga mëllagës
 përpjesëtim	përpjesëtim
-mëllagë	mëllaga mëllagës
 mangall	mangall mangalli mangallin mangallit
-cuc	cuci cucin cucit
-mriz	mrizi
 bulmet	bulmet
 integral	integral
-meshar	meshari mesharit mesharin meshar
-qukë	quka qukat
-lushë	lusha lushën lushës
-molis	molise molisur molisja molisje
-qenësishëm	qenësishëm
-caf	caf cafi cafit
-kërrabë	kërrabë krrabë
+qukë	qukë quka qukat
 anadollak	anadollak anadollake anadollakë
-bleron	bleron
+molis	molis molise molisur molisja molisje
+qenësishëm	qenësishëm
 xhubletë	xhubleta xhubletës xhubletë
 ujëmatës	ujëmatës ujëmatësve ujëmatësit ujëmatësin
-belot	beloti belotin belotit
 kallauz	kallauz kallauzi
-shemë	sheme shema
-ofiq	ofiqe ofiqet ofiq
-zgrip	zgrip
+pukjan	pukjanët pukjan pukjanë
 përkorë	përkorë
 xhemat	xhemat
-gugash	gugash gugashi
-vuno	vuno vunoi
-pukjan	pukjanët pukjan pukjanë
-hyzmet	hyzmetin hyzmet
+zgrip	zgrip
 byrektore	byrektore byrektores byrektoret byrektoreve byrektoren
-zyshë	zysha zyshë
+hyzmet	hyzmetin hyzmet
 peqinas	peqinasit peqinas peqinasve peqinasi
-qitet	qitur qitet
+zyshë	zysha zyshë
+dëllinjë	dëllinjë dëllinjës dëllinja dëllinjën dëllinje
 makutëri	makutëria makutëri makutërinë
 vorr	vorri vorret vorr
-dëllinjë	dëllinjës dëllinja dëllinjën dëllinje
 antisemitik	antisemitike antisemitik
-rraboshtë	rraboshta
-sukë	suka suke sukës
 fshatarësi	fshatarësinë fshatarësia fshatarësi
-beden	bedeni bedenat bedenit bedenave bedena
+rraboshtë	rraboshtë rraboshta
 anakronik	anakronike anakronik
-qerthull	qerthull qerthuj qerthulli
+beden	beden bedeni bedenat bedenit bedenave bedena
 bjerrje	bjerrje bjerrjen bjerrja bjerrjes
-çapje	çapjes çapjen çapja
+qerthull	qerthull qerthuj qerthulli
+sukë	sukë suka suke sukës
 arbërisht	arbërisht
-kombëtarisht	kombëtarisht
-imt	imt
-burrneshë	burrneshë burrnesha burrneshave
 besëtytni	besëtytni besëtytnitë besëtytnive besëtytnia
+imt	imt
+kombëtarisht	kombëtarisht
 afinitet	afinitet afinitetin
+burrneshë	burrneshë burrnesha burrneshave
 trumzë	trumzë trumza
 arsimtare	arsimtare
-bardhec	bardheci
-virologji	virologji virologjinë
-qenësi	qenësinë qenësia qenësisë
+bardhec	bardhec bardheci
 cirrozë	cirroza cirrozë cirrozës
-nasip	nasip nasipi
-krajl	kral krajli
-vepror	vepror veprore
-mokër	mokrës mokër
+qenësi	qenësi qenësinë qenësia qenësisë
+virologji	virologji virologjinë
 konformizëm	konformizmin konformizmi konformizëm
-letërkëmbim	letërkëmbim
-vlug	vlugun
-ashk	ashk
-prore	prore
+krajl	krajl kral krajli
+mokër	mokrës mokër
+nasip	nasip nasipi
+vepror	vepror veprore
 aferim	aferim
+ashk	ashk
+letërkëmbim	letërkëmbim
 murrë	murra murrë
-mëmësi	mëmësia mëmësinë
-prapashtesë	prapashtesën prapashtesa prapashtesave
+mëmësi	mëmësi mëmësia mëmësinë
+prapashtesë	prapashtesë prapashtesën prapashtesa prapashtesave
+vlug	vlug vlugun
 zbyth	zbyth zbythën zbythja zbythi zbythje
 aksham	akshamit aksham
-capje	capja capjen
-shkabë	shkabës shkabën shkaba
-selit	selita selit selite selitur
 bjeshkatar	bjeshkatarët bjeshkatarëve bjeshkatare bjeshkatar
-buxhak	buxhaku
-capoj	capo
-shap	shapin shapi
+capje	capje capja capjen
+selit	selita selit selite selitur
+shkabë	shkabë shkabës shkabën shkaba
 bareshë	baresha bareshë
+buxhak	buxhak buxhaku
+capoj	capoj capo
 gazep	gazepi gazep
-thartor	thartori
-sharkë	sharka
 beogradas	beogradas beogradasit
+sharkë	sharkë sharka
+thartor	thartor thartori
 nëm	nëma nëmur nëm
-gjoc	gjoci gjocit
-përsiat	përsiatje përsiatur
-përdhunë	përdhunë përdhuna
+gjoc	gjoc gjoci gjocit
 parahistori	parahistoria parahistori parahistorinë
-zëvendësueshëm	zëvendësueshëm
-luloj	lulo
-turtull	turtulli
+përdhunë	përdhunë përdhuna
+përsiat	përsiat përsiatje përsiatur
 arkipelag	arkipelag
+luloj	luloj lulo
 matkë	matkë
-rrokë	rrokë rroka rroke rrokën
-xehe	xehe xehes
-gegërishte	gegërishtja gegërishten
+turtull	turtull turtulli
+zëvendësueshëm	zëvendësueshëm
 gajtan	gajtani gajtan
-sharki	sharki sharkia
+gegërishte	gegërishte gegërishtja gegërishten
 militarizim	militarizimi militarizim militarizimin
-njëzetedy	njëzetedy
+xehe	xehe xehes
 arnaut	arnaut
-tepe	tepe
 ciu	ciu
-hyqëm	hyqmin
+hyqëm	hyqëm hyqmin
 jorganxhi	jorganxhi
+njëzetedy	njëzetedy
 nënprefekturë	nënprefekturës nënprefekturë nënprefektura
-derëzi	derëzi derëziu
-revan	revani revan
-pleqësi	pleqësia pleqësinë
-riprovim	riprovimet riprovimeve
-mamicë	mamicës mamica
-lidhor	lidhor lidhore
-hallvë	hallva hallvën
-tallaz	tallaz tallazet
+rrokë	rrokë
+shap	shap shapin
+tepe	tepe
 amiant	amianti amiant
-përmetar	përmetar përmetarë përmetarët
 bashkëtingëllore	bashkëtingëlloret bashkëtingëlloreve bashkëtingëllore
-maltez	maltez
-çem	çema
+derëzi	derëzi derëziu
+hallvë	hallvë hallva hallvën
+lidhor	lidhor lidhore
+pleqësi	pleqësi pleqësia pleqësinë
+përmetar	përmetar përmetarë përmetarët
+revan	revani revan
+riprovim	riprovim riprovimet riprovimeve
+tallaz	tallaz tallazet
+antagonizëm	antagonizëm
 avaria	avaria
+dëshirore	dëshirore
+maltez	maltez
 pejan	pejan
 satirik	satirik
-vring	vrik
-antagonizëm	antagonizëm
 stërgjatë	stërgjatë
-shend	shend
-dëshirore	dëshirore
-zdralë	zdrale
 ulzë	ulzës ulzë
-holloj	holloni hollon holluar
-kilë	kila
-sllavisht	sllavisht
+vring	vring vrik
+zdralë	zdralë zdrale
+çem	çem çema
 ashik	ashik
-përafërsi	përafërsi
+bajloz	bajloz bajlozi
+bunar	bunar bunarë
 buzagaz	buzagaz
-bajloz	bajlozi
+dyfek	dyfek dyfekun
+ilirishte	ilirishte ilirishtja
+parashtesë	parashtesë parashtesa parashtesave parashtesën
+përafërsi	përafërsi
+rumanisht	rumanisht
+sllavisht	sllavisht
+sllavishte	sllavishte sllavishten sllavishtja
 turkoshak	turkoshak
 ujëmbledhës	ujëmbledhës
-sahatçi	sahatçiu
-rumanisht	rumanisht
-ilirishte	ilirishtja
-sllavishte	sllavishten sllavishtja
-bunar	bunar bunarë
-dyfek	dyfek dyfekun
-parashtesë	parashtesa parashtesave parashtesën
-abrogim	abrogimin abrogimi
-flug	flug
+abrogim	abrogim abrogimin abrogimi
+holloj	holloj holloni hollon
 bastar	bastar
-grusht shteti	grusht shteti
-iqindi	iqindisë
+carinë	carinë carina
+flug	flug
 gjuhësisht	gjuhësisht
+grusht shteti	grusht shteti
+hegjemon	hegjemon hegjemone
+iqindi	iqindi iqindisë
 njëzetenjë	njëzetenjë
-hegjemon	hegjemone
-carinë	carina
+qitet	qitet
 rrushkull	rrushkull
-mynxyrë	mynxyra mynxyrë
 afri	afrinë afri afria
-evgjit	evgjit evgjitë jevgjit
-përciptë	përciptë
-abonohem	abonohen
-dijës	dijës
-shark	shark
-versë	versa
-degëzoj	degëzuar
-llom	llom
-trahana	trahana
+mynxyrë	mynxyra mynxyrë
+abonohem	abonohem abonohen
+arumun	arumun arumunët arumunëve
 bajzë	bajzë
-dëftor	dëftore
-gegërisht	gegërisht gegënisht
+bashkëfajësi	bashkëfajësi bashkëfajësia bashkëfajësinë
+belbëzim	belbëzim belbëzimin belbëzimi
+degëzoj	degëzoj degëzuar
+dijës	dijës
 dukagjinas	dukagjinas dukagjinasit
+dëftor	dëftor dëftore
 feud	feude feud
-belbëzim	belbëzimin belbëzimi
-rrëqebull	rrëqebullit rrëqebulli
-bashkëfajësi	bashkëfajësia bashkëfajësinë
+gegërisht	gegërisht gegënisht
 kremte	kremten kremte
-arumun	arumunët arumunëve
-mësonjëtore	mësonjëtore mësonjëtorja
-parmendë	parmendën parmendës
+llom	llom
+parmendë	parmendë parmendën parmendës
+përciptë	përciptë
+rrëqebull	rrëqebull rrëqebullit rrëqebulli
+shark	shark
 toponimi	toponimi toponimia
+trahana	trahana
+versë	versë versa
+afirmohem	afirmohem afirmohet afirmohej afirmohen afirmoheni
 shtjerrë	shtjerrë shtjerr
-bitis	bitisi bitisur
-bulëz	bulëza bulëzat
-kryezot	kryezotit kryezot
 bandill	bandilli bandill
-dushkajë	dushkaja dushkajës
+bitis	bitis bitisi bitisur
+bulëz	bulëz bulëza bulëzat
+evgjit	evgjit evgjitë
 kimet	kimet kimetin
+kryezot	kryezotit kryezot
 këlbazë	gëlbazë këlbazë
 yrnek	yrnek yrneke
-kica	kica
-gjedh	gjedhi
-ngoje	ngoje
-potpuri	potpuri
-romuz	romuze
-vrerë	vrerë
-njëzetetetë	njëzetetetë
-pikëzoj	pikëzuar
-çakos	çakos
-selamet	selamet
-çotë	çota
-njëzetegjashtë	njëzetegjashtë
-pezëm	pezëm
-arnis	arnisa
+arnis	arnis arnisa
+gjedh	gjedh gjedhi
 influencer	influencer
-toskërishte	toskërishtja
-iskër	iskra
-repë	repë
+iskër	iskër iskra
+kica	kica
+njëzetegjashtë	njëzetegjashtë
+njëzetetetë	njëzetetetë
 parafjalë	parafjalë
+pezëm	pezëm
+pikëzoj	pikëzoj pikëzuar
+potpuri	potpuri
+repë	repë
+romuz	romuz romuze
 tepelenas	tepelenas
-cohë	cofë coha
-vak	vaktë vakte
-abaci	abacia abacisë abati
-iballë	iballë
-uretër	uretër
-taç	taç
-përtëritem	përtëritur
-fjalorth	fjalorth
-gosë	gosë
-hyzmeqar	hyzmeqarët
-kasnec	kasneci
-krekë	kreka
-mushicë	mushica
-dyzetetre	dyzetetre
-abece	abeceja
-abrogoj	abroguar
-dyzeteshtatë	dyzeteshtatë
-lakror	lakrori
-tridhjetepesë	tridhjetepesë
-mëlysh	mëlyshi
+toskërishte	toskërishte toskërishtja
+usht	usht
+vrerë	vrerë
+çotë	çotë çota
+abaci	abaci abacia abacisë
+abece	abece abeceja
+abrogoj	abrogoj abroguar
 artizanat	artizanat
+avlli	avlli avllisë
+dromcë	dromca dromcë
+dyzeteshtatë	dyzeteshtatë
+dyzetetre	dyzetetre
+fjalorth	fjalorth
+gjakës	gjakës gjakësi gjakësit
+gosë	gosë
+hyzmeqar	hyzmeqar hyzmeqarët
+kasnec	kasnec kasneci
+krekë	krekë kreka
+lahutar	lahutar lahutarë lahutari
+lakror	lakror lakrori
+mushicë	mushicë mushica
+mëlysh	mëlysh mëlyshi
 neo-nazist	neo-nazist
+përtëritem	përtëritem përtëritur
+taç	taç
+tridhjetepesë	tridhjetepesë
 urdhërore	urdhërore
+uretër	uretër
 verdhëz	verdhëz
 vijueshëm	vijueshëm
-dromcë	dromca dromcë
-gjakës	gjakësi gjakësit
-lahutar	lahutarë lahutari
 xhehnem	xhehnemi xhehnem
-avlli	avlli avllisë
-shqerrë	shqerra shtjerr
-verrë	verre verra
+apatik	apatik
 arumune	arumune
-kaurdis	kaurdisim
-çapar	capar
-ftilloj	ftilluar
-luhas	luhat
-mbreh	mbrehtë
-njëzeteshtatë	njëzeteshtatë
-cermëli	cimili
-gorricë	gorrica
-trenoj	trenova
-kothere	kothere
-zeshk	zeshkët
-bujanë	bujana
 besa-besë	besa-besë
-fora	fora
-kresë	kresë
-kushtor	kushtore
-ngarkim-shkarkim	ngarkim-shkarkim
-tetëkëndësh	tetëkëndësh
-zeher	zeher
-çapun	çapuni
 bohem	bohem
+bujanë	bujanë bujana
 cakos	cakos
 calik	calik
+cermëli	cermëli cimili
 epër	epër
+fajësues	fajësues fajësuese
+fora	fora
+ftilloj	ftilloj ftilluar
+gorricë	gorricë gorrica
+kaurdis	kaurdis kaurdisim
+kothere	kothere
+kresë	kresë
+kushtor	kushtor kushtore
+luhas	luhas luhat
+lumëmadh	lumëmadh lumadh
+mbreh	mbreh mbrehtë
 mirakë	mirakë
-apatik	apatik
-sherbelë	sherbelës
-pelar	pelari
-fajësues	fajësuese
-taraf	tarafe
-dhaskal	dhaskal
-lumëmadh	lumadh
-çukë	çukës çuka çukën
-shqerr	shqiri shtjerr
-cukë	cukës cuka
-kridhem	kredhur krodha
-cicërim	cicërimeve cicërime
-cimb	cimbi cim
-kulp	kulp
-lys	lys
-molikë	molika
-namur	namur
-siujdhesë	siujdhesën
-açugë	açuge
+ngarkim-shkarkim	ngarkim-shkarkim
+njëzeteshtatë	njëzeteshtatë
+pelar	pelar pelari
+sherbelë	sherbelë sherbelës
+taraf	taraf tarafe
+tetëkëndësh	tetëkëndësh
+trenoj	trenoj trenova
+vak	vak vaktë
+verrë	verrë verre
+zeher	zeher
+zeshk	zeshk zeshkët
+çapar	çapar capar
+çapun	çapun çapuni
+çukë	çukë çukës çuka çukën
+allti	allti alltia
+açik	açik
+açugë	açugë açuge
+barmë	barmë barmash
+biseksualitet	biseksualitet biseksualitetin
+bresë	bresë bresa
+brof	brof brofi
+cicërim	cicërim cicërimeve
+cimb	cimb cimbi
+dardhishtë	dardhishtë dardhishta
+denduri	denduri
 duf	duf
-gjeologjikisht	gjeologjikisht
-nënshtresë	nënshtresat
-plojë	plojë
-sarandjot	sarandjot
-shart	shartet
-shtojzovalle	shtojzovalle
-thuthuq	thuthuq
-zallishtë	zallishte
-kaçkë	kaçka
-shpuzë	shpuza
-allti	alltia
-biseksualitet	biseksualitetin
+duvak	duvak
 fantazist	fantazist
+galdoj	galdoj galdon
+gjeologjikisht	gjeologjikisht
+gollomesh	gollomesh
+gurgule	gurgule
+habitore	habitore
+hokë	hokë hoke
 jabanxhi	jabanxhi
+kaçkë	kaçkë kaçka
+kolonjar	kolonjar
+kopaçe	kopaçe
+kumri	kumri kumria
 kurvëri	kurvëri
 lashti	lashti
 luadh	luadh
-okër	okër
-retushoj	retushuar
-shqa	shkja
-shumëgjuhësh	shumëgjuhëshe
-vagëlloj	vagëlluar
-dardhishtë	dardhishta
-hokë	hoke
-kopaçe	kopaçe
-kumri	kumria
-nashti	nashti
-açik	açik
-gollomesh	gollomesh
-kolonjar	kolonjar
+lys	lys
 makar	makar
+molikë	molikë molika
+mytesarif	mytesarif
+namur	namur
+nashti	nashti
+njëzetetre	njëzetetre
+nënshtresë	nënshtresë nënshtresat
+okër	okër
 pedagogjia	pedagogjia
+pesëdhjetepesë	pesëdhjetepesë
+plojë	plojë
 pocaqi	pocaqi
 polonisht	polonisht
 pështymore	pështymore
-revizionizëm	revizionizmi
-barmë	barmash
-bresë	bresa
-galdoj	galdon
-gurgule	gurgule
-mytesarif	mytesarif
-shtrep	shtrepi
-tridhjetedy	tridhjetedy
-duvak	duvak
-habitore	habitore
-lëçit	lëçitur
-pesëdhjetepesë	pesëdhjetepesë
-qirem	qorra
-rradake	rradakja
-rryej	rryer
+qirem	qirem qorra
+retushoj	retushoj retushuar
+revizionizëm	revizionizëm revizionizmi
+rryej	rryej rryer
+sarandjot	sarandjot
+shpuzë	shpuzë shpuza
+shqa	shqa shkja
+shqerrë	shqerrë shqerra
+shtojzovalle	shtojzovalle
+shtrep	shtrep shtrepi
+shumëgjuhësh	shumëgjuhësh shumëgjuhëshe
+siujdhesë	siujdhesë siujdhesën
 thelpi	thelpi
-trys	trysnin
-vickël	vickla
-shtëpâ	shtëpani
-brof	brofi
-denduri	denduri
-njëzetetre	njëzetetre
+thuthuq	thuthuq
+tridhjetedy	tridhjetedy
+trys	trys trysnin
+vagëlloj	vagëlloj vagëlluar
 vetëlëndim	vetëlëndim
-lloz	lloz los
-karpuz	karpuzi
-karsh	karsh
-murrlan	murrlani
-trileçe	trileçja
-abdikoj	abdikoi
-apogje	apogjeun
-figurshëm	figurshëm
-fërgesë	fërgesë
-greth	grethin
-grindë	grindë
-muranë	muranë
-sllavizëm	sllavizmit
-çapoj	çapoj
-çapë	çapës
-belcë	belca
-cepoj	cepo
-curë	cura
-duq	duqi
-gardalinë	gardalina
-meksh	mekshi
-miskë	miska
-antonim	antonimin
-buças	buçitur
-dhanore	dhanore
-dyzetedy	dyzetedy
-furrik	furrikun
-garuzhdë	garuzhdë
-gjuhëtare	gjuhëtarja
-kërthi	kërthi
-mekët	mekët
-vetvetishëm	vetvetishëm
-vetëdëmtim	vetëdëmtimit
-zhig	zhig
-zhurmëmadh	zhurmëmëdha
-adër	adra
+vickël	vickël vickla
+zallishtë	zallishtë zallishte
+abdikoj	abdikoj abdikoi
 abetar	abetar
-buzëmadh	buzëmadh
-fjalëformim	fjalëformimi
-gjelinë	gjelina
-kaçul	kaçuli
-sinisi	sinisinë
-syzi	syziu
+antonim	antonim antonimin
+apogje	apogje apogjeun
+aristokraci	aristokraci
 asket	asket
-dyzetenjë	dyzetenjë
-dërrmë	dërrmën
-gjellëtore	gjellëtore
-jokalimtar	jokalimtare
-lakut	lakut
-leksikologji	leksikologji
-mbrothësi	mbrothësi
-moh	mohet
-ngërdhesh	ngërdheshje
-palesh	palesh
-pashquar	pashquar
-peshin	peshim
-punëdore	punëdore
-qyq	qyq
-ranishtë	ranishte
-sahan	sahan
-shqiptarizim	shqiptarizimin
-tëhu	tëhu
-ushkur	ushkur
-vlagë	vlaga
-zagushi	zagushi
+belcë	belcë belca
 breshni	breshni
 bruka	bruka
-cull	cull
-pec	pec
-ruzhdije	ruzhdije
-shorr	shorr
-aristokraci	aristokraci
+buzëmadh	buzëmadh
+buças	buças buçitur
+cepoj	cepoj cepo
+cohë	cohë coha
+curë	curë cura
 cyt	cyt
+dhanore	dhanore
+duq	duq duqi
+dyzetedy	dyzetedy
+dyzetenjë	dyzetenjë
+dërrmë	dërrmë dërrmën
+figurshëm	figurshëm
+fjalëformim	fjalëformim fjalëformimi
+furrik	furrik furrikun
+fërgesë	fërgesë
+gardalinë	gardalinë gardalina
+garuzhdë	garuzhdë
 gjashtëdhjetetetë	gjashtëdhjetetetë
-idhujtari	idhujtarisë
-kajmekam	kajmekami
-koftor	koftorit
+gjellëtore	gjellëtore
+gjuhëtare	gjuhëtare gjuhëtarja
+greth	greth grethin
+grindë	grindë
+idhujtari	idhujtari idhujtarisë
+jokalimtar	jokalimtar jokalimtare
+kajmekam	kajmekam kajmekami
+karsh	karsh
+kaçul	kaçul kaçuli
+koftor	koftor koftorit
+kërthi	kërthi
+lakut	lakut
+leksikologji	leksikologji
 llërë	llërë
+mbrothësi	mbrothësi
+meksh	meksh mekshi
+mekët	mekët
 mililitër	mililitër
-shlivovicë	shlivovicë
-dovlet	dovleti
-turqizëm	turqizmat
+miskë	miskë miska
+moh	moh mohet
+muranë	muranë
+murrlan	murrlan murrlani
+ngërdhesh	ngërdhesh ngërdheshje
+palesh	palesh
+pashquar	pashquar
+pec	pec
+punëdore	punëdore
+qyq	qyq
+ranishtë	ranishtë ranishte
+ruzhdije	ruzhdije
+sahan	sahan
+shorr	shorr
+shqerr	shqerr shqiri
+shqiptarizim	shqiptarizim shqiptarizimin
 skile	skile
-bung	bungu
-cergë	cerga
-cullë	culle
-deltar	deltari
+sllavizëm	sllavizëm sllavizmit
+syzi	syzi syziu
+trileçe	trileçe trileçja
+turqizëm	turqizëm turqizmat
+tëhu	tëhu
+ushkur	ushkur
+vetvetishëm	vetvetishëm
+vetëdëmtim	vetëdëmtim vetëdëmtimit
+vlagë	vlagë vlaga
+zagushi	zagushi
+zhig	zhig
+zhurmëmadh	zhurmëmadh zhurmëmëdha
+çapoj	çapoj
+çapë	çapë çapës
+bung	bung bungu
+cergë	cergë cerga
+cullë	cullë culle
+deltar	deltar deltari
 garbi	garbi
 hime	hime
-lakuriqësohem	lakuriqësuar
-lakuriqësoj	lakuriqësuar
-shqipohem	shqipo
-shqipohet	shqipo
-shqipoj	shqipo
-shqipon	shqipo
-rrudhem	rrudhur
-tesh	teshat
-barazohem	barazuar barazoi barazon barazohet barazonte barazojnë barazuan barazohen barazojmë barazonin barazoheshim barazohesh barazohemi barazoje barazuam barazohej barazonim barazoheshin
-cubë	cuba cubat cubash cubave
-flijohem	flijuar flijohet flijuan flijoni flijon flijohej flijojnë flijoi flijohen
-droe	droje drojet droja
-gjalles	gjallesat gjallesa
-zbej	zbehur
-grerë	grenzë
-zhvirgjërohem	zhvirgjëruar
-heqsim	hequr hiq heqim hiqni heqin hoqa hoqi hiqja hoqe hoqën hiqte hiqje hiqnin hoqëm hiqnim hiqnit hoqët heqshim heqsh
-qyr	qyre
-rrym	rryma rrymat rrymave
-rruf	rrufa
-ruoj	ruajtur ruajta
-krodhë	krodha
-dhemje	veme
-venj	thurur thura
-qengjë	qengja qengjat qengjave
-tirë	tire tira
-caq	caqet caqeve caqe
-çars	çartur
-fendë	fende
-gjuoj	gjuajtur gjuajta
-shurrohem	shurruar
-thel	thela thelat
-kedh	keç
-brehem	brejtur
-lihem	lashë
-dhemat	dhomat
-përrue	përrenj
-aravë	arave
-gravë	grave
-ngjirem	ngjir
-kapt	kapte
-kaptë	kapte
-mby	my
-grûnë	tosk
-shkopis	shkopit
-cirkë	cirke cirka
-rrëshajë	shaje
-mihje	mihja
-rrath	rrathë rrathët rrathësh rrathëve
-citem	cita
-fshikë	fshika
-šḱip	shqyp
-mëshel	mshel
+lakuriqësohem	lakuriqësohem lakuriqësuar
+shqipohet	shqipohet shqipo

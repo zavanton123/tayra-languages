@@ -1,100 +1,100 @@
-1	4601	trashi	
-2	4602	dorështrënguar	
-3	4603	bokë	boka bokës
-4	4604	katund	katunde katundet katundeve katundi katundin katundit
-5	4605	fjollë	fjolla fjollat fjollën fjollës
-6	4606	llapë	llapa llape llapën
-7	4607	lab	labe
-8	4608	nevojtore	
-9	4609	faki	fakir
-10	4610	imoral	imorale
-11	4611	potkua	patkoi patkonjtë patkua
-12	4612	cagë	cage
-13	4613	shkath	shkathte shkathtë
-14	4614	zhivë	zhiva zhivën
-15	4615	nektarinë	nektarin nektarinat
-16	4616	qiellzë	qiellze qiellzën qiellzës
-17	4617	duhanxhi	duhanxhinj duhanxhinjtë duhanxhiu
-18	4618	thep	thepa thepat thepave
-19	4619	matrapaz	
-20	4620	enciklopedi	enciklopedia enciklopedinë enciklopedisë enciklopeditë
-21	4621	shtall	shtalla shtallë
-22	4622	lundër	lundra lundrat lundrën lundrës
-23	4623	dekorativ	dekorative dekorativë
-24	4624	ënjt	ënjta ënjtja ënjtje ënjtur ënjtën
-25	4625	ngërth	ngërç
-26	4626	thëngjill	thëngjij thëngjilli thëngjillin thëngjillit
-27	4627	gega	
-28	4628	llukë	lluka
-29	4629	nepërkë	nepërka nepërkave
-30	4630	ceq	ceqe ceqesh ceqet ceqeve
-31	4631	kolibër	kolibrat kolibri kolibrin
-32	4632	brumbull	
-33	4633	vade	vader
-34	4634	nuselalë	nuselala
-35	4635	avit	avis
-36	4636	epshor	epshore
-37	4637	abstenim	abstenime abstenimi abstenimin abstenimit
-38	4638	burrëror	burrërore
-39	4639	nur	nure nuri
-40	4640	fortësi	fortësia fortësinë fortësisë
-41	4641	brej	breja brejnë brejtur breni brenin brente
-42	4642	bibë	biba bibe bibën bibës
-43	4643	sublim	sublime
-44	4644	hiçgjë	
-45	4645	pykë	pyka pykat pykave pyke pykën
-46	4646	thupër	thupra thuprat thuprën
-47	4647	llucë	lluca lluce llucës
-48	4648	curr	cur curra curri currin currit currë
-49	4649	vesë	vesa
-50	4650	motivohem	motivohemi motivohen motivoheni motivohesh motivohet motivoi motivoja motivojmë motivojnë motivon motivoni motivonin motivonte motivova motivuan motivuar
-51	4651	veprimtar	veprimtarin veprimtarit veprimtarë veprimtarësh veprimtarët veprimtarëve
-52	4652	vrer	vner vreri vrerin
-53	4653	drojë	droja droje drojet drojën
-54	4654	copëtim	copëtime copëtimi copëtimin copëtimit
-55	4655	bardhës	bardhësi
-56	4656	pritem	
-57	4657	thi	thitë
-58	4658	avash-avash	
-59	4659	metaforik	metaforike
-60	4660	famull	famulli famullin famullit
-61	4661	flatër	flatra flatrat
-62	4662	vajtje-ardhje	
-63	4663	jozyrtarisht	
-64	4664	petk	petka petkat petku petkun petkut
-65	4665	hyrje-dalje	hyrje-dalja hyrje-daljen hyrje-daljes hyrje-daljet hyrje-daljeve
-66	4666	aerodinamik	aerodinamike
-67	4667	hieroglif	hieroglife hieroglifet hieroglifi
-68	4668	sini	sinisha
-69	4669	thekër	thekre thekrës
-70	4670	burmë	burma
-71	4671	tëmth	tëmthi tëmthin tëmthit
-72	4672	bis	
-73	4673	thëllëzë	thëllëza thëllëzash thëllëzave thëllëzën
-74	4674	luleshitës	luleshitësi
-75	4675	prikë	prika prikën
-76	4676	botërisht	
-77	4677	rrëndës	rrëndësi
-78	4678	berk	berku berkut
-79	4679	celinë	celina celine celinën celinës
-80	4680	enigmatik	enigmatike
-81	4681	fjalosem	fjalosemi
-82	4682	gërhas	gërhitur
-83	4683	zhguall	zhgualli zhguallit
-84	4684	vjedull	vjedulla vjedullat
-85	4685	gul	
-86	4686	adham	
-87	4687	lambrik	
-88	4688	alem	aleni
-89	4689	pordhac	pordhaci
-90	4690	osh	osha oshe oshte oshtë
-91	4691	zellshëm	
-92	4692	dardhan	dardan
-93	4693	paradigmë	paradigma paradigmat paradigmave paradigme paradigmën paradigmës
-94	4694	dergj	dergjet dergjur
-95	4695	autonom	
-96	4696	përafrim	përafrime përafrimet përafrimi përafrimin përafrimit
-97	4697	trastë	trasta traste trastën
-98	4698	visar	visare visari visarin visarit
-99	4699	sociologji	sociologjia sociologjinë sociologjisë
-100	4700	zverdh	zverdhe zverdhja zverdhje zverdhur
+1	4601	maraj	maraja
+2	4602	bashkëveproj	bashkëveprojmë bashkëveprojnë bashkëvepron bashkëveproni bashkëvepronte bashkëvepruar
+3	4603	ndëryjor	ndëryjore
+4	4604	spurdhjak	spurdhjaku
+5	4605	april	
+6	4606	ratë	
+7	4607	hordhi	hordhisë hordhitë hordhive
+8	4608	shuk	shuka shuke shuku shukun shukur
+9	4609	toskë	toska toske toskën toskës toskët
+10	4610	mag	magu
+11	4611	dang	
+12	4612	analogji	analogjia analogjinë analogjisë analogjitë analogjive
+13	4613	aga	agai agait agallarë agallarëve agë
+14	4614	gjiton	gjitone gjitonët
+15	4615	gulçoj	gulçoja gulçojnë gulçon gulçuar
+16	4616	gërdallë	gërdalla gërdallave gërdalle gërdallës
+17	4617	mackë	mackat macke
+18	4618	qëro	qëroi qëron
+19	4619	shpirtkeq	shpirtkeqi
+20	4620	tingulloj	tingullon tingulloni tingullonte
+21	4621	trinë	trina trinën
+22	4622	tërfil	tërfili
+23	4623	birrem	birren
+24	4624	terminologji	terminologjia terminologjinë terminologjisë
+25	4625	urinim	urinimi urinimin urinimit
+26	4626	kanun	kanunet kanuneve kanuni kanunin kanunit
+27	4627	përkrenare	përkrenaren përkrenares përkrenarja
+28	4628	dhëmballë	dhëmballa dhëmballat dhëmballën dhëmballët
+29	4629	lende	lend lendeje lenden lendes lendesh lendet lendeve
+30	4630	elb	elbi elbin elbit
+31	4631	lakim	lakime lakimet lakimi lakimin lakimit
+32	4632	tredhur	
+33	4633	veprues	vepruese vepruesi
+34	4634	oazë	oaza oaze oazën
+35	4635	gjizë	gjiza
+36	4636	shterp	shterpë
+37	4637	abonim	abonime abonimet abonimeve abonimi abonimin abonimit
+38	4638	shoshë	shosha shoshe shoshën
+39	4639	sulfur	sulfuri sulfurit
+40	4640	dredhëz	dredhë dredhëza dredhëzat
+41	4641	kopër	kopra
+42	4642	vaki	
+43	4643	mpiks	mpiksja mpiksje mpiksur
+44	4644	kacafyt	kacafytje kacafytur
+45	4645	laring	laringu laringun laringut
+46	4646	qel	qela qelë
+47	4647	trashem	trashen trashesh trashet
+48	4648	monarki	monarkia monarkie monarkinë monarkisë monarkitë
+49	4649	zhavorr	zhavorri zhavorrin zhavorrit
+50	4650	pllakos	pllakose pllakosi pllakosja pllakosje pllakosur pllakosën
+51	4651	sintaksë	sintaksa sintakse sintaksën
+52	4652	hurmë	hurma hurmat hurmave
+53	4653	rre	rreja rreje rresh
+54	4654	gjeometri	gjeometrie gjeometrinë gjeometrisë
+55	4655	automat	automate automatin
+56	4656	amvisë	amvisa amvisat amvisave amvise amvisën
+57	4657	thinjë	thinja thinjash thinjat thinjave thinje
+58	4658	gjeologji	gjeologjia gjeologjisë
+59	4659	përshesh	
+60	4660	jorgan	jorgani jorganin jorganit jorganë
+61	4661	llokum	llokume llokumet llokumin
+62	4662	muskuloz	muskuloze
+63	4663	yjësi	yjësia yjësinë yjësisë yjësitë
+64	4664	embargo	
+65	4665	kaldajë	kaldaja kaldajat kaldajave kaldaje kaldajën kaldajës
+66	4666	letargji	letargjia letargjie letargjinë letargjisë
+67	4667	gjuhëtar	gjuhëtari gjuhëtarin gjuhëtarit gjuhëtarë gjuhëtarët gjuhëtarëve
+68	4668	llahtarshëm	
+69	4669	nge	ngae
+70	4670	përjetësoj	përjetësoi përjetësojnë përjetëson përjetësonte përjetësuan përjetësuar
+71	4671	refren	refrene refrenet refreni refrenin refrenit
+72	4672	panoramë	
+73	4673	eshkë	eshka
+74	4674	pluskoj	pluskojnë pluskon pluskonin pluskonte
+75	4675	sisë	sisa
+76	4676	rrëzë	rrëza rrëze rrëzës
+77	4677	cicëroj	cicëroi cicërojnë cicëron cicëronin cicëruan cicëruar
+78	4678	galinë	galina
+79	4679	mih	miha mihi mihim mihja mihur
+80	4680	ithtar	ithtari ithtarë ithtarët ithtarëve
+81	4681	autogol	autogola autogolat autogoli autogolin autogolit
+82	4682	tunxh	tunxhi tunxhit
+83	4683	pris	prist
+84	4684	gabonjë	gabojë
+85	4685	motivohem	motivohemi motivohen motivoheni motivohesh motivohet
+86	4686	plep	plepa plepat plepave plepi plepit
+87	4687	cofëtinë	coftinë cofëtina
+88	4688	gërric	gërricje gërricni gërricur
+89	4689	kosinus	
+90	4690	mëllenjë	mëllenja
+91	4691	sisor	sisorë
+92	4692	sjellës	sjellësi sjellësit
+93	4693	çakë	çakën çakës
+94	4694	irracional	irracionale
+95	4695	kalldrëm	kalldrëmi
+96	4696	mërgatë	mërgata mërgatën mërgatës
+97	4697	rij	riva
+98	4698	spontanisht	
+99	4699	napë	napa nape napën
+100	4700	rozmarinë	rozmarina

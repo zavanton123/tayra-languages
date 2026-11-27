@@ -1,100 +1,100 @@
-1	4001	kriket	kriketi
-2	4002	bambu	bambuja bambuje
-3	4003	angari	hangari
-4	4004	loçkë	loçka
-5	4005	sodit	soditje soditur soditës
-6	4006	pasiv	pasive pasivë
-7	4007	mamuth	mamuthi mamuthin mamuthit mamuthë mamuthët
-8	4008	turbinë	turbina turbinat turbinave turbine turbinën turbinës
-9	4009	kallëzoj	kallxoj kallëzoi kallëzoja kallëzojmë kallëzojnë kallëzon kallëzonte kallëzove kallëzuar
-10	4010	radioaktivitet	radioaktiviteti radioaktivitetit
-11	4011	ëmbëlsi	ëmbëlsia ëmbëlsinë ëmbëlsisë
-12	4012	ciklon	ciklone ciklonet cikloni ciklonin ciklonit
-13	4013	damar	damarët
-14	4014	medoemos	
-15	4015	thumboj	thumboi thumbojnë thumbon thumbonte thumbuar
-16	4016	hamendje	hamendja hamendjet hamendjeve
-17	4017	alpe	alpet alpeve
-18	4018	pornografik	pornografike pornografikë
-19	4019	historikisht	
-20	4020	përkufizim	përkufizimi
-21	4021	çakall	çakaj çakalli çakej çakejtë çakejve
-22	4022	apë	apa api
-23	4023	cung	cungu cungun cungut sung çung
-24	4024	admirueshëm	admirueshme
-25	4025	rebelohem	rebelohej rebelohemi rebelohen rebeloheni rebelohesh rebeloheshin rebelohet rebelohu rebeluar
-26	4026	celik	celiku celikun
-27	4027	pusht	pushta pushti pushtin pushtit
-28	4028	rrime	
-29	4029	glukozë	glukoza glukozën glukozës
-30	4030	arabisht	
-31	4031	gjakpirës	gjakpirësin gjakpirësit
-32	4032	besëlidhje	besëlidhja besëlidhjen besëlidhjes besëlidhjet
-33	4033	direktivë	direktiva direktivat direktivave direktive direktivën direktivës
-34	4034	kastravec	kastraveca kastravecat kastraveci kastravecë
-35	4035	cen	cene ceni cenit
-36	4036	njom	njoma njome njomi njomja njomje njomni njomur
-37	4037	përvetësoj	përvetëso përvetësoi përvetësojmë përvetësojnë përvetëson përvetësoni përvetësonin përvetësonte përvetësuam përvetësuan përvetësuar
-38	4038	shpor	shpori shporu
-39	4039	ashe	asher
-40	4040	paskal	paskali
-41	4041	zbërthej	zbërtheva zbërthyer
-42	4042	pishman	pishmani
-43	4043	çalë	çala çale çali çalën çalës
-44	4044	kurt	kurtë
-45	4045	lajle	lajla
-46	4046	miush	miushe miushi miushin
-47	4047	grindavec	grindavece
-48	4048	orgji	orgjia orgjie orgjinë orgjish orgjisë orgjitë orgjive
-49	4049	muskulor	muskulore
-50	4050	zanafillë	zanafilla zanafillat zanafille zanafillën zanafillës
-51	4051	aristokrat	aristokrate aristokrati aristokratë aristokratët aristokratëve
-52	4052	oman	omani omanin omanit
-53	4053	xhenxhefil	xhenxhefili xhenxhefilin xhenxhefilit
-54	4054	diarre	diarreja diarreje
-55	4055	resë	rese resin
-56	4056	gadishull	gadishujt gadishulli gadishullin gadishullit
-57	4057	skllavëroj	skllavëroi skllavëroje skllavërojnë skllavëron skllavëroni skllavëronin skllavëronte skllavërove skllavëruar
-58	4058	mëmë	mamë mem mëma mëmës
-59	4059	skëterrë	skëterra skëterre skëterrës
-60	4060	veriperëndim	veriperëndimi
-61	4061	ekologji	ekologjia ekologjike ekologjinë ekologjisë
-62	4062	enjt	enjtja enjtën
-63	4063	sakatoj	sakatoja sakatoje sakaton sakatonte sakatove sakatuan sakatuar
-64	4064	ëndë	ënda ënde ëndër
-65	4065	arësye	
-66	4066	ujësjellës	ujësjellësi ujësjellësin ujësjellësit ujësjellësve
-67	4067	loke	loken lokesh loket lokja
-68	4068	parakaloj	parakalo parakaloi parakaloje parakalojnë parakalon parakalonin parakalonte parakaluan parakaluar
-69	4069	kep	kepa kepi kepin kepën
-70	4070	ledhatoj	ledhatoja ledhatojmë ledhaton ledhatonte ledhatuar
-71	4071	hajgare	
-72	4072	tregtim	tregtimet tregtimi tregtimin tregtimit
-73	4073	larvë	larva
-74	4074	kuç	kuc kuçi kuçin kuçit kuçë
-75	4075	ligjëratë	ligjërata ligjëratash ligjëratat ligjëratave ligjërate ligjëratën ligjëratës
-76	4076	nes	
-77	4077	deng	dengu
-78	4078	lagështirë	lagështira lagështirën
-79	4079	kuku	
-80	4080	altoparlant	altoparlanti altoparlantin altoparlantit altoparlantë altoparlantët altoparlantëve
-81	4081	kësulë	kësula kësulën kësulës
-82	4082	tatë	tata tate
-83	4083	lavazh	lavazhe lavazhet lavazheve lavazhi lavazhin lavazhit lavazho
-84	4084	lipë	lipa lipën
-85	4085	joshë	josha joshe joshën joshësh
-86	4086	kith	kithi kithin kithit
-87	4087	noçkë	noçka noçkat noçkën
-88	4088	juglindje	juglindja
-89	4089	anembanë	
-90	4090	ekzekutues	ekzekutuesi ekzekutuesin ekzekutuesit ekzekutuesve
-91	4091	gjeth	gjethesh gjethet gjetheve gjethin
-92	4092	dafinë	dafina dafinat
-93	4093	fajësi	fajësia fajësinë
-94	4094	gjyle	gjyles gjylet gjyleve gjylja
-95	4095	udhëkryq	udhëkryqi
-96	4096	admirim	admirimi admirimin
-97	4097	zgavër	zgavra zgavrat zgavre zgavrën zgavërr
-98	4098	bluaj	bluan bluar
-99	4099	dalëngadalë	
-100	4100	furtunë	fortunë furtuna furtunat furtunave furtune furtunën furtunës
+1	4001	admirueshëm	admirueshme
+2	4002	rebelohem	rebelohej rebelohemi rebelohen rebeloheni rebelohesh rebeloheshin rebelohet rebelohu rebeluar
+3	4003	pusht	pushta pushti pushtin pushtit
+4	4004	rrime	
+5	4005	glukozë	glukoza glukozën glukozës
+6	4006	arabisht	
+7	4007	gjakpirës	gjakpirësin gjakpirësit
+8	4008	direktivë	direktiva direktivat direktivave direktive direktivën direktivës
+9	4009	kastravec	kastraveca kastravecat kastraveci kastravecë
+10	4010	varrë	varra varrën varrës
+11	4011	përvetësoj	përvetëso përvetësoi përvetësojmë përvetësojnë përvetëson përvetësoni përvetësonin përvetësonte përvetësuam përvetësuan përvetësuar
+12	4012	zbërthej	zbërtheva zbërthyer
+13	4013	pishman	pishmani
+14	4014	çalë	çala çale çali çalën çalës
+15	4015	miush	miushe miushi miushin
+16	4016	grindavec	grindavece
+17	4017	orgji	orgjia orgjie orgjinë orgjish orgjisë orgjitë orgjive
+18	4018	muskulor	muskulore
+19	4019	zanafillë	zanafilla zanafillat zanafille zanafillën zanafillës
+20	4020	aristokrat	aristokrate aristokrati aristokratë aristokratët aristokratëve
+21	4021	xhenxhefil	xhenxhefili xhenxhefilin xhenxhefilit
+22	4022	diarre	diarreja diarreje
+23	4023	resë	rese resin
+24	4024	gadishull	gadishujt gadishulli gadishullin gadishullit
+25	4025	skllavëroj	skllavëroi skllavëroje skllavërojnë skllavëron skllavëroni skllavëronin skllavëronte skllavërove skllavëruar
+26	4026	mëmë	mamë mem mëma mëmës
+27	4027	skëterrë	skëterra skëterre skëterrës
+28	4028	veriperëndim	veriperëndimi
+29	4029	ekologji	ekologjia ekologjike ekologjinë ekologjisë
+30	4030	sakatoj	sakatoja sakatoje sakaton sakatonte sakatove sakatuan sakatuar
+31	4031	ujësjellës	ujësjellësi ujësjellësin ujësjellësit ujësjellësve
+32	4032	parakaloj	parakalo parakaloi parakaloje parakalojnë parakalon parakalonin parakalonte parakaluan parakaluar
+33	4033	kep	kepa kepi kepin kepën
+34	4034	ledhatoj	ledhatoja ledhatojmë ledhaton ledhatonte ledhatuar
+35	4035	tregtim	tregtimet tregtimi tregtimin tregtimit
+36	4036	larvë	larva
+37	4037	ligjëratë	ligjërata ligjëratash ligjëratat ligjëratave ligjërate ligjëratën ligjëratës
+38	4038	deng	dengu
+39	4039	lagështirë	lagështira lagështirën
+40	4040	kuku	
+41	4041	altoparlant	altoparlanti altoparlantin altoparlantit altoparlantë altoparlantët altoparlantëve
+42	4042	kësulë	kësula kësulën kësulës
+43	4043	tatë	tata tate
+44	4044	lavazh	lavazhe lavazhet lavazheve lavazhi lavazhin lavazhit lavazho
+45	4045	noçkë	noçka noçkat noçkën
+46	4046	juglindje	juglindja
+47	4047	anembanë	
+48	4048	ekzekutues	ekzekutuesi ekzekutuesin ekzekutuesit ekzekutuesve
+49	4049	fajësi	fajësia fajësinë
+50	4050	gjyle	gjyles gjylet gjyleve gjylja
+51	4051	punësohem	punësohej punësohen punësoheni punësohesh punësoheshin punësohet
+52	4052	udhëkryq	udhëkryqi
+53	4053	admirim	admirimi admirimin
+54	4054	zgavër	zgavra zgavrat zgavre zgavrën zgavërr
+55	4055	bluaj	bluan bluar
+56	4056	dalëngadalë	
+57	4057	furtunë	fortunë furtuna furtunat furtunave furtune furtunën furtunës
+58	4058	hallakat	hallakatje hallakatur
+59	4059	shul	shuli shulin shulit
+60	4060	kompozoj	kompozo kompozoi kompozon kompozonte kompozova kompozuar
+61	4061	marramendje	
+62	4062	ndrikull	ndrikulla ndrikullat ndrikulle
+63	4063	arsimoj	arsimojnë arsimonte arsimuan arsimuar
+64	4064	vektor	vektori vektorin vektorit vektorë vektorët vektorëve
+65	4065	buron	buroi buruar
+66	4066	xixëllonjë	xixëllonja xixëllonjash xixëllonjat
+67	4067	bënj	bënja bëntë
+68	4068	bujtinë	bujtina bujtinat bujtinave bujtine bujtinën bujtinës
+69	4069	pincë	pinca pincat pince pincën
+70	4070	thjeshtësi	thjeshtësia thjeshtësinë
+71	4071	azot	azoti azotit
+72	4072	bojkotoj	bojkoto bojkotoi bojkotojmë bojkotojnë bojkoton bojkotoni bojkotonim bojkotonin bojkotonte bojkotuam bojkotuan bojkotuar
+73	4073	push	pushi
+74	4074	zotësi	zotësia zotësie zotësinë zotësisë zotësitë
+75	4075	malësi	malësia malësie malësinë malësisë malësitë malësive
+76	4076	sqetull	sqetulla sqetullat sqetullave sqetullën sqetullës
+77	4077	tonelatë	tonelata tonelatat tonelatave
+78	4078	papërcaktuar	
+79	4079	yjor	yjore
+80	4080	qelizor	qelizore qelizorë
+81	4081	pacaktuar	
+82	4082	thartë	
+83	4083	verbërisht	
+84	4084	dervish	dervishi dervishin dervishit dervishët dervishëve
+85	4085	mllef	mllefe mllefet mllefi mllefin mllefit
+86	4086	logjistikë	logjistika logjistike logjistikën logjistikës
+87	4087	arkeologjik	arkeologjike arkeologjikë
+88	4088	sahat	sahate sahatet sahati sahatin sahatit
+89	4089	platin	platini
+90	4090	koeficient	koeficiente koeficientet koeficienteve koeficienti koeficientin koeficientit koefiçent
+91	4091	miqësohem	miqësohemi miqësohen miqësoheni miqësohesh miqësohesha miqësoheshit miqësohet miqësohuni miqësuar
+92	4092	gjobit	gjobiti gjobitja gjobitje gjobitur gjobitën
+93	4093	lejekalim	lejekalimet lejekalimi lejekalimin
+94	4094	vërshoj	vërshoi vërshojnë vërshon vërshonin vërshuan vërshuar
+95	4095	harpë	harpa harpat harpën harpës
+96	4096	gjashtëmbëdhjetë	
+97	4097	pjell	pjellin pjellur polli pollën
+98	4098	gjashtëdhjetë	
+99	4099	gjeolog	gjeologu gjeologë gjeologësh gjeologët gjeologëve
+100	4100	kallaj	kallaji kallajit

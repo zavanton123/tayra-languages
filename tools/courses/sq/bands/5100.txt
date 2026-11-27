@@ -1,100 +1,100 @@
-1	5001	fishk	fishka fishkur
-2	5002	koks	koksi
-3	5003	selvi	selvia selvie selvish selvisë selvitë selvive
-4	5004	kurrgjë	kurgjo kurrgjo
-5	5005	dibran	dibrani dibranë dibranët dibranëve
-6	5006	aliazh	aliazhe aliazhit
-7	5007	kapardisem	kapardisur
-8	5008	pjekë	
-9	5009	arnoj	arno arnojmë arnon arnuar
-10	5010	zbath	zbathi zbathim zbathni
-11	5011	përcëlloj	përcëllon përcëllova përcëlluar
-12	5012	guvë	guva guvën
-13	5013	jes	
-14	5014	kominoshe	
-15	5015	qiellgërvishtës	qiellgërvishtësit
-16	5016	qyqe	qyqja
-17	5017	molë	mola mole
-18	5018	leshterik	leshterikë leshterikësh leshterikët
-19	5019	thjeshtër	thjeshtri thjeshtrit
-20	5020	rriskë	rriska rriskat rriske
-21	5021	nduk	nduki ndukim ndukje
-22	5022	gushëkuq	gushëkuqi
-23	5023	krinë	krina
-24	5024	ulok	ulog
-25	5025	antifrizë	antifriz
-26	5026	çamarrok	çamarrokët
-27	5027	nafakë	nafak nafaka
-28	5028	rrëmih	rrëmihur
-29	5029	thyesë	thyes
-30	5030	bulkth	bulktha
-31	5031	zbokth	zbokthi zbokthin zbokthit
-32	5032	cikoj	ciko cikon
-33	5033	kaç	kaçi kaçin
-34	5034	burbuqe	
-35	5035	bac	baca bacë
-36	5036	përdorshëm	
-37	5037	majdanoz	majdanozi
-38	5038	dyndje	
-39	5039	zhur	zhuri
-40	5040	plis	plisa plisat plisave plisi plisin plisit
-41	5041	gjuhësi	gjuhësia gjuhësinë gjuhësisë
-42	5042	lahutë	lahuta lahutën lahutës
-43	5043	papat	papas
-44	5044	teprim	teprime teprimet teprimi teprimit
-45	5045	saraç	saraçi saraçin saraçit seref
-46	5046	lush	lushi lushit
-47	5047	fukara	
-48	5048	tjegull	tjegulla tjegullat tjegullave
-49	5049	bashkëfshatar	bashkëfshatari bashkëfshatarin bashkëfshatarë bashkëfshatarët bashkëfshatarëve
-50	5050	bakall	bakaj bakalli bakallin bakallit
-51	5051	dërmoj	dërmon dërmuar
-52	5052	natrium	
-53	5053	kut	kute
-54	5054	zarzavate	
-55	5055	diafragmë	diafragma diafragmën diafragmës
-56	5056	mëmëdhe	mëmëdheu mëmëdheun mëmëdheut
-57	5057	shtazarak	shtazarake
-58	5058	vig	vigut
-59	5059	dynja	dynjaja
-60	5060	abuzohem	abuzohej abuzohen abuzohet abuzuar
-61	5061	ndëshkimor	ndëshkimore
-62	5062	dushk	dushku dushqe
-63	5063	luftanije	
-64	5064	kastile	
-65	5065	imperializëm	imperializmi imperializmin imperializmit
-66	5066	vogëli	
-67	5067	amzë	amza amzës
-68	5068	zhurmoj	zhurmojmë zhurmon zhurmonin zhurmuar
-69	5069	jevg	jevgjit jevgu
-70	5070	gushë	gusha gushës
-71	5071	ligjzbatues	ligjzbatuese
-72	5072	aderim	aderime aderimet aderimeve aderimi aderimin aderimit
-73	5073	kaps	
-74	5074	prrar	përralle
-75	5075	athët	
-76	5076	menjë	menja
-77	5077	cip	cim cipa cipat cipave cipin
-78	5078	zanatçi	zanatçinj zanatçinjtë zanatçinjve zanatçiu
-79	5079	abonuar	
-80	5080	rrap	rrapeve rrapi rrapin rrapit rrepe
-81	5081	përthith	
-82	5082	cale	calja
-83	5083	ironikisht	
-84	5084	prush	prushi prushit
-85	5085	vol	
-86	5086	gajle	
-87	5087	miqësisht	
-88	5088	pingul	
-89	5089	qelibar	qelibari
-90	5090	stilograf	stilografi stilografë
-91	5091	çajnik	çajniku çajnikun
-92	5092	algjebër	algjebra algjebrën algjebrës
-93	5093	atletikë	atletika atletikën
-94	5094	lukth	
-95	5095	sofër	sofra sofrat
-96	5096	tota	totë
-97	5097	shkallmoj	shkallmuar
-98	5098	abat	abati
-99	5099	nëntëmbëdhjetë	
-100	5100	përftoj	përftoi përftojmë përftojnë përfton përftoni përftonte përftuan përftuar
+1	5001	zeje	zejen zejes zejesh zejeve
+2	5002	skuth	skutha skuthi
+3	5003	jetësoj	jetësoi jetësojmë jetësojnë jetësoni jetësonte jetësuam jetësuar
+4	5004	huall	hoje hojet hojeve huell
+5	5005	mullë	mulla mulle
+6	5006	pelegrin	pelegrini pelegrinin pelegrinit
+7	5007	shqarr	shar shqarri shqarrin
+8	5008	zvjellët	zhdërvjellët
+9	5009	rimbursoj	rimbursojmë rimbursojnë rimburson rimbursova rimbursuar
+10	5010	gjakmarrje	gjakmarrja gjakmarrjen gjakmarrjes gjakmarrjet
+11	5011	lëngoj	lëngojnë lëngon lëngonte lënguar
+12	5012	fit	fiti
+13	5013	mbarohem	mbarohen mbarohet
+14	5014	gushë	gushës
+15	5015	gojëdhënë	gojëdhëna gojëdhënat gojëdhënave
+16	5016	ujitës	ujitëse
+17	5017	fiziologji	fiziologjinë fiziologjisë
+18	5018	përflak	përflakja përflakje përflakur
+19	5019	përmalloj	përmalluar
+20	5020	iriq	iriqi
+21	5021	cironkë	cironka cironkat cironke
+22	5022	pjesëtoj	pjesëtojmë pjesëton pjesëtuar
+23	5023	zbaticë	zbatica zbaticat
+24	5024	bitum	bitumi bitumit
+25	5025	bollgur	bollguri bullgur
+26	5026	laraskë	laraska laraskat laraskave
+27	5027	llokmë	llokma llokmat
+28	5028	rrej	rrejtur
+29	5029	ysht	yshtim yshtja yshtur
+30	5030	asbest	asbesti
+31	5031	kodosh	
+32	5032	tenjë	tenja tenjat
+33	5033	absorbim	absorbimi absorbimin absorbimit
+34	5034	hijeshoj	hijeshoi hijeshojnë hijeshon hijeshuar hijeshuat
+35	5035	kaposh	kaposhi kaposhët
+36	5036	vanë	vane vanës
+37	5037	zhbllokohet	
+38	5038	përkthyese	përkthyesen përkthyeses përkthyesja
+39	5039	buldozer	
+40	5040	peshohem	peshohen peshohesh peshohet
+41	5041	rendoj	renduar
+42	5042	ajros	ajrosin ajrosja ajrosje ajrosni ajrosur
+43	5043	vilajet	vilajete vilajetet vilajeteve vilajeti vilajetin vilajetit
+44	5044	adet	adete adetet adetin
+45	5045	apologji	apologjia apologjinë
+46	5046	jud	judi
+47	5047	karabush	karabushi
+48	5048	puq	puqa puqin
+49	5049	çalaman	
+50	5050	kajsi	kajsia kajsie kajsisë kajsitë
+51	5051	cucë	cuca
+52	5052	sqepar	sqeparin sqeparë
+53	5053	filan	
+54	5054	çiflig	çifligje çifligu çifligun çifligut çiflik
+55	5055	cube	
+56	5056	krep	krepa krepat
+57	5057	murrët	murrmë
+58	5058	shartoj	shartuar
+59	5059	shqopë	shqopa shqope
+60	5060	shqyerje	shqyerjeve
+61	5061	shtambë	shtamba
+62	5062	kreshmë	kreshme kreshmët kreshmëve meshari
+63	5063	brëndës	brëndësi
+64	5064	cermë	
+65	5065	hungarisht	
+66	5066	karroqe	
+67	5067	kësmet	kësmeti
+68	5068	ledh	ledhet ledhi
+69	5069	orëndreqës	orëndreqësi
+70	5070	vidër	vidra
+71	5071	zemërmadh	zemërmadhe
+72	5072	apati	apatia apatinë
+73	5073	afishë	
+74	5074	arkivist	arkivisti arkivistin
+75	5075	baule	baules
+76	5076	bishtajë	bishtajat
+77	5077	blatim	
+78	5078	bovë	
+79	5079	brith	britha
+80	5080	cang	
+81	5081	cikërrimë	cikërrima cikërrime
+82	5082	dredhkë	dredhkën
+83	5083	fildish	
+84	5084	fistik	fëstëk
+85	5085	gërthas	gërthet gërthit gërthita gërthitje
+86	5086	harrueshëm	harrueshme
+87	5087	hauz	hauzi
+88	5088	jonxhë	jonxhën jonxhës
+89	5089	kubël	kubla
+90	5090	këlshejt	këlshejti
+91	5091	lekur	
+92	5092	mburracak	mburracakë
+93	5093	mosmirënjohje	
+94	5094	njeringrënës	
+95	5095	oktavë	
+96	5096	rriqër	rriqën
+97	5097	shkrif	shkrifët
+98	5098	tezgjah	tezgjahu
+99	5099	thelmë	thelma
+100	5100	trok	

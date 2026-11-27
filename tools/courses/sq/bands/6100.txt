@@ -1,100 +1,100 @@
-1	6001	gojëtari	
-2	6002	arpunues	
-3	6003	nao	
-4	6004	ninananë	ninanana
-5	6005	naforë	naforën
-6	6006	mbërdhi	mërdhij
-7	6007	cjape	
-8	6008	cingël	cingla
-9	6009	shëmbëllej	
-10	6010	çalë-çalë	
-11	6011	islandisht	
-12	6012	mikologji	
-13	6013	embriologji	
-14	6014	zorshëm	
-15	6015	mlysh	
-16	6016	byc	
-17	6017	fustë	
-18	6018	cirkat	cirkatur
-19	6019	shprohë	shprohe
-20	6020	abak	abakët
-21	6021	zhyej	zhyeva
-22	6022	angullin	
-23	6023	doca	
-24	6024	lezbik	
-25	6025	gurabije	
-26	6026	agër	
-27	6027	çarti	
-28	6028	fic	fica
-29	6029	inj	
-30	6030	pekmez	
-31	6031	zhvoshk	zhvoshkje
-32	6032	gargull	garguj
-33	6033	truaj	truar
-34	6034	frri	fërri
-35	6035	bërsi	
-36	6036	ofsh	
-37	6037	zalis	
-38	6038	ngjicë	ngjica
-39	6039	brinar	
-40	6040	prangë	
-41	6041	harmi	harm
-42	6042	mardhë	
-43	6043	sutë	
-44	6044	verigë	
-45	6045	tridhjetetre	
-46	6046	lugatë	
-47	6047	rrokoll	
-48	6048	vrug	vrugu
-49	6049	felë	felat
-50	6050	yzengji	
-51	6051	cedër	cedri
-52	6052	grremç	grremçin
-53	6053	ekspresionizëm	
-54	6054	treme	tremja
-55	6055	bemol	
-56	6056	dredhje	
-57	6057	aspër	
-58	6058	vadhë	vadhe
-59	6059	bollë	bollat
-60	6060	hith	
-61	6061	abonoj	abonova
-62	6062	totolesh	
-63	6063	klenje	kleni
-64	6064	tipos	
-65	6065	flladit	flladitje
-66	6066	dhelpëri	dhelpërinë
-67	6067	tarabë	tarabën
-68	6068	shqyptar	shqyptari
-69	6069	drugë	druga druge
-70	6070	dropullit	dropullitët
-71	6071	lexueshëm	
-72	6072	gjirokastrit	
-73	6073	postulat	postulate postulatet
-74	6074	shahist	shahisti shahistin shahistë shahistët
-75	6075	lehonë	lehona lehonat lehonave
-76	6076	bullar	bullari
-77	6077	jagodë	jagoda
-78	6078	vllah	vlleh vllehve
-79	6079	bejtexhi	bejtexhinj bejtexhinjtë bejtexhiu
-80	6080	argjinaturë	argjinatura argjinaturat argjinaturave argjinaturës
-81	6081	mangan	
-82	6082	hulli	hullie hullinë hullitë
-83	6083	qatip	
-84	6084	belush	belushi
-85	6085	izë	isë
-86	6086	kandar	kandari
-87	6087	ndalues	ndaluese
-88	6088	dygjuhësh	dygjuhëshe
-89	6089	serbishte	serbishten serbishtja
-90	6090	neps	nepsi nepsin
-91	6091	kallëzues	kallëzuesi kallëzuesit
-92	6092	mirditor	mirditori mirditorë mirditorët mirditorëve
-93	6093	rrum	rrumi
-94	6094	orr	
-95	6095	emërore	
-96	6096	gafil	
-97	6097	përpjesëtim	
-98	6098	mëllagë	mëllaga mëllagës
-99	6099	mangall	mangalli mangallin mangallit
-100	6100	cuc	cuci cucin cucit
+1	6001	pezëm	
+2	6002	pikëzoj	pikëzuar
+3	6003	potpuri	
+4	6004	repë	
+5	6005	romuz	romuze
+6	6006	tepelenas	
+7	6007	toskërishte	toskërishtja
+8	6008	usht	
+9	6009	vrerë	
+10	6010	çotë	çota
+11	6011	abaci	abacia abacisë
+12	6012	abece	abeceja
+13	6013	abrogoj	abroguar
+14	6014	artizanat	
+15	6015	avlli	avllisë
+16	6016	dromcë	dromca
+17	6017	dyzeteshtatë	
+18	6018	dyzetetre	
+19	6019	fjalorth	
+20	6020	gjakës	gjakësi gjakësit
+21	6021	gosë	
+22	6022	hyzmeqar	hyzmeqarët
+23	6023	kasnec	kasneci
+24	6024	krekë	kreka
+25	6025	lahutar	lahutari lahutarë
+26	6026	lakror	lakrori
+27	6027	mushicë	mushica
+28	6028	mëlysh	mëlyshi
+29	6029	neo-nazist	
+30	6030	përtëritem	përtëritur
+31	6031	taç	
+32	6032	tridhjetepesë	
+33	6033	urdhërore	
+34	6034	uretër	
+35	6035	verdhëz	
+36	6036	vijueshëm	
+37	6037	xhehnem	xhehnemi
+38	6038	apatik	
+39	6039	arumune	
+40	6040	besa-besë	
+41	6041	bohem	
+42	6042	bujanë	bujana
+43	6043	cakos	
+44	6044	calik	
+45	6045	cermëli	cimili
+46	6046	epër	
+47	6047	fajësues	fajësuese
+48	6048	fora	
+49	6049	ftilloj	ftilluar
+50	6050	gorricë	gorrica
+51	6051	kaurdis	kaurdisim
+52	6052	kothere	
+53	6053	kresë	
+54	6054	kushtor	kushtore
+55	6055	luhas	luhat
+56	6056	lumëmadh	lumadh
+57	6057	mbreh	mbrehtë
+58	6058	mirakë	
+59	6059	ngarkim-shkarkim	
+60	6060	njëzeteshtatë	
+61	6061	pelar	pelari
+62	6062	sherbelë	sherbelës
+63	6063	taraf	tarafe
+64	6064	tetëkëndësh	
+65	6065	trenoj	trenova
+66	6066	vak	vaktë
+67	6067	verrë	verre
+68	6068	zeher	
+69	6069	zeshk	zeshkët
+70	6070	çapar	capar
+71	6071	çapun	çapuni
+72	6072	çukë	çuka çukën çukës
+73	6073	allti	alltia
+74	6074	açik	
+75	6075	açugë	açuge
+76	6076	barmë	barmash
+77	6077	biseksualitet	biseksualitetin
+78	6078	bresë	bresa
+79	6079	brof	brofi
+80	6080	cicërim	cicërimeve
+81	6081	cimb	cimbi
+82	6082	dardhishtë	dardhishta
+83	6083	denduri	
+84	6084	duf	
+85	6085	duvak	
+86	6086	fantazist	
+87	6087	galdoj	galdon
+88	6088	gjeologjikisht	
+89	6089	gollomesh	
+90	6090	gurgule	
+91	6091	habitore	
+92	6092	hokë	hoke
+93	6093	jabanxhi	
+94	6094	kaçkë	kaçka
+95	6095	kolonjar	
+96	6096	kopaçe	
+97	6097	kumri	kumria
+98	6098	kurvëri	
+99	6099	lashti	
+100	6100	luadh	

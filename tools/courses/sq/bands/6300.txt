@@ -1,100 +1,19 @@
-1	6201	hyqëm	hyqmin
-2	6202	jorganxhi	
-3	6203	nënprefekturë	nënprefektura nënprefekturës
-4	6204	derëzi	derëziu
-5	6205	revan	revani
-6	6206	pleqësi	pleqësia pleqësinë
-7	6207	riprovim	riprovimet riprovimeve
-8	6208	mamicë	mamica mamicës
-9	6209	lidhor	lidhore
-10	6210	hallvë	hallva hallvën
-11	6211	tallaz	tallazet
-12	6212	amiant	amianti
-13	6213	përmetar	përmetarë përmetarët
-14	6214	bashkëtingëllore	bashkëtingëlloret bashkëtingëlloreve
-15	6215	maltez	
-16	6216	çem	çema
-17	6217	avaria	
-18	6218	pejan	
-19	6219	satirik	
-20	6220	vring	vrik
-21	6221	antagonizëm	
-22	6222	stërgjatë	
-23	6223	shend	
-24	6224	dëshirore	
-25	6225	zdralë	zdrale
-26	6226	ulzë	ulzës
-27	6227	holloj	hollon holloni holluar
-28	6228	kilë	kila
-29	6229	sllavisht	
-30	6230	ashik	
-31	6231	përafërsi	
-32	6232	buzagaz	
-33	6233	bajloz	bajlozi
-34	6234	turkoshak	
-35	6235	ujëmbledhës	
-36	6236	sahatçi	sahatçiu
-37	6237	rumanisht	
-38	6238	ilirishte	ilirishtja
-39	6239	sllavishte	sllavishten sllavishtja
-40	6240	bunar	bunarë
-41	6241	dyfek	dyfekun
-42	6242	parashtesë	parashtesa parashtesave parashtesën
-43	6243	abrogim	abrogimi abrogimin
-44	6244	flug	
-45	6245	bastar	
-46	6246	grusht shteti	grusht shteti
-47	6247	iqindi	iqindisë
-48	6248	gjuhësisht	
-49	6249	njëzetenjë	
-50	6250	hegjemon	hegjemone
-51	6251	carinë	carina
-52	6252	rrushkull	
-53	6253	mynxyrë	mynxyra
-54	6254	afri	afria afrinë
-55	6255	evgjit	evgjitë jevgjit
-56	6256	përciptë	
-57	6257	abonohem	abonohen
-58	6258	dijës	
-59	6259	shark	
-60	6260	versë	versa
-61	6261	degëzoj	degëzuar
-62	6262	llom	
-63	6263	trahana	
-64	6264	bajzë	
-65	6265	dëftor	dëftore
-66	6266	gegërisht	gegënisht
-67	6267	dukagjinas	dukagjinasit
-68	6268	feud	feude
-69	6269	belbëzim	belbëzimi belbëzimin
-70	6270	rrëqebull	rrëqebulli rrëqebullit
-71	6271	bashkëfajësi	bashkëfajësia bashkëfajësinë
-72	6272	kremte	kremten
-73	6273	arumun	arumunët arumunëve
-74	6274	mësonjëtore	mësonjëtorja
-75	6275	parmendë	parmendën parmendës
-76	6276	toponimi	toponimia
-77	6277	shtjerrë	shtjerr
-78	6278	bitis	bitisi bitisur
-79	6279	bulëz	bulëza bulëzat
-80	6280	kryezot	kryezotit
-81	6281	bandill	bandilli
-82	6282	dushkajë	dushkaja dushkajës
-83	6283	kimet	kimetin
-84	6284	këlbazë	gëlbazë
-85	6285	yrnek	yrneke
-86	6286	kica	
-87	6287	gjedh	gjedhi
-88	6288	ngoje	
-89	6289	potpuri	
-90	6290	romuz	romuze
-91	6291	vrerë	
-92	6292	njëzetetetë	
-93	6293	pikëzoj	pikëzuar
-94	6294	çakos	
-95	6295	selamet	
-96	6296	çotë	çota
-97	6297	njëzetegjashtë	
-98	6298	pezëm	
-99	6299	arnis	arnisa
-100	6300	influencer	
+1	6201	turqizëm	turqizmat
+2	6202	tëhu	
+3	6203	ushkur	
+4	6204	vetvetishëm	
+5	6205	vetëdëmtim	vetëdëmtimit
+6	6206	vlagë	vlaga
+7	6207	zagushi	
+8	6208	zhig	
+9	6209	zhurmëmadh	zhurmëmëdha
+10	6210	çapoj	
+11	6211	çapë	çapës
+12	6212	bung	bungu
+13	6213	cergë	cerga
+14	6214	cullë	culle
+15	6215	deltar	deltari
+16	6216	garbi	
+17	6217	hime	
+18	6218	lakuriqësohem	lakuriqësuar
+19	6219	shqipohet	shqipo

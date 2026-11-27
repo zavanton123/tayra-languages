@@ -1,100 +1,100 @@
-1	5201	fit	fiti
-2	5202	gojëdhënë	gojëdhëna gojëdhënat gojëdhënave
-3	5203	ujitës	ujitëse
-4	5204	fiziologji	fiziologjinë fiziologjisë
-5	5205	përmalloj	përmalluar
-6	5206	iriq	iriqi
-7	5207	përflak	përflakja përflakje përflakur
-8	5208	cironkë	cironka cironkat cironke
-9	5209	zbaticë	zbatica zbaticat
-10	5210	pjesëtoj	pjesëtojmë pjesëton pjesëtuar
-11	5211	llokmë	llokma llokmat
-12	5212	rrej	rrejtur
-13	5213	laraskë	laraska laraskat laraskave
-14	5214	bitum	bitumi bitumit
-15	5215	bollgur	bollguri bullgur
-16	5216	ysht	yshtim yshtja yshtur
-17	5217	arbën	arber
-18	5218	asbest	asbesti
-19	5219	rrokaqiell	rrokaqiej
-20	5220	kodosh	
-21	5221	tenjë	tenja tenjat
-22	5222	absorbim	absorbimi absorbimin absorbimit
-23	5223	vanë	vane vanës
-24	5224	kaposh	kaposhi kaposhët
-25	5225	hijeshoj	hijeshoi hijeshojnë hijeshon hijeshuar hijeshuat
-26	5226	zhbllokohet	
-27	5227	nallban	nallbani nallbanit
-28	5228	përkthyese	përkthyesen përkthyeses përkthyesja
-29	5229	peshohem	peshohen peshohesh peshohet peshuar
-30	5230	buldozer	
-31	5231	rendoj	renduar
-32	5232	blerinë	blerina blerinën blerinës
-33	5233	ajros	ajrosin ajrosja ajrosje ajrosni ajrosur
-34	5234	vilajet	vilajete vilajetet vilajeteve vilajeti vilajetin vilajetit
-35	5235	çalaman	
-36	5236	puq	puqa puqin
-37	5237	karabush	karabushi
-38	5238	apologji	apologjia apologjinë
-39	5239	jud	judi
-40	5240	adet	adete adetet adetin
-41	5241	kajsi	kajsia kajsie kajsisë kajsitë
-42	5242	cucë	cuca
-43	5243	sqepar	sqeparin sqeparë
-44	5244	cube	cupe
-45	5245	çiflig	çifligje çifligu çifligun çifligut çiflik
-46	5246	filan	
-47	5247	shartoj	shartuar
-48	5248	murrët	murrmë
-49	5249	krep	krepa krepat
-50	5250	shkozë	shkoza shkoze shkozën shkozës
-51	5251	shtambë	shtamba
-52	5252	shqopë	shqopa shqope
-53	5253	shqyerje	shqyerjeve
-54	5254	kreshmë	kreshme kreshmët kreshmëve meshari
-55	5255	cermë	
-56	5256	karroqe	
-57	5257	brëndës	brëndësi
-58	5258	hungarisht	
-59	5259	vidër	vidra
-60	5260	zemërmadh	zemërmadhe
-61	5261	orëndreqës	orëndreqësi
-62	5262	kësmet	kësmeti
-63	5263	ledh	ledhet ledhi
-64	5264	apati	apatia apatinë
-65	5265	trok	
-66	5266	tezgjah	tezgjahu
-67	5267	këlshejt	këlshejti
-68	5268	bovë	
-69	5269	thelmë	thelma
-70	5270	brith	britha
-71	5271	njeringrënës	
-72	5272	mosmirënjohje	
-73	5273	cang	
-74	5274	hamam	
-75	5275	fistik	fëstëk
-76	5276	blatim	
-77	5277	kubël	kubla
-78	5278	afishë	
-79	5279	oktavë	
-80	5280	lekur	
-81	5281	fildish	
-82	5282	shkrif	shkrifët
-83	5283	cikërrimë	cikërrima cikërrime
-84	5284	rriqër	rriqën
-85	5285	baule	baules
-86	5286	hauz	hauzi
-87	5287	turjelë	tryelë turjelën
-88	5288	dredhkë	dredhkën
-89	5289	bishtajë	bishtajat
-90	5290	jonxhë	jonxhën jonxhës
-91	5291	harrueshëm	harrueshme
-92	5292	arkivist	arkivisti arkivistin
-93	5293	mburracak	mburracakë
-94	5294	gërthas	gërthet gërthit gërthita gërthitje
-95	5295	lafshë	lafsha lafshat
-96	5296	gjir	gjiri gjirin gjirit ngjir
-97	5297	dëshirueshëm	
-98	5298	drizë	driza drizës
-99	5299	përtoj	përtoi përtojnë përton përtoni përtonin përtonit përtonte përtuar
-100	5300	yrysh	irish
+1	5201	shtriqem	shtriqur
+2	5202	beratas	beratasi beratasit beratasve
+3	5203	hithër	hithra hithrat hithrave hithre hithrën hithrës
+4	5204	djallëzi	djallëzia djallëzinë
+5	5205	matjan	matjani matjanin matjanit matjanët matjanëve
+6	5206	amper	amperi amperin
+7	5207	aç	
+8	5208	begatshëm	
+9	5209	bozhure	bozhuret
+10	5210	brukë	bruke
+11	5211	bubullon	
+12	5212	cath	
+13	5213	cepë	cepe
+14	5214	cërcëritje	cërcëritjen
+15	5215	dallë	dalla
+16	5216	dudum	
+17	5217	duhmë	
+18	5218	dëng	
+19	5219	dërti	
+20	5220	egjër	
+21	5221	epshëm	
+22	5222	fakulltet	fakullteti
+23	5223	fyelltar	fyelltari fyelltarin
+24	5224	gjembaç	
+25	5225	gogësij	gogësijnë gogësimë gogësinë
+26	5226	grih	grihu
+27	5227	guf	gufi gufin
+28	5228	gurgulloj	gurgullon
+29	5229	hamës	
+30	5230	harraq	
+31	5231	harrje	
+32	5232	hidrat	hidrati hidratit
+33	5233	hikërr	hikrra
+34	5234	horrë	
+35	5235	kacafytem	
+36	5236	kalk	
+37	5237	karuc	karuci
+38	5238	keqardhës	
+39	5239	kordhë	kordha kordë
+40	5240	kotëletë	
+41	5241	lebeti	lebetie
+42	5242	lingë	linga
+43	5243	llafos	llafosje
+44	5244	luri	
+45	5245	lëneshë	
+46	5246	majhosh	majhoshe
+47	5247	meh	mef
+48	5248	ndoh	
+49	5249	ndrys	
+50	5250	ngalem	ngalur
+51	5251	ngij	ngirë ngiva
+52	5252	njehsor	
+53	5253	oler	oleri
+54	5254	pijan	
+55	5255	pjellje	pjellja pjelljes pjelljet
+56	5256	pështiros	pështirosni
+57	5257	sandali	
+58	5258	shishqebap	shishqebapi
+59	5259	shkep	shkepja shkepnin
+60	5260	shpet	shpeti
+61	5261	shtrofkë	shtrofka
+62	5262	tejzë	tejza tejzat
+63	5263	tharbët	
+64	5264	thithëlopë	
+65	5265	thyese	thyeset
+66	5266	trishtil	trishtili
+67	5267	ujdhesar	ujdhesarët
+68	5268	ulurij	uluritur
+69	5269	vangoj	vango
+70	5270	vasile	
+71	5271	vringëlloj	vringëllon vringëlluar
+72	5272	vulvë	
+73	5273	xunkth	xunkthi
+74	5274	çakëll	
+75	5275	çepi	çefi
+76	5276	qyrë	qyrat qyre
+77	5277	cungoj	cungoi cungon cunguar
+78	5278	kuçedër	kulshedër kuçedra kuçedrën kuçedrës
+79	5279	mërgoj	mërgoi mërgojnë mërgonte mërguan mërguar
+80	5280	afirmoj	afirmoi afirmojmë afirmojnë afirmon afirmonte afirmuan afirmuar
+81	5281	idealizëm	idealizmi
+82	5282	përgjithësoj	përgjithësojnë përgjithësuar
+83	5283	tharm	tharmi tharmin tharmë
+84	5284	karrotrec	karrotreci karrotrecësh
+85	5285	monografi	monografia monografie monografinë monografish monografisë monografitë monografive
+86	5286	gargarë	gargare
+87	5287	niseshte	
+88	5288	groshë	grosha groshe groshën groshësh
+89	5289	demagogji	demagogjia demagogjinë demagogjisë
+90	5290	cekë	cekës
+91	5291	derivat	
+92	5292	dermatologji	dermatologjisë
+93	5293	rrogoz	
+94	5294	rrufë	rrufa rrufën rrufës
+95	5295	lezhjan	lezhjane lezhjani lezhjanin lezhjanit lezhjanë lezhjanët lezhjanëve
+96	5296	avancë	
+97	5297	drejtshkrim	drejtshkrimi drejtshkrimin
+98	5298	abstenoj	abstenoi abstenojnë abstenon abstenuan abstenuar
+99	5299	propagandoj	propagandoi propagandojnë propagandon propagandonin propagandonte propaganduan propaganduar
+100	5300	pasthirrmë	pasthirrma pasthirrmat

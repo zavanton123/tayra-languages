@@ -1,100 +1,100 @@
-1	5501	groshë	grosha groshe groshën groshësh
-2	5502	demagogji	demagogjia demagogjinë demagogjisë
-3	5503	ulqinak	ulqinaku ulqinakun ulqinakut ulqinakët
-4	5504	derivat	
-5	5505	rrogoz	
-6	5506	dermatologji	dermatologjisë
-7	5507	rrufë	rrufa rrufën rrufës
-8	5508	lezhjan	lezhjane lezhjani lezhjanin lezhjanit lezhjanë lezhjanët lezhjanëve
-9	5509	kikë	kika kike kikën kikës
-10	5510	drejtshkrim	drejtshkrimi drejtshkrimin
-11	5511	avancë	
-12	5512	abstenoj	abstenoi abstenojnë abstenon abstenuan abstenuar
-13	5513	propagandoj	propagandoi propagandojnë propagandon propagandonin propagandonte propaganduan propaganduar
-14	5514	shtangë	shtanga shtange shtangën shtangës
-15	5515	pasthirrmë	pasthirrma pasthirrmat
-16	5516	vatan	vatani vatanin
-17	5517	tagër	tagri
-18	5518	lashtësi	lashtësia lashtësinë
-19	5519	shqipëroj	shqipërojnë shqipëron shqipëruar
-20	5520	anshëm	
-21	5521	vyeshëm	
-22	5522	kosë	kosa kosën
-23	5523	krunde	krundet
-24	5524	bares	
-25	5525	grish	grishja grishje grishte
-26	5526	lez	leze lezë
-27	5527	kalaman	kalamaj kalamajt kalamani
-28	5528	brom	
-29	5529	bostan	bostaneve bostani bostanin bostanit
-30	5530	ngadalësi	ngadalësia ngadalësinë
-31	5531	elokuencë	elokuenca elokuencën
-32	5532	dasmor	dasmorë dasmorësh dasmorët dasmorëve
-33	5533	grahmë	grahmat grahmave grahmën
-34	5534	gegë	gege gegët gegëve
-35	5535	vetëshërbim	vetëshërbimi vetëshërbimit
-36	5536	shtatorë	
-37	5537	xhuma	
-38	5538	kllapi	kllapia
-39	5539	dhe/ose	
-40	5540	kryeneçësi	kryeneçësia
-41	5541	kapërdij	kapërdirë
-42	5542	llup	llupi llupë llupën
-43	5543	kërmë	kërma kërmat
-44	5544	jurisprudencë	jurisprudenca jurisprudencën jurisprudencës
-45	5545	vobektë	arbëresh
-46	5546	kroatisht	
-47	5547	shpërfillje	shpërfillja shpërfilljeje shpërfilljen shpërfilljes
-48	5548	pult	pulte
-49	5549	plor	plori plorit
-50	5550	përafroj	përafrojmë përafrojnë përafron përafronte përafruar
-51	5551	pullaz	pullaze pullazet pullazi
-52	5552	bor	
-53	5553	latoj	lato laton latuar
-54	5554	smirë	smira
-55	5555	idiomë	idioma idiomat idiomave
-56	5556	vjerr	vjerrë vora
-57	5557	kaci	
-58	5558	syth	sytha sythat
-59	5559	fustanellë	fustanella fustanellën
-60	5560	pusullë	pusullat pusullën
-61	5561	fend	fende fendi
-62	5562	zheg	zhegu zhegun
-63	5563	mjergull	mjegullë
-64	5564	albanolog	albanologu albanologun albanologut albanologë albanologët albanologëve
-65	5565	sefer	
-66	5566	rraqe	
-67	5567	bullgarisht	
-68	5568	hiperbolë	hiperbola
-69	5569	përemër	përemrat përemri
-70	5570	krupë	krupa krupën
-71	5571	demografi	demografia demografinë
-72	5572	maqedonisht	
-73	5573	çinar	çinari
-74	5574	bukëpjekës	
-75	5575	atelie	
-76	5576	grykësi	grykësia grykësinë
-77	5577	shtegtoj	shtegtojnë shtegton shtegtuar
-78	5578	sebep	sebepe sebepi sebepin
-79	5579	parvjet	
-80	5580	transkriptoj	transkriptoi transkriptuar
-81	5581	jerm	jermi
-82	5582	shitblerje	
-83	5583	cingonë	ciganë
-84	5584	thagmë	thagma
-85	5585	invadim	invadimi invadimit
-86	5586	zvetënoj	zvetënuar
-87	5587	krasit	krasitja krasitje krasitur
-88	5588	intonacion	intonacioni intonacionin
-89	5589	vallahi	valla
-90	5590	çafkë	çafka
-91	5591	gërryerje	
-92	5592	selino	selinoja selinë
-93	5593	krahasueshëm	
-94	5594	arkaik	arkaike
-95	5595	tështij	tështi tështimë tështin tështinë
-96	5596	shitoj	shituar
-97	5597	çare	
-98	5598	gramatikisht	
-99	5599	atrofi	
-100	5600	blatoj	blato blatuar
+1	5501	çifteli	çiftelia çiftelinë çiftelisë
+2	5502	goc	goci
+3	5503	amulli	amullinë
+4	5504	etimologji	etimologjia etimologjinë etimologjisë
+5	5505	kujë	kuja kujën
+6	5506	admirohem	admirohen admiroheni admirohet
+7	5507	feminizëm	feminizmi feminizmin
+8	5508	marksizëm	marksizmi marksizmin
+9	5509	cullak	
+10	5510	morfologji	morfologjia morfologjinë morfologjisë
+11	5511	ngadhënjej	ngadhënjejnë ngadhënjen ngadhënjeu ngadhënjyem ngadhënjyer
+12	5512	minorancë	minoranca minorance
+13	5513	mullis	mullisë mullisët mullisëve
+14	5514	rrojmë	
+15	5515	vetiu	
+16	5516	ngutshëm	
+17	5517	qyl	qyli
+18	5518	ligjërues	
+19	5519	dëftoj	dëftoi dëftojnë dëfton dëftonte
+20	5520	ndërsej	ndërse ndërsejmë ndërsen ndërsyen ndërsyer
+21	5521	amëz	
+22	5522	hirrë	hirra
+23	5523	opingë	opinga opingat opingën
+24	5524	autokton	
+25	5525	kolaudim	kolaudimi kolaudimin kolaudimit
+26	5526	lushnjar	lushnjari lushnjarë lushnjarët lushnjarëve
+27	5527	kolorit	kolorite koloriti koloritin
+28	5528	simptomatik	simptomatike
+29	5529	cikë	cikës
+30	5530	qenësor	qenësore
+31	5531	vakëf	vakëfe vakëfet vakëfeve vakëfi vakëfit
+32	5532	cem	cemi
+33	5533	zarar	zarari
+34	5534	krushk	krushku krushkun krushq krushqit krushqve
+35	5535	bajrak	bajraku bajrakun bajrakut
+36	5536	fusnotë	fusnota
+37	5537	aftësoj	aftësuar
+38	5538	bletari	bletaria bletarinë
+39	5539	enjë	enjën ënjë
+40	5540	jomiqësor	jomiqësore
+41	5541	radiolog	radiologu
+42	5542	bëz	bez beze
+43	5543	derman	
+44	5544	narcizëm	narcizmi narcizmin
+45	5545	ngratë	
+46	5546	ymër	ymri ymrin
+47	5547	grevist	greviste grevistë
+48	5548	vreshtar	vreshtarë vreshtarët vreshtarëve
+49	5549	bulmetore	bulmetorja
+50	5550	copëzoj	copëzon copëzuar
+51	5551	lym	lyme lymin
+52	5552	lëngatë	lëngata lëngatën lëngatës
+53	5553	mikrobiologji	
+54	5554	pjesore	
+55	5555	çaf	cif çif
+56	5556	tiranas	tiranasit
+57	5557	rigë	riga rigën rigës
+58	5558	azgan	
+59	5559	buj	bujtur
+60	5560	diqysh	
+61	5561	kaçkavall	
+62	5562	hasmëri	hasmëria hasmëritë hasmërive
+63	5563	hendboll	hendbolli hendbollin
+64	5564	selino	selinoja
+65	5565	mbruhem	mbrujtur
+66	5566	miop	miope
+67	5567	rrek	rrekur
+68	5568	dëmshpërblej	dëmshpërbleje dëmshpërblejnë dëmshpërblen dëmshpërblente dëmshpërblyer
+69	5569	ëmbëltore	ëmbëltoret ëmbëltorja
+70	5570	fiqir	fiqiri
+71	5571	shqyptare	shqyptaret
+72	5572	bonjë	bonjat bonje bonjës
+73	5573	imagjinueshëm	
+74	5574	arixhi	arixhinj arixhinjsh arixhiu
+75	5575	brymë	bryma
+76	5576	kurm	kurmi kurmin
+77	5577	lulëkuqe	lulëkuqet lulëkuqeve
+78	5578	vezullon	
+79	5579	çirak	
+80	5580	elbasanas	elbasanasi elbasanasit
+81	5581	adash	adashi adashin
+82	5582	begenis	begenisur
+83	5583	cirë	cira
+84	5584	grigjë	grigjën grigjës
+85	5585	kic	kice kici
+86	5586	lacë	laca lacat lace
+87	5587	meshin	meshini
+88	5588	papaja	
+89	5589	shtangë	shtangës
+90	5590	thuk	thuktë
+91	5591	vëngër	
+92	5592	alarmim	alarmimit
+93	5593	amësi	amësia amësie
+94	5594	gak	
+95	5595	gjedhë	gjëthë
+96	5596	kallm	kallmi
+97	5597	mësysh	
+98	5598	runë	runa
+99	5599	afishoj	afishojnë afishonte afishuar
+100	5600	bronkit	bronkiti bronkitin bronkitit

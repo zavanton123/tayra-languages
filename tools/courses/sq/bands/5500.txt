@@ -1,100 +1,100 @@
-1	5401	gramatikor	gramatikore
-2	5402	cuban	
-3	5403	pellë	pella
-4	5404	aba	
-5	5405	rreshk	rreshkur
-6	5406	rrëmujaxhi	rrëmujaxhinj
-7	5407	ath	atha athe
-8	5408	shtriqem	shtriqur
-9	5409	beratas	beratasi beratasit beratasve
-10	5410	cepë	cepa cepe
-11	5411	matjan	matjani matjanin matjanit matjanët matjanëve
-12	5412	djallëzi	djallëzia djallëzinë
-13	5413	meh	mef meha
-14	5414	mnerë	mere merje
-15	5415	kotëletë	
-16	5416	dërti	
-17	5417	hamës	
-18	5418	ndoh	
-19	5419	ndrys	
-20	5420	lëneshë	
-21	5421	pijan	
-22	5422	gurgulloj	gurgullon
-23	5423	lingë	linga
-24	5424	sandali	
-25	5425	luri	
-26	5426	begatshëm	
-27	5427	epshëm	
-28	5428	oler	oleri
-29	5429	cërcëritje	cërcëritjen
-30	5430	thithëlopë	
-31	5431	xunkth	xunkthi
-32	5432	harrje	
-33	5433	tharbët	
-34	5434	brukë	bruke
-35	5435	dëng	
-36	5436	bubullon	
-37	5437	cime	cimet
-38	5438	harraq	
-39	5439	cath	
-40	5440	ngalem	ngalur
-41	5441	çepi	çefi
-42	5442	vasile	
-43	5443	egjër	
-44	5444	gjembaç	
-45	5445	kacafytem	
-46	5446	bozhure	bozhuret
-47	5447	shpet	shpeti
-48	5448	çakëll	
-49	5449	ulurij	uluritur
-50	5450	duhmë	
-51	5451	ujdhesar	ujdhesarët
-52	5452	vulvë	
-53	5453	keqardhës	
-54	5454	dudum	
-55	5455	shtrofkë	shtrofka
-56	5456	kalk	
-57	5457	njehsor	
-58	5458	vangoj	vango
-59	5459	horrë	
-60	5460	aç	
-61	5461	karuc	karuci
-62	5462	fyelltar	fyelltari fyelltarin
-63	5463	llafos	llafosje
-64	5464	pështiros	pështirosni
-65	5465	kordhë	kordha kordë
-66	5466	trishtil	trishtili
-67	5467	shishqebap	shishqebapi
-68	5468	grih	grihu
-69	5469	dallë	dalla
-70	5470	ngij	ngirë ngiva
-71	5471	vringëlloj	vringëllon vringëlluar
-72	5472	thyese	thyeset
-73	5473	lebeti	lebetie
-74	5474	guf	gufi gufin
-75	5475	hikërr	hikrra
-76	5476	majhosh	majhoshe
-77	5477	fakulltet	fakullteti
-78	5478	pjellje	pjellja pjelljes pjelljet
-79	5479	shkep	shkepja shkepnin
-80	5480	gogësij	gogësijnë gogësimë gogësinë
-81	5481	amper	amperi amperin
-82	5482	hidrat	hidrati hidratit
-83	5483	tejzë	tejza tejzat
-84	5484	qyrë	qyrat qyre
-85	5485	cungoj	cungoi cungon cunguar
-86	5486	muhaxhir	muhaxhiri muhaxhirë
-87	5487	cekë	ceka cekën cekës
-88	5488	shfrej	shfryrë
-89	5489	kuçedër	kulshedër kuçedra kuçedrën kuçedrës
-90	5490	mërgoj	mërgoi mërgojnë mërgonte mërguan mërguar
-91	5491	gresë	gresa gresën gresës
-92	5492	afirmoj	afirmoi afirmojmë afirmojnë afirmon afirmonte afirmuan afirmuar
-93	5493	përgjithësoj	përgjithësojnë përgjithësuar
-94	5494	tharm	tharmi tharmin tharmë
-95	5495	idealizëm	idealizmi
-96	5496	hutë	huta hutën hutës
-97	5497	karrotrec	karrotreci karrotrecësh
-98	5498	monografi	monografia monografie monografinë monografish monografisë monografitë monografive
-99	5499	gargarë	gargare
-100	5500	niseshte	
+1	5401	zhapi	shapi zhapik
+2	5402	hajdutëri	hajdutëria hajdutërinë hajdutëritë
+3	5403	cuk	cuka cuku
+4	5404	amvisëri	
+5	5405	censurë	
+6	5406	-u	
+7	5407	abanoz	abanozi
+8	5408	acetilen	
+9	5409	armëpunues	
+10	5410	avullore	
+11	5411	bigë	
+12	5412	bigëzim	
+13	5413	bubu	
+14	5414	bythëqirë	bythëqira
+15	5415	cezium	
+16	5416	ciflos	ciflosa ciflosur
+17	5417	cirkoj	cirkojmë
+18	5418	deroj	deron
+19	5419	dijetare	
+20	5420	ehull	
+21	5421	ekuinoks	
+22	5422	fellë	fella
+23	5423	fjalaman	
+24	5424	fërgohem	
+25	5425	gabel	
+26	5426	gashtë	
+27	5427	gjobis	
+28	5428	gjëlpërë	gjëlpërat
+29	5429	guall	guaj
+30	5430	guriçkë	guriçka
+31	5431	gërdit	gërditur
+32	5432	hakërri	
+33	5433	hasëll	
+34	5434	imtësoj	imtësuar
+35	5435	jargavan	jargavani
+36	5436	jeh	
+37	5437	kocë	
+38	5438	kompensatë	
+39	5439	kular	
+40	5440	kulë	kula
+41	5441	lafshë	lafshat
+42	5442	langua	langoi
+43	5443	largesë	largese
+44	5444	luzmë	luzma luzmat
+45	5445	lëmoj	lëmon
+46	5446	majasëll	
+47	5447	mbarsje	
+48	5448	morrac	morracak
+49	5449	muskulaturë	
+50	5450	mëshqerrë	mëshqerre
+51	5451	naxhake	naxhaken naxhaket
+52	5452	ofshamë	
+53	5453	paganizëm	
+54	5454	pantomimë	
+55	5455	parmëz	
+56	5456	qihem	
+57	5457	rribë	rriba
+58	5458	satanizëm	satanizmi satanizmit
+59	5459	shejtanllëk	
+60	5460	shkartoj	shkartuar
+61	5461	shpirtmadh	
+62	5462	shpjegueshëm	
+63	5463	shtyr	
+64	5464	stap	
+65	5465	strall	stralli
+66	5466	taketuke	taketuket taketukja
+67	5467	tarr	
+68	5468	tartabiqe	
+69	5469	tejdukshmëri	tejdukshmëria tejdukshmërisë
+70	5470	termodinamikë	termodinamika termodinamikës
+71	5471	thekë	thekës
+72	5472	thelbsisht	
+73	5473	trashaman	
+74	5474	tëharr	tëharrje
+75	5475	ungj	
+76	5476	urlë	urla
+77	5477	urroj	
+78	5478	vigël	
+79	5479	vjedhëse	
+80	5480	vrikë	
+81	5481	vrragë	
+82	5482	xhade	
+83	5483	xhehenem	xhehenemi
+84	5484	zamkë	zamkën
+85	5485	zemërngushtë	
+86	5486	zokth	zoktha
+87	5487	zoologji	
+88	5488	çafë	çafën
+89	5489	shporet	shporeti shporetin shporetit
+90	5490	kurbet	gurbet kurbeti kurbetit
+91	5491	bankënotë	bankënota bankënotat bankënotave
+92	5492	krap	krapi
+93	5493	kaza	kazaja kazanë kazasë
+94	5494	qok	qoka qoku qokë qokën
+95	5495	iftar	
+96	5496	albanologji	albanologjia albanologjinë albanologjisë
+97	5497	autokrat	
+98	5498	gjanë	gjana
+99	5499	softuer	softuerë
+100	5500	ashiqare	

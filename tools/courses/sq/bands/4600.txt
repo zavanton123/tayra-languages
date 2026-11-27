@@ -1,100 +1,100 @@
-1	4501	fugë	fuga
-2	4502	ujdis	ujdisi ujdisur ujdisët
-3	4503	shaloj	shaloi shaloje shalojmë shaloni shaluan shaluar
-4	4504	mbinatyrshëm	
-5	4505	kuak	
-6	4506	bun	buni
-7	4507	rruzull	rruzullit
-8	4508	dukshmëri	dukshmëria
-9	4509	kazmë	kazma kazme kazmën kazmës
-10	4510	serë	
-11	4511	bojaxhi	bojaxhinj bojaxhinjtë bojaxhiu bojaxhiun bojaxhiut
-12	4512	trajtë	trajta trajtat trajtave trajtën trajtës
-13	4513	pompoj	pompo pompojmë pompojnë pompon pomponin pompova pompuan pompuar
-14	4514	citë	cita citat
-15	4515	hollohem	hollohet holluar
-16	4516	ceke	ceket cekja
-17	4517	bashkëveprim	bashkëveprimet bashkëveprimeve bashkëveprimi bashkëveprimin bashkëveprimit
-18	4518	tavë	tava tave tavën tavës
-19	4519	atribut	atributet
-20	4520	ngjyej	ngjeu ngjyejmë ngjyejnë ngjyen ngjyer
-21	4521	llaç	llaçi llaçin llaçit lloç
-22	4522	teposhtë	
-23	4523	glasë	glasa glase glasën
-24	4524	doracak	doracaku doracakun doracakut doracakë
-25	4525	blertë	
-26	4526	çam	çame çami çamit çamë çamët çamëve
-27	4527	kusi	kusia kusinë kusisë kusitë kusive
-28	4528	kreshnik	kreshniku kreshnikun kreshnikut kreshnikët kreshnikëve
-29	4529	aludoj	aludoi aludojnë aludon aludonte aluduan aluduar
-30	4530	shqitem	shqitej shqiten shqitesh shqitet shqitu shqitur
-31	4531	kalli	kallinj kallinjtë kalliri
-32	4532	zeshkan	zeshkane
-33	4533	lavd	lavde lavdet lavdin
-34	4534	sulmim	sulmime sulmimet sulmimi sulmimin sulmimit
-35	4535	arkeologji	arkeologjia arkeologjinë arkeologjisë
-36	4536	therës	therëse
-37	4537	lulishte	lulishten lulishtes lulishtet lulishteve lulishtja
-38	4538	napolon	napolona napoloni napolonin napolonit
-39	4539	rrëmoj	rrëmo rrëmojnë rrëmon rrëmoni rrëmove rrëmuar
-40	4540	vrenjt	vrenjte vrenjtin vrenjtje vrenjtur
-41	4541	zbritja	
-42	4542	brimë	brima brimash brimat brime
-43	4543	gjeologjik	gjeologjike
-44	4544	zëvendëspresident	zëvendëspresidenti zëvendëspresidentin zëvendëspresidentit zëvendëspresidentë zëvendëspresidentët
-45	4545	ngastër	ngastra
-46	4546	fruth	fruthi fruthin
-47	4547	domosdo	
-48	4548	atësi	atësia atësie atësinë atësisë
-49	4549	mazë	mazash maze
-50	4550	gëloj	gëlojnë gëlon gëlonin gëlonte gëluar
-51	4551	cicërimë	cicërima cicërimash cicërimat cicërimave cicërime cicërimën cicërimës
-52	4552	druvar	druvari druvarë druvarët
-53	4553	capë	capa cape
-54	4554	paarsyeshëm	
-55	4555	botanikë	botanik botanike
-56	4556	arap	arapi arapin arapit
-57	4557	bamje	bamja bamjet bamjeve
-58	4558	përpëlit	përpëlite përpëlitje përpëlitur
-59	4559	qeros	qerose
-60	4560	sylesh	syleshi
-61	4561	spicë	spica spicat spice
-62	4562	reze	rezet
-63	4563	kaçubë	kaçuba kaçubat kaçube kaçubën
-64	4564	zall	zalli zallin zallit
-65	4565	finik	finiks
-66	4566	qemer	qemerë qemerët
-67	4567	agjërim	agjërimi agjërimin agjërimit
-68	4568	stof	stofi stofin
-69	4569	dendësi	dendësia dendësinë dendësisë
-70	4570	poç	
-71	4571	fengem	fengu
-72	4572	dëfrehem	dëfrehemi
-73	4573	shter	shtera shtere shteri shterim shterin shterur
-74	4574	moçëm	moçme
-75	4575	facoletë	facolet facoleta facolete facoletën faculetë
-76	4576	llixhë	llixha llixhat llixhave llixhe llixhën
-77	4577	dilet	
-78	4578	dac	daca daci dacin dacit
-79	4579	majmë	
-80	4580	cenim	cenimi cenimin cenimit
-81	4581	vapor	vapori vaporin vaporit vaporë vaporët
-82	4582	epitet	epitete epitetesh epitetet epiteti epitetin epitetit
-83	4583	pajë	paja pajën pajës
-84	4584	korçar	korçari korçarin korçarit korçarë korçarët korçarëve
-85	4585	vesht	vreshta vreshtat
-86	4586	vetëvendos	vetëvendose vetëvendosja vetëvendosur
-87	4587	parahistorik	parahistorike
-88	4588	çudibërës	çudibërëse
-89	4589	gjermanishte	gjermanishten gjermanishtes gjermanishtja
-90	4590	pakuptueshëm	
-91	4591	rigon	rigoni
-92	4592	shkurtohem	shkurto shkurtohej shkurtohen shkurtoheshin shkurtohet shkurtoi shkurtoja shkurtoje shkurtojmë shkurtojnë shkurton shkurtoni shkurtonim shkurtonin shkurtonte shkurtova shkurtove shkurtuan shkurtuar shkurtuat
-93	4593	pijetore	pijetoren pijetores pijetoret
-94	4594	mavijosje	mavijosjet
-95	4595	mbarëkombëtar	mbarëkombëtare mbarëkombëtarë
-96	4596	doke	doket
-97	4597	alfabetik	alfabetike
-98	4598	klor	klori klorin klorit
-99	4599	ashtë	ashta ashte ashtës
-100	4600	maç	maçe maçet maçi
+1	4501	maç	maçet maçi
+2	4502	katund	katunde katundet katundeve katundi katundin katundit
+3	4503	llapë	llapa llape llapën
+4	4504	lab	labe
+5	4505	nevojtore	
+6	4506	imoral	imorale
+7	4507	potkua	patkoi patkonjtë patkua
+8	4508	shkath	shkathte shkathtë
+9	4509	zhivë	zhiva zhivën
+10	4510	duhanxhi	duhanxhinj duhanxhinjtë duhanxhiu
+11	4511	qiellzë	qiellze qiellzën qiellzës
+12	4512	matrapaz	
+13	4513	thep	thepa thepat thepave
+14	4514	enciklopedi	enciklopedia enciklopedinë enciklopedisë enciklopeditë
+15	4515	shtall	shtalla shtallë
+16	4516	lundër	lundra lundrat lundrën lundrës
+17	4517	dekorativ	dekorative dekorativë
+18	4518	ënjt	ënjta ënjtja ënjtje ënjtur ënjtën
+19	4519	ngërth	ngërç
+20	4520	thëngjill	thëngjij thëngjilli thëngjillin thëngjillit
+21	4521	avit	avis
+22	4522	brumbull	
+23	4523	epshor	epshore
+24	4524	kolibër	kolibrat kolibri kolibrin
+25	4525	nepërkë	nepërka nepërkave
+26	4526	nuselalë	nuselala
+27	4527	abstenim	abstenime abstenimi abstenimin abstenimit
+28	4528	burrëror	burrërore
+29	4529	nur	nure nuri
+30	4530	fortësi	fortësia fortësinë fortësisë
+31	4531	sublim	sublime
+32	4532	hiçgjë	
+33	4533	pykë	pyka pykat pykave pyke pykën
+34	4534	llucë	lluca lluce llucës
+35	4535	thupër	thupra thuprat thuprën
+36	4536	veprimtar	veprimtarin veprimtarit veprimtarë veprimtarësh veprimtarët veprimtarëve
+37	4537	vrer	vner vreri vrerin
+38	4538	drojë	droja droje drojet drojën
+39	4539	copëtim	copëtime copëtimi copëtimin copëtimit
+40	4540	bardhës	bardhësi
+41	4541	pritem	
+42	4542	thi	thitë
+43	4543	avash-avash	
+44	4544	metaforik	metaforike
+45	4545	famull	famulli famullin famullit
+46	4546	flatër	flatra flatrat
+47	4547	vajtje-ardhje	
+48	4548	jozyrtarisht	
+49	4549	petk	petka petkat petku petkun petkut
+50	4550	hyrje-dalje	hyrje-dalja hyrje-daljen hyrje-daljes hyrje-daljet hyrje-daljeve
+51	4551	aerodinamik	aerodinamike
+52	4552	hieroglif	hieroglife hieroglifet hieroglifi
+53	4553	burmë	burma
+54	4554	thekër	thekre thekrës
+55	4555	tëmth	tëmthi tëmthin tëmthit
+56	4556	luleshitës	luleshitësi
+57	4557	prikë	prika prikën
+58	4558	thëllëzë	thëllëza thëllëzash thëllëzave thëllëzën
+59	4559	botërisht	
+60	4560	berk	berku berkut
+61	4561	enigmatik	enigmatike
+62	4562	fjalosem	fjalosemi
+63	4563	gërhas	gërhitur
+64	4564	zhguall	zhgualli zhguallit
+65	4565	gul	
+66	4566	lambrik	
+67	4567	pordhac	pordhaci
+68	4568	vjedull	vjedulla vjedullat
+69	4569	osh	osha oshe oshte oshtë
+70	4570	zellshëm	
+71	4571	paradigmë	paradigma paradigmat paradigmave paradigme paradigmën paradigmës
+72	4572	dergj	dergjet dergjur
+73	4573	autonom	
+74	4574	përafrim	përafrime përafrimet përafrimi përafrimin përafrimit
+75	4575	trastë	trasta traste trastën
+76	4576	sociologji	sociologjia sociologjinë sociologjisë
+77	4577	zverdh	zverdhe zverdhja zverdhje zverdhur
+78	4578	supersticioz	supersticioze
+79	4579	shtuara	
+80	4580	hirtë	
+81	4581	durrsak	durrsaku durrsakun durrsakut durrsakë durrsakët durrsakëve
+82	4582	bejkë	beg bege bejkën bejkër bekë
+83	4583	malësor	malsor malësore malësori malësorit malësorë malësorët malësorëve
+84	4584	vajgur	vajguri vajgurin
+85	4585	daltë	dalta dalte daltën daltës
+86	4586	tiji	
+87	4587	bioteknologji	bioteknologjia bioteknologjinë bioteknologjisë
+88	4588	mallëngjej	mallëngjen mallëngjeu mallëngjeva mallëngjyer
+89	4589	biolog	
+90	4590	luspë	luspa luspat
+91	4591	cit	citi citim
+92	4592	prefekturë	prefektura prefekturat prefekturave prefekture prefekturës
+93	4593	rjep	rjepi rjepim rjepin rjepur
+94	4594	lezet	
+95	4595	brej	breja brejnë brejtur brente
+96	4596	shfuqizim	shfuqizimi shfuqizimin shfuqizimit
+97	4597	koprac	koprace
+98	4598	ambalazh	ambalazhe ambalazhet ambalazheve ambalazhi ambalazhin ambalazhit
+99	4599	epem	epa epur
+100	4600	tespihe	tespihesh tespihet tespiheve tespije
