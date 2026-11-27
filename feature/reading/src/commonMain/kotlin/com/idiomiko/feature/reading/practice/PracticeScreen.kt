@@ -13,6 +13,7 @@ import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -32,6 +33,7 @@ import androidx.compose.material.icons.filled.Edit
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
+import androidx.compose.material3.ScaffoldDefaults
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.DisposableEffect
@@ -163,6 +165,8 @@ fun PracticeScreen(
     Scaffold(
         topBar = { if (!dialog) AppTopBar(title = tr("Practice"), onNavigate = onNavigate, section = if (source is PracticeSource.Words) NavSection.TERMS else NavSection.BOOKS, onBack = onBack) },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
+        // Over the page its host keeps clear of the system bars; no gap of their height above the questions.
+        contentWindowInsets = if (dialog) WindowInsets(0) else ScaffoldDefaults.contentWindowInsets,
     ) { padding ->
         if (state.loading) {
             LoadingIndicator(Modifier.padding(padding))
