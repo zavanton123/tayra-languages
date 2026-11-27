@@ -131,6 +131,9 @@ OVERRIDES = {
     "ਦੁਨੀਆਂ": ["ਦੁਨੀਆ"], "ਨੁੰ": ["ਨੂੰ"], "ਅਪਰੈਲ": ["ਅਪ੍ਰੈਲ"], "ਕਾਰਣ": ["ਕਾਰਨ"], "ਕਾਰਣਾਂ": ["ਕਾਰਨ"],
     # ਆਪਣਾ and ਇਨ੍ਹਾਂ spelled otherwise.
     **{f: ["ਆਪ"] for f in ("ਅਪਣੀ", "ਅਪਣੇ", "ਅਪਣੀਆਂ")}, "ਇੰਨ੍ਹਾਂ": ["ਇਹ"],
+    # Words the pack lacks (WORDS), not the others spelled alike: ਆਗਿਆ "permission" (ਆਗਾ's oblique by rule), ਸਤਰ "line"
+    # (ਸੱਤਰ "seventy"); and ਜ਼ਰੀਏ "by means of", ਜ਼ਰੀਆ's oblique, not ਜਰਨਾ's subjunctive.
+    "ਆਗਿਆ": ["ਆਗਿਆ"], "ਸਤਰ": ["ਸਤਰ"], "ਸਤਰਾਂ": ["ਸਤਰ"], "ਜ਼ਰੀਏ": ["ਜ਼ਰੀਆ"], "ਜਰੀਏ": ["ਜ਼ਰੀਆ"],
 }
 
 # Names and surnames the pack has as words (ਸਿੰਘ "lion" is the Sikh surname in text), and letters.
@@ -283,10 +286,10 @@ IRREGULAR = {
 # Everyday words the pack lacks, or has only as a name, with their kinds: ਰੱਬ "God", ਬ੍ਰਹਿਮੰਡ "universe", ਸੁਆਹ "ash",
 # languages, months and days; ਵਜੇ "o'clock" (the pack's ਵੱਜੇ, a form of ਵੱਜਣਾ, otherwise); ਕੇਸ "case", ਪਦ "verse, post",
 # ਗੋਲੀ "bullet, pill" and ਕੱਪ "cup", which it has only spelled as other words (ਕੇਸ਼ "hair", ਪੱਦ "fart", ਗੋਲਾ "slave",
-# ਕੱਪਣਾ "to cut").
+# ਕੱਪਣਾ "to cut"); ਆਗਿਆ "permission" and ਸਤਰ "line" (see OVERRIDES).
 WORDS = {"ਰੱਬ": "noun", "ਬ੍ਰਹਿਮੰਡ": "noun", "ਸੁਆਹ": "noun", "ਅੰਗਰੇਜ਼ੀ": "noun", "ਸੰਸਕ੍ਰਿਤ": "noun", "ਜਨਵਰੀ": "noun",
          "ਦਸੰਬਰ": "noun", "ਐਤਵਾਰ": "noun", "ਵਜੇ": "noun", "ਕੇਸ": "noun", "ਪਦ": "noun", "ਗੋਲੀ": "noun", "ਕੱਪ": "noun",
-         "ਸੰਨ": "noun", "ਜਮ੍ਹਾਂ": "adj"}
+         "ਸੰਨ": "noun", "ਜਮ੍ਹਾਂ": "adj", "ਆਗਿਆ": "noun", "ਸਤਰ": "noun"}
 # Forms of the corpus that are no words for induce, among the first 3,000 it would find: names of people, places, parties
 # and firms (as the pack's names are none), English words that come only in English names (ਆਫ, ਐਂਡ, ਨੈਸ਼ਨਲ), and
 # abbreviations and ordinal endings written apart (ਸ੍ਰ, ਪ੍ਰੋ, ਕਿਮੀ, ਵੀਂ).
