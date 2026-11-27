@@ -649,6 +649,65 @@ def _leipzig_sentences(path):
 DIGITS = re.compile(r"[0-9०-९]+")
 
 
+# The news's people: a word the news and Wikipedia write before a surname or a middle name (गोपाल खड्का, माधव कुमार नेपाल)
+# NAMED_SHARE of the times they write it, or NAMED_SHARE_GIVEN when a pack has it as a given name or surname too (गोपाल
+# "cowherd; Gopal"), is a name and left out, once they write it NAMED_LEAST times. The surnames and middle names that tell.
+SURNAMES = set("""
+    थापा श्रेष्ठ शाह सिंह राई गुरुङ पौडेल शर्मा यादव खड्का कार्की अधिकारी भट्टराई दाहाल ओली देउवा केसी बस्नेत तामाङ मगर
+    लामा घिमिरे कोइराला पाण्डे पाण्डेय उपाध्याय आचार्य जोशी पोखरेल पोख्रेल भण्डारी रेग्मी गौतम खनाल न्यौपाने ढकाल सापकोटा
+    बराल लम्साल महर्जन शाक्य बज्राचार्य मल्ल चौधरी साह झा मिश्र मिश्रा ठाकुर गिरी गिरि पुन बुढा रोका विष्ट बिष्ट सुवेदी सुबेदी
+    तिवारी काफ्ले ज्ञवाली लुइटेल रिजाल कँडेल कंडेल पन्त ओझा खत्री कुँवर क्षेत्री बोहरा प्रधान मानन्धर डंगोल तुलाधर कसजू अर्याल
+    भुसाल पाठक रिमाल कुइकेल सिग्देल ढुंगाना दुलाल सिटौला राउत महतो मण्डल पासवान कर्ण गुप्ता ठकुरी हमाल रावल धामी चन्द वली
+    बुढाथोकी कटुवाल लिम्बु सुनुवार शेर्पा मुखिया खरेल अमात्य श्रीवास्तव भट्ट जैसी लामिछाने चापागाईं चापागाई बाँस्कोटा
+    बास्कोटा नेम्वाङ इङ्नाम बराइली विक सार्की परियार दमाई कामी गुरागाईं सेढाईं अग्रवाल केडिया गोयल चौलागाईं खतिवडा सुवाल
+    महत भेटवाल वाग्ले बाग्ले देवकोटा पराजुली घले थकाली राना रायमाझी
+""".split())
+MIDDLE_NAMES = {"बहादुर", "प्रसाद", "कुमार", "राज", "लाल", "नाथ", "देवी", "कुमारी", "मान", "शमशेर", "बाबु"}
+# The endings a name takes (गोपाल खड्काले, माधवजी).
+NAME_ENDINGS = ("", "को", "का", "की", "ले", "लाई", "मा", "बाट", "सँग", "जी", "ज्यू", "हरू", "द्वारा", "सहित", "समेत")
+NAMED_SHARE = 0.35
+NAMED_SHARE_GIVEN = 0.3
+NAMED_LEAST = 20
+_GIVEN_GLOSS = re.compile(r"\b(given name|surname)\b")
+# Left out by name: the castes and surnames (ब्राह्मण, बाहुन, ठकुरी, खत्री, ठाकुर, पटेल), people (आदम, अली, अरुण, रहमान,
+# विप्लव) and companies (गूगल) the shares miss, and the English and Hindi of film subtitles that Nepali has its own words for
+# (बुक, रोल, हैट, वाटर; पिताजी, बिन, ही, भी, बात).
+NOT_LISTED = set("""
+    ब्राह्मण बाहुन क्षेत्री ठकुरी कायस्थ क्षत्रिय खत्री कुँवर ठाकुर ओझा पटेल कपूर रावत शास्त्री सेन कश्यप
+    आदम अली अरुण रहमान अमिताभ रणवीर दीपिका निखिल मालती जया रोहिणी अमन आजाद अक्षय सौरभ अंकित मोहित विप्लव आदित्य अनुराग
+    चैतन्य प्रीति नन्द भीष्म जनक गूगल
+    बुक रोल हैट वाटर टोस्ट स्क्विड वोन रूम लिस्ट किचन विकि विकी पिताजी बिन ही भी बात
+""".split())
+
+
+def is_name_part(word):
+    """Whether a word is a surname or middle name, with a name's ending on it or not (खड्का, खड्काले, बहादुर)."""
+    for ending in NAME_ENDINGS:
+        if word.endswith(ending) and word[:len(word) - len(ending)] in SURNAMES | MIDDLE_NAMES:
+            return True
+    return False
+
+
+def given_names(dictionaries=DICTIONARIES):
+    """The words the ne-en pack has as names, and those the hi-en pack glosses as a given name or surname (गोपाल, विनोद)."""
+    out = set()
+    for pack in ("ne-en", "hi-en"):
+        path = os.path.join(dictionaries, f"{pack}.sqlite")
+        if not os.path.exists(path):
+            continue
+        for word, pos, senses in sqlite3.connect(path).execute("SELECT word_lc, pos, senses FROM entries"):
+            glosses = " ".join(g for s in json.loads(senses) for g in s.get("glosses", []))
+            if pack == "ne-en" and pos == "name" or _GIVEN_GLOSS.search(glosses):
+                out.add(normalised(word))
+    return out
+
+
+def names_of(uses, given):
+    """The words the news write as names (NAMED_SHARE): uses is word -> (times written, times written before a name part)."""
+    return {word for word, (written, named) in uses.items()
+            if written >= NAMED_LEAST and named / written >= (NAMED_SHARE_GIVEN if word in given else NAMED_SHARE)}
+
+
 # A word's spellings that differ only in a nasal written as ं or as the nasal of the next letter's row (सम्भावना, संभावना;
 # रङ्ग, रंग), as ं or ँ before a consonant (भैंसी, भैँसी), त्त्व written त्व (महत्त्व, महत्व), a visarga before a consonant (दुःखी, दुखी), a nukta, the eyelash र (पुर्‍याउनु) or a final virama (संसद्, संसद):
 # one word, under its commonest spelling.
@@ -663,7 +722,7 @@ def spelling_key(word):
     return _HALF_NASAL.sub(lambda m: "ं" + m.group(2) if _NASAL_OF.get(m.group(2)) == m.group(1) else m.group(0), word)
 
 
-def fold_spellings(scores, totals, forms):
+def fold_spellings(scores, totals, forms, uses):
     """Folds each word into its commonest spelling (spelling_key), in place."""
     spellings = defaultdict(list)
     for word in scores:
@@ -674,21 +733,28 @@ def fold_spellings(scores, totals, forms):
         main = min(words, key=lambda w: (-scores[w], w))
         for word in words:
             if word != main:
-                merge(word, main, scores, totals, forms)
+                merge(word, main, scores, totals, forms, uses)
 
 
-def merge(word, into, scores, totals, forms):
+def merge(word, into, scores, totals, forms, uses):
     """Files [word] and its forms under [into], in place."""
     scores[into] += scores.pop(word)
     totals[into] += totals.pop(word, 0)
     for form, credit in forms.pop(word, {}).items():
         forms[into][form] = forms[into].get(form, 0.0) + credit
+    written, named = uses.pop(word, (0.0, 0.0))
+    uses[into][0] += written
+    uses[into][1] += named
 
 
 def _counts(download):
-    """Each kind of text's word counts, and the corpora counted."""
+    """
+    Each kind of text's word counts, the corpora counted, and how often the news and Wikipedia write each word (written) and
+    write it just before a surname or a middle name (named: गोपाल of गोपाल खड्का, माधव of माधव कुमार नेपाल).
+    """
     counts = {kind: defaultdict(int) for kind in WEIGHTS}
     used = defaultdict(list)
+    written, named = defaultdict(int), defaultdict(int)
     for kind, corpora in LEIPZIG.items():
         for corpus in corpora:
             path = download(f"https://downloads.wortschatz-leipzig.de/corpora/{corpus}.tar.gz", f"leipzig-{corpus}.tar.gz")
@@ -701,8 +767,12 @@ def _counts(download):
                 if key in seen:
                     continue
                 seen.add(key)
-                for word in _tokens(sentence):
+                words = list(_tokens(sentence))
+                for i, word in enumerate(words):
                     counts[kind][word] += 1
+                    written[word] += 1
+                    if i + 1 < len(words) and is_name_part(words[i + 1]):
+                        named[word] += 1
     path = download(SUBTITLES, "opus-opensubtitles-v2024-ne.txt.gz")
     if path is not None:
         used["OpenSubtitles"].append("v2024")
@@ -710,7 +780,7 @@ def _counts(download):
             for line in f:
                 for word in _tokens(line):
                     counts["subtitles"][word] += 1
-    return counts, used
+    return counts, used, written, named
 
 
 def label_of(used):
@@ -726,9 +796,9 @@ def rank(download, dictionaries=DICTIONARIES):
     """
     The words by score, best first, with their scores, their forms' credit (word -> form -> share), their counts in all, and
     the label of the sources: the pack's words by their forms' counts, each kind of text weighted by WEIGHTS, spellings folded
-    (fold_spellings).
+    (fold_spellings), names left out (names_of).
     """
-    counts, used = _counts(download)
+    counts, used, written, named = _counts(download)
     label = label_of(used) + " + English Wiktionary Hindi entries (CC BY-SA 4.0) for the words the ne-en pack lacks"
     share = defaultdict(float)
     raw = defaultdict(int)
@@ -755,6 +825,7 @@ def rank(download, dictionaries=DICTIONARIES):
     scores = defaultdict(float)
     totals = defaultdict(int)
     forms = defaultdict(dict)
+    uses = defaultdict(lambda: [0.0, 0.0])
     folded_into = {}
     for form, (own, verbs, nouns) in found.items():
         value = share[form]
@@ -781,12 +852,15 @@ def rank(download, dictionaries=DICTIONARIES):
             scores[head] += value * part
             totals[head] += raw[form]
             forms[head][form] = forms[head].get(form, 0.0) + value * part
+            uses[head][0] += written.get(form, 0) * part
+            uses[head][1] += named.get(form, 0) * part
     # A word filed under another (चारवटा under चार) takes its own forms with it (चारवटाको).
     for word, into in sorted(folded_into.items()):
         if word in scores and into in scores and into not in folded_into:
-            merge(word, into, scores, totals, forms)
-    fold_spellings(scores, totals, forms)
-    ranked = [w for w in sorted(scores, key=lambda w: (-scores[w], w)) if totals[w] >= LEAST_COUNT
+            merge(word, into, scores, totals, forms, uses)
+    fold_spellings(scores, totals, forms, uses)
+    left_out = names_of(uses, given_names(dictionaries)) | NOT_LISTED
+    ranked = [w for w in sorted(scores, key=lambda w: (-scores[w], w)) if totals[w] >= LEAST_COUNT and w not in left_out
               and NEPALI_FORMS.get(w, w) == w]
     return ranked, scores, forms, totals, label
 
