@@ -72,8 +72,8 @@ import com.idiomiko.feature.home.StartupSkeleton
 /**
  * Gives every screen's top bar the choice of the language being learned, and picks a language
  * again whenever the chosen one is gone. While none is chosen (first start, a deleted language or
- * a reset database), the user has to choose one before going on, then the languages meanings and
- * the interface are shown in. Choosing another
+ * a reset database), the user has to choose one before going on. Choosing the first language, or
+ * the native one, then asks for the languages meanings and the interface are shown in. Choosing another
  * language opens its courses ([onChosen]) and asks for its vocabulary level when it was never given
  * one; what the language needs is downloaded in the background meanwhile ([LanguageAssets]).
  */
@@ -96,7 +96,7 @@ private fun ProvideLearningLanguage(currentId: Long, onChosen: () -> Unit, conte
     val chineseScripts = koinInject<ChineseScriptService>()
     // The language just chosen, asked for its vocabulary level first.
     var askLevelFor by remember { mutableStateOf<Long?>(null) }
-    // The first language just chosen: the native and interface languages are asked for before its level.
+    // The first language, or the native one, just chosen: the meanings and interface languages are asked for before its level.
     var askLanguagesFor by remember { mutableStateOf<Long?>(null) }
     // What the language being learned needs is fetched in the background, at start and whenever another is chosen.
     val assets = koinInject<LanguageAssets>()
@@ -106,23 +106,20 @@ private fun ProvideLearningLanguage(currentId: Long, onChosen: () -> Unit, conte
         if (languages.isNotEmpty() && languages.none { it.id == currentId }) learning.ensure(pickUnchosen = false)
     }
     val state = remember(languages, currentId, native, knownWords, mine, wordCounts) {
-        // The native language is listed but cannot be chosen for learning, unless none is being learned:
-        // the meanings and interface languages are then asked for again once one is chosen.
-        val nativeIds = if (currentId == 0L) emptySet() else languages.filter { learning.isNative(it) }.map { it.id }.toSet()
         suspend fun choose(id: Long) {
-            val first = currentId == 0L
+            // The first language, or the native one, asks for the meanings and interface languages again.
+            val askLanguages = currentId == 0L || languages.firstOrNull { it.id == id }?.let(learning::isNative) == true
             if (!learning.select(id) || id == currentId) return
             onChosen()
-            if (first) askLanguagesFor = id else if (levels.needsLevel(id)) askLevelFor = id
+            if (askLanguages) askLanguagesFor = id else if (levels.needsLevel(id)) askLevelFor = id
         }
         LearningLanguageState(
-            languages.sortedBy { it.name }.map { it.id to it.name }, currentId, nativeIds, knownWords,
+            languages.sortedBy { it.name }.map { it.id to it.name }, currentId, knownWords = knownWords,
             // Mandarin is offered in simplified and in traditional characters, one language with the same words.
             scripts = languages.filter { it.parserType == "mandarin" }.associate { it.id to it.chineseScript },
             onSelectScript = { id, script ->
                 scope.launch {
                     val language = languages.firstOrNull { it.id == id } ?: return@launch
-                    if (currentId != 0L && learning.isNative(language)) return@launch
                     if (language.chineseScript != script) chineseScripts.setScript(id, script)
                     choose(id)
                 }

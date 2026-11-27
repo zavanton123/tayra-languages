@@ -83,9 +83,8 @@ internal fun PhoneLanguagesScreen(settings: UserSettings, learning: LearningLang
         LanguagePickerSheet(
             tr("I'm learning"), learning.choices, selected = learning.current,
             name = { tr(it.label) }, flagName = { it.label },
-            unavailable = { if (it.id in learning.nativeIds) tr("Your native language") else null },
             onDismiss = { learningSheet = false },
-            // Chosen as in the header, which also asks for the vocabulary level of a language new to the reader.
+            // Chosen as in the header, which asks for the meanings language again when the native one is chosen, and for the vocabulary level of a language new to the reader.
             onPick = { learningSheet = false; learning.select(it) },
         )
     }

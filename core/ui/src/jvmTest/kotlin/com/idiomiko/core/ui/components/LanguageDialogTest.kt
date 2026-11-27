@@ -38,7 +38,7 @@ class LanguageDialogTest {
     )
 
     private fun ComposeUiTest.open(compact: Boolean) {
-        val state = LearningLanguageState(names.mapIndexed { i, n -> (i + 1L) to n }, 1L, nativeIds = setOf(26L), knownWords = 586) {}
+        val state = LearningLanguageState(names.mapIndexed { i, n -> (i + 1L) to n }, 1L, knownWords = 586) {}
         setContent {
             IdiomikoTheme {
                 ProvideWindowWidth {
@@ -69,7 +69,7 @@ class LanguageDialogTest {
     @Test
     fun theFirstLanguageIsAskedFor() = runDesktopComposeUiTest(width = 420, height = 900) {
         val chosen = mutableListOf<Long>()
-        val state = LearningLanguageState(names.mapIndexed { i, n -> (i + 1L) to n }, 0L, nativeIds = setOf(9L)) { chosen += it }
+        val state = LearningLanguageState(names.mapIndexed { i, n -> (i + 1L) to n }, 0L) { chosen += it }
         setContent { IdiomikoTheme { ProvideWindowWidth { TargetLanguageDialog(state) } } }
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Select the language to study").fetchSemanticsNodes().isNotEmpty() }
         assertEquals(0, onAllNodesWithText("Choose the language you want to study").fetchSemanticsNodes().size, "no line under the title")
@@ -116,7 +116,7 @@ class LanguageDialogTest {
     fun theLanguageScreen() = runDesktopComposeUiTest(width = 420, height = 900) {
         val chosen = mutableListOf<Long>()
         var back = 0
-        val state = LearningLanguageState(names.mapIndexed { i, n -> (i + 1L) to n }, 1L, nativeIds = setOf(26L), knownWords = 586) { chosen += it }
+        val state = LearningLanguageState(names.mapIndexed { i, n -> (i + 1L) to n }, 1L, knownWords = 586) { chosen += it }
         setContent {
             IdiomikoTheme { ProvideWindowWidth { CompositionLocalProvider(LocalLearningLanguage provides state) { ChooseLanguageScreen(onBack = { back++ }) } } }
         }

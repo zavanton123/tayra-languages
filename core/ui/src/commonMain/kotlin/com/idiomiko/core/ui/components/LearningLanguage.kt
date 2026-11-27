@@ -74,7 +74,7 @@ import kotlinx.coroutines.launch
 
 /**
  * The language being learned and the ones to choose from; [languages] are ids with their English names, shown through `tr`.
- * [nativeIds] are listed but cannot be chosen, being the native language. [knownWords] is how many
+ * [knownWords] is how many
  * words the reader knows in the current language, shown after its name; null leaves it out.
  * [scripts] are the Chinese languages with the script each is read in: such a language is offered
  * once in each script, as two languages that share its words, and choosing one calls [onSelectScript].
@@ -84,7 +84,6 @@ import kotlinx.coroutines.launch
 class LearningLanguageState(
     val languages: List<Pair<Long, String>>,
     val currentId: Long,
-    val nativeIds: Set<Long> = emptySet(),
     val knownWords: Int? = null,
     val scripts: Map<Long, ChineseScript?> = emptyMap(),
     val onSelectScript: ((Long, ChineseScript) -> Unit)? = null,
@@ -318,16 +317,14 @@ private fun PhoneLanguageList(state: LearningLanguageState?, title: String, onBa
                     item { Text(tr("No languages match"), Modifier.padding(horizontal = AppSpacing.l, vertical = AppSpacing.l), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant) }
                 }
                 itemsIndexed(others, key = { _, choice -> choice.tag }) { index, choice -> Column(itemMotion()) {
-                    val native = choice.id in state.nativeIds
                     Row(
-                        Modifier.fillMaxWidth().clickable(enabled = !native) { onChosen(); state.select(choice) }.alpha(if (native) AppAlpha.disabled else 1f)
+                        Modifier.fillMaxWidth().clickable { onChosen(); state.select(choice) }
                             .padding(start = AppSpacing.xxl, end = if (indexed) AppSpacing.huge else AppSpacing.xxl, top = AppSpacing.m, bottom = AppSpacing.m).testTag(choice.tag),
                         verticalAlignment = Alignment.CenterVertically,
                         horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl),
                     ) {
                         LanguageFlag(choice.label, 30.dp, Modifier.clip(AppShapes.tiny))
                         Text(tr(choice.label), Modifier.weight(1f), style = MaterialTheme.typography.bodyLarge, maxLines = 1, overflow = TextOverflow.Ellipsis)
-                        if (native) Text(tr("Your native language"), style = MaterialTheme.typography.labelSmall, color = colors.onSurfaceVariant, maxLines = 1)
                     }
                     if (index < others.lastIndex) AppDivider(Modifier.padding(start = AppSpacing.l, end = if (indexed) AppSpacing.xxxl else AppSpacing.l), color = colors.outlineVariant.copy(alpha = AppAlpha.muted))
                 }}
@@ -420,7 +417,7 @@ private fun LanguageDialog(state: LearningLanguageState, onDismiss: () -> Unit, 
                 others.chunked(columns).forEach { row ->
                     Row(Modifier.fillMaxWidth().padding(bottom = AppSpacing.m), horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
                         row.forEach { choice ->
-                            LanguageTile(choice, native = choice.id in state.nativeIds, Modifier.weight(1f)) { onDismiss(); state.select(choice) }
+                            LanguageTile(choice, Modifier.weight(1f)) { onDismiss(); state.select(choice) }
                         }
                         repeat(columns - row.size) { Spacer(Modifier.weight(1f)) }
                     }
@@ -438,20 +435,18 @@ private fun SectionTitle(title: String, note: String? = null) {
     }
 }
 
-/** A language to choose: its flag and name. The native one is dimmed and says why it cannot be chosen. */
+/** A language to choose: its flag and name. */
 @Composable
-private fun LanguageTile(choice: LanguageChoice, native: Boolean, modifier: Modifier, onClick: () -> Unit) {
-    val colors = MaterialTheme.colorScheme
+private fun LanguageTile(choice: LanguageChoice, modifier: Modifier, onClick: () -> Unit) {
     val press = remember { MutableInteractionSource() }
     Row(
         modifier.height(LANGUAGE_TILE_HEIGHT).pressScale(press).cardSurface(AppShapes.panel)
-            .clickable(press, LocalIndication.current, enabled = !native, onClick = onClick).alpha(if (native) AppAlpha.disabled else 1f).padding(horizontal = AppSpacing.l).testTag(choice.tag),
+            .clickable(press, LocalIndication.current, onClick = onClick).padding(horizontal = AppSpacing.l).testTag(choice.tag),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(AppSpacing.l),
     ) {
         LanguageFlag(choice.label, 22.dp)
         Text(tr(choice.label), Modifier.weight(1f), style = AppText.emphasis, maxLines = 1, overflow = TextOverflow.Ellipsis)
-        if (native) Text(tr("Your native language"), style = MaterialTheme.typography.labelSmall, color = colors.onSurfaceVariant, maxLines = 1)
     }
 }
 

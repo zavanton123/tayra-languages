@@ -24,7 +24,7 @@ import kotlin.test.assertEquals
 import kotlin.test.assertFalse
 import kotlin.test.assertTrue
 
-/** One language is being learned at a time, never the native one; when none is chosen, or the chosen one is gone, one is picked. */
+/** One language is being learned at a time; when none is chosen, or the chosen one is gone, one is picked, passing over the native one. */
 class LearningLanguageTest {
 
     @Test
@@ -83,7 +83,7 @@ class LearningLanguageTest {
     }
 
     @Test
-    fun theNativeLanguageIsNeverTheOneLearned() = runBlocking<Unit> {
+    fun theNativeLanguageIsPassedOverButCanBeChosen() = runBlocking<Unit> {
         val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("idiomiko-learning-native", ".db").also { it.delete() }))
         val languages = LanguageRepositoryImpl(provider)
         val settings = SettingsRepositoryImpl(MapSettings())
@@ -93,9 +93,10 @@ class LearningLanguageTest {
         val czech = languages.save(Language(name = "Czech"))
         assertEquals(czech, service.ensure(), "the first language by name is passed over, being the native one")
 
-        assertFalse(service.select(bulgarian))
-        assertEquals(czech, settings.current.currentLanguageId)
-        assertTrue(service.select(czech))
+        // Chosen, it is learned, and the meanings go to another language until they are asked for.
+        assertTrue(service.select(bulgarian))
+        assertEquals(bulgarian, settings.current.currentLanguageId)
+        assertEquals("en", settings.current.nativeLanguage)
     }
 
     /** Removing the last language puts the meanings and interface languages back, and the next one may be the old native language. */

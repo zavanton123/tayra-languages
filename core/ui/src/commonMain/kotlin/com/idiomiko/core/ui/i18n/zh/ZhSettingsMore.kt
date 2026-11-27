@@ -259,7 +259,6 @@ internal val zhSettingsMore: Map<String, String> = mapOf(
     "Failed" to "失败",
     "Removed" to "已删除",
     // Language menus (LearningLanguage.kt, LanguagesScreen.kt)
-    "Your native language" to "你的母语",
     "You are learning it" to "你正在学习",
     "Get ready to learn {0}" to "准备学习{0}",
     "Everything available for {0} is already on this device." to "{0}的所有可用内容都已在本设备上。",

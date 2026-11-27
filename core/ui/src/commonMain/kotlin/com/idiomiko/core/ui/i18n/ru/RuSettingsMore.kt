@@ -259,7 +259,6 @@ internal val ruSettingsMore: Map<String, String> = mapOf(
     "Failed" to "Не удалось",
     "Removed" to "Удалено",
     // Language menus (LearningLanguage.kt, LanguagesScreen.kt)
-    "Your native language" to "Ваш родной язык",
     "You are learning it" to "Вы его изучаете",
     "Get ready to learn {0}" to "Начинаем учить {0}",
     "Everything available for {0} is already on this device." to "Всё, что есть для языка «{0}», уже на этом устройстве.",

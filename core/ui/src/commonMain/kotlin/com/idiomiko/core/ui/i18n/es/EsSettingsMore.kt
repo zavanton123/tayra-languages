@@ -259,7 +259,6 @@ internal val esSettingsMore: Map<String, String> = mapOf(
     "Failed" to "Error",
     "Removed" to "Eliminado",
     // Language menus (LearningLanguage.kt, LanguagesScreen.kt)
-    "Your native language" to "Tu idioma nativo",
     "You are learning it" to "Lo estás aprendiendo",
     "Get ready to learn {0}" to "Prepárate para aprender {0}",
     "Everything available for {0} is already on this device." to "{0}: todo lo disponible ya está en este dispositivo.",

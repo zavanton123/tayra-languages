@@ -41,7 +41,7 @@ class LanguagesScreenTest {
         var learningId = 1L
         setContent {
             var current by remember { mutableLongStateOf(1L) }
-            val state = LearningLanguageState(listOf(1L to "Portuguese", 2L to "German", 3L to "English"), current, nativeIds = setOf(3L)) { current = it; learningId = it }
+            val state = LearningLanguageState(listOf(1L to "Portuguese", 2L to "German", 3L to "English"), current) { current = it; learningId = it }
             IdiomikoTheme(AppThemes.byId(AppThemes.all.first().id)) {
                 ProvideWindowWidth {
                     CompositionLocalProvider(LocalLearningLanguage provides state) {
@@ -57,14 +57,8 @@ class LanguagesScreenTest {
         }
 
         assertTrue(onAllNodesWithText("Changes saved").fetchSemanticsNodes().isEmpty(), "nothing has changed yet")
-        // English is the native language: listed, dimmed, and not chosen when clicked.
         onNodeWithTag("learning-language").performClick()
-        onNodeWithText("Your native language").assertExists()
         System.getenv("LANGUAGES_MENU_SCREENSHOT")?.let { path -> waitForIdle(); ImageIO.write(onAllNodes(isRoot())[0].captureToImage().toAwtImage(), "png", File(path)) }
-        onAllNodesWithText("English").onLast().assertIsNotEnabled().performClick()
-        waitForIdle()
-        assertEquals(1L, learningId)
-        if (onAllNodesWithText("Your native language").fetchSemanticsNodes().isEmpty()) onNodeWithTag("learning-language").performClick()
         onAllNodesWithText("German").onLast().performClick()
         waitUntil(timeoutMillis = 5_000) { learningId == 2L }
         onNodeWithText("Changes saved").assertExists()
@@ -90,7 +84,7 @@ class LanguagesScreenTest {
         var learningId = 1L
         setContent {
             var current by remember { mutableLongStateOf(1L) }
-            val state = LearningLanguageState(listOf(1L to "Portuguese", 2L to "German", 3L to "English"), current, nativeIds = setOf(3L)) { current = it; learningId = it }
+            val state = LearningLanguageState(listOf(1L to "Portuguese", 2L to "German", 3L to "English"), current) { current = it; learningId = it }
             IdiomikoTheme(AppThemes.byId(AppThemes.all.first().id)) {
                 ProvideWindowWidth {
                     CompositionLocalProvider(LocalLearningLanguage provides state) {
@@ -105,11 +99,9 @@ class LanguagesScreenTest {
         System.getenv("LANGUAGES_SCREENSHOT")?.let { path -> waitForIdle(); ImageIO.write(onRoot().captureToImage().toAwtImage(), "png", File(path.replace(".png", "-phone.png"))) }
 
         onNodeWithTag("learning-language").performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Your native language").fetchSemanticsNodes().isNotEmpty() }
-        onAllNodesWithText("English").onLast().assertIsNotEnabled()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("German").fetchSemanticsNodes().isNotEmpty() }
         onAllNodesWithText("German").onLast().performClick()
         waitUntil(timeoutMillis = 5_000) { learningId == 2L }
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Your native language").fetchSemanticsNodes().isEmpty() }
 
         onNodeWithTag("native-language").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("You are learning it").fetchSemanticsNodes().isNotEmpty() }
@@ -129,7 +121,7 @@ class LanguagesScreenTest {
         val viewModel = LanguagesViewModel(settings)
         setContent {
             val state = LearningLanguageState(
-                listOf(1L to "Portuguese", 2L to "German", 3L to "English"), 1L, nativeIds = setOf(3L), knownWords = 586,
+                listOf(1L to "Portuguese", 2L to "German", 3L to "English"), 1L, knownWords = 586,
                 mine = listOf(1L, 2L), wordCounts = mapOf(1L to 586, 2L to 12),
             ) {}
             IdiomikoTheme(AppThemes.byId(AppThemes.all.first().id)) {

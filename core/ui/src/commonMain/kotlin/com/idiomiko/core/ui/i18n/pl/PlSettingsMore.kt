@@ -259,7 +259,6 @@ internal val plSettingsMore: Map<String, String> = mapOf(
     "Failed" to "Niepowodzenie",
     "Removed" to "Usunięto",
     // Language menus (LearningLanguage.kt, LanguagesScreen.kt)
-    "Your native language" to "Twój język ojczysty",
     "You are learning it" to "Uczysz się go",
     "Get ready to learn {0}" to "Przygotuj się na {0}",
     "Everything available for {0} is already on this device." to "{0}: wszystko, co dostępne, jest już na tym urządzeniu.",

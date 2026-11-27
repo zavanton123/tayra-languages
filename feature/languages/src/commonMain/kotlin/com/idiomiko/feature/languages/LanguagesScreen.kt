@@ -108,11 +108,10 @@ fun LanguagesScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: 
                                 options = learning?.choices.orEmpty(),
                                 selected = learning?.current,
                                 name = { tr(it.label) },
-                                // Chosen as in the header, which also asks for the vocabulary level of a language new to the reader.
+                                // Chosen as in the header, which asks for the meanings language again when the native one is chosen, and for the vocabulary level of a language new to the reader.
                                 onSelect = { learning?.select(it); changes++ },
                                 modifier = Modifier.testTag("learning-language"),
                                 flagName = { it.label },
-                                unavailable = { if (learning != null && it.id in learning.nativeIds) tr("Your native language") else null },
                             )
                         }
                     }

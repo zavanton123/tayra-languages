@@ -259,7 +259,6 @@ internal val deSettingsMore: Map<String, String> = mapOf(
     "Failed" to "Fehlgeschlagen",
     "Removed" to "Entfernt",
     // Language menus (LearningLanguage.kt, LanguagesScreen.kt)
-    "Your native language" to "Deine Muttersprache",
     "You are learning it" to "Du lernst sie",
     "Get ready to learn {0}" to "Mach dich bereit, {0} zu lernen",
     "Everything available for {0} is already on this device." to "Alles, was es für {0} gibt, ist bereits auf diesem Gerät.",

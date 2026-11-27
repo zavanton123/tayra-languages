@@ -21,6 +21,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.test.junit4.createComposeRule
+import androidx.compose.ui.test.assertIsEnabled
 import androidx.compose.ui.test.assertIsNotEnabled
 import androidx.compose.ui.test.onAllNodesWithTag
 import androidx.compose.ui.test.onAllNodesWithText
@@ -349,12 +350,12 @@ class AppTopBarTest {
         assertEquals(0, rule.onAllNodesWithTag("language-menu").fetchSemanticsNodes().size, "the menu closes with the choice")
     }
 
-    /** Adding a language opens a dialog of those not being learned, as tiles that the search narrows; the native one cannot be chosen. */
+    /** Adding a language opens a dialog of those not being learned, as tiles that the search narrows. */
     @Test
     fun aLanguageIsAddedFromTheMenu() {
         val chosen = mutableListOf<Long>()
         val state = LearningLanguageState(
-            listOf(1L to "Portuguese", 2L to "German", 3L to "Russian", 4L to "Spanish"), 1L, nativeIds = setOf(3L), knownWords = 586, mine = listOf(1L, 4L),
+            listOf(1L to "Portuguese", 2L to "German", 3L to "Russian", 4L to "Spanish"), 1L, knownWords = 586, mine = listOf(1L, 4L),
         ) { chosen += it }
         rule.setContent {
             MaterialTheme { CompositionLocalProvider(LocalLearningLanguage provides state) { AppTopBar(title = "Books", onNavigate = {}, section = NavSection.BOOKS) } }
@@ -364,8 +365,7 @@ class AppTopBarTest {
         rule.onNodeWithText("Add a language").assertExists()
         rule.onNodeWithText("2 languages").assertExists()
         assertEquals(0, rule.onAllNodesWithTag("language-es").fetchSemanticsNodes().size, "a language being learned is not offered")
-        rule.onNodeWithText("Your native language").assertExists()
-        rule.onNodeWithTag("language-ru").assertIsNotEnabled()
+        rule.onNodeWithTag("language-ru").assertIsEnabled()
 
         rule.onNodeWithTag("language-search").performTextInput("ger")
         rule.onNodeWithText("1 language").assertExists()

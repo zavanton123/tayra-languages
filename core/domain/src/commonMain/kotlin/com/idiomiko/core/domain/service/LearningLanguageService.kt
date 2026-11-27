@@ -89,13 +89,11 @@ class LearningLanguageService(
     }
 
     /**
-     * Makes [languageId] the language being learned; false, and nothing changes, when it is the native
-     * language. While none is being learned, any language can be chosen, the native one too, which
-     * then hands the meanings to another language until they are asked for.
+     * Makes [languageId] the language being learned. The native language can be chosen too: the
+     * meanings then go to another language until the reader is asked for them.
      */
     suspend fun select(languageId: Long): Boolean {
         val native = languages.getById(languageId)?.let(::isNative) == true
-        if (native && settings.current.currentLanguageId != 0L) return false
         // A language chosen is one being learned from now on, beside those learned before.
         fillMine()
         settings.update { s ->

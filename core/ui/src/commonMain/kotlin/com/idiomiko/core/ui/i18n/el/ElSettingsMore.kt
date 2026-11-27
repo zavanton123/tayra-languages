@@ -259,7 +259,6 @@ internal val elSettingsMore: Map<String, String> = mapOf(
     "Failed" to "Απέτυχε",
     "Removed" to "Αφαιρέθηκε",
     // Language menus (LearningLanguage.kt, LanguagesScreen.kt)
-    "Your native language" to "Η μητρική σας γλώσσα",
     "You are learning it" to "Τη μαθαίνετε",
     "Get ready to learn {0}" to "Ετοιμαστείτε να μάθετε {0}",
     "Everything available for {0} is already on this device." to "Όλα όσα υπάρχουν για τη γλώσσα «{0}» βρίσκονται ήδη σε αυτή τη συσκευή.",
