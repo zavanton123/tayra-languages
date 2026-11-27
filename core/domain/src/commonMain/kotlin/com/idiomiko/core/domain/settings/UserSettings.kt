@@ -175,7 +175,7 @@ data class UserSettings(
         const val DEFAULT_PLAYLIST_PAUSE = 5
         const val MIN_PLAYLIST_PAUSE = 1
         const val MAX_PLAYLIST_PAUSE = 30
-        const val DEFAULT_THEME = "default"
+        const val DEFAULT_THEME = "github_light"
         const val DEFAULT_READING_FONT = "serif"
         const val DEFAULT_DAILY_GOAL = 60
         const val MIN_DAILY_GOAL = 5

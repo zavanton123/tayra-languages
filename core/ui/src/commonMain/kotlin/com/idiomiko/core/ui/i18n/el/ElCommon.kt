@@ -197,6 +197,7 @@ internal val elCommon: Map<String, String> = mapOf(
 
     // AppTheme.kt, ReadingFonts.kt (shown through label, which is tr(englishLabel))
     "Default" to "Προεπιλογή",
+    "Classic" to "Κλασικό",
     "Sepia" to "Σέπια",
     "Night" to "Νυχτερινό",
     "Green" to "Πράσινο",

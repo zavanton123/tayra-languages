@@ -197,6 +197,7 @@ internal val plCommon: Map<String, String> = mapOf(
 
     // AppTheme.kt, ReadingFonts.kt (shown through label, which is tr(englishLabel))
     "Default" to "Domyślny",
+    "Classic" to "Klasyczny",
     "Sepia" to "Sepia",
     "Night" to "Nocny",
     "Green" to "Zielony",

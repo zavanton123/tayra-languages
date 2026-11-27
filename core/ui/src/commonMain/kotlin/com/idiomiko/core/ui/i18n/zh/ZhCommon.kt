@@ -197,6 +197,7 @@ internal val zhCommon: Map<String, String> = mapOf(
 
     // AppTheme.kt, ReadingFonts.kt (shown through label, which is tr(englishLabel))
     "Default" to "默认",
+    "Classic" to "经典",
     "Sepia" to "护眼",
     "Night" to "夜间",
     "Green" to "绿色",

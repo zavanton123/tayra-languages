@@ -197,6 +197,7 @@ internal val deCommon: Map<String, String> = mapOf(
 
     // AppTheme.kt, ReadingFonts.kt (shown through label, which is tr(englishLabel))
     "Default" to "Standard",
+    "Classic" to "Klassisch",
     "Sepia" to "Sepia",
     "Night" to "Nacht",
     "Green" to "Grün",

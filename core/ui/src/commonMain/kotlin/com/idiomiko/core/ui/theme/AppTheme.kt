@@ -66,9 +66,10 @@ object AppThemes {
         onHighlight = Color(0xFFEFF1F2),
     )
 
-    val default = AppTheme(
-        id = "default",
-        englishLabel = "Default",
+    /** The app's first theme, a blue-grey one, kept under this name since GitHub Light became the default. */
+    val classic = AppTheme(
+        id = "classic",
+        englishLabel = "Classic",
         isDark = false,
         colorScheme = completed(lightColorScheme(
             primary = Color(0xFF1F5F8B),
@@ -93,7 +94,7 @@ object AppThemes {
         selectedText = Color(0xFFC2410C),
     )
 
-    val sepia = default.copy(
+    val sepia = classic.copy(
         id = "sepia",
         englishLabel = "Sepia",
         colorScheme = completed(lightColorScheme(
@@ -266,7 +267,6 @@ object AppThemes {
         palette("dracula", "Dracula", 0xFF282A36, 0xFFF8F8F2, 0xFFA0A8CC, 0xFFBD93F9, 0xFFFF79C6, 0xFF8BE9FD, 0xFFF1FA8C, 0xFFFF5555, 0xFF50FA7B, 0xFFFF79C6),
         palette("everforest", "Everforest", 0xFF2D353B, 0xFFD3C6AA, 0xFF9DA9A0, 0xFFA7C080, 0xFF83C092, 0xFF7FBBB3, 0xFFDBBC7F, 0xFFE67E80, 0xFFA7C080, 0xFFE69875),
         palette("github_dark", "GitHub Dark", 0xFF0D1117, 0xFFE6EDF3, 0xFF8D96A0, 0xFF58A6FF, 0xFFBC8CFF, 0xFF58A6FF, 0xFFD29922, 0xFFF85149, 0xFF3FB950, 0xFFFFA657),
-        palette("github_light", "GitHub Light", 0xFFFFFFFF, 0xFF1F2328, 0xFF59636E, 0xFF0969DA, 0xFF8250DF, 0xFF0969DA, 0xFFD4A72C, 0xFFCF222E, 0xFF1A7F37, 0xFFBC4C00),
         palette("gruvbox_dark", "Gruvbox Dark", 0xFF282828, 0xFFEBDBB2, 0xFFA89984, 0xFFFE8019, 0xFFB8BB26, 0xFF83A598, 0xFFFABD2F, 0xFFFB4934, 0xFFB8BB26, 0xFFD3869B),
         palette("gruvbox_light", "Gruvbox Light", 0xFFFBF1C7, 0xFF3C3836, 0xFF7C6F64, 0xFFAF3A03, 0xFF79740E, 0xFF076678, 0xFFD79921, 0xFF9D0006, 0xFF79740E, 0xFF8F3F71),
         palette("kanagawa", "Kanagawa", 0xFF1F1F28, 0xFFDCD7BA, 0xFF9C9A8E, 0xFF7E9CD8, 0xFF957FB8, 0xFF7E9CD8, 0xFFE6C384, 0xFFE46876, 0xFF98BB6C, 0xFFFFA066),
@@ -300,10 +300,16 @@ object AppThemes {
         palette("light_teal", "Teal", 0xFFEEF8F7, 0xFF1B2E2C, 0xFF536F6B, 0xFF00796B, 0xFF4E8C85, 0xFF2F6FE0, 0xFFF2B400, 0xFFD84343, 0xFF43A047, 0xFFC2410C),
     )
 
-    val all: List<AppTheme> = listOf(default, sepia) + colourThemes + night + editorThemes
+    /** The theme the app starts in, first in the list. */
+    val default: AppTheme = palette("github_light", "GitHub Light", 0xFFFFFFFF, 0xFF1F2328, 0xFF59636E, 0xFF0969DA, 0xFF8250DF, 0xFF0969DA, 0xFFD4A72C, 0xFFCF222E, 0xFF1A7F37, 0xFFBC4C00)
 
-    /** Themes that were removed, and the one that now stands in for each. */
-    private val retired = mapOf("dark_slate" to "darcula")
+    val all: List<AppTheme> = listOf(default, classic, sepia) + colourThemes + night + editorThemes
+
+    /**
+     * Themes that were removed, and the one that now stands in for each. "default" was the id of
+     * the theme now called Classic: those who never chose a theme had it, and are moved to the new default.
+     */
+    private val retired = mapOf("dark_slate" to "darcula", "default" to "github_light")
 
     fun byId(id: String): AppTheme = (retired[id] ?: id).let { wanted -> all.firstOrNull { it.id == wanted } } ?: default
 

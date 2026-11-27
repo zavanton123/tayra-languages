@@ -197,6 +197,7 @@ internal val esCommon: Map<String, String> = mapOf(
 
     // AppTheme.kt, ReadingFonts.kt (shown through label, which is tr(englishLabel))
     "Default" to "Predeterminado",
+    "Classic" to "Clásico",
     "Sepia" to "Sepia",
     "Night" to "Noche",
     "Green" to "Verde",

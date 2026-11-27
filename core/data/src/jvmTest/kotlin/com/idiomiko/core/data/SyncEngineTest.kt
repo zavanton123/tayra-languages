@@ -40,6 +40,7 @@ import java.io.File
 import java.sql.Connection
 import java.sql.DriverManager
 import java.util.Properties
+import com.idiomiko.core.domain.settings.UserSettings
 import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertFailsWith
@@ -269,7 +270,7 @@ class SyncEngineTest {
         val copy = desktop.portuguese()
         assertEquals("$copy", desktop.settings.current.myLanguages, "by this device's own id")
         assertEquals(35, desktop.settings.current.flashcardNewPerDay)
-        assertEquals("default", desktop.settings.current.themeId)
+        assertEquals(UserSettings.DEFAULT_THEME, desktop.settings.current.themeId)
         assertEquals(0, desktop.engine.syncNow().changed)
 
         Thread.sleep(5)
