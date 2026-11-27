@@ -37,7 +37,6 @@ internal val ptFrequency: Map<String, String> = mapOf(
     "How much {0} do you know?" to "Quanto de {0} você sabe?",
     "Choose an estimate. Words below this level will start as known." to "Escolha uma estimativa. As palavras abaixo deste nível começarão como conhecidas.",
     "Close" to "Fechar",
-    "Skip for now" to "Pular por enquanto",
     "Saving…" to "Salvando…",
     "Starting out" to "Começando agora",
     "Early beginner" to "Primeiros passos",

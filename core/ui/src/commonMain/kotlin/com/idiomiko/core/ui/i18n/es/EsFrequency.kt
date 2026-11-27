@@ -37,7 +37,6 @@ internal val esFrequency: Map<String, String> = mapOf(
     "How much {0} do you know?" to "¿Cuánto {0} sabes?",
     "Choose an estimate. Words below this level will start as known." to "Elige una estimación. Las palabras por debajo de este nivel empezarán como conocidas.",
     "Close" to "Cerrar",
-    "Skip for now" to "Omitir por ahora",
     "Saving…" to "Guardando…",
     "Starting out" to "Empezando",
     "Early beginner" to "Primeros pasos",

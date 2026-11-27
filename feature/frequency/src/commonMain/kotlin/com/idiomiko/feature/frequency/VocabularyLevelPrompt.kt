@@ -53,8 +53,8 @@ import org.koin.compose.viewmodel.koinViewModel
 
 /**
  * Asks for the vocabulary level of the language with [languageId], just chosen to learn, when no
- * level was ever chosen for it. [onClosed] is called once a level is set or the reader puts it off;
- * put off, they are asked again the next time they choose the language.
+ * level was ever chosen for it. [onClosed] is called once a level is set: Starter is picked from the
+ * start, and there is no putting it off, which would only ask again at the next switch.
  */
 @Composable
 fun VocabularyLevelPrompt(languageId: Long?, onClosed: () -> Unit, viewModel: VocabularySettingsViewModel = koinViewModel(key = "vocabulary-level-prompt")) {
@@ -73,10 +73,9 @@ fun VocabularyLevelPrompt(languageId: Long?, onClosed: () -> Unit, viewModel: Vo
     LaunchedEffect(ready, state.picked, state.edges) {
         if (ready && !state.chosen && state.edges.none { it.words == state.picked }) viewModel.pick(LevelEdges.reached(state.edges, state.shownLevel).words)
     }
-    val later = { viewModel.forgetPick(); onClosed() }
     // On a phone the prompt is a bottom sheet; elsewhere a floating dialog.
     if (LocalWindowWidth.current.isCompact) {
-        PhonePromptScreen(ready, state, onPick = viewModel::pick, onSave = viewModel::save, onLater = later)
+        PhonePromptScreen(ready, state, onPick = viewModel::pick, onSave = viewModel::save)
         return
     }
     AppDialogSurface(onDismissRequest = {}, modifier = Modifier.testTag("vocabulary-level-prompt"), maxWidth = DIALOG_WIDTH, dismissible = false) {
@@ -84,15 +83,14 @@ fun VocabularyLevelPrompt(languageId: Long?, onClosed: () -> Unit, viewModel: Vo
             Box(Modifier.fillMaxWidth().heightIn(min = LOADING_HEIGHT), contentAlignment = Alignment.Center) { AppSpinner(size = SpinnerSize.Large) }
             return@AppDialogSurface
         }
-        VocabularyLevelPromptContent(state, onPick = viewModel::pick, onSave = viewModel::save, onLater = later)
+        VocabularyLevelPromptContent(state, onPick = viewModel::pick, onSave = viewModel::save)
     }
 }
 
-/** The prompt on a phone, on the whole screen: the question, the levels one under another, and the buttons at the foot; Back puts the question off, like Skip for now. */
+/** The prompt on a phone, on the whole screen: the question, the levels one under another, and Continue at the foot; Back does not close it. */
 @Composable
-private fun PhonePromptScreen(ready: Boolean, state: VocabularySettingsUiState, onPick: (Int) -> Unit, onSave: () -> Unit, onLater: () -> Unit) {
-    val colors = MaterialTheme.colorScheme
-    AppScreenDialog(onDismissRequest = onLater) {
+private fun PhonePromptScreen(ready: Boolean, state: VocabularySettingsUiState, onPick: (Int) -> Unit, onSave: () -> Unit) {
+    AppScreenDialog(onDismissRequest = {}, dismissible = false) {
         Column(Modifier.fillMaxSize().testTag("vocabulary-level-prompt")) {
             if (!ready) {
                 Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) { AppSpinner(size = SpinnerSize.Large) }
@@ -101,10 +99,7 @@ private fun PhonePromptScreen(ready: Boolean, state: VocabularySettingsUiState, 
             val chosen = LevelEdges.reached(state.edges, state.shownLevel)
             // The question scrolls on a short screen; the buttons stay at the screen's foot.
             ScrollColumn(Modifier.weight(1f), contentModifier = Modifier.padding(horizontal = AppSpacing.xl).padding(top = AppSpacing.l)) {
-                Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.Top, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-                    Text(tr("How much {0} do you know?", languageInSentence(state.languageName, LanguageCase.NOMINATIVE)), Modifier.weight(1f), style = AppText.headline)
-                    AppIconButton(Icons.Default.Close, tr("Close"), onLater, enabled = !state.saving, style = IconButtonStyle.Tonal, tint = colors.onSurface)
-                }
+                Text(tr("How much {0} do you know?", languageInSentence(state.languageName, LanguageCase.NOMINATIVE)), Modifier.fillMaxWidth(), style = AppText.headline)
                 Spacer(Modifier.height(AppSpacing.xl))
                 LevelPicker(state.edges, chosen, onPick, compact = true)
                 Spacer(Modifier.height(AppSpacing.l))
@@ -112,24 +107,17 @@ private fun PhonePromptScreen(ready: Boolean, state: VocabularySettingsUiState, 
                 Spacer(Modifier.height(AppSpacing.l))
             }
             AppDivider()
-            PromptButtons(state, chosen, onSave, onLater, Modifier.padding(horizontal = AppSpacing.xl, vertical = AppSpacing.m), compact = true)
+            PromptButtons(state, chosen, onSave, Modifier.padding(horizontal = AppSpacing.xl, vertical = AppSpacing.m), compact = true)
         }
     }
 }
 
 @Composable
-internal fun VocabularyLevelPromptContent(state: VocabularySettingsUiState, onPick: (Int) -> Unit, onSave: () -> Unit, onLater: () -> Unit) {
+internal fun VocabularyLevelPromptContent(state: VocabularySettingsUiState, onPick: (Int) -> Unit, onSave: () -> Unit) {
     val chosen = LevelEdges.reached(state.edges, state.shownLevel)
     Column {
         ScrollColumn(Modifier.weight(1f, fill = false), contentModifier = Modifier.padding(horizontal = AppSpacing.xxxl, vertical = AppSpacing.xxxl)) {
-            Row(verticalAlignment = Alignment.Top) {
-                Text(
-                    tr("How much {0} do you know?", languageInSentence(state.languageName, LanguageCase.NOMINATIVE)),
-                    Modifier.weight(1f).padding(top = AppSpacing.s),
-                    style = AppText.screenTitle,
-                )
-                AppIconButton(Icons.Default.Close, tr("Close"), onLater, enabled = !state.saving)
-            }
+            Text(tr("How much {0} do you know?", languageInSentence(state.languageName, LanguageCase.NOMINATIVE)), style = AppText.screenTitle)
             Spacer(Modifier.height(AppSpacing.xxl))
             val shape = AppShapes.large
             Column(
@@ -142,18 +130,15 @@ internal fun VocabularyLevelPromptContent(state: VocabularySettingsUiState, onPi
             }
         }
         AppDivider()
-        PromptButtons(state, chosen, onSave, onLater, Modifier.padding(horizontal = AppSpacing.xxxl, vertical = AppSpacing.xl))
+        PromptButtons(state, chosen, onSave, Modifier.padding(horizontal = AppSpacing.xxxl, vertical = AppSpacing.xl))
     }
 }
 
-/** Skip for now on the left, the saving state and Continue on the right. */
+/** The saving state and Continue, on the right. */
 @Composable
-private fun PromptButtons(state: VocabularySettingsUiState, chosen: LevelEdge, onSave: () -> Unit, onLater: () -> Unit, modifier: Modifier, compact: Boolean = false) {
+private fun PromptButtons(state: VocabularySettingsUiState, chosen: LevelEdge, onSave: () -> Unit, modifier: Modifier, compact: Boolean = false) {
     val colors = MaterialTheme.colorScheme
     Row(modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-        QuietButton(onClick = onLater, enabled = !state.saving, size = if (compact) ButtonSize.Compact else ButtonSize.Regular) {
-            Text(tr("Skip for now"), style = MaterialTheme.typography.titleMedium)
-        }
         Spacer(Modifier.weight(1f))
         if (state.saving) {
             AppSpinner(size = SpinnerSize.Small)

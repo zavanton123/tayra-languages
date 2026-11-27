@@ -102,9 +102,6 @@ class VocabularySettingsViewModel(
 
     fun pick(level: Int) { picked.value = level }
 
-    /** Closes without choosing, so the reader is asked again next time. */
-    fun forgetPick() { picked.value = null }
-
     /** Sets the picked level: the words ranked up to it are saved as known. */
     fun save() {
         val level = state.value.picked ?: return

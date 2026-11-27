@@ -37,7 +37,6 @@ internal val ruFrequency: Map<String, String> = mapOf(
     "How much {0} do you know?" to "Насколько хорошо вы знаете {0}?",
     "Choose an estimate. Words below this level will start as known." to "Выберите примерную оценку. Слова до этого уровня сразу получат статус «Знаю».",
     "Close" to "Закрыть",
-    "Skip for now" to "Пропустить",
     "Saving…" to "Сохранение…",
     "Starting out" to "Только начинаю",
     "Early beginner" to "Первые шаги",

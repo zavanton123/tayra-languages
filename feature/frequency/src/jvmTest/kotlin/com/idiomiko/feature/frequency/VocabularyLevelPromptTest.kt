@@ -93,8 +93,9 @@ class VocabularyLevelPromptTest {
 
     private val levelCards = listOf("Starter", "A1", "A2", "B1", "B2", "C1", "C2")
 
+    /** Starter is picked from the start, and Continue is the only way on: the prompt cannot be put off, to come back at the next switch. */
     @Test
-    fun theCardsStartOnStarterAndPuttingItOffClosesWithoutALevel() = runDesktopComposeUiTest(width = 1440, height = 900) {
+    fun theCardsStartOnStarterWithNoWayToPutItOff() = runDesktopComposeUiTest(width = 1440, height = 900) {
         show()
         awaitCards()
         onNodeWithText("How much Portuguese do you know?").assertExists()
@@ -104,23 +105,12 @@ class VocabularyLevelPromptTest {
         onNodeWithTag("level-card-B1").assertIsNotSelected()
         onNodeWithText("Starter level selected", substring = true).assertExists()
         onNodeWithText("mark no words as already known", substring = true).assertExists()
-        onNodeWithText("Continue with Starter").assertExists()
         screenshot("desktop-starter")
-        onNodeWithText("Skip for now").performClick()
-        waitForIdle()
-        assertEquals(1, closed)
-        assertTrue(onAllNodesWithTag("vocabulary-level-prompt").fetchSemanticsNodes().isEmpty())
-        assertTrue(runBlocking { service.needsLevel(portuguese) }, "asked again next time")
-    }
-
-    @Test
-    fun closingPutsItOffToo() = runDesktopComposeUiTest(width = 1440, height = 900) {
-        show()
-        awaitCards()
-        onNodeWithContentDescription("Close").performClick()
-        waitForIdle()
-        assertEquals(1, closed)
-        assertTrue(runBlocking { service.needsLevel(portuguese) })
+        onNodeWithText("Skip for now").assertDoesNotExist()
+        onNodeWithContentDescription("Close").assertDoesNotExist()
+        onNodeWithText("Continue with Starter").performClick()
+        waitUntil(timeoutMillis = UI_WAIT_MILLIS) { closed == 1 }
+        assertEquals(false, runBlocking { service.needsLevel(portuguese) })
     }
 
     @Test

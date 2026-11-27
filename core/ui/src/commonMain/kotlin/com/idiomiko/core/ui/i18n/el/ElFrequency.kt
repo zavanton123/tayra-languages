@@ -37,7 +37,6 @@ internal val elFrequency: Map<String, String> = mapOf(
     "How much {0} do you know?" to "Πόσο καλά ξέρετε {0};",
     "Choose an estimate. Words below this level will start as known." to "Επιλέξτε μια εκτίμηση. Οι λέξεις κάτω από αυτό το επίπεδο θα ξεκινούν ως γνωστές.",
     "Close" to "Κλείσιμο",
-    "Skip for now" to "Παράλειψη προς το παρόν",
     "Saving…" to "Αποθήκευση…",
     "Starting out" to "Μόλις ξεκινώ",
     "Early beginner" to "Πρώτα βήματα",

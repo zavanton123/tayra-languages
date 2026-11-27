@@ -37,7 +37,6 @@ internal val deFrequency: Map<String, String> = mapOf(
     "How much {0} do you know?" to "Wie viel {0} kannst du?",
     "Choose an estimate. Words below this level will start as known." to "Wähle eine Schätzung. Wörter unter diesem Niveau starten als bekannt.",
     "Close" to "Schließen",
-    "Skip for now" to "Vorerst überspringen",
     "Saving…" to "Wird gespeichert…",
     "Starting out" to "Ganz am Anfang",
     "Early beginner" to "Erste Schritte",

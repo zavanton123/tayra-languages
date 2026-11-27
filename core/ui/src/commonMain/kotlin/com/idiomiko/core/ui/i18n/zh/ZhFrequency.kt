@@ -37,7 +37,6 @@ internal val zhFrequency: Map<String, String> = mapOf(
     "How much {0} do you know?" to "你的{0}水平如何？",
     "Choose an estimate. Words below this level will start as known." to "选择一个估计值。低于此水平的单词将直接标为已掌握。",
     "Close" to "关闭",
-    "Skip for now" to "暂时跳过",
     "Saving…" to "正在保存…",
     "Starting out" to "刚起步",
     "Early beginner" to "零基础",

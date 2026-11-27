@@ -37,7 +37,6 @@ internal val plFrequency: Map<String, String> = mapOf(
     "How much {0} do you know?" to "Jak dobrze znasz {0}?",
     "Choose an estimate. Words below this level will start as known." to "Wybierz przybliżoną ocenę. Słowa poniżej tego poziomu od razu dostaną status „Znane”.",
     "Close" to "Zamknij",
-    "Skip for now" to "Pomiń na razie",
     "Saving…" to "Zapisywanie…",
     "Starting out" to "Dopiero zaczynam",
     "Early beginner" to "Pierwsze kroki",
