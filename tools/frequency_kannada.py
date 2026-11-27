@@ -788,6 +788,8 @@ def word_forms(word, ks, counts, helpers):
         forms |= adjective_forms(word)
     if "num" in ks and word.endswith("ು"):
         forms |= {word[:-1] + t for t in ORDINAL_TAILS}
+        # A number's oblique in ರ (ಎರಡರ, ಎರಡರಲ್ಲಿ, ಎರಡರಷ್ಟು "twice as much").
+        forms |= {word[:-1] + "ರ" + t for t in NOMINAL_TAILS + OBLIQUE_TAILS + ["ಷ್ಟು"]}
     forms.discard(word)
     return forms
 
@@ -825,8 +827,47 @@ def aksharas(word):
 LOCATIVE_VERBS = ("ದಲ್ಲು", "ನಲ್ಲು", "ಯಲ್ಲು", "ಗಳಲ್ಲು", "ರಲ್ಲು", "ವಲ್ಲು", "ಳಲ್ಲು")
 
 
-# The vowel signs of the vowels (ಆ is ಾ after a consonant).
+# The verbs and words a phrase is written with as one word: ನಿರ್ಮಾಣವಾಗು "be built" (ನಿರ್ಮಾಣ + ಆಗು), ಮರಣಹೊಂದು "die" (ಮರಣ +
+# ಹೊಂದು), ದಾಳಿಮಾಡು, ಜೋಡಣೆಗೊಳ್ಳು, ವಿಲೀನಗೊಳಿಸು, ಅಸ್ತಿತ್ವದಲ್ಲಿರು, ಅಳವಡಿಸಿಕೊಳ್ಳು, ಹಿಡಿದಿಡು, ಅದರೊಳಗೆ, ಎರಡರಷ್ಟು, ಹೀಗೆಂದು. Such a
+# word of the packs or of induce is no word of its own: it and its forms are its first word's (linked_parts).
+LINKED = ("ಆಗು", "ಇರು", "ಮಾಡು", "ಮಾಡಿಕೊಡು", "ಕೊಡು", "ಕೊಳ್ಳು", "ಗೊಳ್ಳು", "ಗೊಳಿಸು", "ಪಡಿಸು", "ಹೊಂದು", "ನೀಡು", "ಇಡು", "ಬಿಡು",
+          "ಹಾಕು", "ಸೆಳೆ", "ಹಿಡಿ", "ಎತ್ತು", "ಒಯ್ಯು", "ಒಡ್ಡು", "ಉಳಿ", "ಇಳಿ", "ಹೋಗು", "ಬರು", "ತರು", "ಪಡೆ", "ನಡೆಸು", "ಒಳಗೆ",
+          "ಅಷ್ಟು", "ಎಂದು", "ವರೆಗೆ", "ವರೆಗೂ", "ಅಡಿ", "ಎಲ್ಲ", "ಎಲ್ಲಾ")
 INDEPENDENT_VOWELS = {"ಅ": "", "ಆ": "ಾ", "ಇ": "ಿ", "ಈ": "ೀ", "ಉ": "ು", "ಊ": "ೂ", "ಎ": "ೆ", "ಏ": "ೇ", "ಒ": "ೊ", "ಓ": "ೋ"}
+
+
+# Compounds that mean more than their words (ಒಳಗಾಗು "undergo", ಕಂಡುಹಿಡಿ "discover", ಹಿಂದುಳಿ "lag behind"), kept whole; and
+# phrases whose first word is no word of the list as written (ಹೊತ್ತು "carried" is ಹೊರು's, not "time").
+KANNADA_WHOLE = {"ಒಳಗಾಗು", "ಹಿಂದುಳಿ", "ಕಂಡುಹಿಡಿ", "ಕಂಡುಬರು", "ಮುಂದಾಗು", "ಸರಿಹೊಂದು", "ತಲೆಯೆತ್ತು", "ಬದುಕುಳಿ", "ಮೂಡಿಬರು",
+                 "ಹೊರಹಾಕು", "ಎಡೆಬಿಡು", "ಮುಂದುವರಿ", "ಒಳಗೊಳ್ಳು"}
+KANNADA_LINKED = {"ಹೊತ್ತುಕೊಳ್ಳು": "ಹೊರು", "ಹೊತ್ತೊಯ್ಯು": "ಹೊರು"}
+# Of the phrases with ಆಗು "become" and ಇರು "be", those whose first word is no word of the lexicon go to their adverb in -ಆಗಿ
+# when it is one (ಚೆನ್ನಾಗು to ಚೆನ್ನಾಗಿ "well", ಅನುಗುಣವಾಗು to ಅನುಗುಣವಾಗಿ), else to that first word, now a noun, when the corpus
+# writes it bare LINKED_BARE times (ನಯವಾಗು to ನಯ "smoothness", ಉದ್ಭವವಾಗು to ಉದ್ಭವ).
+LINKED_BARE = 3
+
+
+def linked_parts(word):
+    """The first words [word] may be a phrase of with a LINKED word, the likelier first: ನಿರ್ಮಾಣ in ನಿರ್ಮಾಣವಾಗು (after the
+    glide ವ), ಹಾಳು in ಹಾಳಾಗು (its vowel giving way to the next), ಹಿಡಿದು in ಹಿಡಿದಿಡು, ಅದರ in ಅದರೊಳಗೆ, ದಾಳಿ in ದಾಳಿಮಾಡು,
+    ಹೆಚ್ಚಿನ in ಹೆಚ್ಚಿನದಾಗು; as (first, linked word), the first of two letters at least."""
+    firsts = []
+    for linked in sorted(LINKED, key=lambda w: (-len(w), w)):
+        if linked[0] in INDEPENDENT_VOWELS:
+            tail = INDEPENDENT_VOWELS[linked[0]] + linked[1:]
+            lead = word[:-len(tail)]
+            if not word.endswith(tail) or not lead or lead[-1] not in CONSONANTS:
+                continue
+            leads = [lead + "ು", lead, lead + "ಿ", lead + "ೆ", lead + VIRAMA]
+            # After the glide (ನಿರ್ಮಾಣವ), an adjective's -ದು (ಹೆಚ್ಚಿನದ) or a person's ending (ಚುನಾಯಿತರ, ಅಧ್ಯಕ್ಷನ).
+            if lead[-1] in "ವಯದರನಳ" and len(lead) > 1:
+                leads.append(lead[:-1])
+        elif word.endswith(linked):
+            leads = [word[:-len(linked)]]
+        else:
+            continue
+        firsts += [(f, linked) for f in leads if sum(1 for c in f if c not in SIGNS) >= 2]
+    return firsts
 
 
 def induce(unexplained, counts, helpers):
@@ -1076,10 +1117,13 @@ def build(found, size, label):
                 meanings[stem] = meanings.get(word, set())
                 break
 
-    # The forms the rules are asked for: those written, and those they may be without a clitic.
+    # The forms the rules are asked for: those written, those they may be without a clitic, and the first words of the
+    # phrases written as one word (linked_parts).
     needed = set(counts)
     for form in counts:
         needed |= unclitic(form)
+    for word in kinds:
+        needed |= {first for first, _ in linked_parts(word)}
 
     def rule(words):
         ruled = defaultdict(set)
@@ -1150,8 +1194,73 @@ def build(found, size, label):
                and not (w.endswith("ಗು") and (targets(w[:-1] + "ೆ") or w[:-1] + "ಿ" in CASE_FRAGMENTS))}
     for word, ks in induced.items():
         kinds[word] |= ks
+    firsts = {first for word in induced for first, _ in linked_parts(word)} - needed
+    if firsts:
+        needed |= firsts
+        for form, heads in rule(kinds).items():
+            if form in firsts:
+                ruled[form] |= heads
     for form, heads in rule(induced).items():
         ruled[form] |= heads
+
+    # A phrase written as one word (linked_parts) goes with its forms to its first word, when that is the commoner by the
+    # forms they do not share: a verb, an adverb or a postposition of the packs or of induce, not a noun (ಕಣ್ಣೀರು). After
+    # a word's genitive, ಅಷ್ಟು "as much as" makes a phrase (ಎರಡರಷ್ಟು, ಅರ್ಧದಷ್ಟು); after an adverb, a word (ಬಹಳಷ್ಟು "a lot").
+    by_word = defaultdict(set)
+    for form, heads in ruled.items():
+        for head in heads:
+            by_word[head].add(form)
+
+    def mass(word, without=frozenset()):
+        return sum(counts.get(f, 0.0) for f in (by_word[word] | {word}) - without)
+
+    linked, new_words = {}, {}
+    for word in sorted(kinds):
+        # A number's "as many times" is an adjective or a noun of the packs (ಮೂರರಷ್ಟು "threefold").
+        times = word.endswith("ರಷ್ಟು")
+        if (word in KANNADA_WORDS or word in left_out or word in LINKED or word in KANNADA_WHOLE
+                or kinds[word] & {"noun", "num", "adj"} and not times):
+            continue
+        if word in KANNADA_LINKED and KANNADA_LINKED[word] in kinds:
+            linked[word] = KANNADA_LINKED[word]
+            continue
+        for first, with_ in linked_parts(word):
+            heads = {h for h in targets(first) if h != word and h not in left_out
+                     and (with_ != "ಅಷ್ಟು" or not kinds[h] <= {"adv", "conj", "particle", "det"})
+                     and mass(h) >= mass(word, by_word[h])}
+            if heads:
+                linked[word] = max(heads, key=lambda h: (mass(h), h))
+                break
+        if word not in linked and kinds[word] == {"verb"} and word.endswith(("ಾಗು", "ಿರು")):
+            stems = verb_stems(word)
+            if stems and stems[2] in kinds and stems[2] not in left_out and stems[2] != word:
+                linked[word] = stems[2]
+            elif not any(f in kinds for f, _ in linked_parts(word)):
+                bare = [f for f, with_ in linked_parts(word) if with_ in ("ಆಗು", "ಇರು") and f not in kinds
+                        and f not in left_out and raw.get(f, 0) >= LINKED_BARE and f not in KANNADA_NOT_WORDS
+                        and f not in CASE_FRAGMENTS]
+                if bare:
+                    first = max(bare, key=lambda f: (raw[f], f))
+                    new_words[first] = {"noun"}
+                    linked[word] = first
+    for word, ks in new_words.items():
+        kinds[word] = set(ks)
+    for form, heads in rule(new_words).items():
+        ruled[form] |= heads
+    for word in linked:
+        head = linked[word]
+        while head in linked and head != word:
+            head = linked[head]
+        if head == word:
+            continue
+        kinds.pop(word, None)
+        for form in by_word[word] | {word}:
+            ruled[form].discard(word)
+            ruled[form].add(head)
+        for form, heads in by_hand.items():
+            if word in heads:
+                heads.discard(word)
+                heads.add(head)
 
     # A form of several words is shared by how common each is by its forms of no other word.
     own = defaultdict(float)
