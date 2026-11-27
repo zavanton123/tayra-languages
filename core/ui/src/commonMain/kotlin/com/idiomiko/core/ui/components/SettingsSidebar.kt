@@ -49,7 +49,7 @@ enum class SettingsSection(val label: String, val route: Route, val icon: ImageV
     GENERAL("General", Route.Settings, AppIcons.MoreGeneral),
     GOALS("Goals", Route.Goals, AppIcons.MoreGoals),
     LANGUAGES("Languages", Route.Languages, AppIcons.MoreLanguages),
-    FLASHCARDS("Flashcards", Route.FlashcardSettings, AppIcons.NavFlashcards),
+    FLASHCARDS("Flashcards", Route.FlashcardSettings, AppIcons.Flashcards),
     VOCABULARY("Vocabulary", Route.VocabularySettings, AppIcons.MoreVocabularySettings),
     HOTKEYS("Hotkeys", Route.Shortcuts, AppIcons.Keyboard),
     SPEECH("Speech", Route.Speech, AppIcons.MoreSpeech),

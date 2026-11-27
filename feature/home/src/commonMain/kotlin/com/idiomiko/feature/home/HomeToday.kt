@@ -141,7 +141,7 @@ internal fun WideHeader(state: HomeUiState, actions: HomeActions) {
                     val activity = state.activity
                     // Figures of nothing yet are left out, but for the words saved today, which lists them.
                     val streak = animatedCount(activity?.streak ?: 0)
-                    if (streak > 0) Figure(AppIcons.Flame, AppAccents.pink, trPlural(streak, "{0}-day streak", "{0}-day streak"), "streak") { actions.onNavigate(Route.Stats) }
+                    if (streak > 0) Figure(AppIcons.FlameFilled, AppAccents.pink, trPlural(streak, "{0}-day streak", "{0}-day streak"), "streak") { actions.onNavigate(Route.Stats) }
                     val saved = activity?.savedToday ?: 0
                     Figure(AppIcons.Abc, AppAccents.orange, trPlural(saved, "{1} word saved today", "{1} words saved today", formatCount(saved)), "saved-today", actions.onSavedToday)
                     state.vocabulary?.takeIf { it.known > 0 }?.let { words ->
@@ -178,7 +178,7 @@ internal fun PhoneTodayCard(state: HomeUiState, actions: HomeActions) {
             AppDivider(Modifier.padding(vertical = AppSpacing.m))
             // Each figure at its own width, spread evenly; the streak is short, the words known take what room is left.
             Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.SpaceEvenly) {
-                streak?.let { PhoneFigure(AppIcons.Flame, AppAccents.pink, trPlural(it, "{0}-day streak", "{0}-day streak"), "streak", Modifier) { actions.onNavigate(Route.Stats) } }
+                streak?.let { PhoneFigure(AppIcons.FlameFilled, AppAccents.pink, trPlural(it, "{0}-day streak", "{0}-day streak"), "streak", Modifier) { actions.onNavigate(Route.Stats) } }
                 known?.let {
                     PhoneFigure(Icons.Default.Check, AppAccents.green, trPlural(it, "{1} word known", "{1} words known", formatCount(it)), "known", Modifier.weight(1f, fill = false)) {
                         actions.onNavigate(Route.WordFrequency)

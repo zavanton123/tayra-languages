@@ -184,7 +184,7 @@ internal fun RecommendedCard(state: HomeUiState, actions: HomeActions, modifier:
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.spacedBy(AppSpacing.l),
         ) {
-            IconTile(AppIcons.RocketLaunch, size = if (compact) 48 else 72, tint = AppAccents.purple)
+            IconTile(AppIcons.RocketLaunchFilled, size = if (compact) 48 else 72, tint = AppAccents.purple)
             Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
                 Text(tr("Recommended for you").uppercase(), style = AppText.overline, color = AppAccents.onWash(AppAccents.purple))
                 Text(pick.title, style = AppText.sectionTitle, maxLines = 1, overflow = TextOverflow.Ellipsis)

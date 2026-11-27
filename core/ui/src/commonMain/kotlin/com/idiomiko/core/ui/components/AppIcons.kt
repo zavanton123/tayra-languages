@@ -107,6 +107,14 @@ object AppIcons {
     /** Material "newspaper", for the news. */
     val Newspaper: ImageVector get() = ReadNews
 
+    /** Material "local_fire_department", filled: the streak on Home. */
+    val FlameFilled: ImageVector by lazy {
+        icon(
+            "FlameFilled",
+            "M11.57 13.16c-1.36.28-2.17 1.16-2.17 2.41 0 1.34 1.11 2.42 2.49 2.42 2.05 0 3.71-1.66 3.71-3.71 0-1.07-.15-2.12-.46-3.12-.79 1.07-2.2 1.72-3.57 2zM13.5.67s.74 2.65.74 4.8c0 2.06-1.35 3.73-3.41 3.73-2.07 0-3.63-1.67-3.63-3.73l.03-.36C5.21 7.51 4 10.62 4 14c0 4.42 3.58 8 8 8s8-3.58 8-8C20 8.61 17.41 3.8 13.5.67z",
+        )
+    }
+
     val Flame: ImageVector by lazy {
         navIcon("Flame") {
             stroke("M12.8 2.8c.5 3.6-2.2 5.1-2.2 7.4 0 1.2.7 2.1 1.8 2.7-.2-2.1 1-3.3 2.4-4.7 2.5 1.8 4.2 4.7 4.2 7.3a7 7 0 0 1-14 0c0-3.2 1.7-6.2 4.3-8.3-.2 2 .3 3.4 1.3 4.2.2-3.6 3.1-5 2.2-8.6Z", cap = StrokeCap.Round, join = StrokeJoin.Round)
@@ -130,7 +138,7 @@ object AppIcons {
     val School: ImageVector get() = ReadCourses
 
     /** A fan of cards, for the flashcards; upside down, so it opens downwards. */
-    val Style: ImageVector get() = StageFlashcards
+    val Style: ImageVector get() = Flashcards
 
     val PieChart: ImageVector by lazy {
         navIcon("PieChart") {
@@ -287,6 +295,14 @@ object AppIcons {
     }
 
     /** A clock face: when something comes. */
+    /** Material "rocket_launch", filled: the recommended course on Home. */
+    val RocketLaunchFilled: ImageVector by lazy {
+        icon(
+            "RocketLaunchFilled",
+            "M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.05-4.05c.47-.47 1.15-.68 1.81-.55l1.33.26zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83L11.17 17zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.05-4.05c.47-.47.68-1.15.55-1.81l-.26-1.33zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3zm4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2z",
+        )
+    }
+
     /** Material "rocket_launch": something new to set off on, such as a recommended course. */
     val RocketLaunch: ImageVector by lazy {
         navIcon("RocketLaunch") {
