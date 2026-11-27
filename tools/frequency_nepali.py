@@ -602,8 +602,11 @@ def label_of(used):
     return " + ".join(parts)
 
 
-def build(size, download, dictionaries=DICTIONARIES):
-    """The list: the pack's words by their forms' counts, each kind of text weighted by WEIGHTS."""
+def rank(download, dictionaries=DICTIONARIES):
+    """
+    The words by score, best first, with their scores, their forms' credit (word -> form -> share), their counts in all, and
+    the label of the sources: the pack's words by their forms' counts, each kind of text weighted by WEIGHTS.
+    """
     counts, used = _counts(download)
     label = label_of(used) + " + English Wiktionary Hindi entries (CC BY-SA 4.0) for the words the ne-en pack lacks"
     share = defaultdict(float)
@@ -651,8 +654,14 @@ def build(size, download, dictionaries=DICTIONARIES):
             scores[head] += value * part
             totals[head] += raw[form]
             forms[head][form] = forms[head].get(form, 0.0) + value * part
+    ranked = [w for w in sorted(scores, key=lambda w: (-scores[w], w)) if totals[w] >= LEAST_COUNT]
+    return ranked, scores, forms, totals, label
 
-    ranked = [w for w in sorted(scores, key=lambda w: (-scores[w], w)) if totals[w] >= LEAST_COUNT][:size]
+
+def build(size, download, dictionaries=DICTIONARIES):
+    """The list (rank), its words' forms by their credit."""
+    ranked, _, forms, _, label = rank(download, dictionaries)
+    ranked = ranked[:size]
     lines = [f"# source: {label}", f"# words: {len(ranked)}"]
     for word in ranked:
         listed = sorted(forms[word], key=lambda f: (-forms[word][f], f))[:FORMS_LISTED]
