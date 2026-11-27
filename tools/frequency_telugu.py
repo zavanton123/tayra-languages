@@ -974,16 +974,23 @@ def build(found, size, label, weights=None):
     alias = dict(TELUGU_SPELLINGS)
     # An adverb or adjective of a noun the pack lacks (ఇతివృత్తంగా, ఇతివృత్తమైన, నేర్పుగా) is that noun's, when the corpus
     # writes it.
+    # One in -ుగా (నేర్పుగా, నిజముగా) is so only after a noun in -u, the old -ము being -ం (నిజం); తిన్నగా "straight" is no
+    # తిన్న's.
     for word in sorted(kinds):
-        for tail in ("ంగా", "మైన", "గా"):
-            if tail == "గా" and kinds[word] != {"adv"}:
+        for tail in ("ంగా", "మైన", "ుగా"):
+            if tail == "ుగా" and kinds[word] != {"adv"}:
                 continue
-            noun = word[:-len(tail)] + (ANUSVARA if tail != "గా" else "")
-            if (word.endswith(tail) and kinds[word] <= {"adv", "adj", "noun"} and word not in TELUGU_WORDS and noun not in kinds
-                    and len(noun) > 3 and counts.get(noun, 0) > 0):
+            noun = modern(word[:-len(tail)] + ("\u0c41" if tail == "ుగా" else ANUSVARA))
+            if (not word.endswith(tail) or not kinds[word] <= {"adv", "adj", "noun"} or word in TELUGU_WORDS
+                    or len(noun) < 4):
+                continue
+            if noun in kinds:
+                alias[word] = noun
+                kinds.pop(word)
+            elif counts.get(noun, 0) > 0:
                 kinds[noun] = {"noun"}
                 kinds.pop(word)
-                break
+            break
     # A noun the pack writes in -ము that texts decline in -a (పాలన, పాలనలో; not పాలనం, పాలనంలో) is listed in -a.
     for word in [w for w in kinds if w.endswith(ANUSVARA) and w not in TELUGU_WORDS and w[:-1] not in kinds]:
         stem = word[:-1]
