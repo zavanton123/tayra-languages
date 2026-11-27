@@ -113,7 +113,11 @@ class LanguageRemovalService(
             }
         }
         learning.forget(languageId)
-        sharedCode(languageId)?.let { code ->
+        val code = sharedCode(languageId)
+        // The language's rows go first, everything in the library made in it with them, in one
+        // statement: the packs then find no lesson texts left to delete one at a time.
+        step("Library") { languages.delete(languageId) }
+        code?.let { code ->
             step("Course packs") {
                 coursePacks.refresh()
                 for (status in coursePacks.packs.value) if (status.pack.languageCode == code && status.state is PackState.Installed) coursePacks.remove(status.pack)
@@ -135,12 +139,8 @@ class LanguageRemovalService(
                 for (pkg in translationModels(code)) translator?.removePackage(pkg.fromCode, pkg.toCode)
             }
         }
-        // The language's rows go with it, everything in the library made in it with them; the
-        // catalog's language comes back empty, to be learned afresh.
-        step("Library") {
-            languages.delete(languageId)
-            languageService.loadPredefined(language.name, withTutorial = false)
-        }
+        // The catalog's language comes back empty, to be learned afresh.
+        step("Library") { languageService.loadPredefined(language.name, withTutorial = false) }
         return problems
     }
 
