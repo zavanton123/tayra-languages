@@ -389,5 +389,4 @@ internal val deCommon: Map<String, String> = mapOf(
     "Vietnam" to "Vietnam",
     "Add a language" to "Sprache hinzufügen",
     "Add a language…" to "Sprache hinzufügen…",
-    "Start learning another language" to "Eine weitere Sprache lernen",
 )

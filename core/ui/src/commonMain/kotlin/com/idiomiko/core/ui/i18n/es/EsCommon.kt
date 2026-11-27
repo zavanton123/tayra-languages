@@ -389,5 +389,4 @@ internal val esCommon: Map<String, String> = mapOf(
     "Vietnam" to "Vietnam",
     "Add a language" to "Añadir un idioma",
     "Add a language…" to "Añadir un idioma…",
-    "Start learning another language" to "Empieza a aprender otro idioma",
 )

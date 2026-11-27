@@ -389,5 +389,4 @@ internal val plCommon: Map<String, String> = mapOf(
     "Vietnam" to "Wietnam",
     "Add a language" to "Dodaj język",
     "Add a language…" to "Dodaj język…",
-    "Start learning another language" to "Zacznij uczyć się kolejnego języka",
 )

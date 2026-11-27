@@ -389,5 +389,4 @@ internal val ruCommon: Map<String, String> = mapOf(
     "Vietnam" to "Вьетнам",
     "Add a language" to "Добавить язык",
     "Add a language…" to "Добавить язык…",
-    "Start learning another language" to "Начните учить ещё один язык",
 )

@@ -389,5 +389,4 @@ internal val frCommon: Map<String, String> = mapOf(
     "Vietnam" to "Viêt Nam",
     "Add a language" to "Ajouter une langue",
     "Add a language…" to "Ajouter une langue…",
-    "Start learning another language" to "Commencer à apprendre une autre langue",
 )

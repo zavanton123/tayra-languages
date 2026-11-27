@@ -389,5 +389,4 @@ internal val elCommon: Map<String, String> = mapOf(
     "Vietnam" to "Βιετνάμ",
     "Add a language" to "Προσθήκη γλώσσας",
     "Add a language…" to "Προσθήκη γλώσσας…",
-    "Start learning another language" to "Ξεκινήστε να μαθαίνετε άλλη μία γλώσσα",
 )

@@ -389,5 +389,4 @@ internal val zhCommon: Map<String, String> = mapOf(
     "Vietnam" to "越南",
     "Add a language" to "添加语言",
     "Add a language…" to "添加语言…",
-    "Start learning another language" to "开始学习另一种语言",
 )
