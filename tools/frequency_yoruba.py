@@ -17,7 +17,10 @@ written without its tones (ati, ninu) or a word without its dots (àwon); a spel
 as several words share it. The list's forms are the standard spellings only.
 
 The marks let some other text through, which is left out (foreign): Chinese pinyin, Vietnamese, Gbe (Fon, Gun), mojibake.
-A dialect's spelling is counted for the standard word (lénìí for lónìí).
+Past the commonest words the counts are small and careless typing adds its own: a rare word that a common one is mistyped
+as (awọ́n "tongue" for àwọn, kíì "key" for kìí, ìre "blessings" for ire) is counted for the common word (CARELESS_RATIO), a
+dialect's spelling for the standard word (lénìí for lónìí), and a rare word written capitalised far more often than not
+(Dàda, Ifọ̀) is a name and left out.
 """
 import functools
 import gzip
@@ -123,6 +126,11 @@ PINYIN_MARK = re.compile("̌|[aeiou]̄")
 DOTTED = re.compile("[ẹọṣ]")
 # Gbe (Gun) writes ẹ and ọ as Yoruba does; two of its commonest words in one sentence tell it.
 GBE_WORDS = {yoruba_standard(w) for w in ["dọ", "wẹ", "nọ", "ẹn", "lẹ", "mẹ", "enẹ", "ehe", "gbẹtọ", "tọn"]}
+# A word or spelling counted fewer times than this is rare. A rare word that shares its letters (bare) with a spelling of a
+# word scoring CARELESS_RATIO times more is that word typed carelessly; a rare word written capitalised inside a sentence
+# twice as often as in small letters (and at least twice) is a name.
+RARE = 50
+CARELESS_RATIO = 10
 # "Ondo form of dúró", "Lagos form of lónìí", "(transitive) Ikalẹ form of sè": a dialect's word, counted for the standard one.
 DIALECT_FORM = re.compile(r"^(?:\([^)]*\) )?[A-ZÀ-ỹ][^,;(]* form of (\S+) \(“")
 
@@ -301,10 +309,10 @@ def foreign(line):
     return len(set(WORD.findall(small)) & GBE_WORDS) >= 2
 
 
-def tokens(line, lexicon):
+def tokens(line, lexicon, cases=None):
     """
     A line's words, lowercase, without the capitalised ones inside a sentence (names) unless the pack writes the word so, and
-    without acronyms (WHO, PU).
+    without acronyms (WHO, PU). [cases] counts how often each word is written inside a sentence capitalised and in small letters.
     """
     for match in WORD.finditer(line):
         word = match.group(0)
@@ -312,13 +320,21 @@ def tokens(line, lexicon):
             continue
         if word[0].isupper() and not word.isupper() and not SENTENCE_START.search(line[:match.start()]):
             if word not in lexicon.written.get(word.lower(), ()):
+                if cases is not None:
+                    cases[word.lower()][0] += 1
                 continue
+        elif cases is not None and word[0].islower():
+            cases[word][1] += 1
         yield word.lower()
 
 
 def _counts(download, lexicon):
-    """Each kind of text's word counts, the names of the corpora counted, and how many sentences were kept of how many."""
+    """
+    Each kind of text's word counts, the names of the corpora counted, how many sentences were kept of how many, and how often
+    each word is written capitalised and in small letters inside a sentence.
+    """
     counts = {kind: defaultdict(int) for kind in WEIGHTS}
+    cases = defaultdict(lambda: [0, 0])
     used = defaultdict(list)
     kept = defaultdict(lambda: [0, 0])
     seen = set()
@@ -351,9 +367,9 @@ def _counts(download, lexicon):
                 continue
             seen.add(key)
             kept[source][0] += 1
-            for token in tokens(line, lexicon):
+            for token in tokens(line, lexicon, cases):
                 counts[kind][token] += 1
-    return counts, used, kept
+    return counts, used, kept, cases
 
 
 def label_of(used):
@@ -368,10 +384,58 @@ def label_of(used):
     return " + ".join(parts) + "; well-marked sentences only"
 
 
+def _scores(heads, share, raw):
+    """
+    Each word's score (its spellings' shares; a spelling of several words split by their own spellings' shares), count, and
+    its standard spellings' shares.
+    """
+    own = defaultdict(float)
+    for token, value in share.items():
+        words, _ = heads[token]
+        if len(words) == 1:
+            own[next(iter(words))] += value
+    scores = defaultdict(float)
+    totals = defaultdict(int)
+    forms = defaultdict(dict)
+    for token, value in share.items():
+        words, standard = heads[token]
+        if not words:
+            continue
+        weights = {w: own.get(w, 0.0) for w in sorted(words)}
+        whole = sum(weights.values())
+        for word, weight in weights.items():
+            part = weight / whole if whole else 1 / len(words)
+            if part <= 0:
+                continue
+            scores[word] += value * part
+            totals[word] += raw[token]
+            if standard:
+                forms[word][token] = forms[word].get(token, 0.0) + value * part
+    return scores, totals, forms
+
+
+def _fold_careless(heads, share, raw):
+    """
+    Counts each rare word that shares its letters with a standard spelling of a word scoring CARELESS_RATIO times more for that
+    word (awọ́n for àwọn, ìrú for irú, ẹdá for ẹ̀dá), and does not list it as that word's spelling.
+    """
+    scores = _scores(heads, share, raw)[0]
+    alike = defaultdict(set)
+    for token, (words, standard) in heads.items():
+        if standard:
+            alike[bare(token)].update(words)
+    for token, (words, _) in list(heads.items()):
+        if words != {token} or raw[token] >= RARE:
+            continue
+        better = frozenset(w for w in alike[bare(token)] if w != token and scores[w] >= CARELESS_RATIO * scores[token])
+        if better:
+            heads[token] = (better, False)
+
+
 def build(size, download, dictionaries=DICTIONARIES):
     """The list: the pack's words by their spellings' counts, each kind of text weighted by WEIGHTS."""
     lexicon = Lexicon(dictionaries)
-    counts, used, kept = _counts(download, lexicon)
+    counts, used, kept, cases = _counts(download, lexicon)
     for source, (k, n) in sorted(kept.items()):
         print(f"yo {source}: {k:,} of {n:,} lines well marked", file=__import__("sys").stderr)
     label = label_of(used)
@@ -386,28 +450,12 @@ def build(size, download, dictionaries=DICTIONARIES):
             raw[token] += n
 
     heads = {token: lexicon.lemmas(token) for token in share}
-    own = defaultdict(float)
-    for token, value in share.items():
-        words, _ = heads[token]
-        if len(words) == 1:
-            own[next(iter(words))] += value
-    scores = defaultdict(float)
-    totals = defaultdict(int)
-    forms = defaultdict(dict)
-    for token, value in share.items():
-        words, standard = heads[token]
-        if not words:
-            continue
-        weights = {w: own.get(w, 0.0) for w in words}
-        whole = sum(weights.values())
-        for word in words:
-            part = weights[word] / whole if whole else 1 / len(words)
-            if part <= 0:
-                continue
-            scores[word] += value * part
-            totals[word] += raw[token]
-            if standard:
-                forms[word][token] = forms[word].get(token, 0.0) + value * part
+    for token in share:
+        capitalised, small = cases.get(token, (0, 0))
+        if raw[token] < RARE and capitalised >= max(2, 2 * small):
+            heads[token] = (frozenset(), False)
+    _fold_careless(heads, share, raw)
+    scores, totals, forms = _scores(heads, share, raw)
 
     ranked = [w for w in sorted(scores, key=lambda w: (-scores[w], w)) if totals[w] >= LEAST_COUNT][:size]
     lines = [f"# source: {label}", f"# words: {len(ranked)}"]
