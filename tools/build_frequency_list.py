@@ -4828,6 +4828,11 @@ def load_dictionary(language):
         for word, kind in frequency_burmese.WORDS.items():
             pos[word].add(kind)
             common[word] = word
+    # The Khmer words the pack lacks that its texts write whole (build_khmer, khmer_whole_words).
+    if language == "km":
+        for word in KHMER_LISTED:
+            pos[word].add("noun")
+            common.setdefault(word, word)
     lemmas = defaultdict(list)
     # Spellings the 1996 German reform replaced ("daß" for "dass"), whose other links are noise ("daß" to "das").
     outdated = set()
@@ -5678,6 +5683,10 @@ def build_khmer(size):
         pieces = by_pack(folded)
         if len(pieces) == 1 or any(not khmer_word(p, known) for p in pieces):
             extra.add(folded)
+    # And the words the pack lacks that the reader cut where the courses' writers met them (frequency_km.KHMER_WORDS), and
+    # the stems of the pack's words written with ៗ, which the reader reads apart (នីមួយ of នីមួយៗ).
+    extra |= {khmer_fold(w) for w in frequency_km.KHMER_WORDS}
+    extra |= {khmer_fold(w[:-1]) for w in pack if w.endswith("\u17d7") and len(w) > 2} - known
     sources = [("wikipedia", runs, wiki_label)]
     subtitles = khmer_subtitle_runs()
     if subtitles:
@@ -5775,11 +5784,12 @@ def build_khmer(size):
     spellings.update(swapped)
     # The reader cuts Khmer by how common its words are, as the list it ships with ranks them (KhmerParser), so the list is
     # built again from cuts made with the last one's ranks until they no longer change it, at most KHMER_ROUNDS times.
+    listed = khmer_whole_words(extra - known, written, spelled, spellings, known)
     ranks, text, label = None, None, None
     for round_ in range(KHMER_ROUNDS + 1):
         joined = len(bound)
         spelled, together = cut(ranks)
-        built, label = khmer_list(sources, spelled, together, pack, spellings, size)
+        built, label = khmer_list(sources, spelled, together, pack, spellings, size, listed)
         print(f"km round {round_}: {'unchanged' if built == text else 'changed'}, {len(bound) - joined} compounds joined", file=sys.stderr)
         if built == text and len(bound) == joined:
             break
@@ -5789,6 +5799,8 @@ def build_khmer(size):
 
 
 KHMER_ROUNDS = 10
+# The words the pack lacks that the Khmer list has (khmer_whole_words), as the list writes them.
+KHMER_LISTED = set()
 # How much of a word's uses must be next to the same word, and how many at least, for the two to be counted as one.
 KHMER_BOUND_SHARE = 0.5
 KHMER_BOUND_MIN = 20
@@ -5801,8 +5813,77 @@ KHMER_COMPOUND_PARTNER = 16
 KHMER_COMPOUND_WHOLE = 0.1
 
 
-def khmer_list(sources, spelled, together, pack, spellings, size):
-    """The Khmer list from the words each source was cut into ([spelled]), each in the spelling the pack has."""
+def khmer_inside(words, counts):
+    """How often each of [words] is written inside a longer one of [counts], where a word may end, by the counts."""
+    inside = defaultdict(int)
+    for longer, n in counts.items():
+        for i in range(len(longer)):
+            if not khmer_break(longer, i):
+                continue
+            for j in range(i + 1, min(len(longer), i + 16) + 1):
+                if (i, j) != (0, len(longer)) and longer[i:j] in words and khmer_break(longer, j):
+                    inside[longer[i:j]] += n
+    return inside
+
+
+# A word the pack lacks is listed (khmer_whole_words) when the articles write it between zero-width spaces this often, in this
+# share of the times they write it at all (inside longer runs too), and the subtitles have this share of its uses, by the
+# two texts' sizes: else it is a syllable editors split a word at (សា, វិ, ណ៍), or a name or a word of the Pali scriptures
+# (នរោត្តម, តថាគត, អាបត្តិ), which the subtitles hardly use.
+KHMER_LISTED_WRITTEN = 10
+KHMER_LISTED_WHOLE = 0.3
+KHMER_LISTED_SPOKEN = 0.03
+
+
+def khmer_whole_words(candidates, written, spelled, spellings, known):
+    """
+    The words of [candidates] (folded: those the articles separate, which the pack lacks) the list has as words, as their
+    texts write them whole (KHMER_LISTED_WRITTEN, KHMER_LISTED_WHOLE) and say them (KHMER_LISTED_SPOKEN), with those of
+    frequency_km.KHMER_WORDS: not the other spellings of the pack's words, nor a phrase of the pack's words and these
+    (ដឹងថា, ស្រដៀងគ្នា), which the reader reads as its words.
+    """
+    own = {khmer_fold(w) for w in frequency_km.KHMER_WORDS}
+    other = {khmer_fold(s) for s in spellings}
+    inside = khmer_inside(candidates, written)
+    texts = []
+    for out in spelled:
+        counts = defaultdict(int)
+        for word, n in out.items():
+            counts[khmer_fold(word)] += n
+        texts.append((counts, sum(counts.values()) or 1))
+    found = set()
+    for word in candidates - other:
+        shares = [counts.get(word, 0) / total for counts, total in texts]
+        if written.get(word, 0) >= KHMER_LISTED_WRITTEN and written[word] >= KHMER_LISTED_WHOLE * (written[word] + inside[word]) \
+                and len(shares) > 1 and shares[1] >= KHMER_LISTED_SPOKEN * sum(shares):
+            found.add(word)
+    words = known | other | found | own
+    return {w for w in found if not khmer_phrase(w, words)} | own
+
+
+def khmer_phrase(word, words):
+    """
+    Whether [word] is two or more of [words] (ដឹងថា, ខែកក្កដា), or a consonant and one or more (តទៅ, កកើត): listed, it would
+    take a name's last letter where one is written before it (ម៉ានីត ទៅ read as ម៉ានី តទៅ).
+    """
+    ends = [False] * (len(word) + 1)
+    ends[0] = True
+    for start in range(len(word)):
+        if not ends[start]:
+            continue
+        for end in range(start + 1, len(word) + 1):
+            piece = word[start:end]
+            if (start, end) != (0, len(word)) and khmer_break(word, end) and (
+                    khmer_word(piece, words) or start == 0 and len(piece) == 1 and "\u1780" <= piece <= "\u17a2"):
+                ends[end] = True
+    return ends[len(word)]
+
+
+def khmer_list(sources, spelled, together, pack, spellings, size, listed=frozenset()):
+    """
+    The Khmer list from the words each source was cut into ([spelled]), each in the spelling the pack has, with the words
+    the pack lacks that [listed] has (folded).
+    """
     # Each word in the spelling the pack has, the commoner in the texts where it has both.
     best = {}
     for word, n in sorted(together.items(), key=lambda kv: -kv[1]):
@@ -5820,6 +5901,8 @@ def khmer_list(sources, spelled, together, pack, spellings, size):
         found.append((name, dict(counts), label))
     # Each other spelling is its word's form, the word written as the list has it.
     OVERRIDES["km"] = {best.get(khmer_fold(s), s): [best.get(khmer_fold(w), w)] for s, w in spellings.items()}
+    KHMER_LISTED.clear()
+    KHMER_LISTED.update(best[w] for w in listed if w in best)
     text, label = build_list("km", found, size)
     lines = []
     for line in text.splitlines(keepends=True):
