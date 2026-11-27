@@ -816,7 +816,8 @@ class ReadingHoverTest {
         vm.markToLearn(vm.index("Quem"))
         rule.waitUntil(5_000) { vm.state.value.items.any { it.renderText == "Quem" && it.status.isLearning } }
 
-        rule.onNodeWithTag("questions-done").performClick()
+        rule.onAllNodesWithText("Done").assertCountEquals(0)
+        rule.onNodeWithTag("check-stage").performClick()
         rule.waitUntil(5_000) { ReadingStage.QUESTIONS in vm.state.value.stages }
         rule.waitUntil(5_000) { vm.state.value.stage == ReadingStage.WORDS }
         assertTrue(vm.state.value.page === vm.state.value.storyPage, "the next stage works on the story again")

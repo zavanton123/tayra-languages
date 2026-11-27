@@ -907,9 +907,6 @@ private fun ReadingBody(
                 edgePadding = edgePadding,
                 callbacks = callbacks,
             ) }
-            if (state.stage == ReadingStage.QUESTIONS) {
-                PrimaryButton(tr("Done"), onClick = viewModel::checkStage, modifier = Modifier.padding(top = AppSpacing.xl).testTag("questions-done"))
-            }
             if (state.selecting) {
                 Text(tr("Long-press the last word of the expression, or tap to cancel."), style = MaterialTheme.typography.labelSmall, modifier = Modifier.clickable { viewModel.cancelSelection() })
             }
