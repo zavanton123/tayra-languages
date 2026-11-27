@@ -5472,7 +5472,10 @@ def build(language, source, size):
         return frequency_bengali.build(found, size, label)
     if language == "ta":
         label = " + ".join(f"{label} ({SOURCE_LICENCES.get((language, name), SOURCE_LICENCES[name])})" for name, _, label in found)
-        return frequency_tamil.build(found, size, label, SOURCE_WEIGHTS["ta"])
+        # The news sentences tell how a word is used: beside titles and initials, or spread over the pages (frequency_tamil).
+        return frequency_tamil.build(found, size, label, SOURCE_WEIGHTS["ta"], [
+            download(f"https://downloads.wortschatz-leipzig.de/corpora/{corpus}.tar.gz", f"leipzig-{corpus}.tar.gz")
+            for corpus in FALLBACKS["ta"]["leipzig"]])
     if language == "te":
         label = " + ".join(f"{label} ({SOURCE_LICENCES.get((language, name), SOURCE_LICENCES[name])})" for name, _, label in found)
         return frequency_telugu.build(found, size, label, SOURCE_WEIGHTS["te"])

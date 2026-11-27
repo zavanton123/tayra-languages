@@ -11,12 +11,14 @@ the Kannada list makes its forms by rule (frequency_kannada), and a corpus form 
 A form that is a word of the pack itself keeps its count (ஆனால் "but", not ஆ's "if it becomes"), unless TAMIL_FORMS files it.
 """
 import functools
+import io
 import json
 import os
 import re
 import sqlite3
+import tarfile
 import unicodedata
-from collections import defaultdict
+from collections import Counter, defaultdict
 
 # As the reader's Tamil wordCharacters, without the Tamil digits and number signs (numbers are no words).
 TAMIL_LETTERS = re.compile("[஀-௥‌‍]+")
@@ -497,8 +499,104 @@ def word_forms(word, ks, table_of, helpers):
     return forms
 
 
-def build(found, size, label, weights=None):
-    """The list: the pack's words, by their forms' counts in [found], each source weighted by [weights] (by name)."""
+# How the news sentences use a word (read_usage), once it is counted: a page (an article) counts a form PAGE_MOST times at
+# most, so that a word one article repeats is no common one; and its uses as a name count for nothing: after a title
+# (திரு கோபாலன், டாக்டர் கமலம்) or an initial (கே. கோபாலன், மு.க.ஸ்டாலின்), before the honorific அவர்கள் written apart
+# (கமலம் அவர்கள்), and a -ன் or -ள் word after a verb of saying, a quotation's speaker (என்றாள் மைதிலி).
+PAGE_MOST = 2
+TITLES = set("""
+திரு திருமதி செல்வி ஸ்ரீ ஶ்ரீ ஸ்ரீமதி திருவாளர் டாக்டர் டாக்டர் மிஸ்டர் தோழர் கவிஞர் நடிகர் நடிகை இயக்குநர் இயக்குனர்
+பேராசிரியர் முனைவர் சுவாமி ஸ்வாமி புனித செயின்ட் கேப்டன் மேஜர் கர்னல் ஜனாப் ஹாஜி மௌலவி அருட்திரு அருள்திரு
+அருட்தந்தை சர் மகாத்மா பண்டிட்
+""".split())
+INITIAL = re.compile("(?:[அ-ஔ]|[க-ஹ][ா-ௌ]?)(?:[க-ஹ]்)?")
+SAYING = set("என்றான் என்றாள் என்றார் கூறினான் கூறினாள் கூறினார் சொன்னான் சொன்னாள் சொன்னார் கேட்டான் கேட்டாள் கேட்டார்".split())
+# A noun the sentences use as a name (above) NAMED_SHARE of the times they have it is a name, and left out.
+NAMED_SHARE = 0.45
+
+
+def _sentences(corpora):
+    """Each sentence of the Leipzig archives [corpora] as (its page, its words, whether a full stop follows each)."""
+    for path in corpora:
+        if not path:
+            continue
+        name = os.path.basename(path)
+        with tarfile.open(path) as tar:
+            members = {m.name.rsplit("-", 1)[-1]: m for m in tar.getmembers() if m.isfile()}
+            page_of = {}
+            for line in io.TextIOWrapper(tar.extractfile(members["inv_so.txt"]), encoding="utf-8"):
+                source, sentence = line.rstrip("\n").split("\t")[:2]
+                page_of[sentence] = source
+            for line in io.TextIOWrapper(tar.extractfile(members["sentences.txt"]), encoding="utf-8"):
+                number, _, text = line.rstrip("\n").partition("\t")
+                text = unicodedata.normalize("NFC", text)
+                found = list(TAMIL_LETTERS.finditer(text))
+                yield (name + "/" + page_of.get(number, ""), [m.group() for m in found],
+                       [text[m.end():m.end() + 1] == "." for m in found])
+
+
+def read_usage(corpora, nouns):
+    """How often the sentences have each form (seen), counting each page PAGE_MOST times at most (spread), and how often as a
+    name (lost; see PAGE_MOST). [nouns] are the words a bare noun before அவர்கள் may be."""
+    sentences = sorted(_sentences(corpora), key=lambda s: s[0])
+    seen, spread, lost = Counter(), Counter(), Counter()
+    page, on_page = None, Counter()
+    for here, words, stops in sentences + [(None, [], [])]:
+        if here != page:
+            spread.update({w: min(n, PAGE_MOST) for w, n in on_page.items()})
+            page, on_page = here, Counter()
+        on_page.update(words)
+        seen.update(words)
+        last = len(words) - 1
+        for i, word in enumerate(words):
+            before = words[i - 1] if i else ""
+            after = words[i + 1] if i < last else ""
+            if (before in TITLES or i and stops[i - 1] and INITIAL.fullmatch(before)
+                    or after == "அவர்கள்" and word in nouns or before in SAYING and word.endswith(("ன்", "ள்"))):
+                lost[word] += 1
+    return seen, spread, lost
+
+
+# A noun's forms that tell no noun: an -அம் noun's bare stem before another word (அனந்த of அனந்தம், as in அனந்த
+# பத்மநாபன்; பரலோக ராஜ்யம்) and a clitic -ஆ, -ஏ or -ஓ on the nominative (ரங்கா, அகிலா of ரங்கு, அகில்), as names and the
+# spoken forms are written. They count for the noun at most PIECE_MOST times its telling forms.
+PIECE_MOST = 1.0
+
+
+def pieces(word):
+    out = {join(word, t) for t in ("ஆ", "ஏ", "ஓ")}
+    if word.endswith("ம்") and len(word) > 4:
+        bare = word[:-2]
+        out |= {bare} | {bare + c + VIRAMA for c in "கசதப"}
+    return out - {word}
+
+
+def _fold(scores, forms, kinds, corpora):
+    """After the counting: a form counts only its uses as no name, spread over the pages (read_usage), and a noun's pieces only
+    beside its telling forms (pieces); a noun mostly a name (NAMED_SHARE) is left out."""
+    seen, spread, lost = read_usage(corpora, {w for w, ks in kinds.items() if "noun" in ks})
+    for word in sorted(scores):
+        counted = forms[word]
+        for form in sorted(counted):
+            if seen[form]:
+                counted[form] *= spread[form] / seen[form] * (1 - lost[form] / seen[form])
+        if kinds.get(word, set()) & NOMINAL:
+            loose = pieces(word) & set(counted)
+            whole = sum(counted[f] for f in sorted(loose))
+            telling = sum(c for f, c in counted.items() if f not in loose)
+            if whole > PIECE_MOST * telling:
+                for form in sorted(loose):
+                    counted[form] *= PIECE_MOST * telling / whole
+        scores[word] = sum(counted.values())
+        uses = sum(seen[f] for f in counted)
+        if scores[word] <= 0 or uses and kinds.get(word) == {"noun"} and sum(lost[f] for f in counted) >= NAMED_SHARE * uses:
+            del scores[word]
+            del forms[word]
+
+
+def build(found, size, label, weights=None, corpora=()):
+    """The list: the pack's words, by their forms' counts in [found], each source weighted by [weights] (by name), their uses
+    read from the news sentences of [corpora] (_fold)."""
     dictionaries = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "dictionaries")
     kinds, table, names = lexicon(dictionaries)
     counts = defaultdict(float)
@@ -610,6 +708,8 @@ def build(found, size, label, weights=None):
             scores[head] += share * part
             forms[head][form] = forms[head].get(form, 0.0) + share * part
 
+    if corpora:
+        _fold(scores, forms, kinds, corpora)
     ranked = sorted(scores, key=lambda w: -scores[w])[:size]
     # A noun of a person whose polite form in -அர் is written more than its own (அமைச்சர், தலைவர்) is listed under that form.
     for i, word in enumerate(ranked):
