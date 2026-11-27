@@ -31,6 +31,8 @@ data class AppTheme(
     val readingText: Color,
     /** The letters of the selected word or phrase; its status background stays as it is. */
     val selectedText: Color,
+    /** The green of the button that checks a stage done. */
+    val checkAccent: Color = AppAccents.green,
 ) {
     /** The name in the interface language. */
     val label: String get() = tr(englishLabel)
@@ -164,6 +166,8 @@ object AppThemes {
         selected: Long,
         /** Status colours of the theme's own, in place of the ones mixed from its accents. */
         ownStatuses: StatusColors? = null,
+        /** The check button's green, when not the app's own. */
+        check: Long? = null,
     ): AppTheme {
         val bg = Color(page)
         val fg = Color(text)
@@ -220,7 +224,7 @@ object AppThemes {
         } else {
             StatusColors(statuses(unknown = mix(Color(blue), 0.22f), learning = mix(Color(yellow), 0.42f), page = bg, ignored = mix(error, 0.45f), wellKnown = mix(Color(green), 0.45f)))
         }
-        return AppTheme(id, name, dark, scheme, statuses, readingBackground = bg, readingText = fg, selectedText = Color(selected))
+        return AppTheme(id, name, dark, scheme, statuses, readingBackground = bg, readingText = fg, selectedText = Color(selected), checkAccent = check?.let(::Color) ?: AppAccents.green)
     }
 
     /**
@@ -309,6 +313,7 @@ object AppThemes {
         ownStatuses = StatusColors(
             statuses(unknown = Color(0xFFB6E3FF), learning = Color(0xFFFAE17D), page = Color.White, ignored = Color(0xFFFFAEA8), wellKnown = Color(0xFF6FDD8B)),
         ),
+        check = 0xFF3FB950,
     )
 
     val all: List<AppTheme> = listOf(default, classic, sepia) + colourThemes + night + editorThemes

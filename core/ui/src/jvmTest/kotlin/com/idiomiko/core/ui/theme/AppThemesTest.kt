@@ -3,6 +3,8 @@ package com.idiomiko.core.ui.theme
 import com.idiomiko.core.domain.settings.UserSettings
 import kotlin.test.Test
 import kotlin.test.assertEquals
+import kotlin.test.assertTrue
+import androidx.compose.ui.graphics.luminance
 
 /** GitHub Light is the theme the app starts in, first in the list; the old default stays as Classic. */
 class AppThemesTest {
@@ -20,5 +22,11 @@ class AppThemesTest {
         assertEquals(AppThemes.default, AppThemes.byId("default"), "those who never chose a theme get the new default")
         assertEquals("Classic", AppThemes.byId("classic").englishLabel)
         assertEquals(AppThemes.classic, AppThemes.all[1])
+    }
+
+    @Test
+    fun gitHubLightChecksInABrighterGreen() {
+        assertTrue(AppThemes.default.checkAccent.luminance() > AppAccents.green.luminance())
+        assertEquals(AppAccents.green, AppThemes.classic.checkAccent, "the other themes keep the app's own")
     }
 }

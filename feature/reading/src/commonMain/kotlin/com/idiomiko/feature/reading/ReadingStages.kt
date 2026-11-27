@@ -46,6 +46,7 @@ import com.idiomiko.core.ui.components.CountBadge
 import com.idiomiko.core.ui.components.SecondaryButton
 import com.idiomiko.core.ui.i18n.tr
 import com.idiomiko.core.ui.theme.AppAccents
+import com.idiomiko.core.ui.theme.LocalAppTheme
 import com.idiomiko.core.ui.theme.AppAlpha
 import com.idiomiko.core.ui.theme.AppBorders
 import com.idiomiko.core.ui.theme.AppElevation
@@ -182,7 +183,7 @@ internal fun CheckStageButton(
     AppTooltip(waitingFor ?: label) {
         Box(
             Modifier.size(size).shadow(if (waitingFor == null) AppElevation.raised else 0.dp, AppShapes.circle).clip(AppShapes.circle)
-                .background(if (waitingFor == null) AppAccents.green else MaterialTheme.colorScheme.outlineVariant)
+                .background(if (waitingFor == null) LocalAppTheme.current.checkAccent else MaterialTheme.colorScheme.outlineVariant)
                 .clickable(enabled = waitingFor == null, onClick = onCheck)
                 .testTag("check-stage")
                 .semantics {
