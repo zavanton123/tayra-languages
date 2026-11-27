@@ -74,7 +74,27 @@ _OWN_LETTERS = re.compile("[\u067c\u0681\u0685\u0689\u0693\u0696\u069a\u06ab\u06
 _OWN_WORDS = {"د", "په", "کي", "چي", "يي", "دی", "ده", "دي", "ته", "لري", "شوی", "وو", "يو", "دا", "هم", "سره", "پر"}
 
 
+# But the Dari sentences of Afghan sites are often typed with ګ and ې too (ديګر, ګرديده, بشناسېد), and have هم: a sentence with
+# two of Persian's own words (است, از, این; not را, which Pashto writes too) and more of them than of Pashto's, or one and none
+# of Pashto's, is Dari.
+_PERSIAN_WORDS = {pashto_fold(w) for w in (
+    "است این از با برای بود شده کرد میشود های در خود شد کند دیگر دارد نیز اند یک هست هستند کرده میکند باشد بودند کردند "
+    "شود").split()}
+_PASHTO_WORDS = {pashto_fold(w) for w in (
+    "د په کې چې ته دی ده دي وو شو شوه شول شوي شوی لري سره څخه یې دا هغه دغه پر له لپاره وي کړي کړه کول وکړ وکړه وکړل "
+    "ورته دې نو خو زه موږ مونږ تاسو کوي کېږي شي باندې کښې کوم ټول").split()}
+
+
+def is_dari(words):
+    """Whether the folded [words] of a sentence are Dari's rather than Pashto's."""
+    persian = sum(w in _PERSIAN_WORDS for w in words)
+    pashto = sum(w in _PASHTO_WORDS for w in words)
+    return persian >= 2 and persian > pashto or persian >= 1 and not pashto
+
+
 def is_pashto(sentence):
+    if is_dari([pashto_fold(w) for w in READER_WORD.findall(sentence)]):
+        return False
     if _OWN_LETTERS.search(sentence):
         return True
     return any(pashto_fold(w) in _OWN_WORDS for w in READER_WORD.findall(sentence))
