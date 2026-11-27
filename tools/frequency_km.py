@@ -23,4 +23,9 @@ KHMER_EXCLUDE = {"ត្រ", "វី", "រា", "លប់", "ដា", "សេ
                  # And those the courses past rank 1900 met: ដឺ, ម៉, រ៉ of French and English loanwords, ភេ and វក of ភេរវករ
                  # "terrorist", គ្រ of គ្រវី "to wave", គម of សហគមន៍ "community", ព្រីង of place names (តាព្រីង), ថូ of
                  # ថូម៉ាស "Thomas", ណោះ of ប៉ុណ្ណោះ written ប៉ុនណោះ.
-                 "ដឺ", "ម៉", "រ៉", "ភេ", "វក", "គ្រ", "គម", "ព្រីង", "ថូ", "ណោះ"}
+                 "ដឺ", "ម៉", "រ៉", "ភេ", "វក", "គ្រ", "គម", "ព្រីង", "ថូ", "ណោះ",
+                 # And those past rank 2900 that no compound of the texts explains (build_khmer joins those): pieces of names
+                 # (ខន, ខុន, ស្វរៈ, ទុង, សែល of មីសែល, ឥណ្ឌូ), of Pali and Sanskrit words (គរុ of គរុកោសល្យ, វីថិ, ធាន of
+                 # អន្តរធាន, ថាន, ចម), of couplets (លៃ of លៃលក, រែក), and of misspellings (សាច of បីសាច, ពារ of កាពារ, ឆែ).
+                 "ខន", "ខុន", "ស្វរៈ", "ទុង", "សែល", "ឥណ្ឌូ", "គរុ", "វីថិ", "ធាន", "ថាន", "ចម", "លៃ", "រែក", "សាច", "ពារ",
+                 "ឆែ"}
