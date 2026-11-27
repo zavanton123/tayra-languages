@@ -140,7 +140,6 @@ internal val elCommon: Map<String, String> = mapOf(
 
     // LearningLanguage.kt, the language chips
     "Popular" to "Δημοφιλείς",
-    "My languages" to "Οι γλώσσες μου",
     "Europe" to "Ευρώπη",
     "Asia" to "Ασία",
     "Middle East" to "Μέση Ανατολή",
@@ -247,7 +246,6 @@ internal val elCommon: Map<String, String> = mapOf(
 
     // LanguagesScreen.kt
     "Language setup" to "Ρύθμιση γλωσσών",
-    "I'm learning" to "Μαθαίνω",
     "Studying" to "Μελέτη",
     "Translations" to "Μεταφράσεις",
     "Show meanings in" to "Γλώσσα σημασιών",

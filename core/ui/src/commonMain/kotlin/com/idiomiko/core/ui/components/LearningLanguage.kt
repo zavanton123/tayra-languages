@@ -282,9 +282,9 @@ private fun PhoneLanguageList(state: LearningLanguageState?, title: String, onBa
     val needle = query.trim().lowercase()
     val mine = if (onBack == null) emptyList() else state?.myChoices.orEmpty()
     val offered = state?.choices.orEmpty().filter { it !in mine }
-    val chips = languageChips(offered, mine = emptyList())
+    val chips = languageChips(offered)
     var chip by remember { mutableStateOf(chips.first()) }
-    val others = shownLanguages(offered, emptyList(), chip, needle)
+    val others = shownLanguages(offered, chip, needle)
     val list = rememberLazyListState()
     LaunchedEffect(chip) { list.scrollToItem(0) }
     Scaffold(
@@ -311,7 +311,7 @@ private fun PhoneLanguageList(state: LearningLanguageState?, title: String, onBa
                     )
                 }
                 item {
-                    LanguageChipRow(chips, chip.takeIf { needle.isEmpty() }, { it.count(offered, emptyList()) }, Modifier.padding(top = AppSpacing.m), inset = AppSpacing.l) {
+                    LanguageChipRow(chips, chip.takeIf { needle.isEmpty() }, { it.count(offered) }, Modifier.padding(top = AppSpacing.m), inset = AppSpacing.l) {
                         query = ""
                         chip = it
                     }
@@ -347,15 +347,12 @@ private fun PhoneSectionTitle(title: String, note: String? = null) {
 }
 
 /** What the language dialog is for: adding a language not learned yet, the first one, or switching to any language. */
-private enum class LanguageDialogMode { ADD, FIRST, SWITCH }
+private enum class LanguageDialogMode { ADD, FIRST }
 
-/**
- * The language to learn, chosen from every language with the current one ticked, as the settings
- * offer it on a wide window; it closes without a choice.
- */
+/** The languages not being learned yet, to add one, as the settings offer it on a wide window; [onSelect] learns the one chosen. */
 @Composable
-fun StudyLanguageDialog(state: LearningLanguageState, onDismiss: () -> Unit, onSelect: (LanguageChoice) -> Unit = state::select) =
-    LanguageDialog(state, onDismiss, LanguageDialogMode.SWITCH, onSelect)
+fun AddLanguageDialog(state: LearningLanguageState, onDismiss: () -> Unit, onSelect: (LanguageChoice) -> Unit = state::select) =
+    LanguageDialog(state, onDismiss, LanguageDialogMode.ADD, onSelect)
 
 /**
  * Asks for the language to learn while none is chosen, as on first start; it stays until one is.
@@ -370,8 +367,7 @@ fun TargetLanguageDialog(state: LearningLanguageState) {
 /**
  * The languages to choose from, as a dialog: each as a tile in a grid, narrowed by a search box
  * that has the focus from the start on wide screens. Adding one lists those not being learned yet;
- * the first one, every language, with no way to close the dialog but choosing; switching, every
- * language with the current one ticked.
+ * the first one, every language, with no way to close the dialog but choosing.
  */
 @Composable
 private fun LanguageDialog(
@@ -395,17 +391,14 @@ private fun LanguageDialog(
     val needle = query.trim().lowercase()
     val excluded = if (mode == LanguageDialogMode.ADD) state.myChoices else emptyList()
     val offered = state.choices.filter { it !in excluded }
-    // Switching starts on the languages being learned; choosing a new one, on the popular ones.
-    val mine = if (mode == LanguageDialogMode.SWITCH) state.myChoices else emptyList()
-    val chips = languageChips(offered, mine)
+    val chips = languageChips(offered)
     var chip by remember { mutableStateOf(chips.first()) }
-    val others = shownLanguages(offered, mine, chip, needle)
-    val current = state.current.takeIf { mode == LanguageDialogMode.SWITCH }
+    val others = shownLanguages(offered, chip, needle)
     AppDialogSurface(onDismissRequest = onDismiss, modifier = Modifier.fillMaxHeight(if (width.isCompact) 1f else 0.92f).testTag(if (required) "target-language-dialog" else "language-dialog"), maxWidth = 1160.dp, dismissible = !required) {
         Column(Modifier.padding(horizontal = if (width.isCompact) AppSpacing.xl else AppSpacing.xxxl, vertical = AppSpacing.xxl)) {
             Row(verticalAlignment = Alignment.Top) {
                 Column(Modifier.weight(1f)) {
-                    Text(if (mode == LanguageDialogMode.ADD) tr("Add a language") else tr("Select the language to study"), style = AppText.screenTitle)
+                    Text(if (required) tr("Select the language to study") else tr("Add a language"), style = AppText.screenTitle)
                 }
                 if (!required) AppIconButton(Icons.Default.Close, contentDescription = tr("Close"), onClick = onDismiss, style = IconButtonStyle.Tonal, tint = colors.onSurface)
             }
@@ -416,7 +409,7 @@ private fun LanguageDialog(
                 modifier = Modifier.fillMaxWidth().padding(top = AppSpacing.xxl),
                 fieldModifier = Modifier.focusRequester(focus).testTag("language-search"),
             )
-            LanguageChipRow(chips, chip.takeIf { needle.isEmpty() }, { it.count(offered, mine) }, Modifier.padding(top = AppSpacing.l)) {
+            LanguageChipRow(chips, chip.takeIf { needle.isEmpty() }, { it.count(offered) }, Modifier.padding(top = AppSpacing.l)) {
                 query = ""
                 chip = it
             }
@@ -429,8 +422,7 @@ private fun LanguageDialog(
                 others.chunked(columns).forEach { row ->
                     Row(Modifier.fillMaxWidth().padding(bottom = AppSpacing.m), horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
                         row.forEach { choice ->
-                            val chosen = choice == current
-                            LanguageTile(choice, Modifier.weight(1f), chosen) { onDismiss(); if (!chosen) onSelect(choice) }
+                            LanguageTile(choice, Modifier.weight(1f)) { onDismiss(); onSelect(choice) }
                         }
                         repeat(columns - row.size) { Spacer(Modifier.weight(1f)) }
                     }
@@ -440,24 +432,22 @@ private fun LanguageDialog(
     }
 }
 
-/** A chip narrowing the languages offered: those being learned, the popular ones, every one, or one group's. */
+/** A chip narrowing the languages offered: the popular ones, every one, or one group's. */
 private enum class LanguageChip(val region: LanguageRegion? = null) {
-    MINE, POPULAR, ALL,
+    POPULAR, ALL,
     EUROPE(LanguageRegion.EUROPE), ASIA(LanguageRegion.ASIA), MIDDLE_EAST(LanguageRegion.MIDDLE_EAST), AFRICA(LanguageRegion.AFRICA),
     AMERICAS_PACIFIC(LanguageRegion.AMERICAS_PACIFIC), CLASSICAL(LanguageRegion.CLASSICAL), CONSTRUCTED(LanguageRegion.CONSTRUCTED);
 
-    fun holds(choice: LanguageChoice, mine: List<LanguageChoice>): Boolean = when (this) {
-        MINE -> choice in mine
+    fun holds(choice: LanguageChoice): Boolean = when (this) {
         POPULAR -> choice.name in LanguageRegions.popular
         ALL -> true
         else -> region in LanguageRegions.of(choice.name)
     }
 
-    fun count(offered: List<LanguageChoice>, mine: List<LanguageChoice>): Int = offered.count { holds(it, mine) }
+    fun count(offered: List<LanguageChoice>): Int = offered.count(::holds)
 
     @Composable
     fun title(): String = when (this) {
-        MINE -> tr("My languages")
         POPULAR -> tr("Popular")
         ALL -> tr("All")
         EUROPE -> tr("Europe")
@@ -471,13 +461,13 @@ private enum class LanguageChip(val region: LanguageRegion? = null) {
 }
 
 /** The chips that hold any of the languages [offered], All always; the first is the one to start on. */
-private fun languageChips(offered: List<LanguageChoice>, mine: List<LanguageChoice>): List<LanguageChip> =
-    LanguageChip.entries.filter { it == LanguageChip.ALL || it.count(offered, mine) > 0 }
+private fun languageChips(offered: List<LanguageChoice>): List<LanguageChip> =
+    LanguageChip.entries.filter { it == LanguageChip.ALL || it.count(offered) > 0 }
 
 /** The languages under [chip], or, while [needle] is searched for, those of every chip that match it. */
 @Composable
-private fun shownLanguages(offered: List<LanguageChoice>, mine: List<LanguageChoice>, chip: LanguageChip, needle: String): List<LanguageChoice> =
-    if (needle.isEmpty()) offered.filter { chip.holds(it, mine) } else offered.filter { it.matches(needle) }
+private fun shownLanguages(offered: List<LanguageChoice>, chip: LanguageChip, needle: String): List<LanguageChoice> =
+    if (needle.isEmpty()) offered.filter(chip::holds) else offered.filter { it.matches(needle) }
 
 /** The chips in a row that scrolls sideways, each with how many languages it holds; none is lit while searching. */
 @Composable
@@ -500,19 +490,16 @@ private fun SectionTitle(title: String, note: String? = null) {
 
 /** A language to choose: its flag and name. */
 @Composable
-private fun LanguageTile(choice: LanguageChoice, modifier: Modifier, chosen: Boolean = false, onClick: () -> Unit) {
-    val colors = MaterialTheme.colorScheme
+private fun LanguageTile(choice: LanguageChoice, modifier: Modifier, onClick: () -> Unit) {
     val press = remember { MutableInteractionSource() }
     Row(
         modifier.height(LANGUAGE_TILE_HEIGHT).pressScale(press).cardSurface(AppShapes.panel)
-            .then(if (chosen) Modifier.border(AppBorders.selected(), AppShapes.panel) else Modifier)
             .clickable(press, LocalIndication.current, onClick = onClick).padding(horizontal = AppSpacing.l).testTag(choice.tag),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(AppSpacing.l),
     ) {
         LanguageFlag(choice.label, 22.dp)
         Text(tr(choice.label), Modifier.weight(1f), style = AppText.emphasis, maxLines = 1, overflow = TextOverflow.Ellipsis)
-        if (chosen) Icon(Icons.Default.Check, contentDescription = tr("Selected"), tint = colors.primary, modifier = Modifier.size(AppSizes.iconMedium))
     }
 }
 

@@ -140,7 +140,6 @@ internal val frCommon: Map<String, String> = mapOf(
 
     // LearningLanguage.kt, the language chips
     "Popular" to "Populaires",
-    "My languages" to "Mes langues",
     "Europe" to "Europe",
     "Asia" to "Asie",
     "Middle East" to "Moyen-Orient",
@@ -247,7 +246,6 @@ internal val frCommon: Map<String, String> = mapOf(
 
     // LanguagesScreen.kt
     "Language setup" to "Configuration des langues",
-    "I'm learning" to "J’apprends",
     "Studying" to "Apprentissage",
     "Translations" to "Traductions",
     "Show meanings in" to "Afficher les significations en",

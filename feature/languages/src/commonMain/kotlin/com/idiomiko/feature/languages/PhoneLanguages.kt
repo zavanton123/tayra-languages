@@ -15,6 +15,8 @@ import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Add
+import com.idiomiko.core.ui.components.SecondaryButton
 import androidx.compose.material.icons.filled.KeyboardArrowRight
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
@@ -59,7 +61,6 @@ internal fun PhoneLanguagesScreen(settings: UserSettings, learning: LearningLang
     val native = LanguageCatalog.nativeOption(settings.nativeLanguage)
     val learningCode = learning?.currentName?.let(LanguageCodes::codeFor)
     val ui = LanguageCatalog.interfaceOption(settings.uiLanguage)
-    var learningSheet by remember { mutableStateOf(false) }
     var nativeSheet by remember { mutableStateOf(false) }
     var uiSheet by remember { mutableStateOf(false) }
     Scaffold(
@@ -67,26 +68,16 @@ internal fun PhoneLanguagesScreen(settings: UserSettings, learning: LearningLang
         containerColor = colors.surfaceContainerLow,
     ) { padding ->
         ScrollColumn(Modifier.padding(padding).fillMaxWidth(), contentModifier = Modifier.padding(horizontal = AppSpacing.l, vertical = AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
-            PhoneLanguageCard(tr("Learning"), tr("I'm learning"), highlighted = true) {
-                PhoneLanguageRow(learning?.current?.label, tag = "learning-language") { learningSheet = true }
-            }
+            if (learning != null) MyLanguagesCard(learning, viewModel::askToRemove, Modifier.fillMaxWidth(), viewModel.removals.collectAsStateWithLifecycle().value)
+            // A phone adds a language on the full-screen list, as from the language menu.
+            SecondaryButton(tr("Add a language"), onClick = { onNavigate(Route.ChooseLanguage) }, icon = Icons.Default.Add, modifier = Modifier.testTag("add-language-button"))
             PhoneLanguageCard(tr("Meanings"), tr("Show meanings in")) {
                 PhoneLanguageRow(native.name, tag = "native-language") { nativeSheet = true }
             }
             PhoneLanguageCard(tr("App"), tr("Interface language")) {
                 PhoneLanguageRow(LanguageCatalog.nativeOption(ui.code).name, label = ui.name, tag = "interface-language") { uiSheet = true }
             }
-            if (learning != null) MyLanguagesCard(learning, viewModel::askToRemove, Modifier.fillMaxWidth(), viewModel.removals.collectAsStateWithLifecycle().value)
         }
-    }
-    if (learningSheet && learning != null) {
-        LanguagePickerSheet(
-            tr("I'm learning"), learning.choices, selected = learning.current,
-            name = { tr(it.label) }, flagName = { it.label },
-            onDismiss = { learningSheet = false },
-            // Chosen as in the header, which asks for the meanings language again when the native one is chosen, and for the vocabulary level of a language new to the reader.
-            onPick = { learningSheet = false; learning.select(it) },
-        )
     }
     if (nativeSheet) {
         LanguagePickerSheet(
@@ -107,18 +98,18 @@ internal fun PhoneLanguagesScreen(settings: UserSettings, learning: LearningLang
     }
 }
 
-/** A small caps label, the title and the row; the learning card is [highlighted]. */
+/** A small caps label, the title and the row. */
 @Composable
-internal fun PhoneLanguageCard(label: String, title: String, highlighted: Boolean = false, row: @Composable () -> Unit) {
+internal fun PhoneLanguageCard(label: String, title: String, row: @Composable () -> Unit) {
     val colors = MaterialTheme.colorScheme
     val shape = AppShapes.card
     Column(
         Modifier.fillMaxWidth().clip(shape)
-            .background(if (highlighted) colors.primary.copy(alpha = AppAlpha.wash) else colors.surface)
-            .border(AppBorders.hairline(if (highlighted) colors.primary.copy(alpha = AppAlpha.half) else colors.outlineVariant), shape)
+            .background(colors.surface)
+            .border(AppBorders.hairline(colors.outlineVariant), shape)
             .padding(AppSpacing.l),
     ) {
-        Text(label.uppercase(), style = AppText.overline.copy(color = if (highlighted) colors.primary else colors.onSurfaceVariant))
+        Text(label.uppercase(), style = AppText.overline.copy(color = colors.onSurfaceVariant))
         Spacer(Modifier.height(AppSpacing.xs))
         Text(title, style = AppText.sectionTitle)
         Spacer(Modifier.height(AppSpacing.l))

@@ -24,6 +24,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.Check
 import androidx.compose.material.icons.filled.CheckCircle
 import androidx.compose.material.icons.filled.KeyboardArrowDown
@@ -51,7 +52,8 @@ import com.idiomiko.core.ui.components.AppMenuItem
 import com.idiomiko.core.ui.components.AppTopBar
 import com.idiomiko.core.ui.components.SettingsSection
 import com.idiomiko.core.ui.components.SettingsPane
-import com.idiomiko.core.ui.components.StudyLanguageDialog
+import com.idiomiko.core.ui.components.AddLanguageDialog
+import com.idiomiko.core.ui.components.SecondaryButton
 import com.idiomiko.core.ui.components.LanguageFlag
 import com.idiomiko.core.ui.components.LocalLearningLanguage
 import com.idiomiko.core.ui.components.LocalWindowWidth
@@ -84,11 +86,12 @@ fun LanguagesScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: 
     var changes by remember { mutableIntStateOf(0) }
     val removing by viewModel.removing.collectAsStateWithLifecycle()
     val removals by viewModel.removals.collectAsStateWithLifecycle()
-    var choosingLearned by remember { mutableStateOf(false) }
+    var adding by remember { mutableStateOf(false) }
     removing?.let { RemoveLanguageDialog(it, onConfirm = viewModel::remove, onDismiss = viewModel::dismissRemoval) }
 
-    if (choosingLearned && learning != null) {
-        StudyLanguageDialog(learning, onDismiss = { choosingLearned = false }, onSelect = { learning.select(it); changes++ })
+    // Added, a language is the one learned from then on, asking for its level when it never had one.
+    if (adding && learning != null) {
+        AddLanguageDialog(learning, onDismiss = { adding = false }, onSelect = { learning.select(it); changes++ })
     }
     if (compact) {
         PhoneLanguagesScreen(settings, learning, viewModel, onNavigate, onBack)
@@ -105,63 +108,45 @@ fun LanguagesScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: 
                 ScreenHeader(tr("Languages"), null, onBackToSettings = onBack) {
                     if (!compact) SavedNote(changes)
                 }
-                // The three tiles are cards of their own, straight on the page, as on a phone.
-                Column(Modifier.fillMaxWidth()) {
-                    val learningTile: @Composable (Modifier) -> Unit = { m ->
-                        LanguageTile(tr("Learning"), tr("I'm learning"), highlighted = true, modifier = m) {
-                            FlagPicker(
-                                options = learning?.choices.orEmpty(),
-                                selected = learning?.current,
-                                name = { tr(it.label) },
-                                // Chosen as in the header, which asks for the meanings language again when the native one is chosen, and for the vocabulary level of a language new to the reader.
-                                onSelect = { learning?.select(it); changes++ },
-                                modifier = Modifier.testTag("learning-language"),
-                                flagName = { it.label },
-                                // Every language to learn, in the large dialog rather than a long menu.
-                                onOpen = { choosingLearned = true },
-                            )
-                        }
-                    }
-                    val nativeTile: @Composable (Modifier) -> Unit = { m ->
-                        LanguageTile(tr("Meanings"), tr("Show meanings in"), modifier = m) {
-                            FlagPicker(
-                                options = LanguageCatalog.nativeLanguages,
-                                selected = native,
-                                name = { tr(it.name) },
-                                onSelect = { viewModel.setNativeLanguage(it.code, learningCode); changes++ },
-                                modifier = Modifier.testTag("native-language"),
-                                flagName = { it.name },
-                                unavailable = { if (it.code == learningCode) tr("You are learning it") else null },
-                            )
-                        }
-                    }
-                    val uiTile: @Composable (Modifier) -> Unit = { m ->
-                        LanguageTile(tr("App"), tr("Interface language"), modifier = m) {
-                            FlagPicker(
-                                options = LanguageCatalog.interfaceLanguages,
-                                selected = ui,
-                                name = { it.name },
-                                onSelect = { viewModel.setInterfaceLanguage(it.code); changes++ },
-                                modifier = Modifier.testTag("interface-language"),
-                                flagName = { LanguageCatalog.nativeOption(it.code).name },
-                            )
-                        }
-                    }
-                    if (wide) {
-                        Row(Modifier.height(IntrinsicSize.Min), horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
-                            learningTile(Modifier.weight(1f).fillMaxHeight())
-                            nativeTile(Modifier.weight(1f).fillMaxHeight())
-                            uiTile(Modifier.weight(1f).fillMaxHeight())
-                        }
-                    } else {
-                        Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
-                            learningTile(Modifier.fillMaxWidth())
-                            nativeTile(Modifier.fillMaxWidth())
-                            uiTile(Modifier.fillMaxWidth())
-                        }
+                // The languages being learned, switched between and added to here, then the two other choices.
+                if (learning != null) MyLanguagesCard(learning, viewModel::askToRemove, Modifier.fillMaxWidth(), removals, onLearn = { learning.select(it); changes++ })
+                SecondaryButton(tr("Add a language"), onClick = { adding = true }, icon = Icons.Default.Add, modifier = Modifier.testTag("add-language-button"))
+                val nativeTile: @Composable (Modifier) -> Unit = { m ->
+                    LanguageTile(tr("Meanings"), tr("Show meanings in"), modifier = m) {
+                        FlagPicker(
+                            options = LanguageCatalog.nativeLanguages,
+                            selected = native,
+                            name = { tr(it.name) },
+                            onSelect = { viewModel.setNativeLanguage(it.code, learningCode); changes++ },
+                            modifier = Modifier.testTag("native-language"),
+                            flagName = { it.name },
+                            unavailable = { if (it.code == learningCode) tr("You are learning it") else null },
+                        )
                     }
                 }
-                if (learning != null) MyLanguagesCard(learning, viewModel::askToRemove, Modifier.fillMaxWidth(), removals, onLearn = { learning.select(it); changes++ })
+                val uiTile: @Composable (Modifier) -> Unit = { m ->
+                    LanguageTile(tr("App"), tr("Interface language"), modifier = m) {
+                        FlagPicker(
+                            options = LanguageCatalog.interfaceLanguages,
+                            selected = ui,
+                            name = { it.name },
+                            onSelect = { viewModel.setInterfaceLanguage(it.code); changes++ },
+                            modifier = Modifier.testTag("interface-language"),
+                            flagName = { LanguageCatalog.nativeOption(it.code).name },
+                        )
+                    }
+                }
+                if (wide) {
+                    Row(Modifier.height(IntrinsicSize.Min), horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
+                        nativeTile(Modifier.weight(1f).fillMaxHeight())
+                        uiTile(Modifier.weight(1f).fillMaxHeight())
+                    }
+                } else {
+                    Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
+                        nativeTile(Modifier.fillMaxWidth())
+                        uiTile(Modifier.fillMaxWidth())
+                    }
+                }
                 if (compact) SavedNote(changes)
             }
         }
@@ -187,27 +172,20 @@ private fun SavedNote(changes: Int) {
     }
 }
 
-/** One of the three choices: a small caps label, a title, then the picker and its notes; the language being learned is [highlighted]. */
+/** One of the language choices: a small caps label, a title, then the picker and its notes. */
 @Composable
 internal fun LanguageTile(
     label: String,
     title: String,
     modifier: Modifier = Modifier,
-    highlighted: Boolean = false,
     content: @Composable ColumnScope.() -> Unit,
 ) {
     val colors = MaterialTheme.colorScheme
     val shape = AppShapes.panel
-    val background = if (highlighted) {
-        Modifier.background(Brush.verticalGradient(listOf(colors.primary.copy(alpha = AppAlpha.tint), colors.primary.copy(alpha = AppAlpha.faint))))
-    } else {
-        Modifier.background(colors.surface)
-    }
-    Column(modifier.clip(shape).then(background).border(AppBorders.hairline(if (highlighted) colors.primary.copy(alpha = AppAlpha.disabled) else colors.outlineVariant), shape)) {
-        if (highlighted) Box(Modifier.fillMaxWidth().height(HIGHLIGHT_STRIPE).background(colors.primary))
+    Column(modifier.clip(shape).background(colors.surface).border(AppBorders.hairline(colors.outlineVariant), shape)) {
         val inset = if (LocalWindowWidth.current.isCompact) AppSpacing.xl else AppSpacing.xxl
-        Column(Modifier.padding(start = inset, end = inset, top = inset + AppSpacing.xxs + if (highlighted) 0.dp else HIGHLIGHT_STRIPE, bottom = inset)) {
-            Text(label.uppercase(), style = AppText.overline.copy(color = if (highlighted) colors.primary else colors.onSurfaceVariant))
+        Column(Modifier.padding(start = inset, end = inset, top = inset + AppSpacing.xxs, bottom = inset)) {
+            Text(label.uppercase(), style = AppText.overline.copy(color = colors.onSurfaceVariant))
             Spacer(Modifier.height(AppSpacing.s))
             Text(title, style = AppText.sectionTitle)
             Spacer(Modifier.height(AppSpacing.l))
@@ -228,8 +206,6 @@ internal fun <T> FlagPicker(
     flagName: (T) -> String = name,
     /** Why an option cannot be chosen, or null when it can; such options are listed dimmed. */
     unavailable: (T) -> String? = { null },
-    /** Opens a choice of its own in place of the menu, when given. */
-    onOpen: (() -> Unit)? = null,
 ) {
     val colors = MaterialTheme.colorScheme
     var open by remember { mutableStateOf(false) }
@@ -237,7 +213,7 @@ internal fun <T> FlagPicker(
         Row(
             Modifier.fillMaxWidth().clip(AppShapes.compact).background(colors.surface)
                 .border(AppBorders.hairline(colors.outline.copy(alpha = AppAlpha.muted)), AppShapes.compact)
-                .clickable(enabled = options.isNotEmpty()) { if (onOpen != null) onOpen() else open = true }
+                .clickable(enabled = options.isNotEmpty()) { open = true }
                 .padding(horizontal = AppSpacing.xl, vertical = AppSpacing.l),
             verticalAlignment = Alignment.CenterVertically,
         ) {
@@ -268,4 +244,3 @@ internal fun <T> FlagPicker(
     }
 }
 
-private val HIGHLIGHT_STRIPE = 4.dp

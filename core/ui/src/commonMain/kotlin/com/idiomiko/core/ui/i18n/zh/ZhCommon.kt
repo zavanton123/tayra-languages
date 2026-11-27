@@ -140,7 +140,6 @@ internal val zhCommon: Map<String, String> = mapOf(
 
     // LearningLanguage.kt, the language chips
     "Popular" to "热门",
-    "My languages" to "我的语言",
     "Europe" to "欧洲",
     "Asia" to "亚洲",
     "Middle East" to "中东",
@@ -247,7 +246,6 @@ internal val zhCommon: Map<String, String> = mapOf(
 
     // LanguagesScreen.kt
     "Language setup" to "语言设置",
-    "I'm learning" to "我在学",
     "Studying" to "学习",
     "Translations" to "翻译",
     "Show meanings in" to "释义语言",

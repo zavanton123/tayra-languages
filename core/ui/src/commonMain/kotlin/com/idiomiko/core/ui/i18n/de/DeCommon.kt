@@ -140,7 +140,6 @@ internal val deCommon: Map<String, String> = mapOf(
 
     // LearningLanguage.kt, the language chips
     "Popular" to "Beliebt",
-    "My languages" to "Meine Sprachen",
     "Europe" to "Europa",
     "Asia" to "Asien",
     "Middle East" to "Naher Osten",
@@ -247,7 +246,6 @@ internal val deCommon: Map<String, String> = mapOf(
 
     // LanguagesScreen.kt
     "Language setup" to "Spracheinstellungen",
-    "I'm learning" to "Ich lerne",
     "Studying" to "Lernen",
     "Translations" to "Übersetzungen",
     "Show meanings in" to "Bedeutungen anzeigen auf",

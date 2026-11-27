@@ -7,6 +7,9 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.graphics.toAwtImage
 import androidx.compose.ui.test.ExperimentalTestApi
+import androidx.compose.ui.test.hasTestTag
+import androidx.compose.ui.test.ComposeUiTest
+import com.idiomiko.core.ui.navigation.Route
 import androidx.compose.ui.test.captureToImage
 import androidx.compose.ui.test.assertIsEnabled
 import androidx.compose.ui.test.assertIsNotEnabled
@@ -33,12 +36,18 @@ import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertTrue
 
-/** The Languages page chooses the language being learned, the native language and the interface language. */
+/** The Languages page lists the languages being learned with a way to add one, then the native and interface languages. */
 @OptIn(ExperimentalTestApi::class)
 class LanguagesScreenTest {
 
+    /** The nodes tagged [tags] are laid out one above the other, in that order. */
+    private fun ComposeUiTest.assertInOrder(vararg tags: String) {
+        val tops = tags.map { onNodeWithTag(it).fetchSemanticsNode().boundsInRoot.top }
+        assertEquals(tops.sorted(), tops, tags.joinToString(" above "))
+    }
+
     @Test
-    fun thePickersChangeTheThreeLanguages() = runDesktopComposeUiTest(width = 1580, height = 1000) {
+    fun theLanguagesComeFirstAndOneIsAddedFromTheDialog() = runDesktopComposeUiTest(width = 1580, height = 1000) {
         val settings = SettingsRepositoryImpl(MapSettings())
         var learningId = 1L
         setContent {
@@ -52,21 +61,20 @@ class LanguagesScreenTest {
                 }
             }
         }
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("I'm learning")).fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Languages I'm learning")).fetchSemanticsNodes().isNotEmpty() }
+        assertInOrder("my-languages", "add-language-button", "native-language")
+        onNodeWithTag("learning-language").assertDoesNotExist()
         System.getenv("LANGUAGES_SCREENSHOT")?.let { path ->
             waitForIdle()
             ImageIO.write(onRoot().captureToImage().toAwtImage(), "png", File(path))
         }
 
         assertTrue(onAllNodesWithText("Changes saved").fetchSemanticsNodes().isEmpty(), "nothing has changed yet")
-        // The language to learn is chosen in the large dialog of every language, the current one ticked.
-        onNodeWithTag("learning-language").performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Select the language to study")).fetchSemanticsNodes().isNotEmpty() }
-        // It opens on the languages being learned, here Portuguese alone, ticked.
-        onNodeWithText("1 language").assertExists()
-        onNodeWithContentDescription("Selected").assertExists()
-        onNodeWithTag("language-chip-ALL").performClick()
-        onNodeWithText("3 languages").assertExists()
+        // Adding a language offers those not being learned, starting on the popular ones: German and English.
+        onNodeWithTag("add-language-button").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasTestTag("language-dialog")).fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("2 languages").assertExists()
+        onNodeWithTag("language-pt").assertDoesNotExist()
         System.getenv("LANGUAGES_MENU_SCREENSHOT")?.let { path -> waitForIdle(); ImageIO.write(onAllNodes(isRoot())[0].captureToImage().toAwtImage(), "png", File(path)) }
         onNodeWithTag("language-de").performClick()
         waitUntil(timeoutMillis = 5_000) { learningId == 2L }
@@ -86,10 +94,11 @@ class LanguagesScreenTest {
         assertEquals("ru", settings.current.nativeLanguage)
     }
 
-    /** A phone gets the three choices as cards whose rows open bottom sheets of the languages. */
+    /** A phone has the same order; adding a language opens the full-screen list, and the two choices open bottom sheets. */
     @Test
     fun aPhonePicksTheLanguagesFromSheets() = runDesktopComposeUiTest(width = 400, height = 1000) {
         val settings = SettingsRepositoryImpl(MapSettings())
+        val visited = mutableListOf<Route>()
         var learningId = 1L
         setContent {
             var current by remember { mutableLongStateOf(1L) }
@@ -97,20 +106,19 @@ class LanguagesScreenTest {
             IdiomikoTheme(AppThemes.byId(AppThemes.all.first().id)) {
                 ProvideWindowWidth {
                     CompositionLocalProvider(LocalLearningLanguage provides state) {
-                        LanguagesScreen(onNavigate = {}, onBack = {}, viewModel = LanguagesViewModel(settings))
+                        LanguagesScreen(onNavigate = { visited += it }, onBack = {}, viewModel = LanguagesViewModel(settings))
                     }
                 }
             }
         }
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Show meanings in")).fetchSemanticsNodes().isNotEmpty() }
+        assertInOrder("my-languages", "add-language-button", "native-language")
         onNodeWithText("Language setup").assertDoesNotExist()
         onNodeWithText("Books, courses, vocabulary and flashcards.").assertDoesNotExist()
         System.getenv("LANGUAGES_SCREENSHOT")?.let { path -> waitForIdle(); ImageIO.write(onRoot().captureToImage().toAwtImage(), "png", File(path.replace(".png", "-phone.png"))) }
 
-        onNodeWithTag("learning-language").performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("German").fetchSemanticsNodes().isNotEmpty() }
-        onAllNodesWithText("German").onLast().performClick()
-        waitUntil(timeoutMillis = 5_000) { learningId == 2L }
+        onNodeWithTag("add-language-button").performClick()
+        assertEquals(listOf<Route>(Route.ChooseLanguage), visited)
 
         onNodeWithTag("native-language").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("You are learning it").fetchSemanticsNodes().isNotEmpty() }

@@ -140,7 +140,6 @@ internal val ruCommon: Map<String, String> = mapOf(
 
     // LearningLanguage.kt, the language chips
     "Popular" to "Популярные",
-    "My languages" to "Мои языки",
     "Europe" to "Европа",
     "Asia" to "Азия",
     "Middle East" to "Ближний Восток",
@@ -247,7 +246,6 @@ internal val ruCommon: Map<String, String> = mapOf(
 
     // LanguagesScreen.kt
     "Language setup" to "Настройка языков",
-    "I'm learning" to "Изучаемый язык",
     "Studying" to "Изучение",
     "Translations" to "Переводы",
     "Show meanings in" to "Переводить на",
