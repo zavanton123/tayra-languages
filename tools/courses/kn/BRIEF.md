@@ -4,8 +4,8 @@ Each course teaches one band of 100 words from the Kannada word frequency list
 (`bands/<rankUpTo>.txt`: index, rank, word, its common forms). Course `kn-mini-0300` teaches ranks
 201–300 and may use every word ranked 1–300. Ten lessons, each introducing about ten of the band's
 words, so the course covers the band; a learner who finishes it knows the 300 most common words.
-`themes.tsv` gives each course its theme. The list has 7,036 words: the last course is `kn-mini-7100`
-(36 words).
+`themes.tsv` gives each course its theme. The list has 6,521 words: the last course is `kn-mini-6600`
+(21 words).
 
 ## The list
 
@@ -77,7 +77,7 @@ lesson never needs another lesson to make sense.
   - ranks 3001–5000: a richer written register: the Sanskrit-derived words of newspapers and books
     beside their everyday ones, made plain by context; a column, a letter, an interview, a short
     essay that weighs two sides; long sentences that stay easy to parse;
-  - ranks 5001–7100 (C1): the same, with the specialised words of the sciences, the arts and
+  - ranks 5001–6600 (C1): the same, with the specialised words of the sciences, the arts and
     public life, each made clear by its context.
   After rank 1000 sentences get longer and dialogue can carry more of the story; a story may be told
   by a first-person narrator or as a letter, a message or a diary entry. From rank 2000 a lesson may
@@ -115,6 +115,9 @@ lesson never needs another lesson to make sense.
   list word that is also a person's name (ಕೃಷ್ಣ, ಸೂರ್ಯ "sun", ಹರಿ "flow") is taught only in its
   common sense or skipped, never through the name. Never put a list word in `names`, and never use
   one as a character's name. Common Kannada first names are fine (ಸುಮಾ, ರಮೇಶ್, ಲತಾ, ಕಿರಣ್).
+  Past rank 3600 the list leaves out the names of cities, states, people, gods and peoples and
+  abbreviations (ಮೇರಿಲ್ಯಾಂಡ್, ಮಂಡ್ಯ, ಕಾಳಿ, ಬಿಬಿಸಿ) and keeps countries and continents (ಜಪಾನ್, ಸ್ವೀಡನ್);
+  a country a story gives in `names` counts as a name in all its listed forms (ಇಂಗ್ಲೆಂಡ್‌ನ).
 - **Original texts**: write your own stories; never copy or retell existing course material.
 
 ## Content
