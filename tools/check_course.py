@@ -3558,6 +3558,9 @@ def check(path, brief=False):
         # Kannada joins its endings and clitics on (ಮಾಡುತ್ತೇನೆ, ಹುಡುಗನಿಗೆ, ಮನೆಗೂ, ರಾಮನಿಗೆ): a word the list lacks is read by the
         # rules the list was built with (frequency_kannada).
         if code == "kn":
+            # A word the course gives as a name (a country, ಇಂಗ್ಲೆಂಡ್) is a name in all its listed forms (ಇಂಗ್ಲೆಂಡ್‌ನ).
+            named_forms = {f for n in names if n in words for f in words[n][2]}
+            lowered = ["\u0000name" if w in named_forms and w not in names else w for w in lowered]
             lowered = [w if w in ranks or w in names else frequency_kannada.checker_word(w, words, ranks, names) or w for w in lowered]
         # Tamil joins its case endings, clitics and verb endings on and doubles a consonant onto a word before the next
         # (வீட்டிலும், செய்திருக்கிறார், பள்ளிக்குப், ராணியிடம்): a word the list lacks is read by the rules the list was built
