@@ -66,10 +66,18 @@ BARE_TAILS = ["ஆக", "ஆன", "ஆகும்", "ஆகவும்", "ஆ�
 SHORT_SYLLABLE = re.compile("(?:[அஇஉஎஒ]|[\u0b95-\u0bb9][ிுெொ]?)[\u0b95-\u0bb9]\u0bcd")
 
 
+# The stops a loanword or a name may end in, which double before a vowel (அஜித்தின், ஐசக்கை, யூசுப்புக்கு), or not (சையதுக்கு).
+STOPS = "கசடதபற"
+LONG_SIGNS = "ாீூேோ"
+
+
 def oblique(word):
-    """The stems a noun's cases are joined to, by its ending: மரம் மரத்த், வீடு வீட்ட் (and வீட்), கண் கண்ண் (and கண்)."""
+    """The stems a noun's cases are joined to, by its ending: மரம் மரத்த், வீடு வீட்ட் (and வீட்), கண் கண்ண் (and கண்), அஜித்
+    அஜித்த் (and அஜித்); a name in -ம் after a long vowel takes them on itself (ஆபிரகாமின், ரஹீமுக்கு)."""
     if word.endswith("ம்") and len(word) > 2:
-        return {word[:-2] + "த்த்"}
+        return {word[:-2] + "த்த்"} | ({word} if word[-3] in LONG_SIGNS else set())
+    if len(word) > 3 and word[-1] == VIRAMA and word[-2] in STOPS and word[-3] != VIRAMA:
+        return {word + word[-2] + VIRAMA, word}
     if word.endswith(("டு", "று")) and len(word) > 2:
         doubled = word[:-2] + word[-2] + VIRAMA + word[-2] + VIRAMA
         return {doubled, word}
