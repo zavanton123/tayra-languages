@@ -409,6 +409,7 @@ class PracticeScreenTest {
         shot("matching")
         for ((text, meaning) in learning) { tap(text); tap(meaning) }
         waitUntil(timeoutMillis = 5_000) { viewModel.state.value.answered }
+        shot("matching-done")
         assertEquals(PracticeResult.ALMOST, viewModel.state.value.result)
         onNodeWithText("Every pair matched, with 1 wrong try").assertExists()
     }

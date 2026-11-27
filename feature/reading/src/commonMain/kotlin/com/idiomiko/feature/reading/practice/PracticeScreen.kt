@@ -43,6 +43,7 @@ import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.focus.focusRequester
@@ -544,7 +545,8 @@ private fun Choices(state: PracticeUiState, exercise: Exercise, actions: Practic
 
 /**
  * Words on one side, their meanings shuffled on the other: tap a word, then its meaning. A right
- * pair turns green and stays; a wrong one flashes red and the word stays picked to try again.
+ * pair takes a colour of its own, the word and its meaning alike, and stays; a wrong one flashes
+ * red and the word stays picked to try again. Pairs shown after a wrong answer are coloured the same way.
  */
 @Composable
 private fun Matching(state: PracticeUiState, exercise: Exercise, actions: PracticeActions, compact: Boolean) {
@@ -554,9 +556,12 @@ private fun Matching(state: PracticeUiState, exercise: Exercise, actions: Practi
     var picked by remember(state.index) { mutableStateOf<String?>(null) }
     var wrong by remember(state.index) { mutableStateOf<String?>(null) }
     val meaningOf = exercise.pairs.toMap()
-    val cell: @Composable (String, Boolean, Boolean, Boolean, String, () -> Unit) -> Unit = { text, done, chosen, mistaken, tag, onClick ->
+    // Each pair's colour follows its place among the exercise's pairs, so a word and its meaning share it.
+    fun pairTint(index: Int) = PAIR_TINTS[index.coerceAtLeast(0) % PAIR_TINTS.size]
+    val cell: @Composable (String, Color?, Boolean, Boolean, String, () -> Unit) -> Unit = { text, pairColour, chosen, mistaken, tag, onClick ->
+        val done = pairColour != null
         val tint = when {
-            done -> AppAccents.green
+            done -> pairColour
             mistaken -> AppAccents.red
             chosen -> colors.primary
             else -> null
@@ -573,13 +578,15 @@ private fun Matching(state: PracticeUiState, exercise: Exercise, actions: Practi
     Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(if (compact) AppSpacing.m else AppSpacing.xl)) {
         Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
             words.forEachIndexed { i, word ->
-                cell(word, word in state.matched, picked == word, false, "practice-match-word-$i") { picked = word; wrong = null }
+                val pair = exercise.pairs.indexOfFirst { it.first == word }
+                cell(word, pairTint(pair).takeIf { word in state.matched }, picked == word, false, "practice-match-word-$i") { picked = word; wrong = null }
             }
         }
         Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
             meanings.forEachIndexed { i, meaning ->
                 val done = state.matched.any { meaningOf[it] == meaning }
-                cell(meaning, done, false, wrong == meaning, "practice-match-meaning-$i") {
+                val pair = exercise.pairs.indexOfFirst { it.second == meaning }
+                cell(meaning, pairTint(pair).takeIf { done }, false, wrong == meaning, "practice-match-meaning-$i") {
                     val word = picked ?: return@cell
                     if (actions.onMatch(word, meaning)) { picked = null; wrong = null } else wrong = meaning
                 }
@@ -780,3 +787,6 @@ private fun Empty(state: PracticeUiState, actions: PracticeActions) {
         action = { PrimaryButton(backLabel(state), onClick = actions.onBack) },
     )
 }
+
+/** The colours matched pairs take, one each: none of them red, which marks a wrong try, or blue, which marks the word picked. */
+private val PAIR_TINTS = listOf(AppAccents.green, AppAccents.purple, AppAccents.orange, AppAccents.teal, AppAccents.pink)
