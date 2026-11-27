@@ -153,6 +153,8 @@ OVERRIDES["گزر"] = ["گزرنا"]
 OVERRIDES["کٹی"] = ["کٹنا"]
 OVERRIDES["چاہ"] = ["چاہنا"]
 OVERRIDES["جیو"] = ["جینا"]
+# And کرانا's infinitive (جمع کرانی ہے), the pack's "clerk".
+OVERRIDES["کرانی"] = ["کرانا"]
 # Names (the news's people and places), the Latin letters' names, the Taliban, and ان کا, ان کی, ان کے written as one word
 # and ان کو (which the pack takes for the rare verb انکنا's forms).
 EXCLUDE = {"خان", "علی", "نواز", "سندھ", "پنجاب", "سعودی", "طالبان", "روس", "مودی", "نثار", "جاوید", "سنگھ",
@@ -202,6 +204,8 @@ WORDS = {
     "معلومات": ("noun", ""), "تبدیلی": ("noun", "تبدیلیاں تبدیلیوں"), "تقریب": ("noun", "تقریبات تقریبوں"), "تعاون": ("noun", ""),
     "سرکاری": ("adj", ""), "عالمی": ("adj", ""), "حقیقی": ("adj", ""), "طویل": ("adj", ""),
     "گزارنا": ("verb", ""), "گزرنا": ("verb", ""), "کٹنا": ("verb", ""),
+    # برتنا "treat, show" (غفلت برت رہی ہے), whose stem the pack has as a Hindu fast.
+    "برتنا": ("verb", ""),
 }
 # Spellings the rules below would make another word's form that are no form of it: گوئی (پیشن گوئی), فنی "technical", مینے
 # and مینوں (میں نے, Punjabi "to me"), اتے, کرانے (of the verb کرانا), بقائے (بقا with the izafat), رندوں "drunkards", ہیے,
@@ -274,11 +278,13 @@ def file_oblique_plurals(pos, lemmas):
     seen = USAGE["seen"]
     for form in sorted(lemmas):
         stem = form[:-2]
-        noun = stem + "ہ"
-        if not form.endswith("وں") or stem not in lemmas[form] or "noun" not in pos.get(noun, ()) or form in OVERRIDES:
+        if not form.endswith("وں") or stem not in lemmas[form] or form in OVERRIDES:
             continue
-        if seen.get(noun, 0) + seen.get(stem + "ے", 0) > seen.get(stem, 0):
-            lemmas[form] = list(dict.fromkeys(noun if lemma == stem else lemma for lemma in lemmas[form]))
+        # Or in -ا (انڈوں of انڈا, not انڈ "castor").
+        for noun in (stem + "ہ", stem + "ا"):
+            if "noun" in pos.get(noun, ()) and seen.get(noun, 0) + seen.get(stem + "ے", 0) > seen.get(stem, 0):
+                lemmas[form] = list(dict.fromkeys(noun if lemma == stem else lemma for lemma in lemmas[form]))
+                break
 
 
 # How the news and Wikipedia sentences use the words (Leipzig's, the build's third source): the builder sets SENTENCES to
@@ -661,6 +667,32 @@ def unlink_lookalikes(pos, lemmas):
         for form in shared:
             if seen.get(form, 0) < SEEN_ENOUGH or helped[form] < VERBAL_SHARE * seen[form]:
                 lemmas[form] = [l for l in lemmas[form] if l != verb]
+    # And a form two verbs share (پکڑا of پکڑنا and پکڑانا, نبھا of نبھنا and نبھانا) is the one's whose own forms the
+    # sentences have; not the other's, whose own forms they have under OTHER_VERB_SHARE times as often.
+    plain = {verb: sum(seen.get(f, 0) for f in _verb_own_forms(verb)) for verb in verbs}
+    for form in sorted(lemmas):
+        of = [l for l in lemmas[form] if l in plain and form not in _verb_own_forms(l)]
+        if len(of) < 2 or form in OVERRIDES:
+            continue
+        most = max(plain[v] for v in of)
+        lemmas[form] = [l for l in lemmas[form] if l not in of or plain[l] >= OTHER_VERB_SHARE * most]
+    # And a verb whose own forms the sentences have under VERB_OWN_FEWEST times is no verb of the spellings it shares with
+    # other words of the pack (پوتی "granddaughter" of پوتنا, مسل of مسلنا), nor of those no helper but کر follows
+    # (جوتی "shoe" of جوتنا, چالیں of چالنا, اگاہ کیا of اگاہنا); ڈٹ کر, ڈٹے رہے stay ڈٹنا's.
+    for verb in sorted(verbs):
+        if plain[verb] >= VERB_OWN_FEWEST:
+            continue
+        for form in sorted(set(verbs[verb]) - _verb_own_forms(verb) - {verb}):
+            if form in OVERRIDES or verb not in lemmas.get(form, ()):
+                continue
+            helped = USAGE["form_helped"].get(form, 0)
+            if len(lemmas[form]) > 1 or pos.get(form, set()) - {"verb"} or helped < VERBAL_SHARE * seen.get(form, 0) \
+                    or not helped:
+                lemmas[form] = [l for l in lemmas[form] if l != verb]
+
+
+OTHER_VERB_SHARE = 0.1
+VERB_OWN_FEWEST = 3
 
 
 # The endings of a verb's subjunctive and imperatives, which no helper follows (بھونیں, تلیں, ابالیں).
@@ -757,13 +789,18 @@ def _no_word(word, counted):
         or word in KINDS["given"] and _share("named", word) >= GIVEN_NAMED_SHARE
 
 
+def _merge(forms, into, word):
+    for form, share in sorted(forms[word].items()):
+        forms[into][form] = forms[into].get(form, 0) + share
+
+
 def fold(scores, forms, pos):
     """
     After the counting: a word or form counts only its uses that are that word (read_usage), not those as a piece of a word
     a space split (بڑ, خلا, زبر, ران) or of a two-word word of another sense (مون, صلاح) or of a pair or name (سہن, ناڈو,
     سوراج), and a word mostly written so (PIECE_SHARE) is none; a word written mostly beside names (نسیم, طیب, قیصر) is a
     name, and so is a rare word of a name's, place's or Hindi kind (_no_word); two spellings of one word (مہینا, مہینہ: the
-    same key, glosses in common) are the commoner one; and NOT_WORDS are left out.
+    same key, glosses in common; ڈھونڈھنا, ڈھونڈنا) are the commoner one; and NOT_WORDS are left out.
     """
     for word in sorted(scores):
         counted = forms[word]
@@ -780,8 +817,18 @@ def fold(scores, forms, pos):
         key = _variant_key(word)
         first = keyed.setdefault(key, word)
         if first != word and GLOSSES.get(first, set()) & GLOSSES.get(word, set()):
-            for form, share in sorted(forms[word].items()):
-                forms[first][form] = forms[first].get(form, 0) + share
+            _merge(forms, first, word)
             del scores[word]
+    # And a word written with a second ھ (ڈھونڈھنا) is its spelling with one, when that is commoner and of a like sense.
+    for word in sorted(scores, key=lambda w: (sum(forms[w].values()), w)):
+        if word.count("ھ") < 2:
+            continue
+        spellings = [word[:i] + word[i + 1:] for i, letter in enumerate(word) if letter == "ھ"]
+        for other in spellings:
+            if other in scores and sum(forms[other].values()) > sum(forms[word].values()) \
+                    and GLOSSES.get(other, set()) & GLOSSES.get(word, set()):
+                _merge(forms, other, word)
+                del scores[word]
+                break
     for word in scores:
         scores[word] = sum(forms[word].values())
