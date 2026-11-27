@@ -31,6 +31,7 @@ WORD_KINDS = {"noun", "adj", "verb", "adv", "pron", "num", "conj", "det", "intj"
 # A word must be counted this often (all its forms) to be listed: below it the corpus's typos and one-off spellings.
 LEAST_COUNT = 5
 FORMS_LISTED = 400
+KONU_LEAST = 3
 
 # The case endings and postpositions a noun takes joined on, after its stem as it is (పిల్లికి, భాషలో, రోజుకు).
 CASE_TAILS = ["ను", "ని", "కు", "కి", "లో", "తో", "లోని", "లోకి", "లోనే", "లోను", "లోనూ", "తోనే", "తోనూ", "తోపాటు", "కే", "కీ",
@@ -741,6 +742,32 @@ def verb_forms(word):
     return both_l(forms)
 
 
+# The light verbs texts join to a noun (బాధపడుతున్నారు, ఏర్పాటుచేశారు, మొదలుపెట్టారు, అడుగుపెట్టింది, ఆశ్చర్యపోయారు): such a
+# form the pack has no verb for is read as the noun, whose light verb a learner knows.
+LIGHT_VERBS = ("పడు", "చేయు", "పెట్టు", "వేయు", "పోవు", "ఇచ్చు", "కొట్టు")
+
+
+@functools.lru_cache(maxsize=None)
+def light_forms():
+    return frozenset(f for verb in LIGHT_VERBS for f in verb_forms(verb) | {verb})
+
+
+def light_split(form):
+    """The noun leads [form] may have before a light verb's form, the longest form first: ఏర్పాటుచేశారు is ఏర్పాటు + చేశారు,
+    ఉపయోగపడుతుంది ఉపయోగ(ం) + పడుతుంది."""
+    leads = []
+    tails = light_forms()
+    for i in range(2, len(form) - 1):
+        if form[i] not in CONSONANTS:
+            continue
+        if form[i:] in tails:
+            lead = form[:i].rstrip("\u200c")
+            leads.append(lead)
+            if lead[-1] in CONSONANTS:
+                leads.append(lead + ANUSVARA)
+    return leads
+
+
 def unclitic(form):
     """The forms [form] may be without a clitic: అదే of అది, ఇప్పుడే of ఇప్పుడు, సమయమే of సమయం, చేశారని of చేశారు,
     ఉందా of ఉంది."""
@@ -840,6 +867,19 @@ def build(found, size, label, weights=None):
     for spelling, word in alias.items():
         by_hand[spelling].add(word)
 
+    # A reflexive with కొను on a word the pack has no verb for (ఒప్పుకున్నారు, కోలుకున్నారు, పుంజుకుంది) is a verb of its own
+    # (ఒప్పుకొను), when the corpus writes KONU_LEAST of its forms, one of them no dative with ఉండు (ఎందుకున్నారు is ఎందుకు
+    # ఉన్నారు).
+    konu = defaultdict(set)
+    for form in counts:
+        for tail in KONU_TAILS:
+            lead = form[:-len(tail)]
+            if form.endswith(tail) and len(lead) > 2 and lead.endswith("\u0c41") and lead in kinds and "verb" not in kinds[lead]:
+                konu[lead + "కొను"].add(tail)
+    for verb, tails in sorted(konu.items()):
+        if len(tails) >= KONU_LEAST and verb not in kinds and any(t.startswith(("కోవ", "కోల", "కోం", "కోక", "కోగ", "కోబ", "కుని", "కొని")) for t in tails):
+            kinds[verb] = {"verb"}
+
     needed = set(counts)
     for form in counts:
         needed |= unclitic(form)
@@ -915,6 +955,10 @@ def build(found, size, label, weights=None):
         if not heads and form not in names:
             for base in clitic_bases(form, kinds):
                 heads = heads | plain_targets(base)
+        if not heads and form not in names:
+            for lead in light_split(form):
+                if kinds.get(lead, set()) & {"noun", "adj"}:
+                    return {lead}
         return heads
 
     # A form of several words is shared by how common each is by its forms of no other word.
@@ -1020,4 +1064,9 @@ def checker_word(token, words, ranks, names=frozenset()):
         for key, kinds in index.get(start, ()):
             if candidates & _rule_forms(key, kinds):
                 found.append((words[key][0], key))
-    return min(found)[1] if found else None
+    if found:
+        return min(found)[1]
+    for lead in light_split(token):
+        if lead in words:
+            return lead
+    return None
