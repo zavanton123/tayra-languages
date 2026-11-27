@@ -282,11 +282,11 @@ for _kind, _words in {
 # Verbs whose forms are only those their paradigm makes (verb_forms), not every word their stems are left of (Lexicon.verbal):
 # short stems such as ነካ's nk would take እንከን, ሊንክ and እንኳን.
 AMHARIC_RULED_ONLY = {"አወጣ", "አስቀመጠ", "አደገ", "ሞቀ", "ሞላ", "ሸፈነ", "ነካ", "አረደ", "አረጀ", "ፈለሰ", "ፈረመ", "ደነሰ",
-                      "ተስማማ", "አለቀ", "አመሰገነ", "አቆመ", "ጠበሰ"}
+                      "ተስማማ", "አለቀ", "አመሰገነ", "አቆመ", "ወቃ", "ወደመ", "ፈላ", "ጠበሰ"}
 # Forms whose word the rules would miss or get wrong (written as text has them): the demonstratives after a preposition
 # (በዚህ, ከዚያ), other spellings of a word (ዉስጥ, ውጪ), the bound forms of a noun before another (ቤተ ክርስቲያን, ሕገ
 # መንግሥት), irregular plurals (መጻሕፍት), and the forms of አለ "say; there is" that have none of its letters but l (ብሎ, ይላል,
-# የለም, የሌለ), which AMHARIC_STEMS reads.
+# የለም, የሌለ), which AMHARIC_STEMS reads; the jussive of ማወቅ (ይወቁ, እወቁ), which ወቃ "thresh" would share.
 AMHARIC_FORMS = {
     "ዚህ": "ይህ", "ዚያ": "ያ", "ዚሁ": "ይህ", "ዛ": "ያ", "ዚች": "ይህች", "ዚያች": "ያች", "ዚችኛው": "ይህች", "እዛ": "እዚያ",
     "ዉስጥ": "ውስጥ", "ውጪ": "ውጭ", "ነዉ": "ነው", "ቤተ": "ቤት", "ሕገ": "ሕግ", "ህገ": "ሕግ", "ቃለ": "ቃል", "ክፍለ": "ክፍል",
@@ -302,7 +302,7 @@ AMHARIC_FORMS = {
     "ወይንም": "ወይም", "ሚልዮን": "ሚሊዮን", "ሚሊየን": "ሚሊዮን", "ቢልዮን": "ቢሊዮን", "ቢሊየን": "ቢሊዮን", "ደሞ": "ደግሞ",
     "ደሞም": "ደግሞ", "እንደማለት": "አለ", "ስላሉ": "አለ", "ስላለ": "አለ", "ስላላቸው": "አለ", "መቸ": "መቼ", "አብረውት": "አብሮ",
     "አብሮት": "አብሮ", "ወይንስ": "ወይም", "ያክል": "ያህል", "ብሎም": "አለ", "ባይ": "አለ", "ባዮች": "አለ", "ያዩ": "አየ", "እርሶ": "እርስዎ", "እላለሁ": "አለ", "ትላለህ": "አለ", "ትያለሽ": "አለ", "እንላለን": "አለ", "ትላላችሁ": "አለ", "ሌላኛው": "ሌላ", "አብዛኞቹ": "አብዛኛው", "ፍቃድ": "ፈቃድ", "አንጻር": "አንፃር", "አማካይነት": "አማካኝነት", "አባዬ": "አባት", "ወዳድነት": "ወዳድ",
-    "ከባድነት": "ከባድ",
+    "ከባድነት": "ከባድ", "ይወቁ": "ማወቅ", "እወቁ": "ማወቅ", "ዕወቁ": "ማወቅ", "ይወቁት": "ማወቅ", "እወቁት": "ማወቅ", "እወቁልኝ": "ማወቅ", "እወቁኝ": "ማወቅ", "እወቁልን": "ማወቅ", "እወቁበት": "ማወቅ", "ዕወቁልኝ": "ማወቅ", "ይወቅ": "ማወቅ", "እወቅ": "ማወቅ", "ዕወቅ": "ማወቅ", "እንወቅ": "ማወቅ",
 }
 # The stems of አለ ("say; there is, have") that the rules can't make from its letters: ይ-ል-ኣል, ሲ-ል, የሚ-ል, ብ-ሎ, በ-ል, ማ-ለት,
 # የ-ለ-ም, የ-ሌለ.
