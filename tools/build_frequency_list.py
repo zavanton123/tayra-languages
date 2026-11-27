@@ -5671,17 +5671,22 @@ def build_khmer(size):
     # forms: the texts are cut with them, as the reader cuts them with the list.
     spellings = dict(frequency_km.KHMER_SPELLINGS)
 
-    bound = set()
+    bound, parts = set(), {}
     written = defaultdict(int)
     for run, n in alone.items():
         written[khmer_fold(run)] += n
+    # How often each run of letters is written whole, between zero-width spaces or as a run of its own in either text.
+    seen = defaultdict(int, written)
+    for _, source_runs, _ in sources:
+        for run, n in source_runs.items():
+            seen[khmer_fold(run)] += n
 
     def cut(ranks):
         words = known | extra | {khmer_fold(s) for s in spellings}
         segment = segmenter("km", words | bound, ranks)
         cache = {}
         spelled = []
-        uses, pairs = defaultdict(int), defaultdict(int)
+        uses, pairs, threes = defaultdict(int), defaultdict(int), defaultdict(int)
         for _, source_runs, _ in sources:
             out = defaultdict(int)
             for run, n in source_runs.items():
@@ -5698,6 +5703,8 @@ def build_khmer(size):
                     uses[piece] += n
                     if i:
                         pairs[pieces[i - 1], piece] += n
+                    if i > 1:
+                        threes[pieces[i - 2], pieces[i - 1], piece] += n
             spelled.append(out)
         together = defaultdict(int)
         for out in spelled:
@@ -5710,6 +5717,33 @@ def build_khmer(size):
             if n >= KHMER_BOUND_MIN and written.get(a + b, 0) >= KHMER_SEPARATED_MIN and a + b not in words and any(
                     khmer_word(p, words) and n >= KHMER_BOUND_SHARE * uses[p] for p in (a, b)):
                 bound.add(a + b)
+                parts[a + b] = (a, b)
+        # A word written in KHMER_COMPOUND_SHARE of its uses inside compounds of two or three pieces, each written whole (seen)
+        # and holding KHMER_COMPOUND_EACH of its uses, is a piece of them (ធ្លាយ of បែកធ្លាយ and ធ្លុះធ្លាយ, គន់ of គយគន់ and
+        # គន់គូរ, ឆោត of ឆោតល្ងង់, បឺត of អាល់បឺត and រ៉ូបឺត, ដាម of អាដាម, ល្ហែ of ផ្អែមល្ហែម): they are counted as one word,
+        # its uses in those already joined counted with it. A word beside one more than KHMER_COMPOUND_PARTNER times as common
+        # is a piece only where the two are written whole in KHMER_COMPOUND_WHOLE of their uses: else it is a word of a phrase
+        # (ផ្អែក of ផ្អែកលើ, ឆ្ពោះ of ឆ្ពោះទៅ, ទំនោរ of មានទំនោរ).
+        inside = defaultdict(int)
+        for word, pieces in parts.items():
+            for p in set(pieces):
+                inside[p] += uses[word]
+        halves = defaultdict(list)
+        for span, n in [*pairs.items(), *threes.items()]:
+            whole = "".join(span)
+            if n < KHMER_BOUND_MIN or whole in words or whole in bound or seen.get(whole, 0) < KHMER_SEPARATED_MIN:
+                continue
+            for i, p in enumerate(span):
+                if khmer_word(p, words) and (seen[whole] >= KHMER_COMPOUND_WHOLE * n or all(
+                        uses[q] <= KHMER_COMPOUND_PARTNER * uses[p] for q in span[:i] + span[i + 1:] if khmer_word(q, words))):
+                    halves[p].append((span, n))
+        for p, found in halves.items():
+            total = uses[p] + inside[p]
+            found = [(span, n) for span, n in found if n >= KHMER_COMPOUND_EACH * total]
+            if found and sum(n for _, n in found) + inside[p] >= KHMER_COMPOUND_SHARE * total:
+                for span, _ in found:
+                    bound.add("".join(span))
+                    parts["".join(span)] = span
         return spelled, together
 
     spelled, together = cut(None)
@@ -5743,6 +5777,14 @@ KHMER_ROUNDS = 10
 # How much of a word's uses must be next to the same word, and how many at least, for the two to be counted as one.
 KHMER_BOUND_SHARE = 0.5
 KHMER_BOUND_MIN = 20
+# How much of a word's uses must be inside compounds the pack lacks for it to be counted as their piece, and how much each
+# of them must hold: a piece makes up a few, a word as common as ធ្វើ or ទៅ is written beside many others, each a small share.
+KHMER_COMPOUND_SHARE = 0.3
+KHMER_COMPOUND_EACH = 0.1
+# How much commoner a word beside it may be, unless the two are written whole in this share of their uses.
+KHMER_COMPOUND_PARTNER = 16
+KHMER_COMPOUND_WHOLE = 0.1
+
 
 def khmer_list(sources, spelled, together, pack, spellings, size):
     """The Khmer list from the words each source was cut into ([spelled]), each in the spelling the pack has."""
