@@ -619,8 +619,9 @@ class PracticeScreenTest {
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("${exercises.size - 2} of ${exercises.size} right").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("Words to look at again: ${missed.joinToString(", ")}").assertExists()
 
-        // With words missed, the main way on is practising only them.
-        onNodeWithTag("practise-missed").performClick()
+        // Over a text, the card offers no second round; practising the missed words starts only them.
+        onNodeWithTag("practise-missed").assertDoesNotExist()
+        runOnIdle { viewModel.startMissed() }
         waitUntil(timeoutMillis = 10_000) { viewModel.state.value.let { !it.finished && !it.loading && it.exercises.isNotEmpty() } }
         val again = viewModel.state.value.exercises
         val missedWords = missed.map { it.lowercase() }.toSet()
