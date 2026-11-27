@@ -492,7 +492,6 @@ fun ReadingScreen(
                     onBack = close,
                     dialog = true,
                     title = if (state.lesson != null) tr("Lesson vocabulary") else tr("Page vocabulary"),
-                    subtitle = state.book?.title,
                 )
                 // The stage's check stays in the lower right corner, over the list as it scrolls.
                 stageCheck(state, ReadingStage.WORDS, viewModel::checkStage)?.let { check -> Box(Modifier.align(Alignment.BottomEnd).padding(AppSpacing.xxl)) { check(close) } }

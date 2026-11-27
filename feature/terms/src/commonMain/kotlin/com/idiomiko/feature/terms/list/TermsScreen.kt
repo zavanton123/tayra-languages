@@ -152,10 +152,9 @@ fun TermsScreen(
     termIds: List<Long>?,
     onNavigate: (Route) -> Unit,
     onBack: (() -> Unit)?,
-    /** Shown over another screen, under [title] and [subtitle] with a way to close, without the app bar or the whole vocabulary's counts. */
+    /** Shown over another screen, under [title] with a way to close, without the app bar or the whole vocabulary's counts. */
     dialog: Boolean = false,
     title: String? = null,
-    subtitle: String? = null,
     viewModel: TermsListViewModel = koinViewModel(key = "terms-${termIds?.hashCode()}") { parametersOf(termIds) },
 ) {
     val state by viewModel.state.collectAsStateWithLifecycle()
@@ -203,7 +202,7 @@ fun TermsScreen(
         TopOnPageTurn(state.page, list, if (dialog) 1 else 2)
         ScrollList(Modifier.padding(padding).fillMaxSize(), state = list, contentPadding = PaddingValues(horizontal = gutter, vertical = AppSpacing.l)) {
             if (dialog) {
-                item { DialogHeader(title.orEmpty(), subtitle, onClose = { onBack?.invoke() }) }
+                item { DialogHeader(title.orEmpty(), onClose = { onBack?.invoke() }) }
             } else {
                 item { PageHeader(exporting = state.exporting, sending = state.sendingToAnki, onExport = viewModel::exportAnki, onNew = { onNavigate(Route.NewTerm) }) }
                 item { VocabularyOverview(state.totalTerms, known = state.knownCount, learning = state.learningCount, Modifier.padding(bottom = AppSpacing.xl)) }
@@ -323,9 +322,9 @@ internal fun PageHeader(exporting: String?, sending: Boolean, onExport: () -> Un
 
 /** The header of the list shown over another screen: its own title and a way to close. */
 @Composable
-private fun DialogHeader(title: String, subtitle: String?, onClose: () -> Unit) {
+private fun DialogHeader(title: String, onClose: () -> Unit) {
     Column(Modifier.fillMaxWidth().padding(bottom = AppSpacing.xl)) {
-        ScreenHeader(title, subtitle) {
+        ScreenHeader(title, null) {
             AppIconButton(Icons.Default.Close, tr("Close"), onClick = onClose, modifier = Modifier.testTag("close-terms-dialog"), style = IconButtonStyle.Tonal)
         }
     }

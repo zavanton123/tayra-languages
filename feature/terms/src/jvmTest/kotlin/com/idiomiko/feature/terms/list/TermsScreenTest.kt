@@ -125,7 +125,7 @@ class TermsScreenTest {
                     CompositionLocalProvider(LocalLearningLanguage provides LearningLanguageState(listOf(languageId to "Portuguese"), languageId) {}) {
                         TermsScreen(
                             termIds = termIds, onNavigate = onNavigate, onBack = if (termIds != null) ({}) else null, viewModel = viewModel,
-                            dialog = dialog, title = "Lesson vocabulary".takeIf { dialog }, subtitle = "Uma amizade antiga".takeIf { dialog },
+                            dialog = dialog, title = "Lesson vocabulary".takeIf { dialog },
                         )
                     }
                 }
