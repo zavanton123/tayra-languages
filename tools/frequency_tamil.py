@@ -596,6 +596,40 @@ def _fold(scores, forms, kinds, corpora):
             del forms[word]
 
 
+# Pack words the list leaves out, as their counts are not their own: names, places and gods, and their pieces (மோகன of
+# மோகனம், as in மோகன் பாபு); spoken and slang words; English; and pieces and forms of other words the shares miss (பத்தர்'s
+# பத்தரை is "half past ten", கிறி's கிறித்தவர்கள் "Christians") or misspelt (எற்பாடு for ஏற்பாடு).
+NOT_LISTED = set("""
+மஹால் ஈசா கோதை கெளதம் பெஞ்சமின் குலோத்துங்கன் அவ்வை கிச்சு நைனா கயல் ஜகத் சுசி அம்பி தேன்மொழி குடகு தளவாய் ஆதித்தன்
+ராயப்பன் பணிக்கர் ராயர் வளவன் மாடன் ஔவை நள் சுங்கை கடாரம் தர்மா சுதன் இலக்குமி எம்டன் நிருபம் தகழி ரஞ்சிதம் செவ்வை
+மோகனம் அனந்தம் சுசீ ரங்கு ஈசுவரன் பெண்டகன் சடையன் பிங்கலை
+முழுசு ஊம்பு சூத்து நேக்கு இவா லூசு ஓசி அதுகள் இதுகள் பொம்பளை ஆம்பளை லொள்ளு லொள் மாத்து காண்டு மொக்கு பேள் குசு
+டுபாக்கூர் ஜொள்ளு அலப்பறை பதினஞ்சு பதினாலு பிச்சு பிகு அடைச்சு அங்கிட்டு இங்கிட்டு ஆயிட்டு மாப்பு உவள் வருவி வெள் ஏடி ஊம் உந்த
+ஐட்டம் சவுண்டு சிஸ் ஃபாரின் ஜங்கிள் ஓடர் ஏஐ மாண்டல் பிட்சு குய் டர்
+கொண்டி கவல் மள் கப்பு போகு ரோம ஊசு ஒக்க முது அனை அதர் கிறி துக்கி அன்னது பத்தர் பூர் நௌ நூ கெழு அக்கு தோம் எதி நூற்றி
+எற்பாடு யாவது அஹம் பேத்து கோது தருக்கு பெற்றம் இடக்கு நறு குவா உது மாகு மேதம் அக்கி எத்தி எத்து திரம் அயனம் சிங்கி அங்கக இக்கு
+பந்தர் புக்கில் லகரி என்கை வவ்வு துய் என்னர் என்பு இத்தி எந்து அலங்கு சோவி ஆம்பி இலி சாரன்
+""".split())
+# Pack words that are another word's form or spelling, which the corpus has for that word, by hand: word -> the word it is
+# counted for (பட்டபோது "when (it) suffered" of படு, தொடுத்து of தொடு, நடக்கையில் "while walking" of நட).
+FOLDED = {"பட்டபோது": "படு", "குள்ளமான": "குள்ளம்", "உண்டென": "உண்டு", "ஈந்து": "ஈ", "வெல்லுமா": "வெல்", "தொடுத்து": "தொடு",
+          "நடக்கை": "நட", "நூலிழையில்": "நூலிழை", "எத்தனையாவது": "எத்தனை", "பின்னாக": "பின்",
+          # Spellings of one word: ஆனை is யானை, கோடரி கோடாரி.
+          "ஆனை": "யானை", "கோடரி": "கோடாரி"}
+
+
+def _refile(scores, forms):
+    """NOT_LISTED's words are left out, and FOLDED's counted for their words."""
+    for word in sorted(set(scores) & (NOT_LISTED | set(FOLDED))):
+        into = FOLDED.get(word)
+        if into in scores:
+            for form, credit in forms[word].items():
+                forms[into][form] = forms[into].get(form, 0.0) + credit
+            scores[into] = sum(forms[into].values())
+        del scores[word]
+        del forms[word]
+
+
 def build(found, size, label, weights=None, corpora=()):
     """The list: the pack's words, by their forms' counts in [found], each source weighted by [weights] (by name), their uses
     read from the news sentences of [corpora] (_fold)."""
@@ -712,6 +746,7 @@ def build(found, size, label, weights=None, corpora=()):
 
     if corpora:
         _fold(scores, forms, kinds, corpora)
+    _refile(scores, forms)
     ranked = sorted(scores, key=lambda w: -scores[w])[:size]
     # A noun of a person whose polite form in -அர் is written more than its own (அமைச்சர், தலைவர்) is listed under that form.
     for i, word in enumerate(ranked):
