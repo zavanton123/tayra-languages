@@ -90,9 +90,12 @@ HAND = {
     "luana": ["luan"], "luanësh": ["luan"], "luanve": ["luan"], "luani": ["luan", "luaj"], "luanin": ["luan", "luaj"],
     # Words of their own the pack files as another's form: gjithnjë beside gjithmonë, përse beside pse, meqenëse beside meqë.
     "gjithnjë": ["gjithnjë"], "përse": ["përse"], "meqenëse": ["meqenëse"],
-    # Days of the week (e mërkurë, të dielën), which the pack lacks.
+    # Days of the week (e mërkurë, të dielën), which the pack lacks or files under a look-alike (enjtja under enjt "Jupiter").
     "mërkurë": ["mërkurë"], "mërkurën": ["mërkurë"], "mërkura": ["mërkurë"], "diel": ["diel"], "dielën": ["diel"],
-    "diela": ["diel"],
+    "diela": ["diel"], "enjtja": ["enjte"], "enjtën": ["enjte"],
+    # Misspellings and forms filed under a look-alike: ëndër of ëndërr, arësye of arsye, thëni "say" of them, not thëri "nit".
+    "ëndër": ["ëndërr"], "arësye": ["arsye"], "thëni": ["them"], "rrëndësi": ["rëndësi"], "krahën": ["krah"],
+    "kembë": ["këmbë"],
 }
 
 OVERRIDES = {**TABLE, **HAND}
