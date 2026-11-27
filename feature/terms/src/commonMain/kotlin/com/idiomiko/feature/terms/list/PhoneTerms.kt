@@ -33,6 +33,8 @@ import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
+import androidx.compose.material3.ScaffoldDefaults
+import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -111,9 +113,8 @@ internal fun PhoneTermsScreen(
     onNavigate: (Route) -> Unit,
     onBack: (() -> Unit)?,
     onNew: () -> Unit,
-    /** Inside another screen, which has its own bar. */
+    /** Inside another screen, which has its own bar and its own way on: a title of its own and no add button. */
     inside: Boolean = false,
-    floatingAction: (@Composable () -> Unit)? = null,
 ) {
     val colors = MaterialTheme.colorScheme
     var sorting by remember { mutableStateOf(false) }
@@ -135,11 +136,9 @@ internal fun PhoneTermsScreen(
             state.message?.let { AppSnackbar(it, actionLabel = tr("OK"), onAction = viewModel::dismissMessage) }
         },
         // Adding a term floats at the corner; while selecting, the actions on the chosen terms take the foot.
-        floatingActionButton = {
-            if (!selecting) {
-                if (floatingAction != null) floatingAction() else AppFab(Icons.Default.Add, tr("Add term"), onNew, Modifier.testTag("phone-add-term"))
-            }
-        },
+        floatingActionButton = { if (!selecting && !inside) AppFab(Icons.Default.Add, tr("Add term"), onNew, Modifier.testTag("phone-add-term")) },
+        // The screen around it already keeps clear of the system's bars.
+        contentWindowInsets = if (inside) WindowInsets(0) else ScaffoldDefaults.contentWindowInsets,
         bottomBar = {
             if (selecting) {
                 // Ticking all the listed terms or some, how many, clearing the choice, and what can be done with them, Anki among it.
@@ -161,8 +160,9 @@ internal fun PhoneTermsScreen(
             Modifier.padding(padding).fillMaxSize(),
             state = list,
             // The list's end scrolls clear of the floating button.
-            contentPadding = PaddingValues(start = AppSpacing.l, end = AppSpacing.l, top = AppSpacing.m, bottom = FAB_ROOM),
+            contentPadding = PaddingValues(start = AppSpacing.l, end = AppSpacing.l, top = AppSpacing.m, bottom = if (inside) AppSpacing.l else FAB_ROOM),
         ) {
+            if (inside) item { Text(tr("Vocabulary"), Modifier.padding(bottom = AppSpacing.m), style = AppText.screenTitle) }
             item { PhoneVocabularyOverview(state.totalTerms, known = state.knownCount, learning = state.learningCount, Modifier.padding(bottom = AppSpacing.m)) }
             item {
                 SearchField(state.filter.search, { q -> viewModel.updateFilter { it.copy(search = q) } }, tr("Search terms or translations"), Modifier.fillMaxWidth().padding(bottom = AppSpacing.m))

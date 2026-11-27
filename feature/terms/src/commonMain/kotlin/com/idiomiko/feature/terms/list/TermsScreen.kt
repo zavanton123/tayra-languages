@@ -156,8 +156,6 @@ fun TermsScreen(
     dialog: Boolean = false,
     title: String? = null,
     subtitle: String? = null,
-    /** On a phone, floats in the corner in place of the button that adds a term. */
-    floatingAction: (@Composable () -> Unit)? = null,
     viewModel: TermsListViewModel = koinViewModel(key = "terms-${termIds?.hashCode()}") { parametersOf(termIds) },
 ) {
     val state by viewModel.state.collectAsStateWithLifecycle()
@@ -185,7 +183,7 @@ fun TermsScreen(
     )
 
     if (compact) {
-        PhoneTermsScreen(state, viewModel, listActions, rowActions, onNavigate = onNavigate, onBack = onBack, onNew = { onNavigate(Route.NewTerm) }, inside = dialog, floatingAction = floatingAction)
+        PhoneTermsScreen(state, viewModel, listActions, rowActions, onNavigate = onNavigate, onBack = onBack, onNew = { onNavigate(Route.NewTerm) }, inside = dialog)
     } else Scaffold(
         topBar = {
             if (!dialog) AppTopBar(

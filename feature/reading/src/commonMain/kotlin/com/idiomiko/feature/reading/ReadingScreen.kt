@@ -1177,17 +1177,8 @@ private fun InlineStageView(
 ) {
     val leave: (Route) -> Unit = { route -> onClose(); onNavigate(route) }
     when (stage) {
-        is InlineStage.Words -> {
-            // The stage's check floats where the list's add button would.
-            val check = stageCheck(state, ReadingStage.WORDS, viewModel::checkStage)
-            TermsScreen(
-                termIds = stage.termIds,
-                onNavigate = leave,
-                onBack = onClose,
-                dialog = true,
-                floatingAction = check?.let { { it(onClose) } },
-            )
-        }
+        // The stages' own check, under the list, finishes it.
+        is InlineStage.Words -> TermsScreen(termIds = stage.termIds, onNavigate = leave, onBack = onClose, dialog = true)
         InlineStage.QuizSetup -> PracticeSetupDialog(page, onStart = { setup -> onShow(InlineStage.Quiz(setup)) }, onDismiss = onClose, inline = true)
         is InlineStage.Quiz -> FreshViewModels {
             PracticeScreen(page, stage.setup, onNavigate = leave, onBack = onClose, dialog = true, onPractiseAgain = { onShow(InlineStage.QuizSetup) })

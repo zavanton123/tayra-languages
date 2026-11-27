@@ -647,7 +647,7 @@ class ReadingHoverTest {
 
     /**
      * On a phone the stage of checking the words shows them in the text's place, under the lesson's bar and over its
-     * stages, with the stage's check where the list's add button would be; it checks the stage and gives the text back.
+     * stages, as the lesson's vocabulary with no button floating over it; the stages' check checks it and gives the text back.
      */
     @Test
     fun aPhoneShowsALessonsVocabularyInsideTheLesson() {
@@ -666,14 +666,15 @@ class ReadingHoverTest {
         assertTrue(visited.isEmpty(), "the lesson is not left")
         rule.onNodeWithContentDescription("Back to course").assertExists()
         rule.onNodeWithTag("stage-chain").assertExists()
-        assertTrue(rule.onAllNodesWithTag("phone-add-term").fetchSemanticsNodes().isEmpty(), "the check takes the add button's place")
+        assertTrue(rule.onAllNodesWithTag("phone-add-term").fetchSemanticsNodes().isEmpty(), "nothing floats over the list")
+        rule.onNodeWithText("Vocabulary").assertExists()
         assertTrue(rule.onAllNodesWithContentDescription("Read the page").fetchSemanticsNodes().isEmpty(), "nothing to read aloud over the words")
-        assertEquals(2, rule.onAllNodesWithTag("check-stage").fetchSemanticsNodes().size, "the floating check and the stages' own")
+        assertEquals(1, rule.onAllNodesWithTag("check-stage").fetchSemanticsNodes().size, "only the stages' check")
         System.getenv("PHONE_LESSON_WORDS_SCREENSHOT")?.let { path ->
             rule.waitForIdle()
             javax.imageio.ImageIO.write(rule.onAllNodes(androidx.compose.ui.test.isRoot())[0].captureToImage().toAwtImage(), "png", File(path))
         }
-        rule.onAllNodesWithTag("check-stage")[0].performClick()
+        rule.onNodeWithTag("check-stage").performClick()
         rule.waitUntil(5_000) { ReadingStage.WORDS in vm.state.value.stages }
         rule.waitUntil(5_000) { rule.onAllNodesWithTag("phone-sort").fetchSemanticsNodes().isEmpty() }
     }
