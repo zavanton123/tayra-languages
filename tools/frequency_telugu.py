@@ -484,7 +484,7 @@ def kind_of(kinds):
 # character of the epics, a town (సరళ, మాధవి, గౌరి, దశరథుడు, కావలి). Not when the name is a surname (తోటకూర, మర్రి), a
 # year's, a sign's, a month's, a festival's or a language's.
 NAME_GLOSS = re.compile(r"given name|dynasty|\bname of\b|\btitle of\b|epithet|\b(?:god|goddess|deity|king|queen|sage|rishi|demon|"
-                        r"town|city|village|district|river|mountain|kingdom|wife|husband|son|daughter|father|mother|brother|"
+                        r"town|city|village|district|river|mountain|kingdom|wife|husband|sons?|daughter|father|mother|brother|"
                         r"sister)\b", re.I)
 KEPT_NAME_GLOSS = re.compile(r"surname|telugu year|zodiac|month|festival|language|day of", re.I)
 
