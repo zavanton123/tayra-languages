@@ -490,7 +490,7 @@ def lexicon(dictionaries):
     # that one when the list is made (spellings).
     spellings = {}
     for form, lemmas in pack_forms.items():
-        for lemma in lemmas:
+        for lemma in sorted(lemmas):
             if ("verb" in kinds.get(lemma, ()) and form[-2:] == lemma[-2:] and abs(len(form) - len(lemma)) <= 2
                     and form not in kinds and not form.endswith(FINITE + ("లు",)) and form not in simple_verb_forms(lemma)):
                 spellings[form] = lemma
@@ -819,7 +819,7 @@ def build(found, size, label, weights=None):
     uses = defaultdict(float)
     forms = defaultdict(dict)
     for form, share in counts.items():
-        heads = found_targets[form]
+        heads = sorted(found_targets[form])
         if not heads:
             continue
         weights_here = {h: own.get(h, 0.0) for h in heads}
@@ -843,10 +843,10 @@ def build(found, size, label, weights=None):
 
     # A word is listed when its forms are written LEAST_COUNT times in all the sources (one use in the small subtitles weighs
     # as much as twenty in the news).
-    ranked = [w for w in sorted(scores, key=lambda w: -scores[w]) if uses[w] >= LEAST_COUNT][:size]
+    ranked = [w for w in sorted(scores, key=lambda w: (-scores[w], w)) if uses[w] >= LEAST_COUNT][:size]
     lines = [f"# source: {label}", f"# words: {len(ranked)}"]
     for word in ranked:
-        listed = sorted(forms[word], key=lambda f: -forms[word][f])[:FORMS_LISTED]
+        listed = sorted(forms[word], key=lambda f: (-forms[word][f], f))[:FORMS_LISTED]
         if word not in listed:
             listed = [word] + listed[:FORMS_LISTED - 1]
         lines.append(word + "\t" + " ".join(listed))
