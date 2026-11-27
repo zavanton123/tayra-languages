@@ -113,6 +113,9 @@ COPULAS = {
 NEPALI_FORMS = {form: word for table in (PRONOUNS, COPULAS) for word, forms in table.items() for form in [word] + forms.split()}
 # The genitive's agreeing forms written apart (after a number or a foreign word: २०७७ का, COVID को) are को's.
 NEPALI_FORMS.update({"का": "को", "की": "को"})
+# A pronoun's other spellings (आफु, ति, यि), its oblique with the emphatic (तिनै, यिनै), and आआफ्नो "each their own".
+NEPALI_FORMS.update({"आफु": "आफू", "आआफ्नो": "आफू", "आआफ्ना": "आफू", "आआफ्नै": "आफू", "ति": "ती", "तिन": "ती", "तिनै": "ती",
+                     "यि": "यी", "यिन": "यी", "यिनै": "यी"})
 # हुन्न "is not, will not be", which the pack has as a particle, is हुनु's negative present.
 NEPALI_FORMS.update({"हुन्न": "हुनु", "हुन्नन्": "हुनु", "हुन्नँ": "हुनु"})
 # Words a rule or a table would send to another word: केही "some" is no form of के.
@@ -156,6 +159,28 @@ NEPALI_WORDS = {
     "चैत": "noun", "सुरु": "noun", "त्यसोभए": "adv", "त्यसैगरी": "adv", "यसो": "adv", "अवस्थित": "adj", "हरे": "intj",
     "आनन्द": "noun", "गोली": "noun",
 }
+# And those the bands past 2300 lacked: words the corpus writes often that neither pack has (बेच्नु, घुम्नु, चामल, माटो,
+# गाउँपालिका; दल "party", which the pack has only as a form of दल्नु). आज and अब take postpositions (आजको, अबदेखि).
+NEPALI_WORDS.update({word: "verb" for word in (
+    "जोड्नु पुर्याउनु बोक्नु छाड्नु हटाउनु मनाउनु घटाउनु समेट्नु अपनाउनु सार्नु बेच्नु आइपुग्नु फैलिनु फैलाउनु भर्नु झर्नु "
+    "जन्मनु बचाउनु भित्र्याउनु भित्रिनु दिलाउनु जोगाउनु सर्नु ठान्नु घुम्नु बिताउनु भोग्नु जुट्नु बित्नु सघाउनु जुटाउनु भाग्नु "
+    "बच्नु बेहोर्नु फर्काउनु ओगट्नु सम्हाल्नु हट्नु छुट्याउनु खिच्नु रोज्नु छाप्नु खुलाउनु छिर्नु धान्नु उक्लनु रोप्नु "
+    "स्वीकार्नु बदल्नु तोड्नु डुब्नु बगाउनु तुल्याउनु रुचाउनु निम्त्याउनु गुम्नु रमाउनु बाल्नु पछ्याउनु फुट्नु खुल्नु "
+    "बाहिरिनु खटिनु खटाउनु लानु").split()})
+NEPALI_WORDS.update({word: "noun" for word in (
+    "कामदार बालबालिका उपत्यका यात्रु पहिरो खानेपानी उद्धार दबाब विज्ञ मुनाफा बासिन्दा परम्परा चाहना भेला जात भाउ नतिजा "
+    "उजुरी बाढी ढुवानी माटो फोहोर सन्तान आफन्त कुराकानी कमजोरी बानी जोडी सम्पदा उकालो ओरालो भीड टोल पोखरी छोराछोरी "
+    "किनार छेउ सिमाना घरपरिवार भोलिपल्ट जात्रा चाड चाडपर्व गहुँ उज्यालो हतार घाँटी ज्याला सुत्केरी मिर्गौला अगुवा "
+    "चामल बेरोजगारी कठिनाइ नोक्सानी सरसफाइ सिँचाइ जडीबुटी आगलागी भेटघाट कागजात धितो खानी समझदारी ठेक्का सहुलियत "
+    "हाराहारी सरोकार पुस्ता मजदुर स्वास्थ्यकर्मी इन्धन सन्धि आशङ्का साक्षरता अपाङ्गता थालनी ढिलाइ किनबेच सन्तुलन "
+    "सम्पादक मह कब्जा विपद् सोचाइ सिफारिस भान्सा कमैया दल गाउँपालिका महासंघ लगानीकर्ता अर्थतन्त्र "
+    "गुणस्तर सहकार्य परिषद् जनशक्ति महोत्सव सञ्चालक जलविद्युत् प्रवर्द्धन आज अब").split()})
+NEPALI_WORDS.update({word: "adj" for word in "पहाडी प्रशस्त गहिरो चाँडो ढुक्क बेरोजगार बेपत्ता दोब्बर".split()})
+NEPALI_WORDS.update({word: "adv" for word in (
+    "हालै धेरैजसो तुरुन्त अन्यत्र वरपर त्यसबेला त्यतिबेला यसपटक यतिबेला यसपालि पटकपटक उत्तिकै बारम्बार एकैपटक").split()})
+NEPALI_WORDS.update({"डेढ": "num", "एकअर्का": "pron", "त्यहीँ": "adv"})
+# A verb's other spellings (फर्किनु, the stem in -इ the news write): their forms by rule are the verb's.
+VERB_SPELLINGS = {"फर्किनु": "फर्कनु", "निस्किनु": "निस्कनु", "उक्लिनु": "उक्लनु", "जन्मिनु": "जन्मनु"}
 # Forms the pack's tables lack or make wrongly: जानु's past is on the stem ग- (गयो, गएर), and हुनु's optative is होस्.
 EXTRA_FORMS = {
     "जानु": "जाउँ जाउ जाऊँ गए गएर गई गइ गयो गएँ गएं गयौं गयौँ गयौ गइन् गइनन् गएन गएनन् गएछ गएछन् गइरहेको गएका गएकी गएको",
@@ -168,6 +193,9 @@ EXTRA_FORMS = {
     "चाहनु": "चाहेको चाहेका चाहेकी चाहे चाहेर चाहँदैन चाह्यो चाहँदा चाहिँदैन",
     # मन पर्नु "to like", written joined (मनपर्छ).
     "पर्नु": "मनपर्छ मनपर्ने मनपर्यो मनपर्‍यो मनपर्दैन मनपरेको मनपर्छन् मनपर्दो",
+    # लानु "take away" makes its past on the stem लग- (लगेर, लग्यो).
+    "लानु": "लान लाने लान्छ लान्छन् लान्छु लाँदै लाँदा लगेर लगे लग्यो लगेको लगेका लगेकी लगिन् लगें लगेँ लग्यौं लग्दै लग्दा "
+            "लगिदियो लगिदिए लगिदिन्छ लगिन्छ लगियो लगिएको नलगेको नलान",
 }
 # A word's other spellings, folded into the spelling the list shows (the pack has some as words of their own): ठिक as ठीक,
 # केहि as केही, the reformed spellings the news write (महिना, वर्ष) and the older ones the pack keeps.
@@ -190,6 +218,18 @@ SPELLINGS = {
     "किलोमीटर": "किलोमिटर", "चिज": "चीज", "घरेलू": "घरेलु", "दुध": "दूध", "विदा": "बिदा", "तस्वीर": "तस्बिर", "रूख": "रुख",
     "नून": "नुन", "चिठि": "चिठी", "निलो": "नीलो", "सीपाही": "सिपाही", "हिरा": "हीरा", "भालू": "भालु", "पाटि": "पाटी",
     "बिधवा": "विधवा", "अल्छि": "अल्छी", "एक्काईस": "एक्काइस",
+    # Past rank 2300: the other spellings the news write (दोश्रो, वेला, सवै, अबस्था), नक्शा and राजनैतिक, the dialect छोरो,
+    # and ओटा, the classifier written apart from its number (५ ओटा).
+    "दोश्रो": "दोस्रो", "तेश्रो": "तेस्रो", "आइतवार": "आइतबार", "बिहीवार": "बिहीबार", "मङ्गलवार": "मङ्गलबार",
+    "मंगलवार": "मङ्गलबार", "मंगलबार": "मङ्गलबार", "बैशाख": "वैशाख", "जोखीम": "जोखिम", "वेला": "बेला", "दुबै": "दुवै", "सवै": "सबै",
+    "त्यत्ति": "त्यति", "सुरू": "सुरु", "मंसीर": "मंसिर", "बिषय": "विषय", "ब्यक्ति": "व्यक्ति", "विरामी": "बिरामी",
+    "मुल्य": "मूल्य", "अबस्था": "अवस्था", "स्थानिय": "स्थानीय", "केन्द्रिय": "केन्द्रीय", "सम्बन्धि": "सम्बन्धी",
+    "जागीर": "जागिर", "छनौट": "छनोट", "सिफारिश": "सिफारिस", "त्यहीं": "त्यहीँ", "मजदूर": "मजदुर",
+    "जलविद्युत": "जलविद्युत्", "प्रवद्र्धन": "प्रवर्द्धन", "ओटा": "वटा", "नक्शा": "नक्सा", "राजनैतिक": "राजनीतिक",
+    "छोरो": "छोरा", "पोसाक": "पोशाक", "शब्दकोष": "शब्दकोश", "नतीजा": "नतिजा", "तारीख": "तारिख", "पोखरि": "पोखरी",
+    "रूसी": "रुसी", "शुरूआत": "शुरुआत", "सशक्तिकरण": "सशक्तीकरण", "सहरी": "शहरी", "नास": "नाश", "बीर": "वीर",
+    # The spellings the list's first 2300 have, which those past it fold into (मिठो, not मीठो; गरीब, not गरिब).
+    "मीठो": "मिठो", "नमुना": "नमूना", "गरिब": "गरीब", "गरिबी": "गरीबी", "सिट": "सीट",
 }
 # Links of the pack's tables that are wrong: खाली "empty" is no form of खानु.
 WRONG_LINKS = {("खाली", "खानु"), ("फेरी", "फेर्नु"), ("गोली", "गोलो"), ("चालू", "चाल्नु")}
@@ -332,6 +372,9 @@ def regular_verb_forms(verb):
         # A stem in a consonant with its vowel (फर्क of फर्कनु, रह of रहनु): फर्कन्छ, फर्केको, फर्क्यो.
         forms = {stem + t for t in ("नु", "न", "ने", "न्छ", "न्छन्", "न्छु", "न्दै", "न्दा", "न्न", "न्थ्यो", "नुहोस्", "नेछ")}
         forms |= {stem + t for t in CONSONANT_PAST} | {stem, stem + "्यो"}
+    elif stem.endswith("ि"):
+        # A stem in -इ (फैलि of फैलिनु): a passive's endings (फैलिन्छ, फैलिएको, फैलियो).
+        forms = {stem + t for t in PASSIVE} | {stem + t for t in ("नुहोस्", "नुहुन्छ", "नुभयो", "नुभएको", "न्थ्यो", "न्छु")}
     elif stem.endswith("ा"):
         # A stem in -आ (खा, जा): खायो, खाएको, खाई.
         forms = {stem + t for t in VOWEL_STEM} | {stem + t for t in VOWEL_PAST} | {stem}
@@ -402,14 +445,20 @@ def lexicon(dictionaries=DICTIONARIES, counts=None):
         stem = verb[:-2]
         # The passive on the conjunctive: गर् + इ (गरिन्छ), बनाउ + इ (बनाइन्छ), दि + इ (दिइन्छ).
         passive = stem[:-1] + "ि" if stem.endswith("्") else (stem[:-1] if stem.endswith(("ु", "उ")) else stem) + "इ"
-        if passive + "नु" not in kinds:
+        if passive + "नु" not in kinds and not stem.endswith("ि"):
+            # And its negative (नगरिने, नसकिएको).
             for form in {passive + t for t in PASSIVE}:
                 table[form].add(verb)
+                table["न" + form].add(verb)
         # The negative infinitive (नगर्नु) and, on a consonant stem, the formal present (गर्दछ, पर्दछ).
         table["न" + verb].add(verb)
         if stem.endswith("्"):
             for tail in ("दछ", "दछन्", "दछु", "दछौं", "दछिन्", "दैछ", "दैछन्"):
                 table[stem + tail].add(verb)
+    for variant, verb in VERB_SPELLINGS.items():
+        for form in regular_verb_forms(variant):
+            for spelling in nasal_variants(form):
+                table[spelling].add(verb)
     if counts:
         confirmed = hindi_confirmed(dictionaries, kinds, table, counts)
         for word, ks in confirmed.items():
