@@ -81,6 +81,18 @@ ENDINGS = ("တယ်", "ပါ", "ဘူး", "လား", "လဲ", "မယ်
 # Words of the pack the texts write mostly as other words: ကတော့ "funnel" is nearly always the particles က + တော့; အ
 # "dumb" is the prefix အ- the cut leaves (အ + ကြာ) and the subtitles' "uh".
 EXCLUDE = {"ကတော့", "အ"}
+# And those the bands past rank 2600 had that no rule leaves out (as Khmer's KHMER_EXCLUDE): pieces of words the pack and
+# ICU's list lack (ဆလင် of မူဆလင် "Muslim", ကျန of ကျနစွာ, ခြ of ခြစား, လဒ် of ပေါင်းလဒ် "sum", မုခ် of မုခ်ဝ, ဉာဉ် of
+# ဝိဉာဉ်, မြီ of မြီကြွေး, ကွတ် of ကွတ်ခိုင်, အလက် and မုန် of foreign names, ဂေး, ဒုံမင်း, ဦ, ဇူ, ဝိတ်, ဟိတ်, ကေဒါ, မိန်,
+# ဘင်း, ထော, ထေရီ); Pali words of the texts' Pali passages and titles of books, numbers among them (ဗလ, ပဉ္စ, စတု, နဝ, နယ,
+# ဝိပါက်, ပဒ, တေဇော, ဒီဃ, မဏိ, ရုပ်ကလာပ်, မုနိ, ဉာဏ, ဝိဟာရ, ပဏ္ဍိတ, နိဿယ, နိကာယ, ပစ္စယာ, ဝစီ, ဥတ္တရ, ဂီရိ, ပူရ, ကဝိ,
+# ဇယ, တိပိဋက); and titles, names and peoples (ဘဒ္ဒန္တ before a monk's name, မာရ်နတ်, မာရ်, ခမာ, အာဒမ်, ဇော်ဂျီ,
+# ရိုဟင်ဂျာ, ဘာလီ, ဆူးလေ, ဖရန့်, and အက်ဖ် "F").
+EXCLUDE |= set("""
+ဆလင် ကျန ခြ လဒ် မုခ် ဉာဉ် မြီ ကွတ် အလက် မုန် ဂေး ဒုံမင်း ဦ ဇူ ဝိတ် ဟိတ် ကေဒါ မိန် ဘင်း ထော ထေရီ
+ဗလ ပဉ္စ စတု နဝ နယ ဝိပါက် ပဒ တေဇော ဒီဃ မဏိ ရုပ်ကလာပ် မုနိ ဉာဏ ဝိဟာရ ပဏ္ဍိတ နိဿယ နိကာယ ပစ္စယာ ဝစီ ဥတ္တရ ဂီရိ ပူရ
+ကဝိ ဇယ တိပိဋက ဘဒ္ဒန္တ မာရ်နတ် မာရ် ခမာ အာဒမ် ဇော်ဂျီ ရိုဟင်ဂျာ ဘာလီ ဆူးလေ ဖရန့် အက်ဖ်
+""".split())
 
 # Syllables of foreign words and names that are no word alone in ordinary Burmese, or whose own word (ယာ "upland field", ကေ
 # "hair") is rare beside them: the Latin letters (ဘီ, ဂျီ, ပီ, အေ), the vowels' names, and the syllables the texts spell
