@@ -240,6 +240,7 @@ internal val elSettings: Map<String, String> = mapOf(
     "Hears your answers when you practise speaking. It runs on this computer, with no network once downloaded." to "Ακούει τις απαντήσεις σου όταν εξασκείσαι στην ομιλία. Τρέχει σε αυτόν τον υπολογιστή, χωρίς δίκτυο μετά τη λήψη.",
     "Languages I'm learning" to "Γλώσσες που μαθαίνω",
     "Learning now" to "Τη μαθαίνω τώρα",
+    "Learn now" to "Μάθετε τώρα",
     "{0} was removed" to "Αφαιρέθηκε: {0}",
     "Removing {0}…" to "Αφαίρεση: {0}…",
     "{0} was removed, but some downloads stayed" to "Αφαιρέθηκε: {0}, αλλά κάποιες λήψεις έμειναν",

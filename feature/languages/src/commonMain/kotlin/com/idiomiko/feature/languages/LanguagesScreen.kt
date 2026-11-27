@@ -161,7 +161,7 @@ fun LanguagesScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: 
                         }
                     }
                 }
-                if (learning != null) MyLanguagesCard(learning, viewModel::askToRemove, Modifier.fillMaxWidth(), removals)
+                if (learning != null) MyLanguagesCard(learning, viewModel::askToRemove, Modifier.fillMaxWidth(), removals, onLearn = { learning.select(it); changes++ })
                 if (compact) SavedNote(changes)
             }
         }

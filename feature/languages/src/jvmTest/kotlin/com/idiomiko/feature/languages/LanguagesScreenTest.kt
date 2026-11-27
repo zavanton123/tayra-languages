@@ -119,6 +119,27 @@ class LanguagesScreenTest {
         waitUntil(timeoutMillis = 5_000) { settings.current.uiLanguage == "ru" }
     }
 
+    /** Each language being learned but the current one has a link that makes it the one learned. */
+    @Test
+    fun anotherLanguageBeingLearnedCanBeLearnedNow() = runDesktopComposeUiTest(width = 1580, height = 1200) {
+        val chosen = mutableListOf<Long>()
+        setContent {
+            val state = LearningLanguageState(listOf(1L to "Portuguese", 2L to "German", 3L to "English"), 1L, mine = listOf(1L, 2L)) { chosen += it }
+            IdiomikoTheme(AppThemes.byId(AppThemes.all.first().id)) {
+                ProvideWindowWidth {
+                    CompositionLocalProvider(LocalLearningLanguage provides state) {
+                        LanguagesScreen(onNavigate = {}, onBack = {}, viewModel = LanguagesViewModel(SettingsRepositoryImpl(MapSettings())))
+                    }
+                }
+            }
+        }
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Languages I'm learning")).fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("learn-language-pt").assertDoesNotExist()
+        onNodeWithTag("learn-language-de").performClick()
+        assertEquals(listOf(2L), chosen)
+        onNodeWithText("Changes saved").assertExists()
+    }
+
     /** The languages being learned are listed with their words, each with a way to remove it that asks first. */
     @Test
     fun aLanguageBeingLearnedCanBeRemoved() = runDesktopComposeUiTest(width = 1580, height = 1200) {

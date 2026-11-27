@@ -240,6 +240,7 @@ internal val esSettings: Map<String, String> = mapOf(
     "Hears your answers when you practise speaking. It runs on this computer, with no network once downloaded." to "Escucha tus respuestas cuando practicas la expresión oral. Funciona en este ordenador, sin red una vez descargado.",
     "Languages I'm learning" to "Idiomas que estoy aprendiendo",
     "Learning now" to "Aprendiendo ahora",
+    "Learn now" to "Aprender ahora",
     "{0} was removed" to "Se quitó {0}",
     "Removing {0}…" to "Eliminando {0}…",
     "{0} was removed, but some downloads stayed" to "Se eliminó {0}, pero quedaron algunas descargas",

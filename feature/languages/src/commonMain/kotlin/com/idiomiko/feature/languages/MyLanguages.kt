@@ -23,6 +23,7 @@ import com.idiomiko.core.ui.components.SpinnerSize
 import com.idiomiko.core.ui.components.ButtonSize
 import com.idiomiko.core.ui.components.ButtonTone
 import com.idiomiko.core.ui.components.LanguageFlag
+import com.idiomiko.core.ui.components.LanguageChoice
 import com.idiomiko.core.ui.components.LearningLanguageState
 import com.idiomiko.core.ui.components.QuietButton
 import com.idiomiko.core.ui.components.formatSize
@@ -35,9 +36,18 @@ import com.idiomiko.core.ui.theme.AppShapes
 import com.idiomiko.core.ui.theme.AppSpacing
 import com.idiomiko.core.ui.theme.AppText
 
-/** The languages being learned, the current one first, each with the words known in it and a way to remove it with all its data. */
+/**
+ * The languages being learned, the current one first, each with the words known in it, a way to
+ * learn it now ([onLearn]) when it is not the current one, and a way to remove it with all its data.
+ */
 @Composable
-internal fun MyLanguagesCard(learning: LearningLanguageState, onRemove: (Long, String) -> Unit, modifier: Modifier = Modifier, removing: List<String> = emptyList()) {
+internal fun MyLanguagesCard(
+    learning: LearningLanguageState,
+    onRemove: (Long, String) -> Unit,
+    modifier: Modifier = Modifier,
+    removing: List<String> = emptyList(),
+    onLearn: (LanguageChoice) -> Unit = learning::select,
+) {
     val colors = MaterialTheme.colorScheme
     Column(
         modifier.clip(AppShapes.card).background(colors.surface).border(AppBorders.hairline(colors.outlineVariant), AppShapes.card).padding(AppSpacing.l).testTag("my-languages"),
@@ -56,6 +66,9 @@ internal fun MyLanguagesCard(learning: LearningLanguageState, onRemove: (Long, S
                         tr("Learning now").takeIf { choice == learning.current },
                     ).joinToString(" · ")
                     if (note.isNotEmpty()) Text(note, style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
+                }
+                if (choice != learning.current) {
+                    QuietButton(tr("Learn now"), onClick = { onLearn(choice) }, size = ButtonSize.Compact, modifier = Modifier.testTag("learn-" + choice.tag))
                 }
                 QuietButton(tr("Remove"), onClick = { onRemove(choice.id, choice.name) }, tone = ButtonTone.Danger, size = ButtonSize.Compact, modifier = Modifier.testTag("remove-" + choice.tag))
             }
