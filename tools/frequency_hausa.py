@@ -95,6 +95,13 @@ HOOKED_SHARE = 0.3
 ENGLISH_MARKERS = {"the", "of", "and", "for", "with", "from", "by", "is", "was", "are", "were", "this", "that", "which", "their"}
 # Letters no Hausa word has: q, v and x are foreign; p is in loanwords the pack has.
 FOREIGN_LETTERS = re.compile("[qvxpçéèêëàâîïôöüûñß]")
+# A word whose uses are at least this share in one fixed pair or beside one name, and that has at least PHRASE_LEAST uses, is
+# no word of the list (Neighbours), nor one written as a name more than NAME_RATIO times as often as not.
+PHRASE_SHARE = 0.6
+PHRASE_LEAST = 10
+NAME_RATIO = 5
+# The words a verb's phrase may have that leave it a word of its own (ladabtar da, cim ma, yi wa).
+PHRASE_PARTICLES = {"da", "wa", "ma"}
 # A word must be counted this often (all its forms, all sources) to be listed.
 LEAST_COUNT = 4
 FORMS_LISTED = 200
@@ -183,7 +190,11 @@ HAUSA_JOINED = {
 }
 # Words that are no Hausa words of ordinary text: names written small, English, abbreviations, fragments (basuwa, written for
 # ba su), the linker n written apart.
-HAUSA_EXCLUDED = {"allah", "adam", "s", "of", "habibu", "on", "n", "basuwa", "ƙwa", "by"}
+HAUSA_EXCLUDED = {"allah", "adam", "s", "of", "habibu", "on", "n", "basuwa", "ƙwa", "by", "zoonotic", "sabin", "cen", "yaƙ", "um",
+                  "em", "er", "huh", "ugh", "aha", "zu", "yakamat", "serology"}
+# A spelling no Hausa word has: two consonants at the start but the digraphs and the w and y after a consonant (ƙsar, gyra),
+# or the same consonant twice at the end (saww).
+UNHAUSA = re.compile(r"^(?!sh|ts|[kgƙ][wy]|'[bdyƴ])[^aeiou'][^aeiouwy]|^[kgƙ][wy][^aeiou]|([^aeiou])\1$")
 
 # ---------------------------------------------------------------------------------------------------------------------------
 # Entries of the pack that are forms (Lexicon._link_entries).
@@ -311,20 +322,29 @@ def _hyphened(line, start, end):
     return before or line[end:end + 1] == "-" and line[end + 1:end + 2].isalpha()
 
 
-def tokens(line, names=None, split=None, hyphened=None):
+def tokens(line, names=None, split=None, hyphened=None, marks=False):
     """A line's words as the reader cuts and matches them, lowercase, without the capitalised ones inside a sentence (names),
     which are counted in [names]. [split] gives the words a joined spelling stands for (Lexicon.split); the words that are
-    half of a hyphenated one are counted in [hyphened]."""
+    half of a hyphenated one are counted in [hyphened]. With [marks], a name is given as NAME_MARK and its spelling, and an
+    abbreviation or number as NAME_MARK alone, where a word would be."""
     line = line.translate(APOSTROPHES)
+    end = 0
     for match in WORD.finditer(line):
         word = match.group(0)
         first = word.lstrip("'")
+        if marks and any(c.isdigit() for c in line[end:match.start()]):
+            yield NAME_MARK
+        end = match.end()
         # A word in capitals is an abbreviation (NGO, FCDA) or a heading's, and no evidence of how a word is written.
         if len(first) > 1 and first.isupper():
+            if marks:
+                yield NAME_MARK
             continue
         if first[:1].isupper() and not SENTENCE_START.search(line[:match.start()]):
             if names is not None:
                 names[hausa_fold(word).lower()] += 1
+            if marks:
+                yield NAME_MARK + hausa_fold(word).lower()
             continue
         word = hausa_fold(word).lower()
         if hyphened is not None and _hyphened(line, match.start(), match.end()):
@@ -333,6 +353,10 @@ def tokens(line, names=None, split=None, hyphened=None):
         if split is not None and len(words) == 1:
             words = split(word) or words
         yield from words
+
+
+# What tokens(marks=True) gives for a name (NAME_MARK and its spelling), an abbreviation or a number (NAME_MARK alone).
+NAME_MARK = "\0"
 
 
 def english(words):
@@ -655,17 +679,63 @@ SUBJECTS = {"ya", "sun", "mun", "kun", "an", "zai", "zan", "za", "su", "mu", "ku
             "takan", "sukan", "mukan", "kukan", "nakan"}
 
 
+class Neighbours:
+    """The word most often before and after each word, if one is more than half the time: a majority vote (Boyer and Moore)
+    over the words around it, names (NAME_MARK) among them, so a word of a fixed phrase or a name (kwanton ɓauna, zirin Gaza)
+    can be told."""
+
+    def __init__(self):
+        self.votes = ({}, {})
+        self.total = defaultdict(int)
+
+    def add(self, sequence):
+        for i, word in enumerate(sequence):
+            if word.startswith(NAME_MARK):
+                continue
+            self.total[word] += 1
+            around = (sequence[i - 1] if i else "", sequence[i + 1] if i + 1 < len(sequence) else "")
+            for votes, other in zip(self.votes, around):
+                candidate, n = votes.get(word, ("", 0))
+                if other == candidate:
+                    votes[word] = (candidate, n + 1)
+                elif n:
+                    votes[word] = (candidate, n - 1)
+                else:
+                    votes[word] = (other, 1)
+
+    def fixed(self, word, total):
+        """The word [word] is a fixed pair with, or the name it is written beside, and at least the share of its [total] uses
+        so written (a share is at least (votes left + uses) / 2 uses), or None: a name, or a word whose own majority on the
+        other side is [word] (kwanton, ɓauna)."""
+        best = None
+        for side, votes in enumerate(self.votes):
+            other, n = votes.get(word, ("", 0))
+            if not other or not total or other == NAME_MARK:
+                continue
+            if not other.startswith(NAME_MARK):
+                back, m = self.votes[1 - side].get(other, ("", 0))
+                if back.translate(DEHOOK) != word.translate(DEHOOK) or (m + self.total.get(other, 0)) < PHRASE_SHARE * 2 * self.total.get(other, 0):
+                    continue
+            part = (n + total) / (2 * total)
+            if not best or part > best[1]:
+                best = (other, part)
+        return best
+
+
 def _counts(download, lexicon):
     """Each kind's word counts, by the plain letters whose hooked letter the sentence writes (hooks_written); the names, how
-    often each word is half of a hyphenated one, and how often it follows a person-aspect word (SUBJECTS) as a verb does."""
+    often each word is half of a hyphenated one, how often it follows a person-aspect word (SUBJECTS) as a verb does, and the
+    words around it (Neighbours)."""
     counts = {kind: defaultdict(lambda: defaultdict(int)) for kind in WEIGHTS}
     names = defaultdict(int)
     hyphened = defaultdict(int)
     after_subject = defaultdict(int)
+    neighbours = Neighbours()
     for kind, text in _sentences(download):
         text = text.translate(APOSTROPHES)
         halves = defaultdict(int)
-        words = list(tokens(text, names, lexicon.split, halves))
+        sequence = list(tokens(text, names, lexicon.split, halves, marks=True))
+        words = [w for w in sequence if not w.startswith(NAME_MARK)]
         if not words or english(words) or AJAMI.search(text):
             continue
         written = hooks_written(text, words)
@@ -675,7 +745,8 @@ def _counts(download, lexicon):
                 after_subject[word] += 1
         for word, n in halves.items():
             hyphened[word] += n
-    return counts, names, hyphened, after_subject
+        neighbours.add(sequence)
+    return counts, names, hyphened, after_subject, neighbours
 
 
 def _join_same(lexicon, share):
@@ -950,7 +1021,7 @@ def build(size, download, dictionaries=DICTIONARIES):
     """The list: the pack's words and the everyday words it lacks, by their forms' counts, each kind weighted by WEIGHTS. A
     word the pack lacks is no name (written capitalised more often than not) and no word of one letter."""
     lexicon = Lexicon(dictionaries)
-    counts, names, hyphened, after_subject = _counts(download, lexicon)
+    counts, names, hyphened, after_subject, neighbours = _counts(download, lexicon)
     written = defaultdict(int)
     for kind_counts in counts.values():
         for word, by_hooks in kind_counts.items():
@@ -979,7 +1050,7 @@ def build(size, download, dictionaries=DICTIONARIES):
     def listable_alone(form):
         """Whether a word the pack lacks is listed for itself: everyday text has it, or news and Wikipedia both do; it has
         no foreign letter and is no English word that Hausa text seldom has."""
-        if form in HAUSA_EXCLUDED or FOREIGN_LETTERS.search(form) or len(form) < 2:
+        if form in HAUSA_EXCLUDED or FOREIGN_LETTERS.search(form) or len(form) < 2 or UNHAUSA.search(form):
             return False
         everyday = counts["everyday"].get(form, 0.0)
         news = counts["news"].get(form, 0.0)
@@ -987,7 +1058,7 @@ def build(size, download, dictionaries=DICTIONARIES):
         # A name: written capitalised inside sentences more often than small anywhere (Ibrahim, Babangida).
         if names.get(form, 0) > everyday + news + wiki:
             return False
-        if form in english_words and everyday < 3:
+        if form in english_words and (everyday < 3 or form not in lexicon.wiktionary) or "ʻ" in form:
             return False
         return everyday >= 2 or (news >= 3 and wiki >= 3)
 
@@ -1046,7 +1117,31 @@ def build(size, download, dictionaries=DICTIONARIES):
             totals[word] += raw[form] * part
             forms[word][form] = forms[word].get(form, 0.0) + value * part
 
-    ranked = [w for w in sorted(scores, key=lambda w: (-scores[w], w)) if totals[w] >= LEAST_COUNT and w not in HAUSA_EXCLUDED][:size]
+    # A word mostly written in one fixed pair or beside one name (kwanton ɓauna, zirin Gaza) is no word of the list, nor one far
+    # more often a name (Sin "China" beside sin, the Arabic letter) unless it names a language.
+    for word in sorted(scores):
+        uses = sum(neighbours.total.get(f, 0) for f in forms[word])
+        bound = 0.0
+        for form in forms[word]:
+            pair = neighbours.fixed(form, neighbours.total.get(form, 0))
+            if pair:
+                bound += pair[1] * neighbours.total.get(form, 0)
+        if uses >= PHRASE_LEAST and bound >= PHRASE_SHARE * uses:
+            scores[word] = 0.0
+        if names.get(word, 0) > NAME_RATIO * max(1, uses) and not any("language" in g for g in lexicon.senses.get(word, [])):
+            scores[word] = 0.0
+        # A word the pack has only in a phrase it names first ("dubatar: (dubun dubatar) tens of thousands", "katutu: (yi
+        # katutu) to be rampant"), but for the verbs with da, wa or ma ("(ladabtar da) to discipline", "(cim ma)").
+        first = lexicon.senses.get(word, [""])[0]
+        phrase = re.match(r"\(([^()]*)\)", first)
+        if phrase:
+            parts = [hausa_clean(p).lower() for p in re.split(r"[\s/-]+", phrase.group(1)) if p]
+            if word in parts and len(parts) > 1 and any(p not in PHRASE_PARTICLES and p != word for p in parts):
+                scores[word] = 0.0
+        if "ʻ" in word:
+            scores[word] = 0.0
+    ranked = [w for w in sorted(scores, key=lambda w: (-scores[w], w))
+              if totals[w] >= LEAST_COUNT and scores[w] > 0 and w not in HAUSA_EXCLUDED][:size]
     lines = [f"# source: {label}", f"# words: {len(ranked)}"]
     for word in ranked:
         # A spelling without the hook (yaki of yaƙi) is counted for its word but not listed: the list writes the hooks.
