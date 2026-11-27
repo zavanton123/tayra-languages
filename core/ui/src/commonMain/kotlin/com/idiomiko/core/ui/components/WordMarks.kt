@@ -68,7 +68,7 @@ private fun TextLayoutResult.marks(fontPx: Float, side: Float): List<Pair<Rect, 
             val from = maxOf(fill.start, getLineStart(line))
             val to = minOf(fill.end, getLineEnd(line))
             if (to <= from) return@mapNotNull null
-            val box = getPathForRange(from, to).getBounds()
+            val box = textBounds(from, to)
             val baseline = getLineBaseline(line)
             val top = maxOf(box.top, baseline - fontPx * MARK_ABOVE)
             val bottom = minOf(box.bottom, baseline + fontPx * MARK_BELOW)

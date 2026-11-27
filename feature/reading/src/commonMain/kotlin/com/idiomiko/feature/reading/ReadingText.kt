@@ -105,6 +105,7 @@ import com.idiomiko.core.ui.components.AppSpinner
 import com.idiomiko.core.ui.components.SpinnerSize
 import com.idiomiko.core.ui.components.pushFill
 import com.idiomiko.core.ui.components.softBlurAvailable
+import com.idiomiko.core.ui.components.textBounds
 import com.idiomiko.core.ui.components.toneColored
 import com.idiomiko.core.ui.components.wordMarks
 import com.idiomiko.core.ui.i18n.tr
@@ -626,7 +627,7 @@ private fun ParagraphText(
             val placed = coordinates[0]?.takeIf { it.isAttached }
             val span = currentSpans.firstOrNull { it.itemIndex == item }
             if (result == null || placed == null || span == null || span.end > result.layoutInput.text.length) null
-            else result.getPathForRange(span.start, span.end).getBounds().let { Rect(placed.localToRoot(it.topLeft), placed.localToRoot(it.bottomRight)) }
+            else result.textBounds(span.start, span.end).let { Rect(placed.localToRoot(it.topLeft), placed.localToRoot(it.bottomRight)) }
         }
         onDispose { locator?.paragraphs?.remove(key) }
     }
@@ -643,7 +644,7 @@ private fun ParagraphText(
         // letter (its left half in a right-to-left line), or over a letter carrying vowel signs or marks.
         val before = if (offset > 0) spanAt(offset - 1) else null
         if (before != null && before.end > before.start && result.getLineForOffset(before.start) == line && result.getLineForOffset(before.end - 1) == line) {
-            val bounds = result.getPathForRange(before.start, before.end).getBounds()
+            val bounds = result.textBounds(before.start, before.end)
             if (position.x >= bounds.left && position.x <= bounds.right) return before.itemIndex
         }
         val span = spanAt(offset) ?: spans.lastOrNull { offset == it.end } ?: return null
@@ -749,7 +750,7 @@ private fun ParagraphText(
             val span = spans.firstOrNull { it.itemIndex == popupItem }
             val result = layout
             if (span != null && result != null) {
-                val bounds = result.getPathForRange(span.start, span.end).getBounds()
+                val bounds = result.textBounds(span.start, span.end)
                 // The text sits below the paragraph's top padding, so its rectangle moves down by it.
                 val top = with(LocalDensity.current) { 6.dp.toPx() }
                 callbacks.popupContent(
@@ -874,7 +875,7 @@ private fun androidx.compose.ui.graphics.drawscope.DrawScope.drawReadings(
             offset += segment.text.length
             if (segment.reading.isEmpty() || offset > result.layoutInput.text.length) continue
             (start until offset).groupBy { result.getLineForOffset(it) }.forEach { (line, positions) ->
-                val boxes = positions.map { result.getBoundingBox(it) }
+                val boxes = positions.map { result.textBounds(it, it + 1) }
                 val left = boxes.minOf { it.left }
                 val right = boxes.maxOf { it.right }
                 val measured = measurer.measure(if (toneColors) toneColored(segment.reading) else AnnotatedString(segment.reading), style)
