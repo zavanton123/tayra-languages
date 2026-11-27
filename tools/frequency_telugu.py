@@ -384,13 +384,15 @@ TELUGU_WORDS = {
 
 # Plurals no rule makes (irregular_plurals), declined as plurals.
 TELUGU_PLURALS = {"ఊరు": "ఊళ్లు", "కోడి": "కోళ్లు", "ఎద్దు": "ఎడ్లు", "మనిషి": "మనుషులు", "కూతురు": "కూతుళ్లు", "గుడి": "గుళ్లు",
-                  "బడి": "బళ్లు", "పూవు": "పువ్వులు", "మేక": "మేకలు", "పులి": "పులులు", "కాయ": "కాయలు", "నది": "నదులు"}
+                  "బడి": "బళ్లు", "పూవు": "పువ్వులు", "రాయి": "రాళ్లు", "పన్ను": "పళ్లు",
+                  "ఆటగాడు": "ఆటగాళ్లు", "మేక": "మేకలు", "పులి": "పులులు", "కాయ": "కాయలు", "నది": "నదులు"}
 # Words of the pack that are forms of another, or two spellings of one word: counted and listed under the word.
 TELUGU_FORMS = {
     "నా": "నేను", "నీ": "నువ్వు", "మా": "మేము", "మన": "మనం", "మీ": "మీరు", "తన": "తాను", "తమ": "తాము", "వారి": "వారు",
     "దాని": "అది", "దీని": "ఇది", "ఉంది": "ఉండు", "ఉన్న": "ఉండు", "ఉన్నాయి": "ఉండు", "వాళ్ళు": "వారు", "వాళ్లు": "వారు",
     "అయిన": "అవు", "అయ్యే": "అవు", "పడ్డ": "పడు", "నువు": "నువ్వు", "ఇంకనూ": "ఇంకా", "ఇంకను": "ఇంకా", "ఒళ్ళు": "ఒడలు",
-    "ఒళ్లు": "ఒడలు", "రావు": "వచ్చు", "కాను": "కాదు", "కాని": "కానీ", "వెళ్ళండి": "వెళ్లు", "వెళ్ళడానికి": "వెళ్లు",
+    "ఒళ్లు": "ఒడలు", "ఆటగాల్లు": "ఆటగాడు", "తెలుగువాడు": "తెలుగు", "అట్లా": "అలా", "అట్ల": "అలా", "అట్లనే": "అలా",
+    "అట్టే": "అలా", "అట్లే": "అలా", "అట్లని": "అలా", "రావు": "వచ్చు", "కాను": "కాదు", "కాని": "కానీ", "వెళ్ళండి": "వెళ్లు", "వెళ్ళడానికి": "వెళ్లు",
 }
 # Words of the pack that are forms of a verb or an adverb of a noun, kept as words of their own: the words of saying and being
 # that link clauses (అని "that", అయితే "but, if"), and postpositions.
@@ -412,13 +414,15 @@ TELUGU_SPELLINGS = {"వెళ్ళు": "వెళ్లు", "త్రాగ
                     "తాతయ్య": "తాత", "మామయ్య": "మామ", "అన్నయ్య": "అన్న", "అత్తయ్య": "అత్త", "అక్కయ్య": "అక్క", "మనుమడు": "మనవడు",
                     "మనుమరాలు": "మనవరాలు", "నాయనమ్మ": "నానమ్మ",
                     # Other spellings of a word (సరకు, మనుష్యుడు, ఓర్పు, పువ్వు).
-                    "సరకు": "సరుకు", "మనుష్యుడు": "మనిషి", "ఓర్పు": "ఓరుపు", "పువ్వు": "పూవు", "ఉడత": "ఉడుత"}
+                    "సరకు": "సరుకు", "మనుష్యుడు": "మనిషి", "ఓర్పు": "ఓరుపు", "పువ్వు": "పూవు", "ఉడత": "ఉడుత", "పెండ్లాము": "పెళ్ళాం"}
 # Words of the pack the list leaves out: letters, case endings written apart (after a number or a Latin word), and words that
 # are only names or English.
 TELUGU_EXCLUDED = {"లో", "కు", "కి", "ను", "ని", "తో", "గా", "న", "ల", "అ", "శ్రీ", "డా", "కి.మీ", "లోని", "లోకి", "పై", 
                    "ఆఫ్", "అండ్", "ది", "ఇన్", "టు", "ఫర్", "ఆన్", "డౌన్", "అప్", "కమ్", "హే", "ఓహ్", "సో", "ఓకే", "సర్",
                    "మిస్టర్", "లెట్", "ఫక్", "ఫకింగ్", "రూ", "నం", "గొన్న", "వ", "ఎ", "బి", "సి", "డి", "ఎల్", "ఎస్", "ఎం", "కె", "పి", "జి",
-                   "టి", "వి", "ఐ", "యు", "ఆర్", "ఎన్", "ఇ", "లను", "లకు", "ల", "లు", "భారత", "కాన", "గో", "ఆంధ్ర", "ఆంధ్రా", "కృష్ణ", "కృష్ణా", "సీ", "సే", "సా", "వై", "రెడ్డి", "నూ"}
+                   "టి", "వి", "ఐ", "యు", "ఆర్", "ఎన్", "ఇ", "లను", "లకు", "ల", "లు", "భారత", "కాన", "గో", "ఆంధ్ర", "ఆంధ్రా", "కృష్ణ", "కృష్ణా", "సీ", "సే", "సా", "వై", "రెడ్డి", "నూ",
+                   # A reflexive's ending written apart (తీసు కుంటారు).
+                   "కుంటారు", "కుంటూ", "కుంటాడు", "కుంటాయి", "కుంటాను", "కున్నారు", "కున్నాడు", "కుంది", "కునే"}
 
 
 def swap(word, sign):
@@ -540,18 +544,16 @@ def plural_forms(plural):
 
 def irregular_plurals(word):
     """
-    The plurals a noun may take besides word + లు by its ending, which the corpus tells apart: -ళ్లు of one in -లు, -ల్లు,
-    -న్ను or -ాయి (కాళ్లు, ఇళ్లు, కళ్లు, రాళ్లు), -ర్లు of one in -రు (పేర్లు, కార్లు), -లు after a
+    The plurals a noun may take besides word + లు by its ending, which the corpus tells apart: -ళ్లు of one in -లు or -ల్లు
+    (కాళ్లు, ముళ్లు), -ర్లు of one in -రు (పేర్లు, కార్లు), -లు after a
     doubled consonant's first (చెట్లు, గుడ్లు).
     """
     out = set()
     if len(word) < 3:
         return out
-    if word.endswith(("ల్లు", "న్ను")):
+    if word.endswith("ల్లు"):
         out.add(word[:-4] + "ళ్లు")
     elif word.endswith("లు") and word[-3] not in ("\u0c41", VIRAMA):
-        out.add(word[:-2] + "ళ్లు")
-    if word.endswith("ాయి"):
         out.add(word[:-2] + "ళ్లు")
     if word.endswith("రు") and word[-3] != VIRAMA:
         out.add(word[:-1] + "్లు")
@@ -849,6 +851,27 @@ def build(found, size, label, weights=None):
                 raw[form] += n
 
     alias = dict(TELUGU_SPELLINGS)
+    # An adverb or adjective of a noun the pack lacks (ఇతివృత్తంగా, ఇతివృత్తమైన, నేర్పుగా) is that noun's, when the corpus
+    # writes it.
+    for word in sorted(kinds):
+        for tail in ("ంగా", "మైన", "గా"):
+            if tail == "గా" and kinds[word] != {"adv"}:
+                continue
+            noun = word[:-len(tail)] + (ANUSVARA if tail != "గా" else "")
+            if (word.endswith(tail) and kinds[word] <= {"adv", "adj", "noun"} and word not in TELUGU_WORDS and noun not in kinds
+                    and len(noun) > 3 and counts.get(noun, 0) > 0):
+                kinds[noun] = {"noun"}
+                kinds.pop(word)
+                break
+    # A noun the pack writes in -ము that texts decline in -a (పాలన, పాలనలో; not పాలనం, పాలనంలో) is listed in -a.
+    for word in [w for w in kinds if w.endswith(ANUSVARA) and w not in TELUGU_WORDS and w[:-1] not in kinds]:
+        stem = word[:-1]
+        as_a = sum(counts.get(stem + t, 0) for t in ("లో", "ను", "కు", "లు", "తో", "ల", "కి", "ని"))
+        as_am = sum(counts.get(f, 0) for f in (word + "లో", stem + "ాన్ని", stem + "ానికి", stem + "ాలు", word + "తో", stem + "ాల"))
+        if as_a > 2 * as_am and as_a > counts.get(word, 0) / 5:
+            kinds[stem] = kinds.pop(word)
+            alias[word] = stem
+
     # A noun the pack writes in -ము that texts decline in -a (పాలన, పాలనలో; not పాలనం, పాలనంలో) is listed in -a.
     for word in [w for w in kinds if w.endswith(ANUSVARA) and w not in TELUGU_WORDS and w[:-1] not in kinds]:
         stem = word[:-1]
@@ -948,6 +971,8 @@ def build(found, size, label, weights=None):
             return {form}
         return ruled.get(form, set())
 
+    by_clitic = set()
+
     def targets(form):
         if form in TELUGU_EXCLUDED:
             return set()
@@ -955,6 +980,8 @@ def build(found, size, label, weights=None):
         if not heads and form not in names:
             for base in clitic_bases(form, kinds):
                 heads = heads | plain_targets(base)
+            if heads:
+                by_clitic.add(form)
         if not heads and form not in names:
             for lead in light_split(form):
                 if kinds.get(lead, set()) & {"noun", "adj"}:
@@ -985,6 +1012,17 @@ def build(found, size, label, weights=None):
             scores[head] += share * part
             uses[head] += raw.get(form, 0) * part
             forms[head][form] = forms[head].get(form, 0.0) + share * part
+
+    # A word's forms with a clitic count at most as much as its others: a word written mostly so is a name or another's piece
+    # (రోసీ, రోసా are no forms of రోయు).
+    for word in sorted(scores):
+        if word in TELUGU_WORDS:
+            continue
+        clitic = sum(share for f, share in forms[word].items() if f in by_clitic)
+        if clitic > scores[word] - clitic:
+            for f in [f for f in forms[word] if f in by_clitic]:
+                forms[word][f] *= (scores[word] - clitic) / clitic
+            scores[word] = 2 * (scores[word] - clitic)
 
     # Two spellings of a verb are one word, under the commoner.
     for form, lemma in spellings.items():
