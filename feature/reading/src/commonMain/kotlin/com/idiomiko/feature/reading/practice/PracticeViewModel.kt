@@ -132,6 +132,7 @@ class PracticeViewModel(
 
     /** How loud the microphone is while an answer is heard; null where none can be. */
     val microphoneLevel: StateFlow<Float>? = speech?.level
+    val microphoneReady: StateFlow<Boolean>? = speech?.ready
 
 
     private val pageNumber: Int? = (source as? PracticeSource.Page)?.page

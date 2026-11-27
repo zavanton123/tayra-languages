@@ -286,5 +286,9 @@ internal val deReading: Map<String, String> = mapOf(
     "Sound detected" to "Ton erkannt",
     "No sound yet. Check the microphone." to "Noch kein Ton. Prüfe das Mikrofon.",
     "Speak now" to "Jetzt sprechen",
+    "Hold to speak" to "Zum Sprechen gedrückt halten",
+    "Get ready…" to "Einen Moment…",
+    "Release when you're done" to "Loslassen, wenn du fertig bist",
+    "Finish" to "Fertig",
     "{0} unknown words" to "{0} unbekanntes Wort|{0} unbekannte Wörter",
 )

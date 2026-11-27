@@ -187,6 +187,7 @@ fun PracticeScreen(
                 },
                 onStopListening = viewModel::stopListening,
                 microphoneLevel = viewModel.microphoneLevel,
+                microphoneReady = viewModel.microphoneReady,
                 onTypeInstead = viewModel::typeInstead,
                 onFixTranslation = { fixing = it },
                 onReadAloud = { on ->
@@ -253,6 +254,7 @@ internal class PracticeActions(
     val onTypeInstead: () -> Unit = {},
     /** How loud the microphone is while the answer is heard. */
     val microphoneLevel: StateFlow<Float>? = null,
+    val microphoneReady: StateFlow<Boolean>? = null,
     /** Opens the word's editor to put its translation right; null hides the way to it. */
     val onFixTranslation: ((Exercise) -> Unit)? = null,
     /** Turns reading each sentence aloud on or off; null hides the switch. */
@@ -691,6 +693,7 @@ private fun SpokenAnswer(state: PracticeUiState, actions: PracticeActions) {
         tag = "practice",
         rightToLeft = state.rightToLeft,
         level = actions.microphoneLevel,
+        ready = actions.microphoneReady,
     )
 }
 

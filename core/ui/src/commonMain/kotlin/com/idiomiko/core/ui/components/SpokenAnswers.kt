@@ -1,6 +1,16 @@
 package com.idiomiko.core.ui.components
 
-import androidx.compose.foundation.interaction.collectIsPressedAsState
+import androidx.compose.foundation.hoverable
+import androidx.compose.foundation.gestures.awaitEachGesture
+import androidx.compose.foundation.gestures.awaitFirstDown
+import androidx.compose.foundation.gestures.waitForUpOrCancellation
+import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.rememberUpdatedState
+import androidx.compose.ui.hapticfeedback.HapticFeedbackType
+import androidx.compose.ui.input.pointer.pointerInput
+import androidx.compose.ui.platform.LocalHapticFeedback
+import androidx.compose.ui.semantics.onClick
+import androidx.compose.ui.semantics.role
 import androidx.compose.foundation.interaction.collectIsHoveredAsState
 import androidx.compose.foundation.interaction.MutableInteractionSource
 import kotlin.math.abs
@@ -21,7 +31,6 @@ import androidx.compose.ui.input.pointer.PointerIcon
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.semantics.Role
-import androidx.compose.foundation.clickable
 import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.animation.core.LinearEasing
@@ -74,9 +83,9 @@ import com.idiomiko.core.ui.theme.AppSpacing
 import com.idiomiko.core.ui.theme.AppText
 
 /**
- * An answer said aloud: a button to start hearing it, and while it is heard a round, pulsing one
- * to stop; what was [heard] or why it is to be said again, and the way to type it instead. Its
- * parts are tagged "[tag]-speak", "[tag]-heard" and "[tag]-type-instead".
+ * An answer said aloud: the microphone button, held while speaking or tapped to start and again to finish;
+ * what was [heard] or why it is to be said again, and the way to type it instead. Its parts are tagged
+ * "[tag]-speak", "[tag]-heard" and "[tag]-type-instead".
  */
 @Composable
 fun SpeakAnswer(
@@ -94,16 +103,13 @@ fun SpeakAnswer(
     buttonModifier: Modifier = Modifier,
     /** How loud the microphone is while listening; with it, a meter shows the learner is heard. */
     level: StateFlow<Float>? = null,
+    /** Whether the microphone is open yet once listening starts; without it, at once. */
+    ready: StateFlow<Boolean>? = null,
 ) {
+    val hearing = ready?.collectAsState()?.value ?: true
     Column(modifier.fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-        if (!answered && !recognising) {
-            if (listening) {
-                StopListeningButton(onStop, buttonModifier.testTag("$tag-speak"))
-            } else {
-                SpeakButton(onListen, buttonModifier.testTag("$tag-speak"))
-            }
-        }
-        if (listening && level != null) MicrophoneMeter(level, Modifier.testTag("$tag-microphone"))
+        if (!answered && !recognising) MicrophoneButton(listening, hearing, onListen, onStop, buttonModifier.testTag("$tag-speak"))
+        if (listening && level != null) MicrophoneMeter(level, Modifier.testTag("$tag-microphone"), ready = hearing)
         val note = when {
             recognising -> tr("Recognising…")
             listening && level != null -> null
@@ -128,17 +134,39 @@ fun SpeakAnswer(
 }
 
 /**
- * The round button that starts listening: a microphone in a circle with a soft ring about it and
- * "Speak" beneath, all of it one target; it settles a little under the pointer and when pressed.
+ * The microphone. Held down, it listens until let go; tapped, until tapped again, or until a phone's
+ * recogniser hears the speaking end. Until the microphone is [ready] it asks the learner to wait, as
+ * words said before then are lost, and a buzz says when to start. It breathes and sends rings out
+ * while it hears; it keeps still when motion is reduced.
  */
 @Composable
-private fun SpeakButton(onListen: () -> Unit, modifier: Modifier = Modifier) {
+private fun MicrophoneButton(listening: Boolean, ready: Boolean, onListen: () -> Unit, onStop: () -> Unit, modifier: Modifier = Modifier) {
     val colors = MaterialTheme.colorScheme
+    val haptics = LocalHapticFeedback.current
+    // The gesture outlives a change of state: a press that starts listening is still held once it has.
+    val isListening by rememberUpdatedState(listening)
+    val listen by rememberUpdatedState(onListen)
+    val stop by rememberUpdatedState(onStop)
+    // Listening for as long as the button is held, rather than until it is tapped again.
+    var holding by remember { mutableStateOf(false) }
+    var pressed by remember { mutableStateOf(false) }
     val interaction = remember { MutableInteractionSource() }
     val hovered by interaction.collectIsHoveredAsState()
-    val pressed by interaction.collectIsPressedAsState()
+    val hearing = listening && ready
+    LaunchedEffect(hearing) { if (hearing) haptics.performHapticFeedback(HapticFeedbackType.ToggleOn) }
+    LaunchedEffect(listening) { if (!listening) holding = false }
+    val label = when {
+        !listening -> tr("Hold to speak")
+        !ready -> tr("Get ready…")
+        holding -> tr("Release when you're done")
+        else -> tr("Finish")
+    }
+    val action = if (listening) tr("Stop") else tr("Speak")
+    val reduced = AppMotion.reduced
+    val beat by rememberInfiniteTransition().animateFloat(0f, 1f, infiniteRepeatable(tween(PULSE_MS, easing = LinearEasing)))
     val scale by animateFloatAsState(
         when {
+            listening -> 1f
             pressed -> PRESSED_SCALE
             hovered -> HOVERED_SCALE
             else -> 1f
@@ -146,57 +174,69 @@ private fun SpeakButton(onListen: () -> Unit, modifier: Modifier = Modifier) {
         AppMotion.spec(AppMotion.short),
     )
     Column(
-        modifier.clip(AppShapes.panel).clickable(interaction, indication = null, role = Role.Button, onClick = onListen).pointerHoverIcon(PointerIcon.Hand),
+        modifier.clip(AppShapes.panel).hoverable(interaction).pointerHoverIcon(PointerIcon.Hand)
+            .semantics(mergeDescendants = true) {
+                role = Role.Button
+                contentDescription = action
+                onClick { if (isListening) stop() else listen(); true }
+            }
+            .pointerInput(Unit) {
+                awaitEachGesture {
+                    awaitFirstDown()
+                    if (isListening) {
+                        if (waitForUpOrCancellation() != null) stop()
+                        return@awaitEachGesture
+                    }
+                    pressed = true
+                    listen()
+                    // Let go at once, it was a tap: listening goes on until the next. Held, it ends with the hold.
+                    var cancelled = false
+                    val up = withTimeoutOrNull(HOLD_MS) { waitForUpOrCancellation().also { cancelled = it == null } }
+                    pressed = false
+                    if (up == null) {
+                        if (!cancelled) {
+                            holding = true
+                            waitForUpOrCancellation()
+                            holding = false
+                        }
+                        if (isListening) {
+                            haptics.performHapticFeedback(HapticFeedbackType.ToggleOff)
+                            stop()
+                        }
+                    }
+                }
+            },
         horizontalAlignment = Alignment.CenterHorizontally,
     ) {
         Box(Modifier.size(STOP_ROOM), contentAlignment = Alignment.Center) {
-            Box(Modifier.size(HALO_SIZE).clip(AppShapes.circle).background(colors.primary.copy(alpha = if (hovered) AppAlpha.soft else AppAlpha.tint)))
+            if (hearing && !reduced) {
+                for (offset in RING_OFFSETS) {
+                    val ring = (beat + offset) % 1f
+                    Box(
+                        Modifier.size(STOP_SIZE).graphicsLayer {
+                            val grown = 1f + (RING_SCALE - 1f) * ring
+                            scaleX = grown
+                            scaleY = grown
+                            alpha = RING_ALPHA * (1f - ring)
+                        }.clip(AppShapes.circle).background(colors.primary),
+                    )
+                }
+            }
+            if (!listening) Box(Modifier.size(HALO_SIZE).clip(AppShapes.circle).background(colors.primary.copy(alpha = if (hovered) AppAlpha.soft else AppAlpha.tint)))
+            val size = if (hearing && !reduced) 1f + BREATH * sin(beat * 2f * PI.toFloat()) else scale
             Box(
-                Modifier.size(STOP_SIZE).graphicsLayer { scaleX = scale; scaleY = scale }
-                    .shadow(AppElevation.raised, AppShapes.circle).clip(AppShapes.circle).background(colors.primary),
+                Modifier.size(STOP_SIZE).graphicsLayer { scaleX = size; scaleY = size }
+                    .shadow(AppElevation.raised, AppShapes.circle).clip(AppShapes.circle)
+                    // Faded while the microphone opens: not yet the time to speak.
+                    .background(if (listening && !ready) colors.primary.copy(alpha = AppAlpha.half) else colors.primary),
                 contentAlignment = Alignment.Center,
             ) {
-                Icon(AppIcons.Mic, contentDescription = null, tint = colors.onPrimary, modifier = Modifier.size(AppSizes.iconHuge))
+                // Tapped, it finishes with another tap, so it shows a stop; held, the finger is on the microphone.
+                if (hearing && !holding) Box(Modifier.size(STOP_MARK).clip(AppShapes.compact).background(colors.onPrimary))
+                else Icon(AppIcons.Mic, contentDescription = null, tint = colors.onPrimary, modifier = Modifier.size(AppSizes.iconHuge))
             }
         }
-        Text(tr("Speak"), style = AppText.itemTitle, color = colors.primary)
-    }
-}
-
-/**
- * The round button that ends listening. It breathes and sends rings out while the microphone is
- * on, so the way to finish is plain; it keeps still when motion is reduced.
- */
-@Composable
-private fun StopListeningButton(onStop: () -> Unit, modifier: Modifier = Modifier) {
-    val colors = MaterialTheme.colorScheme
-    val reduced = AppMotion.reduced
-    val beat by rememberInfiniteTransition().animateFloat(0f, 1f, infiniteRepeatable(tween(PULSE_MS, easing = LinearEasing)))
-    val stop = tr("Stop")
-    Box(Modifier.size(STOP_ROOM), contentAlignment = Alignment.Center) {
-        if (!reduced) {
-            for (offset in RING_OFFSETS) {
-                val ring = (beat + offset) % 1f
-                Box(
-                    Modifier.size(STOP_SIZE).graphicsLayer {
-                        val scale = 1f + (RING_SCALE - 1f) * ring
-                        scaleX = scale
-                        scaleY = scale
-                        alpha = RING_ALPHA * (1f - ring)
-                    }.clip(AppShapes.circle).background(colors.primary),
-                )
-            }
-        }
-        val breath = if (reduced) 1f else 1f + BREATH * sin(beat * 2f * PI.toFloat())
-        Box(
-            modifier.size(STOP_SIZE).graphicsLayer { scaleX = breath; scaleY = breath }
-                .shadow(AppElevation.raised, AppShapes.circle).clip(AppShapes.circle).background(colors.primary)
-                .clickable(role = Role.Button, onClick = onStop).pointerHoverIcon(PointerIcon.Hand)
-                .semantics { contentDescription = stop },
-            contentAlignment = Alignment.Center,
-        ) {
-            Box(Modifier.size(STOP_MARK).clip(AppShapes.compact).background(colors.onPrimary))
-        }
+        Text(label, Modifier.testTag("microphone-label"), style = AppText.itemTitle, color = colors.primary)
     }
 }
 
@@ -206,8 +246,9 @@ private fun StopListeningButton(onStop: () -> Unit, modifier: Modifier = Modifie
  * or a muted microphone shows at once. On a narrow screen the three stack.
  */
 @Composable
-fun MicrophoneMeter(level: StateFlow<Float>, modifier: Modifier = Modifier) {
+fun MicrophoneMeter(level: StateFlow<Float>, modifier: Modifier = Modifier, ready: Boolean = true) {
     val colors = MaterialTheme.colorScheme
+    val open by rememberUpdatedState(ready)
     // The latest levels, oldest first; the newest is drawn in the wave's middle and older ones move outward.
     var history by remember { mutableStateOf(List(WAVE_HALF) { 0f }) }
     var heardSound by remember { mutableStateOf(false) }
@@ -217,12 +258,14 @@ fun MicrophoneMeter(level: StateFlow<Float>, modifier: Modifier = Modifier) {
             val now = level.value
             history = history.drop(1) + now
             if (now >= SOUND_LEVEL) heardSound = true
-            waited += METER_TICK_MS
+            // Silence counts only once the microphone is open.
+            if (open) waited += METER_TICK_MS
             delay(METER_TICK_MS)
         }
     }
     val sounding = history.takeLast(RECENT_LEVELS).any { it >= SOUND_LEVEL }
     val status = when {
+        !ready -> MeterStatus(tr("Get ready…"), colors.onSurfaceVariant, AppIcons.Mic)
         sounding -> MeterStatus(tr("Sound detected"), AppAccents.green, Icons.Default.CheckCircle)
         !heardSound && waited >= SILENCE_WARNING_MS -> MeterStatus(tr("No sound yet. Check the microphone."), AppAccents.amber, Icons.Default.Warning)
         else -> MeterStatus(tr("Speak now"), colors.onSurfaceVariant, AppIcons.Mic)
@@ -291,6 +334,8 @@ private const val METER_TICK_MS = 80L
 private const val SILENCE_WARNING_MS = 3_000L
 private const val SOUND_LEVEL = 0.2f
 private const val PULSE_MS = 1_600
+/** A press let go sooner than this is a tap, which leaves the microphone on until the next. */
+private const val HOLD_MS = 300L
 private const val RING_SCALE = 1.35f
 private const val RING_ALPHA = 0.3f
 private const val BREATH = 0.04f

@@ -29,9 +29,16 @@ interface SpeechRecognition {
      * so the learner can see they are heard; 0 while not listening, or where it cannot be told.
      */
     val level: StateFlow<Float> get() = NO_LEVEL
+
+    /**
+     * Whether [listen] has the microphone open and is hearing: words said before it is are lost, so the learner is
+     * asked to wait for it. True where it cannot be told, as hearing starts at once.
+     */
+    val ready: StateFlow<Boolean> get() = ALWAYS_READY
 }
 
 private val NO_LEVEL: StateFlow<Float> = MutableStateFlow(0f)
+private val ALWAYS_READY: StateFlow<Boolean> = MutableStateFlow(true)
 
 /** [decibels] relative to full scale as a [SpeechRecognition.level]: quiet rooms near 0, speech up near 1. */
 fun levelOfDecibels(decibels: Float): Float = ((decibels - QUIET_DB) / (LOUD_DB - QUIET_DB)).coerceIn(0f, 1f)

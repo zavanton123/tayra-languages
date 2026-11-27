@@ -286,5 +286,9 @@ internal val elReading: Map<String, String> = mapOf(
     "Sound detected" to "Ανιχνεύθηκε ήχος",
     "No sound yet. Check the microphone." to "Δεν ακούγεται ήχος ακόμη. Ελέγξτε το μικρόφωνο.",
     "Speak now" to "Μιλήστε τώρα",
+    "Hold to speak" to "Κράτα πατημένο για να μιλήσεις",
+    "Get ready…" to "Ετοιμάσου…",
+    "Release when you're done" to "Άφησέ το όταν τελειώσεις",
+    "Finish" to "Τέλος",
     "{0} unknown words" to "{0} άγνωστη λέξη|{0} άγνωστες λέξεις",
 )

@@ -31,6 +31,10 @@ class AndroidSpeechRecognition(private val context: Context) : SpeechRecognition
     private val levelState = MutableStateFlow(0f)
     override val level: StateFlow<Float> = levelState
 
+    // The system recogniser takes a moment to open the microphone after it is asked to listen.
+    private val readyState = MutableStateFlow(false)
+    override val ready: StateFlow<Boolean> = readyState
+
     override suspend fun isAvailable(languageCode: String): Boolean = withContext(Dispatchers.Main) { SpeechRecognizer.isRecognitionAvailable(context) }
 
     override suspend fun listen(languageCode: String, hint: String?, longPauses: Boolean, onRecorded: () -> Unit): Heard = withContext(Dispatchers.Main) {
@@ -61,6 +65,7 @@ class AndroidSpeechRecognition(private val context: Context) : SpeechRecognition
         var partial = ""
         fun finish(attempt: Attempt) {
             levelState.value = 0f
+            readyState.value = false
             if (recognizer === heard) recognizer = null
             heard.destroy()
             if (done.isActive) done.resume(attempt)
@@ -87,7 +92,9 @@ class AndroidSpeechRecognition(private val context: Context) : SpeechRecognition
                 },
             )
 
-            override fun onReadyForSpeech(params: Bundle?) {}
+            override fun onReadyForSpeech(params: Bundle?) {
+                readyState.value = true
+            }
             override fun onBeginningOfSpeech() {}
             // The recogniser's own scale runs from about -2 in silence to 10 for loud speech.
             override fun onRmsChanged(rmsdB: Float) {
@@ -114,6 +121,7 @@ class AndroidSpeechRecognition(private val context: Context) : SpeechRecognition
             // The recogniser is the main thread's alone.
             Handler(Looper.getMainLooper()).post {
                 levelState.value = 0f
+                readyState.value = false
                 if (recognizer === heard) recognizer = null
                 heard.cancel()
                 heard.destroy()

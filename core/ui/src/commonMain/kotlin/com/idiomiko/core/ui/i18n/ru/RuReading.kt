@@ -286,5 +286,9 @@ internal val ruReading: Map<String, String> = mapOf(
     "Sound detected" to "Звук слышен",
     "No sound yet. Check the microphone." to "Звука пока нет. Проверьте микрофон.",
     "Speak now" to "Говорите",
+    "Hold to speak" to "Удерживайте, чтобы говорить",
+    "Get ready…" to "Приготовьтесь…",
+    "Release when you're done" to "Отпустите, когда закончите",
+    "Finish" to "Готово",
     "{0} unknown words" to "{0} незнакомое слово|{0} незнакомых слова|{0} незнакомых слов",
 )

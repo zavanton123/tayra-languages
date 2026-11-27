@@ -208,6 +208,7 @@ class FlashcardsViewModel(
 
     /** How loud the microphone is while the sentence is heard; null where none can be. */
     val microphoneLevel: StateFlow<Float>? = speech?.level
+    val microphoneReady: StateFlow<Boolean>? = speech?.ready
 
     private val _state = MutableStateFlow(FlashcardsUiState())
     val state: StateFlow<FlashcardsUiState> = _state.asStateFlow()

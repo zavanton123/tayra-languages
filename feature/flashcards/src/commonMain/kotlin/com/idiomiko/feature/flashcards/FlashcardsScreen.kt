@@ -261,6 +261,7 @@ fun FlashcardsScreen(onNavigate: (Route) -> Unit, viewModel: FlashcardsViewModel
                 onListen = { microphone { allowed -> if (allowed) viewModel.listen() else viewModel.refuseSpeaking() } },
                 onStopListening = viewModel::stopListening,
                 microphoneLevel = viewModel.microphoneLevel,
+                microphoneReady = viewModel.microphoneReady,
                 onTypeInstead = viewModel::typeInstead,
                 onTryAgain = viewModel::tryAgain,
                 onStudyMore = { studyingMore = true },
@@ -328,6 +329,7 @@ internal class FlashcardActions(
     val onStopListening: () -> Unit = {},
     /** How loud the microphone is while the sentence is heard. */
     val microphoneLevel: StateFlow<Float>? = null,
+    val microphoneReady: StateFlow<Boolean>? = null,
     /** Types the card's word instead of saying it. */
     val onTypeInstead: () -> Unit = {},
     /** Asks a card typed or said wrongly again. */
@@ -967,6 +969,7 @@ private fun AnswerGiven(state: FlashcardsUiState, actions: FlashcardActions, com
             rightToLeft = card.rightToLeft,
             buttonModifier = NoFocus,
             level = actions.microphoneLevel,
+            ready = actions.microphoneReady,
         )
         state.revealed && state.spokenResult != null -> SpokenVerdict(card.sentence ?: hidden, state.heard, state.spokenResult, compact)
         state.typing -> {
