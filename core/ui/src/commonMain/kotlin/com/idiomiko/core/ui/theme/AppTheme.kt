@@ -162,6 +162,8 @@ object AppThemes {
         red: Long,
         green: Long,
         selected: Long,
+        /** Status colours of the theme's own, in place of the ones mixed from its accents. */
+        ownStatuses: StatusColors? = null,
     ): AppTheme {
         val bg = Color(page)
         val fg = Color(text)
@@ -210,7 +212,7 @@ object AppThemes {
             surfaceContainerHigh = mix(fg, 0.07f),
             surfaceContainerHighest = mix(fg, 0.095f),
         )
-        val statuses = if (dark) {
+        val statuses = ownStatuses ?: if (dark) {
             StatusColors(
                 statuses(unknown = mix(Color(blue), 0.5f), learning = mix(Color(yellow), 0.38f), page = lerp(bg, DARK_FADE_GREY, DARK_FADE_LIFT), ignored = mix(error, 0.35f), wellKnown = mix(Color(green), 0.42f), fade = DARK_LEARNING_FADE),
                 onHighlight = fg,
@@ -301,7 +303,13 @@ object AppThemes {
     )
 
     /** The theme the app starts in, first in the list. */
-    val default: AppTheme = palette("github_light", "GitHub Light", 0xFFFFFFFF, 0xFF1F2328, 0xFF59636E, 0xFF0969DA, 0xFF8250DF, 0xFF0969DA, 0xFFD4A72C, 0xFFCF222E, 0xFF1A7F37, 0xFFBC4C00)
+    val default: AppTheme = palette(
+        "github_light", "GitHub Light", 0xFFFFFFFF, 0xFF1F2328, 0xFF59636E, 0xFF0969DA, 0xFF8250DF, 0xFF0969DA, 0xFFD4A72C, 0xFFCF222E, 0xFF1A7F37, 0xFFE16F24,
+        // GitHub's own light scale, brighter than its accents washed toward the white page.
+        ownStatuses = StatusColors(
+            statuses(unknown = Color(0xFFB6E3FF), learning = Color(0xFFFAE17D), page = Color.White, ignored = Color(0xFFFFAEA8), wellKnown = Color(0xFF6FDD8B)),
+        ),
+    )
 
     val all: List<AppTheme> = listOf(default, classic, sepia) + colourThemes + night + editorThemes
 
