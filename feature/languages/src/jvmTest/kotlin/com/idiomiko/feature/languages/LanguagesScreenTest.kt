@@ -140,6 +140,8 @@ class LanguagesScreenTest {
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Languages I'm learning")).fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("586 words · Learning now").assertExists()
         onNodeWithText("12 words").assertExists()
+        // Portuguese, learned now, comes before German.
+        assertTrue(onNodeWithText("586 words · Learning now").fetchSemanticsNode().boundsInRoot.top < onNodeWithText("12 words").fetchSemanticsNode().boundsInRoot.top)
         System.getenv("MY_LANGUAGES_SCREENSHOT")?.let { path -> waitForIdle(); ImageIO.write(onRoot().captureToImage().toAwtImage(), "png", File(path)) }
 
         onNodeWithTag("remove-language-de").performClick()

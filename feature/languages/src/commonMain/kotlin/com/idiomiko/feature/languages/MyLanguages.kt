@@ -35,7 +35,7 @@ import com.idiomiko.core.ui.theme.AppShapes
 import com.idiomiko.core.ui.theme.AppSpacing
 import com.idiomiko.core.ui.theme.AppText
 
-/** The languages being learned, each with the words known in it and a way to remove it with all its data. */
+/** The languages being learned, the current one first, each with the words known in it and a way to remove it with all its data. */
 @Composable
 internal fun MyLanguagesCard(learning: LearningLanguageState, onRemove: (Long, String) -> Unit, modifier: Modifier = Modifier, removing: List<String> = emptyList()) {
     val colors = MaterialTheme.colorScheme
@@ -43,7 +43,8 @@ internal fun MyLanguagesCard(learning: LearningLanguageState, onRemove: (Long, S
         modifier.clip(AppShapes.card).background(colors.surface).border(AppBorders.hairline(colors.outlineVariant), AppShapes.card).padding(AppSpacing.l).testTag("my-languages"),
     ) {
         Text(tr("Languages I'm learning"), Modifier.padding(bottom = AppSpacing.m), style = AppText.sectionTitle)
-        val mine = learning.myChoices
+        // The language learned now comes first, the others after it by name.
+        val mine = learning.myChoices.sortedByDescending { it.id == learning.currentId }
         mine.forEachIndexed { index, choice ->
             Row(Modifier.fillMaxWidth().padding(vertical = AppSpacing.s), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
                 LanguageFlag(choice.label, 26.dp)
