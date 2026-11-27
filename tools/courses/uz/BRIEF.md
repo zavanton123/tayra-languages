@@ -196,6 +196,13 @@ Levels: up to rank 300 `A1`, up to 1000 `A2`, up to 2000 `B1`, up to 4000 `B2`, 
 
 Things to know about the Uzbek list and the checker:
 
+- **Past rank 2900 the list was rebuilt** (ranks 1–2900 and their bands are as they were, their words
+  with more forms): the doers in *-chi* are words of their own (*siyosatchi* 2910, *sababchi*,
+  *jinoyatchi*), but for those the earlier courses count under their word (*yordamchi*, *oʻyinchi*,
+  *himoyachi*, *baliqchi*, *temirchi*, *politsiyachi* stay under *yordam*, *oʻyin*, *himoya*…); *quti*
+  "box" (2904) and *ini* "younger brother" (2909) are words (and still listed under *qut* and *in*);
+  *toʻlamoq* "to pay" (2902) has its forms, *toʻladi* under it and *toʻlmoq*; *chaqmoq* no longer
+  holds *chaqirmoq*'s passives.
 - The courses are pinned to the list they were written against, `tools/courses/uz/wordlist.tsv`
   (a copy of the app's `uz.tsv`); the checker reads it instead of the app's list, so a rebuilt app
   list does not move the bands. The `bands/*.txt` files come from it.
@@ -213,11 +220,18 @@ Things to know about the Uzbek list and the checker:
   boradimi?*) and answer with the story's sentence.
 - The list files a word's endings under its headword: the cases, possessives and predicative endings
   of nouns, the tenses, persons, participles, converbs and verbal noun of verbs, as the builder makes
-  them by rule for every word (`tools/frequency_uzbek.py`). It keeps at most 150 forms of a word, so
-  `extra_forms.tsv` adds the regular forms texts use that the list lacks. A word counts at the rank of
-  its headword, whatever form the story uses; a form neither file has counts as an outside word, and a
-  particle written on (*-mi*, *-chi*, *-ku*, *-u/-yu*, *-gina*) is only listed on forms texts have it on
-  (*boradimi* may be missing while *borasizmi* is there). If a true form is missing, add it to
+  them by rule for every word (`tools/frequency_uzbek.py`). It lists every form the texts have, and
+  each word's core paradigm whether texts have the form or not: a noun's plural, possessives
+  (*oʻrnagim*, *oʻgʻli*, *vodiysi*) and their cases (*oʻrnagimda*, *gʻayratingga*, *koʻylaklarning*),
+  *-dagi* and the predicative endings (*yolgʻizman*); a verb's tenses with every person, positive and
+  negated (*koʻrasizlar*, *boʻlardik*, *qilmasdi*, *ishonmas*, *kechiktirmadingiz*, *qurmoqdasiz*,
+  *tozalamoqchiman*), its participles in *-gan*, *-ayotgan*, *-adigan* with the possessive
+  (*kechiktirmaganingiz*), its verbal noun in *-ish* (*eshittirishim*), conditional, imperatives,
+  converbs, the *-ish-* of a plural subject (*sochishdi*) and the question in *-mi* (*shugʻullandingizmi*);
+  numbers with *ta* (*ikkita*, *beshtadan*). A form another word has is left to it. `extra_forms.tsv`
+  adds what the list still lacks. A word counts at the rank of its headword, whatever form the story
+  uses; a form neither file has counts as an outside word, and the particles *-chi*, *-ku*, *-u/-yu*,
+  *-gina* are only listed on forms texts have them on. If a true form is missing, add it to
   `extra_forms.tsv` (a line with the headword, a tab and the forms, appended at the end), keep it as an
   outside word, or write around it, and say so in your report.
 - Verbs are listed by their infinitive in *-moq*. A passive or reflexive verb is its verb's
