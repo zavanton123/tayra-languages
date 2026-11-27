@@ -7689,6 +7689,9 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
     if language == "ur":
         # An Urdu word's count is only its own uses; names and other spellings go (frequency_urdu.fold).
         frequency_urdu.fold(scores, forms, pos)
+    if language == "sq":
+        # An Albanian word's count is only its own uses: names, dialect words and noise go, forms join their word (frequency_albanian.fold).
+        frequency_albanian.fold(scores, forms, DICTIONARIES, CACHE, FALLBACKS["sq"]["leipzig"])
     ranked = sorted(scores, key=lambda w: -scores[w])[:size]
     listed, listed_as = set(ranked), set()
     if language == "fa":

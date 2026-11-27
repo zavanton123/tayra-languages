@@ -11,18 +11,28 @@ below that the ones whose ending the pack's own tables give for a word of the pa
 (mire, cfare) are left out, as are names and English. simplemma is not used for Albanian: the table replaces it,
 so the list is the same with or without it installed. The news blended in counts only forms the pack or the table
 has: its others, guessed by their endings, were mostly names (Ramës, Kurtit) or words the pack lacks (kryeministri).
+
+After the counting, fold leaves out what the list's far end filled up with: names and pieces of names (the news write them
+capitalised), Gheg and archaic words, words counted for a form the table guessed, noise and vulgar words; and it folds
+plurals and other forms counted as words into their word.
 """
 import os
+import re
+from collections import defaultdict
 
 _HERE = os.path.dirname(os.path.abspath(__file__))
 
-# form -> words, from the table: a word of its own is listed as itself.
-TABLE = {}
+# form -> words, from the table: a word of its own is listed as itself. Its rows are in the order of the subtitles' counts:
+# the first TABLE_READ were read by hand (to rank 4,500), the others guessed by their ending (GUESSED).
+TABLE, GUESSED = {}, set()
+TABLE_READ = 974
 with open(os.path.join(_HERE, "frequency_albanian.tsv"), encoding="utf-8") as _f:
-    for _line in _f:
+    for _n, _line in enumerate(_f, 1):
         _form, _, _word = _line.rstrip("\n").partition("\t")
         if _form and _word:
             TABLE[_form] = [_word]
+            if _n > TABLE_READ:
+                GUESSED.add(_form)
 
 HAND = {
     # Little words the pack ties to another word's table.
@@ -106,7 +116,7 @@ EXCLUDE = {
     "ëm", "mo", "ngë", "nukë", "nëk", "çar", "ktu", "kah", "atu", "ay", "eti", "syresh", "shpi", "hide", "hidja", "tend",
     "ŋa", "umb", "um", "pro", "pron", "proj", "ska", "silli", "gjera", "gjerat", "gjerave", "gjerash", "boj", "çë",
     # Names and English (Dan, Dave, John, he), and be, mostly the news' BE (the EU).
-    "dan", "dave", "dani", "dante", "xhon", "he", "be", "kame",
+    "dan", "dave", "dani", "dante", "xhon", "he", "be", "kame", "jani",
     # The days written with their article, which are hënë, premte, shtunë and mërkurë again.
     "e hënë", "e premte", "e shtunë", "e mërkurë",
 }
@@ -119,3 +129,142 @@ DISPLAY = {"bashkohem": "bashkoj", "furnizohem": "furnizoj", "gjermane": "gjerma
 # re "cloud", whose spelling re is mostly ri's).
 STAY = {"vijën", "vijës", "vijat", "vijave", "vijash", "retë", "reve", "luanit", "luanët", "luanë", "luanëve", "luana",
         "luanësh", "luanve", "luani", "luanin"}
+
+
+# After the counting (fold): a word's count is only its own uses.
+# Words the news write capitalised (Blerim, Sokol, Shahini, Struga): names, or pieces of them, when the forms counted for
+# the word are in lower case less than NAME_LOWER of at least NAME_NEWS times, or, for a word the pack also has as a name,
+# less than NAMED_LOWER of at least NAMED_NEWS times. Not interjections, which start sentences (Hej, Alo).
+NAME_LOWER, NAME_NEWS = 0.1, 20
+NAMED_LOWER, NAMED_NEWS = 0.4, 5
+# Words written capitalised that are words all the same (AIDS, Ramazani).
+CAPITALISED_WORDS = {"aids", "sida", "ramazan", "dervish"}
+# Names and pieces of names the subtitles write in lower case, so the news cannot tell them.
+NAMES = {"blerim", "sokol", "mej", "lilë", "hut", "demet", "kurt", "lajlë", "lajle", "melek", "meleq"}
+# The pack's senses tagged so (and not also Tosk or standard) are no standard Albanian: a word with no other sense is left
+# out (kerr, ndih, gjem) unless the news write it at least DIALECT_NEWS times (zbraz, gatim: the tags are on the wrong
+# senses).
+DIALECT_TAGS = {"Gheg", "archaic", "obsolete", "dialectal", "regional", "Arbëresh", "Arvanitika"}
+STANDARD_TAGS = {"Tosk", "standard"}
+DIALECT_NEWS = 50
+DIALECT_GLOSS = re.compile(r"\((?:Gheg|archaic|dialectal|obsolete|regional)\)|^(?:Gheg|dialectal|archaic|obsolete) (?:form|spelling)")
+# A word counted for one form at least this share of its count, a form the pack has nowhere and the table guessed from its
+# ending, is no word (harbor for harboj, vader for vade, përkundër for përkund, prani for praj), unless the form is the
+# word with a case or gender ending (plaçkat of plaçkë, femërore of femëror).
+GUESSED_SHARE = 0.8
+ENDINGS = {"a", "e", "ë", "i", "u", "n", "s", "t", "in", "it", "un", "ut", "at", "et", "ët", "ve", "ën", "ës", "në", "së", "ja",
+           "je", "ia", "të", "sh", "ash", "esh", "ësh", "ra", "ri", "rat", "rit"}
+# Gheg, archaic and regional words the pack does not tag so (axhë, tesha, kerr, shakë), noise (KOK, rra, crank for
+# carangth, shogun for shog, hangari for angari, asher for ashe) and vulgar words.
+NOT_WORDS = {
+    "axhë", "tesha", "dhez", "ase", "carangth", "kok", "rra", "ver", "putanë", "shog", "tamë", "rig", "pip", "angari",
+    "kerr", "apë", "celik", "shpor", "ashe", "nes", "kith", "qek", "hum", "nëmë", "garth", "fell", "kath", "naze", "shakë",
+    "tallë", "loke", "joshë", "cen", "ëndë", "thëri", "op", "gop", "bun", "timër", "tus", "kuak", "glasë", "dilet", "serë",
+    "cagë", "bis", "zdryp", "grah", "nalt", "gore", "jes", "gjër", "kurrgjë", "tis", "pitas", "vol", "kaps", "byk", "curran",
+}
+# Plurals, other spellings and forms counted as words of their own, with the word they are (vathë "earrings", hallet
+# "troubles", të hajmë "that we eat").
+FOLD = {"vathë": "vath", "hallet": "hall", "ankoj": "ankohem", "hajmë": "ha", "djegje": "djegie", "kthjell": "kthjelloj"}
+# Forms filed under a look-alike, with the word they are: palloi "the peacock", not palloj's.
+MISFILED = {"palloi": "pallua"}
+
+
+def _news_case(cache, corpora):
+    """{form: (lower-case count, count)} in the cached Leipzig news, which keep the case text writes."""
+    import io
+    import tarfile
+    case = {}
+    for corpus in corpora:
+        path = os.path.join(cache, f"leipzig-{corpus}.tar.gz")
+        if not os.path.exists(path):
+            continue
+        with tarfile.open(path) as tar:
+            member = next(m for m in tar.getmembers() if m.name.endswith("-words.txt"))
+            for line in io.TextIOWrapper(tar.extractfile(member), encoding="utf-8"):
+                parts = line.rstrip("\n").split("\t")
+                if len(parts) < 3 or not parts[2].isdigit():
+                    continue
+                word, n = parts[1], int(parts[2])
+                low, total = case.get(word.lower(), (0, 0))
+                case[word.lower()] = (low + (n if word == word.lower() else 0), total + n)
+    return case
+
+
+def _pack(dictionaries):
+    """The pack's words with the tags of each sense (names apart), the words it has as names, and every spelling it has."""
+    import json
+    import sqlite3
+    senses, named, spelled = defaultdict(list), set(), set()
+    path = os.path.join(dictionaries, "sq-en.sqlite")
+    if not os.path.exists(path):
+        return senses, named, spelled
+    db = sqlite3.connect(path)
+    for word, kind, data in db.execute("SELECT word_lc, pos, senses FROM entries ORDER BY id"):
+        spelled.add(word)
+        if kind == "name":
+            named.add(word)
+            continue
+        senses[word].extend(dict(s, kind=kind) for s in json.loads(data))
+    spelled.update(f for (f,) in db.execute("SELECT form_lc FROM forms"))
+    db.close()
+    return senses, named, spelled
+
+
+def _dialect(senses):
+    def tagged(sense):
+        tags = set(sense.get("tags", []))
+        return tags & DIALECT_TAGS and not tags & STANDARD_TAGS or any(DIALECT_GLOSS.search(g) for g in sense.get("glosses", []))
+    return bool(senses) and all(tagged(s) for s in senses)
+
+
+def _declined(word, form):
+    stems = [word] + ([word[:-1]] if word[-1:] in ("e", "ë") else [])
+    return any(form.startswith(stem) and form[len(stem):] in ENDINGS for stem in stems)
+
+
+def _move(forms, form, frm, to):
+    share = forms[frm].pop(form, 0)
+    if share:
+        forms[to][form] = forms[to].get(form, 0) + share
+
+
+def fold(scores, forms, dictionaries, cache, corpora):
+    """
+    After the counting: names, Gheg and archaic words, words the table guessed from a form and NOT_WORDS are left out; FOLD
+    words go to the word they are a form of; a non-active verb (adresohem) keeps only its own forms and the participle both
+    share (adresuar), the others going to its active verb (adreson of adresoj); MISFILED forms go to their word.
+    """
+    case = _news_case(cache, corpora)
+    senses, named, spelled = _pack(dictionaries)
+    for word, to in sorted(FOLD.items()):
+        if word in scores and to in scores:
+            for form in sorted(forms[word]):
+                _move(forms, form, word, to)
+            del scores[word]
+    for word in sorted(scores):
+        if word.endswith("ohem") and word[:-4] + "oj" in scores:
+            active = word[:-4] + "oj"
+            for form in sorted(forms[word]):
+                if not form.startswith(word[:-2]) and not form.endswith("uar") and form in forms[active]:
+                    _move(forms, form, word, active)
+    for form, to in sorted(MISFILED.items()):
+        if to in scores:
+            for word in sorted(scores):
+                if word != to and form in forms[word]:
+                    _move(forms, form, word, to)
+    for word in sorted(scores):
+        counted = forms[word]
+        whole = sum(counted.values())
+        low = sum(case.get(f, (0, 0))[0] for f in counted)
+        news = sum(case.get(f, (0, 0))[1] for f in counted)
+        said = any(s["kind"] in ("intj", "particle") for s in senses.get(word, []))
+        name = word not in CAPITALISED_WORDS and not said and (
+            news >= NAME_NEWS and low < NAME_LOWER * news or word in named and news >= NAMED_NEWS and low < NAMED_LOWER * news)
+        top = max(counted, key=lambda f: (counted[f], f)) if counted else word
+        guessed = top != word and top in GUESSED and top not in HAND and top not in spelled and not _declined(word, top) and \
+            whole and counted[top] >= GUESSED_SHARE * whole
+        dialect = news < DIALECT_NEWS and _dialect(senses.get(word, []))
+        if word in NOT_WORDS or word in NAMES or name or guessed or dialect:
+            del scores[word]
+    for word in scores:
+        scores[word] = sum(forms[word].values())
