@@ -732,15 +732,18 @@ private fun ParagraphText(
                                 callbacks.onClick(startItem, shift)
                             }
                         } else {
-                            // Touch: a release before the long-press timeout is a tap; holding is a long press;
-                            // a cancelled gesture (the parent scrolled) is ignored.
-                            var timedOut = false
-                            val up = withTimeoutOrNull(viewConfiguration.longPressTimeoutMillis) { waitForUpOrCancellation() }
-                                ?: run { timedOut = currentEvent.changes.any { it.pressed }; null }
+                            // Touch: a release before the long-press timeout is a tap; holding still is a long press;
+                            // a cancelled gesture (the parent scrolled) is ignored, and so is a finger that wandered off.
+                            var cancelled = false
+                            val up = withTimeoutOrNull(viewConfiguration.longPressTimeoutMillis * LONG_PRESS_FACTOR) {
+                                waitForUpOrCancellation().also { cancelled = it == null }
+                            }
+                            val held = currentEvent.changes.firstOrNull { it.id == down.id }
+                            val still = held != null && held.pressed && (held.position - down.position).getDistance() <= viewConfiguration.touchSlop
                             when {
                                 up != null && startItem != null -> callbacks.onTap(startItem)
                                 up != null -> callbacks.onBlankTap()
-                                timedOut && startItem != null -> callbacks.onLongPress(startItem)
+                                !cancelled && still && startItem != null -> callbacks.onLongPress(startItem)
                             }
                         }
                     }
@@ -893,3 +896,6 @@ private const val OPENING_MARKS = "\"“„«‹‘(¿¡["
 
 /** How strongly the hovered word is tinted with the text colour: light gray on light themes, soft gray on dark ones. */
 private const val HOVER_ALPHA = 0.22f
+
+/** A touch held this many long-press timeouts selects words: at the system's own timeout a reader resting a finger before scrolling started selections they never meant. */
+private const val LONG_PRESS_FACTOR = 2

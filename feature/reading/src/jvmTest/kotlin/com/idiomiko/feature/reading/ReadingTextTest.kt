@@ -16,7 +16,9 @@ import androidx.compose.runtime.setValue
 import androidx.compose.runtime.getValue
 import kotlin.test.assertTrue
 import androidx.compose.ui.unit.dp
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.ui.test.onAllNodesWithText
 import androidx.compose.ui.test.performMouseInput
 import androidx.compose.ui.test.performTouchInput
@@ -99,6 +101,69 @@ class ReadingTextTest {
         text.performMouseInput { moveTo(Offset(90f, 10f)) }
         rule.waitForIdle()
         assertEquals(2, hovered.last(), "second word hovered")
+    }
+
+    /**
+     * Only a finger held still well past the system's long-press timeout selects; a press that turns into a scroll,
+     * one held just past the timeout, or one that wanders off its word never does.
+     */
+    @Test
+    fun onlyALongStillTouchStartsASelection() {
+        val pressed = mutableListOf<Int>()
+        var timeout = 0L
+        rule.setContent {
+            timeout = androidx.compose.ui.platform.LocalViewConfiguration.current.longPressTimeoutMillis
+            androidx.compose.foundation.layout.Column(
+                androidx.compose.ui.Modifier.height(300.dp).verticalScroll(androidx.compose.foundation.rememberScrollState()),
+            ) {
+                ReadingText(
+                    page = page(),
+                    theme = AppThemes.default,
+                    marked = emptySet(),
+                    hovered = null,
+                    selection = null,
+                    popupItem = null,
+                    fontScale = 1f,
+                    lineHeight = 1.5f,
+                    rightToLeft = false,
+                    callbacks = ReadingTextCallbacks(
+                        onClick = { _, _ -> },
+                        onTap = {},
+                        onLongPress = { pressed.add(it) },
+                        onHover = {},
+                        onDragStart = {},
+                        onDrag = {},
+                        onDragEnd = { _, _ -> },
+                        popupContent = { _, _: androidx.compose.ui.unit.IntRect -> },
+                    ),
+                )
+                androidx.compose.foundation.layout.Spacer(androidx.compose.ui.Modifier.height(1000.dp))
+            }
+        }
+        val text = rule.onNodeWithText("Hello world.")
+        val word = Offset(8f, 10f)
+        // Held for [millis] of the test's clock, after moving by [slide], then let go.
+        fun hold(millis: Long, slide: Offset = Offset.Zero) {
+            text.performTouchInput { down(word); if (slide != Offset.Zero) moveBy(slide) }
+            rule.mainClock.advanceTimeBy(millis)
+            text.performTouchInput { up() }
+            rule.waitForIdle()
+        }
+        hold(timeout + 100)
+        assertEquals(emptyList(), pressed, "a short hold selects nothing")
+        hold(timeout * 3, slide = Offset(60f, 0f))
+        assertEquals(emptyList(), pressed, "a finger that moved selects nothing")
+        hold(timeout * 3)
+        assertEquals(listOf(0), pressed)
+        // A scroll that starts on a word, its finger resting on the screen long after.
+        text.performTouchInput {
+            down(word)
+            repeat(10) { moveBy(Offset(0f, -20f), delayMillis = 30) }
+        }
+        rule.mainClock.advanceTimeBy(timeout * 3)
+        text.performTouchInput { up() }
+        rule.waitForIdle()
+        assertEquals(listOf(0), pressed, "scrolling selects nothing")
     }
 
     /** 𨋢 is two UTF-16 units, cut as one word, and clicked as one. */
