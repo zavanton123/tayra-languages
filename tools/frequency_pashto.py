@@ -514,8 +514,9 @@ _MORE_FORMS = """
 موندل|موند
 """
 # Spellings the pack has as words of their own that are another word's, as Pakistani and older texts write it (چه for چې,
-# کښې for کې, وایروس for ویروس), or forms filed under a rare word spelled alike (کړي "does", not کړۍ "ring"; لري "has", not
-# لرې "far"; شي "becomes", not شی "thing").
+# کښې for کې, وایروس for ویروس), as regions write it (روځ for ورځ, دلې for دلته) or misspelt (جکړه for جګړه), or forms filed
+# under a rare word spelled alike (کړي "does", not کړۍ "ring"; لري "has", not لرې "far"; شي "becomes", not شی "thing";
+# پخو "baked", of پوخ, not "to cook").
 _SPELLED_AS = """
 چه|چې
 کښې|کې
@@ -538,6 +539,14 @@ _SPELLED_AS = """
 خلګ|خلک
 ږغ|غږ
 اخستل|اخيستل
+روځ|ورځ
+روځې|ورځ
+روځو|ورځ
+دلې|دلته
+جکړه|جګړه
+جکړې|جګړه
+جکړو|جګړه
+پخو|پوخ
 """
 # Verbs the pack lacks, with the stem their present and imperative are made of, and the prefix of their perfective ("و" but for
 # verbs with a prefix of their own): infinitive | present stem | perfective prefix | English gloss.
@@ -865,6 +874,8 @@ OVERRIDES.update({pashto_fold(form): [pashto_fold(verb)] for form, verb in (
 # اوسي "lives" (of اوسېدل), not the -ې form of اوسه "now"; غښتلي "strong" (غښتلی), no form of غښتل "to plait".
 OVERRIDES[pashto_fold("اوسي")] = [pashto_fold("اوسېدل")]
 OVERRIDES[pashto_fold("غښتلی")] = [pashto_fold("غښتلی")]
+# ماتو "defeats" (د تاريخي ماتو), the oblique of ماتې, not the pack's ماتو "housewife".
+OVERRIDES[pashto_fold("ماتو")] = [pashto_fold("ماتې")]
 # How a word is shown where the pack's spellings would show another word's (ترۍ for ترې, مېنه "home" for مینه "love"), or
 # a Kandahari or Pakistani spelling (تاسې, ستاسې) for the Afghan standard one.
 DISPLAY = {pashto_fold(w): w for w in "چې دی ترې مینه رئیس امریکایي زوی نوی چای".split()}
@@ -874,3 +885,5 @@ DISPLAY.update({pashto_fold("تاسې"): "تاسو", pashto_fold("ستاسې"): 
 EXCLUDE = {pashto_fold(w) for w in "برای کشور مردم من کند اند بين کرد است از با این خود".split()}
 # And names the pack has as words (کندهار, the province; حسين "handsome", the name Hussain).
 EXCLUDE |= {pashto_fold(w) for w in "کندهار حسين".split()}
+# And قابو "control" (قابو کول), which the pack lacks, no form of قاب "plate".
+EXCLUDE.add(pashto_fold("قابو"))
