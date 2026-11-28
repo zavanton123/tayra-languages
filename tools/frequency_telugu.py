@@ -1015,9 +1015,13 @@ def build(found, size, label, weights=None):
             alias[word] = stem
 
     by_hand = defaultdict(set)
-    for word, (_, forms) in TELUGU_WORDS.items():
+    for word, (kind, forms) in TELUGU_WORDS.items():
         for form in forms.split():
             by_hand[form].add(word)
+            # A plural given by hand is the noun's in all its cases (ఇళ్లకు of ఇల్లు, not of ఇలు).
+            if kind == "noun" and form.endswith("లు"):
+                for case in both_l(plural_forms(form)):
+                    by_hand[case].add(word)
     for form, word in TELUGU_FORMS.items():
         by_hand[form].add(word)
     for spelling, word in alias.items():
