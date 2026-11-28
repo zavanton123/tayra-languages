@@ -785,6 +785,10 @@ LEFT_OUT |= {"neg.adigan:" + e for e in ("ga", "da", "lari", "larni")}
 LEFT_OUT |= {"neg.conv:" + e for e in ("", "man", "san", "miz", "siz", "dilar", "mi")}
 
 
+# The endings a number takes with the counter ta in its core forms (beshta, beshtasi, beshtadan).
+TA_ENDINGS = ("", "si", "dan", "ni", "ga", "sini", "siga", "sidan", "sida")
+
+
 def core_forms(word, kinds, seen):
     """The forms [word] of [kinds] is listed with, whether the counts have them or not."""
     if word in PRONOUNS:
@@ -797,7 +801,7 @@ def core_forms(word, kinds, seen):
     elif kinds & {"adj", "num"} and not kinds & {"conj", "prep", "particle"}:
         out.update(core_adjective(word, seen).values())
     if "num" in kinds and word != "bir":
-        out.update(word + "ta" + e for e in ("", "si", "dan", "ni", "ga", "sini", "siga", "sidan", "sida"))
+        out.update(word + "ta" + e for e in TA_ENDINGS)
     out.discard(word)
     return out
 
@@ -842,4 +846,59 @@ def with_paradigms(lines):
                 added.append(form)
         CORE_ADDED[word] = added
         out.append(word + "\t" + " ".join(forms.split() + added))
+    return out
+
+
+# The app's list (files/frequency/uz.tsv) is the pinned one the courses are checked against (tools/courses/uz/wordlist.tsv)
+# with most of the core forms no text has left out (trim_uzbek_list.py): all of them made it 13.5 MB, three times any other
+# list, and a form 47 million words never have is seldom in what a learner reads. A form the counts have stays (it is what the
+# word's rank is counted from), and so does one the courses use. Of the others, every word keeps the cells stories use most
+# (APP_EVERY); a word up to rank APP_RANK keeps those of APP_CELLS too: a noun's possessives, its plural's and its third
+# person's main cases, a verb's present and past with their persons, positive and negative, its imperatives, conditional,
+# participles, verbal noun and -moqchi, an adjective's -roq, a number's ta forms.
+APP_RANK = 2000
+APP_EVERY = {"noun:" + c for c in ("pl.nom", "3.nom", ".gen", ".acc", ".dat", ".loc", ".abl", "3.acc", "3.loc")}
+APP_EVERY |= {"verb:" + c for c in ("past:", "pres:di", "gan:", "conv:")} | {"pronoun"}
+APP_CELLS = {"noun:" + c for c in ("1.nom", "2.nom", "1pl.nom", "2pl.nom", "3.gen", "3.dat", "3.abl", "pl.acc", "pl.dat", "pl.loc",
+                                   "pl.3.nom", "pl.3.acc", ".dagi")}
+APP_CELLS |= {"verb:" + p + e for p in ("pres:", "neg.pres:") for e in ("man", "san", "di", "miz", "siz", "dilar")}
+APP_CELLS |= {"verb:" + p + e for p in ("past:", "neg.past:") for e in ("m", "ng", "", "k", "ngiz", "lar")}
+APP_CELLS |= {"verb:" + c for c in ("neg.gan:", "gan:da", "imp", "imp:2", "imp:2iz", "neg.imp", "neg.imp:2", "cond:",
+                                    "aor:", "aor:di", "neg.aor:", "prog:ti", "moqda:", "moqchi:", "adigan:", "ayotgan:", "ish.:",
+                                    "ish.:ni", "ish.i:")}
+APP_CELLS |= {"adj:.roq"} | {"num:ta" + e for e in TA_ENDINGS}
+
+
+def core_cells(word, seen):
+    """[word]'s core forms and the cell each fills, kind first (noun:pl.3.acc, verb:neg.past:m): a verb's before a noun's."""
+    cells = {}
+    if word.endswith("moq") and len(word) >= 5:
+        for slot, form in core_verb(word).items():
+            cells.setdefault(form, "verb:" + slot)
+    for slot, form in core_noun(word, seen).items():
+        cells.setdefault(form, "noun:" + slot)
+    for slot, form in core_adjective(word, seen).items():
+        cells.setdefault(form, "adj:" + slot)
+    for ending in TA_ENDINGS:
+        cells.setdefault(word + "ta" + ending, "num:ta" + ending)
+    for form in PRONOUNS.get(word, "").split():
+        cells.setdefault(form, "pronoun")
+    return cells
+
+
+def app_list(lines, seen, used):
+    """
+    [lines] of the pinned list as the app lists them: each word with the forms [seen] counts, those [used] has (the courses'
+    words) and its core forms of APP_EVERY, and of APP_CELLS up to APP_RANK. Words and ranks are as they were.
+    """
+    out, rank = [], 0
+    for line in lines:
+        if line.startswith("#") or not line.strip():
+            out.append(line)
+            continue
+        rank += 1
+        word, _, forms = line.partition("\t")
+        cells = core_cells(word, seen)
+        keep = APP_EVERY | APP_CELLS if rank <= APP_RANK else APP_EVERY
+        out.append(word + "\t" + " ".join(f for f in forms.split() if f in seen or f in used or cells.get(f) in keep))
     return out
