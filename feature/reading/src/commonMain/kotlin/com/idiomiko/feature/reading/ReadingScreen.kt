@@ -410,7 +410,7 @@ fun ReadingScreen(
                     if (event.key == Key.Escape && (event.type != KeyEventType.KeyDown || typing || state.items.isEmpty())) return@onPreviewKeyEvent true
                     if (event.type != KeyEventType.KeyDown || typing || state.items.isEmpty()) return@onPreviewKeyEvent false
                     val pressed = HotkeyMatcher.fromEvent(event)?.let(shift::adjust) ?: return@onPreviewKeyEvent false
-                    val action = HotkeyAction.resolve(hotkeys, pressed, wordSelected = state.marked.isNotEmpty(), listening = state.settings.showSentencePlay)
+                    val action = HotkeyAction.resolve(hotkeys, pressed, wordSelected = state.marked.isNotEmpty(), listening = state.readsAloud)
                     Logger.d { "Reader key ${event.key} (char ${event.utf16CodePoint}, Shift flag ${event.isShiftPressed}, Shift held ${shift.held}) read as $pressed: ${action ?: "no shortcut"}" }
                     if (action == null) return@onPreviewKeyEvent event.key == Key.Escape
                     handleAction(action)
@@ -936,7 +936,7 @@ private fun ReadingBody(
                 playingSentence = playingPlace,
                 preparingSentences = preparingSentences,
                 // A sentence played on its own is highlighted while heard; continuous reading's place stays marked when paused.
-                readingSentence = if (state.settings.showSentencePlay) (if (playingSentence != null) playingPlace else continuous.currentIndex) else null,
+                readingSentence = if (state.readsAloud) (if (playingSentence != null) playingPlace else continuous.currentIndex) else null,
                 readingHeard = playingSentence != null,
                 followReading = continuous.active,
                 edgePadding = edgePadding,
@@ -958,7 +958,7 @@ private fun ReadingBody(
     }
     if (compact) {
         // A phone's player sits over its stages, while reading aloud is on; the settings are in the bar at the top.
-        val sentenceControls = state.settings.showSentencePlay && pageSentences.isNotEmpty()
+        val sentenceControls = state.readsAloud && pageSentences.isNotEmpty()
         Column(Modifier.fillMaxWidth()) {
             // Nothing to read aloud over the words, the quiz or the cards, nor in the stages where the learner speaks.
             if (shown == null && state.stage !in SPOKEN_STAGES && sentenceControls) MobileReaderActions(
@@ -1002,7 +1002,7 @@ private fun ReadingBody(
             },
             onMenu = onMenu,
             playlist = playlistPlayer?.let { { AddToPlaylistButton(state.book?.id ?: 0, CONTROL_SIZE, onCreate = onNewPlaylist, onAdded = onAddedToPlaylist) } },
-            playback = if (state.settings.showSentencePlay && pageSentences.isNotEmpty() && state.stage !in SPOKEN_STAGES) {
+            playback = if (state.readsAloud && pageSentences.isNotEmpty() && state.stage !in SPOKEN_STAGES) {
                 {
                     ContinuousControls(
                         playing = continuous.active,

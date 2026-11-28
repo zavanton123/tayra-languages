@@ -99,6 +99,10 @@ private fun ReadingStage.action(): String? = when (this) {
     else -> null
 }
 
+/** Whether the page has its player: when the read-aloud controls are on, and always while listening. */
+internal val ReadingUiState.readsAloud: Boolean
+    get() = settings.showSentencePlay || stage == ReadingStage.LISTEN
+
 /** Whether working on the stage hides the original text behind a blur. */
 internal val ReadingStage.blursText: Boolean
     get() = this == ReadingStage.LISTEN || this == ReadingStage.REVERSE

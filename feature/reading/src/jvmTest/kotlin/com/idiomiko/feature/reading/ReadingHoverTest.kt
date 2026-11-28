@@ -520,6 +520,9 @@ class ReadingHoverTest {
         assertTrue(rule.onAllNodesWithContentDescription("Read the page").fetchSemanticsNodes().isEmpty())
         assertTrue(rule.onAllNodesWithContentDescription("Previous sentence").fetchSemanticsNodes().isEmpty())
         assertTrue(rule.onAllNodesWithContentDescription("Next sentence").fetchSemanticsNodes().isEmpty())
+        // Listening needs the player whatever the preference.
+        vm.selectStage(ReadingStage.LISTEN)
+        rule.waitUntil(5_000) { rule.onAllNodesWithContentDescription("Read the page").fetchSemanticsNodes().isNotEmpty() }
     }
 
     /** The menu's Edit section opens the whole book or the current page for editing, and adds or deletes no pages. */
