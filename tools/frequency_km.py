@@ -14,6 +14,10 @@ KHMER_SPELLINGS = {
     "លឺ": "ឮ",
     # ឳពុក for ឪពុក "father", the vowel letters looking alike.
     "ឳពុក": "ឪពុក",
+    # សតវត្សរ៍ for សតវត្ស "century", which the reader cut as សតវត្ស + រ៍; and ក្រវិលត្រចៀក, "ear ring", the pack's word for
+    # ក្រវិល "earring", which the reader read as one word where a course taught ក្រវិល.
+    "សតវត្សរ៍": "សតវត្ស",
+    "ក្រវិលត្រចៀក": "ក្រវិល",
 }
 
 # Spellings with ម្ before a consonant where the pack has ំ (ចម្រើន, ចំរើន), or ំ where it has ម្ (កំលាំង, កម្លាំង), are
