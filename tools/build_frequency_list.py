@@ -3586,6 +3586,37 @@ def maltese_wikipedia_sentences(language):
     return sentences(), "mt.wikipedia.org articles"
 
 
+# Some news sentences are UTF-8 read as Windows-1252 (gÄ§andha for għandha, Å»ied for Żied, Ä and a space for Ġ) and some
+# web pages write ħ as the Cyrillic ћ (gћandha): they are mended before they are cut, as their pieces (andha, ied, izzjoni)
+# are no words. Links and HTML entities (&nbsp;) are left out.
+MALTESE_MOJIBAKE = re.compile("Ä[§¡‹¦ ]|Å[¼»]|â€")
+MALTESE_MOJIBAKE_PAIR = re.compile("â€.|[ÂÃÄÅ].")
+MALTESE_CYRILLIC = str.maketrans({"ћ": "ħ", "Ћ": "Ħ"})
+MALTESE_LINK = re.compile(r"https?://\S*|www\.\S*|&[a-z]+;|\bnbsp\b")
+
+
+def maltese_mended(sentence):
+    """[sentence] with its Windows-1252 misreadings read as UTF-8 again, ћ as ħ, and without links and entities."""
+    sentence = sentence.translate(MALTESE_CYRILLIC)
+    if MALTESE_MOJIBAKE.search(sentence):
+        def mend(match):
+            raw = bytearray()
+            for c in match.group(0):
+                try:
+                    raw += b"\xa0" if c == " " else c.encode("cp1252")
+                except UnicodeEncodeError:
+                    if ord(c) > 255:
+                        return match.group(0)
+                    raw.append(ord(c))
+            try:
+                return raw.decode("utf-8")
+            except UnicodeDecodeError:
+                return match.group(0)
+
+        sentence = MALTESE_MOJIBAKE_PAIR.sub(mend, sentence)
+    return MALTESE_LINK.sub(" ", sentence)
+
+
 def maltese_counts(language, limit, source="leipzig"):
     db = sqlite3.connect(os.path.join(DICTIONARIES, f"{language}-en.sqlite"))
     words = {w for (w,) in db.execute("SELECT word_lc FROM entries UNION SELECT form_lc FROM forms")} | set(maltese_generated_forms(db))
@@ -3596,7 +3627,7 @@ def maltese_counts(language, limit, source="leipzig"):
         return None
     sentences, label = found
     for sentence in sentences:
-        sentence = sentence.translate(MALTESE_APOSTROPHES)
+        sentence = maltese_mended(sentence).translate(MALTESE_APOSTROPHES)
         if not MALTESE_MARKED.search(sentence) and any(
                 maltese_unmarked(piece, words) for match in MALTESE_WORD.finditer(sentence)
                 for piece in maltese_pieces(match.group(0), known)):
