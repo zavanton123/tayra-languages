@@ -393,6 +393,26 @@ ENGLISH = re.compile("[a-z]+")
 # The endings an English word's stem is found without (formation, form; division, divide; filled, fill).
 ENGLISH_ENDINGS = ("ations", "ation", "itions", "ition", "tions", "tion", "sions", "sion", "ments", "ment", "ings", "ing",
                    "ances", "ance", "ences", "ence", "ities", "ity", "ers", "er", "ed", "es", "al", "ure", "ive", "ly", "s", "e")
+# The first glosses of a participle (reinforced, done), a comparative (more important, later, largest) and a diminutive or
+# feminine (little eye, Roma woman).
+PARTICIPLES = set("""
+done made written taken given seen known held built born found sold told left kept brought bought thought caught taught sent
+spent set put cut shut shown drawn grown thrown broken chosen frozen spoken stolen forgotten hidden beaten eaten fallen driven
+risen bound laid paid said read led fed met lost won hung struck stuck dug sworn torn worn borne lit shot sunk begun run
+come gone felt dealt meant burnt learnt rebuilt overcome forbidden withdrawn upheld undertaken mistaken shaken sought fought
+dead
+""".split())
+COMPARATIVE = {"more", "most", "less", "least", "later", "better", "best", "worse", "worst", "latest", "earlier"}
+DIMINUTIVE = {"little", "small", "diminutive", "affectionate", "tiny", "woman", "female", "girl"}
+# The endings of English nouns that name an action whatever the verb's glosses (awarding, construction, payment); others
+# do so when the verb's glosses have their stem (arrival of arrive, closure of close, issue of issue).
+ACTION_NOUNS = ("ing", "tion", "sion", "ment")
+VERB_TAILS = ("ць", "ці", "чы", "цца", "ціся", "чыся")
+# The consonants a stem's last one turns into before an ending (абвясціць, абвешчаны; аднавіць, адноўлены, аднаўляць),
+# and the vowels a stress shift turns (узмацніць, узмоцнены; горад, гарадок).
+STEM_CHANGES = (("сц", "шч"), ("ст", "шч"), ("с", "ш"), ("з", "ж"), ("т", "ч"), ("ц", "ч"), ("дз", "дж"), ("д", "дж"),
+                ("здз", "ждж"), ("б", "бл"), ("п", "пл"), ("в", "ўл"), ("м", "мл"), ("ф", "фл"), ("сц", "ск"))
+VOWEL_CHANGES = (("а", "о"), ("о", "а"), ("я", "е"), ("е", "я"), ("я", "ё"), ("ё", "я"), ("е", "ё"), ("а", "э"), ("э", "а"))
 
 
 def name_shares(dictionaries, corpora):
@@ -477,6 +497,128 @@ def spelling_variants(word):
     return [f for f in dict.fromkeys(found) if f != word]
 
 
+def reflexive(verb):
+    """A verb's reflexive (пачаць, пачацца; несці, несціся), or None."""
+    if verb.endswith("ць"):
+        return verb[:-2] + "цца"
+    if verb.endswith(("ці", "чы")):
+        return verb + "ся"
+    return None
+
+
+def unreflexive(verb):
+    """A reflexive verb's verb (пачацца, пачаць), or None."""
+    if verb.endswith("цца"):
+        return verb[:-3] + "ць"
+    if verb.endswith(("ціся", "чыся")):
+        return verb[:-2]
+    return None
+
+
+def with_vowel_changed(stem, anywhere=False):
+    """[stem], and it with its last vowel (or [anywhere] one vowel) turned as a stress shift turns it (узмацніць, узмоцнены;
+    аднавіць, адноўлены; горад, гарадок)."""
+    found = [stem]
+    for i in range(len(stem) - 1, -1, -1):
+        if stem[i] in VOWELS:
+            found += [stem[:i] + new + stem[i + 1:] for old, new in VOWEL_CHANGES if stem[i] == old]
+            if not anywhere:
+                break
+    return found
+
+
+def unchanged_stems(stem):
+    """The stems a stem whose last consonant may have changed before an ending comes from (абвешч of абвясц, адноўл of аднав)."""
+    found = [stem]
+    for old, new in STEM_CHANGES:
+        if stem.endswith(new) and len(stem) > len(new) + 1:
+            found.append(stem[:-len(new)] + old)
+    return [v for s in found for v in with_vowel_changed(s)]
+
+
+def verbs_of_noun(noun):
+    """The verbs a verbal noun may name the action of (чаканне of чакаць, тлумачэнне of тлумачыць, узвядзенне of узвесці,
+    прыбыццё of прыбыць, выдача of выдаць, ваганне of вагацца), as their infinitives and reflexives' infinitives."""
+    found = []
+    if noun.endswith(("ццё", "цце")):
+        found += [noun[:-3] + "ць", noun[:-3] + "ці"]
+    elif noun.endswith("дача"):
+        found.append(noun[:-2] + "ць")
+    elif noun.endswith("нне") and len(noun) > 5:
+        base = noun[:-3]
+        if base[-1:] in "ая":
+            found.append(base + "ць")
+        if base[-1:] in "еэаяё":
+            for stem in unchanged_stems(base[:-1]):
+                found += [stem + t for t in ("іць", "ыць", "ець", "эць", "аць", "яць")]
+                if stem.endswith("н"):
+                    found.append(stem + "уць")
+                if stem.endswith(("с", "з")):
+                    found.append(stem + "ці")
+            found += carried(base[:-1])
+    return found + [reflexive(v) for v in found if reflexive(v)]
+
+
+def carried(stem):
+    """The verbs in -сці a stem in -д or -дз is of (узвядз of узвесці, знойдз of знайсці, перакладз of перакласці)."""
+    if stem.endswith(("д", "дз")):
+        return [v + "ці" for v in with_vowel_changed(stem[:-2 if stem.endswith("дз") else -1] + "с")]
+    return []
+
+
+def verbs_of_participle(word):
+    """The verbs an adjective in -ны, -ты or -лы may be the participle of (сказаны, узмоцнены, перанесены, знойдзены,
+    адкрыты, загінулы, памерлы)."""
+    stem, found = word[:-1], []
+    if stem.endswith(("ан", "ян")):
+        found.append(stem[:-1] + "ць")
+    if stem.endswith(("ан", "ян", "ен", "эн", "ён")):
+        for base in unchanged_stems(stem[:-2]):
+            found += [base + t for t in ("іць", "ыць", "ець", "эць")]
+            if base.endswith(("с", "з")):
+                found.append(base + "ці")
+        found += carried(stem[:-2])
+    elif stem.endswith(("т", "л")):
+        found += [stem[:-1] + "ць", stem[:-1] + "ці"]
+    return found
+
+
+def bases_of_comparative(word):
+    """The adjectives or adverbs a comparative or superlative may be of (важнейшы, пазнейшы, найноўшы, лягчэй)."""
+    bare = word[3:] if word.startswith("най") and len(word) > 6 else word
+    stems = []
+    for tail in ("ейшы", "эйшы", "ейшая"):
+        if bare.endswith(tail):
+            stems.append(bare[:-len(tail)])
+    if bare != word and bare.endswith("шы"):
+        stems.append(bare[:-2].replace("ў", "в"))
+    if word.endswith(("ей", "эй")):
+        stems.append(word[:-2])
+    found = []
+    for stem in stems:
+        for base in unchanged_stems(stem) + ([stem[:-1] + "к"] if stem.endswith("ч") else []):
+            for variant in with_vowel_changed(base):
+                found += [variant + t for t in ("ы", "і", "а", "кі", "ка")]
+    return found
+
+
+def bases_of_diminutive(word):
+    """The nouns a noun may be a diminutive or feminine of (куток of кут, кніжка of кніга, гарадок of горад, паэтка of паэт,
+    славянка of славянін, настаўніца of настаўнік)."""
+    found = []
+    if word.endswith(("ок", "ак", "ык", "ік", "ёк")) and len(word) > 4 and word[-3] not in VOWELS:
+        found += [v for s in unchanged_stems(word[:-2]) for v in with_vowel_changed(s, True) if v[-1:] not in VOWELS]
+    if word.endswith("ка") and not word.endswith(("іка", "ыка")) and len(word) > 4:
+        stems = [word[:-2]] + [word[:-3] + o for n, o in (("ж", "г"), ("ж", "з"), ("ч", "к"), ("ч", "ц"), ("ш", "х"), ("ш", "с"))
+                               if word[-3] == n]
+        found += [v + t for s in stems for v in with_vowel_changed(s, True) for t in ("", "а", "я", "о", "е", "ін", "ец")]
+    if word.endswith("ніца"):
+        found.append(word[:-4] + "нік")
+    if word.endswith(("іца", "ыца")):
+        found.append(word[:-3])
+    return found
+
+
 # How each word went to another in fold, for the list's pinning: word -> (the word it went to, why).
 MERGED = {}
 
@@ -486,6 +628,7 @@ def fold(scores, forms, pos, lemmas, dictionaries, corpora):
     After the counting: a form's capitalised uses inside a sentence are a name's and count for no word, and a hyphenated
     word, which the reader reads as its pieces, is left out.
     A word the pack glosses as another's spelling or form, or written in taraškievica, is that word's.
+    A participle, verbal noun, comparative or diminutive goes to its word.
     """
     MERGED.clear()
     shares = name_shares(dictionaries, corpora)
@@ -549,6 +692,65 @@ def fold(scores, forms, pos, lemmas, dictionaries, corpora):
                 derive(word, spelled, "spelling")
                 break
 
+    verbs = {w for w in scores if "verb" in pos.get(w, ()) and w.endswith(VERB_TAILS)}
+    adjectives = {w for w in scores if pos.get(w, set()) & {"adj", "adv"}}
+
+    def as_verbs(found):
+        """The verbs of the list that [found]'s infinitives are, or are the forms of (апрануць of апранаць)."""
+        return [w for f in found for w in ([f] if f in verbs else [l for l in lemmas.get(f, ()) if l in verbs])]
+
+    def best(found, word, need):
+        """The commonest word of [found] that is in [need]."""
+        found = [f for f in dict.fromkeys(found) if f in need and f != word]
+        return min(found, key=order.get) if found else None
+
+    def stem_in(head, word):
+        return overlap({english_stem(head)}, keys.get(word, ()))
+
+    def plain_action(noun, verb):
+        """Whether a noun's glosses name only the verb's action (a noun without glosses is taken to), and with a verb
+        without glosses, whether they are all action nouns."""
+        heads = heads_of(noun)
+        if not keys.get(noun):
+            return True
+        if not keys.get(verb):
+            return all(h.endswith(ACTION_NOUNS) for h in heads)
+        return glossed_alike(noun, verb) and all(h.endswith(ACTION_NOUNS) or stem_in(h, verb) for h in heads)
+
+    def own_first(found):
+        """Verbs before reflexives (далучэнне of далучыць, not of далучыцца)."""
+        return [f for f in found if not unreflexive(f)] + [f for f in found if unreflexive(f)]
+
+    for word in sorted(scores):
+        genitive = word.endswith("ння") and kind.get(word) == "rename"
+        if word in parent and not genitive:
+            continue
+        if word in nouns and word.endswith(("нне", "ццё", "цце", "дача")) or genitive:
+            # A verbal noun's genitive filed as a word (напісання) is the noun's, and so its verb's.
+            verb = best(as_verbs(own_first(verbs_of_noun(parent[word] if genitive else word))), word, verbs)
+            if verb and plain_action(word, verb):
+                parent[word], kind[word] = verb, "verbal noun"
+            continue
+        if word in adjectives and word.endswith(("ны", "ты", "лы")) and word not in verbs:
+            found = own_first(verbs_of_participle(word))
+            # A participle without glosses goes to the commonest verb it may be of (сустрэты, аточаны, прапушчаны).
+            verb = best(as_verbs(f for f in found if glossed_alike(word, f) or not keys.get(word)), word, verbs)
+            heads = heads_of(word)
+            # Its first reading is a participle's (узмоцнены "reinforced", запоўнены "filled, full").
+            if verb and (heads[0].endswith("ed") or heads[0] in PARTICIPLES or stem_in(heads[0], verb) if heads
+                         else word.endswith(("аны", "яны", "ены", "ёны", "эны", "ыты", "уты", "яты"))):
+                derive(word, verb, "participle")
+        if word in adjectives and (word.endswith(("ейшы", "эйшы", "шы")) and word.startswith("най") or word.endswith(
+                ("ейшы", "эйшы", "ей", "эй"))):
+            found = bases_of_comparative(word)
+            same = {w for w in adjectives if pos[w] & pos[word] & {"adj", "adv"}}
+            base = best(found, word, same) or best(found, word, adjectives)
+            heads = heads_of(word)
+            # One without glosses, when it is one in -ейшы (навейшы, слабейшы, карацейшы).
+            if base and (any(h in COMPARATIVE or h.endswith(("er", "est")) for h in heads) if heads else
+                         word.endswith(("ейшы", "эйшы"))):
+                derive(word, base, "comparative")
+
     # A noun without glosses that the corpus made of a form (кішэчніка, правіянта, ільгот, жылак, відэакамер, палаткі) is
     # its nominative's: a masculine's genitive whose stem is among its forms, at least half as common, with no feminine's
     # instrumental; a genitive plural with a feminine's instrumental among its forms; a plural of a listed noun.
@@ -582,6 +784,17 @@ def fold(scores, forms, pos, lemmas, dictionaries, corpora):
             derive(word, lemma, "form")
         else:
             parent[word], kind[word] = target, "rename"
+    for word in sorted(nouns):
+        if word in parent:
+            continue
+        base = best(bases_of_diminutive(word), word, nouns)
+        if not base:
+            continue
+        heads = [h for h in heads_of(word) if h not in DIMINUTIVE]
+        # The first reading names what the other word does (куток "corner", кут "corner"; not мужык "peasant", муж).
+        if not heads or not stem_in(heads[0], base):
+            continue
+        derive(word, base, "diminutive")
 
     def root(word):
         seen = [word]
