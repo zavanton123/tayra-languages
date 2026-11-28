@@ -413,6 +413,30 @@ VERB_TAILS = ("ць", "ці", "чы", "цца", "ціся", "чыся")
 STEM_CHANGES = (("сц", "шч"), ("ст", "шч"), ("с", "ш"), ("з", "ж"), ("т", "ч"), ("ц", "ч"), ("дз", "дж"), ("д", "дж"),
                 ("здз", "ждж"), ("б", "бл"), ("п", "пл"), ("в", "ўл"), ("м", "мл"), ("ф", "фл"), ("сц", "ск"))
 VOWEL_CHANGES = (("а", "о"), ("о", "а"), ("я", "е"), ("е", "я"), ("я", "ё"), ("ё", "я"), ("е", "ё"), ("а", "э"), ("э", "а"))
+# The infinitives' ending pairs of an aspect pair whose stems are alike (змясціць, змяшчаць; улічыць, улічваць;
+# звярнуць, звяртаць; набраць, набіраць; унесці, уносіць), the perfective's first, a stem's last consonant changed by
+# STEM_CHANGES and up to two vowels by VOWEL_CHANGES (усвядоміць, усведамляць).
+ASPECT_TAILS = (
+    ("іць", "аць"), ("іць", "яць"), ("ыць", "аць"), ("іць", "ляць"), ("іць", "ваць"), ("ыць", "ваць"), ("аць", "ваць"),
+    ("іць", "ьваць"), ("аць", "ьваць"), ("ыць", "ываць"), ("іць", "іваць"), ("ець", "аць"), ("ець", "ваць"), ("эць", "аць"),
+    ("аваць", "оўваць"), ("яваць", "ёўваць"), ("іць", "йваць"), ("уць", "уваць"), ("іць", "оўваць"),
+    ("нуць", "таць"), ("нуць", "каць"), ("нуць", "гаць"), ("нуць", "аць"), ("нуць", "ваць"), ("нуць", "даць"),
+    ("браць", "біраць"), ("абраць", "біраць"), ("зваць", "зываць"), ("слаць", "сылаць"), ("няць", "німаць"),
+    ("няць", "ымаць"), ("няць", "маць"), ("няць", "ймаць"), ("несці", "носіць"), ("весці", "водзіць"), ("везці", "возіць"),
+    ("йсці", "ходзіць"), ("ысці", "ыходзіць"), ("ехаць", "язджаць"), ("даць", "даваць"), ("стаць", "ставаць"),
+    ("бегчы", "бягаць"), ("мерці", "міраць"), ("перці", "піраць"), ("церці", "ціраць"), ("легчы", "лягаць"),
+    ("класці", "кладаць"), ("чаць", "чынаць"), ("цягнуць", "цягваць"), ("помніць", "памінаць"), ("ліць", "льняць"),
+    ("сесці", "садзіцца"), ("бачыць", "бачваць"), ("знаць", "знаваць"),
+)
+# The prefixes a perfective adds to its imperfective without changing its sense (рабіць, зрабіць; пісаць, напісаць), and
+# those that do so to a loanword's verb (зафіксаваць, адрэагаваць); a verb they make is the other's partner only when its
+# glosses add nothing to the other's first sense (to the letter for LOAN_PREFIXES).
+EMPTY_PREFIXES = ("з", "с", "зь", "па", "на", "пра")
+LOAN_PREFIXES = ("за", "ад")
+# The English words that tell a prefixed verb's sense from its verb's (збегчы "to run away", бегчы "to run").
+PARTICLES = {"up", "out", "off", "away", "down", "back", "over", "into"}
+# The imperfectives made with a suffix (надаваць, выпісваць), which no prefix makes a perfective of.
+SECONDARY = ("даваць", "ставаць", "знаваць", "ываць", "іваць", "оўваць", "ёўваць")
 
 
 def name_shares(dictionaries, corpora):
@@ -468,10 +492,11 @@ def covered(a, b):
     return all(any(same_stem(x, y) for y in b) for x in a)
 
 
-def gloss_keys(texts):
-    """The stems of the English words of glosses that carry their sense."""
+def gloss_keys(texts, particles=False):
+    """The stems of the English words of glosses that carry their sense ([particles]: with PARTICLES, which tell a prefixed
+    verb's sense)."""
     words = ENGLISH.findall(re.sub(r"\([^)]*\)", " ", " ".join(texts).lower()))
-    return {english_stem(w) for w in words if w not in GLOSS_STOP and len(w) > 1}
+    return {english_stem(w) for w in words if (w not in GLOSS_STOP or particles and w in PARTICLES) and len(w) > 1}
 
 
 def gloss_heads(texts):
@@ -619,6 +644,52 @@ def bases_of_diminutive(word):
     return found
 
 
+def verb_aspects(dictionaries):
+    """The aspects the be-pl pack tags each verb with."""
+    found = defaultdict(set)
+    path = os.path.join(dictionaries, "be-pl.sqlite")
+    if os.path.exists(path):
+        with sqlite3.connect(path) as db:
+            for word, senses in db.execute("SELECT word_lc, senses FROM entries WHERE pos = 'verb' ORDER BY id"):
+                for sense in json.loads(senses):
+                    found[word].update(t for t in sense.get("tags", []) if t in ("perfective", "imperfective"))
+    return found
+
+
+def changed_stems(stem):
+    """The stems an imperfective may make of a perfective's stem (змясц, змяшч; аднав, аднаўл; ацан, ацэн; усвядом,
+    усведамл)."""
+    found = [stem]
+    for old, new in STEM_CHANGES:
+        if stem.endswith(old):
+            found.append(stem[:-len(old)] + new)
+    once = [v for s in found for v in with_vowel_changed(s, True)]
+    return list(dict.fromkeys(once + [w for v in once for w in with_vowel_changed(v, True)]))
+
+
+def aspect_partners(verb, verbs):
+    """The verbs of [verbs] that may be [verb]'s imperfective by ASPECT_TAILS, the reflexive's of a reflexive."""
+    bare = unreflexive(verb) or verb
+    found = set()
+    for perfective, imperfective in ASPECT_TAILS:
+        if not bare.endswith(perfective) or len(bare) - len(perfective) < (1 if len(perfective) > 4 else 2):
+            continue
+        for stem in changed_stems(bare[:-len(perfective)]):
+            partner = stem + imperfective
+            if bare != verb:
+                partner = reflexive(partner)
+            if partner and partner != verb and partner in verbs:
+                found.add(partner)
+    return found
+
+
+def distinct_pair(perfective, imperfective):
+    """Whether two verbs' endings make an aspect pair that only aspect partners show (not іць, аць alone: сказіць, сказаць)."""
+    a, b = unreflexive(perfective) or perfective, unreflexive(imperfective) or imperfective
+    stem = os.path.commonprefix([a, b])
+    return len(b) - len(stem) >= 5 or a[len(stem):] not in ("іць", "ыць", "ець", "эць", "аць", "яць")
+
+
 # How each word went to another in fold, for the list's pinning: word -> (the word it went to, why).
 MERGED = {}
 
@@ -629,6 +700,7 @@ def fold(scores, forms, pos, lemmas, dictionaries, corpora):
     word, which the reader reads as its pieces, is left out.
     A word the pack glosses as another's spelling or form, or written in taraškievica, is that word's.
     A participle, verbal noun, comparative or diminutive goes to its word.
+    Of aspect, reflexive and gender partners, the one counted less goes to the other.
     """
     MERGED.clear()
     shares = name_shares(dictionaries, corpora)
@@ -784,6 +856,47 @@ def fold(scores, forms, pos, lemmas, dictionaries, corpora):
             derive(word, lemma, "form")
         else:
             parent[word], kind[word] = target, "rename"
+
+    # The partners: of two, the one counted less goes to the other.
+    aspects = verb_aspects(dictionaries)
+    first_keys = {w: gloss_keys(g) for w, g in first.items()}
+    partners = defaultdict(set)
+
+    def pair(a, b, why):
+        if a != b and a in scores and b in scores:
+            partners[a].add((b, why))
+            partners[b].add((a, why))
+
+    for verb in sorted(verbs):
+        for partner in sorted(aspect_partners(verb, verbs)):
+            # Without glosses, only by a change of ending no other verb pair shares (змясціць, змяшчаць).
+            if glossed_alike(verb, partner) or (not keys.get(verb) or not keys.get(partner)) and distinct_pair(verb, partner):
+                pair(verb, partner, "aspect")
+        for prefix in EMPTY_PREFIXES + LOAN_PREFIXES:
+            bare = verb[len(prefix):]
+            if not verb.startswith(prefix) or bare not in verbs or not first_keys.get(verb) or not keys.get(bare):
+                continue
+            if (unreflexive(bare) or bare).endswith(SECONDARY + ("нуць",)) or aspects.get(bare) == {"perfective"} or \
+                    aspects.get(verb) == {"imperfective"}:
+                continue
+            # Its glosses add nothing to the verb's first sense (зрабіць, рабіць "to do, to make"; not пахаваць "to bury",
+            # хаваць "to hide; to bury").
+            mine, its = gloss_keys(first.get(verb, ()), True), gloss_keys(first.get(bare, ()), True)
+            if covered(mine, its) and (prefix not in LOAN_PREFIXES or covered(its, mine)):
+                pair(verb, bare, "prefix")
+        # A verb in -іраваць beside one in -аваць is its other spelling (фарміраваць, фармаваць).
+        bare = unreflexive(verb) or verb
+        if bare.endswith("іраваць") and len(bare) > 9:
+            spelled = bare[:-7] + "аваць" if bare == verb else reflexive(bare[:-7] + "аваць")
+            if spelled in verbs and alike(verb, spelled):
+                pair(verb, spelled, "variant")
+        # A reflexive is its verb's partner when its first sense is a passive or shares a word with the verb's glosses
+        # (пачацца, пачаць "to begin"), and a word of its own otherwise (займацца "to study", займаць "to occupy").
+        base = unreflexive(verb)
+        if base and as_verbs([base]):
+            text = " ".join(first.get(verb, ()))
+            if verb not in first or not keys.get(base) or text.startswith("to be ") or overlap(first_keys[verb], keys[base]):
+                pair(verb, as_verbs([base])[0], "reflexive")
     for word in sorted(nouns):
         if word in parent:
             continue
@@ -794,7 +907,30 @@ def fold(scores, forms, pos, lemmas, dictionaries, corpora):
         # The first reading names what the other word does (куток "corner", кут "corner"; not мужык "peasant", муж).
         if not heads or not stem_in(heads[0], base):
             continue
-        derive(word, base, "diminutive")
+        heads = set(heads_of(word))
+        if heads & {"woman", "female", "girl"} or any(h.endswith("ess") for h in heads):
+            pair(word, base, "feminine")
+        else:
+            derive(word, base, "diminutive")
+    # Partners of partners are one word too (падняць, падымаць, падняцца, падымацца), the commonest of them its headword.
+    group = {}
+
+    def leader(word):
+        while group.get(word, word) != word:
+            word = group[word]
+        return word
+
+    for word in sorted(partners):
+        for other, _ in sorted(partners[word]):
+            if word not in parent and other not in parent:
+                a, b = sorted((leader(word), leader(other)), key=order.get)
+                if a != b:
+                    group[b] = a
+    for word in sorted(partners):
+        top = leader(word)
+        if word not in parent and top != word:
+            parent[word] = top
+            kind[word] = min((order[b], why) for b, why in partners[word])[1]
 
     def root(word):
         seen = [word]
