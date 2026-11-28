@@ -325,6 +325,10 @@ class ReadingHoverTest {
         // Closing the stage's note hides it for this stage only: the next stage shows its own.
         rule.onNodeWithTag("stage-note-close").performClick()
         rule.onNodeWithTag("stage-note").assertDoesNotExist()
+        // Its name stays, and opens it again.
+        rule.onNodeWithTag("stage-title").assertTextEquals("Read aloud").performClick()
+        rule.onNodeWithTag("stage-note").assertExists()
+        rule.onNodeWithTag("stage-note-close").performClick()
         rule.onNodeWithContentDescription("Check: Read aloud").performClick()
         rule.waitUntil(5_000) { rule.onAllNodesWithText("5 words marked as known").fetchSemanticsNodes().isNotEmpty() }
         rule.onNodeWithTag("stage-note").assertExists()

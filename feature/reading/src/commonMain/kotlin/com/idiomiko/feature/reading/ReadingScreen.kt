@@ -882,6 +882,13 @@ private fun ReadingBody(
             if (unknownLeft || notice || !compact) AppDivider(Modifier.padding(bottom = AppSpacing.xl))
             if (state.stage !in closedNotes) {
                 StageNote(state.stage, state.pageStages, onAction = { openStage(state.stage) }, onClose = { closedNotes += state.stage }, Modifier.padding(bottom = AppSpacing.xl))
+            } else {
+                // A closed note leaves the stage's name, which opens it again.
+                Text(
+                    state.stage.title(),
+                    style = AppText.sectionTitle,
+                    modifier = Modifier.padding(bottom = AppSpacing.l).clickable { closedNotes -= state.stage }.testTag("stage-title"),
+                )
             }
             state.flash?.let { Text(it, color = MaterialTheme.colorScheme.tertiary, style = MaterialTheme.typography.labelLarge) }
             val chinese = state.language?.let { LanguageCodes.codeFor(it.name) } in setOf("zh", "yue")
