@@ -5859,7 +5859,9 @@ def build_khmer(size):
         joined = len(bound)
         spelled, together, uses, pairs = cut(ranks)
         # A piece stays one once found, so that the rounds settle.
-        pieces |= khmer_pieces(uses, pairs, written, known | extra | bound | {khmer_fold(s) for s in spellings})
+        words = known | extra | bound | {khmer_fold(s) for s in spellings}
+        pieces |= khmer_pieces(uses, pairs, written, words)
+        pieces |= khmer_name_pieces(uses, pairs, words, known)
         built, label = khmer_list(sources, spelled, together, pack, spellings, size, listed, pieces)
         print(f"km round {round_}: {'unchanged' if built == text else 'changed'}, {len(bound) - joined} compounds joined", file=sys.stderr)
         if built == text and len(bound) == joined:
@@ -5984,6 +5986,40 @@ def khmer_pieces(uses, pairs, written, words):
                 or beside[word] >= KHMER_PIECE_BESIDE * n:
             pieces.add(word)
     return pieces - {khmer_fold(w) for w in frequency_km.KHMER_WORDS}
+
+
+# A word is a piece of foreign names and loanwords (khmer_name_pieces) when KHMER_NAME_BESIDE of the words written next to it
+# are such pieces too: words with the signs that write foreign sounds (៉, ៊) or a ហ្ cluster (ហ្គ, ហ្វ), short ones the pack
+# lacks, the list's left-out pieces, and letters no word covers (តាន់ of ម៉ាន់តាន់, ឡូស and អាន់ of ឡូសអាន់ជឺឡេស, ជនី of
+# ភោជនីយ, ម៉ាញ៉េ of ត្រូម៉ាញ៉េទិច).
+KHMER_NAME_BESIDE = 0.4
+KHMER_NAME_SHORT = 4
+# How many times at least the cut must find a word for it to be judged so: fewer are too few to tell.
+KHMER_NAME_MIN = 20
+
+
+def khmer_foreign(word):
+    """Whether [word] has a sign that writes a foreign sound (៉, ៊) or a ហ្ cluster (ហ្គ, ហ្វ, ហ្ស)."""
+    return "\u17c9" in word or "\u17ca" in word or "\u17a0\u17d2" in word
+
+
+def khmer_name_pieces(uses, pairs, words, known):
+    """The words the cut ([uses], [pairs]) found that are pieces of foreign names and loanwords (KHMER_NAME_BESIDE), folded."""
+    left_out = {khmer_fold(w) for w in frequency_km.KHMER_EXCLUDE}
+
+    def piece(q):
+        return khmer_foreign(q) or q not in known and len(q) <= KHMER_NAME_SHORT or q in left_out or not khmer_word(q, words)
+    beside, total = defaultdict(int), defaultdict(int)
+    for (a, b), n in pairs.items():
+        total[a] += n
+        total[b] += n
+        if piece(b):
+            beside[a] += n
+        if piece(a):
+            beside[b] += n
+    own = {khmer_fold(w) for w in frequency_km.KHMER_WORDS}
+    return {w for w, n in uses.items() if n >= KHMER_NAME_MIN and w in total and beside[w] >= KHMER_NAME_BESIDE * total[w]
+            and khmer_word(w, words)} - own
 
 
 def khmer_list(sources, spelled, together, pack, spellings, size, listed=frozenset(), pieces=frozenset()):
