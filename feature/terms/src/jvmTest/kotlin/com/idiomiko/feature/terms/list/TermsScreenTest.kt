@@ -262,6 +262,7 @@ class TermsScreenTest {
         onNodeWithText("Acredito na amizade.").assertExists()
         onNodeWithText("Search terms or translations").assertDoesNotExist()
         onNodeWithText("Filters").assertDoesNotExist()
+        onNodeWithText("Clear filters").assertDoesNotExist()
         System.getenv("TERMS_SCREENSHOT")?.let { ImageIO.write(onAllNodes(isRoot())[0].captureToImage().toAwtImage(), "png", File(it.replace(".png", "-dialog.png"))) }
     }
 

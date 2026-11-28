@@ -208,7 +208,7 @@ fun TermsScreen(
             }
             item { Toolbar(state, viewModel, compact, overText = dialog) }
             if (state.filtersVisible) item(key = "filters") { Column(itemMotion()) { FilterPanel(state, viewModel, pageNote = !dialog) } }
-            if (state.activeFilterCount > 0) item { ActiveFilters(state, viewModel, onEdit = { if (!state.filtersVisible) viewModel.toggleFilters() }) }
+            if (!dialog && state.activeFilterCount > 0) item { ActiveFilters(state, viewModel, onEdit = { if (!state.filtersVisible) viewModel.toggleFilters() }) }
             // Ticking terms brings their actions into view, above the list.
             if (state.selected.isNotEmpty()) item(key = "selection") { Column(itemMotion()) { TermsSelectionBar(state, listActions, onClear = { viewModel.selectAllVisible(false) }) } }
             if (state.loading) {

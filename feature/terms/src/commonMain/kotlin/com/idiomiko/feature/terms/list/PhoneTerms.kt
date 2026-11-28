@@ -175,7 +175,7 @@ internal fun PhoneTermsScreen(
                     if (!inside) FiltersButton(open = filtering, count = state.activeFilterCount, onClick = { filtering = true })
                 }
             }
-            state.filter.termIds?.let { ids ->
+            if (!inside) state.filter.termIds?.let { ids ->
                 item {
                     Text(
                         trPlural(ids.size, "Showing {0} term from the current page.", "Showing {0} terms from the current page."),
@@ -185,7 +185,7 @@ internal fun PhoneTermsScreen(
                     )
                 }
             }
-            if (state.activeFilterCount > 0) item { ActiveFilters(state, viewModel, onEdit = { filtering = true }) }
+            if (!inside && state.activeFilterCount > 0) item { ActiveFilters(state, viewModel, onEdit = { filtering = true }) }
             if (state.loading) {
                 item { Text(tr("Loading..."), Modifier.padding(AppSpacing.l), color = colors.onSurfaceVariant) }
             } else if (state.terms.isEmpty()) {
