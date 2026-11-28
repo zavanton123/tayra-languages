@@ -372,6 +372,27 @@ CYRILLIC = re.compile("[А-ЯЁІЎа-яёіў'’ʼ]+")
 NAME_LEAST = 5
 # Colloquial words and abbreviations the courses do not teach.
 NOT_WORDS = {"ейны", "англ"}
+# The pack's glosses that name another word a word is a spelling of, anywhere ("symbols (classical spelling of сімволіка)"),
+# or a form of, in its first sense ("ring (form of кальцо)", "statues (form of статуя)", "(diminutive of вока) little eye").
+SPELLING_OF = re.compile(r"\((?:[a-z]+ )*(?:spelling|variant|form) of ([а-яёіў']+)\)")
+SPELLING_KINDS = ("spelling of", "variant of", "classical form of", "nonstandard form of")
+FORM_OF = re.compile(r"\((?:[a-z.]+ )*(?:form|plural|diminutive|fem\.) of ([а-яёіў']+)")
+# Other spellings the glosses do not name: taraškievica's (актор, the standard акцёр; мажлівасць, магчымасць), variants
+# (складвацца, наведнік, атрымваць, кошка), a misread one (каласка, made of каляскі by official_spellings).
+VARIANTS = {"актор": "акцёр", "складвацца": "складацца", "наведнік": "наведвальнік", "кошка": "котка", "каласка": "каляска",
+            "атрымваць": "атрымліваць", "мажлівасць": "магчымасць"}
+# The letters taraškievica writes for the official ones, each tried at one place of a word at a time (элемэнт, элемент;
+# рэжысэр, рэжысёр; энэргія, энергія), as official_spellings tries them throughout.
+TARASKIEVICA_LETTERS = (("э", "е"), ("э", "ё"), ("зы", "зі"), ("сы", "сі"), ("ля", "ла"), ("лю", "лу"), ("лё", "ло"),
+                        ("зт", "ст"), ("зк", "ск"))
+# English words of no weight when glosses are compared.
+GLOSS_STOP = {"to", "the", "a", "an", "of", "one", "oneself", "someone", "something", "somebody", "be", "is", "in", "on", "at",
+              "by", "for", "with", "from", "up", "out", "off", "into", "onto", "over", "as", "and", "or", "its", "it", "about",
+              "down", "away", "back", "get", "become", "each", "other"}
+ENGLISH = re.compile("[a-z]+")
+# The endings an English word's stem is found without (formation, form; division, divide; filled, fill).
+ENGLISH_ENDINGS = ("ations", "ation", "itions", "ition", "tions", "tion", "sions", "sion", "ments", "ment", "ings", "ing",
+                   "ances", "ance", "ences", "ence", "ities", "ity", "ers", "er", "ed", "es", "al", "ure", "ive", "ly", "s", "e")
 
 
 def name_shares(dictionaries, corpora):
@@ -393,6 +414,69 @@ def name_shares(dictionaries, corpora):
     return {w: n / total[w] for w, n in named.items() if total[w] >= NAME_LEAST}
 
 
+def glosses(dictionaries):
+    """The be-en pack's glosses of each word, and of its first sense."""
+    every, first = defaultdict(list), defaultdict(list)
+    with sqlite3.connect(os.path.join(dictionaries, "be-en.sqlite")) as db:
+        for word, senses in db.execute("SELECT word_lc, senses FROM entries ORDER BY id"):
+            senses = json.loads(senses)
+            every[word].extend(g for s in senses for g in s.get("glosses", []))
+            if senses and word not in first:
+                first[word] = list(senses[0].get("glosses", []))
+    return every, first
+
+
+def english_stem(word):
+    for ending in ENGLISH_ENDINGS:
+        if word.endswith(ending) and len(word) - len(ending) >= 3:
+            return word[:-len(ending)][:6]
+    return word[:6]
+
+
+def same_stem(a, b):
+    """Whether two English stems are one word's (explan, explai; divi, divid)."""
+    short, long = sorted((a, b), key=len)
+    return a == b or len(short) >= 5 and a[:5] == b[:5] or len(short) >= 4 and long.startswith(short)
+
+
+def overlap(a, b):
+    return any(same_stem(x, y) for x in a for y in b)
+
+
+def covered(a, b):
+    """Whether every stem of [a] is one of [b]'s."""
+    return all(any(same_stem(x, y) for y in b) for x in a)
+
+
+def gloss_keys(texts):
+    """The stems of the English words of glosses that carry their sense."""
+    words = ENGLISH.findall(re.sub(r"\([^)]*\)", " ", " ".join(texts).lower()))
+    return {english_stem(w) for w in words if w not in GLOSS_STOP and len(w) > 1}
+
+
+def gloss_heads(texts):
+    """The first English word of each of the glosses' readings ("passing, going through": passing, going)."""
+    heads = []
+    for text in texts:
+        for part in re.split("[,;]", re.sub(r"\([^)]*\)", " ", text.lower())):
+            words = [w for w in ENGLISH.findall(part) if w not in GLOSS_STOP]
+            if words:
+                heads.append(words[0])
+    return heads
+
+
+def spelling_variants(word):
+    """The official spellings a word written in taraškievica may have: official_spellings's, and one letter of TARASKIEVICA_LETTERS
+    changed at a time (элемэнт, элемент; рэжысэр, рэжысёр)."""
+    found = [official(word)] + official_spellings(word)
+    for old, new in TARASKIEVICA_LETTERS:
+        start = word.find(old)
+        while start >= 0:
+            found.append(word[:start] + new + word[start + len(old):])
+            start = word.find(old, start + 1)
+    return [f for f in dict.fromkeys(found) if f != word]
+
+
 # How each word went to another in fold, for the list's pinning: word -> (the word it went to, why).
 MERGED = {}
 
@@ -401,6 +485,7 @@ def fold(scores, forms, pos, lemmas, dictionaries, corpora):
     """
     After the counting: a form's capitalised uses inside a sentence are a name's and count for no word, and a hyphenated
     word, which the reader reads as its pieces, is left out.
+    A word the pack glosses as another's spelling or form, or written in taraškievica, is that word's.
     """
     MERGED.clear()
     shares = name_shares(dictionaries, corpora)
@@ -411,3 +496,110 @@ def fold(scores, forms, pos, lemmas, dictionaries, corpora):
         scores[word] = sum(counted.values())
     for word in sorted(w for w in scores if "-" in w or scores[w] <= 0 or w in NOT_WORDS):
         del scores[word]
+    every, first = glosses(dictionaries)
+    keys = {w: gloss_keys(g) for w, g in every.items()}
+    order = {w: i for i, w in enumerate(sorted(scores, key=lambda w: (-scores[w], w)))}
+    nouns = {w for w in scores if "noun" in pos.get(w, ())}
+
+    def alike(a, b):
+        """Whether two words' glosses share a word, or either has none."""
+        return not keys.get(a) or not keys.get(b) or overlap(keys[a], keys[b])
+
+    def glossed_alike(a, b):
+        """Whether two words have glosses that share a word."""
+        return overlap(keys.get(a, ()), keys.get(b, ()))
+
+    def heads_of(word):
+        return gloss_heads(first.get(word, ()))
+
+    parent, kind = {}, {}
+
+    def derive(word, base, why):
+        if word not in parent and base != word and base in scores:
+            parent[word], kind[word] = base, why
+
+    # Spellings and forms the glosses name, by hand, and in taraškievica.
+    for word in sorted(scores):
+        for text in every.get(word, ()):
+            for match in SPELLING_OF.finditer(text):
+                if any(k in match.group(0) for k in SPELLING_KINDS):
+                    derive(word, match.group(1), "spelling")
+        for match in FORM_OF.finditer(" ".join(first.get(word, ()))):
+            target = match.group(1)
+            if target in scores:
+                derive(word, target, "form")
+            elif word not in parent and not lemmas.get(target) and target not in pos:
+                # A word the list lacks is the headword of its forms (кольца, кальцо).
+                parent[word], kind[word] = target, "rename"
+        if word in VARIANTS:
+            if VARIANTS[word] in scores:
+                derive(word, VARIANTS[word], "spelling")
+            elif word not in parent:
+                parent[word], kind[word] = VARIANTS[word], "rename"
+        # A verbal noun's genitive (напісання) is the noun's.
+        if word.endswith("ння") and "noun" in pos.get(word, ()) and word not in parent and (
+                word not in every or word[:-1] + "е" in " ".join(every[word])):
+            if word[:-1] + "е" in scores:
+                derive(word, word[:-1] + "е", "form")
+            elif not lemmas.get(word[:-1] + "е"):
+                parent[word], kind[word] = word[:-1] + "е", "rename"
+        for spelled in spelling_variants(word):
+            if spelled in scores and (glossed_alike(word, spelled) or word not in every) and \
+                    pos.get(word, set()) & pos.get(spelled, set()):
+                derive(word, spelled, "spelling")
+                break
+
+    # A noun without glosses that the corpus made of a form (кішэчніка, правіянта, ільгот, жылак, відэакамер, палаткі) is
+    # its nominative's: a masculine's genitive whose stem is among its forms, at least half as common, with no feminine's
+    # instrumental; a genitive plural with a feminine's instrumental among its forms; a plural of a listed noun.
+    def feminine(stem, counted):
+        return any(stem + e in counted for e in ("ай", "аю", "яй", "яю", "ой", "ою"))
+
+    for word in sorted(nouns):
+        if word in parent or word in every or pos.get(word) != {"noun"}:
+            continue
+        counted = forms.get(word, {})
+        stem = word[:-1]
+        target = None
+        if word[-1:] in "ая" and counted.get(stem, 0) >= 0.5 * counted.get(word, 0) > 0 and not feminine(stem, counted):
+            target = stem
+        elif word.endswith("ца") and counted.get(word[:-2] + "ец", 0) >= 0.5 * counted.get(word, 0) > 0 and not feminine(
+                stem, counted):
+            # A noun in -ец (мудраца, мудрэц; галандца, галандзец).
+            target = word[:-2] + "ец"
+        elif word[-1:] not in VOWELS and word[-2:-1] in "аое" and word[-3:-2] in "кц" and feminine(word[:-2] + "к", counted):
+            target = word[:-2] + "ка"
+        elif word[-1:] not in VOWELS and feminine(word, counted):
+            target = word + "а"
+        elif word[-1:] in "ыі" and stem + "а" in scores:
+            target = stem + "а"
+        if not target or target == word:
+            continue
+        lemma = next((l for l in lemmas.get(target, ()) if l in scores and l != word), None)
+        if target in scores:
+            derive(word, target, "form")
+        elif lemma:
+            derive(word, lemma, "form")
+        else:
+            parent[word], kind[word] = target, "rename"
+
+    def root(word):
+        seen = [word]
+        while seen[-1] in parent and parent[seen[-1]] not in seen:
+            seen.append(parent[seen[-1]])
+        return seen[-1]
+
+    for word in sorted(parent, key=lambda w: (-order.get(w, 0), w)):
+        if word not in scores:
+            continue
+        into = root(word)
+        if into == word:
+            continue
+        if into not in scores:
+            pos[into] = pos.get(into, set()) | pos.get(word, set())
+            forms[into] = {}
+        for form, credit in sorted(forms.pop(word).items()):
+            forms[into][form] = forms[into].get(form, 0) + credit
+        scores[into] = sum(forms[into].values())
+        del scores[word]
+        MERGED[word] = (into, kind[word])
