@@ -122,10 +122,10 @@ internal class ReaderPaneActions(
     val onSpeechSettings: () -> Unit,
 )
 
-internal enum class PaneTab { READING, AUDIO, APPEARANCE }
+internal enum class PaneTab { APPEARANCE, READING, AUDIO }
 
 /**
- * The reader's settings in three tabs (reading, audio, appearance), or the book's bookmarks: a
+ * The reader's settings in three tabs (appearance, reading, audio), or the book's bookmarks: a
  * large dialog beyond a phone, with the cards in two columns, and a screen of its own on a phone.
  * Every change is saved as it is made; Done only closes them.
  */
@@ -137,7 +137,7 @@ internal fun ReaderPane(
     onClose: () -> Unit,
 ) {
     var showBookmarks by rememberSaveable { mutableStateOf(false) }
-    var tab by rememberSaveable { mutableStateOf(PaneTab.READING) }
+    var tab by rememberSaveable { mutableStateOf(PaneTab.APPEARANCE) }
     var confirmReset by remember { mutableStateOf(false) }
     val bookmarks by viewModel.bookmarks.collectAsState()
     val colors = MaterialTheme.colorScheme
@@ -157,9 +157,9 @@ internal fun ReaderPane(
         if (!showBookmarks) {
             SegmentedToggle(
                 listOf(
+                    Segment(PaneTab.APPEARANCE, AppIcons.FormatSize, tr("Appearance"), testTag = "pane-tab-APPEARANCE"),
                     Segment(PaneTab.READING, AppIcons.MenuBook, tr("Reading"), testTag = "pane-tab-READING"),
                     Segment(PaneTab.AUDIO, AppIcons.VolumeUp, tr("Audio"), testTag = "pane-tab-AUDIO"),
-                    Segment(PaneTab.APPEARANCE, AppIcons.FormatSize, tr("Appearance"), testTag = "pane-tab-APPEARANCE"),
                 ),
                 selected = tab,
                 onSelect = { tab = it },
@@ -181,6 +181,7 @@ internal fun ReaderPane(
                 TallestTab(
                     PaneTab.entries.indexOf(tab),
                     listOf(
+                        { Columns(phone, { TypographyCard(state, viewModel) }, { PreviewCard(state) }) },
                         {
                             Columns(
                                 phone,
@@ -195,7 +196,6 @@ internal fun ReaderPane(
                                 { VoiceCard(state, viewModel, toSpeechSettings); if (phone) SpeedCard(state, viewModel) },
                             )
                         },
-                        { Columns(phone, { TypographyCard(state, viewModel) }, { PreviewCard(state) }) },
                     ),
                     // A lesson has none of the tools: no editing, no bookmarks, and its vocabulary is at its end.
                     after = { if (state.lesson == null) ReaderTools(state, bookmarksOpen = false, onBookmarks = { showBookmarks = true }, actions = actions, onClose = onClose) },

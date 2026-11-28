@@ -867,6 +867,8 @@ class ReadingHoverTest {
 
         // Nothing is left for the reader's tools: no editing, no bookmarks, and the vocabulary is at the end.
         rule.onNodeWithContentDescription("Reader settings").performClick()
+        rule.waitUntil(5_000) { rule.onAllNodesWithTag("pane-tab-READING").fetchSemanticsNodes().isNotEmpty() }
+        rule.onNodeWithTag("pane-tab-READING").performClick()
         rule.waitUntil(5_000) { rule.onAllNodesWithText("Sentence layout").fetchSemanticsNodes().isNotEmpty() }
         for (tool in listOf("tool-edit", "tool-bookmarks", "tool-vocabulary")) {
             assertTrue(rule.onAllNodesWithTag(tool).fetchSemanticsNodes().isEmpty(), "a lesson has no $tool")
@@ -1033,6 +1035,8 @@ class ReadingHoverTest {
         rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = {}, viewModel = vm) }
         rule.waitUntil(5_000) { rule.onAllNodesWithText("lobo dorme", substring = true).fetchSemanticsNodes().isNotEmpty() }
         rule.onNodeWithContentDescription("Reader settings").performClick()
+        rule.waitUntil(5_000) { rule.onAllNodesWithTag("pane-tab-READING").fetchSemanticsNodes().isNotEmpty() }
+        rule.onNodeWithTag("pane-tab-READING").performClick()
         rule.waitUntil(5_000) { rule.onAllNodesWithText("Sentence layout").fetchSemanticsNodes().isNotEmpty() }
         System.getenv("READER_PANE_SCREENSHOT")?.let { path ->
             rule.waitForIdle()
@@ -1075,6 +1079,8 @@ class ReadingHoverTest {
             rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = {}, viewModel = vm) }
             rule.waitUntil(5_000) { rule.onAllNodesWithText("lobo dorme", substring = true).fetchSemanticsNodes().isNotEmpty() }
             rule.onNodeWithContentDescription("Настройки чтения").performClick()
+            rule.waitUntil(5_000) { rule.onAllNodesWithTag("pane-tab-READING").fetchSemanticsNodes().isNotEmpty() }
+            rule.onNodeWithTag("pane-tab-READING").performClick()
             rule.waitUntil(5_000) { rule.onAllNodesWithText("Предложения").fetchSemanticsNodes().isNotEmpty() }
             rule.onNodeWithText("Предложения").performScrollTo()
             System.getenv("READER_PANE_SCREENSHOT")?.let { path ->
