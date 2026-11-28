@@ -3650,6 +3650,11 @@ def maltese_counts(language, limit, source="leipzig"):
             if pieces:
                 starts = not cut or any(c in VIETNAMESE_STARTS for c in sentence[end:match.start()])
                 written = match.group(0)[2 * (len(pieces) - 1):]
+                # A word written after a capitalised one and a space, capitalised itself (George Bush, Glasgow Rangers): a
+                # name's later piece if the first is a name (frequency_maltese).
+                if cut and not starts and written[:1].isupper() and cut[-1][1][:1].isupper() and (
+                        sentence[end:match.start()] == " "):
+                    frequency_maltese.AFTER[cut[-1][0], pieces[-1]] += 1
                 if {sentence[match.start() - 1:match.start()], sentence[match.end():match.end() + 1]} & MALTESE_DAMAGE or (
                         MALTESE_DAMAGE & set(match.group(0))):
                     frequency_maltese.DAMAGED[pieces[-1]] += 1

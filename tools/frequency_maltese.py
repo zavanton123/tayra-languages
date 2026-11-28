@@ -37,7 +37,9 @@ WRITTEN = defaultdict(int)
 LOWER = defaultdict(int)
 # And how often it is written before a hyphen that is no article's (kontro-eżami, Kon-Katidral).
 HYPHENED = defaultdict(int)
-# How often a piece is written next to text left damaged (gÄ§andha's andha, after the mending).
+# How often a capitalised piece is written after another and a space (George Bush: AFTER["george", "bush"]), and how often
+# next to text left damaged (gÄ§andha's andha, after the mending).
+AFTER = defaultdict(int)
 DAMAGED = defaultdict(int)
 
 LETTERS = re.compile("[a-zàèìòùċġħż]+")
@@ -475,6 +477,11 @@ NAME_SHARE = 0.1
 NAME_LEAST = 20
 NAME_MOST = 400
 PIECE_SHARE = 0.5
+# A name's later piece is written capitalised after a name at least AFTER_NAME_SHARE of its uses, and in lowercase less than
+# AFTER_NAME_LOWER of the times no sentence starts with it (Bush of George Bush, Rangers, Arts; not ministru, kurunell).
+AFTER_NAME_SHARE = 0.3
+AFTER_NAME_LOWER = 0.35
+AFTER_NAME_LEAST = 10
 # A word no pack has is English when the English dictionary (en-en) has it, or its singular, and English text has it at least
 # ENGLISH_SHARE times as often as Maltese text (goalkeeper, meetings, stakeholders, roundabout); a word's form, when English
 # has it ENGLISH_RATIO times as often (smart, filed under smar). A piece written next to damaged text DAMAGED_SHARE of its
@@ -630,8 +637,8 @@ def fold(scores, forms, pos, pack, supplement):
     Moves each word of the counts that is a listed word's form into that word, with its forms: a participle (ffinanzjata,
     mħallsa: ffinanzja, ħallas), a feminine or plural (eterna: etern), a verb's person (jqajjem: qajjem; nħarġet: nħareġ), a
     passive whose active is listed (ntalab: talab; jitħallas: ħallas), one with a pronoun (tawh: ta), a plural or form its gloss
-    names (kisbiet: kisba), another spelling glossed alike (dettal: dettall). Drops names (Qawra) and a compound's first
-    pieces (kontro, kon), and the English, Italian and damaged text no pack has (goalkeeper, punto);
+    names (kisbiet: kisba), another spelling glossed alike (dettal: dettall). Drops names (Qawra), their later pieces (Bush)
+    and a compound's first pieces (kontro, kon), and the English, Italian and damaged text no pack has (goalkeeper, punto);
     the [pack] glosses (its hand-written ones, [supplement], name the word anywhere), and the English dictionary beside it
     tells English. Returns what went where (None: dropped).
     """
@@ -770,6 +777,12 @@ def fold(scores, forms, pos, pack, supplement):
         return first(sorted(spellings(word)), word, lambda to, base: k & kinds(to) and scores[to] > scores[word] and alike & {
             re.sub(r"\([^)]*\)", "", g).strip().lower() for g in glosses.get(to, ())})
 
+    # How often a word is written as a name's later piece: capitalised after a name (George Bush).
+    after = defaultdict(int)
+    for (before, word), times in AFTER.items():
+        if before != word and WRITTEN.get(before, 0) >= 3 and LOWER.get(before, 0) < NAME_SHARE * WRITTEN[before]:
+            after[word] += times
+
     moves = {}
     for word in ranked:
         if not LETTERS.fullmatch(word.rstrip("'")):
@@ -785,6 +798,9 @@ def fold(scores, forms, pos, pack, supplement):
         elif SEEN_IN.get(word) and HYPHENED.get(word, 0) >= PIECE_SHARE * SEEN_IN[word]:
             moves[word] = None
         elif NAME_LEAST <= WRITTEN.get(word, 0) < NAME_MOST and LOWER.get(word, 0) < NAME_SHARE * WRITTEN[word]:
+            moves[word] = None
+        elif SEEN_IN.get(word, 0) >= AFTER_NAME_LEAST and after[word] >= AFTER_NAME_SHARE * SEEN_IN[word] and LOWER.get(
+                word, 0) < AFTER_NAME_LOWER * WRITTEN.get(word, 0):
             moves[word] = None
 
     def final(word):
