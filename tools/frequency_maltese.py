@@ -479,6 +479,9 @@ def induce(pos, lemmas, common, free, suffixed):
 LISTED = 10_000
 NAME_SHARE = 0.1
 NAME_LEAST = 20
+# A word written so few times is a name only when written in lowercase less than NAME_SHARE of them (Basra, Xebb, Żebbiegħ,
+# Fatar: never in lowercase).
+FEW_NAME_LEAST = 4
 NAME_MOST = 400
 PIECE_SHARE = 0.5
 # A name's later piece is written capitalised after a name at least AFTER_NAME_SHARE of its uses, and in lowercase less than
@@ -549,6 +552,8 @@ GLOSS_STOP = {
 FEMININE_TUR = re.compile("(.{3,})triċi")
 # A gloss of a noun with a pronoun on it (widnejja "my ears", xogħlhom "their work").
 POSSESSED = re.compile(r"^(?:my|your|his|her|its|our|their) ")
+# An indirect object written onto a verb, with the negative or without (jibnilu, jgħamillix).
+INDIRECT = ("li", "lu", "lha", "lhom", "lna", "lkom", "lek", "lok", "lix", "lux", "lhiex", "lhomx", "lniex", "lekx")
 # The ends of an English word for one who does something (rower, interpreter, referee, flautist).
 AGENT_ENDS = ("er", "or", "ee", "ist", "ess")
 
@@ -833,7 +838,7 @@ def fold(scores, forms, pos, pack, supplement):
         return any(english_db.execute("SELECT 1 FROM entries WHERE word_lc = ? LIMIT 1", (t,)).fetchone() for t in tries)
 
     def is_english(word, share):
-        return word not in packed and english(word) > 0 and english(word) >= share * counted(word) and in_english(word)
+        return word not in english_packed and english(word) > 0 and english(word) >= share * counted(word) and in_english(word)
 
     def is_italian(word):
         return word not in packed and counted(word) > 0 and bool(ITALIAN_LETTERS.fullmatch(word)) and not re.search(
@@ -906,6 +911,16 @@ def fold(scores, forms, pos, pack, supplement):
                 if marked and k & kinds(to):
                     return to
         return None
+
+    def loan(word):
+        """Whether [word] is an English word the pack glosses as itself and Maltese gives no plural of its own (triathlon,
+        landfill, tanker "tanker (ship)", rapporteur; not dolmen, whose dolmenijiet the counts have)."""
+        if not re.fullmatch("[a-z]+", word) or not in_english(word) or not english(word):
+            return False
+        own = [g for g in firsts.get(word, [])[:1] + written.get(word, "").split(" ; ")[:1]]
+        if word not in {re.sub(r"\([^)]*\)", "", g).strip().lower() for g in own}:
+            return False
+        return not any(counted(f) for f in noun_forms(word) if not f.endswith("s"))
 
     def slipped(word, ratio):
         """The listed word most of [word]'s counted forms are slips for, each written [ratio] times as often: a letter missing
@@ -1094,15 +1109,29 @@ def fold(scores, forms, pos, pack, supplement):
             continue
         # English (goalkeeper, meetings), Italian (punto) and pieces of damaged text no pack has are no words.
         damaged = 0 < SEEN_IN.get(word, 0) * DAMAGED_SHARE <= DAMAGED.get(word, 0)
-        if word not in packed and (is_english(word, ENGLISH_SHARE) or is_italian(word) or damaged):
+        # (The other packs have English words too, hairdresser, pullman: those English text has as often as Maltese.)
+        if word not in packed and (is_italian(word) or damaged) or is_english(
+                word, ENGLISH_SHARE if word not in packed else 1) or loan(word):
             moves[word] = None
+            continue
+        # A piece written after m' (inix of m'inix, għandnix of m'għandnix) is the negative of its word, or no word.
+        if any(g.startswith("(in m'") for g in written.get(word, "").split(" ; ")):
+            moves[word] = listed_as(word[:-1]) if word.endswith("x") else None
             continue
         found = TAUGHT_AS.get(word) or target(word)
         if found:
             moves[word] = found
         elif SEEN_IN.get(word) and HYPHENED.get(word, 0) >= PIECE_SHARE * SEEN_IN[word]:
             moves[word] = None
-        elif NAME_LEAST <= WRITTEN.get(word, 0) < NAME_MOST and LOWER.get(word, 0) < NAME_SHARE * WRITTEN[word]:
+        elif FEW_NAME_LEAST <= WRITTEN.get(word, 0) < NAME_MOST and LOWER.get(word, 0) < NAME_SHARE * WRITTEN[word]:
+            moves[word] = None
+        # One no pack has, written capitalised more often than not where no sentence starts, is a name or foreign (Dwardu, père,
+        # honoris).
+        elif word not in packed and WRITTEN.get(word, 0) >= 3 and 2 * LOWER.get(word, 0) < WRITTEN[word]:
+            moves[word] = None
+        # A verb found by imperfects with "to him/her/me" on them (jissuġġerilu, jibnilu: issuġġerila, ibnila) is no verb.
+        elif word not in packed and verb(word) and word.endswith("la") and (word[-3] in VOWELS or word[-4:-3] == "i") and 2 * sum(
+                share for form, share in forms.get(word, {}).items() if form.endswith(INDIRECT)) >= scores[word]:
             moves[word] = None
         elif SEEN_IN.get(word, 0) >= AFTER_NAME_LEAST and after[word] >= AFTER_NAME_SHARE * SEEN_IN[word] and LOWER.get(
                 word, 0) < AFTER_NAME_LOWER * WRITTEN.get(word, 0):
