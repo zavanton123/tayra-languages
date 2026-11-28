@@ -37,7 +37,7 @@ def marathi_fold(form):
     form = form.replace("\u094d\u200d", "\u094d").replace("\u094d\u0931\u094d", "\u094d\u0930\u094d")
     # ऱ with no virama before a consonant (दुसऱया), and य़ after a consonant (मोठय़ा), are the old font's ऱ्य and ्य.
     form = re.sub(f"\u0931(?=[{CONSONANTS}])", "\u0931\u094d", form)
-    form = re.sub(f"(?<=[{CONSONANTS}])\u092f\u093c", "\u094d\u092f", form)
+    form = re.sub(f"(?<=[{CONSONANTS}])\u092f\u093c", "\u094d\u092f", form).replace("\u094d\u092f\u093c", "\u094d\u092f")
     # A nukta after a vowel sign or at the start is a slip (आहे़).
     form = re.sub(f"(?<![{CONSONANTS}])\u093c", "", form)
     return form
@@ -53,7 +53,12 @@ POSTPOSITIONS = ["साठी", "मध्ये", "मधून", "मधी�
                  "बरोबर", "सोबत", "सह", "शिवाय", "विना", "जवळ", "समोर", "मागे", "पुढे", "खाली", "नंतर", "पूर्वी", "आधी", "पेक्षा",
                  "प्रमाणे", "सारखा", "सारखी", "सारखे", "सारख्या", "सारखं", "मुळे", "विषयी", "बद्दल", "करिता", "ऐवजी", "द्वारे",
                  "पाशी", "भोवती", "विरुद्ध", "विरोधात", "पलीकडे", "बाबत", "संदर्भात", "पैकी", "तर्फे", "अंतर्गत", "दरम्यान",
-                 "निमित्त", "निमित्ताने", "आत", "बाहेर", "मार्फत", "पोटी", "लाही", "लाच", "चाच", "चीच", "चेच", "च्याच"]
+                 "निमित्त", "निमित्ताने", "आत", "बाहेर", "मार्फत", "पोटी", "लाही", "लाच", "चाच", "चीच", "चेच", "च्याच", "हून",
+                 "नुसार", "संबंधी"]
+# The genitives of the locative and of postpositions (गावातला, गल्लीतल्या, धाब्यावरच्या, घरामधला, आईबद्दलचे), on the oblique.
+POSTPOSITIONS += [p + t for p in ("त", "वर", "मध", "बद्दल", "साठी", "पर्यंत", "पासून", "कड", "जवळ", "समोर", "नंतर", "पूर्वी", "बाबत",
+                                  "संबंधी")
+                  for t in (("ला", "ली", "ले", "ल्या", "लं") if p in ("त", "मध") else ("चा", "ची", "चे", "च्या", "चं"))]
 OBLIQUE_TAILS = CASES + POSTPOSITIONS
 CLITICS = ["च", "ही", "सुद्धा"]
 # Many nouns take the cases on their direct form too (सरकारने, रेल्वेत, सकाळचा, बाहेरच्या, प्रकारचे), and adverbs of time
@@ -61,7 +66,7 @@ CLITICS = ["च", "ही", "सुद्धा"]
 # in them (सावंत, मानस, परवाना, जोशी); after a consonant not the locative -त, -तून, -तील either (रावत, कामत), which goes on
 # the oblique (हॉटेलात).
 DIRECT_TAILS = [t for t in OBLIQUE_TAILS if t not in ("ं", "ंत", "स", "ना", "नी", "शी")]
-CONSONANT_DIRECT_TAILS = [t for t in DIRECT_TAILS if t not in ("त", "तून", "तील")]
+CONSONANT_DIRECT_TAILS = [t for t in DIRECT_TAILS if t not in ("त", "तून", "तील", "तला", "तली", "तले", "तल्या", "तलं")]
 ADVERB_TAILS = ["चा", "ची", "चे", "च्या", "चं", "पर्यंत", "पासून"]
 # The tails that also end a verb's past or present (बसला, नसतील): not on a word that is a verb's stem too (बस, नस).
 VERB_LIKE_TAILS = ("ला", "लाच", "लाही", "त", "तील")
@@ -72,9 +77,10 @@ PRESENT_TAILS = ["त", "तो", "ते", "ता", "तात", "तोस", 
                  "तच", "तोच", "तेच", "ताच", "त्या", "ती"]
 FUTURE_TAILS = ["ेन", "ीन", "शील", "ेल", "ू", "ाल", "तील", "ेल", "ूया", "ूयात", "ा", "ावा", "ावी", "ावे", "ाव्या", "ावं", "ावेत",
                 "ावीत", "ावेसे", "ावेसा", "ावेसं", "ावेसेच", "ायचा", "ायची", "ायचे", "ायच्या", "ायचं", "ायचो", "ायचास", "ायला",
-                "ायलाच", "ायलाही", "ावयाचे", "ावयाचा", "ावयाची", "ावयाच्या", "ून", "ूनही", "ूनच", "ूनसुद्धा", "ू नका"]
+                "ायलाच", "ायलाही", "ावयाचे", "ावयाचा", "ावयाची", "ावयाच्या", "ून", "ूनही", "ूनच", "ूनसुद्धा", "ू नका", "ेपर्यंत",
+                "ेना"]
 VOWEL_FUTURE_TAILS = ["ईन", "शील", "ईल", "ऊ", "ल", "तील", "ऊया", "वा", "वी", "वे", "व्या", "वं", "वेत", "वीत", "यचा", "यची", "यचे",
-                      "यच्या", "यचं", "यचो", "यला", "यलाच", "यलाही", "ऊन", "ऊनही", "ऊनच"]
+                      "यच्या", "यचं", "यचो", "यला", "यलाच", "यलाही", "ऊन", "ऊनही", "ऊनच", "ईपर्यंत", "ईना"]
 INFINITIVE_TAILS = ["णे", "णं", "णार", "णारा", "णारी", "णारे", "णाऱ्या", "णाऱ्यां", "णाऱ्यांना", "णाऱ्यांनी", "णाऱ्यांचा", "णाऱ्यांची",
                     "णाऱ्यांचे", "णाऱ्यांच्या", "णाऱ्याला", "णाऱ्याचा", "णाऱ्याची", "णाऱ्याचे", "णाऱ्याच्या", "णारं", "णारच", "णारही",
                     "णेच", "णेही", "णंच"]
@@ -110,6 +116,7 @@ MARATHI_PRONOUNS = {
     "जो": ("ज्या ज्याला ज्याने ज्याचा ज्याची ज्याचे ज्याच्या ज्याचं जी जे ज्यांना ज्यांनी ज्यांचा ज्यांची ज्यांचे ज्यांच्या जोच", ["ज्या", "ज्यां", "ज्याच्या", "ज्यांच्या"]),
     "स्वतः": ("स्वतःला स्वतःचा स्वतःची स्वतःचे स्वतःच्या स्वतःचं स्वतःच स्वतःशी स्वतःहून स्वत", ["स्वतःच्या"]),
     "कोणी": ("कोणीतरी कुणीतरी कोणालातरी कुणालातरी", []),
+    "एकमेक": ("एकमेकांना एकमेकांनी एकमेकांचा एकमेकांची एकमेकांचे एकमेकांच्या एकमेकांचं एकमेकांनाच एकमेकांचेच", ["एकमेकां"]),
 }
 MARATHI_FORMS = {
     # असणे's present and past (आहे, होता), and its negative नसणे's (नाही is the particle "no, not").
@@ -159,6 +166,18 @@ MARATHI_FORMS = {
     "इथून": "इथे", "येथून": "इथे", "तिथून": "तिथे", "तेथून": "तिथे", "कुठून": "कुठे", "कोठून": "कुठे", "दिवशी": "दिवस",
     "दिवशीच": "दिवस", "दिवशीही": "दिवस", "वेळाने": "वेळ", "वेळानं": "वेळ",
     "पहिल्यांदा": "पहिले", "पहिल्यांदाच": "पहिले",
+    # The genitives of adverbs of place (पुढचा "next", मागचा, खालचा, वरचा, आतला).
+    **{stem + t: word for stem, word, tails in (("पुढ", "पुढे", "च"), ("माग", "मागे", "च"), ("खाल", "खाली", "च"), ("वर", "वर", "च"),
+                                                ("आत", "आत", "ल"))
+       for t in (tails + e + c for e in ("ा", "ी", "े", "्या", "ं") for c in ("", "च", "ही"))},
+    # स्त्री's plural स्त्रिया, on स्त्रियां- in the cases (स्त्रियांना).
+    **{f: "स्त्री" for f in ["स्त्रिया"] + [c + t for c in ("स्त्रियां",) for t in CASES + POSTPOSITIONS]},
+    # Spellings of conjunctives with व for ऊ, or ऊ for वू (घेवून for घेऊन, ठेऊन for ठेवून).
+    "घेवून": "घेणे", "देवून": "देणे", "येवून": "येणे", "होवून": "होणे", "ठेऊन": "ठेवणे", "ठेऊ": "ठेवणे", "जावून": "जाणे",
+    "होवू": "होणे", "पहा": "पाहणे", "रहा": "राहणे",
+    # घर's genitive on its direct form (घरचा "of the house, home-made"; घरच्यांना "to the family").
+    **{"घर" + t + c: "घर" for t in ("चा", "ची", "चे", "च्या", "चं", "च्यां", "च्यांना", "च्यांनी", "च्यांचा", "च्यांची", "च्यांचे",
+                                    "च्यांच्या") for c in ("", "ही")}, "दुसरीकडे": "दुसरे", "दुसरीकडून": "दुसरे", "दुसरीकडेच": "दुसरे",
     "काहीतरी": "काही", "संध्याकाळी": "संध्याकाळ", "संध्याकाळीच": "संध्याकाळ", "दुपारी": "दुपार", "दुपारीच": "दुपार",
     # असे "so", तसे, कसे, जसे agree as adjectives, with स as श before -ी and -्या (अशी, अशा).
     **{c + t: c + "से" for c in ("अ", "त", "क", "ज") for t in ("सा", "शी", "शा", "सं", "सेच", "साच", "शीच", "शाच", "शाप्रकारे", "सेही")},
@@ -170,7 +189,7 @@ KEEP = {"कारण", "मात्र", "सारखा", "आज", "का�
 # Spellings the pack has the other way, or lacks: each is declined as the word it is a spelling of.
 SPELLINGS = {
     "येथे": "इथे", "तेथे": "तिथे", "जेथे": "जिथे", "कोठे": "कुठे", "पोलिस": "पोलीस", "आणी": "आणि", "सुध्दा": "सुद्धा",
-    "पाहीजे": "पाहिजे", "बध्दल": "बद्दल", "महत्व": "महत्त्व", "कसा": "कसे",
+    "पाहीजे": "पाहिजे", "बध्दल": "बद्दल", "महत्व": "महत्त्व", "कसा": "कसे", "संभाळणे": "सांभाळणे",
 }
 # Everyday words the pack lacks, with their kind as the rules decline them.
 MARATHI_WORDS = {
@@ -185,14 +204,20 @@ MARATHI_WORDS = {
     "किती": "adv", "बाबा": "noun", "संध्याकाळ": "noun", "दुपार": "noun", "डॉक्टर": "noun", "थंडी": "noun", "उशीर": "noun",
     "पटकन": "adv", "शिजवणे": "verb", "टेबल": "noun", "कृपया": "adv", "तिकीट": "noun", "हॉटेल": "noun", "नाटक": "noun",
     "फोन": "noun", "संगणक": "noun", "वरण": "noun", "मोदक": "noun", "पूजा": "noun", "सूर्य": "noun", "चंद्र": "noun",
-    "हस्तकला": "noun", "आसन": "noun",
+    "हस्तकला": "noun", "आसन": "noun", "न": "particle", "सांभाळणे": "verb",
+    "खोका": "noun", "मजुरी": "noun", "अलीकडे": "adv", "लढत": "noun", "शेती": "noun",
 }
 # The masculine and neuter nouns with a locative in -ी (घरी "at home", गावी, वर्षी "in the year").
-LOCATIVE_I = {"घर", "गाव", "वर्ष", "साल", "ठिकाण", "प्रकरण", "मार्ग", "स्थान", "हात", "शेत", "देव", "जाग", "दार", "पाठ", "मन", "काम"}
+LOCATIVE_I = {"घर", "गाव", "वर्ष", "साल", "ठिकाण", "प्रकरण", "मार्ग", "स्थान", "हात", "शेत", "देव", "जाग", "दार", "पाठ", "मन", "काम",
+              "सोमवार", "मंगळवार", "बुधवार", "गुरुवार", "शुक्रवार", "शनिवार", "रविवार"}
 # Pack words of rare senses whose spelling is a commoner word's form: वेळा "large cardamoms" (वेळ's plural), ज्या "bowstring"
 # (जो's oblique), शीस "fruit bud" (its oblique शिसा- is शिसे "lead"'s).
 DROPPED = {"वेळा", "ज्या", "शीस"}
 # Pasts of verbs the rules make wrongly: the past stem (for PAST_TAILS) by verb.
+# The stem the future's and desiderative's endings in -व-, -य- go on of verbs whose stem changes (यावे, घ्यायला, न्यायचे).
+VOWEL_STEMS = {"येणे": "या", "घेणे": "घ्या", "देणे": "द्या", "नेणे": "न्या", "पिणे": "प्या", "होणे": "व्हा"}
+DESIDERATIVE_TAILS = ["वे", "वी", "वा", "वेत", "वीत", "वं", "व्या", "यला", "यलाच", "यलाही", "यचा", "यची", "यचे", "यच्या", "यचं",
+                      "यचो", "वयाचा", "वयाची", "वयाचे", "वयाच्या", "वेसे", "वेसा", "वेसं"]
 PAST_STEMS = {"करणे": ["केल"], "जाणे": ["गेल"], "येणे": ["आल"], "देणे": ["दिल"], "घेणे": ["घेतल"], "होणे": ["झाल"], "असणे": ["असल"],
               "खाणे": ["खाल्ल"], "पिणे": ["प्यायल", "पील"], "पाहणे": ["पाहिल"], "सांगणे": ["सांगितल"], "बघणे": ["बघितल"],
               "लिहिणे": ["लिहिल"], "राहणे": ["राहिल"], "म्हणणे": ["म्हटल", "म्हणाल"], "मारणे": ["मारल"], "धुणे": ["धुतल"],
@@ -203,7 +228,7 @@ PAST_STEMS = {"करणे": ["केल"], "जाणे": ["गेल"], "य
 # Links of the pack's tables that are wrong: मल "dirt" has no form मला.
 WRONG_LINKS = {("मला", "मल")}
 # Corpus spellings that are no words: letters, abbreviations, English words in Devanagari.
-NOT_WORDS = {"डॉ", "श्री", "सौ", "कु", "प्रा", "ना", "रु", "क्र", "स", "न", "क", "द", "ए", "बी", "सी", "डी", "जी", "ऑफ", "एस", "आर", "टी"}
+NOT_WORDS = {"डॉ", "श्री", "सौ", "कु", "प्रा", "ना", "रु", "क्र", "स", "क", "द", "ए", "बी", "सी", "डी", "जी", "ऑफ", "एस", "आर", "टी"}
 # Pack words the news has as names far more than as words (पाटील "village headman", शरद "autumn", अनिल "wind").
 NOT_WORDS |= {"पाटील", "शरद", "देसाई", "अनिल", "शहा", "प्रशांत", "कृष्ण", "कृष्णा"}
 
@@ -286,29 +311,41 @@ def noun_classes(word):
     or masculine (नदी: नदी-, नद्या) or neuter (पाणी: पाण्या-); one in -े neuter (केळे: केळ्या-, केळी).
     """
     last, base = word[-1], word[:-1]
+    # A noun in -सा or a masculine in -सी has its स as श in the oblique (आरसा: आरशात, आरश्यात; प्रवासी: प्रवाशांना).
+    hushed = base[:-1] + "श" if base.endswith("स") else None
     if last == "ा":
-        return [((base + "्या", base + "्यां"), {base + "े"}), ((base + "े", word + "ं"), set()), ((word, word + "ं"), {base + "े"})]
+        return [((base + "्या", base + "्यां"), {base + "े"}), ((base + "े", word + "ं"), set()), ((word, word + "ं"), {base + "े"})] + (
+            [((hushed + "ा", hushed + "ां"), {base + "े"}), ((hushed + "्या", hushed + "्यां"), {base + "े"})] if hushed else [])
     if last == "ी":
-        return [((word, word + "ं"), {base + "्या"}), ((base + "्या", base + "्यां"), set())]
+        return [((word, word + "ं"), {base + "्या"}), ((base + "्या", base + "्यां"), set())] + (
+            [((hushed + "ा", hushed + "ां"), set())] if hushed else [])
     if last in "ें":
         return [((base + "्या", base + "्यां"), {base + "ी"})]
+    # A feminine in -ाई has its plural in -ाया (कारवाई: कारवाया, कारवायांना).
+    if word.endswith("ाई"):
+        return [((word, word + "ं"), {word[:-1] + "या"}), ((word[:-1] + "या", word[:-1] + "यां"), set())]
+    # A neuter in -ू has its oblique in -ा (पिल्लू: पिल्लाला, पिल्ले; लिंबू: लिंबाचा); a masculine keeps the -ू (खेळाडूला).
+    if last == "ू":
+        return [((word, word + "ं"), set()), ((base + "ा", base + "ां"), {base + "े"})]
     if vowel_final(word):
         return [((word, word + "ं"), set())]
     # The locative in -ी with the first feminine kind (वेळी); a masculine's or neuter's is LOCATIVE_I. A long ी or ू before the
     # last consonant may be short in the oblique (तिकीट: तिकिटा-; जमीन: जमिनी-; पूल: पुला-).
     stems = [word] + ([word[:-2] + SHORT[word[-2]] + word[-1]] if len(word) > 2 and word[-2] in SHORT else [])
+    # A feminine in -स has its स as श in the oblique (शिफारस: शिफारशी).
+    hushed = [((word[:-1] + "शी", word[:-1] + "शीं"), {word[:-1] + "शी"})] if word[-1] == "स" else []
     return [cls for w in stems for cls in [((w + "ा", w + "ां"), {w + "े", w + "ं"}), ((w + "े", w + "ां"), {w + "ा", w + "ी"}),
-                                           ((w + "ी", w + "ीं"), {w + "ी"})]]
+                                           ((w + "ी", w + "ीं"), {w + "ी"})]] + hushed
 
 
 def oblique_count(stem):
-    return sum(COUNTS.get(stem + t, 0.0) for t in CASES)
+    return sum(COUNTS.get(s + t, 0.0) for s in eyelash({stem}) for t in CASES)
 
 
 def free_count(stem, tails):
     """How often the corpus has [stem] with [tails], but for the spellings that are words of their own or a pronoun's forms."""
-    return sum(COUNTS.get(stem + t, 0.0) for t in tails
-               if stem + t not in KINDS and stem + t not in MARATHI_FORMS and stem + t not in PRONOUN_FORMS)
+    return sum(COUNTS.get(s + t, 0.0) for s in eyelash({stem}) for t in tails
+               if s + t not in KINDS and s + t not in MARATHI_FORMS and s + t not in PRONOUN_FORMS)
 
 
 def stem_of_its_own(stem, word):
@@ -367,14 +404,15 @@ def keeps_table_kind(word, stem, obliques):
     """
     Whether a declension (by its first oblique) may stand for a table's: of a consonant-final noun, a feminine table's no
     masculine (गप्पा- for गप्पी-) and only an -ी table's an -ी one (जखमी "wounded" is no oblique of जखम); not the direct
-    oblique of a noun in -ा whose table has -्या (गजरा: गजरात is गजर's), nor -्या of a noun in -ी whose plural is -्यां (वाटी).
+    oblique of a noun in -ा whose table has -्या when the word without its -ा is a word (गजरा: गजरात is गजर's; दर्जा:
+    दर्जाचे is its), nor -्या of a noun in -ी whose plural is -्यां (वाटी).
     """
     if not vowel_final(word):
         feminine = any(o.endswith(("े", "ी", "ीं")) for o in obliques)
         if stem.endswith("ी"):
             return any(o.endswith(("ी", "ीं")) for o in obliques)
         return not (stem.endswith("ा") and feminine)
-    if word[-1] == "ा" and stem == word:
+    if word[-1] == "ा" and stem == word and word[:-1] in KINDS:
         return not any(o.endswith(("्या", "्यां")) for o in obliques)
     if word[-1] == "ी" and stem.endswith("्या"):
         return not any(o.endswith("्यां") for o in obliques)
@@ -400,6 +438,14 @@ def retabled_forms(word, ks, table):
         for (stems, plurals), score in zip(classes, scores):
             if score >= best / 4:
                 forms |= set(stems) | plurals | {stem + t for stem in stems for t in OBLIQUE_TAILS}
+        return forms
+    # Or only its plural's (व्यक्ती: व्यक्त्यां- for व्यक्तीं-).
+    plural = [free_count(stems[1], CASES) if len(stems) > 1 else 0.0 for stems, _ in classes]
+    top = max(plural)
+    if top > 4 * sum(free_count(stem, CASES) for stem in obliques if stem.endswith("ं")):
+        for (stems, _), score in zip(classes, plural):
+            if score > 0 and score >= top / 4:
+                forms |= {stems[1]} | {stems[1] + t for t in OBLIQUE_TAILS}
     return forms
 
 
@@ -433,7 +479,12 @@ def adjective_forms(word):
         return set()
     base = word[:-1]
     forms = {base + "ा", base + "ी", base + "े", base + "्या", base + "ं", base + "्यां"}
-    for stem in (base + "्या", base + "्यां"):
+    stems = [base + "्या", base + "्यां"]
+    # One in -सा has its स as श before -ी and -ा (पुरेसा: पुरेशी, पुरेशा; फारसा: फारशा).
+    if base.endswith("स"):
+        forms |= {base[:-1] + "शी", base[:-1] + "शा"}
+        stems.append(base[:-1] + "शा")
+    for stem in stems:
         forms |= {stem + t for t in OBLIQUE_TAILS}
     return forms
 
@@ -449,18 +500,20 @@ def verb_forms(word, table):
         forms |= {stem + t for t in VOWEL_FUTURE_TAILS}
     else:
         forms |= {stem + t for t in FUTURE_TAILS}
+    if word in VOWEL_STEMS:
+        forms |= {VOWEL_STEMS[word] + t for t in DESIDERATIVE_TAILS}
     # The -ाय stem the table's desiderative shows (व्हायला: व्हा-; यायला: या-).
     for form in table:
         if form.endswith("ायला"):
             forms |= {form[:-3] + t for t in ("यचा", "यची", "यचे", "यच्या", "यचं", "वा", "वी", "वे", "व्या", "वं", "वेत", "वीत")}
     infinitive = stem + "ण"
     forms |= {infinitive + t[1:] if t.startswith("ण") else stem + t for t in INFINITIVE_TAILS}
-    forms |= {infinitive + "्या" + t for t in INFINITIVE_OBLIQUE_TAILS} | {infinitive + "्या"}
+    forms |= {infinitive + "्या" + t for t in INFINITIVE_OBLIQUE_TAILS + OBLIQUE_TAILS} | {infinitive + "्या"}
     pasts = set(PAST_STEMS.get(word, []))
-    # The table's masculine past (केला, लागला) gives the stem; without one, the stem + ल (बसला) or + िल (राहिला).
+    # The table's masculine past (केला, लागला) gives the stem; without one, the stem + ल (बसला), + िल (राहिला) or + ाल (उडाला).
     pasts |= {f[:-1] for f in table if f.endswith("ला") and f[:-1] + "ी" in table}
     if not pasts:
-        pasts = {stem + "ल"} if vowel_final(stem) else {stem + "ल", stem + "िल", stem + "ितल"}
+        pasts = {stem + "ल"} if vowel_final(stem) else {stem + "ल", stem + "िल", stem + "ितल", stem + "ाल"}
     for p in pasts:
         forms |= {p + t for t in PAST_TAILS}
     return forms
@@ -485,8 +538,9 @@ EYELASH = re.compile("(?<!\u094d)\u0930\u094d(?=[\u092f\u0939])")
 
 
 def eyelash(forms):
-    """The forms with र before य or ह also written as the eyelash ra, as Marathi has it (दुसऱ्या, करणाऱ्या)."""
-    return set(forms) | {EYELASH.sub("\u0931\u094d", f) for f in forms}
+    """The forms with र before य or ह also written as the eyelash ra, as Marathi has it (दुसऱ्या, करणाऱ्या), and the other way
+    round, as texts have it too (करणार्या)."""
+    return set(forms) | {EYELASH.sub("\u0931\u094d", f) for f in forms} | {f.replace("\u0931\u094d", "\u0930\u094d") for f in forms}
 
 
 def with_clitics(forms):
