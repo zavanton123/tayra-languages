@@ -9,11 +9,12 @@ news write taraškievica too (пасьля, музэй, прэзыдэнт), who
 induced from the corpus (транспарт, квіток, званне), and WORDS adds the rest by hand (mend).
 """
 import io
+import json
 import os
 import re
 import sqlite3
 import tarfile
-from collections import defaultdict
+from collections import Counter, defaultdict
 
 # The kinds of word that inflect, whose forms the endings find, and the other kinds the packs' words may be.
 INFLECTED = ("noun", "adj", "verb")
@@ -358,3 +359,55 @@ def mend(freq, pos, lemmas, common, dictionaries, overrides, excluded, corpora):
                 common[word] = word
                 if form != word:
                     lemmas[form] = [word]
+
+
+
+
+# After the counting (fold): a word's count is only its uses as that word, and a word the writers of the courses take for
+# another's form, partner or spelling is that word's.
+#
+# A capitalised use inside a sentence (Цыганкоў, МАЗ, Бор) is a name's, which counts for no word of the list; a word seen
+# fewer than NAME_LEAST times keeps its count, as too few uses tell no name.
+CYRILLIC = re.compile("[А-ЯЁІЎа-яёіў'’ʼ]+")
+NAME_LEAST = 5
+# Colloquial words and abbreviations the courses do not teach.
+NOT_WORDS = {"ейны", "англ"}
+
+
+def name_shares(dictionaries, corpora):
+    """The share of each word's uses in the Leipzig sentences that are capitalised inside a sentence, a name's."""
+    named, total = Counter(), Counter()
+    for corpus in corpora:
+        path = os.path.join(dictionaries, "frequency-sources", f"leipzig-{corpus}.tar.gz")
+        if not os.path.exists(path):
+            continue
+        with tarfile.open(path) as tar:
+            member = next(m for m in tar.getmembers() if m.name.endswith("-sentences.txt"))
+            for line in io.TextIOWrapper(tar.extractfile(member), encoding="utf-8"):
+                words = CYRILLIC.findall(line.partition("\t")[2])
+                for i, word in enumerate(words):
+                    key = normalise(word.lower())
+                    total[key] += 1
+                    if i and word[:1].isupper():
+                        named[key] += 1
+    return {w: n / total[w] for w, n in named.items() if total[w] >= NAME_LEAST}
+
+
+# How each word went to another in fold, for the list's pinning: word -> (the word it went to, why).
+MERGED = {}
+
+
+def fold(scores, forms, pos, lemmas, dictionaries, corpora):
+    """
+    After the counting: a form's capitalised uses inside a sentence are a name's and count for no word, and a hyphenated
+    word, which the reader reads as its pieces, is left out.
+    """
+    MERGED.clear()
+    shares = name_shares(dictionaries, corpora)
+    for word in sorted(scores):
+        counted = forms[word]
+        for form in sorted(counted):
+            counted[form] *= 1 - shares.get(form, 0.0)
+        scores[word] = sum(counted.values())
+    for word in sorted(w for w in scores if "-" in w or scores[w] <= 0 or w in NOT_WORDS):
+        del scores[word]
