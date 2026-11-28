@@ -1178,6 +1178,9 @@ class ReadingHoverTest {
         rule.waitUntil(5_000) { rule.onAllNodesWithTag("font-choice").fetchSemanticsNodes().isNotEmpty() }
         // The preview shows the page's first sentences in the chosen font.
         rule.onNode(hasText("lobo dorme", substring = true) and hasText("noite é fria", substring = true) and hasAnyAncestor(hasTestTag("reader-preview"))).assertExists()
+        // Reading aloud, a phone sets each sentence on its own line, so there is no layout to choose.
+        assertTrue(settings.current.showSentencePlay)
+        assertTrue(rule.onAllNodesWithText("One per line").fetchSemanticsNodes().isEmpty())
     }
 
     /** On a phone the pane is a sheet over a live page: a tap on the text above it does not put it away. */

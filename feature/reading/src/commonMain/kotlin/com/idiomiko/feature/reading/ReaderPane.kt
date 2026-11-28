@@ -432,16 +432,20 @@ private fun EngineNote(note: String) {
 @Composable
 private fun ReadingExperienceCard(state: ReadingUiState, viewModel: ReadingViewModel, phone: Boolean) {
     val prefs = state.settings
+    val code = state.language?.let { LanguageCodes.codeFor(it.name) }
+    // A phone reading aloud sets each sentence on its own line, whatever the layout says.
+    val layout = !(phone && prefs.showSentencePlay)
+    if (!layout && code !in READING_LANGUAGES && !viewModel.canChooseChineseScript && code !in TONE_LANGUAGES) return
     PaneCard(tr("Sentence layout")) {
-        if (state.language?.let { LanguageCodes.codeFor(it.name) } in READING_LANGUAGES) {
+        if (code in READING_LANGUAGES) {
             SwitchSetting(tr("Show readings"), tr("Furigana or pinyin above the words"), prefs.showReadings, icon = AppIcons.Abc, dense = true) { viewModel.toggleReadings() }
         }
         if (viewModel.canChooseChineseScript) ChineseScriptSetting(state.language?.chineseScript, viewModel::setChineseScript)
-        if (state.language?.let { LanguageCodes.codeFor(it.name) } in TONE_LANGUAGES) {
+        if (code in TONE_LANGUAGES) {
             SwitchSetting(tr("Tone colours"), tr("Colour pinyin by its tone"), prefs.toneColors, icon = AppIcons.Palette, dense = true) { viewModel.toggleToneColors() }
             SwitchSetting(tr("Zhuyin"), tr("Readings in bopomofo instead of pinyin"), prefs.zhuyin, icon = AppIcons.Abc, dense = true) { viewModel.toggleZhuyin() }
         }
-        LayoutChoice(
+        if (layout) LayoutChoice(
             listOf(
                 LayoutOption(false, AppIcons.FormatAlignLeft, tr("Continuous"), "layout-continuous"),
                 LayoutOption(true, Icons.AutoMirrored.Filled.List, tr("One per line"), "layout-one-per-line"),
