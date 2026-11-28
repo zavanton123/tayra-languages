@@ -3,8 +3,8 @@
 Each course teaches one band of 100 words from the Khmer word frequency list (`bands/<rankUpTo>.txt`: index,
 rank, word, its forms). Course `km-mini-0300` teaches ranks 201–300 and may use every word ranked 1–300. Ten
 lessons, each introducing about ten of the band's words, so the course covers the band; a learner who finishes
-it knows the 300 most common words. `themes.tsv` gives each course its theme. The list has 7,306 words: the
-courses are `km-mini-0100` to `km-mini-7400` (the last band has 6 words).
+it knows the 300 most common words. `themes.tsv` gives each course its theme. The list has 7,559 words: the
+courses are `km-mini-0100` to `km-mini-7600` (the last band has 59 words).
 
 ## What the lessons are: mini stories
 
@@ -41,7 +41,7 @@ make sense.
     *ប្រហែល*, *ប្រហែលជា*; the nouns made with *ការ*, *សេចក្តី* and *ភាព*; a first-person narrator, a letter, a diary;
   - ranks 2001–4000: a more formal written register where the text type asks for it (*នូវ*, *នៃ*, *ដ៏*, *ដោយ*,
     *ចំពោះ*); short informative or opinion texts;
-  - ranks 4001–7400 (C1): everything before, with more abstract and nuanced content: a short essay or column, an
+  - ranks 4001–7600 (C1): everything before, with more abstract and nuanced content: a short essay or column, an
     interview, a portrait, a review; precise vocabulary, each word made clear by its context.
 - **Repetition on purpose**: repeat the new words three times or more where it reads naturally, and the
   story's key sentence pattern several times.
