@@ -4,6 +4,7 @@ import com.idiomiko.core.ui.theme.readingFontFamily
 import com.idiomiko.core.ui.theme.fontChoice
 import com.idiomiko.core.ui.theme.fontChoices
 import com.idiomiko.core.domain.service.SetupKind
+import com.idiomiko.core.domain.service.SetupState
 import com.idiomiko.core.ui.components.LocalPreparing
 import androidx.compose.ui.semantics.clearAndSetSemantics
 import androidx.compose.ui.layout.Layout
@@ -120,7 +121,6 @@ internal class ReaderPaneActions(
     val onEditPage: () -> Unit,
     val onTermList: () -> Unit,
     val onSource: () -> Unit,
-    val onSpeechSettings: () -> Unit,
 )
 
 internal enum class PaneTab { APPEARANCE, TRANSLATION, AUDIO }
@@ -178,7 +178,6 @@ internal fun ReaderPane(
             if (showBookmarks) {
                 BookmarksView(state, bookmarks, viewModel, onOpen = { viewModel.goToPage(it); onClose() })
             } else {
-                val toSpeechSettings = { onClose(); actions.onSpeechSettings() }
                 TallestTab(
                     PaneTab.entries.indexOf(tab),
                     listOf(
@@ -194,7 +193,7 @@ internal fun ReaderPane(
                             Columns(
                                 phone,
                                 { PlaybackCard(state, viewModel); if (!phone) SpeedCard(state, viewModel) },
-                                { VoiceCard(state, viewModel, toSpeechSettings); if (phone) SpeedCard(state, viewModel) },
+                                { VoiceCard(state, viewModel); if (phone) SpeedCard(state, viewModel) },
                             )
                         },
                     ),
@@ -537,9 +536,11 @@ private fun PlaybackCard(state: ReadingUiState, viewModel: ReadingViewModel) {
 }
 
 @Composable
-private fun VoiceCard(state: ReadingUiState, viewModel: ReadingViewModel, onSpeechSettings: () -> Unit) {
+private fun VoiceCard(state: ReadingUiState, viewModel: ReadingViewModel) {
     val prefs = state.settings
     val voices by viewModel.speechVoices.collectAsState()
+    val download by viewModel.voiceDownload.collectAsState()
+    val downloads by viewModel.setupStates.collectAsState()
     LaunchedEffect(prefs.speechEngine, state.language?.id) { viewModel.loadSpeechVoices() }
     val engine = prefs.speechEngine.takeIf { it in viewModel.speechEngines } ?: SpeechEngine.SYSTEM
     val languageName = state.language?.name.orEmpty()
@@ -559,16 +560,26 @@ private fun VoiceCard(state: ReadingUiState, viewModel: ReadingViewModel, onSpee
                     "voice-choice",
                 ) { viewModel.setSpeechVoice(it.id) }
             } else {
+                val downloading = download?.let { downloads[it.id] }
+                val running = downloading is SetupState.Waiting || downloading is SetupState.Running
                 Text(
-                    if (SetupKind.VOICE in LocalPreparing.current) tr("Getting a voice for {0} ready. Until then, the system voice reads this text.", tr(languageName))
-                    else tr("No voice for {0} is downloaded, so the system voice reads this text. Download one in Speech settings.", tr(languageName)),
+                    if (SetupKind.VOICE in LocalPreparing.current || running) tr("Getting a voice for {0} ready. Until then, the system voice reads this text.", tr(languageName))
+                    else tr("No voice for {0} is downloaded, so the system voice reads this text.", tr(languageName)),
                     style = MaterialTheme.typography.bodySmall,
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                 )
+                if (download != null && SetupKind.VOICE !in LocalPreparing.current) {
+                    if (downloading is SetupState.Failed) Text(tr("Download failed"), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.error)
+                    SecondaryButton(
+                        if (running) tr("Downloading…") else if (downloading is SetupState.Failed) tr("Try again") else tr("Download"),
+                        onClick = viewModel::downloadVoice,
+                        enabled = !running,
+                        icon = AppIcons.Download,
+                        modifier = Modifier.testTag("download-voice"),
+                    )
+                }
             }
         }
-        AppDivider()
-        LinkRow(tr("Speech settings"), AppIcons.Tune, "speech-settings", onSpeechSettings)
     }
 }
 

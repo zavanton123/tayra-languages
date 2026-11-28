@@ -69,7 +69,7 @@ internal val elReading: Map<String, String> = mapOf(
     "Kokoro (offline, high quality)" to "Kokoro (εκτός σύνδεσης, υψηλή ποιότητα)",
     "Voice" to "Φωνή",
     "{0} voice" to "Φωνή ({0})",
-    "No voice for {0} is downloaded, so the system voice reads this text. Download one in Speech settings." to "Δεν έχει ληφθεί φωνή για τη γλώσσα «{0}», οπότε το κείμενο διαβάζεται από τη φωνή του συστήματος. Κατεβάστε μία στις ρυθμίσεις εκφώνησης.",
+    "No voice for {0} is downloaded, so the system voice reads this text." to "Δεν έχει ληφθεί φωνή για {0}, οπότε τη διαβάζει η φωνή του συστήματος.",
     "Getting a voice for {0} ready. Until then, the system voice reads this text." to "Ετοιμάζεται φωνή για τη γλώσσα «{0}». Μέχρι τότε, το κείμενο διαβάζεται από τη φωνή του συστήματος.",
     "Speed" to "Ταχύτητα",
     "Speech settings" to "Ρυθμίσεις εκφώνησης",

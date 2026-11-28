@@ -69,7 +69,7 @@ internal val ruReading: Map<String, String> = mapOf(
     "Kokoro (offline, high quality)" to "Kokoro (офлайн, высокое качество)",
     "Voice" to "Голос",
     "{0} voice" to "Голос ({0})",
-    "No voice for {0} is downloaded, so the system voice reads this text. Download one in Speech settings." to "Голос для языка «{0}» не скачан, поэтому текст читает системный голос. Скачайте голос в настройках озвучивания.",
+    "No voice for {0} is downloaded, so the system voice reads this text." to "Голос для языка «{0}» не загружен, поэтому текст читает системный голос.",
     "Getting a voice for {0} ready. Until then, the system voice reads this text." to "Готовим голос для языка «{0}». Пока текст читает системный голос.",
     "Speed" to "Скорость",
     "Speech settings" to "Настройки озвучивания",

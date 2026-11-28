@@ -69,7 +69,7 @@ internal val zhReading: Map<String, String> = mapOf(
     "Kokoro (offline, high quality)" to "Kokoro（离线，高音质）",
     "Voice" to "语音",
     "{0} voice" to "{0}语音",
-    "No voice for {0} is downloaded, so the system voice reads this text. Download one in Speech settings." to "尚未下载{0}语音，因此由系统语音朗读此文本。可在朗读设置中下载。",
+    "No voice for {0} is downloaded, so the system voice reads this text." to "尚未下载{0}语音，因此由系统语音朗读此文本。",
     "Getting a voice for {0} ready. Until then, the system voice reads this text." to "正在准备{0}语音。在此之前，由系统语音朗读此文本。",
     "Speed" to "语速",
     "Speech settings" to "朗读设置",

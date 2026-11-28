@@ -69,7 +69,7 @@ internal val plReading: Map<String, String> = mapOf(
     "Kokoro (offline, high quality)" to "Kokoro (offline, wysoka jakość)",
     "Voice" to "Głos",
     "{0} voice" to "Głos ({0})",
-    "No voice for {0} is downloaded, so the system voice reads this text. Download one in Speech settings." to "Nie pobrano głosu (język: {0}), więc ten tekst czyta głos systemowy. Pobierz głos w ustawieniach mowy.",
+    "No voice for {0} is downloaded, so the system voice reads this text." to "Nie pobrano głosu dla języka {0}, więc ten tekst czyta głos systemowy.",
     "Getting a voice for {0} ready. Until then, the system voice reads this text." to "Przygotowujemy głos (język: {0}). Do tego czasu ten tekst czyta głos systemowy.",
     "Speed" to "Szybkość",
     "Speech settings" to "Ustawienia mowy",

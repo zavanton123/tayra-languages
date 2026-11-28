@@ -69,7 +69,7 @@ internal val esReading: Map<String, String> = mapOf(
     "Kokoro (offline, high quality)" to "Kokoro (sin conexión, alta calidad)",
     "Voice" to "Voz",
     "{0} voice" to "Voz ({0})",
-    "No voice for {0} is downloaded, so the system voice reads this text. Download one in Speech settings." to "No hay ninguna voz descargada para este idioma ({0}), así que este texto lo lee la voz del sistema. Descarga una en los ajustes de voz.",
+    "No voice for {0} is downloaded, so the system voice reads this text." to "No hay ninguna voz de {0} descargada, así que la voz del sistema lee este texto.",
     "Getting a voice for {0} ready. Until then, the system voice reads this text." to "Preparando una voz para este idioma ({0}). Mientras tanto, este texto lo lee la voz del sistema.",
     "Speed" to "Velocidad",
     "Speech settings" to "Ajustes de voz",

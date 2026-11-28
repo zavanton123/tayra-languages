@@ -1,5 +1,11 @@
 package com.idiomiko.feature.reading
 
+import kotlinx.coroutines.flow.first
+import com.idiomiko.core.domain.service.SetupStatus
+import com.idiomiko.core.domain.service.SetupState
+import com.idiomiko.core.domain.service.SetupKind
+import com.idiomiko.core.domain.service.SetupItem
+import com.idiomiko.core.domain.service.LanguageSetupService
 import com.idiomiko.core.domain.courses.LessonSummaries
 import com.idiomiko.core.domain.courses.LessonSummary
 import com.idiomiko.core.domain.model.ReadingStage
@@ -207,6 +213,8 @@ class ReadingViewModel(
     private val ankiConnection: AnkiConnection? = null,
     /** The pages whose practice reached its result: a lesson's Quiz stage waits for its page's. None lets it be checked at once. */
     private val practiceCompletions: PracticeCompletions? = null,
+    /** Downloads a voice for the book's language when the chosen engine has none; without it none is offered. */
+    private val languageSetup: LanguageSetupService? = null,
 ) : ViewModel() {
 
     val canExportToAnki: Boolean get() = anki != null
@@ -1029,6 +1037,34 @@ class ReadingViewModel(
         val engine = localSpeech.find(settingsRepository.current.speechEngine)
         viewModelScope.launch {
             _speechVoices.value = if (code == null || engine == null) emptyList() else runCatching { engine.voices(code) }.getOrDefault(emptyList())
+            _voiceDownload.value = if (engine != null && _speechVoices.value.isEmpty()) voiceToDownload(engine.displayName) else null
+        }
+    }
+
+    private val _voiceDownload = MutableStateFlow<SetupItem?>(null)
+
+    /** A voice of the chosen engine for the book's language, to download when the engine has none for it. */
+    val voiceDownload: StateFlow<SetupItem?> = _voiceDownload.asStateFlow()
+
+    /** Where the downloads started here are, by item id. */
+    val setupStates: StateFlow<Map<String, SetupState>> = languageSetup?.states ?: MutableStateFlow(emptyMap())
+
+    private suspend fun voiceToDownload(engineName: String): SetupItem? {
+        val setup = languageSetup ?: return null
+        val languageId = state.value.language?.id ?: return null
+        val missing = runCatching { setup.overview(languageId) }.getOrDefault(emptyList())
+            .filter { it.kind == SetupKind.VOICE && it.status == SetupStatus.MISSING && it.engine == engineName }
+        return missing.firstOrNull { it.recommended } ?: missing.firstOrNull()
+    }
+
+    /** Downloads [voiceDownload], then offers the voices again. */
+    fun downloadVoice() {
+        val item = _voiceDownload.value ?: return
+        val setup = languageSetup ?: return
+        setup.install(listOf(item))
+        viewModelScope.launch {
+            setup.states.first { it[item.id] is SetupState.Done || it[item.id] is SetupState.Failed }
+            if (setup.states.value[item.id] is SetupState.Done) loadSpeechVoices()
         }
     }
 

@@ -69,7 +69,7 @@ internal val deReading: Map<String, String> = mapOf(
     "Kokoro (offline, high quality)" to "Kokoro (offline, hohe Qualität)",
     "Voice" to "Stimme",
     "{0} voice" to "Stimme ({0})",
-    "No voice for {0} is downloaded, so the system voice reads this text. Download one in Speech settings." to "Für {0} ist keine Stimme heruntergeladen, daher liest die Systemstimme diesen Text. Lade eine in den Einstellungen der Sprachausgabe herunter.",
+    "No voice for {0} is downloaded, so the system voice reads this text." to "Für {0} ist keine Stimme heruntergeladen, deshalb liest die Systemstimme diesen Text.",
     "Getting a voice for {0} ready. Until then, the system voice reads this text." to "Eine Stimme für {0} wird vorbereitet. Bis dahin liest die Systemstimme diesen Text.",
     "Speed" to "Geschwindigkeit",
     "Speech settings" to "Einstellungen der Sprachausgabe",
