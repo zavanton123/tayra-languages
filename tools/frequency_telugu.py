@@ -387,7 +387,8 @@ TELUGU_WORDS = {
 # Plurals no rule makes (irregular_plurals), declined as plurals.
 TELUGU_PLURALS = {"ఊరు": "ఊళ్లు", "కోడి": "కోళ్లు", "ఎద్దు": "ఎడ్లు", "మనిషి": "మనుషులు", "కూతురు": "కూతుళ్లు", "గుడి": "గుళ్లు",
                   "బడి": "బళ్లు", "పూవు": "పువ్వులు", "రాయి": "రాళ్లు", "పన్ను": "పళ్లు",
-                  "ఆటగాడు": "ఆటగాళ్లు", "మేక": "మేకలు", "పులి": "పులులు", "కాయ": "కాయలు", "నది": "నదులు"}
+                  "ఆటగాడు": "ఆటగాళ్లు", "మేక": "మేకలు", "పులి": "పులులు", "కాయ": "కాయలు", "నది": "నదులు", "నెమలి": "నెమళ్లు",
+                  "పెళ్ళాం": "పెళ్ళాలు"}
 # Words of the pack that are forms of another, or two spellings of one word: counted and listed under the word.
 TELUGU_FORMS = {
     "నా": "నేను", "నీ": "నువ్వు", "మా": "మేము", "మన": "మనం", "మీ": "మీరు", "తన": "తాను", "తమ": "తాము", "వారి": "వారు",
@@ -395,6 +396,7 @@ TELUGU_FORMS = {
     "అయిన": "అవు", "అయ్యే": "అవు", "పడ్డ": "పడు", "నువు": "నువ్వు", "ఇంకనూ": "ఇంకా", "ఇంకను": "ఇంకా", "ఒళ్ళు": "ఒడలు",
     "ఒళ్లు": "ఒడలు", "ఆటగాల్లు": "ఆటగాడు", "తెలుగువాడు": "తెలుగు", "అట్లా": "అలా", "అట్ల": "అలా", "అట్లనే": "అలా",
     "అట్టే": "అలా", "అట్లే": "అలా", "అట్లని": "అలా", "రావు": "వచ్చు", "కాను": "కాదు", "కాని": "కానీ", "వెళ్ళండి": "వెళ్లు", "వెళ్ళడానికి": "వెళ్లు",
+    "నెమళ్లు": "నెమలి", "నెమళ్ళు": "నెమలి",
 }
 # Words of the pack that are forms of a verb or an adverb of a noun, kept as words of their own: the words of saying and being
 # that link clauses (అని "that", అయితే "but, if"), and postpositions.
@@ -1004,9 +1006,9 @@ def build(found, size, label, weights=None):
                 kinds.pop(word)
             break
     # A noun the pack writes in -ము that texts decline in -a (పాలన, పాలనలో; not పాలనం, పాలనంలో) is listed in -a, unless that
-    # is a name's spelling (లావణ్య, హేమ).
+    # is a name's spelling (లావణ్య, హేమ) or it ends in -ాం, whose plural looks so declined (పెళ్ళాలు of పెళ్ళాం).
     for word in [w for w in kinds if w.endswith(ANUSVARA) and w not in TELUGU_WORDS and w[:-1] not in kinds
-                 and w[:-1] not in names]:
+                 and w[:-1] not in names and not w[:-1].endswith("\u0c3e")]:
         stem = word[:-1]
         as_a = sum(counts.get(stem + t, 0) for t in ("లో", "ను", "కు", "లు", "తో", "ల", "కి", "ని"))
         as_am = sum(counts.get(f, 0) for f in (word + "లో", stem + "ాన్ని", stem + "ానికి", stem + "ాలు", word + "తో", stem + "ాల"))
