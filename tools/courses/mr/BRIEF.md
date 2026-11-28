@@ -4,8 +4,7 @@ Each course teaches one band of 100 words from the Marathi word frequency list
 (`bands/<rankUpTo>.txt`: index, rank, word, its common forms). Course `mr-mini-0300` teaches ranks
 201–300 and may use every word ranked 1–300. Ten lessons, each introducing about ten of the band's
 words, so the course covers the band; a learner who finishes it knows the 300 most common words.
-`themes.tsv` gives each course its theme. The list has 4,480 words: the last course is `mr-mini-4500`
-(80 words).
+`themes.tsv` gives each course its theme. The list has 10,000 words: the last course is `mr-mini-10000`.
 
 ## The list
 
@@ -30,6 +29,12 @@ after it. So:
 - **हा, ही, हे and तो, ती, ते are six words**: हा "this (m)" holds या, याचा, यासाठी; हे "these, this (n)"
   holds यांनी, यांना (the honorific "he, she" of the news: *पाटील यांनी सांगितले*); तो holds त्या, त्याला,
   त्याच्या; ते holds त्यांना, त्यांनी. The headwords' ranks are 3, 4, 9, 7, 19, 25.
+- **Past rank 3300 the list was rebuilt** (ranks 1–3300 and their bands are as they were). The `mr-en` pack
+  lacks thousands of everyday words; they are now found in the corpus itself (लक्ष, विभाग, पीक, पिढी, कारवाई,
+  बांधकाम, फोटो, सैनिक, दशक), and those the corpus has as often as the first 3,300 come first, from rank 3301 on
+  (bands 3400–4900 are very common words of the news and of every day). Such a word may have no dictionary
+  entry: teach it in its plain, common sense. Names of people, places and parties are left out, but a few slip
+  through, and a word may come in two spellings (करोना, कोरोना; तज्ञ, तज्ज्ञ): skip a name and teach one spelling.
 - **List noise**: some words collect stray forms (रोज holds रोजी "on (a date)", मध्ये holds मध्या), a few
   ranks are lifted by names in the news (राज 562, प्रकाश 484, किरण 776, यश 292 are also first names); a
   few shared spellings are split by how common each word is (गावी "in the village" and गाणे's गावी "should
@@ -80,9 +85,11 @@ lesson never needs another lesson to make sense.
     speech with की and म्हणून; the passive of news prose where Marathi uses it (*काम पूर्ण करण्यात आले*);
   - ranks 2001–3000: longer joined sentences (*कारण, त्यामुळे, म्हणून, तरीही, उलट*); causatives
     (*करवणे, दाखवणे, शिकवणे*); relative clauses with जो / जी / जे, जिथे … तिथे; idioms of everyday speech;
-  - ranks 3001–4500 (B2–C1): a richer written register: the Sanskrit-derived (तत्सम) words of
+  - ranks 3001–5000 (B2–C1): a richer written register: the Sanskrit-derived (तत्सम) words of
     newspapers and books beside their everyday ones, made plain by context; a column, a letter, an
-    interview, a short essay that weighs two sides; long sentences that stay easy to parse.
+    interview, a short essay that weighs two sides; long sentences that stay easy to parse;
+  - ranks 5001–10000 (C1–C2): the same, with the specialised words of the sciences, the arts, law and
+    public life, each made clear by its context.
   After rank 1000 sentences get longer and dialogue can carry more of the story; a story may be told
   by a first-person narrator or as a letter, a message or a diary entry. From rank 2000 a lesson may
   also be a short informative or opinion text, as long as it is calm and easy to follow.
