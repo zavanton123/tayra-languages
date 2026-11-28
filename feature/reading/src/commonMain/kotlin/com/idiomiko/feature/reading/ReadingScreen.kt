@@ -968,10 +968,10 @@ private fun ReadingBody(
             )
             Row(
                 Modifier.fillMaxWidth().padding(horizontal = AppSpacing.l).padding(top = AppSpacing.s, bottom = AppSpacing.m)
-                    .shadow(AppElevation.raised, AppShapes.card).clip(AppShapes.card)
+                    .shadow(AppElevation.low, AppShapes.card).clip(AppShapes.card)
                     .background(MaterialTheme.colorScheme.surface).border(AppBorders.hairline(), AppShapes.card)
-                    // Room above the stages for the tick of a checked one.
-                    .padding(horizontal = AppSpacing.s, vertical = AppSpacing.m),
+                    // As tall as the player, with room above the stages for the tick of a checked one.
+                    .height(MOBILE_ACTION_BAR_HEIGHT).padding(horizontal = AppSpacing.s).testTag("mobile-stages"),
                 verticalAlignment = Alignment.CenterVertically,
                 horizontalArrangement = Arrangement.spacedBy(AppSpacing.s),
             ) {
@@ -1072,9 +1072,9 @@ private fun MobileReaderActions(playback: MobilePlayback, modifier: Modifier = M
     val colors = MaterialTheme.colorScheme
     Row(
         modifier.fillMaxWidth().padding(horizontal = AppSpacing.l).padding(top = AppSpacing.s)
-            .shadow(AppElevation.raised, AppShapes.card).clip(AppShapes.card)
+            .shadow(AppElevation.low, AppShapes.card).clip(AppShapes.card)
             .background(colors.surface).border(AppBorders.hairline(), AppShapes.card)
-            .height(MOBILE_ACTION_BAR_HEIGHT).padding(horizontal = AppSpacing.s),
+            .height(MOBILE_ACTION_BAR_HEIGHT).padding(horizontal = AppSpacing.s).testTag("mobile-player"),
         verticalAlignment = Alignment.CenterVertically,
     ) {
         MobileActionSlot {
@@ -1133,8 +1133,8 @@ private val CONTROL_SIZE = 40.dp
 private val PLAY_CONTROL_SIZE = 60.dp
 private val FOOTER_CONTROL_SIZE = 52.dp
 private val MOBILE_ACTION_SIZE = 48.dp
-private val MOBILE_PLAY_SIZE = 60.dp
-private val MOBILE_ACTION_BAR_HEIGHT = 76.dp
+private val MOBILE_PLAY_SIZE = 56.dp
+private val MOBILE_ACTION_BAR_HEIGHT = 68.dp
 
 /** Room under the text, so the floating play controls do not cover its end. */
 private val CONTROLS_ROOM = 48.dp

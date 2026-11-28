@@ -485,6 +485,9 @@ class ReadingHoverTest {
         assertEquals(1, vm.state.value.pageNumber, "sentence controls do not replace page navigation")
         val play = rule.onNodeWithContentDescription("Read the page").getBoundsInRoot()
         assertTrue(play.bottom <= rule.onNodeWithTag("stage-chain").getBoundsInRoot().top, "the player sits over the stages")
+        val player = rule.onNodeWithTag("mobile-player").getBoundsInRoot()
+        val stages = rule.onNodeWithTag("mobile-stages").getBoundsInRoot()
+        assertEquals(player.bottom - player.top, stages.bottom - stages.top, "the player is as tall as the stages")
         assertTrue(rule.onAllNodesWithContentDescription("Auto-pause off").fetchSemanticsNodes().isEmpty(), "auto-pause is in the settings, not the player")
         // Retelling has only the translation: nothing to read aloud.
         vm.selectStage(ReadingStage.RETELL)
