@@ -5547,7 +5547,10 @@ def build(language, source, size):
         return frequency_telugu.build(found, size, label, SOURCE_WEIGHTS["te"])
     if language == "mr":
         label = " + ".join(f"{label} ({SOURCE_LICENCES.get((language, name), SOURCE_LICENCES[name])})" for name, _, label in found)
-        return frequency_marathi.build(found, size, label)
+        # The sentences tell the names (frequency_marathi.corpus_names).
+        return frequency_marathi.build(found, size, label, [
+            download(f"https://downloads.wortschatz-leipzig.de/corpora/{corpus}.tar.gz", f"leipzig-{corpus}.tar.gz")
+            for corpus in FALLBACKS["mr"]["leipzig"] + FALLBACKS["mr"]["wikipedia_sentences"]])
     return build_list(language, found, size)
 
 

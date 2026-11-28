@@ -10,15 +10,25 @@ tables, or by these rules. A form that is a word of the pack itself keeps its co
 word it is also a form of is more common than the form (केले goes to करणे). A form of several words is shared between them
 by how common each is by its forms of no other word.
 
+The pack lacks thousands of everyday words (लक्ष, विभाग, पीक, पिढी, कारवाई, बांधकाम): they are found in the corpus itself
+(induce), from the forms no word of the pack explains, as the Bengali and Punjabi lists find them. A form spelled with the
+other i or u than an explained one (करुन, सुरु) is a slip of it. Names are left out: those the sentences show before the
+honorific यांनी or a word of place (corpus_names), and by hand (INDUCED_NOT_WORDS), with pieces of words cut at a number and
+abbreviations (FRAGMENTS).
+
 The news corpus of 2016 was converted from an old font: it writes the eyelash ra as ऱ with no virama (दुसऱया) and the
 conjunct -्य as य़ (मोठय़ा); such spellings are read as the ones texts and the reader have (marathi_fold).
 """
+import heapq
+import io
 import json
+import math
 import os
 import re
 import sqlite3
+import tarfile
 import unicodedata
-from collections import defaultdict
+from collections import Counter, defaultdict
 
 # As the reader's Marathi wordCharacters: letters and vowel signs, no digits or danda.
 LETTERS = re.compile("[\u0900-\u0963\u0971-\u097f\u200c\u200d]+")
@@ -231,6 +241,27 @@ WRONG_LINKS = {("मला", "मल")}
 NOT_WORDS = {"डॉ", "श्री", "सौ", "कु", "प्रा", "ना", "रु", "क्र", "स", "क", "द", "ए", "बी", "सी", "डी", "जी", "ऑफ", "एस", "आर", "टी"}
 # Pack words the news has as names far more than as words (पाटील "village headman", शरद "autumn", अनिल "wind").
 NOT_WORDS |= {"पाटील", "शरद", "देसाई", "अनिल", "शहा", "प्रशांत", "कृष्ण", "कृष्णा"}
+# Names, parties, English words of names (ऑफ, इंडिया) and abbreviations the corpus has that the pack does not and the
+# sentences do not show as names (corpus_names): no words for induce. Their forms (मुंबईत, भाजपने) are theirs.
+INDUCED_NOT_WORDS = set("""
+भाजप भाजपा काँग्रेस कॉंग्रेस काँगेस शिवसेना मनसे मनसा आप तृणमूल मगो युवासेना राष्ट्रवादी अमेरिका लोकसभा कर्नाटक गोवा बिहार
+पंजाब बंगाल फेसबुक श्रीलंका न्यूझीलंड इटली जम्मू हरियाणा हरयाणा आंध्र कार्तिक दाऊद न्यूयॉर्क सीरिया नागपुर कोल्हापुर तामिळनाडू
+तमिळनाडू हिमालय उत्तराखंड नायर शिव वाराणसी मेक्सिको श्रीनगर मद्रास बेल्जियम बांदा बार्सिलोना अरुणाचल कोलंबिया सिडनी स्वीडन उमर
+विकिपीडिया वेल्स कालिदास यूट्यूब बीजिंग आगरा मालदीव गया बर्लिन सिंध त्रिपुरा बांग्लादेश सिद्धिविनायक क्रोएशिया मौर्य
+ऑस्ट्रिया हिंदुस्तान हिंद सातवाहन मुहम्मद मोहम्मद सौराष्ट्र बाहुबली चालुक्य उज्जैन उस्मान चंद्रभागा कन्याकुमारी लेह नॉर्वे
+कंबोडिया चाणक्य नेपोलियन इंद्राणी अमेठी पनामा बाल्कन आर्यन बनारस जॉर्जिया मध्यप्रदेश उत्तरप्रदेश तेलंगणा ओडिसा ओरिसा
+विराट धोनी कोहली टाटा बजाज महिंद्रा रिलायन्स एअरटेल जिओ गुगल सिडको म्हाडा बीसीसीआय आयसीसी सीबीआय आयपीएल आरबीआय बीएसई
+एलबीटी विंडीज इंडीज छत्रपती शिवराय लोकमान्य टिळक शाहू स्वामी पंडित भारती मारुती समर्थ दत्त गौतम गांधीजी श्रीकृष्ण श्रीराम
+सह्याद्री सिंधू कंगना अश्विन अजिंक्य सायना दीपिका द्रविड धवन जॉर्ज डेव्हिड जेम्स रिओ मसूद सय्यद हार्दिक महालक्ष्मी संता
+अली निपाणी डोंबिवली पनवेल वसई इंडियन नॅशनल इंटरनॅशनल युनायटेड न्यू वेस्ट स्टेट बेस्ट वर्ल्ड सेंट्रल ग्लोबल रॉयल इंडस्ट्रीज
+मोटर्स फाऊंडेशन फेडरेशन लिमिटेड ग्रीन हिरो बिग स्पेशल सुपर रेड
+""".split())
+# Pieces of words cut at a number (१०वी, २०१६च्या), abbreviations, letters and Hindi or English words the corpus has: no words
+# for induce, nor are their forms.
+FRAGMENTS = set("""
+चं चे ची चा च्या वू वी वा वे व्या ला ले अल रू के मा एम ता आय पा दि है इन एन पं स्व को से खा डा एल अन पर मेरे और आदमी बहुत
+रा सा ग्रा उदा श्रीमती ऍड ऍप अँड फॉर टू ऑफ द यू जिहे कै शा हू जी बी सी डी आर टी एस ओ जे यांच्याहस्ते
+""".split())
 
 
 def lexicon(dictionaries):
@@ -594,8 +625,200 @@ def primary_obliques(kinds, table_of):
     return {stem: word for stem, word in out.items() if word}
 
 
-def build(found, size, label):
-    """The list: the pack's words, by their forms' counts in [found]."""
+# A word the corpus has and the pack lacks (induce): a noun (or adjective) when its forms are written INDUCED_BARE times (of
+# the corpus's words) and itself INDUCED_SEEN times, or INDUCED_LONE times when the corpus has it in no other form; a verb
+# when INDUCED_FORMS of its telling forms by rule (VERB_TELLING: an infinitive's, a participle's, a conjunctive's, which no
+# noun has) are written INDUCED_VERB times in all.
+INDUCED_BARE = 1e-6
+INDUCED_SEEN = 2e-7
+INDUCED_LONE = 4e-6
+INDUCED_FORMS = 3
+INDUCED_VERB = 2e-6
+VERB_TELLING = ("णे", "णं", "णार", "णारा", "णारी", "णारे", "णाऱ्या", "णाऱ्यांना", "ण्यात", "ण्याची", "ण्याचा", "ण्याचे", "ण्याच्या",
+                "ण्यासाठी", "ण्यास", "ण्याने", "ण्याला", "ण्यापूर्वी", "ायला", "ायचे", "ायचा", "ायची", "ायच्या", "ावे", "ावा", "ावी",
+                "ावेत", "ून", "ूनही", "ताना", "तात", "लेल्या", "लेले", "लेला", "लेली", "ल्याने", "ल्यानंतर", "ल्यावर", "ल्यास",
+                "ल्याचे", "ल्याची", "ल्याचा", "ल्यामुळे")
+# A form ending so is a verb's, no noun's.
+NOT_NOUN = tuple(t for t in VERB_TELLING if t.startswith(("ण", "ायला", "ल्या", "लेल", "ताना")) and len(t) > 2)
+# A word of the corpus that the sentences have before the honorific यांनी, यांच्या (पाटील यांनी) NAME_HONOURED of the times,
+# before such a name NAME_FIRST of the times (नरेंद्र मोदी), or before a word of place (PLACE_AFTER: सातारा येथे, सांगली
+# जिल्ह्यातील) NAME_PLACE of the times, is a name; of the words written NAME_SEEN times.
+NAME_SEEN = 30
+NAME_HONOURED = 0.2
+NAME_FIRST = 0.25
+NAME_PLACE = 0.2
+HONORIFIC = ("यां", "ह्यां")
+PLACE_AFTER = {"येथे", "येथील", "येथून", "इथे", "इथल्या", "जिल्ह्यातील", "जिल्ह्यात", "जिल्ह्याच्या", "जिल्हा", "तालुक्यातील",
+               "तालुक्यात", "तालुका", "शहरात", "शहरातील", "शहर", "गावात", "गावातील", "राज्यात", "राज्यातील", "राज्याच्या", "देशात"}
+# Words the corpus shows that are others' spellings: induce files their forms under these.
+INDUCED_SPELLINGS = {"पहणे": "पाहणे", "पहाणे": "पाहणे", "रहणे": "राहणे", "रहाणे": "राहणे", "लिहणे": "लिहिणे"}
+
+
+def sentences(corpora):
+    """The words of each sentence of the Leipzig archives [corpora], folded (marathi_fold)."""
+    folded = {}
+    for path in corpora:
+        if not path:
+            continue
+        with tarfile.open(path) as tar:
+            member = next(m for m in tar.getmembers() if m.name.endswith("-sentences.txt"))
+            for line in io.TextIOWrapper(tar.extractfile(member), encoding="utf-8"):
+                words = []
+                for w in LETTERS.findall(unicodedata.normalize("NFC", line.partition("\t")[2])):
+                    f = folded.get(w)
+                    if f is None:
+                        f = folded[w] = marathi_fold(w)
+                    words.append(f)
+                yield words
+
+
+def corpus_names(corpora, wanted):
+    """Of the words [wanted], those the sentences show as names (NAME_HONOURED, NAME_FIRST)."""
+    seen, honoured, before = Counter(), Counter(), defaultdict(Counter)
+    for words in sentences(corpora):
+        seen.update(words)
+        for i in range(len(words) - 1):
+            word, after = words[i], words[i + 1]
+            if after.startswith(HONORIFIC):
+                honoured[word] += 1
+            if word in wanted:
+                before[word][after] += 1
+    honoured_names = {w for w, n in honoured.items() if seen[w] >= NAME_SEEN and n >= NAME_HONOURED * seen[w]}
+    out = set()
+    for word in wanted:
+        if seen[word] < NAME_SEEN:
+            continue
+        if (word in honoured_names or sum(n for w, n in before[word].items() if w in honoured_names) >= NAME_FIRST * seen[word]
+                or sum(n for w, n in before[word].items() if w in PLACE_AFTER) >= NAME_PLACE * seen[word]):
+            out.add(word)
+    return out
+
+
+def name_forms(name):
+    """A name's forms: its stems (itself, its oblique: पुण्यात of पुणे, and its honorific plural: रामभाऊंनी, रावांच्या) with
+    the cases, postpositions and clitics."""
+    stems = {name, name + ("ं" if vowel_final(name) else "ां")}
+    if name[-1] == "ा":
+        stems |= {name[:-1] + "े", name[:-1] + "्या"}
+    elif name[-1] == "े":
+        stems.add(name[:-1] + "्या")
+    elif not vowel_final(name):
+        stems.add(name + "ा")
+    return with_clitics(stems | {stem + t for stem in stems for t in OBLIQUE_TAILS})
+
+
+def slipped(form):
+    """[form] with its long and short i and u alike (करुन, करून; सुरु, सुरू), a य after a consonant with or without the virama
+    (मोठया, मोठ्या) and the old ध्द as द्ध (पध्दत, पद्धत)."""
+    return form.replace("ी", "ि").replace("ू", "ु").replace("\u094dय", "य").replace("ध्द", "द्ध")
+
+
+def telling_tail(tail):
+    """Whether a verb's ending, after its past's -ा or -ि (उडाल्याने, पाठविलेल्या), tells a verb (VERB_TELLING)."""
+    return tail.startswith(VERB_TELLING) or tail[:1] in ("ा", "ि") and tail[1:].startswith(VERB_TELLING)
+
+
+def induce(unexplained, claimers):
+    """
+    The words the corpus's forms no word of the pack explains ([unexplained]: form -> count) are of: word -> its forms. A
+    name's forms ([claimers]) are its, and no word's. Each form goes to one word, the one with the most forms' count of those
+    left: a noun's forms are its nominal_forms and direct_forms with the clitics, a verb's its verb_forms.
+    """
+    claimed = (FRAGMENTS | NOT_WORDS) & set(unexplained)
+    # A name's forms, but for those the corpus has more often than the name (आढावा "review", not आढाव's).
+    for name in claimers - NOT_WORDS:
+        claimed |= {f for f in name_forms(name) if f in unexplained and (f == name or unexplained[f] <= COUNTS.get(name, 0))}
+    left = {f: n for f, n in unexplained.items() if f not in claimed}
+    # The forms spelled alike but for slips (slipped), as one, under the spelling written most often (मुस्लीम, मुस्लिम).
+    alike = defaultdict(set)
+    for form in left:
+        alike[slipped(form)].add(form)
+
+    def spelled(forms):
+        return {f for form in forms for f in alike.get(slipped(form), ())}
+
+    def commonest(form):
+        return max(alike[slipped(form)], key=lambda f: (left[f], f)) == form
+
+    paradigms, verbs, tried = {}, set(), set()
+    for form, n in left.items():
+        for tail in VERB_TELLING:
+            stem = form[:-len(tail)]
+            # The verbs the pack lacks have a consonant stem; a past on -ाल is the stem's (उडाल्याने of उडणे).
+            if tail.startswith("ल") and stem.endswith("ा") and len(stem) > 2 and not vowel_final(stem[:-1]):
+                stem = stem[:-1]
+            if not form.endswith(tail) or len(stem) < 2 or vowel_final(stem) or stem[-1] == "्" or stem + "णे" in tried:
+                continue
+            word = stem + "णे"
+            tried.add(word)
+            # Not its bare stem + -ा, -ू, -ं (खोका "box" is no imperative of खोकणे).
+            made = {f for f in verb_forms(word, set()) if f[len(stem):] not in ("ा", "ू", "ं")}
+            made = spelled(f for f in with_clitics(eyelash(made)) if f in left)
+            telling = {f for f in made if telling_tail(f[len(stem):])}
+            if len(telling) >= INDUCED_FORMS and math.fsum(left[f] for f in telling) >= INDUCED_VERB:
+                paradigms[word] = made
+                verbs.add(word)
+    for form, n in left.items():
+        if n < INDUCED_SEEN or len(form) < 2 or form.endswith(NOT_NOUN) or form in paradigms or not commonest(form):
+            continue
+        # A consonant-final word the corpus has less often than the same in -ा, or a third as often as in -ी, is that one's
+        # (मालिक, मालिका; विक्र, विक्री).
+        if not vowel_final(form) and (left.get(form + "ा", 0) > n or left.get(form + "ी", 0) > 3 * n):
+            continue
+        # A word in -े is the plural or the neuter of one in -ा the corpus has too (रस्ते, मोठे): that one stands for it.
+        if form[-1] == "े" and left.get(form[:-1] + "ा", 0) >= INDUCED_BARE:
+            continue
+        ks = {"noun", "adj"} if form[-1] in "ाे" else {"noun"}
+        made = word_forms(form, ks, {}) | {form}
+        tails = direct_forms(form, ks, set())
+        if form + "णे" in verbs:
+            tails = {f for f in tails if not f[len(form):].startswith(VERB_LIKE_TAILS)}
+        paradigms[form] = spelled(f for f in with_clitics(made | eyelash(tails)) if f in left)
+    # Lazy greedy: a word's count only falls as others take its forms, so one popped with its count unchanged is the best left.
+    chosen = {}
+    heap = [(-math.fsum(left[f] for f in forms), word) for word, forms in paradigms.items()]
+    heapq.heapify(heap)
+    while heap:
+        negative, word = heapq.heappop(heap)
+        forms = paradigms[word] - claimed
+        mass = math.fsum(left[f] for f in forms)
+        if mass < -negative:
+            paradigms[word] = forms
+            if mass > 0:
+                heapq.heappush(heap, (-mass, word))
+            continue
+        if word in verbs:
+            stem = word[:-2]
+            telling = {f for f in forms if telling_tail(f[len(stem):])}
+            if len(telling) < INDUCED_FORMS or math.fsum(left[f] for f in telling) < INDUCED_VERB:
+                continue
+        elif word in claimed or mass < INDUCED_BARE or forms <= {word} and left[word] < INDUCED_LONE:
+            continue
+        claimed |= forms | {word}
+        # An adjective in -ा is cited in its -े, as the pack has them (मोठे): one whose -ी and -े the corpus has a fourth as often
+        # as its -ा, and its -े's cases (a feminine's oblique: शाळेत) less often than its -ी.
+        base = word[:-1]
+        if (word[-1] == "ा" and word not in verbs and left.get(base + "ी", 0) >= left.get(word, 0) / 4
+                and left.get(base + "े", 0) >= left.get(word, 0) / 4
+                and math.fsum(left.get(base + "े" + t, 0) for t in CASES) < left.get(base + "ी", 0)):
+            word = base + "े"
+        # One the corpus has in -ी three times as often as in -ा and -े is an adjective in -ी (नागरी, पाकिस्तानी).
+        if word[-1] in "ाे" and word not in verbs and left.get(base + "ी", 0) > 3 * (left.get(base + "ा", 0) + left.get(base + "े", 0)):
+            word = base + "ी"
+        # A verb in -विणे is its -वणे's (पाठविणे, पाठवणे), and a few are others' spellings (INDUCED_SPELLINGS).
+        if word in verbs and word.endswith("विणे"):
+            word = word[:-4] + "वणे"
+        word = INDUCED_SPELLINGS.get(word, word)
+        # A noun's plural the pack's table lacks is the noun's (लढे of लढा, नद्या of नदी).
+        if word not in verbs:
+            word = next((w for w in (word[:-1] + "ा" if word[-1] == "े" else "", word[:-3] + "ी" if word.endswith("्या") else "")
+                         if "noun" in KINDS.get(w, ())), word)
+        chosen.setdefault(word, set()).update(forms)
+    return chosen
+
+
+def build(found, size, label, corpora=()):
+    """The list: the pack's words and those the corpus shows (induce), by their forms' counts in [found]."""
     dictionaries = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "dictionaries")
     PRONOUN_FORMS.clear()
     PRONOUN_FORMS.update(pronoun_forms())
@@ -698,6 +921,18 @@ def build(found, size, label):
         return own, others
 
     found_heads = {form: candidates(form) for form in counts}
+    # A form no word explains is a slip of the form spelled with the other i or u (करुन of करून, सुरु of सुरू) that is
+    # written at least as often, and goes where that goes.
+    spelled = defaultdict(list)
+    for form, (own, others) in found_heads.items():
+        if own or others:
+            spelled[slipped(form)].append(form)
+    for form, (own, others) in list(found_heads.items()):
+        if not own and not others and form not in NOT_WORDS and form not in names:
+            right = [f for f in spelled.get(slipped(form), ()) if counts[f] >= counts[form]]
+            heads = {h for f in right for h in found_heads[f][1] or {found_heads[f][0]}}
+            if heads:
+                found_heads[form] = (None, heads)
     # How common each word is by its forms of no other word.
     alone = defaultdict(float)
     for form, (own, others) in found_heads.items():
@@ -706,6 +941,7 @@ def build(found, size, label):
             alone[next(iter(heads))] += counts[form]
     scores = defaultdict(float)
     forms = defaultdict(dict)
+    unexplained = {}
     for form, share in counts.items():
         own, others = found_heads[form]
         if own and others and max(alone.get(o, 0.0) for o in others) <= share:
@@ -713,6 +949,7 @@ def build(found, size, label):
         else:
             heads = others or ({own} if own else set())
         if not heads:
+            unexplained[form] = share
             continue
         weights_here = {h: alone.get(h, 0.0) for h in heads}
         whole = sum(weights_here.values())
@@ -722,6 +959,13 @@ def build(found, size, label):
                 continue
             scores[head] += share * part
             forms[head][form] = forms[head].get(form, 0.0) + share * part
+
+    wanted = {f for f, n in unexplained.items() if n >= INDUCED_BARE}
+    claimers = names | NOT_WORDS | INDUCED_NOT_WORDS | corpus_names(corpora, wanted)
+    for word, made in induce(unexplained, claimers).items():
+        for form in sorted(made):
+            scores[word] += counts[form]
+            forms[word][form] = forms[word].get(form, 0.0) + counts[form]
 
     ranked = sorted(scores, key=lambda w: (-scores[w], w))[:size]
     lines = [f"# source: {label}", f"# words: {len(ranked)}"]
