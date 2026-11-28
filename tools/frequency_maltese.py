@@ -492,11 +492,19 @@ ENGLISH_SHARE = 0.05
 ITALIAN_RATIO = 4
 ITALIAN_LETTERS = re.compile("[a-zàèìòù]+")
 DAMAGED_SHARE = 0.5
+# A word no pack has that is another's spelling (sistemà, assoċċjazzjoni, qegħdha) is one SPELLING_RATIO times rarer.
+SPELLING_RATIO = 5
+# Words the courses teach as another's form, which the pack has as words of their own: qarsa, "pinch", as the feminine of
+# qares "sour".
+TAUGHT_AS = {"qarsa": "qares"}
 # A gloss naming the word a form is of: "grants (plural of għotja)", "(it) is staged ; is raised (form of ttella')", "past
 # participle of għaraf: known", "observed (fem. of mħares)"; not a verbal noun (tħaddim of ħaddem), a word of its own. Or one
 # made of a form and a pronoun: "they gave him (taw + -h)".
 NAMES_BASE = re.compile(r"(?<!verbal noun )(?<!noun )\b(?:passive|mediopassive|plural|paucal|dual|fem\.|feminine|form|participle|"
-                        r"spelling|imperfect|imperative) of ([a-zàèìòùċġħż']+)")
+                        r"spelling|misspelling|variant|imperfect|imperative|elative|comparative|singulative) of ([a-zàèìòùċġħż'-]+)")
+# A later sense naming the word another's spelling (mbgħad: "afterwards (variant of imbagħad)"; xiehda: "witnesses (variant
+# of xhieda)"), read where the two have the same consonants (not qattus "cat", "euphemistic form of qaddis").
+VARIANT_BASE = re.compile(r"\b(?:variant|misspelling|spelling|alternative form) of ([a-zàèìòùċġħż'-]+)")
 LEMMA_FIRST = re.compile(r"^\(([a-zàèìòùċġħż']+)\) ")
 JOINED_BASE = re.compile(r"\(([a-zàèìòùċġħż']+) \+ -[a-zàèìòùċġħż']+\)")
 # A gloss marking an adjective's feminine or plural (solved (fem.), academic (pl.)), and one reading as a passive.
@@ -587,7 +595,67 @@ def perfects(word):
             if form.endswith(end) and len(form) - len(end) >= 3:
                 stem = form[:-len(end)]
                 out += [stem] + revoweled(stem) + ([stem[:-2] + "a'"] if stem.endswith("għ") else [])
+    # A weak verb's imperfect ends in -i (jiskadi: skada; jinkludi: inkluda), and a perfect starting with two consonants is
+    # written with an i (jikkonferma: ikkonferma).
+    out += [f[:-1] + "a" for f in out[1:] if f.endswith("i") and len(f) > 3]
+    out += ["i" + f for f in out[1:] if len(f) > 3 and consonant(f[0]) and consonant(f[1])]
     return list(dict.fromkeys(out))
+
+
+def imperfect_shaped(word):
+    """Whether [word] reads as an imperfect, which the pack may gloss as a dictionary form (jitħallat "to be mixed",
+    tintalab "to be asked for"): j and a consonant or i, or ti and two consonants."""
+    return len(word) > 4 and (word[0] == "j" and (consonant(word[1]) or word[1] == "i") or (
+        word[:2] == "ti" and consonant(word[2]) and consonant(word[3])))
+
+
+def singulars(word):
+    """The singulars a plural in -i, -jiet or -ijiet may be of (migranti: migrant; prostituti: prostituta; anfibji: anfibju;
+    kanoniċi: kanoniku)."""
+    out = []
+    for end in ("ijiet", "jiet", "i"):
+        if word.endswith(end) and len(word) - len(end) >= 3:
+            stem = word[:-len(end)]
+            out += [stem, stem + "a", stem + "u"] + ([stem + "i"] if end != "i" else []) + (
+                [stem[:-1] + "ku"] if stem.endswith("ċ") else [])
+            break
+    return out
+
+
+def plural_gloss(gloss, of):
+    """Whether English [gloss] is the plural of [of] (migrants of migrant, amphibians of amphibian, tactics of tactic)."""
+    if not gloss or not of:
+        return False
+    head, last = gloss.rsplit(" ", 1) if " " in gloss else ("", gloss)
+    of_head, of_last = of.rsplit(" ", 1) if " " in of else ("", of)
+    return head == of_head and last in (of_last + "s", of_last + "es", of_last[:-1] + "ies") + (
+        (of_last[:-2] + "en",) if of_last.endswith("man") else ())
+
+
+def variants(word):
+    """The spellings [word] may be a slip for: spellings' (assoċċjazzjoni, pusses), its last vowel without or with its accent
+    (sistemà), ħ for h and back (fiħ), without a silent h (qegħdha, kellhu), e for ie (ken)."""
+    out = spellings(word) | {plain(word)}
+    if word[-1:] in ACCENTED:
+        out.add(word[:-1] + ACCENTED[word[-1]])
+    for i, letter in enumerate(word):
+        if letter in "hħ":
+            out.add(word[:i] + ("ħ" if letter == "h" else "h") + word[i + 1:])
+        if letter == "h" and i:
+            out.add(word[:i] + word[i + 1:])
+        if letter == "e" and word[i - 1:i] != "i":
+            out.add(word[:i] + "ie" + word[i + 1:])
+    return out - {word}
+
+
+def undoubled(word):
+    """[word] with its doubled letters written once."""
+    return re.sub(r"(.)\1", r"\1", word)
+
+
+def skeleton(word):
+    """[word]'s consonants (xiehda and xhieda share theirs)."""
+    return {c for c in word if consonant(c) and c != "-"}
 
 
 def actives(perfect):
@@ -722,9 +790,12 @@ def fold(scores, forms, pos, pack, supplement):
         else:
             found = [NAMES_BASE.findall(g.partition(":")[0]) for g in firsts.get(word, [])]
             bases = [b[0] for b in found] if found and all(found) else []
-        for base in bases:
-            to = listed_as(base) or listed_as(base.rstrip("'")) or base.endswith("a'") and listed_as(base[:-2] + "għa")
-            if to and to != word and fits(word, to):
+        spelled = [b for g in glosses.get(word, ()) for b in VARIANT_BASE.findall(g) if skeleton(b) == skeleton(word)]
+        for base in bases + spelled:
+            # A spelling of a word written with the article (bilmod of bil-mod, talanqas of tal-anqas) is that word's.
+            to = listed_as(base) or listed_as(base.rstrip("'")) or base.endswith("a'") and listed_as(base[:-2] + "għa") or (
+                "-" in base and listed_as(base.rpartition("-")[2]))
+            if to and to != word and (fits(word, to) or base in spelled or "-" in base):
                 return to
         return None
 
@@ -761,8 +832,22 @@ def fold(scores, forms, pos, pack, supplement):
                     break
             if found:
                 return found
-        if k <= {"verb"}:
-            whole = dictionary_form(word)
+        # A plural the pack glosses as one (migranti "migrants", anfibji "amphibians") is its singular's.
+        if "noun" in k and word.endswith("i"):
+            gloss = [re.sub(r"\([^)]*\)", "", g).strip().lower() for g in firsts.get(word, [])[:1]]
+            found = gloss and first(singulars(word), word, lambda to, base: base == to and bool(kinds(to) & {"noun", "adj"}) and any(
+                plural_gloss(gloss[0], re.sub(r"\([^)]*\)", "", g).strip().lower()) for g in firsts.get(to, [])[:1]))
+            if found:
+                return found
+        # A verb found by its imperfects is made in -a (idawwlu: dawwla), which may be a listed verb's with its last vowel
+        # (dawwal).
+        if word not in packed and "verb" in k and word.endswith("a"):
+            found = first(revoweled(word[:-1]), word, lambda to, base: verb(to))
+            if found:
+                return found
+        # A verb's form; or one no pack has (nġibdu, of nġibed: ġibed).
+        if k <= {"verb"} or word not in packed:
+            whole = dictionary_form(word) and not imperfect_shaped(word)
             found = first([] if whole else perfects(word)[1:], word, lambda to, base: verb(to))
             if not found and (not glosses.get(word) or any(PASSIVE.search(g) for g in glosses[word])):
                 for perfect in unprothetic_i(word) if whole else perfects(word):
@@ -774,8 +859,14 @@ def fold(scores, forms, pos, pack, supplement):
             if found:
                 return found
         alike = {re.sub(r"\([^)]*\)", "", g).strip().lower() for g in glosses.get(word, ())} - {""}
-        return first(sorted(spellings(word)), word, lambda to, base: k & kinds(to) and scores[to] > scores[word] and alike & {
+        found = first(sorted(spellings(word)), word, lambda to, base: k & kinds(to) and scores[to] > scores[word] and alike & {
             re.sub(r"\([^)]*\)", "", g).strip().lower() for g in glosses.get(to, ())})
+        # A word no pack has that is a slip for one written SPELLING_RATIO times as often (sistemà, qegħdha, kellhu) is that
+        # word's; with a consonant doubled or not, only for a word's own spelling (assoċċjazzjoni), not a form's (gwerrer
+        # "warrior", gwerer "wars").
+        return found or word not in packed and first(sorted(variants(word)), word, lambda to, base: counted(
+            base) >= SPELLING_RATIO * counted(word) and bool(k & kinds(to)) and (base == to or undoubled(base) != undoubled(
+                word)))
 
     # How often a word is written as a name's later piece: capitalised after a name (George Bush).
     after = defaultdict(int)
@@ -792,7 +883,7 @@ def fold(scores, forms, pos, pack, supplement):
         if word not in packed and (is_english(word, ENGLISH_SHARE) or is_italian(word) or damaged):
             moves[word] = None
             continue
-        found = target(word)
+        found = TAUGHT_AS.get(word) or target(word)
         if found:
             moves[word] = found
         elif SEEN_IN.get(word) and HYPHENED.get(word, 0) >= PIECE_SHARE * SEEN_IN[word]:
