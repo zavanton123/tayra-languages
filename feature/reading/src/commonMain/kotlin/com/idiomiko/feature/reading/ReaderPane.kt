@@ -20,6 +20,7 @@ import com.idiomiko.core.ui.components.IconButtonStyle
 import com.idiomiko.core.ui.theme.AppAccents
 import com.idiomiko.core.ui.theme.IdiomikoTheme
 import com.idiomiko.core.domain.model.TermStatus
+import com.idiomiko.core.domain.render.RenderedSentence
 import com.idiomiko.core.domain.service.SentenceTranslation
 import androidx.compose.foundation.selection.selectable
 import androidx.compose.foundation.selection.selectableGroup
@@ -612,30 +613,37 @@ private fun TypographyCard(state: ReadingUiState, viewModel: ReadingViewModel) {
 }
 
 /**
- * The page's first sentence as the reader shows it, in the chosen font, size and spacing and with
- * its words in their status colours, above its translation when there is one.
+ * The page's first sentences as the reader shows them, in the chosen font, size and spacing and with
+ * their words in their status colours, above their translation when there is one.
  */
 @Composable
 private fun PreviewCard(state: ReadingUiState) {
     val prefs = state.settings
     val theme = IdiomikoTheme.current
-    val sentence = state.page.paragraphs.asSequence().flatMap { it.sentences }.firstOrNull { it.displayText.isSpoken() } ?: return
+    val sentences = previewSentences(state)
+    if (sentences.isEmpty()) return
     val colors = theme.statusColors
-    val text = remember(sentence, colors) {
+    val text = remember(sentences, colors) {
         buildAnnotatedString {
-            sentence.items.forEach { item ->
-                val start = length
-                append(item.renderText)
-                if (!item.isWord || item.status == TermStatus.WELL_KNOWN || item.status == TermStatus.IGNORED) return@forEach
-                val background = colors.background(item.status)
-                when {
-                    item.status == TermStatus.UNKNOWN && colors.unknownAsText -> addStyle(SpanStyle(color = background), start, length)
-                    background != Color.Transparent -> addStyle(SpanStyle(background = background, color = colors.onHighlight), start, length)
+            sentences.forEach { sentence ->
+                // Sentences from different paragraphs, or written without a space, keep one between them.
+                val first = sentence.items.firstOrNull()?.renderText?.firstOrNull()
+                if (length > 0 && !toString().last().isWhitespace() && first?.isWhitespace() == false) append(' ')
+                sentence.items.forEach { item ->
+                    val start = length
+                    append(item.renderText)
+                    if (!item.isWord || item.status == TermStatus.WELL_KNOWN || item.status == TermStatus.IGNORED) return@forEach
+                    val background = colors.background(item.status)
+                    when {
+                        item.status == TermStatus.UNKNOWN && colors.unknownAsText -> addStyle(SpanStyle(color = background), start, length)
+                        background != Color.Transparent -> addStyle(SpanStyle(background = background, color = colors.onHighlight), start, length)
+                    }
                 }
             }
         }.let { it.subSequence(it.indexOfFirst { c -> !c.isWhitespace() }.coerceAtLeast(0), it.length) }
     }
-    val translation = (state.translations[sentence.displayText] as? SentenceTranslation.Done)?.text
+    val translation = sentences.map { (state.translations[it.displayText] as? SentenceTranslation.Done)?.text }
+        .takeIf { all -> all.all { it != null } }?.joinToString(" ")
     val family = readingFontFamily(prefs.readingFont)
     val size = 18 * prefs.readingFontScale
     PaneCard(tr("Preview")) {
@@ -651,6 +659,20 @@ private fun PreviewCard(state: ReadingUiState) {
         }
     }
 }
+
+/** Enough of the page's opening sentences to fill a few lines of the preview. */
+private fun previewSentences(state: ReadingUiState): List<RenderedSentence> {
+    val spoken = state.page.paragraphs.asSequence().flatMap { it.sentences }.filter { it.displayText.isSpoken() }
+    val chosen = mutableListOf<RenderedSentence>()
+    for (sentence in spoken) {
+        chosen += sentence
+        if (chosen.size == PREVIEW_MAX_SENTENCES || chosen.sumOf { it.displayText.length } >= PREVIEW_CHARACTERS) break
+    }
+    return chosen
+}
+
+private const val PREVIEW_CHARACTERS = 220
+private const val PREVIEW_MAX_SENTENCES = 4
 
 // ---- Bookmarks
 

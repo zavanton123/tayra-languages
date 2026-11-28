@@ -1164,7 +1164,7 @@ class ReadingHoverTest {
     /** A phone reaches the appearance from the player's settings, in the part-height sheet over the text. */
     @Test
     fun aPhonesSettingsReachTheAppearanceTab() {
-        val vm = runBlocking { reader(mainIsDefault = false) }
+        val vm = runBlocking { reader(mainIsDefault = false, wordsPerPage = 20, paragraph = "O lobo dorme na floresta. A noite é fria.") }
         startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }) }
         rule.setContent {
             CompositionLocalProvider(LocalWindowWidth provides WindowWidth.COMPACT) {
@@ -1176,8 +1176,8 @@ class ReadingHoverTest {
         rule.waitUntil(5_000) { rule.onAllNodesWithTag("pane-tab-APPEARANCE").fetchSemanticsNodes().isNotEmpty() }
         rule.onNodeWithTag("pane-tab-APPEARANCE").performClick()
         rule.waitUntil(5_000) { rule.onAllNodesWithTag("font-choice").fetchSemanticsNodes().isNotEmpty() }
-        // The preview shows the page's first sentence in the chosen font.
-        rule.onNode(hasText("lobo dorme", substring = true) and hasAnyAncestor(hasTestTag("reader-preview"))).assertExists()
+        // The preview shows the page's first sentences in the chosen font.
+        rule.onNode(hasText("lobo dorme", substring = true) and hasText("noite é fria", substring = true) and hasAnyAncestor(hasTestTag("reader-preview"))).assertExists()
     }
 
     /** On a phone the pane is a sheet over a live page: a tap on the text above it does not put it away. */
