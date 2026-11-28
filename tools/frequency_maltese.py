@@ -37,6 +37,8 @@ WRITTEN = defaultdict(int)
 LOWER = defaultdict(int)
 # And how often it is written before a hyphen that is no article's (kontro-eżami, Kon-Katidral).
 HYPHENED = defaultdict(int)
+# How often a piece is written next to text left damaged (gÄ§andha's andha, after the mending).
+DAMAGED = defaultdict(int)
 
 LETTERS = re.compile("[a-zàèìòùċġħż]+")
 VOWELS = set("aeiouàèìòù")
@@ -113,6 +115,16 @@ def english(form):
     except ImportError:
         return 0.0
     return wordfreq.word_frequency(form, "en")
+
+
+@functools.lru_cache(maxsize=None)
+def italian(form):
+    """How common [form] is in Italian, as a share of its words, or 0 without wordfreq."""
+    try:
+        import wordfreq
+    except ImportError:
+        return 0.0
+    return wordfreq.word_frequency(form, "it")
 
 
 def name_or_english(form):
@@ -463,6 +475,16 @@ NAME_SHARE = 0.1
 NAME_LEAST = 20
 NAME_MOST = 400
 PIECE_SHARE = 0.5
+# A word no pack has is English when the English dictionary (en-en) has it, or its singular, and English text has it at least
+# ENGLISH_SHARE times as often as Maltese text (goalkeeper, meetings, stakeholders, roundabout); a word's form, when English
+# has it ENGLISH_RATIO times as often (smart, filed under smar). A piece written next to damaged text DAMAGED_SHARE of its
+# uses is none.
+ENGLISH_SHARE = 0.05
+# And Italian when spelled with none of Maltese's own letters (ċ ġ ħ ż j k x) and Italian text has it ITALIAN_RATIO times as
+# often (punto, piazza, sorelle, giugno); not a verb, as many a loanword verb is spelled as its Italian (illumina, invita).
+ITALIAN_RATIO = 4
+ITALIAN_LETTERS = re.compile("[a-zàèìòù]+")
+DAMAGED_SHARE = 0.5
 # A gloss naming the word a form is of: "grants (plural of għotja)", "(it) is staged ; is raised (form of ttella')", "past
 # participle of għaraf: known", "observed (fem. of mħares)"; not a verbal noun (tħaddim of ħaddem), a word of its own. Or one
 # made of a form and a pronoun: "they gave him (taw + -h)".
@@ -609,9 +631,46 @@ def fold(scores, forms, pos, pack, supplement):
     mħallsa: ffinanzja, ħallas), a feminine or plural (eterna: etern), a verb's person (jqajjem: qajjem; nħarġet: nħareġ), a
     passive whose active is listed (ntalab: talab; jitħallas: ħallas), one with a pronoun (tawh: ta), a plural or form its gloss
     names (kisbiet: kisba), another spelling glossed alike (dettal: dettall). Drops names (Qawra) and a compound's first
-    pieces (kontro, kon); the [pack] glosses (its hand-written ones, [supplement], name the word anywhere). Returns what
-    went where (None: dropped).
+    pieces (kontro, kon), and the English, Italian and damaged text no pack has (goalkeeper, punto);
+    the [pack] glosses (its hand-written ones, [supplement], name the word anywhere), and the English dictionary beside it
+    tells English. Returns what went where (None: dropped).
     """
+    here = os.path.dirname(pack)
+    packed = set()
+    for name in ["mt-en"] + OTHER_PACKS:
+        path = os.path.join(here, f"{name}.sqlite")
+        if os.path.exists(path):
+            db = sqlite3.connect(path)
+            packed |= {w for (w,) in db.execute("SELECT word_lc FROM entries")}
+            db.close()
+    path = os.path.join(here, "en-en.sqlite")
+    english_db = sqlite3.connect(path) if os.path.exists(path) else None
+
+    def in_english(word):
+        """Whether the English dictionary has [word] or its singular (meetings, referees, studios)."""
+        if english_db is None or not re.fullmatch("[a-z]+", word):
+            return False
+        tries = [word] + [word[:-len(e)] + r for e, r in (("s", ""), ("es", ""), ("ies", "y")) if word.endswith(e)]
+        return any(english_db.execute("SELECT 1 FROM entries WHERE word_lc = ? LIMIT 1", (t,)).fetchone() for t in tries)
+
+    def is_english(word, share):
+        return word not in packed and english(word) > 0 and english(word) >= share * counted(word) and in_english(word)
+
+    def is_italian(word):
+        return word not in packed and counted(word) > 0 and bool(ITALIAN_LETTERS.fullmatch(word)) and not re.search(
+            "[jkx]", word) and "verb" not in pos.get(word, ()) and italian(word) >= ITALIAN_RATIO * counted(word)
+
+    def is_name(word):
+        written = WRITTEN.get(word, 0)
+        return written >= NAME_LEAST and LOWER.get(word, 0) < NAME_SHARE * written
+
+    # A word's forms that are names or English count for nothing (Bidnija of bidni, smart of smar); not a capitalised word's
+    # (Maltin of Malti).
+    for word in sorted(scores):
+        foreign = [f for f in forms.get(word, {}) if f != word and (
+            is_name(f) and not is_name(word) or is_english(f, ENGLISH_RATIO))]
+        for form in foreign:
+            scores[word] -= forms[word].pop(form)
     ranked = sorted(scores, key=lambda w: (-scores[w], w))
     listed = set(ranked[:LISTED])
     owner = {}
@@ -714,6 +773,11 @@ def fold(scores, forms, pos, pack, supplement):
     moves = {}
     for word in ranked:
         if not LETTERS.fullmatch(word.rstrip("'")):
+            continue
+        # English (goalkeeper, meetings), Italian (punto) and pieces of damaged text no pack has are no words.
+        damaged = 0 < SEEN_IN.get(word, 0) * DAMAGED_SHARE <= DAMAGED.get(word, 0)
+        if word not in packed and (is_english(word, ENGLISH_SHARE) or is_italian(word) or damaged):
+            moves[word] = None
             continue
         found = target(word)
         if found:

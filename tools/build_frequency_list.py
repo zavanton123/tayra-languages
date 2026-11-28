@@ -3593,6 +3593,8 @@ MALTESE_MOJIBAKE = re.compile("Ä[§¡‹¦ ]|Å[¼»]|â€")
 MALTESE_MOJIBAKE_PAIR = re.compile("â€.|[ÂÃÄÅ].")
 MALTESE_CYRILLIC = str.maketrans({"ћ": "ħ", "Ћ": "Ħ"})
 MALTESE_LINK = re.compile(r"https?://\S*|www\.\S*|&[a-z]+;|\bnbsp\b")
+# The marks of text left damaged next to a word.
+MALTESE_DAMAGE = set("ÂÃÄÅ§¡‹¦¼»€\ufffd")
 
 
 def maltese_mended(sentence):
@@ -3647,7 +3649,11 @@ def maltese_counts(language, limit, source="leipzig"):
                 counts[piece] += 1
             if pieces:
                 starts = not cut or any(c in VIETNAMESE_STARTS for c in sentence[end:match.start()])
-                cut.append((pieces[-1], match.group(0)[2 * (len(pieces) - 1):], starts))
+                written = match.group(0)[2 * (len(pieces) - 1):]
+                if {sentence[match.start() - 1:match.start()], sentence[match.end():match.end() + 1]} & MALTESE_DAMAGE or (
+                        MALTESE_DAMAGE & set(match.group(0))):
+                    frequency_maltese.DAMAGED[pieces[-1]] += 1
+                cut.append((pieces[-1], written, starts))
             end = match.end()
         # And how often each word is written in lowercase where no sentence starts, which tells a word from a name, and in a
         # sentence the pack knows most words of, which tells it from English (frequency_maltese).
