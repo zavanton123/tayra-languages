@@ -88,6 +88,7 @@ internal val ptReading: Map<String, String> = mapOf(
     "Auto-pause on" to "Pausa automática ativada",
     "Auto-pause off" to "Pausa automática desativada",
     "Pause after each sentence" to "Pausar após cada frase",
+    "Auto-pause" to "Pausa automática",
     "Offline translation failed: {0}" to "Falha na tradução offline: {0}",
     "Offline translation for {0} → {1} is available, but its models are not installed." to "A tradução offline {0} → {1} está disponível, mas os modelos não estão instalados.",
     "Getting offline translation ready…" to "Preparando a tradução offline…",

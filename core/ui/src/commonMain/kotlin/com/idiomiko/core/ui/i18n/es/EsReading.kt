@@ -88,6 +88,7 @@ internal val esReading: Map<String, String> = mapOf(
     "Auto-pause on" to "Pausa automática activada",
     "Auto-pause off" to "Pausa automática desactivada",
     "Pause after each sentence" to "Pausar después de cada frase",
+    "Auto-pause" to "Pausa automática",
     "Offline translation failed: {0}" to "La traducción sin conexión falló: {0}",
     "Offline translation for {0} → {1} is available, but its models are not installed." to "La traducción sin conexión {0} → {1} está disponible, pero sus modelos no están instalados.",
     "Getting offline translation ready…" to "Preparando la traducción sin conexión…",

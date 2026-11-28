@@ -88,6 +88,7 @@ internal val deReading: Map<String, String> = mapOf(
     "Auto-pause on" to "Autopause an",
     "Auto-pause off" to "Autopause aus",
     "Pause after each sentence" to "Nach jedem Satz pausieren",
+    "Auto-pause" to "Autopause",
     "Offline translation failed: {0}" to "Offline-Übersetzung fehlgeschlagen: {0}",
     "Offline translation for {0} → {1} is available, but its models are not installed." to "Offline-Übersetzung für {0} → {1} ist verfügbar, aber ihre Modelle sind nicht installiert.",
     "Getting offline translation ready…" to "Offline-Übersetzung wird vorbereitet…",

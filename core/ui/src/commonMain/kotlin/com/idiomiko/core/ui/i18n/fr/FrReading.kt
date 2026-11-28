@@ -88,6 +88,7 @@ internal val frReading: Map<String, String> = mapOf(
     "Auto-pause on" to "Pause auto activée",
     "Auto-pause off" to "Pause auto désactivée",
     "Pause after each sentence" to "Pause après chaque phrase",
+    "Auto-pause" to "Pause auto",
     "Offline translation failed: {0}" to "Échec de la traduction hors ligne : {0}",
     "Offline translation for {0} → {1} is available, but its models are not installed." to "La traduction hors ligne {0} → {1} est disponible, mais ses modèles ne sont pas installés.",
     "Getting offline translation ready…" to "Préparation de la traduction hors ligne…",

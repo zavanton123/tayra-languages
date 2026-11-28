@@ -477,7 +477,7 @@ class ReadingHoverTest {
         rule.waitUntil(5_000) { rule.onAllNodesWithContentDescription("Read the page").fetchSemanticsNodes().isNotEmpty() }
         rule.onNodeWithContentDescription("Previous sentence").assertIsNotEnabled()
         rule.onNodeWithContentDescription("Next sentence").assertIsEnabled()
-        for (description in listOf("Previous sentence", "Read the page", "Next sentence", "Auto-pause off")) {
+        for (description in listOf("Previous sentence", "Read the page", "Next sentence")) {
             val control = rule.onNodeWithContentDescription(description).getBoundsInRoot()
             assertTrue(control.right - control.left >= 48.dp, "$description is at least 48dp wide")
             assertTrue(control.bottom - control.top >= 48.dp, "$description is at least 48dp tall")
@@ -485,9 +485,7 @@ class ReadingHoverTest {
         assertEquals(1, vm.state.value.pageNumber, "sentence controls do not replace page navigation")
         val play = rule.onNodeWithContentDescription("Read the page").getBoundsInRoot()
         assertTrue(play.bottom <= rule.onNodeWithTag("stage-chain").getBoundsInRoot().top, "the player sits over the stages")
-        rule.onNodeWithTag("mobile-auto-pause").performClick()
-        rule.waitUntil(5_000) { vm.state.value.settings.autoPause }
-        rule.onNodeWithContentDescription("Auto-pause on").assertExists()
+        assertTrue(rule.onAllNodesWithContentDescription("Auto-pause off").fetchSemanticsNodes().isEmpty(), "auto-pause is in the settings, not the player")
         // Retelling has only the translation: nothing to read aloud.
         vm.selectStage(ReadingStage.RETELL)
         rule.waitUntil(5_000) { rule.onAllNodesWithContentDescription("Read the page").fetchSemanticsNodes().isEmpty() }
@@ -516,7 +514,6 @@ class ReadingHoverTest {
 
         rule.waitUntil(5_000) { rule.onAllNodesWithContentDescription("Reader settings").fetchSemanticsNodes().isNotEmpty() }
         assertEquals(1, rule.onAllNodesWithContentDescription("Reader settings").fetchSemanticsNodes().size, "the settings stay in the title bar with no player")
-        assertTrue(rule.onAllNodesWithTag("mobile-auto-pause").fetchSemanticsNodes().isEmpty())
         assertTrue(rule.onAllNodesWithContentDescription("Read the page").fetchSemanticsNodes().isEmpty())
         assertTrue(rule.onAllNodesWithContentDescription("Previous sentence").fetchSemanticsNodes().isEmpty())
         assertTrue(rule.onAllNodesWithContentDescription("Next sentence").fetchSemanticsNodes().isEmpty())
@@ -1049,6 +1046,8 @@ class ReadingHoverTest {
         rule.onNodeWithTag("pane-tab-AUDIO").performClick()
         rule.waitUntil(5_000) { rule.onAllNodesWithText("Playback").fetchSemanticsNodes().isNotEmpty() }
         rule.onNodeWithText("Speak selected words").assertExists()
+        rule.onNodeWithTag("auto-pause-setting").performScrollTo().performClick()
+        rule.waitUntil(5_000) { settings.current.autoPause }
         System.getenv("READER_PANE_SCREENSHOT")?.let { path ->
             rule.waitForIdle()
             javax.imageio.ImageIO.write(rule.onAllNodes(androidx.compose.ui.test.isRoot())[0].captureToImage().toAwtImage(), "png", File("$path-audio.png"))

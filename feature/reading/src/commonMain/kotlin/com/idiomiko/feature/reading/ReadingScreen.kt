@@ -964,8 +964,6 @@ private fun ReadingBody(
                     playing = continuous.active,
                     onNextSentence = continuous::next,
                     nextEnabled = canSpeak && continuous.currentIndex != pageSentences.lastIndex,
-                    autoPause = state.settings.autoPause,
-                    onAutoPause = viewModel::toggleAutoPause,
                 ),
             )
             Row(
@@ -1001,11 +999,9 @@ private fun ReadingBody(
                 {
                     ContinuousControls(
                         playing = continuous.active,
-                        autoPause = state.settings.autoPause,
                         onPlay = continuous::toggle,
                         playEnabled = canSpeak,
                         playDisabledReason = noVoiceReason(state),
-                        onAutoPause = viewModel::toggleAutoPause,
                         modifier = Modifier,
                     )
                 }
@@ -1068,8 +1064,6 @@ private class MobilePlayback(
     val playing: Boolean,
     val onNextSentence: () -> Unit,
     val nextEnabled: Boolean,
-    val autoPause: Boolean,
-    val onAutoPause: () -> Unit,
 )
 
 /** Phone controls stay in one place above the safe bottom while the page scrolls behind them. */
@@ -1099,15 +1093,6 @@ private fun MobileReaderActions(playback: MobilePlayback, modifier: Modifier = M
         MobileActionSlot {
             MobileReaderButton(AppIcons.SkipNext, tr("Next sentence"), playback.onNextSentence, enabled = playback.nextEnabled)
         }
-        MobileActionSlot {
-            MobileReaderButton(
-                AppIcons.PauseAfterSentence,
-                if (playback.autoPause) tr("Auto-pause on") else tr("Auto-pause off"),
-                playback.onAutoPause,
-                on = playback.autoPause,
-                modifier = Modifier.testTag("mobile-auto-pause"),
-            )
-        }
     }
 }
 
@@ -1123,21 +1108,14 @@ private fun MobileReaderButton(
     onClick: () -> Unit,
     enabled: Boolean = true,
     primary: Boolean = false,
-    /** A switch's state: tinted while on. Null for a plain button. */
-    on: Boolean? = null,
     size: Dp = MOBILE_ACTION_SIZE,
     modifier: Modifier = Modifier,
 ) {
     val colors = MaterialTheme.colorScheme
-    val background = when {
-        primary && enabled -> colors.primary
-        on == true -> colors.primary.copy(alpha = AppAlpha.soft)
-        else -> Color.Transparent
-    }
+    val background = if (primary && enabled) colors.primary else Color.Transparent
     val foreground = when {
         !enabled -> colors.onSurface.copy(alpha = AppAlpha.disabled)
         primary -> colors.onPrimary
-        on == true -> colors.primary
         else -> colors.onSurfaceVariant
     }
     Box(
@@ -1225,22 +1203,17 @@ private val HANDLE_WIDTH = 32.dp
 private val VOCABULARY_BAR_WIDTH = 360.dp
 private val SOURCE_DIVIDER_HEIGHT = 20.dp
 
-/**
- * The page's play button, to read on from sentence to sentence, with the auto-pause switch after it.
- */
+/** The page's play button, to read on from sentence to sentence. */
 @Composable
 private fun ContinuousControls(
     playing: Boolean,
-    autoPause: Boolean,
     onPlay: () -> Unit,
     playEnabled: Boolean,
     playDisabledReason: String,
-    onAutoPause: () -> Unit,
     modifier: Modifier,
 ) {
     val colors = MaterialTheme.colorScheme
     val playDescription = if (!playEnabled) playDisabledReason else if (playing) tr("Pause reading") else tr("Read the page")
-    val autoPauseDescription = if (autoPause) tr("Auto-pause on") else tr("Auto-pause off")
     Row(modifier, verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
         AppTooltip(playDescription) {
             Box(
@@ -1256,19 +1229,6 @@ private fun ContinuousControls(
                     tint = if (playEnabled) colors.onPrimary else colors.onSurface.copy(alpha = AppAlpha.disabled),
                     modifier = Modifier.size(AppSizes.iconXLarge),
                 )
-            }
-        }
-        AppTooltip(tr("Pause after each sentence")) {
-            Box(
-                // Raised like the play button, so the page's text never seems to run through it.
-                Modifier.size(CONTROL_SIZE).shadow(AppElevation.raised, AppShapes.circle).clip(AppShapes.circle)
-                    .background(if (autoPause) colors.primary else colors.surface)
-                    .border(AppBorders.selected(colors.primary), AppShapes.circle)
-                    .clickable(onClick = onAutoPause)
-                    .semantics { contentDescription = autoPauseDescription },
-                contentAlignment = Alignment.Center,
-            ) {
-                Icon(AppIcons.PauseAfterSentence, contentDescription = null, tint = if (autoPause) colors.onPrimary else colors.primary, modifier = Modifier.size(AppSizes.iconMedium))
             }
         }
     }

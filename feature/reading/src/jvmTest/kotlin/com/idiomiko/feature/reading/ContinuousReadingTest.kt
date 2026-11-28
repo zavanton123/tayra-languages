@@ -124,7 +124,6 @@ class ContinuousReadingTest {
     @Test
     fun autoPauseStopsAfterEachSentence() {
         show(autoPause = true)
-        rule.onNodeWithContentDescription("Auto-pause on").fetchSemanticsNode()
 
         rule.onNodeWithContentDescription("Read the page").performClick()
         assertEquals(listOf("O lobo dorme."), readUntilSilent())
@@ -198,7 +197,7 @@ class ContinuousReadingTest {
         assertEquals(listOf("O lobo dorme."), readUntilSilent())
 
         press(Key.Q)
-        rule.waitUntil(2_000) { rule.onAllNodesWithContentDescription("Auto-pause off").fetchSemanticsNodes().isNotEmpty() }
+        rule.waitUntil(2_000) { !settings.current.autoPause }
         // W resumes reading, and pauses it again.
         press(Key.W)
         rule.waitUntil(2_000) { rule.onAllNodesWithContentDescription("Pause reading").fetchSemanticsNodes().isNotEmpty() }

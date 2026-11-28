@@ -513,6 +513,8 @@ private fun PlaybackCard(state: ReadingUiState, viewModel: ReadingViewModel) {
         SwitchSetting(tr("Read-aloud controls"), tr("Show the play button and a speaker before each sentence"), prefs.showSentencePlay, icon = AppIcons.PlayArrow, dense = true) { viewModel.toggleSentencePlay() }
         AppDivider()
         SwitchSetting(tr("Speak selected words"), tr("Hear a word when you select it"), prefs.speakWordOnClick, icon = AppIcons.Abc, dense = true) { viewModel.toggleSpeakWordOnClick() }
+        AppDivider()
+        SwitchSetting(tr("Auto-pause"), tr("Pause after each sentence"), prefs.autoPause, icon = AppIcons.PauseAfterSentence, dense = true, modifier = Modifier.testTag("auto-pause-setting")) { viewModel.toggleAutoPause() }
     }
 }
 
