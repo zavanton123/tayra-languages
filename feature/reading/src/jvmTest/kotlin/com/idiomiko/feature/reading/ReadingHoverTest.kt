@@ -1038,6 +1038,8 @@ class ReadingHoverTest {
         rule.onNodeWithText("Typography").assertExists()
         rule.onNodeWithText("One per line").performScrollTo().performClick()
         rule.waitUntil(5_000) { settings.current.splitSentences }
+        rule.onNodeWithTag("align-left").performScrollTo().performClick()
+        rule.waitUntil(5_000) { !settings.current.justifyText }
 
         rule.onNodeWithTag("pane-tab-TRANSLATION").performClick()
         rule.waitUntil(5_000) { rule.onAllNodesWithText("Translation engine").fetchSemanticsNodes().isNotEmpty() }

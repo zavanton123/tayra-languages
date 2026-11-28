@@ -201,6 +201,8 @@ internal val frReading: Map<String, String> = mapOf(
     "Offline · Downloadable voices" to "Hors ligne · Voix à télécharger",
     "Offline · High quality" to "Hors ligne · Haute qualité",
     "Left" to "À gauche",
+    "Alignment" to "Alignement",
+    "Justified" to "Justifié",
     "Add bookmark to page {0}" to "Ajouter un signet à la page {0}",
     "Remove bookmark from page {0}" to "Retirer le signet de la page {0}",
     "No bookmarks yet. Bookmark a page to come back to it." to "Aucun signet pour l’instant. Ajoutez un signet à une page pour y revenir.",

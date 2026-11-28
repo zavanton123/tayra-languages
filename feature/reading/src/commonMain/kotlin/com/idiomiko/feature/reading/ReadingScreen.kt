@@ -912,6 +912,7 @@ private fun ReadingBody(
                     else -> state.readings
                 },
                 toneColors = state.settings.toneColors && chinese,
+                justify = state.settings.justifyText,
                 // Turning the translation back needs it shown, first; an answer's would give it away.
                 translations = when {
                     state.stage == ReadingStage.QUESTIONS -> null

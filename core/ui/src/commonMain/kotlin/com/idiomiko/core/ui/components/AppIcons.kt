@@ -359,6 +359,7 @@ object AppIcons {
     }
 
     val FormatAlignLeft: ImageVector by lazy { icon("FormatAlignLeft", "M15 15H3v2h12v-2zm0-8H3v2h12V7zM3 13h18v-2H3v2zm0 8h18v-2H3v2zM3 3v2h18V3H3z") }
+    val FormatAlignJustify: ImageVector by lazy { icon("FormatAlignJustify", "M3 21h18v-2H3v2zm0-4h18v-2H3v2zm0-4h18v-2H3v2zm0-4h18V7H3v2zm0-6v2h18V3H3z") }
 
     val ViewStream: ImageVector by lazy { icon("ViewStream", "M4 14h17v-4H4v4zm0 5h17v-4H4v4zM4 5v4h17V5H4z") }
 

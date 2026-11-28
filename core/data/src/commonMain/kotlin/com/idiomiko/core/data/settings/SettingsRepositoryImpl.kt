@@ -131,6 +131,7 @@ class SettingsRepositoryImpl(
             knownWordCounts = store.getString(Keys.KNOWN_WORD_COUNTS, defaults.knownWordCounts),
             accountServer = store.getString(Keys.ACCOUNT_SERVER, defaults.accountServer),
             splitSentences = store.getBoolean(Keys.SPLIT_SENTENCES, defaults.splitSentences),
+            justifyText = store.getBoolean(Keys.JUSTIFY_TEXT, defaults.justifyText),
             showTranslations = store.getBoolean(Keys.SHOW_TRANSLATIONS, defaults.showTranslations),
             sideBySideTranslations = store.getBoolean(Keys.SIDE_BY_SIDE_TRANSLATIONS, defaults.sideBySideTranslations),
             practiceTranslation = store.getBoolean(Keys.PRACTICE_TRANSLATION, defaults.practiceTranslation),
@@ -273,6 +274,7 @@ class SettingsRepositoryImpl(
         store.putString(Keys.KNOWN_WORD_COUNTS, s.knownWordCounts)
         store.putString(Keys.ACCOUNT_SERVER, s.accountServer)
         store.putBoolean(Keys.SPLIT_SENTENCES, s.splitSentences)
+        store.putBoolean(Keys.JUSTIFY_TEXT, s.justifyText)
         store.putBoolean(Keys.SHOW_TRANSLATIONS, s.showTranslations)
         store.putBoolean(Keys.SIDE_BY_SIDE_TRANSLATIONS, s.sideBySideTranslations)
         store.putBoolean(Keys.PRACTICE_TRANSLATION, s.practiceTranslation)
@@ -370,6 +372,7 @@ class SettingsRepositoryImpl(
         const val KNOWN_WORD_COUNTS = "known_word_counts"
         const val ACCOUNT_SERVER = "account_server"
         const val SPLIT_SENTENCES = "reading_split_sentences"
+        const val JUSTIFY_TEXT = "reading_justify_text"
         const val SIDE_BY_SIDE_TRANSLATIONS = "reading_side_by_side_translations"
         const val SHOW_SENTENCE_PLAY = "reading_show_sentence_play"
         const val SHOW_READINGS = "reading_show_readings"

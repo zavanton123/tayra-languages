@@ -201,6 +201,8 @@ internal val elReading: Map<String, String> = mapOf(
     "Offline · Downloadable voices" to "Εκτός σύνδεσης · Φωνές για λήψη",
     "Offline · High quality" to "Εκτός σύνδεσης · Υψηλή ποιότητα",
     "Left" to "Αριστερά",
+    "Alignment" to "Στοίχιση",
+    "Justified" to "Πλήρης στοίχιση",
     "Add bookmark to page {0}" to "Προσθήκη σελιδοδείκτη στη σελίδα {0}",
     "Remove bookmark from page {0}" to "Αφαίρεση σελιδοδείκτη από τη σελίδα {0}",
     "No bookmarks yet. Bookmark a page to come back to it." to "Δεν υπάρχουν σελιδοδείκτες ακόμη. Προσθέστε σελιδοδείκτη σε μια σελίδα για να επιστρέψετε σε αυτή.",

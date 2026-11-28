@@ -191,6 +191,8 @@ fun ReadingText(
     modifier: Modifier = Modifier,
     /** Lay each sentence out on its own line instead of flowing a paragraph together. */
     splitSentences: Boolean = false,
+    /** Spread the lines to both edges; otherwise they start at the reading edge and end ragged. */
+    justify: Boolean = true,
     /** Readings drawn above words (furigana, pinyin), by the word's text; lines get room for them when there are any. */
     readings: Map<String, List<Furigana>> = emptyMap(),
     /** Pinyin readings coloured by tone. */
@@ -301,6 +303,7 @@ fun ReadingText(
                         fontFamily = fontFamily,
                         readings = readings,
                         toneColors = toneColors,
+                        justify = justify,
                     ) }
                 }
                 val translated = translations != null && sentenceText.any { it.isLetter() }
@@ -320,7 +323,7 @@ fun ReadingText(
                         text = { if (onSpeakSentence != null) withButton(Modifier.fillMaxWidth()) else Box(Modifier.fillMaxWidth()) { sentence() } },
                         translation = {
                             Box(Modifier.fillMaxWidth().testTag("side-translation")) {
-                                if (translated) TranslationLine(translations[sentenceText], theme, fontScale, lineHeight, large = true)
+                                if (translated) TranslationLine(translations[sentenceText], theme, fontScale, lineHeight, large = true, justify = justify)
                             }
                         },
                     )
@@ -528,7 +531,7 @@ internal fun TranslationOnlyText(page: RenderedPage, translations: Map<String, S
 }
 
 @Composable
-private fun TranslationLine(translation: SentenceTranslation?, theme: AppTheme, fontScale: Float, lineHeight: Float, large: Boolean = false) {
+private fun TranslationLine(translation: SentenceTranslation?, theme: AppTheme, fontScale: Float, lineHeight: Float, large: Boolean = false, justify: Boolean = true) {
     val color = theme.readingText.copy(alpha = if (large) 0.7f else 0.55f)
     // In the side-by-side layout the translation mirrors the original's size and line height so the rows line up.
     val size = if (large) 18 * fontScale else 14 * fontScale
@@ -536,8 +539,8 @@ private fun TranslationLine(translation: SentenceTranslation?, theme: AppTheme, 
     when (translation) {
         is SentenceTranslation.Done -> Text(
             translation.text,
-            // Beside the sentence it is justified as the sentence is.
-            style = TextStyle(fontSize = size.sp, lineHeight = (size * spacing).sp, color = color, textAlign = if (large) TextAlign.Justify else TextAlign.Start),
+            // Beside the sentence it is aligned as the sentence is.
+            style = TextStyle(fontSize = size.sp, lineHeight = (size * spacing).sp, color = color, textAlign = if (large && justify) TextAlign.Justify else TextAlign.Start),
             // It starts under the sentence's first letter.
             modifier = Modifier.fillMaxWidth().padding(bottom = if (large) 0.dp else AppSpacing.m),
         )
@@ -579,6 +582,7 @@ private fun ParagraphText(
     readings: Map<String, List<Furigana>> = emptyMap(),
     /** Pinyin readings coloured by tone. */
     toneColors: Boolean = false,
+    justify: Boolean = true,
 ) {
     val spans = remember(items) { mutableListOf<Span>() }
     // The pointer handlers live as long as the paragraph, but its words are laid out anew when they
@@ -664,7 +668,7 @@ private fun ParagraphText(
                 color = theme.readingText,
                 textDirection = if (rightToLeft) TextDirection.Rtl else TextDirection.Ltr,
                 fontFamily = fontFamily,
-                textAlign = TextAlign.Justify,
+                textAlign = if (justify) TextAlign.Justify else TextAlign.Start,
             ),
             onTextLayout = { layout = it },
             inlineContent = inlineContent,

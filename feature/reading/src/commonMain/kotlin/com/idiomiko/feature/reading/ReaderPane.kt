@@ -182,7 +182,7 @@ internal fun ReaderPane(
                 TallestTab(
                     PaneTab.entries.indexOf(tab),
                     listOf(
-                        { Columns(phone, { TypographyCard(state, viewModel); ReadingExperienceCard(state, viewModel, phone) }, { PreviewCard(state) }) },
+                        { Columns(phone, { TypographyCard(state, viewModel); ReadingExperienceCard(state, viewModel, phone); AlignmentCard(state, viewModel, phone) }, { PreviewCard(state) }) },
                         {
                             Columns(
                                 phone,
@@ -456,6 +456,19 @@ private fun ReadingExperienceCard(state: ReadingUiState, viewModel: ReadingViewM
 }
 
 @Composable
+private fun AlignmentCard(state: ReadingUiState, viewModel: ReadingViewModel, phone: Boolean) {
+    PaneCard(tr("Alignment")) {
+        LayoutChoice(
+            listOf(
+                LayoutOption(false, AppIcons.FormatAlignLeft, tr("Left"), "align-left"),
+                LayoutOption(true, AppIcons.FormatAlignJustify, tr("Justified"), "align-justified"),
+            ),
+            state.settings.justifyText, phone, viewModel::setJustifyText,
+        )
+    }
+}
+
+@Composable
 private fun TranslationsCard(state: ReadingUiState, viewModel: ReadingViewModel) {
     val prefs = state.settings
     PaneCard(tr("Translations")) {
@@ -656,7 +669,8 @@ private fun PreviewCard(state: ReadingUiState) {
                 .padding(AppSpacing.xl).testTag("reader-preview"),
             verticalArrangement = Arrangement.spacedBy(AppSpacing.m),
         ) {
-            Text(text, style = TextStyle(fontFamily = family, fontSize = size.sp, lineHeight = (size * prefs.readingLineHeight).sp, color = theme.readingText))
+            val align = if (prefs.justifyText) TextAlign.Justify else TextAlign.Start
+            Text(text, style = TextStyle(fontFamily = family, fontSize = size.sp, lineHeight = (size * prefs.readingLineHeight).sp, color = theme.readingText, textAlign = align))
             if (translation != null) {
                 Text(translation, style = TextStyle(fontFamily = family, fontSize = size.sp, lineHeight = (size * prefs.readingLineHeight).sp, color = theme.readingText.copy(alpha = AppAlpha.half)))
             }

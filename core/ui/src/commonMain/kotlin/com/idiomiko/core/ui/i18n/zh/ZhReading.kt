@@ -201,6 +201,8 @@ internal val zhReading: Map<String, String> = mapOf(
     "Offline · Downloadable voices" to "离线 · 可下载语音",
     "Offline · High quality" to "离线 · 高音质",
     "Left" to "左对齐",
+    "Alignment" to "对齐方式",
+    "Justified" to "两端对齐",
     "Add bookmark to page {0}" to "为第 {0} 页添加书签",
     "Remove bookmark from page {0}" to "移除第 {0} 页的书签",
     "No bookmarks yet. Bookmark a page to come back to it." to "还没有书签。为页面添加书签，以便日后返回。",

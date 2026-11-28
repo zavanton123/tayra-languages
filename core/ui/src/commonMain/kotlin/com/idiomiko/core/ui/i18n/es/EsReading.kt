@@ -201,6 +201,8 @@ internal val esReading: Map<String, String> = mapOf(
     "Offline · Downloadable voices" to "Sin conexión · Voces descargables",
     "Offline · High quality" to "Sin conexión · Alta calidad",
     "Left" to "Izquierda",
+    "Alignment" to "Alineación",
+    "Justified" to "Justificado",
     "Add bookmark to page {0}" to "Añadir marcador en la página {0}",
     "Remove bookmark from page {0}" to "Quitar el marcador de la página {0}",
     "No bookmarks yet. Bookmark a page to come back to it." to "Aún no hay marcadores. Marca una página para volver a ella.",

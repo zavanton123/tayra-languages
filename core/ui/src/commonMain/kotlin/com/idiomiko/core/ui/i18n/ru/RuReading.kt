@@ -201,6 +201,8 @@ internal val ruReading: Map<String, String> = mapOf(
     "Offline · Downloadable voices" to "Офлайн · Загружаемые голоса",
     "Offline · High quality" to "Офлайн · Высокое качество",
     "Left" to "По левому краю",
+    "Alignment" to "Выравнивание",
+    "Justified" to "По ширине",
     "Add bookmark to page {0}" to "Добавить закладку на страницу {0}",
     "Remove bookmark from page {0}" to "Убрать закладку со страницы {0}",
     "No bookmarks yet. Bookmark a page to come back to it." to "Закладок пока нет. Добавьте закладку, чтобы вернуться к странице позже.",

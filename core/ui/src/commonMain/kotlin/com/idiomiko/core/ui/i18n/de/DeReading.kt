@@ -201,6 +201,8 @@ internal val deReading: Map<String, String> = mapOf(
     "Offline · Downloadable voices" to "Offline · Stimmen zum Herunterladen",
     "Offline · High quality" to "Offline · Hohe Qualität",
     "Left" to "Linksbündig",
+    "Alignment" to "Ausrichtung",
+    "Justified" to "Blocksatz",
     "Add bookmark to page {0}" to "Lesezeichen auf Seite {0} setzen",
     "Remove bookmark from page {0}" to "Lesezeichen von Seite {0} entfernen",
     "No bookmarks yet. Bookmark a page to come back to it." to "Noch keine Lesezeichen. Setze ein Lesezeichen, um später zu einer Seite zurückzukehren.",

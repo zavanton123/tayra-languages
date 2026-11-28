@@ -201,6 +201,8 @@ internal val plReading: Map<String, String> = mapOf(
     "Offline · Downloadable voices" to "Offline · Głosy do pobrania",
     "Offline · High quality" to "Offline · Wysoka jakość",
     "Left" to "Do lewej",
+    "Alignment" to "Wyrównanie",
+    "Justified" to "Wyjustowany",
     "Add bookmark to page {0}" to "Dodaj zakładkę na stronie {0}",
     "Remove bookmark from page {0}" to "Usuń zakładkę ze strony {0}",
     "No bookmarks yet. Bookmark a page to come back to it." to "Nie masz jeszcze zakładek. Dodaj zakładkę, aby wrócić do strony później.",

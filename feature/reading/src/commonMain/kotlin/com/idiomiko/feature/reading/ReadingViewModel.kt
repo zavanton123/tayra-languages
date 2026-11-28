@@ -1105,6 +1105,7 @@ class ReadingViewModel(
     // ---- the reader settings pane
 
     fun setSplitSentences(on: Boolean) = updateSettings { it.copy(splitSentences = on) }
+    fun setJustifyText(on: Boolean) = updateSettings { it.copy(justifyText = on) }
     fun setSideBySideTranslations(on: Boolean) = updateSettings { it.copy(sideBySideTranslations = on) }
     fun setFontScale(scale: Float) = updateSettings { it.copy(readingFontScale = ((scale * 10).roundToInt() / 10f).coerceIn(0.6f, 2.5f)) }
     fun setLineHeight(height: Float) = updateSettings { it.copy(readingLineHeight = ((height * 10).roundToInt() / 10f).coerceIn(1.0f, 3.0f)) }
@@ -1130,6 +1131,7 @@ class ReadingViewModel(
                 readingFontScale = defaults.readingFontScale,
                 readingLineHeight = defaults.readingLineHeight,
                 splitSentences = defaults.splitSentences,
+                justifyText = defaults.justifyText,
                 showReadings = defaults.showReadings,
                 toneColors = defaults.toneColors,
                 zhuyin = defaults.zhuyin,

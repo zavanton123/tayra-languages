@@ -31,6 +31,8 @@ data class UserSettings(
     val readingFont: String = DEFAULT_READING_FONT,
     /** Start every sentence on its own line while reading. */
     val splitSentences: Boolean = false,
+    /** Spread the lines of the reader's text to both edges instead of leaving them ragged on the right. */
+    val justifyText: Boolean = true,
     /** Show a translation under every sentence while reading. */
     val showTranslations: Boolean = false,
     /** Original sentence on the left, its translation on the right, instead of the translation underneath. */
