@@ -4,8 +4,8 @@ Each course teaches one band of 100 words from the Telugu word frequency list
 (`bands/<rankUpTo>.txt`: index, rank, word, its common forms). Course `te-mini-0300` teaches ranks
 201–300 and may use every word ranked 1–300. Ten lessons, each introducing about ten of the band's
 words, so the course covers the band; a learner who finishes it knows the 300 most common words.
-`themes.tsv` gives each course its theme. The list has 7,141 words: the last course is `te-mini-7200`
-(ranks 7101–7141).
+`themes.tsv` gives each course its theme. The list has 6,902 words: the last course is `te-mini-7000`
+(2 words).
 
 ## The list
 
@@ -37,6 +37,12 @@ nominative, a verb's citation form in -ు), and the forms are listed after it. 
   సరకు under సరుకు, తాతయ్య under తాత); irregular plurals are read (రాళ్లను, చేతుల్లో, కాళ్లకు); a noun
   with a light verb written on is the noun's (ఏర్పాటుచేశారు, బాధపడుతున్నారు), and a reflexive with
   కొను on a noun is a verb of its own (ఒప్పుకొను, కోలుకొను).
+- **Past rank 4500 it was rebuilt again** (ranks 1–4500 and their bands are as they were): a page counts
+  a form once, two words after a title or before గారు count as a name's; a noun whose -a spelling is
+  a name stays out (లావణ్య, హేమ), and given names, gods and epithets, castes, towns, films and parties,
+  letters and pieces of other words are left out by hand (రాహువు, కోమటి, కోనసీమ, చో, నట్టు). Spellings
+  and forms the rules missed are filed under their word (ఇచట under ఇచ్చట, మాటాడు under మాట్లాడు,
+  రక్షించుట under రక్షించు, ఇళ్లకు under ఇల్లు). Expect about 3–5 noise words per band.
 
 ## What the lessons are: mini stories
 
@@ -91,7 +97,7 @@ lesson never needs another lesson to make sense.
   - ranks 3001–5000: a richer written register: the Sanskrit-derived words of newspapers and books
     beside their everyday ones, made plain by context; a column, a letter, an interview, a short
     essay that weighs two sides; long sentences that stay easy to parse;
-  - ranks 5001–7141 (C1): the same, with the specialised words of the sciences, the arts and
+  - ranks 5001–6902 (C1): the same, with the specialised words of the sciences, the arts and
     public life, each made clear by its context.
   After rank 1000 sentences get longer and dialogue can carry more of the story; a story may be told
   by a first-person narrator or as a letter, a message or a diary entry. From rank 2000 a lesson may
