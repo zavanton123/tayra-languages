@@ -214,6 +214,18 @@ Things to know about the Belarusian list and the checker:
   words found in the corpus itself (*музей*, *фестываль*, *сцэна*, *квіток*, *транспарт*), and is
   pinned with ranks 1–1600 as they were: rank 1601 on is the rebuilt list's order, so band 1700
   holds its commonest new words (*жа*, *тэрыторыя*, *многі*, *арганізацыя*, *музей*).
+- The list was rebuilt again on 2026-11-27 and re-pinned past rank 3900: ranks 1–3900 and the
+  bands up to 3900 are as they were; rank 3901 on is the rebuilt list's order, and the app's list
+  is the pinned one. The rebuilt list files what the writers' rules count as one word under one
+  headword: aspect and reflexive partners under the commonest of them (*павысіць* holds *павышаць*
+  and *павышацца*, *зафіксаваць* holds *фіксаваць*), participles and verbal nouns that only name
+  the action under their verb (*узвесці* holds *узведзена* and *узвядзенне*), comparatives under
+  their adjective, diminutives and feminines under their noun, taraškievica spellings under the
+  official one, and forms filed as words under their nominative (*кальцо*, not *кольца*); names'
+  uses (*Цыганкоў*, *МАЗ*) and hyphenated entries no longer count. So from band 4000 on a band
+  word's forms column may hold its partners: they are that word, never new words of their own. The
+  words up to 3900 also gained such forms in `extra_forms.tsv`, so a partner of a taught word now
+  counts as that word.
 - The list was built from news, web and Wikipedia text (Leipzig corpora), so politics, history and
   the state rank high and everyday words rank late: *казаць* is 74 and *жыць* 115 (so *кажа* and
   *жыве* are fine in the first course), but *мама* is 963, *хлеб* 1100, *бабуля* 1185, *кот* 1416,
