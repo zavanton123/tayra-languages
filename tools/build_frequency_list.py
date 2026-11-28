@@ -5826,6 +5826,17 @@ def build_khmer(size):
                 for span, _ in found:
                     bound.add("".join(span))
                     parts["".join(span)] = span
+        # A word written next to the same word in KHMER_PAIR_SHARE of its uses, the two together in KHMER_PAIR_OTHER of the
+        # other's, is half of a couplet or compound the pack lacks, however its texts write it (ផ្គត់ of ផ្គត់ផ្គង់, ក្លាស់
+        # of ក្លាស់សិច, ជុល of ជុលជុស, ស្កប់ of ស្កប់ស្កល់): the two are counted as one word, which the list leaves out, so
+        # the half keeps only its uses apart.
+        for (a, b), n in pairs.items():
+            if n < KHMER_PAIR_MIN or a + b in words or a + b in bound:
+                continue
+            if any(khmer_word(p, words) and n >= KHMER_PAIR_SHARE * uses[p] and n >= KHMER_PAIR_OTHER * uses[q]
+                   for p, q in ((a, b), (b, a))):
+                bound.add(a + b)
+                parts[a + b] = (a, b)
         return spelled, together, uses, pairs
 
     spelled, together, _, _ = cut(None)
@@ -5871,6 +5882,11 @@ KHMER_COMPOUND_EACH = 0.1
 # How much commoner a word beside it may be, unless the two are written whole in this share of their uses.
 KHMER_COMPOUND_PARTNER = 16
 KHMER_COMPOUND_WHOLE = 0.1
+# How much of a word's uses must be next to the same word, and how much of the other's, for the two to be a couplet's halves
+# (cut), and how many times at least.
+KHMER_PAIR_SHARE = 0.45
+KHMER_PAIR_OTHER = 0.05
+KHMER_PAIR_MIN = 10
 
 
 def khmer_inside(words, counts):
