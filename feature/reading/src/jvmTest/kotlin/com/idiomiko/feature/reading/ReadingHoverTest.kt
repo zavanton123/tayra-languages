@@ -639,7 +639,7 @@ class ReadingHoverTest {
     @Test
     fun resetPutsBackOnlyTheOpenTab() {
         val vm = runBlocking { reader(mainIsDefault = false) }
-        runBlocking { settings.update { it.copy(splitSentences = true, readingFontScale = 1.4f) } }
+        runBlocking { settings.update { it.copy(showTranslations = true, readingFontScale = 1.4f, splitSentences = true) } }
         startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }) }
         rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = {}, viewModel = vm) }
         rule.waitUntil(5_000) { rule.onAllNodesWithText("lobo dorme", substring = true).fetchSemanticsNodes().isNotEmpty() }
@@ -650,7 +650,8 @@ class ReadingHoverTest {
         rule.waitUntil(5_000) { rule.onAllNodesWithText("Reset appearance settings?").fetchSemanticsNodes().isNotEmpty() }
         rule.onNodeWithTag("reset-confirm").performClick()
         rule.waitUntil(5_000) { settings.current.readingFontScale == UserSettings().readingFontScale }
-        assertTrue(settings.current.splitSentences, "the Reading tab keeps its settings")
+        assertEquals(UserSettings().splitSentences, settings.current.splitSentences, "the sentence layout is the Appearance tab's")
+        assertTrue(settings.current.showTranslations, "the Translation tab keeps its settings")
     }
 
     /**
@@ -867,8 +868,6 @@ class ReadingHoverTest {
 
         // Nothing is left for the reader's tools: no editing, no bookmarks, and the vocabulary is at the end.
         rule.onNodeWithContentDescription("Reader settings").performClick()
-        rule.waitUntil(5_000) { rule.onAllNodesWithTag("pane-tab-READING").fetchSemanticsNodes().isNotEmpty() }
-        rule.onNodeWithTag("pane-tab-READING").performClick()
         rule.waitUntil(5_000) { rule.onAllNodesWithText("Sentence layout").fetchSemanticsNodes().isNotEmpty() }
         for (tool in listOf("tool-edit", "tool-bookmarks", "tool-vocabulary")) {
             assertTrue(rule.onAllNodesWithTag(tool).fetchSemanticsNodes().isEmpty(), "a lesson has no $tool")
@@ -1027,7 +1026,7 @@ class ReadingHoverTest {
         rule.waitUntil(5_000) { rule.onNodeWithTag("stage-note").fetchSemanticsNode().boundsInRoot.top > 0f }
     }
 
-    /** The pane sorts its settings into Reading, Audio and Appearance tabs; a layout choice is saved as it is made. */
+    /** The pane sorts its settings into Appearance, Translation and Audio tabs; a layout choice is saved as it is made. */
     @Test
     fun theReaderPaneSortsItsSettingsIntoTabs() {
         val vm = runBlocking { reader(mainIsDefault = false) }
@@ -1035,20 +1034,23 @@ class ReadingHoverTest {
         rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = {}, viewModel = vm) }
         rule.waitUntil(5_000) { rule.onAllNodesWithText("lobo dorme", substring = true).fetchSemanticsNodes().isNotEmpty() }
         rule.onNodeWithContentDescription("Reader settings").performClick()
-        rule.waitUntil(5_000) { rule.onAllNodesWithTag("pane-tab-READING").fetchSemanticsNodes().isNotEmpty() }
-        rule.onNodeWithTag("pane-tab-READING").performClick()
         rule.waitUntil(5_000) { rule.onAllNodesWithText("Sentence layout").fetchSemanticsNodes().isNotEmpty() }
+        rule.onNodeWithText("Typography").assertExists()
+        rule.onNodeWithText("One per line").performScrollTo().performClick()
+        rule.waitUntil(5_000) { settings.current.splitSentences }
+
+        rule.onNodeWithTag("pane-tab-TRANSLATION").performClick()
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("Translation engine").fetchSemanticsNodes().isNotEmpty() }
         System.getenv("READER_PANE_SCREENSHOT")?.let { path ->
             rule.waitForIdle()
             javax.imageio.ImageIO.write(rule.onAllNodes(androidx.compose.ui.test.isRoot())[0].captureToImage().toAwtImage(), "png", File("$path-reading.png"))
         }
-        for (shown in listOf("Translations", "Show translations", "Translation layout", "Translation engine", "Sentence layout")) {
+        for (shown in listOf("Translations", "Show translations", "Translation layout")) {
             rule.onNodeWithText(shown).assertExists()
         }
+        assertTrue(rule.onAllNodesWithText("Sentence layout").fetchSemanticsNodes().isEmpty())
         rule.onNodeWithText("Below").performScrollTo().performClick()
         rule.waitUntil(5_000) { !settings.current.sideBySideTranslations }
-        rule.onNodeWithText("One per line").performClick()
-        rule.waitUntil(5_000) { settings.current.splitSentences }
 
         rule.onNodeWithTag("pane-tab-AUDIO").performClick()
         rule.waitUntil(5_000) { rule.onAllNodesWithText("Playback").fetchSemanticsNodes().isNotEmpty() }
@@ -1079,8 +1081,6 @@ class ReadingHoverTest {
             rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = {}, viewModel = vm) }
             rule.waitUntil(5_000) { rule.onAllNodesWithText("lobo dorme", substring = true).fetchSemanticsNodes().isNotEmpty() }
             rule.onNodeWithContentDescription("Настройки чтения").performClick()
-            rule.waitUntil(5_000) { rule.onAllNodesWithTag("pane-tab-READING").fetchSemanticsNodes().isNotEmpty() }
-            rule.onNodeWithTag("pane-tab-READING").performClick()
             rule.waitUntil(5_000) { rule.onAllNodesWithText("Предложения").fetchSemanticsNodes().isNotEmpty() }
             rule.onNodeWithText("Предложения").performScrollTo()
             System.getenv("READER_PANE_SCREENSHOT")?.let { path ->

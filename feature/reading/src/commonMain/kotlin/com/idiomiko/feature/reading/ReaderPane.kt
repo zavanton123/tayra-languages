@@ -123,10 +123,10 @@ internal class ReaderPaneActions(
     val onSpeechSettings: () -> Unit,
 )
 
-internal enum class PaneTab { APPEARANCE, READING, AUDIO }
+internal enum class PaneTab { APPEARANCE, TRANSLATION, AUDIO }
 
 /**
- * The reader's settings in three tabs (appearance, reading, audio), or the book's bookmarks: a
+ * The reader's settings in three tabs (appearance, translation, audio), or the book's bookmarks: a
  * large dialog beyond a phone, with the cards in two columns, and a screen of its own on a phone.
  * Every change is saved as it is made; Done only closes them.
  */
@@ -159,7 +159,7 @@ internal fun ReaderPane(
             SegmentedToggle(
                 listOf(
                     Segment(PaneTab.APPEARANCE, AppIcons.FormatSize, tr("Appearance"), testTag = "pane-tab-APPEARANCE"),
-                    Segment(PaneTab.READING, AppIcons.MenuBook, tr("Reading"), testTag = "pane-tab-READING"),
+                    Segment(PaneTab.TRANSLATION, AppIcons.Translate, tr("Translation"), testTag = "pane-tab-TRANSLATION"),
                     Segment(PaneTab.AUDIO, AppIcons.VolumeUp, tr("Audio"), testTag = "pane-tab-AUDIO"),
                 ),
                 selected = tab,
@@ -182,12 +182,12 @@ internal fun ReaderPane(
                 TallestTab(
                     PaneTab.entries.indexOf(tab),
                     listOf(
-                        { Columns(phone, { TypographyCard(state, viewModel) }, { PreviewCard(state) }) },
+                        { Columns(phone, { TypographyCard(state, viewModel); ReadingExperienceCard(state, viewModel, phone) }, { PreviewCard(state) }) },
                         {
                             Columns(
                                 phone,
-                                { ReadingExperienceCard(state, viewModel, phone); TranslationsCard(state, viewModel) },
-                                { TranslationDisplayCard(state, viewModel, phone); TranslationEngineCard(state, viewModel) },
+                                { TranslationsCard(state, viewModel); TranslationDisplayCard(state, viewModel, phone) },
+                                { TranslationEngineCard(state, viewModel) },
                             )
                         },
                         {
@@ -216,9 +216,9 @@ internal fun ReaderPane(
     if (confirmReset) {
         // Only the open tab's settings: the others keep theirs.
         val (question, detail) = when (tab) {
-            PaneTab.READING -> tr("Reset reading settings?") to tr("Sentence layout and translations go back to their defaults. Your translation engine stays.")
+            PaneTab.TRANSLATION -> tr("Reset translation settings?") to tr("Translations and their layout go back to their defaults. Your translation engine stays.")
             PaneTab.AUDIO -> tr("Reset audio settings?") to tr("Playback and speed go back to their defaults. Your speech engine and voices stay.")
-            PaneTab.APPEARANCE -> tr("Reset appearance settings?") to tr("Font, font size and line height go back to their defaults.")
+            PaneTab.APPEARANCE -> tr("Reset appearance settings?") to tr("The text's font, size, spacing and layout go back to their defaults.")
         }
         AppDialog(
             onDismissRequest = { confirmReset = false },

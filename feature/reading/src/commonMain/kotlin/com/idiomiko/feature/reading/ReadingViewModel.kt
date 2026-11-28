@@ -1114,14 +1114,10 @@ class ReadingViewModel(
     internal fun resetReaderSettings(tab: PaneTab) = updateSettings {
         val defaults = UserSettings()
         when (tab) {
-            PaneTab.READING -> it.copy(
-                splitSentences = defaults.splitSentences,
+            PaneTab.TRANSLATION -> it.copy(
                 showTranslations = defaults.showTranslations,
                 sideBySideTranslations = defaults.sideBySideTranslations,
                 practiceTranslation = defaults.practiceTranslation,
-                showReadings = defaults.showReadings,
-                toneColors = defaults.toneColors,
-                zhuyin = defaults.zhuyin,
             )
             PaneTab.AUDIO -> it.copy(
                 showSentencePlay = defaults.showSentencePlay,
@@ -1133,6 +1129,10 @@ class ReadingViewModel(
                 readingFont = defaults.readingFont,
                 readingFontScale = defaults.readingFontScale,
                 readingLineHeight = defaults.readingLineHeight,
+                splitSentences = defaults.splitSentences,
+                showReadings = defaults.showReadings,
+                toneColors = defaults.toneColors,
+                zhuyin = defaults.zhuyin,
             )
         }
     }
