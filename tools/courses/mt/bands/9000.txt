@@ -1,100 +1,100 @@
-1	8901	vixxri	
-2	8902	riħan	
-3	8903	akwarju	
-4	8904	eleġibbilità	eliġibbilità
-5	8905	gardell	
-6	8906	baqqun	bqaqen
-7	8907	assoluzzjoni	assoluzzjonijiet
-8	8908	dermatoloġija	
-9	8909	karfus	
-10	8910	mekkanik	mekkaniks
-11	8911	rixtellu	
-12	8912	sabi	sabix
-13	8913	ikkreja	ikkrejat jikkreja jikkrejaw kkrejajna tikkreja
-14	8914	ippolitiċizza	jippolitiċizza jippolitiċizzaw jippolitiċizzax nippolitiċizzaw
-15	8915	istqasa	jistqasi nistqasi nistqasih nistqasiha nistqasu tistqasi
-16	8916	fabbrikabbli	
-17	8917	għabra	
-18	8918	sogħbien	sogħbiena
-19	8919	ċinta	
-20	8920	determiniżmu	
-21	8921	enfatiku	enfatika enfatiċi
-22	8922	venewwa	venewwi
-23	8923	ikreja	jikreja jikrejaw kreja
-24	8924	tellet	intellet itellet
-25	8925	lakuna	lakuni
-26	8926	litterali	letterali
-27	8927	sieħ	saħ saħna
-28	8928	oġġettività	oġġettivita
-29	8929	ikklerja	ikklerjat jikklerja jikklerjaw jikklerjawha kklerja kklerjat kklerjaw nikklerjaw tikklerja
-30	8930	likur	likuri
-31	8931	ħuttaf	ħuttafa
-32	8932	fosforu	fosfru
-33	8933	ddegrada	ddegradaw degradat jiddegradaw jiddegradawna jiddegradawx tiddegrada
-34	8934	mmartella	jimmartella martel martellat mmartellata
-35	8935	ikkonċepixxa	jikkonċepixxi kkonċepixxa nikkonċepixxi tikkonċepixxi
-36	8936	ipprogramma	ipprogrammat jipprogramma pprogrammat tipprogramma
-37	8937	miklem	imkielem
-38	8938	iddebuta	ddebuta ddebutat iddebutat jiddebutaw
-39	8939	muswaf	muswafa
-40	8940	innaviga	jinnaviga jinnavigaw nnaviga nnavigat tinnaviga
-41	8941	qorq	qrieq
-42	8942	fisqija	fsieqi
-43	8943	newwaħ	inewwaħ inewħu jnewħu nnewħu tinwiħ tnewwaħ tnewwiħ tnewħu
-44	8944	annetta	annettiha nannetta
-45	8945	karrakka	karrakki
-46	8946	prostata	
-47	8947	qorriegħa	
-48	8948	ħiemed	ħiemda
-49	8949	avverbju	avverbji
-50	8950	ikkwalfika	ikkwalfikaw kkwalfika kkwalfikaw tikkwalfika
-51	8951	issopraviva	issopravivew jissopravivi ssopraviva ssopravivew tissopravivi
-52	8952	silem	iselmu sielma
-53	8953	ħamri	
-54	8954	żagħka	
-55	8955	karawett	karawettiet
-56	8956	elenku	elenki
-57	8957	esklama	jesklama jesklamaw sklama tesklama
-58	8958	ifma	jifmu jifmuh jifmuha jifmuhx jifmux nifmu nifmuha tifmu
-59	8959	lajma	
-60	8960	padrun	padruni
-61	8961	siparju	
-62	8962	tbenġil	
-63	8963	xebba'	ixebba jxebba jxebbax xebbgħu
-64	8964	provditur	provdituri provveditur provvedituri
-65	8965	sienja	swieni
-66	8966	ikkomplementa	jikkomplementa jikkomplementaw jikkomplementawha kkomplementat tikkomplementa
-67	8967	kejla	kejliet
-68	8968	sallur	sallura salluriet
-69	8969	approprjazzjoni	approprjazzjonijiet
-70	8970	drammatikament	
-71	8971	mażunerija	
-72	8972	garanti	
-73	8973	imbena	jimbena mbena timbena
-74	8974	temtem	jtemtem temtim temtimt ttemtem
-75	8975	teoloġikament	
-76	8976	nikil	
-77	8977	approssima	japprossimaw napprossimaw
-78	8978	eżibixxa	jeżibixxu teżibixxi
-79	8979	monoteiżmu	
-80	8980	identifikabbli	
-81	8981	djieq	djieqet djiequ jidjieq jidjiequ tidjieq
-82	8982	irradja	irradjaw jirradja jirradjaw tirradja tirradjaw
-83	8983	aqtagħla	jaqtagħli jaqtagħlu taqtagħli
-84	8984	attwalità	attwalita
-85	8985	daħħan	idaħħan idaħħnu iddaħħan jdaħħnu
-86	8986	dażgur	
-87	8987	irrejalizza	jirrejalizza jirrejalizzaw nirrejalizzaw rrejalizzaw tirrejalizza
-88	8988	qallba	inqallbu iqallbu jqallbu jqallbulek nqallbu
-89	8989	vvalorizza	jivvalorizza nivvalorizzaw tivvalorizza valorizzat vvalorizzat
-90	8990	beżżiegħ	beżżiegħa
-91	8991	għaddsa	jgħaddsu ngħaddsu
-92	8992	istrajkja	jistrajkja jistrajkjaw strajkjaw
-93	8993	ittalba	jittalbu tittalbu ttalba
-94	8994	bbuwja	bbuwjat ibbuwja ibbuwjar ibbuwjat jibbuwjaw
-95	8995	platinu	
-96	8996	illiberalizza	jilliberalizza lliberalizzat lliberalizzaw nilliberalizzaw tilliberalizza
-97	8997	qamas	joqmos joqomsu noqomsu toqmos
-98	8998	ajma	
-99	8999	barbikju	
-100	9000	daqsiex	
+1	8901	siegħ	siegħha siegħu
+2	8902	żolfu	
+3	8903	baga	bagi
+4	8904	iffriska	jiffriska jiffriskaw niffriska tiffriska tiffriskak
+5	8905	keba	jikbu kiebi nikbi tikbi
+6	8906	fissazzjoni	fissazzjonijiet
+7	8907	votiv	votiva votivi
+8	8908	ddepona	ddeponew depost iddepona jiddeponi
+9	8909	alluċinazzjoni	alluċinazzjonijiet
+10	8910	bużbież	bużbieża
+11	8911	lastku	
+12	8912	narċis	ranġis
+13	8913	sidrija	sdieri
+14	8914	ġiżimin	ġiżimina
+15	8915	ddemolixxa	demolit
+16	8916	ferkun	frieken furkun
+17	8917	nbiħ	inbiħ
+18	8918	buri	
+19	8919	radda	raddi
+20	8920	kirxa	
+21	8921	lema	jilma tilma
+22	8922	ħrara	
+23	8923	nagħa	ingħat jingħi tingħi tingħu
+24	8924	ikkataloga	ikkatalogat jikkataloga jikkatalogaw kkatalogaw tikkataloga
+25	8925	kartografija	
+26	8926	xall	xalel xalla xalli
+27	8927	mmalja	immaljat jimmaljaw maljar mmaljat
+28	8928	attendent	attendenti
+29	8929	iffonda	ffonda jiffonda
+30	8930	luminata	luminati
+31	8931	iddeżinja	ddeżinja ddeżinjah ddeżinjaha ddeżinjaw ddeżinjawha iddeżinjah iddeżinjaw jiddeżinja jiddeżinjaw tiddeżinja tiddeżinjaha
+32	8932	mmappja	immappja immappjat immappjata immappjaw jimmappja jimmappjaw mmappjaha mmappjat mmappjata mmappjaw timmappja
+33	8933	bblokkja	jibblokkja
+34	8934	dliel	dlielek dlielhom
+35	8935	maksar	
+36	8936	xeha	xhu xhux
+37	8937	aċidità	
+38	8938	samm	samma
+39	8939	gallett	galletti
+40	8940	apoloġista	apoloġisti
+41	8941	iprefera	jipreferu prefera preferew preferewha tipreferi tipreferu
+42	8942	iqarqu	jqarqu
+43	8943	tertuqa	trietaq
+44	8944	vjatku	
+45	8945	ċipp	ċippi
+46	8946	kollokazzjoni	kollokazzjonijiet
+47	8947	elaborazzjoni	elaborazzjonijiet
+48	8948	dderiva	dderivat idderivat jidderiva jidderivaw jidderivu nidderivaw tidderiva
+49	8949	feles	ifilsa
+50	8950	leħħen	ileħħen ileħħnu imleħħen jleħħen leħħnet mleħħen tleħħin
+51	8951	nagħniegħ	
+52	8952	fabbrikazzjoni	fabbrikazzjonijiet
+53	8953	kardjoloġija	
+54	8954	tebba	jtebba jtebbax ttebba ttebbax
+55	8955	biċċier	biċċiera
+56	8956	għażaq	jagħżaq nagħżaq tagħżaq
+57	8957	għelt	għeltijiet
+58	8958	inċensa	jinċensa jinċensaha ninċensa ninċensaw nċensa
+59	8959	ippanikja	ippanikjat jippanikja jippanikjaw jippanikjawx tippanikja tippanikjax
+60	8960	iżgwida	jiżgwida jiżgwidaha jiżgwidaw żgwidat
+61	8961	kidda	ikiddu kiddejt kidditni tkiddu
+62	8962	sfog	isfog
+63	8963	silf	jisilfu jisilfuh jisilfuha jisilfuhom nsilfu tisilfu
+64	8964	ġelu	ġeli
+65	8965	ġwejjed	ġwejda
+66	8966	żarżar	iżarżar iżarżru żarżarha żarżir żarżru
+67	8967	konjugazzjoni	konjugazzjonijiet
+68	8968	awster	awsteri
+69	8969	aċċeleratur	aċċeleraturi
+70	8970	ftiet	ftietu
+71	8971	jissottovaluta	jissottovalutaw
+72	8972	ndiehes	indiehes jindiehes jindiehsu
+73	8973	rassa	
+74	8974	delizzjuż	delizzjuża delizzjużi
+75	8975	għixa	jgħixa jigħixu tgħixa tgħixiex
+76	8976	ikkandida	jikkandidaw kkandidat
+77	8977	kokk	
+78	8978	xeff	xeffs
+79	8979	nwar	inwar
+80	8980	maestru	maestri
+81	8981	rgħib	rgħiba
+82	8982	sandla	sandli
+83	8983	affaċċa	jaffaċċa jaffaċċaw naffaċċa naffaċċaw taffaċċa
+84	8984	gedwed	igedwdu igedwed ingedwed jgedwed tgedwed
+85	8985	ipprospetta	jipprospetta jipprospettaw nipprospettaw pprospetta tipprospettax
+86	8986	isserja	jisserja jisserjaw sserja tisserja
+87	8987	issottolinea	issottolineat jissottolinea ssottolineat tissottolinea
+88	8988	midda	middejt middew nmiddu tmidda
+89	8989	persunali	
+90	8990	saljatura	saljaturi
+91	8991	stmell	jistmell jistmellhom mistmella tistmell
+92	8992	taptap	intaptpu itaptap itaptapli itaptaplu ittaptap jtaptap jtaptaplek
+93	8993	tisliba	
+94	8994	tnejjek	jitnejjek mnejjek nitnejjek nitnejku tnejku
+95	8995	ġwież	
+96	8996	żbarazza	jiżbarazza jiżbarazzaw niżbarazza żbarazzajtx
+97	8997	ikkampja	ikkampjat jikkampja jikkampjaw kkampja kkampjat kkampjaw tikkampja
+98	8998	tulipan	tulipani
+99	8999	ikkonnettja	jikkonnettja jikkonnettjaw tikkonnettja
+100	9000	femminiżmu	

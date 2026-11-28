@@ -1,100 +1,100 @@
-1	9801	inapplikabbli	
-2	9802	kraxx	
-3	9803	muxgħar	
-4	9804	sommarjament	
-5	9805	ħarq	
-6	9806	ħżieża	ħżież
-7	9807	antikwarju	antikwarji
-8	9808	emula	emulat jemula jemulaw nemulaw temula
-9	9809	tafli	taflin
-10	9810	ippreċipita	ippreċipitaw jippreċipita ppreċipita ppreċipitat ppreċipitaw tippreċipita
-11	9811	trażmetta	jitrażmetti jitrażmettu jitrażmettux nitrażmettu trażmettiet ttrażmetti
-12	9812	ħaffiefa	
-13	9813	abbassu	abbasso
-14	9814	arterjosklerożi	
-15	9815	atomiżmu	
-16	9816	attributtiv	
-17	9817	aħħ	
-18	9818	bblakka	jibblakka
-19	9819	bejżbol	
-20	9820	beżżiegħi	
-21	9821	deplorabbli	
-22	9822	dettaljatament	
-23	9823	deċiframent	
-24	9824	dikjarattiv	dikjarattiva
-25	9825	eljosfera	
-26	9826	fanfarun	
-27	9827	ffronta	jiffronta
-28	9828	ikkostruwixxa	
-29	9829	infantiċida	
-30	9830	isqfija	
-31	9831	kapoċċ	kapoċċi
-32	9832	kaħli	
-33	9833	konsiderabilment	
-34	9834	maqsam	imqasam
-35	9835	mgħid	
-36	9836	nankina	nankini
-37	9837	popolament	
-38	9838	rammel	imrammel
-39	9839	sarraġ	
-40	9840	stessu	istessi
-41	9841	verġinali	
-42	9842	zukkini	żukkini
-43	9843	ġebbes	tiġbis
-44	9844	ġudikatur	
-45	9845	manganiż	
-46	9846	industrijalizza	industrijalizzat jindustrijalizza jindustrijalizzaw
-47	9847	bankarella	bankarelli
-48	9848	deliberattiv	deliberattiva deliberattivi
-49	9849	iffiltra	ffiltrat ffiltraw iffiltrat jiffiltra jiffiltraw tiffiltra
-50	9850	sardin	sardina sardini
-51	9851	urbaniżmu	
-52	9852	vvenera	ivvenera jivvenera jivveneraw nivveneraw venerat vvenerat
-53	9853	destinatarju	destinatarji
-54	9854	ffrustra	iffrustrat jiffrustra jiffrustrak jiffrustraw niffrustra tiffrustra
-55	9855	imperjaliżmu	
-56	9856	ittempra	ittemprat jittempra tittempra ttempra
-57	9857	taqqba	itaqqbu itaqqbuhom itaqqbulu ittaqqbux jtaqqbu
-58	9858	vistu	
-59	9859	xlief	xolfa
-60	9860	ġidra	ġdur
-61	9861	baqqa'	baqqgħu
-62	9862	ddawnlowdja	jiddawnlowdjaw
-63	9863	ekwiparabbli	
-64	9864	għajjeb	mgħajjeb
-65	9865	kakaw	
-66	9866	nofsija	
-67	9867	rpoż	irpoż
-68	9868	sewqa	
-69	9869	sfrakass	
-70	9870	stanga	
-71	9871	vjolentement	
-72	9872	xogħfa	
-73	9873	espressjoniżmu	
-74	9874	nazzjonalizzazzjoni	nazzjonalizzazzjonijiet
-75	9875	vanità	vanitajiet
-76	9876	iddestabilizza	jiddestabilizza jiddestabilizzaw tiddestabilizza
-77	9877	korrettament	
-78	9878	erett	eretta eretti
-79	9879	irripatrija	irripatrijaw jirripatrija jirripatrijaw rripatrijat
-80	9880	katedral	katedrali
-81	9881	pruna	
-82	9882	reliġjożament	
-83	9883	żabar	jiżbru miżbura niżbru żabru
-84	9884	żvantaġġa	jiżvantaġġaw tiżvantaġġax żvantaġġat
-85	9885	gallozz	gallozzi
-86	9886	salla	isalli jsalli jsallu sallu ssalli
-87	9887	sarsella	sarselli
-88	9888	sigarru	sigarri
-89	9889	ċuqlajta	ċuqlajti
-90	9890	abatija	abbatija
-91	9891	deprezzament	
-92	9892	għarib	għorba
-93	9893	illiċenzja	illiċenzjat lliċenzjat tilliċenzja tilliċenzjahom
-94	9894	ingidma	jingidmu jingidmux ningidmu
-95	9895	irremetta	jirremetti nirremetti nirremettu tirremetti
-96	9896	isseduċa	jisseduċi jisseduċu sseduċiet tisseduċi tisseduċihom
-97	9897	qantar	qnatar qnatarna
-98	9898	qurdien	
-99	9899	stkerrah	istkerrih jistkerrah jistkerrhu mistkerrah tistkerrah
-100	9900	ħasira	
+1	9801	ċikatriċi	
+2	9802	tmarrad	
+3	9803	federalist	federalista federalisti
+4	9804	approprja	approprjat japproprjaw
+5	9805	armonizza	armonizzaw jarmonizza jarmonizzawx narmonizzaw narmonizzawhom
+6	9806	bużnanna	
+7	9807	femminilità	
+8	9808	galjun	galjuni
+9	9809	glukożju	glukows
+10	9810	iddiverġa	ddiverġew ddiverġiet iddiverġew iddiverġiet tiddiverġi
+11	9811	inkorlat	inkorlati nkorlat nkorlati
+12	9812	ippropaga	ippropagat jippropaga jippropagaw ppropagat ppropagaw tippropaga
+13	9813	libertin	libertini
+14	9814	qampiena	
+15	9815	sbul	isbul sbula
+16	9816	tempra	tempri
+17	9817	topografikament	
+18	9818	ħatem	
+19	9819	marżebba	imrieżeb
+20	9820	boksing	
+21	9821	tengħud	
+22	9822	ġliba	ġlejjeb
+23	9823	fraxxnu	
+24	9824	stanjata	istanjata
+25	9825	grejpfrut	
+26	9826	invita	invitat jinvitaw nvitat
+27	9827	palat	
+28	9828	qana	qaniena qonja
+29	9829	raden	
+30	9830	rispettuż	rispettuża rispettużi
+31	9831	silfjun	silfjuni
+32	9832	gajdra	gajdri
+33	9833	nadar	nadir
+34	9834	qastni	qastnija qastnin
+35	9835	teknoloġikament	
+36	9836	ċesju	
+37	9837	żagħfran	
+38	9838	allea	alleaw jalleaw tallea
+39	9839	bettieħ	bettieħa
+40	9840	ċarċara	
+41	9841	barma	
+42	9842	ddrammatizza	ddrammatizzat drammatizzat iddrammatizza jiddrammatizza
+43	9843	demolizzjoni	
+44	9844	felħan	felħana
+45	9845	iffesteġġja	ffesteġġja iffesteġġjat jiffesteġġja jiffesteġġjaw niffesteġġjaw
+46	9846	immummifika	immummifikat jimmummifikaw mmummifikat
+47	9847	issinkronizza	issinkronizzaw jissinkronizza jissinkronizzah jissinkronizzaw nissinkronizzaw
+48	9848	issoġġetta	jissoġġetta jissoġġettawx ssoġġettaw
+49	9849	lehma	
+50	9850	marra	marrana
+51	9851	negozjabbli	
+52	9852	skeċċ	
+53	9853	żarġun	żraġen
+54	9854	enerġiku	enerġika
+55	9855	seqqer	sseqqru
+56	9856	sseqqer	
+57	9857	iddelimita	ddelimita ddelimitatx iddelimitaw jiddelimita jiddelimitaha jiddelimitaw tiddelimita
+58	9858	ddemarka	ddemarkaw demarkat jiddemarkaw tiddemarka
+59	9859	fosdqa	fosdqiet
+60	9860	azzara	azzarini
+61	9861	klubi	
+62	9862	mmilitarizza	immilitarizza militarizzat militarizzata
+63	9863	annwalità	
+64	9864	bixkilla	bxiekel
+65	9865	ddeluda	ddeludew deluż jiddeludi
+66	9866	ddisassoċja	iddisassoċja iddisassoċjat tiddisassoċja
+67	9867	dgħif	
+68	9868	felu	
+69	9869	friskatur	friskaturi
+70	9870	fsied	
+71	9871	henna	jhenni thenni
+72	9872	iridju	
+73	9873	irrispeta	jirrispetaw nirrispeta nirrispetaw
+74	9874	irrofta	jirrofta rrofta rroftat
+75	9875	iskijja	jiskijjaw niskijjaw tiskijja
+76	9876	kartonċin	
+77	9877	naturalezza	
+78	9878	palladju	
+79	9879	tastatur	testatur
+80	9880	wiegħer	imwiegħer inwiegħer mwiegħer
+81	9881	żura	iżura jiżura jżura jżuri
+82	9882	ħanġra	ħanxra
+83	9883	għaddeb	
+84	9884	velleran	vellerani
+85	9885	vvalida	ivvalida ivvalidat jivvalida jivvalidaw tivvalida vvalidat vvalidaw vvalidax
+86	9886	nasar	nasr
+87	9887	amalgama	amalgamat amalgamaw jamalgama tamalgama
+88	9888	apiċi	
+89	9889	ddilwa	dilwit dilwiti
+90	9890	eżistenzjalista	
+91	9891	ikkontradiċa	jikkontradiċi jikkontradiċu kkontradiċa tikkontradiċi
+92	9892	militarizzazzjoni	
+93	9893	qanneb	
+94	9894	sintattiku	sintattika sintattiċi
+95	9895	spnott	ispnott ispnotta
+96	9896	assolva	jassolvi jassolvix
+97	9897	buli	bulijiet bulin
+98	9898	debitu	
+99	9899	dekadenti	
+100	9900	demma'	idemmgħu jdemmi

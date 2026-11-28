@@ -1,100 +1,100 @@
-1	8101	tassonomiku	tassonomika tassonomiċi
-2	8102	għera	
-3	8103	deha	jedha jedhew medhija nedhew
-4	8104	ħamel	jaħmel jaħmilx taħmel ħamilx ħamlet
-5	8105	ebusija	
-6	8106	evanġelizza	evanġelizzat evanġelizzaw jevanġelizza jevanġelizzana jevanġelizzaw nevanġelizzaw tevanġelizza tevanġelizzax
-7	8107	impedixxa	impedixxew jimpedixxi jimpedixxu jimpedixxuha timpedixxi
-8	8108	ċelebrant	ċelebranti
-9	8109	ħarbex	inħarbex iħarbex jħarbex tħarbex tħarbix ħarbixlu
-10	8110	kowt	kowtijiet
-11	8111	għaxqa	
-12	8112	soċjoloġija	
-13	8113	makakk	makakka makakki
-14	8114	għarma	għaram
-15	8115	ikwa	jikwi jikwu tikwi
-16	8116	ippromulga	ippromulgat jippromulga jippromulgaw ppromulga ppromulgat ppromulgaw ppromulgax tippromulga
-17	8117	imbarra	imbarrat imbarrata jimbarraw mbarra mbarrat mbarraw
-18	8118	terminoloġiku	terminoloġika terminoloġiċi
-19	8119	ddeġenera	ddeġenerat ddeġeneraw ddeġenerax deġenerat iddeġenera iddeġenerat jiddeġenera jiddeġeneraw jiddeġenerax tiddeġenera
-20	8120	derivazzjoni	derivazzjonijiet
-21	8121	ħallel	inħalluha iħallilna iħalluh iħalluha iħalluk jħallilna jħallilniex jħalluha jħalluhomx jħalluhx jħalluk jħallukx jħallulek jħallulhom jħalluna jħalluniex nħalluha nħalluhiex nħalluhomx nħallulhom ħallilna ħalluh ħalluhom
-22	8122	għaxi	għaxja
-23	8123	devastazzjoni	devastazzjonijiet
-24	8124	interrompa	interrompew interrompiet interrompietu jinterrompi jinterrompih jinterrompix jinterrompu tinterrompi
-25	8125	gabinett	gabinetti
-26	8126	marġ	imraġ mraġ
-27	8127	demmi	
-28	8128	eminenti	
-29	8129	devjazzjoni	devjazzjonijiet
-30	8130	involontarju	
-31	8131	ġamm	ġammijiet
-32	8132	assassina	assassinat assassinatu jassassinaw
-33	8133	ħafur	
-34	8134	ngħas	ngħasha
-35	8135	eżalta	eżaltat jeżaltaw neżaltaw teżalta teżaltani
-36	8136	minorità	minorita minoritajiet
-37	8137	żiffa	
-38	8138	antropologu	antropologa antropoloġi
-39	8139	passatur	
-40	8140	innormalizza	jinnormalizza jinnormalizzaw nnormalizza nnormalizzaw
-41	8141	azzari	azzarin
-42	8142	appellant	appellanti
-43	8143	injetta	injettalu injettat injettaw jinjetta tinjetta
-44	8144	ikkonstata	ikkonstatat jikkonstataw kkonstata kkonstatat nikkonstata nikkonstatah tikkonstata
-45	8145	palju	palji paljijiet
-46	8146	ippożizzjona	ippożizzjonat ippożizzjonaw jippożizzjona jippożizzjonaw jippożizzjoni ppożizzjona ppożizzjonat ppożizzjonaw
-47	8147	fjamingu	fjamingi flamingo
-48	8148	bużullotta	bużullotti
-49	8149	bronkite	
-50	8150	isgassa	jisgassaw nisgassaw sgassa sgassat
-51	8151	distrazzjoni	distrazzjonijiet
-52	8152	musbieħ	imsiebaħ msiebaħ
-53	8153	ħaleb	aħleb jaħleb jinħalbu jinħaleb ħlib
-54	8154	armarju	armarji
-55	8155	ama	amat jama jamilha namaw tamaw
-56	8156	żingu	
-57	8157	perżut	perżuta prieżet
-58	8158	inżera	jinżera nżera tinżera
-59	8159	tmaqdir	
-60	8160	xbin	xbinha xbinhom xbinkom xbinu
-61	8161	benġel	ibenġel imbenġel jbenġel jbenġilha jbenġlu mbenġel tbenġel
-62	8162	lagħaq	jilagħqu jilgħaq jilgħaqha jilgħaqu lagħqet nilagħqu nilgħaq tilgħaq tilgħaqu
-63	8163	evapora	evaporat jevapora jevaporaw jevaporax tevapora
-64	8164	ipprevala	jipprevali jipprevalu pprevala pprevalew tipprevali
-65	8165	rvella	irvella irvellat irvellaw jirvella jirvellaw rvellat rvellaw tirvella
-66	8166	morr	morri
-67	8167	raġġiera	raġġieri
-68	8168	rmonk	irmonk
-69	8169	pessimiżmu	
-70	8170	rkotta	irkotta
-71	8171	soċjalizzazzjoni	
-72	8172	elmu	elmi elmijiet
-73	8173	kaħlani	kaħlanija
-74	8174	ismar	somor
-75	8175	darsa	dras
-76	8176	parta	inparti
-77	8177	issostanzja	jissostanzja jissostanzjaha jissostanzjahom jissostanzjaw tissostanzja
-78	8178	naxar	inxir jonxor jonxru jonxruhom minxur minxura minxurin nonxru tonxor tonxorha
-79	8179	seħet	jisħet jisħetilhom jisħetx jisħtu jisħtuna nisħtux tisħet tisħetx
-80	8180	ssimboleġġa	jissimboleġġa jissimboleġġaw tissimboleġġa
-81	8181	irrepreżenta	jirrepreżentaw rrepreżentat tirrepreżenta
-82	8182	ikkompila	ikkompilahom ikkompilat ikkompilaw jikkompila jikkompilaw kkompila kkompilat kkompilaw
-83	8183	lewa	jilwi jilwu lewini liwi liwini lwi milwija milwijin tilwi tilwina tilwix
-84	8184	arkivista	
-85	8185	ddisprezza	disprezzat jiddisprezza jiddisprezzah jiddisprezzaw jiddisprezzawha tiddisprezzax
-86	8186	ispjuna	ispjuni jispjuna jispjunaw jispjunax spjuna spjunaw spjuni
-87	8187	stallett	istallett istalletti stalletti
-88	8188	għuda	għawwied
-89	8189	ikkonfonda	ikkonfondejt ikkonfonditni jikkonfondi jikkonfondini jikkonfondu kkonfonda kkonfondiet nikkonfondi nikkonfondix tikkonfondi tikkonfondini tikkonfondix
-90	8190	metriku	metriċi
-91	8191	ikkonfoffa	ikkonfoffaw jikkonfoffa jikkonfoffaw kkonfoffa kkonfoffat kkonfoffaw
-92	8192	hairdresser	hairdressers
-93	8193	ħuxlief	
-94	8194	kemxa	
-95	8195	sottomarini	
-96	8196	ugwalment	
-97	8197	asserixxa	jasserixxi jasserixxu nasserixxu tasserixxi tasserixxu
-98	8198	impotenza	
-99	8199	stikka	istikek istikka stikek
-100	8200	dijagramma	dijagrammi
+1	8101	ħuxlief	
+2	8102	kemxa	
+3	8103	sottomarini	
+4	8104	ugwalment	
+5	8105	asserixxa	jasserixxi jasserixxu nasserixxu tasserixxi tasserixxu
+6	8106	impotenza	
+7	8107	stikka	istikek istikka stikek
+8	8108	dijagramma	dijagrammi
+9	8109	ippassiġġa	jippassiġġa jippassiġġaw nippassiġġa nippassiġġaw tippassiġġa
+10	8110	ċuċata	ċuċati
+11	8111	ssimpatizza	issimpatizza jissimpatizza jissimpatizzaw jissimpatizzax nissimpatizza tissimpatizza
+12	8112	istorda	jistordi jistordu jistorduk nistordi nistordu storda tistordi tistordih
+13	8113	skappa	jiskappa jiskappaw niskappaw skappat skappaw
+14	8114	orribbli	
+15	8115	tastiera	tastieri
+16	8116	zalzett	zalzetta
+17	8117	sidt	sidtha
+18	8118	venven	ivenven jvenven jvenvnu tvenven tvenvin venvinha
+19	8119	barkun	barkuni
+20	8120	benna	
+21	8121	xiber	ixbar
+22	8122	referi	
+23	8123	daqqaq	
+24	8124	likwidazzjoni	likwidazzjonijiet
+25	8125	tturmenta	ittormentat itturmentat jittormentaw jitturmentaw tittormenta tittormentah ttormentat tturmentat
+26	8126	mantar	imnatar
+27	8127	reliġjożità	reliġjożita
+28	8128	allinjament	allinjamenti
+29	8129	aċċellera	aċċelerat aċċellerat aċċelleraw jaċċellera jaċċelleraw taċċelera taċċellera
+30	8130	iddiżassoċja	ddiżassoċja jiddiżassoċja
+31	8131	iżmarka	jiżmarka żmarka żmarkat
+32	8132	ċirkonċiżjoni	
+33	8133	sismiku	sismika sismiċi
+34	8134	irrita	irritat irritaw jirrita jirritah jirritahom jirritana jirritani jirritaw tirrita tirritah tirritani
+35	8135	dekompożizzjoni	dekompożizzjonijiet
+36	8136	libien	liban lubien
+37	8137	għaddel	għaddilna jgħaddilna tgħaddilna tgħaddilniex tgħaddilnix
+38	8138	fotokopja	fotokopji
+39	8139	astroloġikament	
+40	8140	epistemoloġija	
+41	8141	ċanga	
+42	8142	invoka	invokat jinvoka jinvokaw nvoka nvokat tinvoka tinvokax
+43	8143	etnografiku	etnografika etnografiċi
+44	8144	bgħid	ibgħad
+45	8145	fardal	fradal
+46	8146	żejża	żejżiet żejżietha żejżitha
+47	8147	amar	amarna amru jamar namru
+48	8148	evada	evadew jevadi jevadu tevadi
+49	8149	rmonka	irmunkar irmunkat jirmonka jirmonkaw rmonkat rmunkar tirmonka
+50	8150	kuċċarina	kuċċarini
+51	8151	bandal	ibandlu imbandal jbandal jitbandal jitbandalx jitbandlu nbandlu tbandal tbandil titbandal
+52	8152	kaħħal	ikaħħal imkaħħal kaħħala mkaħħal tkaħħlu
+53	8153	baħnan	
+54	8154	interċeda	jinterċedi jinterċedu tinterċedi
+55	8155	ingrana	ingranat ingranaw jingrana jingranaw ngranat ngranaw tingrana
+56	8156	inċita	inċitaw jinċita jinċitaw jinċitax ninċita
+57	8157	xugaman	xugamani
+58	8158	allużjoni	allużjonijiet
+59	8159	ipperfezzjona	jipperfezzjona jipperfezzjoni nipperfezzjona nipperfezzjonaw pperfezzjona pperfezzjonat pperfezzjonaw tipperfezzjona
+60	8160	ħara	iħarju taħri taħrik ħarja
+61	8161	konfessjonali	
+62	8162	rikkieb	rikkieba
+63	8163	topografiku	topografika topografiċi
+64	8164	mramma	imramma imrammti
+65	8165	penetrazzjoni	
+66	8166	ffabbrika	fabbrikar fabbrikat ffabbrikat iffabbrikat iffabbrikaw jiffabbrikaw
+67	8167	uniformità	uniformita
+68	8168	għajjur	għajjura għajjurin
+69	8169	żgiċċa	jiżgiċċa jiżgiċċaw niżgiċċa tiżgiċċa żgiċċat żgiċċatlu żgiċċatx
+70	8170	raffinerija	raffineriji
+71	8171	ikkonverġa	ikkonverġew jikkonverġi jikkonverġihom jikkonverġu tikkonverġi
+72	8172	vinkolanti	
+73	8173	asfalt	
+74	8174	estasi	estasijiet
+75	8175	verġinità	verġinita
+76	8176	weġġaħ	imweġġaħ inweġġħu iweġġħu jweġġaħx jweġġħu mweġġaħ tweġġaħ tweġġaħx
+77	8177	skorpjun	iskorpjun iskorpjuni skorpjuni
+78	8178	qadja	qadjiet
+79	8179	ivvjaġġja	ivvjaġġjat ivvjaġġjaw jivvjaġġja jivvjaġġjaw nivvjaġġja tivvjaġġja
+80	8180	aw	
+81	8181	ppurifika	ippurifikat ippurifikaw jippurifika jippurifikana jippurifikaw jippurifikawna ppurifikat ppurifikaw purifikat tippurifika
+82	8182	laħlaħ	ilaħalħu inlaħlaħ jlaħalħu laħlaħhom mlaħlaħ tlaħlaħx tlaħliħ
+83	8183	qaqoċċa	
+84	8184	faċċetta	faċċetti
+85	8185	blanzun	blanzuni
+86	8186	irritalja	irritaljat irritaljaw jirritalja jirritaljaw jirritaljax rritalja rritaljat rritaljaw tirritalja
+87	8187	bisesswali	
+88	8188	amministrattivament	
+89	8189	alkoħoliżmu	
+90	8190	lokomozzjoni	
+91	8191	mazzarell	mazzarelli
+92	8192	falzifikazzjoni	falsifikazzjoni
+93	8193	qaħba	qħab
+94	8194	sorm	sormha sormhom sormna sormok sormu
+95	8195	dissens	dissensi
+96	8196	iggusta	iggustaha iggustajt iggustajtek iggustajtu iggustat jiggustaw jiggustawhom niggustaw niggustawhom
+97	8197	illuda	jilludi jilludu nilludi nilludix nilludu nilludux tilludi
+98	8198	żieni	żienja
+99	8199	irriġenera	irriġenerat jirriġenera jirriġeneraw jirriġenerawhom tirriġenera
+100	8200	kanġa	ikanġi ikanġu jkanġi jkanġu tkanġi

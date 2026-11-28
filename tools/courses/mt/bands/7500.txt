@@ -1,100 +1,100 @@
-1	7401	brutalità	brutalita
-2	7402	intrebħa	jintrebħu jintrebħux nintrebħu
-3	7403	ġejjien	ġejjiena
-4	7404	gerbeb	gerbibha gerbibni igerbeb igerbu jgerbu tgerbeb tgerbib tgerbu
-5	7405	kultivari	
-6	7406	tkarkir	tkarkira
-7	7407	diliġenza	
-8	7408	abita	abitaw jabita jabitaw tabita
-9	7409	dijastolika	
-10	7410	popolin	
-11	7411	kordinament	
-12	7412	kwalunkwè	
-13	7413	fanatiżmu	
-14	7414	fatam	fatmet fatmu ftim infatam joftmu miftum miftuma nfatam
-15	7415	stupidu	istupidu stupida stupidi
-16	7416	tabernaklu	tabernakli
-17	7417	metikoluż	metikoluża metikolużi
-18	7418	gabbani	
-19	7419	bżieq	
-20	7420	pingwin	pengwin pingwini
-21	7421	atroċitajiet	
-22	7422	qarrieqi	
-23	7423	polemiċi	
-24	7424	dittatorjali	
-25	7425	sommarju	sommarja sommarji
-26	7426	jaħasra	
-27	7427	ġiżirana	ġiżirajjen ġiżirani
-28	7428	infirda	jinfirdu jinfirdux ninfirdu
-29	7429	bżulija	
-30	7430	lagomorfi	
-31	7431	għidut	
-32	7432	skarsi	
-33	7433	gwerrier	gwerriera gwerrieri
-34	7434	suttana	
-35	7435	karstika	
-36	7436	kbarat	
-37	7437	kardijaku	kardijaka
-38	7438	korali	
-39	7439	mgħawġa	imgħawġa
-40	7440	riproduttiv	riproduttiva riproduttivi
-41	7441	eventi	
-42	7442	barax	baraxx brix joborxu joborxulu jobrox mibrux mibruxa obrox tobrox tobroxx
-43	7443	arġentier	arġentiera
-44	7444	inattiv	inattiva inattivi
-45	7445	balaban	
-46	7446	riħersal	riħersals
-47	7447	ubbidjenti	
-48	7448	meravilja	meravilji
-49	7449	nnamra	innamra innamrat innamraw jinnamra jinnamraw ninnamra ninnamraw tinnamra
-50	7450	qasrija	qsari
-51	7451	melitensia	
-52	7452	karrotta	karrotti
-53	7453	arrikkiment	
-54	7454	ħorn	ħornijiet
-55	7455	wati	watja
-56	7456	lokazzjoni	
-57	7457	orkestrali	
-58	7458	villeġġjatura	villeġġjaturi
-59	7459	ġentilezza	
-60	7460	multilingwi	
-61	7461	ferħa	ferħat
-62	7462	pupazzi	
-63	7463	misħun	
-64	7464	traġikament	
-65	7465	forestrija	
-66	7466	xedd	ixidd jxidd jxiddu jxiddux nxiddu xeddlu xiddu xxidd
-67	7467	profondità	profondita profonditajiet
-68	7468	istituzzjonalizzata	istituzzjonalizzati
-69	7469	rimors	rimorsi
-70	7470	darras	darrset darrsu ddarras iddarras imdarras jdarras jdarrsu
-71	7471	inix	
-72	7472	politku	
-73	7473	xogħlhom	
-74	7474	mellieħi	melliħija melliħin
-75	7475	dijanjosi	djanjosi
-76	7476	naturalistiku	naturalistika naturalistiċi
-77	7477	astronomikament	
-78	7478	għandnix	
-79	7479	miġimgħa	miġemgħa
-80	7480	naqa'	jinqax
-81	7481	alfa	
-82	7482	viżibbiltà	viżibbilta
-83	7483	apprentistat	apprentistati
-84	7484	ħaddar	inħaddru iħaddar iħaddru jħaddar jħaddru tħaddar
-85	7485	lembuba	lembubi
-86	7486	umduż	umduża umdużi
-87	7487	anatomija	
-88	7488	melodiku	melodika melodiċi
-89	7489	aurea	
-90	7490	burdell	briedel burdelli
-91	7491	ħuwa	ħuwiex
-92	7492	frosta	frosti
-93	7493	dixxerniment	
-94	7494	elettiv	elettiva elettivi
-95	7495	widnejja	
-96	7496	mangrovji	
-97	7497	konverġenti	
-98	7498	konnotazzjoni	konnotazzjonijiet
-99	7499	altruwiżmu	
-100	7500	emozzjonanti	
+1	7401	riħersal	riħersals
+2	7402	ubbidjenti	
+3	7403	meravilja	meravilji
+4	7404	nnamra	innamra innamrat innamraw jinnamra jinnamraw ninnamra ninnamraw tinnamra
+5	7405	qasrija	qsari
+6	7406	melitensia	
+7	7407	karrotta	karrotti
+8	7408	arrikkiment	
+9	7409	ħorn	ħornijiet
+10	7410	wati	watja
+11	7411	lokazzjoni	
+12	7412	orkestrali	
+13	7413	villeġġjatura	villeġġjaturi
+14	7414	ġentilezza	
+15	7415	multilingwi	
+16	7416	ferħa	ferħat
+17	7417	pupazzi	
+18	7418	traġikament	
+19	7419	forestrija	
+20	7420	xedd	ixidd jxidd jxiddu jxiddux nxiddu xeddlu xiddu xxidd
+21	7421	profondità	profondita profonditajiet
+22	7422	istituzzjonalizzata	istituzzjonalizzati
+23	7423	rimors	rimorsi
+24	7424	darras	darrset darrsu ddarras iddarras imdarras jdarras jdarrsu
+25	7425	neka	inkejja jinki jinkik jinkini jinkinix jinku jinkuhom ninku nkejja tinki
+26	7426	dijanjosi	djanjosi
+27	7427	naturalistiku	naturalistika naturalistiċi
+28	7428	astronomikament	
+29	7429	miġimgħa	miġemgħa
+30	7430	naqa'	jinqax
+31	7431	alfa	
+32	7432	viżibbiltà	viżibbilta
+33	7433	apprentistat	apprentistati
+34	7434	ħaddar	inħaddru iħaddar iħaddru jħaddar jħaddru tħaddar
+35	7435	lembuba	lembubi
+36	7436	umduż	umduża umdużi
+37	7437	anatomija	
+38	7438	melodiku	melodika melodiċi
+39	7439	burdell	briedel burdelli
+40	7440	frosta	frosti
+41	7441	dixxerniment	
+42	7442	elettiv	elettiva elettivi
+43	7443	mangrovji	
+44	7444	konverġenti	
+45	7445	konnotazzjoni	konnotazzjonijiet
+46	7446	altruwiżmu	
+47	7447	emozzjonanti	
+48	7448	ineżistenti	
+49	7449	kavalieri	
+50	7450	ipprometta	ippromettew jipprometti jippromettu
+51	7451	radjali	
+52	7452	astrazzjoni	astrazzjonijiet
+53	7453	gawwi	gawwija gawwijiet
+54	7454	mmanifesta	immanifestat jimmanifesta jimmanifestaw manifestat manifestata mmanifestata timmanifesta timmanifestax
+55	7455	primittivi	
+56	7456	ixxutja	ixxutjat jixxutja xxutja
+57	7457	azzjonist	
+58	7458	vvendika	ivvendika ivvendikat jivvendika jivvendikah jivvendikaw nivvendikaw tivvendika vvendikaw
+59	7459	lanġas	lanġasa
+60	7460	simetriku	simetrika simetriċi simmetriku
+61	7461	antikamra	
+62	7462	immissja	immissjajt jimmissja jimmissjah jimmissjani mmissjajt mmissjajtek nimmissja nimmissjah nimmissjaha nimmissjahom
+63	7463	iżvuga	jiżvoga jiżvogaw jiżvugaw niżvogaw niżvugaw niżvugawha tiżvoga żvoga żvugaw
+64	7464	karreġġjata	karreġġjati
+65	7465	furur	
+66	7466	viljakk	viljakki
+67	7467	ħarrax	inħarrxu iħarrax iħarrxu jitħarrxu jħarrax tħarrax tħarrxu ħarrxu
+68	7468	fokus	
+69	7469	ikkonduċa	ikkonduċew ikkonduċiet ikkonduċih kkonduċa kkonduċiet tikkonduċi
+70	7470	pnewmonja	
+71	7471	inġustament	nġustament
+72	7472	ristrutturazzjoni	
+73	7473	vitamini	
+74	7474	neżża'	ineżża jneżżgħu jneżżgħuha jneżżgħulhom neżżagħna neżżgħu neżżgħuh neżżgħulu tneżża tneżża' tneżżagħha tneżżgħu
+75	7475	ġild	ġildhom ġildna ġildu
+76	7476	iskula	jiskula jiskulaw jiskulax skula skulajna skulat skulaw tiskula
+77	7477	iskorta	jiskortaw skortat skortaw
+78	7478	birrajja	birrerija
+79	7479	vili	
+80	7480	ġada	ġadi
+81	7481	ferventi	
+82	7482	kjeriku	
+83	7483	abolizzjoni	
+84	7484	ħniżrijiet	
+85	7485	qanats	
+86	7486	attivament	
+87	7487	rotazzjonali	
+88	7488	palata	
+89	7489	alloġġ	
+90	7490	mank	
+91	7491	ħawt	iħwat ħwat
+92	7492	eżawra	eżawrejt eżawrew teżawri teżawrik teżawru
+93	7493	istukko	stukko
+94	7494	preċedenza	
+95	7495	arpa	arpi
+96	7496	sublimi	
+97	7497	sudditi	
+98	7498	xhar	
+99	7499	rattab	imrattab irattab irattbu irattbulu jrattab jrattbu mrattab nrattbu rattbet rattbu trattab
+100	7500	tnaqqir	

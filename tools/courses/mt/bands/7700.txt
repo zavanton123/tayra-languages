@@ -1,100 +1,100 @@
-1	7601	bieba	ilbieba
-2	7602	ipprogrammar	
-3	7603	paċifiċi	
-4	7604	plott	plotti plottijiet
-5	7605	telefoniku	telefonika
-6	7606	sopranaturali	
-7	7607	sink	sinki sinkijiet sinku
-8	7608	iżża	iżżejt iżżejtu iżżew iżżi iżżiet iżżu iżżuh jiżżejnu jiżżi jiżżu jiżżuh niżżi niżżu niżżuh niżżuk tiżżi tiżżu
-9	7609	koronavirus	
-10	7610	raġunar	
-11	7611	rinforzi	
-12	7612	prokura	prokuri
-13	7613	bbojkottja	bbojkottjat bbojkottjaw bbojkottjawhom bojkottjar bojkottjat ibbojkottjar ibbojkottjat ibbojkottjaw jibbojkottja jibbojkottjaw
-14	7614	turment	turmenti
-15	7615	nokkla	nokkli
-16	7616	rilassament	
-17	7617	ikonografija	ikonografiji
-18	7618	figurini	
-19	7619	indipendentament	
-20	7620	insulazzjoni	
-21	7621	pixxispad	
-22	7622	nomadiċi	
-23	7623	majna	imajna imajnaw jmajna jmajnaw majnat majnaw tmajnaw
-24	7624	umoristiċi	
-25	7625	bellah	bellahx bellhu imbellah jbellah mbellah
-26	7626	bandla	bandli
-27	7627	komponiment	komponimenti
-28	7628	iġene	
-29	7629	għoxa	għoxew jogħxa jogħxew nogħxa nogħxew togħxa
-30	7630	aħbarjiet	
-31	7631	xgħir	
-32	7632	oażi	
-33	7633	ġema'	inġema jiġma' miġmugħa miġmugħin niġma' nġema ġemgħet ġemgħu
-34	7634	abbina	abbinat abbinaw jabbina jabbinaw jabbinawha tabbina
-35	7635	totalità	totalita
-36	7636	monotremati	
-37	7637	ċċarġja	iċċarġjar iċċarġjat jiċċarġja jiċċarġjaw niċċarġja niċċarġjaw tiċċarġja tiċċarġjak ċċarġjat
-38	7638	friġġ	friġġijiet
-39	7639	jsw	
-40	7640	ħadrani	ħadranija ħadranin
-41	7641	lotus	
-42	7642	setgħan	setgħani
-43	7643	itineranti	
-44	7644	disperazzjoni	
-45	7645	trasversali	
-46	7646	saħħaq	saħħqet saħħqu tisħiq
-47	7647	okkażjonalment	
-48	7648	potassju	
-49	7649	seċessjoni	
-50	7650	fatat	fatati
-51	7651	elju	
-52	7652	siringa	siringi
-53	7653	rugbi	
-54	7654	espliċitament	espliċitamenti
-55	7655	metafiżika	
-56	7656	ritrattista	ritrattisti
-57	7657	tost	tosta tosti
-58	7658	luzzu	lozzu luzzijiet
-59	7659	grassa	grassi
-60	7660	ħala	
-61	7661	kwartifinali	
-62	7662	abbozza	abbozzar abbozzat jabbozza nabbozzaw tabbozza
-63	7663	ikkanonizza	ikkanonizzaha ikkanonizzat jikkanonizza kkanonizzah kkanonizzat
-64	7664	intenzjonalment	
-65	7665	apartheid	
-66	7666	menqa	
-67	7667	korla	
-68	7668	xkupilja	ixkupilja ixkupiljar ixkupilji xkupilji
-69	7669	kostitwenza	kostitwenzi
-70	7670	kwaranturi	
-71	7671	segretezza	
-72	7672	silla	sulla
-73	7673	iskjera	jiskjera jiskjeraw skjera skjerat skjeraw
-74	7674	medjokri	
-75	7675	skruplu	iskrupli skrupli
-76	7676	ippumpjar	
-77	7677	kontessa	kontessi
-78	7678	paniġierku	paniġierki
-79	7679	moqżież	moqżieża
-80	7680	possedimenti	
-81	7681	netnews	
-82	7682	reżiljenza	
-83	7683	alka	alki
-84	7684	akwedott	akwedotti
-85	7685	vvizzja	ivvizzjar ivvizzjat vizzjat vvizzjat vvizzjawx
-86	7686	deforestazzjoni	deforestazzjonijiet
-87	7687	eżenti	
-88	7688	loġistiċi	
-89	7689	terapista	terapisti
-90	7690	immutabbli	
-91	7691	rig	
-92	7692	relikwarju	relikwarji
-93	7693	mxajtan	imxajtan imxajtna mxajtna mxajtnin
-94	7694	intellett	ntellett
-95	7695	għarqub	għarqubu
-96	7696	xxokkja	ixxokkja ixxokkjani ixxokkjat jixxokkja jixxokkjak nixxokkja tixxokkja xxokkjat
-97	7697	konkwistaturi	
-98	7698	ħamallu	ħamalla ħamalli
-99	7699	redent	redenti
-100	7700	qedgħin	
+1	7601	ikkanonizza	ikkanonizzaha ikkanonizzat jikkanonizza kkanonizzah kkanonizzat
+2	7602	intenzjonalment	
+3	7603	menqa	
+4	7604	korla	
+5	7605	xkupilja	ixkupilja ixkupiljar ixkupilji xkupilji
+6	7606	kostitwenza	kostitwenzi
+7	7607	kwaranturi	
+8	7608	segretezza	
+9	7609	silla	sulla
+10	7610	iskjera	jiskjera jiskjeraw skjera skjerat skjeraw
+11	7611	medjokri	
+12	7612	skruplu	iskrupli skrupli
+13	7613	kontessa	kontessi
+14	7614	paniġierku	paniġierki
+15	7615	moqżież	moqżieża
+16	7616	possedimenti	
+17	7617	reżiljenza	
+18	7618	alka	alki
+19	7619	akwedott	akwedotti
+20	7620	vvizzja	ivvizzjar ivvizzjat vizzjat vvizzjat vvizzjawx
+21	7621	deforestazzjoni	deforestazzjonijiet
+22	7622	eżenti	
+23	7623	loġistiċi	
+24	7624	terapista	terapisti
+25	7625	immutabbli	
+26	7626	rig	
+27	7627	relikwarju	relikwarji
+28	7628	mxajtan	imxajtan imxajtna mxajtna mxajtnin
+29	7629	intellett	ntellett
+30	7630	għarqub	għarqubu
+31	7631	xxokkja	ixxokkja ixxokkjani ixxokkjat jixxokkja jixxokkjak nixxokkja tixxokkja xxokkjat
+32	7632	konkwistaturi	
+33	7633	ħamallu	ħamalla ħamalli
+34	7634	redent	redenti
+35	7635	ħawħ	ħawħa
+36	7636	grokk	grokkijiet
+37	7637	ikkarga	ikkargat jikkarga kkarga nikkarga tikkarga
+38	7638	mesaħ	imsaħ jimsaħ jimsħu mesħa mesħet mesħu timsaħ
+39	7639	ġlekk	ġlekkijiet
+40	7640	notazzjoni	notazzjonijiet
+41	7641	immorali	mmorali
+42	7642	iskarsa	jiskarsa jiskarsaw skarsa skarsat tiskarsa
+43	7643	segmenti	
+44	7644	djakonija	
+45	7645	xkuma	ixkuma jixkuma xkumat
+46	7646	intier	
+47	7647	frattemp	
+48	7648	algi	
+49	7649	ikkonċelebra	ikkonċelebraw jikkonċelebra jikkonċelebraw kkonċelebra
+50	7650	jittallbu	
+51	7651	għażżien	għażżenin għażżiena
+52	7652	ċenturjun	ċenturjuni
+53	7653	eżaminazzjoni	eżaminazzjonijiet
+54	7654	ferriħija	
+55	7655	gomma	
+56	7656	saddad	imsaddad issaddu jsaddad jsaddux msaddad sadid ssaddad
+57	7657	aċċenn	aċċenni aċċennijiet
+58	7658	ħemda	
+59	7659	apparenti	
+60	7660	deterjorament	deterjoramenti
+61	7661	siliċi	
+62	7662	aderixxa	aderixxew aderixxewx aderixxiet aderixxu jaderixxi jaderixxu taderixxi
+63	7663	anċestrali	
+64	7664	ottava	ottavi
+65	7665	intimida	intimidahom intimidat jintimida jintimidah jintimidani jintimidaw
+66	7666	kolonjaliżmu	
+67	7667	unifika	junifika junifikaw junifikawhom tunifika unifikat unifikaw
+68	7668	kurva	kurvi
+69	7669	klub	klubin klubs
+70	7670	trapass	
+71	7671	vitikultura	
+72	7672	rifjut	rifjuta
+73	7673	operetti	
+74	7674	proċedurali	
+75	7675	diżubbidjenza	
+76	7676	vagi	
+77	7677	gandott	gandotti
+78	7678	ratifika	ratifiki
+79	7679	sensazzjonali	
+80	7680	bumunqar	
+81	7681	axxetika	
+82	7682	faqqus	
+83	7683	addio	
+84	7684	ddandan	dandin iddandan jiddandan jiddandnu niddandan niddandnu tiddandan
+85	7685	entablatura	entablaturi
+86	7686	kashom	
+87	7687	akustika	
+88	7688	ikkontenda	ikkontendiet jikkontendi jikkontendu tikkontendi
+89	7689	wirdien	wirdiena
+90	7690	nawwar	inawru inawruha inawwar jnawru jnawwar mnawwar nawru tinwir tnawru tnawwar tnawwarhom
+91	7691	sintassi	
+92	7692	għagħa	
+93	7693	fjask	fjaski
+94	7694	kolonizzatur	kolonizzaturi
+95	7695	lessemi	
+96	7696	ġinnasju	ġinnasji
+97	7697	sottoklassi	sottoklassijiet
+98	7698	froġa	frejjeġ
+99	7699	kanvas	kanvasi kanvass
+100	7700	ppreċiża	ippreċiżat jippreċiża jippreċiżaw nippreċiża nippreċiżaw ppreċiżat

@@ -1,100 +1,100 @@
-1	8201	ippassiġġa	jippassiġġa jippassiġġaw nippassiġġa nippassiġġaw tippassiġġa
-2	8202	ċuċata	ċuċati
-3	8203	ssimpatizza	issimpatizza jissimpatizza jissimpatizzaw jissimpatizzax nissimpatizza tissimpatizza
-4	8204	istorda	jistordi jistordu jistorduk nistordi nistordu storda tistordi tistordih
-5	8205	skappa	jiskappa jiskappaw niskappaw skappat skappaw
-6	8206	orribbli	
-7	8207	tastiera	tastieri
-8	8208	zalzett	zalzetta
-9	8209	sidt	sidtha
-10	8210	venven	ivenven jvenven jvenvnu tvenven tvenvin venvinha
-11	8211	barkun	barkuni
-12	8212	benna	
-13	8213	xiber	ixbar
-14	8214	referi	
-15	8215	daqqaq	
-16	8216	likwidazzjoni	likwidazzjonijiet
-17	8217	tturmenta	ittormentat itturmentat jittormentaw jitturmentaw tittormenta tittormentah ttormentat tturmentat
-18	8218	mantar	imnatar
-19	8219	reliġjożità	reliġjożita
-20	8220	nagħas	jongħos nagħsu nongħos tongħos
-21	8221	allinjament	allinjamenti
-22	8222	aċċellera	aċċelerat aċċellerat aċċelleraw jaċċellera jaċċelleraw taċċelera taċċellera
-23	8223	iddiżassoċja	ddiżassoċja jiddiżassoċja
-24	8224	iżmarka	jiżmarka żmarka żmarkat
-25	8225	ċirkonċiżjoni	
-26	8226	sismiku	sismika sismiċi
-27	8227	irrita	irritat irritaw jirrita jirritah jirritahom jirritana jirritani jirritaw tirrita tirritah tirritani
-28	8228	dekompożizzjoni	dekompożizzjonijiet
-29	8229	libien	liban lubien
-30	8230	għaddel	għaddilna jgħaddilna tgħaddilna tgħaddilniex tgħaddilnix
-31	8231	fotokopja	fotokopji
-32	8232	astroloġikament	
-33	8233	epistemoloġija	
-34	8234	ċanga	
-35	8235	invoka	invokat jinvoka jinvokaw nvoka nvokat tinvoka tinvokax
-36	8236	etnografiku	etnografika etnografiċi
-37	8237	bgħid	ibgħad
-38	8238	fardal	fradal
-39	8239	żejża	żejżiet żejżietha żejżitha
-40	8240	amar	amarna amru jamar namru
-41	8241	evada	evadew jevadi jevadu tevadi
-42	8242	rmonka	irmunkar irmunkat jirmonka jirmonkaw rmonkat rmunkar tirmonka
-43	8243	kuċċarina	kuċċarini
-44	8244	bandal	ibandlu imbandal jbandal jitbandal jitbandalx jitbandlu nbandlu tbandal tbandil titbandal
-45	8245	kaħħal	ikaħħal imkaħħal kaħħala mkaħħal tkaħħlu
-46	8246	baħnan	
-47	8247	qara'	
-48	8248	ħawli	ħawlija
-49	8249	interċeda	jinterċedi jinterċedu tinterċedi
-50	8250	ingrana	ingranat ingranaw jingrana jingranaw ngranat ngranaw tingrana
-51	8251	inċita	inċitaw jinċita jinċitaw jinċitax ninċita
-52	8252	xugaman	xugamani
-53	8253	allużjoni	allużjonijiet
-54	8254	ipperfezzjona	jipperfezzjona jipperfezzjoni nipperfezzjona nipperfezzjonaw pperfezzjona pperfezzjonat pperfezzjonaw tipperfezzjona
-55	8255	ħara	iħarju taħri taħrik ħarja
-56	8256	konfessjonali	
-57	8257	rikkieb	rikkieba
-58	8258	topografiku	topografika topografiċi
-59	8259	mramma	imramma imrammti
-60	8260	penetrazzjoni	
-61	8261	ffabbrika	fabbrikar fabbrikat ffabbrikat iffabbrikat iffabbrikaw jiffabbrikaw
-62	8262	uniformità	uniformita
-63	8263	għajjur	għajjura għajjurin
-64	8264	żgiċċa	jiżgiċċa jiżgiċċaw niżgiċċa tiżgiċċa żgiċċat żgiċċatlu żgiċċatx
-65	8265	raffinerija	raffineriji
-66	8266	ikkonverġa	ikkonverġew jikkonverġi jikkonverġihom jikkonverġu tikkonverġi
-67	8267	vinkolanti	
-68	8268	asfalt	
-69	8269	estasi	estasijiet
-70	8270	verġinità	verġinita
-71	8271	weġġaħ	imweġġaħ inweġġħu iweġġħu jweġġaħx jweġġħu mweġġaħ tweġġaħ tweġġaħx
-72	8272	xewwex	ixewwex ixewwixhom ixewxu jxewwex jxewxu xewxu
-73	8273	skorpjun	iskorpjun iskorpjuni skorpjuni
-74	8274	qadja	qadjiet
-75	8275	għatas	jagħtas jagħtsu tagħtas
-76	8276	ivvjaġġja	ivvjaġġjat ivvjaġġjaw jivvjaġġja jivvjaġġjaw nivvjaġġja tivvjaġġja
-77	8277	aw	
-78	8278	ppurifika	ippurifikat ippurifikaw jippurifika jippurifikana jippurifikaw jippurifikawna ppurifikat ppurifikaw purifikat tippurifika
-79	8279	laħlaħ	ilaħalħu inlaħlaħ jlaħalħu laħlaħhom mlaħlaħ tlaħlaħx tlaħliħ
-80	8280	qaqoċċa	
-81	8281	faċċetta	faċċetti
-82	8282	blanzun	blanzuni
-83	8283	irritalja	irritaljat irritaljaw jirritalja jirritaljaw jirritaljax rritalja rritaljat rritaljaw tirritalja
-84	8284	bisesswali	
-85	8285	amministrattivament	
-86	8286	alkoħoliżmu	
-87	8287	lokomozzjoni	
-88	8288	mazzarell	mazzarelli
-89	8289	falzifikazzjoni	falsifikazzjoni
-90	8290	qaħba	qħab
-91	8291	sorm	sormha sormhom sormna sormok sormu
-92	8292	dissens	dissensi
-93	8293	iggusta	iggustaha iggustajt iggustajtek iggustajtu iggustat jiggustaw jiggustawhom niggustaw niggustawhom
-94	8294	illuda	jilludi jilludu nilludi nilludix nilludu nilludux tilludi
-95	8295	żieni	żienja
-96	8296	irriġenera	irriġenerat jirriġenera jirriġeneraw jirriġenerawhom tirriġenera
-97	8297	kanġa	ikanġi ikanġu jkanġi jkanġu tkanġi
-98	8298	ġbin	ġbinhom ġbini ġbinu
-99	8299	pipa	pipi
-100	8300	fantażma	fantażmi
+1	8201	ġbin	ġbinhom ġbini ġbinu
+2	8202	pipa	pipi
+3	8203	fantażma	fantażmi
+4	8204	eloġju	eloġji
+5	8205	għotor	għotrot jogħtor jogħtru nogħtru togħtor
+6	8206	reda'	jerda jerdax jerdgħu redgħu terda
+7	8207	irrekluta	jirrekluta jirreklutaw rrekluta rreklutat rreklutaw tirrekluta
+8	8208	iddiżintegra	ddiżintegra ddiżintegrat iddiżintegrat jiddiżintegra jiddiżintegraw tiddiżintegra
+9	8209	terrakotta	
+10	8210	noli	nolijiet
+11	8211	insinwa	insinwat insinwaw jinsinwa jinsinwaw ninsinwa nsinwa nsinwaw tinsinwa
+12	8212	assimilazzjoni	
+13	8213	inkonsista	jinkonsisti jinkonsistu tinkonsisti
+14	8214	tniffes	jitniffes jitniffsux nitniffisx titniffes titniffisx tniffsu
+15	8215	wita	witat witik
+16	8216	eżistenzjali	
+17	8217	ċikonja	ċikonji
+18	8218	dorsali	
+19	8219	ġeneralizzazzjoni	ġeneralizzazzjonijiet
+20	8220	buqar	buqari
+21	8221	posponiment	posponimenti
+22	8222	bużnannu	bużnannuh bużnannuha bużnannuhom
+23	8223	ambigwità	ambigwita ambigwitajiet
+24	8224	ddelega	ddelegat iddelega iddelegah iddelegat jiddelega jiddelegaw jiddelegawx tiddelega
+25	8225	bexxaq	imbexxaq inbexxaq jbexxaq mbexxaq nbexxqu tbexxaq
+26	8226	tambra	intambru intambrulhom itambru jtambru jtambruh jtambruha jtambrulna
+27	8227	tribut	tributi
+28	8228	fus	fusien
+29	8229	inkiss	nkiss
+30	8230	aċċelerazzjoni	aċċelerazzjonijiet
+31	8231	gabillott	gabillotti
+32	8232	intuwizzjoni	intuwizzjonijiet
+33	8233	kontrazzjoni	kontrazzjonijiet
+34	8234	ħanek	ħniek
+35	8235	delinkwent	delinkwenti
+36	8236	żiegħel	inżiegħel iżiegħel mżiegħel żegħil żegħilt żżiegħel
+37	8237	żvija	jiżvija tiżvija żvijat żvijax
+38	8238	loppju	loppji oppju
+39	8239	bbrilla	bbrillat bbrillaw bbrillax ibbrilla ibbrillar ibbrillat ibbrillaw jibbrilla jibbrillaw tibbrilla
+40	8240	ballat	iballtu imballat imballata jballtu mballat mballata
+41	8241	qamri	qamrija qamrin
+42	8242	artrite	
+43	8243	tlewwem	jitlewmu jitlewwem nitlewmu tlewmu tlewwimna
+44	8244	trijangolu	trijangoli
+45	8245	minġel	mnieġel
+46	8246	diġestiv	diġestiva diġestivi
+47	8247	ġennen	imġennen inġennu iġennen iġġennen iġġennu jġennu jġennuk nġennu ġennet ġenninni ġennu ġġennen ġġennu
+48	8248	ċenakolu	ċenaklu
+49	8249	kubiżmu	
+50	8250	aġġixxa	aġġixxew jaġġixxi jaġġixxu taġġixxi
+51	8251	safrani	
+52	8252	debboli	
+53	8253	frontali	
+54	8254	kurrat	
+55	8255	baqat	baqatx
+56	8256	twaħħax	nitwaħħax nitwaħħxu titwaħħax twaħħaxt
+57	8257	dnewwa	
+58	8258	leħħa	leħħiet
+59	8259	mixegħla	
+60	8260	pannu	
+61	8261	ħobb	ħobbhom
+62	8262	ballottra	ballottri
+63	8263	kileb	miklub
+64	8264	iskambja	jiskambja jiskambjaw jiskambjawhom niskambjaw skambjat skambjaw tiskambja
+65	8265	pedofelija	
+66	8266	xebba'	ixebba jxebba jxebbax xebbagħhom xebbgħu
+67	8267	alabastru	
+68	8268	ineffiċjenti	
+69	8269	jewwilla	
+70	8270	ndaf	jindaf jindafu
+71	8271	niek	jniku nejk nieket
+72	8272	raqqa'	iraqqa jraqqa jraqqa' raqqejna traqqa' traqqigħ
+73	8273	żgarra	jiżgarra jiżgarraw niżgarraw żgarrat
+74	8274	finanzier	finanziera finanzieri
+75	8275	ħaddied	ħaddieda
+76	8276	funzjonament	
+77	8277	enerġetika	
+78	8278	lifgħa	lifgħat
+79	8279	irrassenja	irrassenjat jirrassenja jirrassenjaw nirrassenja nirrassenjaw rrassenja
+80	8280	ikkonkorra	ikkonkorrew jikkonkorri jikkonkorru kkonkorra tikkonkorri
+81	8281	thenna	jithenna jithennew nithenna nithennew thennew tithenna tithennew
+82	8282	esklużiv	esklużiva esklużivi
+83	8283	avultun	avultuni
+84	8284	poġġaman	poġġamani
+85	8285	qrusa	
+86	8286	ġġeneralizza	iġġeneralizza iġġeneralizzat jiġġeneralizza niġġeneralizza niġġeneralizzaw tiġġeneralizza ġeneralizzat ġġeneralizzat
+87	8287	toppu	
+88	8288	istabillixxa	jistabillixxi jistabillixxu stabillixxa stabillixxiet tistabillixxi
+89	8289	fula	
+90	8290	sintesi	
+91	8291	żvojta	jiżvojta jiżvojtaw niżvojtaw tiżvojta żvojtat
+92	8292	skorta	iskorti skorti
+93	8293	dekor	
+94	8294	iddistakka	iddistakkajt jiddistakka jiddistakkawx tiddistakka
+95	8295	melles	imelles imellishom tmelles tmellislu tmellsu
+96	8296	maqjel	imqawel
+97	8297	brigant	briganti brigantina
+98	8298	nnaturalizza	naturalizzat
+99	8299	dabra	dbabar
+100	8300	aprezza	aprezzat japrezza japrezzaw naprezza naprezzaw

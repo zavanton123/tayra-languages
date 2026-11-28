@@ -1,100 +1,100 @@
-1	6501	żġur	żġuri
-2	6502	lamantin	lamantini
-3	6503	bieqja	bwieqi
-4	6504	bijografu	bijografi
-5	6505	ġeoloġiċi	
-6	6506	faxx	faxxi
-7	6507	librar	librara
-8	6508	ħarqa	ħarqiet ħarqitu ħrieqi
-9	6509	saba	
-10	6510	muża	mużi
-11	6511	mejjel	immejjel jitmejjel jitmejlu jmejjel jmejjilx mmejjel nitmejlu timjil titmejjel tmejjel tmejjil tmejlux
-12	6512	renjanti	
-13	6513	munzell	munzelli
-14	6514	instabbli	nstabbli
-15	6515	stoffa	istoffa
-16	6516	paxxa	inpaxxu ipaxxi jpaxxi jpaxxix jpaxxu jpaxxuna jpaxxuni paxxejt paxxew paxxut tpaxxi
-17	6517	imam	imamijiet
-18	6518	immarċja	immarċjat immarċjaw jimmarċja jimmarċjaw mmarċja mmarċjaw mmarċjax nimmarċjaw timmarċja
-19	6519	labirint	labirinti
-20	6520	eżaminatur	eżaminaturi
-21	6521	zekka	zekki
-22	6522	periferali	
-23	6523	issopona	issoponejt jissoponi jissoponu nissoponi nissoponu ssopona ssoponew
-24	6524	figolla	figolli
-25	6525	padiljun	padiljuni
-26	6526	abitudni	abitudnijiet
-27	6527	galbu	
-28	6528	tremenda	tremendi
-29	6529	xebgħa	xebgħat xebgħax xebgħithom
-30	6530	fliegu	fliegi
-31	6531	paradoss	paradossi
-32	6532	utilità	utilita utilitajiet
-33	6533	seħer	sħarijiet
-34	6534	mgħarfa	imgħaref imgħarfa mgħaref
-35	6535	antikitajiet	
-36	6536	ikkonfina	ikkonfinat jikkonfina jikkonfinaw kkonfinat tikkonfina
-37	6537	invertebrati	
-38	6538	lilhinn	
-39	6539	urugan	urugani
-40	6540	kumplimentari	
-41	6541	miżera	miżeri
-42	6542	kontaminazzjoni	kontaminazzjonijiet
-43	6543	qoffa	qfief
-44	6544	kredibilità	kredibilita
-45	6545	kantawtur	kantawturi
-46	6546	katamaran	katamarani
-47	6547	entrata	entrati
-48	6548	depożizzjoni	depożizzjonijiet
-49	6549	mikrofonu	mikrofoni
-50	6550	mqat	imqatta mqatta
-51	6551	onkoloġija	
-52	6552	moralment	
-53	6553	kopt	
-54	6554	dixxiplinat	dixxiplinata dixxiplinati
-55	6555	impekkabbli	
-56	6556	għela	jagħli jagħlu nagħlix tagħli
-57	6557	kategorikament	
-58	6558	tolleranti	
-59	6559	estenzjoni	
-60	6560	ofm	
-61	6561	profondament	
-62	6562	konverġenza	konverġenzi
-63	6563	ħafi	ħafja ħafjin
-64	6564	raża	
-65	6565	pitgħada	
-66	6566	aluminju	aluminjum
-67	6567	sodju	
-68	6568	ħġaru	ħġara
-69	6569	avventuruż	avventuruża avventurużi
-70	6570	awtentika	awtentikat jawtentika jawtentikaw
-71	6571	kontemplazzjoni	
-72	6572	provokazzjoni	provokazzjonijiet
-73	6573	ħmira	
-74	6574	kopertura	
-75	6575	bajtar	bajtra
-76	6576	eċċella	eċċellaw jeċċella jeċċellaw neċċellaw teċċella
-77	6577	maqdes	imqades mqades
-78	6578	konkrit	
-79	6579	vjeġġ	vjeġġi
-80	6580	vażun	vażuni
-81	6581	rendiment	rendimenti
-82	6582	minkeb	minkbejh minkbejhom minkbejn minkbu
-83	6583	vit	viti
-84	6584	senduq	senduqha senduqhom senduqu sniedaq
-85	6585	zarina	
-86	6586	terrazza	terrazzi
-87	6587	metrika	
-88	6588	wiegħda	wiegħdi
-89	6589	direttriċi	
-90	6590	traditur	tradituri
-91	6591	ekoloġija	
-92	6592	ċirasa	
-93	6593	ritaljazzjoni	ritaljazzjonijiet
-94	6594	ensemble	
-95	6595	irrigazzjoni	
-96	6596	qaxxar	imqaxxar iqaxxar iqaxxarlu iqaxxru iqaxxruhom jqaxxar jqaxxarha jqaxxarx jqaxxru mqaxxar qaxxarha qaxxarhom qaxxru qaxxrulu tqaxxar tqaxxru tqaxxrux
-97	6597	rimarki	
-98	6598	loġistika	
-99	6599	spirali	ispirali
-100	6600	proklama	proklami
+1	6501	bijografu	bijografi
+2	6502	ġeoloġiċi	
+3	6503	faxx	faxxi
+4	6504	librar	librara
+5	6505	saba	
+6	6506	muża	mużi
+7	6507	mejjel	immejjel jitmejjel jitmejlu jmejjel jmejjilx mmejjel nitmejlu timjil titmejjel tmejjel tmejjil tmejlux
+8	6508	renjanti	
+9	6509	munzell	munzelli
+10	6510	instabbli	nstabbli
+11	6511	stoffa	istoffa
+12	6512	paxxa	inpaxxu ipaxxi jpaxxi jpaxxix jpaxxu jpaxxuna jpaxxuni paxxejt paxxew paxxut tpaxxi
+13	6513	imam	imamijiet
+14	6514	immarċja	immarċjat immarċjaw jimmarċja jimmarċjaw mmarċja mmarċjaw mmarċjax nimmarċjaw timmarċja
+15	6515	labirint	labirinti
+16	6516	eżaminatur	eżaminaturi
+17	6517	zekka	zekki
+18	6518	periferali	
+19	6519	figolla	figolli
+20	6520	padiljun	padiljuni
+21	6521	abitudni	abitudnijiet
+22	6522	galbu	
+23	6523	tremenda	tremendi
+24	6524	xebgħa	xebgħat xebgħax xebgħithom
+25	6525	fliegu	fliegi
+26	6526	paradoss	paradossi
+27	6527	utilità	utilita utilitajiet
+28	6528	mgħarfa	imgħaref imgħarfa mgħaref
+29	6529	ikkonfina	ikkonfinat jikkonfina jikkonfinaw kkonfinat tikkonfina
+30	6530	invertebrati	
+31	6531	lilhinn	
+32	6532	urugan	urugani
+33	6533	kumplimentari	
+34	6534	miżera	miżeri
+35	6535	kontaminazzjoni	kontaminazzjonijiet
+36	6536	qoffa	qfief
+37	6537	kredibilità	kredibilita
+38	6538	kantawtur	kantawturi
+39	6539	katamaran	katamarani
+40	6540	entrata	entrati
+41	6541	depożizzjoni	depożizzjonijiet
+42	6542	mikrofonu	mikrofoni
+43	6543	onkoloġija	
+44	6544	moralment	
+45	6545	kopt	
+46	6546	dixxiplinat	dixxiplinata dixxiplinati
+47	6547	impekkabbli	
+48	6548	għela	jagħli jagħlu nagħlix tagħli
+49	6549	kategorikament	
+50	6550	tolleranti	
+51	6551	estenzjoni	
+52	6552	ofm	
+53	6553	profondament	
+54	6554	konverġenza	konverġenzi
+55	6555	ħafi	ħafja ħafjin
+56	6556	raża	
+57	6557	pitgħada	
+58	6558	aluminju	aluminjum
+59	6559	sodju	
+60	6560	ħġaru	ħġara
+61	6561	avventuruż	avventuruża avventurużi
+62	6562	awtentika	awtentikat jawtentika jawtentikaw
+63	6563	kontemplazzjoni	
+64	6564	provokazzjoni	provokazzjonijiet
+65	6565	ħmira	
+66	6566	kopertura	
+67	6567	bajtar	bajtra
+68	6568	eċċella	eċċellaw jeċċella jeċċellaw neċċellaw teċċella
+69	6569	maqdes	imqades mqades
+70	6570	konkrit	
+71	6571	vjeġġ	vjeġġi
+72	6572	vażun	vażuni
+73	6573	rendiment	rendimenti
+74	6574	minkeb	minkbejh minkbejhom minkbejn minkbu
+75	6575	vit	viti
+76	6576	senduq	senduqha senduqhom senduqu sniedaq
+77	6577	zarina	
+78	6578	terrazza	terrazzi
+79	6579	metrika	
+80	6580	traditur	tradituri
+81	6581	ekoloġija	
+82	6582	ċirasa	
+83	6583	ritaljazzjoni	ritaljazzjonijiet
+84	6584	irrigazzjoni	
+85	6585	qaxxar	imqaxxar iqaxxar iqaxxarlu iqaxxru iqaxxruhom jqaxxar jqaxxarha jqaxxarx jqaxxru mqaxxar qaxxarha qaxxarhom qaxxru qaxxrulu tqaxxar tqaxxru tqaxxrux
+86	6586	rimarki	
+87	6587	loġistika	
+88	6588	spirali	ispirali
+89	6589	proklama	proklami
+90	6590	rakkmu	rakkmi
+91	6591	osservabbli	
+92	6592	effettività	effettivita
+93	6593	mażżra	mażżri
+94	6594	stimolu	istimoli istimolu stimola stimoli
+95	6595	imbuttatura	mbuttatura
+96	6596	għalf	
+97	6597	kummerċjalment	
+98	6598	imbuttata	imbuttati mbuttati
+99	6599	żrinġ	żrinġijiet
+100	6600	bukkett	bukketti

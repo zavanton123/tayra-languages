@@ -1,100 +1,100 @@
-1	8001	ittrenja	ittrenjat jittrenja jittrenjah jittrenjaw nittrenja tittrenja
-2	8002	abdikazzjoni	
-3	8003	demarkazzjoni	demarkazzjonijiet
-4	8004	eradika	eradikat jeradikaw neradikaw teradika
-5	8005	inġurja	inġurjah inġurjat jinġurjax nġurjat
-6	8006	applaws	applawsi
-7	8007	dada	dadi dadu
-8	8008	gverta	gverti
-9	8009	komplott	komplotti
-10	8010	ipprofessa	ipprofessat jipprofessa jipprofessaw nipprofessaw pprofessa pprofessat
-11	8011	tnikker	jitnikker jitnikkru titnikker tnikkir tnikkirtx
-12	8012	baxà	paxà
-13	8013	dewwa	ddewwi iddewwew iddewwi idewwi imdewwi imdewwija jdewwi jdewwu jiddewwa tiddewwa
-14	8014	għalieni	għalenija għalenin
-15	8015	inuman	inumana inumani
-16	8016	sugu	
-17	8017	ċekċek	iċekċku iċċekċek jċekċek jċekċku ċekċik
-18	8018	skojjattlu	iskojjattli iskojjattlu skojjattli
-19	8019	uranju	
-20	8020	għażżiela	
-21	8021	uqija	ewieq uqijiet wieq
-22	8022	irrombla	irromblat jirrombla jirromblahom jirromblaw rrombla rromblaw tirrombla
-23	8023	armistizju	armistizji
-24	8024	fellus	flieles
-25	8025	irxuxta	irxuxtajtu irxuxtat irxuxtatu jirxuxtaw jirxuxtawha nirxuxtaw rxuxtajt rxuxtat rxuxtaw
-26	8026	illaxka	illaxkat jillaxka jillaxkalu jillaxkaw llaxka llaxkax
-27	8027	ingravata	ingravajjet ngravata
-28	8028	sulfarina	sulfarini
-29	8029	gambetta	gambetti
-30	8030	pappagall	pappagalli
-31	8031	eżattezza	
-32	8032	twaħħad	jitwaħħad jitwaħħdu titwaħħad twaħħdet twaħħdu
-33	8033	emozzjonalment	
-34	8034	ħalba	ħalbiet
-35	8035	okkorra	jokkorri jokkorrix jokkorru tokkorri
-36	8036	brodu	
-37	8037	karitattiv	karitattiva karitattivi
-38	8038	għarbiel	
-39	8039	mislub	
-40	8040	selaħ	jisloħ jisloħha jisolħu jisolħulhom jisolħuna misluħ misluħa nisolħu tisloħ tisolħu
-41	8041	pum	pumi pumijiet
-42	8042	iskava	jiskava jiskavaw jiskavawha niskava niskavaw skavaw tiskava
-43	8043	argumentazzjoni	argumentazzjonijiet
-44	8044	zopp	zopop zoppa
-45	8045	żdinga	iżdingar niżdinga żdingar żdingat
-46	8046	perenni	
-47	8047	temperat	temperata temperati
-48	8048	astroloġiku	astroloġika astroloġiċi
-49	8049	ippopotamu	ippopotami
-50	8050	iddistribwixxa	jiddistribwixxi jiddistribwixxu tiddistribwixxi
-51	8051	ħambaq	inħambaq iħambaq iħambqu jħambaq jħambqu tħambaq ħambqu
-52	8052	bbeatifika	bbeatifikat bbeatifikatu beatifikat ibbeatifika ibbeatifikat jibbeatifika
-53	8053	waħħad	imwaħħad iwaħħad iwaħħdu jwaħħad jwaħħdu mwaħħad tewħid waħħadna waħħdet
-54	8054	kimikament	
-55	8055	fawwar	fawwart ifawwar jfawwar jfawwarkom mfawwar tfawwar tfawwarli
-56	8056	aċċenna	aċċennajna aċċennajt jaċċenna jaċċennaw naċċennaw
-57	8057	gang	gangi gangijiet
-58	8058	pornografiku	pornografika pornografiċi
-59	8059	kolazzjon	kolazzjoni
-60	8060	simar	
-61	8061	etimoloġikament	
-62	8062	degradazzjoni	
-63	8063	inspjegabbli	
-64	8064	estratta	jestrattaw
-65	8065	innewtralizza	innewtralizzat jinnewtralizza jinnewtralizzaw jinnewtralizzawha tinnewtralizza
-66	8066	mandolin	mandolina mandolini
-67	8067	pellikan	pellikani
-68	8068	ikkolabora	ikkolaborat jikkolabora jikkolaboraw nikkolaboraw tikkolabora
-69	8069	ċawl	ċawla ċawliet
-70	8070	żbilanċja	jiżbilanċja jiżbilanċjaw jiżbilanċjax niżbilanċja tiżbilanċja żbilanċjajt żbilanċjat
-71	8071	kullar	kullari kullars
-72	8072	ċoqqa	
-73	8073	simultanjament	
-74	8074	ffroda	ffrodat ffrodaw frodat iffrodaw jiffroda jiffrodaw jiffrodawhom
-75	8075	mmanuvra	immanuvra immanuvrar jimmanuvra jimmanuvraw mmanuvrar timmanuvra
-76	8076	użufrutt	
-77	8077	nieqa	
-78	8078	gallettina	gallettini
-79	8079	aggressività	aggressivita
-80	8080	isfronda	jisfronda jisfrondaw jisfrundaw sfronda sfrondat sfrondaw sfrondax sfrundat sfrundaw tisfronda
-81	8081	brunġiel	brinġiel
-82	8082	ċċita	iċċitat iċċitaw jiċċita jiċċitaw niċċitaw tiċċita ċċitat ċċitaw
-83	8083	lavur	lavuri
-84	8084	qrubija	
-85	8085	gassuż	gassuża gassużi
-86	8086	xkubetta	ixkubetta ixkubetti xkubetti
-87	8087	bewsa	
-88	8088	namrat	namrata namrati
-89	8089	assimila	assimilaha assimilat assimilaw jassimila jassimilahom jassimilaw jassimilawhom jassimilax nassimilaw tassimila tassimilax
-90	8090	komunist	
-91	8091	ħalfa	
-92	8092	infjammazzjoni	infjammazzjonijiet
-93	8093	irrovina	irrovinajna jirrovina jirrovinaw jirrovinawli tirrovina
-94	8094	rieġa	irieġi irieġu jreġix jreġux jrieġi treġix
-95	8095	perċimes	
-96	8096	indokra	jindokra jindokralna jindokraw tindokra
-97	8097	arżnu	
-98	8098	regħba	
-99	8099	familjarità	familjarita
-100	8100	moqdief	imqadef mqadef
+1	8001	namrat	namrata namrati
+2	8002	assimila	assimilaha assimilat assimilaw jassimila jassimilahom jassimilaw jassimilawhom jassimilax nassimilaw tassimila tassimilax
+3	8003	komunist	
+4	8004	infjammazzjoni	infjammazzjonijiet
+5	8005	irrovina	irrovinajna jirrovina jirrovinaw jirrovinawli tirrovina
+6	8006	rieġa	irieġi irieġu jreġix jreġux jrieġi treġix
+7	8007	perċimes	
+8	8008	indokra	jindokra jindokralna jindokraw tindokra
+9	8009	arżnu	
+10	8010	regħba	
+11	8011	familjarità	familjarita
+12	8012	moqdief	imqadef mqadef
+13	8013	tassonomiku	tassonomika tassonomiċi
+14	8014	għera	
+15	8015	deha	jedha jedhew medhija nedhew
+16	8016	ħamel	jaħmel jaħmilx taħmel ħamilx ħamlet
+17	8017	ebusija	
+18	8018	evanġelizza	evanġelizzat evanġelizzaw jevanġelizza jevanġelizzana jevanġelizzaw nevanġelizzaw tevanġelizza tevanġelizzax
+19	8019	impedixxa	impedixxew jimpedixxi jimpedixxu jimpedixxuha timpedixxi
+20	8020	naxar	inxir jonxor jonxru jonxruhom minxur minxura minxurin naxra nonxru tonxor tonxorha
+21	8021	ċelebrant	ċelebranti
+22	8022	ħarbex	inħarbex iħarbex jħarbex tħarbex tħarbix ħarbixlu
+23	8023	kowt	kowtijiet
+24	8024	ħaleb	aħleb jaħleb jinħalbu jinħaleb taħlib ħlib
+25	8025	soċjoloġija	
+26	8026	makakk	makakka makakki
+27	8027	għarma	għaram
+28	8028	ikwa	jikwi jikwu tikwi
+29	8029	ippromulga	ippromulgat jippromulga jippromulgaw ppromulga ppromulgat ppromulgaw ppromulgax tippromulga
+30	8030	imbarra	imbarrat imbarrata jimbarraw mbarra mbarrat mbarraw
+31	8031	terminoloġiku	terminoloġika terminoloġiċi
+32	8032	ddeġenera	ddeġenerat ddeġeneraw ddeġenerax deġenerat iddeġenera iddeġenerat jiddeġenera jiddeġeneraw jiddeġenerax tiddeġenera
+33	8033	derivazzjoni	derivazzjonijiet
+34	8034	ħallel	inħalluha iħallilna iħalluh iħalluha iħalluk jħallilna jħallilniex jħalluha jħalluhomx jħalluhx jħalluk jħallukx jħallulek jħallulhom jħalluna jħalluniex nħalluha nħalluhiex nħalluhomx nħallulhom ħallilna ħalluh ħalluhom
+35	8035	għaxi	għaxja
+36	8036	devastazzjoni	devastazzjonijiet
+37	8037	interrompa	interrompew interrompiet interrompietu jinterrompi jinterrompih jinterrompix jinterrompu tinterrompi
+38	8038	gabinett	gabinetti
+39	8039	marġ	imraġ mraġ
+40	8040	demmi	
+41	8041	eminenti	
+42	8042	devjazzjoni	devjazzjonijiet
+43	8043	involontarju	
+44	8044	ġamm	ġammijiet
+45	8045	assassina	assassinat assassinatu jassassinaw
+46	8046	ħafur	
+47	8047	ngħas	ngħasha
+48	8048	eżalta	eżaltat jeżaltaw neżaltaw teżalta teżaltani
+49	8049	minorità	minorita minoritajiet
+50	8050	żiffa	
+51	8051	antropologu	antropologa antropoloġi
+52	8052	passatur	
+53	8053	innormalizza	jinnormalizza jinnormalizzaw nnormalizza nnormalizzaw
+54	8054	azzari	azzarin
+55	8055	appellant	appellanti
+56	8056	injetta	injettalu injettat injettaw jinjetta tinjetta
+57	8057	ikkonstata	ikkonstatat jikkonstataw kkonstata kkonstatat nikkonstata nikkonstatah tikkonstata
+58	8058	palju	palji paljijiet
+59	8059	ippożizzjona	ippożizzjonat ippożizzjonaw jippożizzjona jippożizzjonaw jippożizzjoni ppożizzjona ppożizzjonat ppożizzjonaw
+60	8060	fjamingu	fjamingi flamingo
+61	8061	għatas	għatis għats jagħtas jagħtsu tagħtas
+62	8062	bużullotta	bużullotti
+63	8063	bronkite	
+64	8064	isgassa	jisgassaw nisgassaw sgassa sgassat
+65	8065	distrazzjoni	distrazzjonijiet
+66	8066	musbieħ	imsiebaħ msiebaħ
+67	8067	armarju	armarji
+68	8068	ama	amat jama jamilha namaw tamaw
+69	8069	żingu	
+70	8070	perżut	perżuta prieżet
+71	8071	inżera	jinżera nżera tinżera
+72	8072	tmaqdir	
+73	8073	xbin	xbinha xbinhom xbinkom xbinu
+74	8074	evapora	evaporat jevapora jevaporaw jevaporax tevapora
+75	8075	ipprevala	jipprevali jipprevalu pprevala pprevalew tipprevali
+76	8076	rvella	irvella irvellat irvellaw jirvella jirvellaw rvellat rvellaw tirvella
+77	8077	morr	morri
+78	8078	raġġiera	raġġieri
+79	8079	rmonk	irmonk
+80	8080	pessimiżmu	
+81	8081	rkotta	irkotta
+82	8082	soċjalizzazzjoni	
+83	8083	elmu	elmi elmijiet
+84	8084	kaħlani	kaħlanija
+85	8085	darsa	dras
+86	8086	parta	inparti
+87	8087	issostanzja	jissostanzja jissostanzjaha jissostanzjahom jissostanzjaw tissostanzja
+88	8088	seħet	jisħet jisħetilhom jisħetx jisħtu jisħtuna nisħtux tisħet tisħetx
+89	8089	ssimboleġġa	jissimboleġġa jissimboleġġaw tissimboleġġa
+90	8090	irrepreżenta	jirrepreżentaw rrepreżentat tirrepreżenta
+91	8091	ikkompila	ikkompilahom ikkompilat ikkompilaw jikkompila jikkompilaw kkompila kkompilat kkompilaw
+92	8092	lewa	jilwi jilwu lewini liwi liwini lwi milwija milwijin tilwi tilwina tilwix
+93	8093	arkivista	
+94	8094	ddisprezza	disprezzat jiddisprezza jiddisprezzah jiddisprezzaw jiddisprezzawha tiddisprezzax
+95	8095	ispjuna	ispjuni jispjuna jispjunaw jispjunax spjuna spjunaw spjuni
+96	8096	stallett	istallett istalletti stalletti
+97	8097	għuda	għawwied
+98	8098	ikkonfonda	ikkonfondejt ikkonfonditni jikkonfondi jikkonfondini jikkonfondu kkonfonda kkonfondiet nikkonfondi nikkonfondix tikkonfondi tikkonfondini tikkonfondix
+99	8099	metriku	metriċi
+100	8100	ikkonfoffa	ikkonfoffaw jikkonfoffa jikkonfoffaw kkonfoffa kkonfoffat kkonfoffaw

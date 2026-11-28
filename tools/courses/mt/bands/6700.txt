@@ -1,100 +1,100 @@
-1	6601	rakkmu	rakkmi
-2	6602	osservabbli	
-3	6603	effettività	effettivita
-4	6604	qargħa	qargħi
-5	6605	mażżra	mażżri
-6	6606	stimolu	istimoli istimolu stimola stimoli
-7	6607	imbuttatura	mbuttatura
-8	6608	għalf	
-9	6609	kummerċjalment	
-10	6610	imbuttata	imbuttati mbuttati
-11	6611	żrinġ	żrinġijiet
-12	6612	bukkett	bukketti
-13	6613	għorfa	għorfiet għorof
-14	6614	testwali	
-15	6615	viġilanza	
-16	6616	tfittix	
-17	6617	qotni	qotnija qotnin
-18	6618	kullana	kullani
-19	6619	bugeddum	
-20	6620	glaċjali	
-21	6621	prototip	prototipi prototipu
-22	6622	lekċerer	lekċerers
-23	6623	pubblikan	pubblikani
-24	6624	inviżibbli	
-25	6625	ħdura	
-26	6626	ogħli	
-27	6627	terran	
-28	6628	tassonomija	
-29	6629	antropoloġija	
-30	6630	fawl	fawls
-31	6631	kasbar	ikasbar ikasbarhom ikasbru imkasbar jkasbar jkasbarha jkasbarhom jkasbarni jkasbru jkasbruha kasbret kasbru kasbruna mkasbar nkasbru tkasbar tkasbir
-32	6632	dilemma	dilemmi
-33	6633	invista	invistat jinvista jinvistah jinvistaha jinvistahom jinvistani jinvistaw jinvistawha jinvistawhom ninvista ninvistak ninvistaw
-34	6634	marġni	marġnijiet
-35	6635	trasfużjoni	trasfużjonijiet
-36	6636	ddestina	ddestinat destinat iddestinat
-37	6637	pożati	
-38	6638	konġestjoni	konġestjonijiet
-39	6639	imperfett	imperfetta mperfetta
-40	6640	turnament	
-41	6641	grammatikali	
-42	6642	intensifika	intensifikajna intensifikat intensifikaw intensifikax jintensifika jintensifikaw nintensifikaw ntensifikat tintensifika
-43	6643	brutali	
-44	6644	utru	
-45	6645	rikatt	rikatti
-46	6646	awtiżmu	
-47	6647	ntoppi	intoppi
-48	6648	ikkometta	ikkomettejna jikkomettix jikkomettu kkometta kkomettiet nikkometti
-49	6649	estremista	estremisti
-50	6650	fieħ	fiħx ifuħ ifuħu infuħu jfuħ jfuħu tfuħ
-51	6651	kkolonizza	ikkolonizza ikkolonizzat ikkolonizzaw jikkolonizza jikkolonizzaw kkolonizzat kkolonizzaw kkolonizzawhom kolonizzat tikkolonizza
-52	6652	intendi	
-53	6653	rummien	rummiena
-54	6654	skartoċċ	iskartoċċ iskrataċ skrataċ
-55	6655	qattar	imqattar iqattar jqattar jqattarx jqattru nqattar qattarha qattret qattru taqtir tqattar tqattarx
-56	6656	nekropoli	
-57	6657	sarima	
-58	6658	ċpar	
-59	6659	għader	agħder għadir jagħder jagħdirna magħdur magħdura nagħder nagħdru tagħder tagħdirha tagħdirhom
-60	6660	ġemel	iġmla ġemla
-61	6661	grati	
-62	6662	nord	
-63	6663	malarja	
-64	6664	koerenza	
-65	6665	damask	
-66	6666	atteġġament	atteġġamenti
-67	6667	tranżitorju	tranżitorja tranżitorji
-68	6668	xammar	imxammar ixammar ixammru jxammar jxammru mxammar nxammru xammru
-69	6669	soġġorn	soġġorna soġġorni
-70	6670	sfieqa	
-71	6671	ġbejna	ġbejniet
-72	6672	multipli	
-73	6673	distributur	distributuri
-74	6674	eċitament	eċċitament eċċitamenti
-75	6675	nitfa	intietef ntietef
-76	6676	pavaljuni	
-77	6677	alwett	alwetta alwetti alwettiet
-78	6678	igglorifika	gglorifika gglorifikah gglorifikajtu gglorifikat igglorifikani igglorifikat igglorifikaw jigglorifika jigglorifikah jigglorifikaw tigglorifika tigglorifikah
-79	6679	emozzjona	emozzjonat jemozzjona jemozzjonaw jemozzjonax nemozzjona
-80	6680	kustilja	kustilji
-81	6681	membrana	membrani
-82	6682	limbu	
-83	6683	alterna	alternat alternaw jalterna jalternaw talterna
-84	6684	binhar	
-85	6685	kategoriku	kategorika
-86	6686	vjal	vjali
-87	6687	kappar	kappara
-88	6688	imminenti	
-89	6689	appartena	jappartieni jappartienu jappartienux tappartieni
-90	6690	esseri	
-91	6691	konsensus	
-92	6692	beżaq	beżaqlu beżqet beżqitlu beżqu bżaqt inbeżaq jobżoq jobżoqha jobżoqlu jobżqu jobżqulu mibżuq nbeżaq obżoq tobżoq tobżoqlu
-93	6693	mħadda	imħadda imħaded mħaded
-94	6694	ċċirkonda	iċċirkonda iċċirkondaw jiċċirkonda jiċċirkondaha jiċċirkondaw jiċċirkondawha tiċċirkonda tiċċirkondaha ċirkondat ċċirkondat ċċirkondaw ċċirkondawha
-95	6695	oasi	
-96	6696	riorganizzazzjoni	riorganizzazzjonijiet
-97	6697	sagramentali	
-98	6698	immanipula	immanipulat immanipulata jimmanipola jimmanipula jimmanipulana jimmanipulaw mmanipolaw mmanipulat mmanipulaw timmanipola timmanipula
-99	6699	dekasteru	dekasteri
-100	6700	issapportja	issapportjajt issapportjat jissapportja jissapportjah jissapportjahom jissapportjaw nissapportja nissapportjaw ssapportjat tissapportja tissapportjahom tissapportjax
+1	6601	għorfa	għorfiet għorof
+2	6602	testwali	
+3	6603	viġilanza	
+4	6604	qotni	qotnija qotnin
+5	6605	kullana	kullani
+6	6606	bugeddum	
+7	6607	glaċjali	
+8	6608	prototip	prototipi prototipu
+9	6609	lekċerer	lekċerers
+10	6610	pubblikan	pubblikani
+11	6611	inviżibbli	
+12	6612	ħdura	
+13	6613	terran	
+14	6614	tassonomija	
+15	6615	antropoloġija	
+16	6616	mastri	
+17	6617	fawl	fawls
+18	6618	kasbar	ikasbar ikasbarhom ikasbru imkasbar jkasbar jkasbarha jkasbarhom jkasbarni jkasbru jkasbruha kasbret kasbru kasbruna mkasbar nkasbru tkasbar tkasbir
+19	6619	dilemma	dilemmi
+20	6620	invista	invistat jinvista jinvistah jinvistaha jinvistahom jinvistani jinvistaw jinvistawha jinvistawhom ninvista ninvistak ninvistaw
+21	6621	marġni	marġnijiet
+22	6622	trasfużjoni	trasfużjonijiet
+23	6623	ddestina	ddestinat destinat iddestinat
+24	6624	pożati	
+25	6625	konġestjoni	konġestjonijiet
+26	6626	imperfett	imperfetta mperfetta
+27	6627	turnament	
+28	6628	grammatikali	
+29	6629	intensifika	intensifikajna intensifikat intensifikaw intensifikax jintensifika jintensifikaw nintensifikaw ntensifikat tintensifika
+30	6630	brutali	
+31	6631	utru	
+32	6632	rikatt	rikatti
+33	6633	awtiżmu	
+34	6634	ntoppi	intoppi
+35	6635	ikkometta	ikkomettejna jikkomettix jikkomettu kkometta kkomettiet nikkometti
+36	6636	estremista	estremisti
+37	6637	fieħ	fiħx ifuħ ifuħu infuħu jfuħ jfuħu tfuħ
+38	6638	kkolonizza	ikkolonizza ikkolonizzat ikkolonizzaw jikkolonizza jikkolonizzaw kkolonizzat kkolonizzaw kkolonizzawhom kolonizzat tikkolonizza
+39	6639	intendi	
+40	6640	rummien	rummiena
+41	6641	skartoċċ	iskartoċċ iskrataċ skrataċ
+42	6642	qattar	imqattar iqattar jqattar jqattarx jqattru nqattar qattarha qattret qattru taqtir tqattar tqattarx
+43	6643	nekropoli	
+44	6644	sarima	
+45	6645	ċpar	
+46	6646	għader	agħder għadir jagħder jagħdirna magħdur magħdura nagħder nagħdru tagħder tagħdirha tagħdirhom
+47	6647	ġemel	iġmla ġemla
+48	6648	grati	
+49	6649	nord	
+50	6650	malarja	
+51	6651	koerenza	
+52	6652	atteġġament	atteġġamenti
+53	6653	tranżitorju	tranżitorja tranżitorji
+54	6654	xammar	imxammar ixammar ixammru jxammar jxammru mxammar nxammru xammru
+55	6655	soġġorn	soġġorna soġġorni
+56	6656	sfieqa	
+57	6657	ġbejna	ġbejniet
+58	6658	multipli	
+59	6659	distributur	distributuri
+60	6660	eċitament	eċċitament eċċitamenti
+61	6661	nitfa	intietef ntietef
+62	6662	pavaljuni	
+63	6663	alwett	alwetta alwetti alwettiet
+64	6664	igglorifika	gglorifika gglorifikah gglorifikajtu gglorifikat igglorifikani igglorifikat igglorifikaw jigglorifika jigglorifikah jigglorifikaw tigglorifika tigglorifikah
+65	6665	emozzjona	emozzjonat jemozzjona jemozzjonaw jemozzjonax nemozzjona
+66	6666	kustilja	kustilji
+67	6667	membrana	membrani
+68	6668	limbu	
+69	6669	alterna	alternat alternaw jalterna jalternaw talterna
+70	6670	binhar	
+71	6671	kategoriku	kategorika
+72	6672	vjal	vjali
+73	6673	kappar	kappara
+74	6674	imminenti	
+75	6675	appartena	jappartieni jappartienu jappartienux tappartieni
+76	6676	esseri	
+77	6677	konsensus	
+78	6678	mħadda	imħadda imħaded mħaded
+79	6679	ċċirkonda	iċċirkonda iċċirkondaw jiċċirkonda jiċċirkondaha jiċċirkondaw jiċċirkondawha tiċċirkonda tiċċirkondaha ċirkondat ċċirkondat ċċirkondaw ċċirkondawha
+80	6680	oasi	
+81	6681	riorganizzazzjoni	riorganizzazzjonijiet
+82	6682	sagramentali	
+83	6683	immanipula	immanipulat immanipulata jimmanipola jimmanipula jimmanipulana jimmanipulaw mmanipolaw mmanipulat mmanipulaw timmanipola timmanipula
+84	6684	dekasteru	dekasteri
+85	6685	issapportja	issapportjajt issapportjat jissapportja jissapportjah jissapportjahom jissapportjaw nissapportja nissapportjaw ssapportjat tissapportja tissapportjahom tissapportjax
+86	6686	xjenzjati	
+87	6687	dentist	
+88	6688	assunzjoni	assunzjonijiet
+89	6689	lunari	
+90	6690	irrimedja	irrimedjat jirrimedja jirrimedjaha jirrimedjaw nirrimedja nirrimedjaw nirrimedjawha tirrimedja
+91	6691	grada	
+92	6692	masklu	maskli
+93	6693	fotografiku	fotografika fotografiċi
+94	6694	xalata	xalati
+95	6695	raġjonevoli	
+96	6696	gwaj	
+97	6697	sebaq	jisboq jisbqu sebqet sebqu tisboq
+98	6698	immortalità	immortalita
+99	6699	punteġġ	punteġġi
+100	6700	parodija	parodiji

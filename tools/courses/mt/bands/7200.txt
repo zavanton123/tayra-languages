@@ -1,100 +1,100 @@
-1	7101	emanċipazzjoni	
-2	7102	paramediċi	
-3	7103	semantika	
-4	7104	aċċessorji	
-5	7105	għoqda	għoqod
-6	7106	konoxxenza	konoxxenzi
-7	7107	bilqegħda	
-8	7108	jaqaw	jaqawx
-9	7109	raġa	
-10	7110	għawma	
-11	7111	traħħis	
-12	7112	termali	
-13	7113	twaqqiegħ	
-14	7114	ħakka	
-15	7115	ammirall	ammiralli
-16	7116	envelop	envelops
-17	7117	imitazzjoni	imitazzjonijiet
-18	7118	frejgata	frejgati frejgatina
-19	7119	akkreditazzjoni	akkreditazzjonijiet
-20	7120	imparzjalità	
-21	7121	rankatura	
-22	7122	tissielet	
-23	7123	ippreċeda	ippreċediet jippreċedi jippreċediha jippreċedu ppreċeda ppreċedew ppreċedewna ppreċedieni ppreċediet tippreċedi
-24	7124	skarsezza	iskarsezza iskarsezzi skarsezzi
-25	7125	giddieb	giddibin giddieba
-26	7126	annulla	annullahom annullat annullaw jannulla tannulla
-27	7127	pizza	pizez pizzi
-28	7128	penalti	
-29	7129	għalekk	
-30	7130	issukta	issuktajt issuktat issuktaw jissuktaw nissuktaw ssuktat ssuktaw tissuktax
-31	7131	żebbuġi	żebbuġija żebbuġin
-32	7132	maġistratura	maġistraturi
-33	7133	konġunzjoni	konġunzjonijiet
-34	7134	molekulari	
-35	7135	vertikalment	
-36	7136	sturnell	isturnell isturnelli
-37	7137	taħbita	
-38	7138	mnalla	imnalla
-39	7139	aċċidentali	
-40	7140	tiswir	tiswira
-41	7141	skizzi	iskizzi
-42	7142	oriġinalità	oriġinalita
-43	7143	flawt	flawti flawtijiet
-44	7144	windfarms	
-45	7145	industrijalizzati	
-46	7146	sufi	sufija sufin
-47	7147	sagħtar	
-48	7148	azzard	
-49	7149	vġili	vġilijiet
-50	7150	għakkes	għakksu għakksux igħakkes jgħakkes jgħakkisha jgħakkisni jgħakkisx jgħakksu nitgħakksu
-51	7151	bieżel	beżlin bieżla biżlin
-52	7152	ferragħ	ferrgħu iferrgħu jferrgħu tferrgħu tifrigħ
-53	7153	adulterju	adulterji
-54	7154	iddispona	iddisponew jiddisponi jiddisponu niddisponu tiddisponi
-55	7155	staġonali	
-56	7156	għabex	
-57	7157	feriment	ferimenti
-58	7158	affermattiv	affermattiva
-59	7159	dura	duri
-60	7160	industrijalizzazzjoni	
-61	7161	dedika	dediki
-62	7162	direttorati	
-63	7163	ellittiku	ellittika ellittiċi
-64	7164	qabbeż	qabbiżhom qabbiżlu
-65	7165	moltiplikazzjoni	
-66	7166	itkissra	jitkissru jitkissrux nitkissru
-67	7167	bergħud	briegħed
-68	7168	ċorma	
-69	7169	ipprofanata	ipprofanati pprofanata
-70	7170	renta	renti
-71	7171	dipendenzi	
-72	7172	parentesi	
-73	7173	irrestrinġa	irrestrinġew irrestrinġiet jirrestrinġi jirrestrinġiha jirrestrinġu jirristrinġi jirristrinġu nirristrinġu rrestrinġa rrestrinġew rrestrinġiet tirrestrinġi tirrestrinġix tirristrinġi
-74	7174	improbabbli	
-75	7175	bired	birdet birdu bridt jibred nibred tibred
-76	7176	deportazzjoni	deportazzjonijiet
-77	7177	triljun	triljuni
-78	7178	barr	
-79	7179	konservazzjonisti	
-80	7180	passeriformi	
-81	7181	sistolika	
-82	7182	politikanti	
-83	7183	prużuntuż	prużuntużi
-84	7184	ġilju	ġilji
-85	7185	dama	damak dami
-86	7186	beritta	berritta brieret
-87	7187	swied	jiswied swiedu tiswied
-88	7188	kordinatur	kordinaturi
-89	7189	adatt	adatti
-90	7190	pagun	paguni
-91	7191	karburant	karburanti
-92	7192	ippridka	jippridka jippridkaha jippridkaw jippridkawhom nippridkaw
-93	7193	gidma	
-94	7194	bellus	bellusi
-95	7195	paralimpiku	
-96	7196	tomna	
-97	7197	lessikali	
-98	7198	inċens	
-99	7199	sogħla	
-100	7200	kontrattwanti	
+1	7101	penalti	
+2	7102	issukta	issuktajt issuktat issuktaw jissuktaw nissuktaw ssuktat ssuktaw tissuktax
+3	7103	żebbuġi	żebbuġija żebbuġin
+4	7104	maġistratura	maġistraturi
+5	7105	konġunzjoni	konġunzjonijiet
+6	7106	molekulari	
+7	7107	vertikalment	
+8	7108	sturnell	isturnell isturnelli
+9	7109	mnalla	imnalla
+10	7110	aċċidentali	
+11	7111	skizzi	iskizzi
+12	7112	oriġinalità	oriġinalita
+13	7113	flawt	flawti flawtijiet
+14	7114	għammad	għamad imgħammad mgħammad tagħmid tgħammad
+15	7115	windfarms	
+16	7116	industrijalizzati	
+17	7117	sufi	sufija sufin
+18	7118	sagħtar	
+19	7119	azzard	
+20	7120	vġili	vġilijiet
+21	7121	għakkes	għakksu għakksux igħakkes jgħakkes jgħakkisha jgħakkisni jgħakkisx jgħakksu nitgħakksu
+22	7122	bieżel	beżlin bieżla biżlin
+23	7123	ferragħ	ferrgħu iferrgħu jferrgħu tferrgħu tifrigħ
+24	7124	adulterju	adulterji
+25	7125	iddispona	iddisponew jiddisponi jiddisponu niddisponu tiddisponi
+26	7126	staġonali	
+27	7127	għabex	
+28	7128	feriment	ferimenti
+29	7129	affermattiv	affermattiva
+30	7130	dura	duri
+31	7131	industrijalizzazzjoni	
+32	7132	dedika	dediki
+33	7133	direttorati	
+34	7134	ellittiku	ellittika ellittiċi
+35	7135	qabbeż	qabbiżhom qabbiżlu
+36	7136	moltiplikazzjoni	
+37	7137	itkissra	jitkissru jitkissrux nitkissru
+38	7138	bergħud	briegħed
+39	7139	ċorma	
+40	7140	ipprofanata	ipprofanati pprofanata
+41	7141	renta	renti
+42	7142	dipendenzi	
+43	7143	parentesi	
+44	7144	irrestrinġa	irrestrinġew irrestrinġiet jirrestrinġi jirrestrinġiha jirrestrinġu jirristrinġi jirristrinġu nirristrinġu rrestrinġa rrestrinġew rrestrinġiet tirrestrinġi tirrestrinġix tirristrinġi
+45	7145	improbabbli	
+46	7146	bired	birdet birdu bridt jibred nibred tibred
+47	7147	deportazzjoni	deportazzjonijiet
+48	7148	triljun	triljuni
+49	7149	barr	
+50	7150	konservazzjonisti	
+51	7151	passeriformi	
+52	7152	sistolika	
+53	7153	politikanti	
+54	7154	prużuntuż	prużuntużi
+55	7155	ġilju	ġilji
+56	7156	dama	damak dami
+57	7157	beritta	berritta brieret
+58	7158	swied	jiswied swiedu tiswied
+59	7159	adatt	adatti
+60	7160	pagun	paguni
+61	7161	karburant	karburanti
+62	7162	ippridka	jippridka jippridkaha jippridkaw jippridkawhom nippridkaw
+63	7163	bellus	bellusi
+64	7164	paralimpiku	
+65	7165	tomna	
+66	7166	lessikali	
+67	7167	inċens	
+68	7168	sogħla	
+69	7169	kontrattwanti	
+70	7170	xamma	
+71	7171	qmis	qomos
+72	7172	armamenti	
+73	7173	kanna	kanni
+74	7174	ġarra	ġarar
+75	7175	bassasa	bassasijiet
+76	7176	ħaf	inħuf iħuf iħufu jħuf jħufu nħuf tħuf ħafni
+77	7177	ħaffa	inħaffu iħaffu jħaffu jħaffulna nħaffu ħaffew
+78	7178	xafra	xfafar
+79	7179	inklinazzjoni	inklinazzjonijiet
+80	7180	soldi	
+81	7181	kreditur	kredituri
+82	7182	bomblu	bombli
+83	7183	dentista	dentisti
+84	7184	itpaxxa	jitpaxxa nitpaxxa titpaxxa tpaxxa tpaxxejt
+85	7185	tlajja	jitlajja jitlajjaw nitlajja tlajjajna tlajjar tlajjat tlajjiet
+86	7186	jeratika	
+87	7187	ittermina	itterminaw jittermina jitterminaw nitterminaw tittermina ttermina tterminat tterminaw
+88	7188	mogħdrija	
+89	7189	ħajku	
+90	7190	infettata	nfettata
+91	7191	personalizzati	
+92	7192	kwestjonarju	kwestjonarji
+93	7193	presbiterali	
+94	7194	refettorju	refettorji
+95	7195	ammonju	ammonja
+96	7196	serratura	serraturi
+97	7197	balavostri	
+98	7198	klimatiċi	
+99	7199	brigata	brigati
+100	7200	kustodju	

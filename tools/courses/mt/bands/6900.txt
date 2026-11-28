@@ -1,100 +1,100 @@
-1	6801	skrivanija	iskrivanija iskrivaniji skrivaniji
-2	6802	freġju	freġji
-3	6803	saram	
-4	6804	ġurisprudenza	
-5	6805	sezzjonali	
-6	6806	suffiss	suffissi
-7	6807	diċenza	
-8	6808	statwetta	istatwetta istatwetti statwetti
-9	6809	garigor	garigori
-10	6810	kavallerija	
-11	6811	gozz	gozzi gozzu gzuz
-12	6812	persważjoni	
-13	6813	xoqqa	
-14	6814	konfluwenza	konfluwenzi
-15	6815	tango	
-16	6816	xedaq	ixdqa
-17	6817	għarkubbtejh	għarkubbtejha
-18	6818	ippakkja	ippakkjat jippakkja jippakkjaw ppakkja ppakkjat ppakkjaw tippakkja
-19	6819	żonqor	
-20	6820	erotiku	erotika erotiċi
-21	6821	psikologu	
-22	6822	ppenetra	ippenetra ippenetrat ippenetratlu ippenetraw jippenetra jippenetraw ppenetrat ppenetraw tippenetra tippenetrax
-23	6823	iżirgħa	jiżirgħu jiżirgħuhom jiżirgħux niżirgħu tiżirgħu
-24	6824	iddikkjara	ddikkjara ddikkjarajna ddikkjarat iddikkjarat iddikkjaratu jiddikkjara jiddikkjaraw niddikkjaraw tiddikkjara
-25	6825	proċessuri	
-26	6826	fiżjoterapista	fiżjoterapisti
-27	6827	riformatur	riformaturi
-28	6828	inkursjonijiet	
-29	6829	kumplessiv	kumplessiva kumplessivi
-30	6830	ġakketta	
-31	6831	illuminazzjoni	illuminazzjonijiet
-32	6832	kronoloġija	kronoloġiji
-33	6833	forka	forok
-34	6834	esklużivament	
-35	6835	emfasi	
-36	6836	disponibbiltà	
-37	6837	lixka	lixki
-38	6838	tessera	tesseri
-39	6839	diżinn	
-40	6840	kmiem	
-41	6841	korteo	
-42	6842	oskur	joskura joskurahom joskuraw oskura oskurat oskuri
-43	6843	rovina	rovini
-44	6844	kobba	
-45	6845	għaksa	għekiesi
-46	6846	vjolazzjoni	vjolazzjonijiet
-47	6847	ġlata	
-48	6848	kalifat	kalifati kaliffat kaliffati
-49	6849	igwida	gwidat gwidaw iggwida iggwidaha iggwidana jigwida jigwidah jigwidahom jigwidaw jigwidawna tigwida tigwidana
-50	6850	infinità	infinitajiet
-51	6851	għaġla	
-52	6852	werrej	werrejja
-53	6853	ippakkjar	ppakkjar
-54	6854	proċedimenti	
-55	6855	viġilanti	
-56	6856	tletinijiet	
-57	6857	awtorevoli	
-58	6858	kjarifika	kjarifiki
-59	6859	xniegħat	
-60	6860	mant	manta manti mantijiet
-61	6861	nerv	nervi
-62	6862	lanterna	lanterni
-63	6863	alluda	alludiet jalludi jalludu nalludi talludi
-64	6864	sepulkru	sepulkri
-65	6865	kundannabbli	
-66	6866	kommossjoni	
-67	6867	nemes	inmsa
-68	6868	etimoloġija	etimoloġiji
-69	6869	temperament	temperamenti
-70	6870	materna	materni
-71	6871	awsterità	
-72	6872	deludenti	
-73	6873	aġġastja	aġġusta aġġustat jaġġusta jaġġustaw naġġustaw taġġusta
-74	6874	allegorija	allegoriji
-75	6875	ostja	ostji
-76	6876	interaġixxa	interaġixxew interaġixxiet jinteraġixxi jinteraġixxu ninteraġixxu tinteraġixxi
-77	6877	supremazija	
-78	6878	frontispizju	
-79	6879	kokka	kokki kokkiet kokkina
-80	6880	dud	
-81	6881	viċinat	viċinati
-82	6882	denunzja	denunzji
-83	6883	amalgamazzjoni	amalgamazzjonijiet
-84	6884	parowl	
-85	6885	lupi	
-86	6886	formalità	formalita formalitajiet
-87	6887	materjaliżmu	
-88	6888	ħarat	jaħartu jaħartuh jaħrat jinħarat jinħartu maħruta naħartu nħartet tinħarat ħart ħrit
-89	6889	propagazzjoni	
-90	6890	estratt	estratti
-91	6891	indiċjar	
-92	6892	naffar	inaffar inaffru inaffruhom jnaffar jnaffarhom jnaffarx jnaffru jnaffrux naffarx naffret naffritu naffritx naffru tnaffar tnaffru
-93	6893	sinjorina	sinjorini
-94	6894	ikklikkja	ikklikja ikklikkjaw jikklikja jikklikkja kklikja kklikkja tikklikja tikklikkja
-95	6895	konsolidazzjoni	konsolidazzjonijiet
-96	6896	serduq	serduk sriedaq
-97	6897	sammar	imsammar insammru isammar isammru jissammar jissammru jsammru jsammruna msammar nissammru sammarna sammru sammruh ssammar tismir
-98	6898	velja	velji
-99	6899	patoloġija	patoloġiji
-100	6900	klimatika	
+1	6801	erotiku	erotika erotiċi
+2	6802	ppenetra	ippenetra ippenetrat ippenetratlu ippenetraw jippenetra jippenetraw ppenetrat ppenetraw tippenetra tippenetrax
+3	6803	iżirgħa	jiżirgħu jiżirgħuhom jiżirgħux niżirgħu tiżirgħu
+4	6804	iddikkjara	ddikkjara ddikkjarajna ddikkjarat iddikkjarat iddikkjaratu jiddikkjara jiddikkjaraw niddikkjaraw tiddikkjara
+5	6805	proċessuri	
+6	6806	fiżjoterapista	fiżjoterapisti
+7	6807	riformatur	riformaturi
+8	6808	inkursjonijiet	
+9	6809	kumplessiv	kumplessiva kumplessivi
+10	6810	ġakketta	
+11	6811	illuminazzjoni	illuminazzjonijiet
+12	6812	kronoloġija	kronoloġiji
+13	6813	forka	forok
+14	6814	esklużivament	
+15	6815	emfasi	
+16	6816	disponibbiltà	
+17	6817	lixka	lixki
+18	6818	tessera	tesseri
+19	6819	diżinn	
+20	6820	kmiem	
+21	6821	korteo	
+22	6822	oskur	joskura joskurahom joskuraw oskura oskurat oskuri
+23	6823	rovina	rovini
+24	6824	kobba	
+25	6825	għaksa	għekiesi
+26	6826	vjolazzjoni	vjolazzjonijiet
+27	6827	ġlata	
+28	6828	kalifat	kalifati kaliffat kaliffati
+29	6829	igwida	gwidat gwidaw iggwida iggwidaha iggwidana jigwida jigwidah jigwidahom jigwidaw jigwidawna tigwida tigwidana
+30	6830	infinità	infinitajiet
+31	6831	għaġla	
+32	6832	werrej	werrejja
+33	6833	proċedimenti	
+34	6834	viġilanti	
+35	6835	tletinijiet	
+36	6836	awtorevoli	
+37	6837	kjarifika	kjarifiki
+38	6838	xniegħat	
+39	6839	mant	manta manti mantijiet
+40	6840	nerv	nervi
+41	6841	lanterna	lanterni
+42	6842	alluda	alludiet jalludi jalludu nalludi talludi
+43	6843	sepulkru	sepulkri
+44	6844	kundannabbli	
+45	6845	kommossjoni	
+46	6846	nemes	inmsa
+47	6847	etimoloġija	etimoloġiji
+48	6848	temperament	temperamenti
+49	6849	materna	materni
+50	6850	awsterità	
+51	6851	deludenti	
+52	6852	aġġastja	aġġusta aġġustat jaġġusta jaġġustaw naġġustaw taġġusta
+53	6853	allegorija	allegoriji
+54	6854	ostja	ostji
+55	6855	interaġixxa	interaġixxew interaġixxiet jinteraġixxi jinteraġixxu ninteraġixxu tinteraġixxi
+56	6856	supremazija	
+57	6857	frontispizju	
+58	6858	kokka	kokki kokkiet kokkina
+59	6859	insulenta	insolenta insulentat jinsolentawx jinsulenta jinsulentah jinsulentaw ninsolenta ninsulentaw nsolenta nsulenta tinsolenta tinsulenta
+60	6860	dud	
+61	6861	viċinat	viċinati
+62	6862	denunzja	denunzji
+63	6863	amalgamazzjoni	amalgamazzjonijiet
+64	6864	parowl	
+65	6865	formalità	formalita formalitajiet
+66	6866	materjaliżmu	
+67	6867	ħarat	jaħartu jaħartuh jaħrat jinħarat jinħartu maħruta naħartu nħartet tinħarat ħart ħrit
+68	6868	propagazzjoni	
+69	6869	estratt	estratti
+70	6870	indiċjar	
+71	6871	naffar	inaffar inaffru inaffruhom jnaffar jnaffarhom jnaffarx jnaffru jnaffrux naffarx naffret naffritu naffritx naffru tnaffar tnaffru
+72	6872	sinjorina	sinjorini
+73	6873	ikklikkja	ikklikja ikklikkjaw jikklikja jikklikkja kklikja kklikkja tikklikja tikklikkja
+74	6874	konsolidazzjoni	konsolidazzjonijiet
+75	6875	serduq	serduk sriedaq
+76	6876	sammar	imsammar insammru isammar isammru jissammar jissammru jsammru jsammruna msammar nissammru sammarna sammru sammruh ssammar tismir
+77	6877	velja	velji
+78	6878	patoloġija	patoloġiji
+79	6879	klimatika	
+80	6880	triloġija	triloġiji
+81	6881	indiġenu	
+82	6882	protettorat	protettorati
+83	6883	maestà	
+84	6884	fattibbli	
+85	6885	notarili	
+86	6886	restawratur	restawraturi
+87	6887	trijonfali	
+88	6888	ġeoloġika	
+89	6889	riżolta	riżolti
+90	6890	metodoloġija	metodoloġiji
+91	6891	tokki	
+92	6892	ġentlom	ġentlomi
+93	6893	presbiteri	
+94	6894	ffalsifika	falsifikar falsifikat ffalsifikaw iffalsifika iffalsifikahom iffalsifikar iffalsifikat tiffalsifika
+95	6895	għeja	għejiha negħjewx tegħjewx
+96	6896	tursin	
+97	6897	żnied	żniedhom żniedu
+98	6898	karab	jokrob krabna krib nokorbu nokrob tokrob
+99	6899	kumpann	kumpanni
+100	6900	pressa	

@@ -1,100 +1,100 @@
-1	9901	olza	jolza jolzaw olzajt olzaw olzawha tolza
-2	9902	żvaluta	iżvalutar jiżvaluta niżvalutaw tiżvaluta żvalutat
-3	9903	ajda	jajdu najda najdu
-4	9904	depożitant	depożitanti
-5	9905	depożitarju	depożitarja
-6	9906	kuċċarun	kuċċaruni
-7	9907	tkerrah	jitkerrah
-8	9908	ħażża	iħażżu jħażżu nħażżu tħażżu ħażżew
-9	9909	bużnanniet	
-10	9910	issutta	issuttat jissuttaw nissuttaw
-11	9911	klassista	klassisti
-12	9912	rogħda	
-13	9913	tfief	
-14	9914	ġummiena	iġmiemen ġmiemen
-15	9915	sultani	
-16	9916	mellaħ	immellaħ mmellaħ timliħ
-17	9917	tutela	
-18	9918	bbliċja	ibbliċjar ibbliċjat
-19	9919	dejl	djul djulha djulu
-20	9920	lamtu	lamti
-21	9921	ssuġġetta	jissuġġettawx ssuġġettahom ssuġġettat ssuġġettaw ssuġġettawha tissuġġetta
-22	9922	swiċċ	iswiċċ
-23	9923	galletta	
-24	9924	aduratur	aduraturi
-25	9925	ajjut	
-26	9926	apoloġetiku	apoloġetiċi
-27	9927	dderoga	dderogatx jidderogaw
-28	9928	dejr	
-29	9929	frakass	
-30	9930	fustani	fustanija
-31	9931	għoxx	
-32	9932	isprejja	jisprejjaw sprejja sprejjat sprejjaw
-33	9933	issumma	issummat jissumma jissummaw jissummawna
-34	9934	itama	jitama nitama titamaw
-35	9935	itħabba	jitħabbu tħabbew tħabbiet
-36	9936	kannestru	
-37	9937	kina	kiniex
-38	9938	lajċità	
-39	9939	omofobija	
-40	9940	piċċa	jipiċċa jpiċċaw tipiċċa
-41	9941	portmoni	portmonijiet
-42	9942	ppredestina	ippredestina predestinat
-43	9943	rawndebawt	
-44	9944	rmixk	irmixk
-45	9945	spjegabbli	
-46	9946	stimulazzjoni	istimulazzjoni
-47	9947	tanbar	jtanbar ntanbru ttanbar
-48	9948	teologali	
-49	9949	tlibsa	intlibsu jitlibsu jitlibsux ntlibsu
-50	9950	tqatel	jitqatlu tqatlu
-51	9951	umanizza	jumanizza umanizzat
-52	9952	vomtu	
-53	9953	wiski	
-54	9954	ħaraġ	
-55	9955	ħaxwex	tħaxwix tħaxwixx
-56	9956	żellaq	iżellaq jżellaq żellqu
-57	9957	żummara	
-58	9958	agrett	agretti
-59	9959	deru	
-60	9960	irrelega	irrelegah jirrelega rrelega rrelegah rrelegajna rrelegat tirrelega
-61	9961	ittraskriva	jittraskrivi jittraskriviha jittraskrivu
-62	9962	karfa	
-63	9963	vokalizzazzjoni	vokalizzazzjonijiet
-64	9964	ġummar	
-65	9965	emanazzjoni	emanazzjonijiet
-66	9966	żal	żul żulu żululi
-67	9967	applikabilità	
-68	9968	aqgħala	jaqgħalu taqgħali taqgħalu
-69	9969	awrikarja	
-70	9970	bajrow	
-71	9971	bugħawwieġ	
-72	9972	ddwella	jiddwella niddwella
-73	9973	dekoruż	
-74	9974	delirju	dellirju
-75	9975	esaġeratament	
-76	9976	ffajlja	ffajljat iffajljar
-77	9977	fieres	
-78	9978	frattarija	
-79	9979	gorboġ	griebeġ
-80	9980	għannila	jgħannili jgħannilux tgħannilu
-81	9981	għdla	igħdli ngħdlu tigħdli
-82	9982	iffavorina	ffavorina jiffavorina tiffavorina
-83	9983	ikkomporta	jikkomporta jikkomportaw
-84	9984	ikkwieta	tikkwieta
-85	9985	illimta	jillimtaw nillimtaw
-86	9986	innegozzja	innegozzjat nnegozzjat tinnegozzja
-87	9987	inserixxa	jinserixxu ninserixxu tinserixxi
-88	9988	ipplaggja	jipplaggja jipplaggjaw pplaggjat
-89	9989	irrejdja	irrejdjaw rrejdjat tirrejdja
-90	9990	istrumentalizza	jistrumentalizza strumentalizzat strumentalizzaw
-91	9991	ixxennqa	jixxennqu nixxennqu tixxennqu
-92	9992	iżmantella	jiżmantella żmantella żmantellat
-93	9993	kawtelatorju	
-94	9994	kennen	imkennen kennint titkennen
-95	9995	mankament	mankamenti
-96	9996	mankanza	
-97	9997	merraq	imerraq imerrqu immerraq
-98	9998	mniex	imniex
-99	9999	palkett	palketti
-100	10000	paqpaq	paqpaqli tpaqpiq
+1	9901	dimostrabbli	
+2	9902	erezzjoni	
+3	9903	filfel	felfel
+4	9904	għomma	għommti għommtok
+5	9905	iddefinixa	ddefinixa niddefinixu tiddefinixi
+6	9906	ikkanvassja	jikkanvassja jikkanvassjaw nikkanvassja
+7	9907	ikkommisjona	ikkommisjonat jikkommisjona jikkommisjonaw
+8	9908	illużjonista	illużjonisti
+9	9909	immiljora	jimmiljora jimmiljoraw timmiljoraw
+10	9910	immonta	immontaw jimmontaw
+11	9911	inserta	jinserta jinsertaw
+12	9912	ippilota	jippilotaw nippilota tippilota
+13	9913	ippronunċja	ippronunċjat jippronunċja tippronunċja
+14	9914	irrikkmanda	jirrikkmanda rrikkmanda tirrikkmanda
+15	9915	issapporta	jissapporti nissapporti tissapporti
+16	9916	isserra	isserrat jisserra jisserraw
+17	9917	istema	jistema nistema
+18	9918	jambi	tambi tambih
+19	9919	karkur	krakar
+20	9920	keffen	ikeffen jkeffinna keffnu
+21	9921	majnata	
+22	9922	merdqux	merqtux
+23	9923	miġbħa	
+24	9924	mġebbel	imġebblin mġebbla
+25	9925	parpar	nparpar parpru tparpar
+26	9926	rkada	jirkadi jirkadu tirkadi
+27	9927	rmiedi	irmiedi
+28	9928	semm	
+29	9929	sfoka	isfukar sfukat
+30	9930	sista	insistu nsistu tisisti
+31	9931	sistemazzjoni	
+32	9932	smewwi	smewwija
+33	9933	stupratur	istupratur istupraturi stupraturi
+34	9934	sħuħija	
+35	9935	tfissed	jitfissdu
+36	9936	tlablib	
+37	9937	wemmen	twemmen twemminna
+38	9938	ġabbar	inġabbru nġabbru
+39	9939	ġakbin	ġakbini
+40	9940	ġġuramenta	ġuramentat
+41	9941	ħasi	
+42	9942	brajmla	
+43	9943	etimoloġiku	etimoloġika etimoloġiċi
+44	9944	manbar	minbar
+45	9945	sparvier	isparvier isparvieri
+46	9946	baqq	
+47	9947	ddiffonda	diffuż
+48	9948	ikkompressa	jikkompressaw kkompressat tikkompressa
+49	9949	kartella	kartelli
+50	9950	kuskus	
+51	9951	newba	newbiet
+52	9952	sillabiku	sillabika sillabiċi
+53	9953	żmerald	iżmerald żmeraldi
+54	9954	alakka	
+55	9955	alliterazzjoni	
+56	9956	bamboċċ	
+57	9957	bażwa	
+58	9958	bbnazza	jibbnazza
+59	9959	bejken	
+60	9960	beqqi	
+61	9961	bex	
+62	9962	buffunata	
+63	9963	dandan	imdandna mdandna
+64	9964	darr	darrew darrewni
+65	9965	daħkani	
+66	9966	ddemoralizza	tiddemoralizza
+67	9967	debħa	
+68	9968	demagoġiku	demagoġiċi
+69	9969	dewwed	imdewwed
+70	9970	edukandat	
+71	9971	ekonomizza	nekonomizzaw tekonomizza
+72	9972	elettriċità	
+73	9973	erħa	erħiet
+74	9974	esibitur	esibituri
+75	9975	eterosesswalità	eterosesswalita
+76	9976	ezilju	
+77	9977	fesfes	ifesfes jfesfsu
+78	9978	fetta	fetet feteti
+79	9979	fisqa	mfisqija
+80	9980	flagell	
+81	9981	flien	
+82	9982	gemgem	
+83	9983	gerfux	griefex
+84	9984	gustuz	gustuza
+85	9985	għasfura	
+86	9986	għassed	għassdu tagħsid
+87	9987	għosfor	
+88	9988	ilellex	jlellex
+89	9989	indiġestjoni	
+90	9990	inkina	tinkina
+91	9991	jies	jiesna
+92	9992	karnivalesk	karnivaleska karnivaleski
+93	9993	kosmiku	kosmika
+94	9994	kozz	
+95	9995	kukkużejt	
+96	9996	lanja	
+97	9997	lawda	lawdi
+98	9998	leheġ	jilheġ
+99	9999	likwidatur	likwidaturi
+100	10000	lipstik	

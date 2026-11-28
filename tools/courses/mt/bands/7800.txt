@@ -1,100 +1,100 @@
-1	7701	ħawħ	ħawħa
-2	7702	grokk	grokkijiet
-3	7703	ikkarga	ikkargat jikkarga kkarga nikkarga tikkarga
-4	7704	koordinament	
-5	7705	ġlekk	ġlekkijiet
-6	7706	notazzjoni	notazzjonijiet
-7	7707	immorali	mmorali
-8	7708	iskarsa	jiskarsa jiskarsaw skarsa skarsat tiskarsa
-9	7709	saqqa	imsaqqija insaqqu isaqqi isaqqiha issaqqi issaqqihom issaqqu jsaqqi jsaqqu msaqqi msaqqija msoqqija saqqi
-10	7710	segmenti	
-11	7711	djakonija	
-12	7712	xkuma	ixkuma jixkuma xkumat
-13	7713	baleni	
-14	7714	intier	
-15	7715	frattemp	
-16	7716	algi	
-17	7717	ikkonċelebra	ikkonċelebraw jikkonċelebra jikkonċelebraw kkonċelebra
-18	7718	jittallbu	
-19	7719	għażżien	għażżenin għażżiena
-20	7720	ċenturjun	ċenturjuni
-21	7721	eżaminazzjoni	eżaminazzjonijiet
-22	7722	ferriħija	
-23	7723	honoris	
-24	7724	gomma	
-25	7725	aċċenn	aċċenni aċċennijiet
-26	7726	ħemda	
-27	7727	apparenti	
-28	7728	deterjorament	deterjoramenti
-29	7729	siliċi	
-30	7730	aderixxa	aderixxew aderixxewx aderixxiet aderixxu jaderixxi jaderixxu taderixxi
-31	7731	anċestrali	
-32	7732	ottava	ottavi
-33	7733	intimida	intimidahom intimidat jintimida jintimidah jintimidani jintimidaw
-34	7734	kolonjaliżmu	
-35	7735	unifika	junifika junifikaw junifikawhom tunifika unifikat unifikaw
-36	7736	qbiela	qbejjel qbieli
-37	7737	kurva	kurvi
-38	7738	klub	klubin klubs
-39	7739	trapass	
-40	7740	eros	
-41	7741	vitikultura	
-42	7742	rifjut	rifjuta
-43	7743	operetti	
-44	7744	proċedurali	
-45	7745	diżubbidjenza	
-46	7746	vagi	
-47	7747	gandott	gandotti
-48	7748	ratifika	ratifiki
-49	7749	sensazzjonali	
-50	7750	bumunqar	
-51	7751	axxetika	
-52	7752	faqqus	
-53	7753	addio	
-54	7754	entablatura	entablaturi
-55	7755	kashom	
-56	7756	akustika	
-57	7757	ikkontenda	ikkontendiet jikkontendi jikkontendu tikkontendi
-58	7758	wirdien	wirdiena
-59	7759	nawwar	inawru inawruha inawwar jnawru jnawwar mnawwar nawru tinwir tnawru tnawwar tnawwarhom
-60	7760	sintassi	
-61	7761	għagħa	
-62	7762	trio	
-63	7763	fjask	fjaski
-64	7764	kolonizzatur	kolonizzaturi
-65	7765	lessemi	
-66	7766	ġinnasju	ġinnasji
-67	7767	sottoklassi	sottoklassijiet
-68	7768	ddandan	iddandan jiddandan jiddandnu niddandan niddandnu tiddandan
-69	7769	froġa	frejjeġ
-70	7770	kanvas	kanvasi kanvass
-71	7771	ppreċiża	ippreċiżat jippreċiża jippreċiżaw nippreċiża nippreċiżaw ppreċiżat
-72	7772	eterosesswali	
-73	7773	brutalment	
-74	7774	ittraffika	jittraffika jittraffikaw jittraffikawx tittraffika ttraffika ttraffikaw
-75	7775	espressament	
-76	7776	għarrex	għarrxu jgħarrex jgħarrxu ngħarrex ngħarrxu tgħarrex
-77	7777	relikwija	relikwiji
-78	7778	rieħ	rieħha rieħhom rieħu riħna riħu
-79	7779	karstiċi	
-80	7780	marea	
-81	7781	issara	jissara jissaraw nissara nissaraw ssara ssaraw
-82	7782	modernizzazzjoni	
-83	7783	kannamiela	kannamieli
-84	7784	kapitaliżmu	
-85	7785	pronom	pronomi
-86	7786	abbli	
-87	7787	oġġettiva	
-88	7788	garde	
-89	7789	għalli	
-90	7790	raddiena	irdieden rdieden
-91	7791	fokali	
-92	7792	pertinenti	
-93	7793	saħħara	
-94	7794	sabbar	isabbar issabbar issabbarha jsabbar sabbarna ssabbarhom tissabbar
-95	7795	bugdiedem	
-96	7796	enerġetiku	enerġetiċi
-97	7797	evanġelika	
-98	7798	ġġebbed	jiġġebbdu jiġġebbdux jiġġebbed niġġebbdu tiġġebbed
-99	7799	beħsiebhom	
-100	7800	tarrax	itarrax ittarrax jtarrax nittarrxu tarrxu ttarrax ttarrxu
+1	7701	eterosesswali	
+2	7702	tbeżża'	tbeżżagħhom tbeżżagħna tbeżżagħni tbeżżagħniex
+3	7703	brutalment	
+4	7704	ittraffika	jittraffika jittraffikaw jittraffikawx tittraffika ttraffika ttraffikaw
+5	7705	espressament	
+6	7706	għarrex	għarrxu jgħarrex jgħarrxu ngħarrex ngħarrxu tgħarrex
+7	7707	relikwija	relikwiji
+8	7708	rieħ	rieħha rieħhom rieħu riħna riħu
+9	7709	karstiċi	
+10	7710	marea	
+11	7711	issara	jissara jissaraw nissara nissaraw ssara ssaraw
+12	7712	modernizzazzjoni	
+13	7713	kannamiela	kannamieli
+14	7714	kapitaliżmu	
+15	7715	pronom	pronomi
+16	7716	abbli	
+17	7717	oġġettiva	
+18	7718	garde	
+19	7719	għalli	
+20	7720	raddiena	irdieden rdieden
+21	7721	fokali	
+22	7722	pertinenti	
+23	7723	saħħara	
+24	7724	sabbar	isabbar issabbar issabbarha jsabbar sabbarna ssabbarhom tissabbar
+25	7725	bugdiedem	
+26	7726	enerġetiku	enerġetiċi
+27	7727	evanġelika	
+28	7728	ġġebbed	jiġġebbdu jiġġebbdux jiġġebbed niġġebbdu tiġġebbed
+29	7729	beħsiebhom	
+30	7730	tarrax	itarrax ittarrax jtarrax nittarrxu tarrxu ttarrax ttarrxu
+31	7731	lilwa	
+32	7732	merċenarji	
+33	7733	kanċell	kanċelli
+34	7734	ikkonkwista	ikkonkwistat ikkonkwistaw jikkonkwista jikkonkwistaw kkonkwista kkonkwistat kkonkwistaw tikkonkwista
+35	7735	mazz	mazzi
+36	7736	transkonfinali	
+37	7737	unikament	
+38	7738	regolazzjoni	
+39	7739	piraterija	
+40	7740	feroċi	
+41	7741	kasha	
+42	7742	inkorporazzjoni	inkorporazzjonijiet
+43	7743	akkredita	akkreditah akkreditat akkreditaw jakkredita jakkreditah jakkreditana jakkreditaw
+44	7744	infraklassi	
+45	7745	maġġorparti	
+46	7746	trittiku	
+47	7747	kruċifissjoni	
+48	7748	furketta	frieket
+49	7749	mirkeb	imriekeb mriekeb
+50	7750	dħulija	
+51	7751	kartiera	kartieri
+52	7752	transazzjonijiet	
+53	7753	punta	
+54	7754	tħaffef	tħaffiflu
+55	7755	burokratiċi	
+56	7756	konsenturi	
+57	7757	xurban	xurbana
+58	7758	krozzi	
+59	7759	dijossidu	
+60	7760	zejtun	
+61	7761	ħarrek	imħarrek iħarrikna jħarrku mħarrek nħarrku tħarrek tħarrku ħarrikni ħarrku
+62	7762	beni	
+63	7763	fileġ	filġet filġithom mifluġ mifluġa mifluġin tifliġna tifliġni
+64	7764	pitkalija	
+65	7765	nettaru	nettari
+66	7766	etċ	
+67	7767	frustrati	
+68	7768	surreali	
+69	7769	ffamiljarizza	iffamiljarizza jiffamiljarizzaw niffamiljarizzaw tiffamiljarizza
+70	7770	siker	jisker jiskru jiskrux sikru skirna
+71	7771	koniferi	
+72	7772	reverendu	
+73	7773	ħabbeb	iħabbibna jħabbeb jħabbibhom tħabbeb ħabbibhom ħabbibna ħabbibni ħabbitni ħabbtilna ħabbu
+74	7774	senġi	senġijiet
+75	7775	kordjali	
+76	7776	ċinga	ċineg ċingi
+77	7777	sinfonika	
+78	7778	sriċed	
+79	7779	ipparaguna	ipparagunat ipparagunaw jipparaguna jipparagunaw nipparagunaw pparagunat tipparaguna tipparagunax
+80	7780	inkrimina	jinkrimina jinkriminax ninkriminaw tinkrimina
+81	7781	imejl	
+82	7782	lavrant	lavranti
+83	7783	tettonika	
+84	7784	dukali	
+85	7785	iggranfa	ggranfa ggranfat iggranfat jiggranfa jiggranfaw niggranfaw tiggranfa
+86	7786	qaras	inqaras inqarsu jinqaras jinqarsu joqorsu joqros maqrusa maqrusin qarsu toqros
+87	7787	ħammar	jħammar jħammru jħammrulna nħammar tħammar tħammarlek tħammarli tħammarlu tħammir ħammru
+88	7788	approssimazzjoni	approssimazzjonijiet
+89	7789	namur	
+90	7790	veġetali	
+91	7791	olomorfa	
+92	7792	kontaminati	
+93	7793	tkelmet	
+94	7794	ssema	issemew issemiet jissema jssemix jssemu ssemiet tissema tissemiex
+95	7795	kompassjoni	
+96	7796	ittrijonfa	ittrijonfaw ittrijunfaw jittrijonfa jittrijonfaw jittrijunfaw ttrijonfa ttrijonfat ttrijonfaw ttrijunfaw ttrijunfawx
+97	7797	barrikata	barrikati
+98	7798	interdizzjoni	
+99	7799	pluvjali	
+100	7800	esperimentazzjoni	esperimentazzjonijiet

@@ -1,100 +1,100 @@
-1	8701	marradi	
-2	8702	niżli	niżlin
-3	8703	ċana	
-4	8704	sturdament	isturdament sturdamenti
-5	8705	malinn	malinji malinna
-6	8706	llikwida	illikwida illikwidaw jillikwidaw likwidat llikwidat tillikwida
-7	8707	ċċattja	iċċattjar iċċattjat jiċċattja tiċċattja ċċattjat ċċattjaw
-8	8708	sabbara	
-9	8709	twaħħid	
-10	8710	inkonxju	inkonxja inkonxji nkonxju
-11	8711	iprojbixxa	jiprojbixxi projbixxew tiprojbixxi
-12	8712	iżġura	jiżġuraw tiżġura żġurat
-13	8713	qarabagħli	
-14	8714	ventilatur	ventilaturi
-15	8715	isparpalja	jisparpalja jisparpaljaw sparpaljajtu sparpaljat sparpaljaw
-16	8716	laqx	laqxa
-17	8717	torta	
-18	8718	satra	
-19	8719	ġerrej	ġerrejja
-20	8720	żvinturat	żvinturata żvinturati
-21	8721	kenun	kenur kenuri
-22	8722	biografiku	bijografiku biografiċi
-23	8723	għelm	
-24	8724	ippersonifika	ippersonifikat jippersonifika jippersonifikaw ppersonifika tippersonifika
-25	8725	klann	klannijiet
-26	8726	żu	
-27	8727	minfaħ	imniefaħ mniefaħ
-28	8728	qalfat	qalftu qlafat
-29	8729	semplifikazzjoni	
-30	8730	kavetta	kvievet
-31	8731	ikkorrompa	jikkorrompi jikkorrompihom jikkorrompu jikkorrompux tikkorrompi
-32	8732	ipprintja	ipprintjaha jipprintjaw jipprintjawha jipprintjawhom pprintjat tipprintja tipprintjahom
-33	8733	ipprofana	jipprofanaw jipprofanawhom nipprofanaw pprofana pprofanat pprofanaw
-34	8734	nibex	inbixt jinbex jinbexx jinbxu jinbxuh nbix ninbxu ninbxuha
-35	8735	oġġettivament	
-36	8736	skansa	jiskansa jiskansah niskansa niskansaw skansar skansat tiskansa tiskansah tiskansahom
-37	8737	ekwilibriju	ekwilibriji
-38	8738	skuna	iskuna skejjen
-39	8739	dires	dris jidres
-40	8740	frekwentement	
-41	8741	tgħalliq	
-42	8742	bu	buk
-43	8743	domestikament	
-44	8744	abbrevjazzjoni	abbrevjazzjonijiet
-45	8745	antagonista	antagonisti
-46	8746	senserija	senseriji
-47	8747	vantaġġuż	vantaġġuża vantaġġużi
-48	8748	ġulbiena	ġilbiena
-49	8749	tapp	tappi tappijiet
-50	8750	dagħwa	dagħwiet
-51	8751	disgrazzja	disgrazzji
-52	8752	errur	erruri
-53	8753	faċenda	faċendi
-54	8754	ivvantaġġa	ivvantaġġat jivvantaġġa jivvantaġġaw tivvantaġġa tivvantaġġahom vvantaġġat
-55	8755	kkredita	ikkreditar ikkreditat jikkredita jikkreditaw kkreditahom kkreditat tikkredita tikkreditah
-56	8756	kkollezzjona	ikkollezzjona ikkollezzjonaw jikkollezzjona jikkollezzjonaw nikkollezzjona tikkollezzjona
-57	8757	ipperċepixxa	jipperċepixxi jipperċepixxu pperċepixxa tipperċepixxi
-58	8758	fietel	fietla
-59	8759	minfes	imnifsejh imnifsejn mnifsejh mnifsejha mnifsejn mnifsejna
-60	8760	ġeografu	ġeografi
-61	8761	ħjar	ħjara
-62	8762	frugħ	
-63	8763	karat	
-64	8764	skojjatlu	iskojjatli skojjatli
-65	8765	brikkun	brikkuni
-66	8766	fejjiedi	
-67	8767	frankament	
-68	8768	gelgul	
-69	8769	ippontifika	jippontifika jippontifikaw nippontifikaw
-70	8770	ċelestjali	
-71	8771	issupplimenta	issupplimentat jissupplimenta jissupplimentaw ssupplimenta ssupplimentahom ssupplimentat ssupplimentaw tissupplimenta
-72	8772	attribuzzjoni	attribuzzjonijiet
-73	8773	dimensjonali	
-74	8774	ċċivilizza	ċivilizzat
-75	8775	istazzjona	jistazzjona jistazzjonaw stazzjona stazzjonaw
-76	8776	ħaġeb	ħuġbejh ħuġbejha ħuġbejhom ħuġbejn
-77	8777	tħin	
-78	8778	argumentattiv	argumentattiva
-79	8779	ipprofetizza	ipprofetizzalu pprofetizza tipprofetizza
-80	8780	serrieq	srieraq
-81	8781	tarraf	itarraf itarrafli mtarraf tarraflu tarrfet
-82	8782	ħaten	ħatnu
-83	8783	ikkontamina	ikkontaminat ikkontaminaw jikkontamina jikkontaminaw jikkontaminawx jikkontaminax kkontamina kkontaminat kkontaminaw tikkontamina
-84	8784	akaċja	akaċji
-85	8785	qanfud	qanfuda qniefed
-86	8786	sawma	isawmu jsawmu sawmiet
-87	8787	dehxa	
-88	8788	isemgħa	jisemgħu nisemgħu nisemgħuha nisemgħux tisemgħa
-89	8789	neguzjant	neguzjanti
-90	8790	oqoda	joqodu joqodux noqodu
-91	8791	ġeneratur	ġeneraturi
-92	8792	edukazzjonali	
-93	8793	immoltiplika	jimmoltiplikaw nimmoltiplikaw
-94	8794	iżbruffa	jiżbruffaw żbruffat żbruffaw
-95	8795	kiena	ikienu kienietx tkienu
-96	8796	ssekonda	issekondat jissekonda sekondant ssekondat
-97	8797	għads	għazz
-98	8798	ikkwantifika	ikkwantifikat jikkwantifikaw jikkwantifikax kkwantifikat kkwantifikax nikkwantifikaw tikkwantifika tikkwantifikaha
-99	8799	istmerra	jistmerra jistmerriha jistmerru jistmerruh jistmerruhom nistmerru stmerrejt stmerrejtx stmerrew
-100	8800	sing	
+1	8701	iddissolva	ddissolviet jiddissolvi jiddissolvu tiddissolvi
+2	8702	sakkeġġ	sakk sakkeġġi
+3	8703	irriversja	irriversjat irriversjaw jirriversja
+4	8704	iskidja	jiskidja jiskidjaw skidja
+5	8705	xeħħa	
+6	8706	mmeravilja	immeraviljajt immeraviljat jimmeravilja jimmeraviljani meraviljat meraviljata mmeraviljani mmeraviljat nimmeravilja
+7	8707	qalla'	iqallgħu jqalla' jqallgħu jqallgħuh jqallgħulu qallgħu qallgħuh taqligħ tqalla'
+8	8708	mqass	imqass imqassijiet mqassijiet
+9	8709	senswali	
+10	8710	sfigura	isfigurat jisfigura jisfiguraw sfigurat
+11	8711	inċidentali	
+12	8712	wikkiel	wikkelin wikkiela
+13	8713	astrologu	astrologi
+14	8714	aġita	aġitat jaġita jaġitaw taġita
+15	8715	iddistingwixxa	ddistingwixxew jiddistingwixxi jiddistingwixxiha jiddistingwixxu tiddistingwixxi
+16	8716	ivvandalizza	ivvandalizzat jivvandalizzaw vvandalizzat vvandalizzaw
+17	8717	pedjatrija	
+18	8718	ħabar	ħabret ħabru
+19	8719	żżerżaq	iżżerżqet jiżżerżaq jiżżerżqu niżżerżaq tiżżerżaq
+20	8720	mustaċċ	mustaċċi
+21	8721	makakkerija	
+22	8722	qubbajt	
+23	8723	karus	karusijiet
+24	8724	gidi	gidien gidja gidjien ġidi
+25	8725	żina	
+26	8726	iltaqgħa	iltaqgħat jiltaqgħa jiltaqgħi ltaqgħa niltaqgħa
+27	8727	nżabar	inżabar inżabru jinżabarx jinżabru tinżabar
+28	8728	paċenzjuż	paċenzjuża paċenzjużi
+29	8729	raqqda	inraqqdu jraqqdu jraqqduh jraqqduhom nraqqdu
+30	8730	unjonista	unjonisti
+31	8731	ħeqq	
+32	8732	ezizta	jezizti jeziztu tezizti
+33	8733	fettaq	ifettaq jfettqu nfettqu tfettiq
+34	8734	ikkapparra	ikkapparrat ikkapparraw jikkapparra kkapparra kkapparraw nikkapparraw
+35	8735	ippriżerva	jippriżerva jippriżervahom nippriżervaw tippriżerva
+36	8736	izzejjed	zzejjed
+37	8737	iżvijja	jiżvijja jiżvijjakom jiżvijjaw jiżvijjawna żvijja żvijjat żvijjaw
+38	8738	redden	inredden iredden ireddnu jredden nreddnu nreddnuhom tredden
+39	8739	ssentenzja	issentenzjat sentenzjat ssentenzjat ssentenzjatu tissentenzja
+40	8740	tgħażżen	jitgħażżen jitgħażżnu nitgħażżen tgħażżinna
+41	8741	żena	jiżni tiżni żniet
+42	8742	ittortura	ittorturat jittorturaw jittorturawha tittortura ttorturat ttorturaw ttorturawhom
+43	8743	singulari	
+44	8744	flett	fletti flettijiet fletts iflett
+45	8745	issimula	jissimula jissimulaw tissimula tissimulah
+46	8746	derra	dderri idderri iderri inderri jderri
+47	8747	daħkan	daħkana daħqan
+48	8748	lontra	lontri
+49	8749	ddevasta	ddevastaw devastat iddevastajt iddevastajthom iddevastat iddevastaw
+50	8750	mmalafama	immalafama jimmalafamaw malafamat mmalafamata
+51	8751	aspirina	aspirini
+52	8752	istabbilixa	jistabbilixi jistabbilixu stabbilixa tistabbilixi
+53	8753	ittolera	jittoleraw tittolera ttolerat
+54	8754	nagħma	nagħmiet
+55	8755	iddisturba	ddisturbat ddisturbaw ddisturbax iddisturbat jiddisturba jiddisturbaw jiddisturbawx jiddisturbax niddisturbaw tiddisturba tiddisturbawx
+56	8756	molla	
+57	8757	altera	alterat alteraw jaltera jalteraw taltera
+58	8758	aċiduż	aċiduża aċidużi
+59	8759	qafla	qafliet qfieli
+60	8760	ingassa	jingassa tingassa
+61	8761	vixxri	
+62	8762	riħan	
+63	8763	akwarju	
+64	8764	eleġibbilità	eliġibbilità
+65	8765	gardell	
+66	8766	baqqun	bqaqen
+67	8767	assoluzzjoni	assoluzzjonijiet
+68	8768	dermatoloġija	
+69	8769	karfus	
+70	8770	mekkanik	mekkaniks
+71	8771	rixtellu	
+72	8772	sabi	sabix
+73	8773	ippolitiċizza	jippolitiċizza jippolitiċizzaw jippolitiċizzax nippolitiċizzaw
+74	8774	fabbrikabbli	
+75	8775	għabra	
+76	8776	sogħbien	sogħbiena
+77	8777	ċinta	
+78	8778	determiniżmu	
+79	8779	enfatiku	enfatika enfatiċi
+80	8780	venewwa	venewwi
+81	8781	ikreja	jikreja jikrejaw kreja
+82	8782	tellet	intellet itellet
+83	8783	lakuna	lakuni
+84	8784	litterali	letterali
+85	8785	sieħ	saħ saħna
+86	8786	oġġettività	oġġettivita
+87	8787	ikklerja	ikklerjat jikklerja jikklerjaw jikklerjawha kklerja kklerjat kklerjaw nikklerjaw tikklerja
+88	8788	likur	likuri
+89	8789	ħuttaf	ħuttafa
+90	8790	fosforu	fosfru
+91	8791	ddegrada	ddegradaw degradat jiddegradaw jiddegradawna jiddegradawx tiddegrada
+92	8792	mmartella	jimmartella martel martellat mmartellata
+93	8793	ikkonċepixxa	jikkonċepixxi kkonċepixxa nikkonċepixxi tikkonċepixxi
+94	8794	ipprogramma	ipprogrammat jipprogramma pprogrammat tipprogramma
+95	8795	miklem	imkielem
+96	8796	muswaf	muswafa
+97	8797	innaviga	jinnaviga jinnavigaw nnaviga nnavigat tinnaviga
+98	8798	qorq	qrieq
+99	8799	fisqija	fsieqi
+100	8800	newwaħ	inewwaħ inewħu jnewħu nnewħu tinwiħ tnewwaħ tnewwiħ tnewħu

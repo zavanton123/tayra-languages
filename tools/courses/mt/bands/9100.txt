@@ -1,100 +1,100 @@
-1	9001	geġwiġija	
-2	9002	llapazza	illapazza jillapazza nillapazzaw tillapazza
-3	9003	nebaħ	inbaħt jinbaħ jinbħu nebħu nebħuni
-4	9004	nemer	inmur nmur nmurx
-5	9005	qarras	imqarras iqarras jqarras mqarras qarrasx qarrset
-6	9006	xxaħħaħ	ixxaħħaħ jixxaħħaħ jixxaħħaħx nixxaħħu xxaħħaħt xxaħħaħx
-7	9007	żobb	żbub żobbu
-8	9008	ħamallaġni	ħamallaġnijiet
-9	9009	istandardizza	jistandardizza jistandardizzaw standardizzat standardizzaw tistandardizza tistandardizzah
-10	9010	bumerin	bumarin bumarini bumerini
-11	9011	punteġġjatura	
-12	9012	amenda	amendat jamenda jamendaw
-13	9013	kemmex	imkemmex mkemmex tkemmex
-14	9014	raqqaq	iraqqu jraqqaq jraqqu mraqqaq nraqqu traqqaq
-15	9015	ċikka	
-16	9016	żvinta	tiżvinta żvintat
-17	9017	ħxien	jeħxien jeħxienu
-18	9018	infletta	jinflettix jinflettu tinfletti
-19	9019	ċappetta	ċappetti ċpiepet
-20	9020	newwieħ	newwieħa newwieħi
-21	9021	xenqa	xenqat
-22	9022	diffużjoni	
-23	9023	irrinova	irrinovat jirrinova jirrinovah jirrinovaw nirrinovaw rrinova rrinovaha rrinovat rrinovaw rrinovawhom
-24	9024	teoretika	
-25	9025	ikkapitalizza	ikkapitalizzaw jikkapitalizza jikkapitalizzaw kkapitalizza kkapitalizzaw tikkapitalizza
-26	9026	inkwina	jinkwina tinkwina
-27	9027	landing	
-28	9028	majjistra	
-29	9029	insostenibbli	
-30	9030	ittamma	jittamma nittammaw ttammat
-31	9031	reviżur	reviżuri
-32	9032	riedna	
-33	9033	sarr	isorru jsorr nsorr
-34	9034	ġuvnott	
-35	9035	żokri	żokrija
-36	9036	linċi	
-37	9037	ċedru	ċedri
-38	9038	enumera	jenumera
-39	9039	kieni	
-40	9040	pizzerija	pizzeriji
-41	9041	irvina	irvinat jirvina jirvinaw rvinat tirvina
-42	9042	xaba'	
-43	9043	turkwas	turkważ
-44	9044	xehda	xehdiet
-45	9045	bonġu	
-46	9046	insettiċida	insettiċidi
-47	9047	ragħwa	
-48	9048	takkuna	
-49	9049	trattativa	trattativi
-50	9050	ddelibera	deliberat jiddelibera jiddeliberaw tiddelibera
-51	9051	insolenta	jinsolentawx ninsolenta nsolenta tinsolenta
-52	9052	itteħidla	jitteħidlu titteħidlu titteħidlux
-53	9053	qell	qall qallilha qallilna
-54	9054	tgerfix	
-55	9055	ċappsa	iċappsu jċappsu jċappsulu nċappsu
-56	9056	ħossa	nħossa nħossiex tħossa tħossiex tħossix
-57	9057	kostituttiv	kostituttiva kostituttivi
-58	9058	rebbieħi	
-59	9059	siegħ	siegħha siegħu
-60	9060	żolfu	
-61	9061	baga	bagi
-62	9062	iffriska	jiffriska jiffriskaw niffriska tiffriska tiffriskak
-63	9063	keba	jikbu kiebi nikbi tikbi
-64	9064	fissazzjoni	fissazzjonijiet
-65	9065	votiv	votiva votivi
-66	9066	ddepona	ddeponew depost iddepona jiddeponi
-67	9067	alluċinazzjoni	alluċinazzjonijiet
-68	9068	bużbież	bużbieża
-69	9069	lastku	
-70	9070	narċis	ranġis
-71	9071	sidrija	sdieri
-72	9072	ġiżimin	ġiżimina
-73	9073	ddemolixxa	demolit
-74	9074	ferkun	frieken furkun
-75	9075	nbiħ	inbiħ
-76	9076	buri	
-77	9077	radda	raddi
-78	9078	kirxa	
-79	9079	lema	jilma tilma
-80	9080	ħrara	
-81	9081	ibqagħla	jibqagħli jibqagħlu jibqagħlux nibqagħlu tibqagħlu
-82	9082	issuġġerila	jissuġġerili jissuġġerilu nissuġġerilu
-83	9083	nagħa	ingħat jingħi tingħi tingħu
-84	9084	raj	rajnieha rajniehom rajniehx rajniek rajnihx rajnti
-85	9085	bolt	boltijiet
-86	9086	ikkataloga	ikkatalogat jikkataloga jikkatalogaw kkatalogaw tikkataloga
-87	9087	kartografija	
-88	9088	xall	xalel xalla xalli
-89	9089	mmalja	immaljat jimmaljaw maljar mmaljat
-90	9090	attendent	attendenti
-91	9091	iffonda	ffonda jiffonda
-92	9092	luminata	luminati
-93	9093	iddeżinja	ddeżinja ddeżinjah ddeżinjaha ddeżinjaw ddeżinjawha iddeżinjah iddeżinjaw jiddeżinja jiddeżinjaw tiddeżinja tiddeżinjaha
-94	9094	mmappja	immappja immappjat immappjata immappjaw jimmappja jimmappjaw mmappjaha mmappjat mmappjata mmappjaw timmappja
-95	9095	bblokkja	jibblokkja
-96	9096	dliel	dlielek dlielhom
-97	9097	maksar	
-98	9098	tbenġila	
-99	9099	xeha	xhu xhux
-100	9100	aċidità	
+1	9001	fabbrikant	fabbrikanti
+2	9002	leħħ	ileħħ jleħħ leħħu tleħħ
+3	9003	rabba'	trabba'
+4	9004	tertaq	itertaq mtertaq tertqu ttertqu
+5	9005	ħammem	iħammem jħammem tħammem ħammu
+6	9006	ispega	jispega jispegaw spega
+7	9007	gamblu	gambli
+8	9008	iffermenta	ffermentat ffermentaw iffermentat jiffermentaw tiffermenta
+9	9009	irreċita	jirreċita jirreċitaw nirreċita rreċita rreċitat tirreċita
+10	9010	tollerata	ittollerata ittollerati ttollerata
+11	9011	memorjal	memorjali
+12	9012	politeiżmu	
+13	9013	rizza	rizzi
+14	9014	analiżża	analiżżaw janaliżżaw tanaliżża
+15	9015	fewġa	fewġiet
+16	9016	ingumbra	ingumbraw jingumbraw ngumbrat
+17	9017	iskrupla	jiskrupla jiskruplaw niskruplaw skrupla
+18	9018	katnazz	
+19	9019	kwiżż	
+20	9020	mejt	mejtu
+21	9021	sella	iselli isellu jselli selli
+22	9022	werreċ	imwerreċ inwerrċu jwerreċ
+23	9023	xort	
+24	9024	ġolġol	ġlieġel
+25	9025	żabra	
+26	9026	nam	namu
+27	9027	nejba	nejbiet
+28	9028	dekoratur	dekoraturi
+29	9029	improvizza	improvizzat jimprovizza jimprovizzaw nimprovizza timprovizza timprovizzaha
+30	9030	kitla	ktieli
+31	9031	povertà	poverta
+32	9032	blonġun	blonġuni
+33	9033	teorista	teoristi
+34	9034	aċċentwa	aċċentwat aċċentwaw jaċċentwa jaċċentwaw naċċentwa
+35	9035	emorraġija	emorraġiji
+36	9036	immortalizza	immortalizzaha immortalizzat jimmortalizzaw timmortalizza
+37	9037	epidemja	epidemji
+38	9038	bażwar	imbażwar mbażwar
+39	9039	iffigura	jiffigura tiffigura tiffigurax
+40	9040	iġġamja	iġġamjat niġġamja tiġġamja ġġamjat
+41	9041	kummissjonant	kummissjonanti
+42	9042	sarfa	insarfu isarfu isarfulhom jsarfu
+43	9043	twennes	
+44	9044	xaqquf	ċaqquf
+45	9045	iżżufjetta	jiżżufjetta jiżżufjettaw niżżufjettaw tiżżufjetta
+46	9046	kerrah	ikerrah ikerrhu jkerrah jkerrahx kerrhu
+47	9047	isposta	jisposta sposta spostat spostaw spostawhom tisposta
+48	9048	dekolonizzazzjoni	
+49	9049	ornitologu	ornitologi
+50	9050	depress	depressa depressi dipress
+51	9051	kumpass	kumpassi
+52	9052	immunta	immuntat jimmuntaw mmuntat
+53	9053	mudullun	
+54	9054	ninna	ininni ninni
+55	9055	malek	imlejka maliku mlejka mluk
+56	9056	ppopolarizza	ippopolarizzajna ippopolarizzaw jippopolarizza popolarizzat ppopolarizzat
+57	9057	fiet	fitna fitt futili futli
+58	9058	nnazzjonalizza	innazzjonalizza jinnazzjonalizza jinnazzjonalizzaw nazzjonalizzat tinnazzjonalizza
+59	9059	impotenti	
+60	9060	ippenalizza	ippenalizzat ippenalizzaw jippenalizzaw ppenalizzat tippenalizza
+61	9061	istituzzjonalizza	istituzzjonalizzat jistituzzjonalizza nistituzzjonalizzaw
+62	9062	irrinnova	irrinnovat irrinnovaw jirrinnova jirrinnovaw rrinnova rrinnovah rrinnovaha rrinnovat rrinnovaw
+63	9063	delega	delegi
+64	9064	ffotografa	ffotografat fotografat iffotografat
+65	9065	frażjoloġija	
+66	9066	istitwixxa	istitwit jistitwixxi
+67	9067	psikjatrija	
+68	9068	beżżul	
+69	9069	għajnbaqar	għanbaqar
+70	9070	sufra	sufri
+71	9071	razzjon	razzjoni razzjonijiet
+72	9072	sekond	
+73	9073	żemżem	żamżam
+74	9074	falzità	falsita falsità falzitajiet
+75	9075	ikkontribbwixxa	jikkontribbwixxi jikkontribbwixxu kkontribbwixxa tikkontribbwixxi
+76	9076	likwidità	likwidita
+77	9077	qażquż	qżieqeż
+78	9078	qiel	qajl
+79	9079	rbombja	jirbombja tirbombja
+80	9080	ħemel	
+81	9081	żvina	tiżvina żvinajt żvinat
+82	9082	fonoloġija	fonoloġiji
+83	9083	ttriplika	ittriplika ittriplikat jittriplika ttriplikat ttriplikaw
+84	9084	orkestrazzjoni	orkestrazzjonijiet
+85	9085	plaċenta	plaċenti
+86	9086	bbrejkja	ibbrejkjar jbbrejkja jibbrejkja
+87	9087	immilta	immiltat jimmilta jimmiltaw
+88	9088	apoloġetika	
+89	9089	diffiċilment	
+90	9090	iddritta	ddrittat jiddritta niddrittaw
+91	9091	issinjala	issinjalajt jissinjala jissinjalaw ssinjalat
+92	9092	dewwem	ddewmu ddewwem dewmet dewmitha dewmu iddewmu iddewwem idewmu jdewmu jdewwem mdewwem
+93	9093	iżraq	żerqa żoroq
+94	9094	lembut	lembuti lenbut
+95	9095	universalità	
+96	9096	bjuda	
+97	9097	borka	borok
+98	9098	ipposseda	jippossedi jippossedina jippossedu nippossedu tippossedi
+99	9099	iskomoda	jiskomoda jiskomodaw skomodajna tiskomoda tiskomodah
+100	9100	istira	jistira jistiraha jistiraw stira stirat

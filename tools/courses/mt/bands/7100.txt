@@ -1,100 +1,100 @@
-1	7001	kontrattakk	kontrattakka kontrattakki
-2	7002	numeriku	numerika
-3	7003	avvelenament	avvelenamenti
-4	7004	aljenazzjoni	aljenazzjonijiet
-5	7005	isnuker	snuker
-6	7006	verniċ	
-7	7007	vulgari	
-8	7008	affezzjoni	affezzjonijiet
-9	7009	kimiku	
-10	7010	aġġudikazzjoni	
-11	7011	żarmuġ	żrameġ
-12	7012	affiljazzjoni	affiljazzjonijiet
-13	7013	esaġerazzjoni	esaġerazzjonijiet
-14	7014	skuntentizza	iskuntentizza
-15	7015	indefinit	indefinita indefiniti
-16	7016	komputazzjonali	
-17	7017	ovarju	ovarji
-18	7018	stojka	
-19	7019	psikoloġikament	
-20	7020	boton	btan
-21	7021	arrenda	arrendew arrendiet jarrendi jarrendu jarrendux tarrendi
-22	7022	fungu	fungi
-23	7023	bradella	bradelli
-24	7024	ambigwu	ambigwa ambigwi
-25	7025	nomadi	nomadina
-26	7026	globu	globi
-27	7027	kalif	kaliff kaliffi kalifi
-28	7028	lavanja	
-29	7029	deżinjazzjoni	deżinjazzjonijiet
-30	7030	magħad	jomgħod jomgħodha jomgħodhiex jomgħodhom jomgħodx jomogħdu jomogħduhom mimgħud omgħod tomgħod tomgħodha
-31	7031	sfreġju	isfreġji isfreġju sfreġji
-32	7032	rilaxx	rilaxxi
-33	7033	mħatra	imħatra imħatri mħatri
-34	7034	dormitorju	dormitorji
-35	7035	partat	inpartat inpartu ipartat ipartu jpartat jpartatha jpartu jpartuhom partatna partet partu tpartat tpartit tpartithom
-36	7036	kapitelli	
-37	7037	kuntentizza	
-38	7038	damma	dammi
-39	7039	korrettezza	
-40	7040	awtomatizzat	awtomatizzata awtomatizzati
-41	7041	seqer	isqra
-42	7042	biljunarju	biljunarji
-43	7043	inġemgħa	jinġemgħa jinġemgħu jinġemgħux
-44	7044	żmerċ	
-45	7045	fattwali	
-46	7046	khanat	khanati
-47	7047	istim	
-48	7048	repressjoni	repressjonijiet ripressjoni
-49	7049	razz	
-50	7050	simboliżmu	simboliżmi
-51	7051	kazzola	kazzoli
-52	7052	diossidu	
-53	7053	xeniku	xenika xeniċi
-54	7054	arazzi	
-55	7055	dinamiżmu	
-56	7056	nefħa	nefħiet
-57	7057	beżgħan	beżgħana beżgħanin
-58	7058	baħħ	
-59	7059	studenteska	studenteski
-60	7060	arretrati	
-61	7061	komunali	
-62	7062	ssoċjalizza	issoċjalizza jissoċjalizza jissoċjalizzaw nissoċjalizza nissoċjalizzaw tissoċjalizza
-63	7063	tabù	tabu tabujiet
-64	7064	għarix	għarajjex għerejjex
-65	7065	mudella	
-66	7066	vibranti	
-67	7067	nemel	nemla
-68	7068	allinja	allinjat allinjaw allinjax jallinja jallinjaw tallinja tallinjaw
-69	7069	ingaġġ	ingaġġi ngaġġ
-70	7070	kejbil	kejbils
-71	7071	granċ	granċi granċijiet
-72	7072	evakwazzjoni	evakwazzjonijiet
-73	7073	kamla	kamli kamlijiet
-74	7074	kartuna	kartuni
-75	7075	għajjex	jgħajjex jgħajxu ngħajjex tgħajjex tgħajjixna
-76	7076	moderniżmu	
-77	7077	domma	dommi
-78	7078	għatu	għotjien
-79	7079	modifikazzjoni	modifikazzjonijiet
-80	7080	spazjuż	spazjuża spazjużi
-81	7081	traffikanti	
-82	7082	venerabbli	
-83	7083	steppi	isteppi
-84	7084	użura	
-85	7085	astroloġija	
-86	7086	injorant	injoranti njorant
-87	7087	jena	jeni
-88	7088	dat	
-89	7089	klawsura	
-90	7090	ipposjeda	ippossjeda jipposjedi jipposjedu jippossjedi jippossjedu nippossjedu tipposjedi tippossjedi
-91	7091	disfatta	disfatti
-92	7092	lampuka	lampuki
-93	7093	ittraċċa	intraċċata intraċċati ittraċċat ittraċċati jittraċċa jittraċċaw nittraċċa nittraċċaw ntraċċata ntraċċati tittraċċa traċċata ttraċċata ttraċċaw
-94	7094	siket	iskot jiskot jiskotx jisktu niskot nisktu siktek siktet siktu skitna tiskot tiskotx
-95	7095	rekluti	
-96	7096	ipparalizza	ipparalizzat jipparalizza jipparalizzalek jipparalizzaw pparalizza pparalizzaw tipparalizza tipparalizzah tipparalizzak tipparalizzana
-97	7097	kutra	kutri
-98	7098	agora	agori
-99	7099	hedda	heddew heddewhom heddewni jhedduha jhedduhiex mheddija
-100	7100	kebbes	ikebbes ikebbisha ikebbsu inkebbsu jkebbsu kebbisha kebbset kebbsu nkebbes nkebbsu tkebbes tkebbsu
+1	7001	ambigwu	ambigwa ambigwi
+2	7002	nomadi	nomadina
+3	7003	globu	globi
+4	7004	kalif	kaliff kaliffi kalifi
+5	7005	lavanja	
+6	7006	deżinjazzjoni	deżinjazzjonijiet
+7	7007	twaħħad	jitwaħħad jitwaħħdu titwaħħad twaħħdet twaħħdu twaħħid
+8	7008	sfreġju	isfreġji isfreġju sfreġji
+9	7009	rilaxx	rilaxxi
+10	7010	mħatra	imħatra imħatri mħatri
+11	7011	dormitorju	dormitorji
+12	7012	partat	inpartat inpartu ipartat ipartu jpartat jpartatha jpartu jpartuhom partatna partet partu tpartat tpartit tpartithom
+13	7013	kuntentizza	
+14	7014	damma	dammi
+15	7015	korrettezza	
+16	7016	awtomatizzat	awtomatizzata awtomatizzati
+17	7017	seqer	isqra
+18	7018	biljunarju	biljunarji
+19	7019	inġemgħa	jinġemgħa jinġemgħu jinġemgħux
+20	7020	żmerċ	
+21	7021	fattwali	
+22	7022	khanat	khanati
+23	7023	istim	
+24	7024	repressjoni	repressjonijiet ripressjoni
+25	7025	razz	
+26	7026	simboliżmu	simboliżmi
+27	7027	kazzola	kazzoli
+28	7028	diossidu	
+29	7029	xeniku	xenika xeniċi
+30	7030	arazzi	
+31	7031	dinamiżmu	
+32	7032	beżgħan	beżgħana beżgħanin
+33	7033	baħħ	
+34	7034	studenteska	studenteski
+35	7035	arretrati	
+36	7036	komunali	
+37	7037	ssoċjalizza	issoċjalizza jissoċjalizza jissoċjalizzaw nissoċjalizza nissoċjalizzaw tissoċjalizza
+38	7038	tabù	tabu tabujiet
+39	7039	għarix	għarajjex għerejjex
+40	7040	mudella	
+41	7041	vibranti	
+42	7042	nemel	nemla
+43	7043	allinja	allinjat allinjaw allinjax jallinja jallinjaw tallinja tallinjaw
+44	7044	ingaġġ	ingaġġi ngaġġ
+45	7045	kejbil	kejbils
+46	7046	granċ	granċi granċijiet
+47	7047	evakwazzjoni	evakwazzjonijiet
+48	7048	kamla	kamli kamlijiet
+49	7049	kartuna	kartuni
+50	7050	moderniżmu	
+51	7051	domma	dommi
+52	7052	għatu	għotjien
+53	7053	modifikazzjoni	modifikazzjonijiet
+54	7054	spazjuż	spazjuża spazjużi
+55	7055	traffikanti	
+56	7056	venerabbli	
+57	7057	steppi	isteppi
+58	7058	użura	
+59	7059	astroloġija	
+60	7060	injorant	injoranti njorant
+61	7061	jena	jeni
+62	7062	dat	
+63	7063	klawsura	
+64	7064	ipposjeda	ippossjeda jipposjedi jipposjedu jippossjedi jippossjedu nippossjedu tipposjedi tippossjedi
+65	7065	disfatta	disfatti
+66	7066	lampuka	lampuki
+67	7067	ittraċċa	intraċċata intraċċati ittraċċat ittraċċati jittraċċa jittraċċaw nittraċċa nittraċċaw ntraċċata ntraċċati tittraċċa traċċata ttraċċata ttraċċaw
+68	7068	siket	iskot jiskot jiskotx jisktu niskot nisktu siktek siktet siktu skitna tiskot tiskotx
+69	7069	ikkrea	ikkreaw ikkrejat jikkrea jikkreaw jikkreja jikkrejaw kkreat kkreaw kkrejajna nikkreaw tikkrea tikkreax tikkreja
+70	7070	rekluti	
+71	7071	ipparalizza	ipparalizzat jipparalizza jipparalizzalek jipparalizzaw pparalizza pparalizzaw tipparalizza tipparalizzah tipparalizzak tipparalizzana
+72	7072	kutra	kutri
+73	7073	agora	agori
+74	7074	hedda	heddew heddewhom heddewni jhedduha jhedduhiex mheddija
+75	7075	kebbes	ikebbes ikebbisha ikebbsu inkebbsu jkebbsu kebbisha kebbset kebbsu nkebbes nkebbsu tkebbes tkebbsu
+76	7076	emanċipazzjoni	
+77	7077	paramediċi	
+78	7078	semantika	
+79	7079	aċċessorji	
+80	7080	għoqda	għoqod
+81	7081	konoxxenza	konoxxenzi
+82	7082	bilqegħda	
+83	7083	jaqaw	jaqawx
+84	7084	raġa	
+85	7085	għawma	
+86	7086	termali	
+87	7087	ħakka	
+88	7088	ammirall	ammiralli
+89	7089	envelop	envelops
+90	7090	imitazzjoni	imitazzjonijiet
+91	7091	frejgata	frejgati frejgatina
+92	7092	akkreditazzjoni	akkreditazzjonijiet
+93	7093	imparzjalità	
+94	7094	rankatura	
+95	7095	tissielet	
+96	7096	ippreċeda	ippreċediet jippreċedi jippreċediha jippreċedu ppreċeda ppreċedew ppreċedewna ppreċedieni ppreċediet tippreċedi
+97	7097	skarsezza	iskarsezza iskarsezzi skarsezzi
+98	7098	giddieb	giddibin giddieba
+99	7099	annulla	annullahom annullat annullaw jannulla tannulla
+100	7100	pizza	pizez pizzi

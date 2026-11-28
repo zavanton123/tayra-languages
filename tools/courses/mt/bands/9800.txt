@@ -1,100 +1,100 @@
-1	9701	babun	babuni babwin babwini
-2	9702	iddirezzjona	ddirezzjona ddirezzjonat iddirezzjonat jiddirezzjona jiddirezzjonaw
-3	9703	prefazju	
-4	9704	tojlit	tojlits
-5	9705	qaqoċċ	
-6	9706	aruka	
-7	9707	branka	branek branki
-8	9708	edifikanti	
-9	9709	idealizza	idealizzat jidealizza jidealizzaw
-10	9710	illużorju	illużorja illużorji
-11	9711	inata	inataw jinata jinataw tinata
-12	9712	issensja	issensjat jissensja jissensjaw
-13	9713	isvolġa	svolġew svolġiet tisvolġi
-14	9714	rali	
-15	9715	ratal	
-16	9716	setaħ	
-17	9717	umanament	
-18	9718	vvolontarja	ivvolontarjat jivvolontarjaw tivvolontarjaw vvolontarjajt
-19	9719	ċivilment	
-20	9720	faċċol	faċċola faċċoli
-21	9721	għalef	jagħlef jagħlfu jagħlfuhom
-22	9722	inkorrett	inkorretta
-23	9723	ipprivileġġja	ipprivileġġjat jipprivileġġjaw pprivileġġjat
-24	9724	irromantiċizza	jirromantiċizza nirromantiċizza
-25	9725	itfagħla	jitfagħli nitfagħlu titfagħlu
-26	9726	tmasħan	jitmasħan jitmasħnu tmasħnu
-27	9727	tmewwet	jitmewtu titmewwitx
-28	9728	berwieq	
-29	9729	diżinterija	
-30	9730	fiddi	
-31	9731	inabbiltà	
-32	9732	iskejzja	jiskejzja skejzjaw tiskejzja
-33	9733	issubordina	jissubordina jissubordinaw
-34	9734	kollazzjoni	
-35	9735	masturbazzjoni	
-36	9736	perniċjotta	perniċjotti
-37	9737	tatù	tattu tatux
-38	9738	universalista	
-39	9739	ċagħqi	
-40	9740	deformazzjoni	deformazzjonijiet
-41	9741	sjesta	sjesti
-42	9742	ġirasol	ġirasoli
-43	9743	qarnit	qarnita
-44	9744	bera	bru ibri jibru
-45	9745	ikmanda	jikmanda kmanda kmandani kmandaw
-46	9746	kobalt	
-47	9747	ġulġlien	ġulġliena ġulġlieni ġunġlien
-48	9748	triegħed	jitriegħed titriegħed triegħdet
-49	9749	aggravju	
-50	9750	antisettiku	
-51	9751	aqrala	jaqrali naqralu taqrali
-52	9752	bakkar	bakkarna ibakkru jbakkru tbakkar
-53	9753	damdma	idamdmu jdamdmu jdamdmux
-54	9754	ddiġerixxa	jiddiġerixxi jiddiġerixxihom jiddiġerixxu tiddiġerixxi
-55	9755	dikkiena	dkieken
-56	9756	fabbli	
-57	9757	iddawnlowdja	
-58	9758	iddemonizza	iddemonizzaw jiddemonizzaw niddemonizzaw
-59	9759	iddilja	jiddilja niddilja tiddilja
-60	9760	iddissassoċja	iddissassoċjajt jiddissassoċja jiddissassoċjaw niddissassoċjaw
-61	9761	iffittja	jiffittja jiffittjax niffittja
-62	9762	immuffat	immuffati
-63	9763	ippresta	jippresta jipprestaw
-64	9764	irriżultala	jirriżultali jirriżultalix rriżultala
-65	9765	istednuna	jistednuna jistednuni stednuna
-66	9766	istena	nistena stenietx tistena tisteniek
-67	9767	ittituba	jittituba nittitubaw tittituba
-68	9768	iżżatta	iżżattat jiżżattu niżżattu
-69	9769	kafeina	
-70	9770	karnivalata	karnivalati
-71	9771	kkankra	jikkankra kkankraw tikkankra
-72	9772	lablab	ilabalbu ilablab tlabalbu
-73	9773	magħlef	
-74	9774	maxtar	imaxtar jmaxtar maxtart
-75	9775	miera	imieri jmerux merew tmerix
-76	9776	mintna	
-77	9777	nejka	nejkiet
-78	9778	produċenti	
-79	9779	qama	iqjiem
-80	9780	sensel	jsenslu sensil ssensel
-81	9781	sfieq	
-82	9782	tħanżer	imħanżer jitħanżer jitħanżru
-83	9783	xxierek	ixxierek jixxierek
-84	9784	xxoxxa	jixxoxxa jixxuxxaw
-85	9785	ċippitatu	
-86	9786	ċċana	inċanat jinċana tinċana
-87	9787	ħdar	jiħdar jiħdaru tiħdar ħdaret
-88	9788	żnatura	jiżnaturaw tiżnatura żnaturat
-89	9789	żugraga	
-90	9790	naħ	
-91	9791	daka	daku
-92	9792	impreċiż	impreċiżi
-93	9793	tajprajter	tajprajters
-94	9794	tronġ	tronġa tronġiet
-95	9795	batan	
-96	9796	bismut	
-97	9797	deduttiv	deduttiva
-98	9798	frankiġja	frankiġji
-99	9799	fruttożju	
-100	9800	ggaffa	gaffar
+1	9701	dderoga	dderogatx jidderogaw
+2	9702	dejr	
+3	9703	frakass	
+4	9704	fustani	fustanija
+5	9705	għoxx	
+6	9706	isprejja	jisprejjaw sprejja sprejjat sprejjaw
+7	9707	issumma	issummat jissumma jissummaw jissummawna
+8	9708	itama	jitama nitama titamaw
+9	9709	itħabba	jitħabbu tħabbew tħabbiet
+10	9710	kannestru	
+11	9711	kina	kiniex
+12	9712	lajċità	
+13	9713	omofobija	
+14	9714	piċċa	jipiċċa jpiċċaw tipiċċa
+15	9715	portmoni	portmonijiet
+16	9716	ppredestina	ippredestina predestinat
+17	9717	rawndebawt	
+18	9718	rmixk	irmixk
+19	9719	spjegabbli	
+20	9720	stimulazzjoni	istimulazzjoni
+21	9721	tanbar	jtanbar ntanbru ttanbar
+22	9722	teologali	
+23	9723	tqatel	jitqatlu tqatlu
+24	9724	umanizza	jumanizza umanizzat
+25	9725	vomtu	
+26	9726	wiski	
+27	9727	ħaraġ	
+28	9728	ħaxwex	tħaxwix tħaxwixx
+29	9729	żellaq	iżellaq jżellaq żellqu
+30	9730	żummara	
+31	9731	agrett	agretti
+32	9732	deru	
+33	9733	irrelega	irrelegah jirrelega rrelega rrelegah rrelegajna rrelegat tirrelega
+34	9734	ittraskriva	jittraskrivi jittraskriviha jittraskrivu
+35	9735	karfa	
+36	9736	vokalizzazzjoni	vokalizzazzjonijiet
+37	9737	ġummar	
+38	9738	emanazzjoni	emanazzjonijiet
+39	9739	żal	żul żulu żululi
+40	9740	applikabilità	
+41	9741	awrikarja	
+42	9742	bajrow	
+43	9743	bugħawwieġ	
+44	9744	ddwella	jiddwella niddwella
+45	9745	dekoruż	
+46	9746	delirju	dellirju
+47	9747	esaġeratament	
+48	9748	ffajlja	ffajljat iffajljar
+49	9749	fieres	
+50	9750	frattarija	
+51	9751	gorboġ	griebeġ
+52	9752	iffavorina	ffavorina jiffavorina tiffavorina
+53	9753	ikkomporta	jikkomporta jikkomportaw
+54	9754	ikkwieta	tikkwieta
+55	9755	innegozzja	innegozzjat nnegozzjat tinnegozzja
+56	9756	inserixxa	jinserixxu ninserixxu tinserixxi
+57	9757	ipplaggja	jipplaggja jipplaggjaw pplaggjat
+58	9758	irrejdja	irrejdjaw rrejdjat tirrejdja
+59	9759	istrumentalizza	jistrumentalizza strumentalizzat strumentalizzaw
+60	9760	ixxennqa	jixxennqu nixxennqu tixxennqu
+61	9761	iżmantella	jiżmantella żmantella żmantellat
+62	9762	kawtelatorju	
+63	9763	kennen	imkennen kennint titkennen
+64	9764	mankament	mankamenti
+65	9765	mankanza	
+66	9766	merraq	imerraq imerrqu immerraq
+67	9767	mniex	imniex
+68	9768	palkett	palketti
+69	9769	paqpaq	paqpaqli tpaqpiq
+70	9770	ppranza	jippranzaw
+71	9771	prossimu	prossima
+72	9772	rewħa	irewħu jrewħu trewħu
+73	9773	riegħex	iriegħex jriegħex riegħxu
+74	9774	sagrilegu	
+75	9775	skizofrenija	iskizofrenija
+76	9776	tniehed	jitniehed titniehed
+77	9777	tqanqila	tqanqiliet
+78	9778	tqażżeż	nitqażżeż nitqażżu tqażżiżha
+79	9779	unjoniżmu	
+80	9780	vroma	
+81	9781	xenxel	jxenxlu xenxilli
+82	9782	xuga	
+83	9783	xximjotta	jixximjotta jixximjottaw tixximjottaw
+84	9784	ċeppuna	
+85	9785	ġaħġaħ	jġaħġħu jġaħġħuha
+86	9786	ġidd	
+87	9787	ħabeż	maħbuż
+88	9788	żonqri	żonqrija
+89	9789	rejjaq	jrejjaqni
+90	9790	merluzz	
+91	9791	brazzuletta	brazzuletti
+92	9792	irmiġġa	irmiġġat irmiġġaw jirmiġġa jirmiġġaw jirmiġġawx rmiġġa rmiġġat tirmiġġa
+93	9793	affidabbiltà	
+94	9794	buq	bwieq
+95	9795	għażżiel	
+96	9796	ikkonsenja	ikkonsenjah ikkonsenjat jikkonsenja kkonsenjat kkonsenjaw tikkonsenja
+97	9797	ipotizza	ipotizzat jipotizzaw
+98	9798	kkolloka	ikkollokaw jikkollokaw jikkollokawhom kkollokat kollokat
+99	9799	ottimizza	jottimizza jottimizzaw ottimizzat
+100	9800	solvent	solventi

@@ -1,100 +1,100 @@
-1	8801	bbalzma	bbalzmar bbalzmat ibbalzmar ibbalzmat jibbalzma jibbalzmaw tibbalzma
-2	8802	żbir	
-3	8803	allegra	allegraw jallegraw tallegra
-4	8804	maltrattament	
-5	8805	ntreħa	jintreħa jintreħew tintreħa
-6	8806	partikularità	partikularitajiet
-7	8807	balzmu	
-8	8808	kanarin	kanarini
-9	8809	landier	landiera
-10	8810	ċattra	ċattri
-11	8811	għażeb	għożżieb għożżieba
-12	8812	dijarea	
-13	8813	lazz	lazzijiet
-14	8814	xifa	
-15	8815	marrad	imarrad imarrdu jmarrad marradna marrdet marrdu tmarradx
-16	8816	agħdda	jagħddi jagħddix jagħddu nagħddu
-17	8817	itka	teka tkax tku tkuni
-18	8818	kittien	
-19	8819	dardar	idardru idardruha imdardar jdardarx jdardrux mdardar
-20	8820	daħħak	daħħakna ddaħħak ddaħħakni idaħħku iddaħħak indaħħak jdaħħak
-21	8821	gallun	galluni
-22	8822	felli	flieli
-23	8823	emanċipa	emanċipat emanċipaw jemanċipa jemanċipaw nemanċipa temanċipa
-24	8824	fewwaħ	ifewwaħ imfewwaħ infewwaħ jfewwaħ jfewħu mfewwaħ
-25	8825	giref	grif migruf
-26	8826	iddixxiplina	iddixxiplinat jiddixxiplina niddixxiplina
-27	8827	ikkummisjona	ikkummisjonat kkummisjonat kkummisjonaw tikkummisjona
-28	8828	preferibbli	
-29	8829	dulliegħ	dulliegħa
-30	8830	eżistenzjaliżmu	
-31	8831	kewn	kewni
-32	8832	deduzzjoni	
-33	8833	fjoritura	
-34	8834	iddissolva	ddissolviet jiddissolvi jiddissolvu tiddissolvi
-35	8835	sakkeġġ	sakk sakkeġġi
-36	8836	għadsa	għazza
-37	8837	irriversja	irriversjat irriversjaw jirriversja
-38	8838	iskidja	jiskidja jiskidjaw skidja
-39	8839	sadid	
-40	8840	blast	
-41	8841	xeħħa	
-42	8842	mmeravilja	immeraviljajt immeraviljat jimmeravilja jimmeraviljani meraviljat meraviljata mmeraviljani mmeraviljat nimmeravilja
-43	8843	qalla'	iqallgħu jqalla' jqallgħu jqallgħuh jqallgħulu qallgħu qallgħuh taqligħ tqalla'
-44	8844	mqass	imqass imqassijiet mqassijiet
-45	8845	senswali	
-46	8846	agħmila	jagħmila jagħmilix tagħmila tagħmiliex tagħmilix
-47	8847	sfigura	isfigurat jisfigura jisfiguraw sfigurat
-48	8848	inċidentali	
-49	8849	mixta	
-50	8850	wikkiel	wikkelin wikkiela
-51	8851	astrologu	astrologi
-52	8852	aġita	aġitat jaġita jaġitaw taġita
-53	8853	iddistingwixxa	ddistingwixxew jiddistingwixxi jiddistingwixxiha jiddistingwixxu tiddistingwixxi
-54	8854	ivvandalizza	ivvandalizzat jivvandalizzaw vvandalizzat vvandalizzaw
-55	8855	pedjatrija	
-56	8856	ħabar	ħabret ħabru
-57	8857	żżerżaq	iżżerżqet jiżżerżaq jiżżerżqu niżżerżaq tiżżerżaq
-58	8858	mustaċċ	mustaċċi
-59	8859	makakkerija	
-60	8860	nagħsa	
-61	8861	qubbajt	
-62	8862	karus	karusijiet
-63	8863	gidi	gidien gidja gidjien ġidi
-64	8864	żina	
-65	8865	iltaqgħa	iltaqgħat jiltaqgħa jiltaqgħi ltaqgħa niltaqgħa
-66	8866	nżabar	inżabar inżabru jinżabarx jinżabru tinżabar
-67	8867	paċenzjuż	paċenzjuża paċenzjużi
-68	8868	raqqda	inraqqdu jraqqdu jraqqduh jraqqduhom nraqqdu
-69	8869	unjonista	unjonisti
-70	8870	ħeqq	
-71	8871	ezizta	jezizti jeziztu tezizti
-72	8872	fettaq	ifettaq jfettqu nfettqu tfettiq
-73	8873	ikkapparra	ikkapparrat ikkapparraw jikkapparra kkapparra kkapparraw nikkapparraw
-74	8874	ippriżerva	jippriżerva jippriżervahom nippriżervaw tippriżerva
-75	8875	izzejjed	zzejjed
-76	8876	iżvijja	jiżvijja jiżvijjakom jiżvijjaw jiżvijjawna żvijja żvijjat żvijjaw
-77	8877	lagħqa	lagħqax
-78	8878	redden	inredden iredden ireddnu jredden nreddnu nreddnuhom tredden
-79	8879	ssentenzja	issentenzjat sentenzjat ssentenzjat ssentenzjatu tissentenzja
-80	8880	tgħażżen	jitgħażżen jitgħażżnu nitgħażżen tgħażżinna
-81	8881	żena	jiżni tiżni żniet
-82	8882	ittortura	ittorturat jittorturaw jittorturawha tittortura ttorturat ttorturaw ttorturawhom
-83	8883	singulari	
-84	8884	flett	fletti flettijiet fletts iflett
-85	8885	issimula	jissimula jissimulaw tissimula tissimulah
-86	8886	derra	dderri idderri iderri inderri jderri
-87	8887	daħkan	daħkana daħqan
-88	8888	lontra	lontri
-89	8889	ddevasta	ddevastaw devastat iddevastajt iddevastajthom iddevastat iddevastaw
-90	8890	mmalafama	immalafama jimmalafamaw malafamat mmalafamata
-91	8891	aspirina	aspirini
-92	8892	istabbilixa	jistabbilixi jistabbilixu stabbilixa tistabbilixi
-93	8893	ittolera	jittoleraw tittolera ttolerat
-94	8894	nagħma	nagħmiet
-95	8895	iddisturba	ddisturbat ddisturbaw ddisturbax iddisturbat jiddisturba jiddisturbaw jiddisturbawx jiddisturbax niddisturbaw tiddisturba tiddisturbawx
-96	8896	molla	
-97	8897	altera	alterat alteraw jaltera jalteraw taltera
-98	8898	aċiduż	aċiduża aċidużi
-99	8899	qafla	qafliet qfieli
-100	8900	ingassa	jingassa tingassa
+1	8801	annetta	annettiha nannetta
+2	8802	karrakka	karrakki
+3	8803	prostata	
+4	8804	qorriegħa	
+5	8805	ħiemed	ħiemda
+6	8806	avverbju	avverbji
+7	8807	issopraviva	issopravivew jissopravivi ssopraviva ssopravivew tissopravivi
+8	8808	silem	iselmu sielma
+9	8809	żagħka	
+10	8810	karawett	karawettiet
+11	8811	elenku	elenki
+12	8812	esklama	jesklama jesklamaw sklama tesklama
+13	8813	ifma	jifmu jifmuh jifmuha jifmuhx jifmux nifmu nifmuha tifmu
+14	8814	lajma	
+15	8815	padrun	padruni
+16	8816	siparju	
+17	8817	provditur	provdituri provveditur provvedituri
+18	8818	sienja	swieni
+19	8819	ikkomplementa	jikkomplementa jikkomplementaw jikkomplementawha kkomplementat tikkomplementa
+20	8820	kejla	kejliet
+21	8821	sallur	sallura salluriet
+22	8822	approprjazzjoni	approprjazzjonijiet
+23	8823	drammatikament	
+24	8824	mażunerija	
+25	8825	garanti	
+26	8826	temtem	jtemtem temtim temtimt ttemtem
+27	8827	teoloġikament	
+28	8828	nikil	
+29	8829	approssima	japprossimaw napprossimaw
+30	8830	monoteiżmu	
+31	8831	identifikabbli	
+32	8832	djieq	djieqet djiequ jidjieq jidjiequ tidjieq
+33	8833	irradja	irradjaw jirradja jirradjaw tirradja tirradjaw
+34	8834	attwalità	attwalita
+35	8835	daħħan	idaħħan idaħħnu iddaħħan jdaħħnu
+36	8836	dażgur	
+37	8837	qallba	inqallbu iqallbu jqallbu jqallbulek nqallbu
+38	8838	vvalorizza	jivvalorizza nivvalorizzaw tivvalorizza valorizzat vvalorizzat
+39	8839	beżżiegħ	beżżiegħa
+40	8840	istrajkja	jistrajkja jistrajkjaw strajkjaw
+41	8841	bbuwja	bbuwjat ibbuwja ibbuwjar ibbuwjat jibbuwjaw
+42	8842	platinu	
+43	8843	illiberalizza	jilliberalizza lliberalizzat lliberalizzaw nilliberalizzaw tilliberalizza
+44	8844	qamas	joqmos joqomsu noqomsu toqmos
+45	8845	ajma	
+46	8846	barbikju	
+47	8847	daqsiex	
+48	8848	geġwiġija	
+49	8849	llapazza	illapazza jillapazza nillapazzaw tillapazza
+50	8850	nebaħ	inbaħt jinbaħ jinbħu nebħu nebħuni
+51	8851	nemer	inmur nmur nmurx
+52	8852	qarras	imqarras iqarras jqarras mqarras qarrasx qarrset
+53	8853	xxaħħaħ	ixxaħħaħ jixxaħħaħ jixxaħħaħx nixxaħħu xxaħħaħt xxaħħaħx
+54	8854	żobb	żbub żobbu
+55	8855	ħamallaġni	ħamallaġnijiet
+56	8856	istandardizza	jistandardizza jistandardizzaw standardizzat standardizzaw tistandardizza tistandardizzah
+57	8857	bumerin	bumarin bumarini bumerini
+58	8858	punteġġjatura	
+59	8859	amenda	amendat jamenda jamendaw
+60	8860	kemmex	imkemmex mkemmex tkemmex
+61	8861	raqqaq	iraqqu jraqqaq jraqqu mraqqaq nraqqu traqqaq
+62	8862	ċikka	
+63	8863	żvinta	tiżvinta żvintat
+64	8864	ħxien	jeħxien jeħxienu
+65	8865	infletta	jinflettix jinflettu tinfletti
+66	8866	ċappetta	ċappetti ċpiepet
+67	8867	newwieħ	newwieħa newwieħi
+68	8868	xenqa	xenqat
+69	8869	diffużjoni	
+70	8870	irrinova	irrinovat jirrinova jirrinovah jirrinovaw nirrinovaw rrinova rrinovaha rrinovat rrinovaw rrinovawhom
+71	8871	teoretika	
+72	8872	ikkapitalizza	ikkapitalizzaw jikkapitalizza jikkapitalizzaw kkapitalizza kkapitalizzaw tikkapitalizza
+73	8873	inkwina	jinkwina tinkwina
+74	8874	majjistra	
+75	8875	insostenibbli	
+76	8876	ittamma	jittamma nittammaw ttammat
+77	8877	reviżur	reviżuri
+78	8878	sarr	isorru jsorr nsorr
+79	8879	ġuvnott	
+80	8880	żokri	żokrija
+81	8881	linċi	
+82	8882	ċedru	ċedri
+83	8883	enumera	jenumera
+84	8884	kieni	
+85	8885	pizzerija	pizzeriji
+86	8886	irvina	irvinat jirvina jirvinaw rvinat tirvina
+87	8887	xaba'	
+88	8888	turkwas	turkważ
+89	8889	xehda	xehdiet
+90	8890	bonġu	
+91	8891	insettiċida	insettiċidi
+92	8892	ragħwa	
+93	8893	takkuna	
+94	8894	trattativa	trattativi
+95	8895	ddelibera	deliberat jiddelibera jiddeliberaw tiddelibera
+96	8896	qell	qall qallilha qallilna
+97	8897	tgerfix	
+98	8898	ċappsa	iċappsu jċappsu jċappsulu nċappsu
+99	8899	ħossa	nħossa nħossiex tħossa tħossiex tħossix
+100	8900	kostituttiv	kostituttiva kostituttivi
