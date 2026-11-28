@@ -989,7 +989,7 @@ def build(found, size, label, weights=None):
                 continue
             noun = modern(word[:-len(tail)] + ("\u0c41" if tail == "ుగా" else ANUSVARA))
             if (not word.endswith(tail) or not kinds[word] <= {"adv", "adj", "noun"} or word in TELUGU_WORDS
-                    or len(noun) < 4):
+                    or len(noun) < 4 or noun in names):
                 continue
             if noun in kinds:
                 alias[word] = noun
@@ -998,8 +998,10 @@ def build(found, size, label, weights=None):
                 kinds[noun] = {"noun"}
                 kinds.pop(word)
             break
-    # A noun the pack writes in -ము that texts decline in -a (పాలన, పాలనలో; not పాలనం, పాలనంలో) is listed in -a.
-    for word in [w for w in kinds if w.endswith(ANUSVARA) and w not in TELUGU_WORDS and w[:-1] not in kinds]:
+    # A noun the pack writes in -ము that texts decline in -a (పాలన, పాలనలో; not పాలనం, పాలనంలో) is listed in -a, unless that
+    # is a name's spelling (లావణ్య, హేమ).
+    for word in [w for w in kinds if w.endswith(ANUSVARA) and w not in TELUGU_WORDS and w[:-1] not in kinds
+                 and w[:-1] not in names]:
         stem = word[:-1]
         as_a = sum(counts.get(stem + t, 0) for t in ("లో", "ను", "కు", "లు", "తో", "ల", "కి", "ని"))
         as_am = sum(counts.get(f, 0) for f in (word + "లో", stem + "ాన్ని", stem + "ానికి", stem + "ాలు", word + "తో", stem + "ాల"))
@@ -1101,6 +1103,9 @@ def build(found, size, label, weights=None):
 
     def targets(form):
         if form in TELUGU_EXCLUDED:
+            return set()
+        # A name's spelling is no rule's form of a word (ఢాకా is no ఢాక's, లావణ్య no లావణ్యం's).
+        if form in names and form not in by_hand and form not in kinds and not pack_forms.get(form):
             return set()
         heads = plain_targets(form)
         if not heads and form not in names:
