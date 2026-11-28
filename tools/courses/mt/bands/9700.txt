@@ -1,100 +1,100 @@
-1	9601	magħtub	magħtuba
-2	9602	spinaċi	ispinaċi
-3	9603	verifikazzjoni	verifikazzjonijiet
-4	9604	buqrajq	bqaraq
-5	9605	spazja	ispazjar
-6	9606	abortixxa	jabortixxu nabortixxi nabortixxu tabortixxi
-7	9607	barxa	barxiet
-8	9608	fakra	infakru tfakru
-9	9609	fixxkla	ifixxklu jfixxklu tfixxklu
-10	9610	għallima	għallimielu jgħallima tgħallima
-11	9611	għawwa	għawwiet jgħawwi jgħawwu
-12	9612	iddiżgusta	ddiżgusta ddiżgustat iddiżgustat jiddiżgustaw
-13	9613	iffawlja	ffawljat iffawljat jiffawlja
-14	9614	iffolla	ffolla jiffollaw niffollaw tiffolla
-15	9615	inkolla	tinkolla
-16	9616	ssopprima	jissopprimi jissopprimih soppress
-17	9617	ħorża	ħerża
-18	9618	fanfarunata	fanfarunati
-19	9619	oġġezzjonabbli	
-20	9620	qodos	
-21	9621	xħiħ	
-22	9622	ċirkulanti	ċirkolanti
-23	9623	dijanjostiku	dijanjostika dijanjostiċi
-24	9624	llandja	illandjar illandjaw jillandja jillandjah jillandjaw llandjajt llandjar
-25	9625	linfa	
-26	9626	bordi	
-27	9627	federaliżmu	
-28	9628	korsar	korsara korsari kursar
-29	9629	fenkata	
-30	9630	għamilla	jgħamillix ngħamillu tgħamillu
-31	9631	irrikora	jirrikori nirrikori tirrikori
-32	9632	irringrazza	jirringrazza nirringrazzaw rringrazza
-33	9633	itrasmetta	jitrasmettu trasmettew trasmettiet
-34	9634	komunikattiv	komunikattivi
-35	9635	kollettività	kollettivita kollettivitajiet
-36	9636	tilar	tilari
-37	9637	assorbiment	
-38	9638	ipperpetwa	jipperpetwa jipperpetwaha jipperpetwaw nipperpetwaw pperpetwat tipperpetwa
-39	9639	xejjaħ	tixjiħ xxejjaħ
-40	9640	inaljenabbli	
-41	9641	lostru	
-42	9642	psikiku	psikika psikiċi
-43	9643	xenxul	xniexel
-44	9644	ċikwejra	
-45	9645	iddeskrieva	ddeskrieva jiddeskrievi niddeskrievi tiddeskrievi
-46	9646	inventiv	inventiva
-47	9647	tvalja	tvalji
-48	9648	ħammel	iħammel jħammlu mħammel taħmil tħammel ħammlu ħammluh
-49	9649	artikolazzjoni	artikolazzjonijiet
-50	9650	basra	
-51	9651	ddekompona	dekompost iddekompona jiddekomponi jiddekomponix jiddekomponu tiddekomponi
-52	9652	elettromanjetiżmu	
-53	9653	idroloġija	
-54	9654	erratiku	erratika erratiċi
-55	9655	ifflaġella	fflaġellat fflaġellaw ifflaġellaw jifflaġella jifflaġellaw
-56	9656	klassiċista	klassiċisti
-57	9657	rtogħod	jirtogħod nirtogħdu tirtogħod
-58	9658	xprunara	ixprunara
-59	9659	ottagonu	ottagoni
-60	9660	ċima	ċimi ċwiemi
-61	9661	abbatissa	badessa
-62	9662	arkeoloġista	arkeoloġisti
-63	9663	ikkrema	ikkremat jikkremax kkrema kkremat
-64	9664	raħli	raħlija raħlin
-65	9665	ttajpja	ittajpjat jittajpjaw tittajpja
-66	9666	ħdim	
-67	9667	berquq	
-68	9668	frażarju	frażarji
-69	9669	subordinazzjoni	
-70	9670	ażotu	
-71	9671	iddeċentralizza	ddeċentralizza ddeċentralizzat jiddeċentralizza tiddeċentralizza
-72	9672	irrakkma	irrakkmat jirrakkmaw rrakkmat
-73	9673	kkraxxja	ikkraxxja jikkraxxja kkraxxjat
-74	9674	passju	
-75	9675	temperanza	
-76	9676	pexxun	pxiexen
-77	9677	nazzjonalment	
-78	9678	individwa	individwat individwaw jindividwa jindividwaw
-79	9679	torturata	ittorturati ttorturata ttorturati
-80	9680	xebb	
-81	9681	komunikattiva	
-82	9682	newl	
-83	9683	qolla	
-84	9684	ispeċjaliżża	jispeċjaliżża jispeċjaliżżaw speċjaliżżat
-85	9685	mmonopolizza	immonopolizza immonopolizzaw jimmonopolizza jimmonopolizzaw jimmonopolizzawhom
-86	9686	mqarrun	imqarrun
-87	9687	zappap	izappap izzappap jzappap
-88	9688	ġolf	ġorf
-89	9689	ikkategorizza	ikkategorizzaha jikkategorizza jikkategorizzaw kkategorizzat kkategorizzaw tikkategorizza
-90	9690	repressiv	repressiva repressivi
-91	9691	surrealiżmu	
-92	9692	addata	addatajna addatat jaddataw naddataw taddata
-93	9693	bbottilja	bbottiljat ibbottiljar jibbottiljaw
-94	9694	elikotteru	elikotteri
-95	9695	furmatur	furmaturi
-96	9696	għasluġ	għesieleġ
-97	9697	irraffigura	jirraffigura rraffigurat tirraffigura tirraffigurah
-98	9698	isra	jisri jisru
-99	9699	issanzjona	issanzjonat jissanzjona ssanzjona ssanzjonat tissanzjona
-100	9700	tajfa	tajfiet twajjef
+1	9601	sarġ	sruġ
+2	9602	smid	ismid
+3	9603	assenjazzjoni	
+4	9604	itsa	jitsu nitsa
+5	9605	mamma	
+6	9606	ħabaq	
+7	9607	barju	
+8	9608	ddeċima	iddeċimat iddeċimaw jiddeċima
+9	9609	ddijanjostika	dijanjostikat iddijanjostika jiddijanjostikaw
+10	9610	klassikament	
+11	9611	iddekreta	ddekreta iddekretat jiddekreta jiddekretaw niddekretaw
+12	9612	ljut	ljutu
+13	9613	taljola	taljoli tarjola
+14	9614	annunzja	jannunzja
+15	9615	boqxiex	
+16	9616	ffanfra	jiffanfra
+17	9617	maksra	maksri
+18	9618	uwa	
+19	9619	xintill	
+20	9620	għaddab	għaddbu imgħaddba jgħaddab mgħaddba mgħaddbin tgħaddabni
+21	9621	tgeddes	jitgeddsu tgeddist tgeddsux tgezzez
+22	9622	mell	millli
+23	9623	twellija	twellijiet
+24	9624	anġeliku	anġelika
+25	9625	arkivja	arkivjar arkivjat jarkivja tarkivja
+26	9626	ful	
+27	9627	irriabilita	jirriabilita jirriabilitaw rriabilita tirriabilita
+28	9628	irtokka	jirtokka jirtokkaha nirtokka tirtokka
+29	9629	loki	
+30	9630	saborra	
+31	9631	ċensur	
+32	9632	sakranazz	sakranazzi
+33	9633	ikkontrobatta	ikkontrobattiet jikkontrobatta jikkontrobatti jikkontrobattu
+34	9634	oxxilla	joxxilla joxxillaw toxxilla
+35	9635	silika	
+36	9636	xaħxieħ	xaħxieħa
+37	9637	faġan	faġani
+38	9638	muntun	imtaten mtaten
+39	9639	eżekutur	eżekuturi
+40	9640	żbib	iżbiba żbiba
+41	9641	antibijotiku	
+42	9642	belliegħa	
+43	9643	naqqa	jnaqqi tnaqqix
+44	9644	qalgħa	qalgħat
+45	9645	sorġa	isorġu jsorġi jsorġu sorġew
+46	9646	tnehid	
+47	9647	xaqqaq	imxaqqaq jxaqqu mxaqqaq xxaqqaq
+48	9648	xaħmi	xaħmin
+49	9649	smida	
+50	9650	birwin	birwina
+51	9651	dali	doli
+52	9652	ipprijoritizza	ipprijoritizzaw jipprijoritizzaw tipprijoritizza
+53	9653	predikat	predikati
+54	9654	raffinament	
+55	9655	sassofonu	
+56	9656	skannja	iskannjar jiskennja
+57	9657	supereroj	
+58	9658	velari	
+59	9659	zokkri	zokkrija
+60	9660	azzjonarju	azzjonarja
+61	9661	ifjorixxa	fjorixxiet jifjorixxu tifjorixxi
+62	9662	immappa	jimmappaw mmappaw timmappa
+63	9663	pitarrun	pitarruni
+64	9664	stann	istann
+65	9665	xaħmet	
+66	9666	ġonta	ġonot
+67	9667	imminimizza	jimminimizza jimminimizzaw mminimizzat nimminimizzaw timminimizza
+68	9668	naturalizzazzjoni	
+69	9669	xalpa	xalpi xarpa
+70	9670	ipoteka	ipoteki
+71	9671	tinja	tinjiet
+72	9672	bloggosfera	
+73	9673	pastard	pastarda
+74	9674	adultera	adulterat
+75	9675	ftila	ftejjel
+76	9676	għammied	għammiedi
+77	9677	bilbla	
+78	9678	biċċer	imbiċċer inbiċċru jbiċċer mbiċċer
+79	9679	bodbod	bdabad
+80	9680	djuq	
+81	9681	eżawrixxa	jeżawrixxu teżawrixxi teżawrixxihom
+82	9682	ibbukja	ibbukjat jibbukjaw tibbukja tibbukjalu tibbukjaw
+83	9683	intriga	intrigani intrigat jintriga ntrigajna
+84	9684	minutiera	minutieri
+85	9685	nemex	
+86	9686	nepotiżmu	
+87	9687	saqwi	
+88	9688	sefsef	isefsfu issefsef sefsif sefsiflu
+89	9689	ġenjalità	
+90	9690	antimonju	
+91	9691	bexxiexa	
+92	9692	sferiku	
+93	9693	trombettier	trumbettier
+94	9694	tukan	tukani
+95	9695	żgurament	
+96	9696	birrar	birrara
+97	9697	fatar	iftar joftru niftar toftor
+98	9698	eskursjoni	eskursjonijiet
+99	9699	kuluvert	kuluverti
+100	9700	tundjata	ittundjati ttundjata ttundjati

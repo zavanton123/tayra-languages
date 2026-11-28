@@ -1,100 +1,100 @@
-1	9301	radda	raddi
-2	9302	ddemolixxa	demolit
-3	9303	ferkun	frieken furkun
-4	9304	nbiħ	inbiħ
-5	9305	ibqagħla	jibqagħli jibqagħlu jibqagħlux nibqagħlu tibqagħlu
-6	9306	issuġġerila	jissuġġerili jissuġġerilu nissuġġerilu
-7	9307	kirxa	
-8	9308	lema	jilma tilma
-9	9309	nagħa	ingħat jingħi tingħi tingħu
-10	9310	ħrara	
-11	9311	xall	xalel xalla xalli
-12	9312	bolt	boltijiet
-13	9313	ikkataloga	ikkatalogat jikkataloga jikkatalogaw kkatalogaw tikkataloga
-14	9314	kartografija	
-15	9315	iffonda	ffonda jiffonda
-16	9316	luminata	luminati
-17	9317	attendent	attendenti
-18	9318	mmalja	immaljat jimmaljaw maljar mmaljat
-19	9319	raj	rajnieha rajniehom rajniehx rajniek rajnihx rajnti
-20	9320	iddeżinja	ddeżinja ddeżinjah ddeżinjaha ddeżinjaw ddeżinjawha iddeżinjah iddeżinjaw jiddeżinja jiddeżinjaw tiddeżinja tiddeżinjaha
-21	9321	mmappja	immappja immappjat immappjata immappjaw jimmappja jimmappjaw mmappjaha mmappjat mmappjata mmappjaw timmappja
-22	9322	aċidità	
-23	9323	samm	samma
-24	9324	gallett	galletti
-25	9325	bblokkja	jibblokkja
-26	9326	dliel	dlielek dlielhom
-27	9327	maksar	
-28	9328	tbenġila	
-29	9329	xeha	xhu xhux
-30	9330	apoloġista	apoloġisti
-31	9331	iqarqu	jqarqu
-32	9332	vjatku	
-33	9333	iprefera	jipreferu prefera preferew preferewha tipreferi tipreferu
-34	9334	tertuqa	trietaq
-35	9335	ċipp	ċippi
-36	9336	kollokazzjoni	kollokazzjonijiet
-37	9337	elaborazzjoni	elaborazzjonijiet
-38	9338	dderiva	dderivat idderivat jidderiva jidderivaw jidderivu nidderivaw tidderiva
-39	9339	feles	ifilsa
-40	9340	leħħen	ileħħen ileħħnu imleħħen jleħħen leħħnet mleħħen tleħħin
-41	9341	kardjoloġija	
-42	9342	fabbrikazzjoni	fabbrikazzjonijiet
-43	9343	tebba	jtebba jtebbax ttebba ttebbax
-44	9344	biċċier	biċċiera
-45	9345	għażaq	jagħżaq nagħżaq tagħżaq
-46	9346	għelt	għeltijiet
-47	9347	inċensa	jinċensa jinċensaha ninċensa ninċensaw nċensa
-48	9348	sfog	isfog
-49	9349	silf	jisilfu jisilfuh jisilfuha jisilfuhom nsilfu tisilfu
-50	9350	ġelu	ġeli
-51	9351	ġwejjed	ġwejda
-52	9352	ħellies	ħelliesa
-53	9353	żarżar	iżarżar iżarżru żarżarha żarżir żarżru
-54	9354	ippanikja	ippanikjat jippanikja jippanikjaw jippanikjawx tippanikja tippanikjax
-55	9355	iżgwida	jiżgwida jiżgwidaha jiżgwidaw żgwidat
-56	9356	kidda	ikiddu kiddejt kidditni tkiddu
-57	9357	awster	awsteri
-58	9358	aċċeleratur	aċċeleraturi
-59	9359	konjugazzjoni	konjugazzjonijiet
-60	9360	delizzjuż	delizzjuża delizzjużi
-61	9361	għixa	jgħixa jigħixu tgħixa tgħixiex
-62	9362	ikkandida	jikkandidaw kkandidat
-63	9363	rassa	
-64	9364	tixwix	
-65	9365	twiddib	
-66	9366	żebbiegħ	
-67	9367	ftiet	ftietu
-68	9368	jissottovaluta	jissottovalutaw
-69	9369	ndiehes	indiehes jindiehes jindiehsu
-70	9370	kokk	
-71	9371	xeff	xeffs
-72	9372	nwar	inwar
-73	9373	maestru	maestri
-74	9374	rgħib	rgħiba
-75	9375	sandla	sandli
-76	9376	affaċċa	jaffaċċa jaffaċċaw naffaċċa naffaċċaw taffaċċa
-77	9377	eħdula	jeħduli jeħdulu neħdulu
-78	9378	ipprospetta	jipprospetta jipprospettaw nipprospettaw pprospetta tipprospettax
-79	9379	isserja	jisserja jisserjaw sserja tisserja
-80	9380	midda	middejt middew nmiddu tmidda
-81	9381	persunali	
-82	9382	saljatura	saljaturi
-83	9383	stmell	jistmell jistmellhom mistmella tistmell
-84	9384	tisliba	
-85	9385	tiġbid	
-86	9386	ġwież	
-87	9387	gedwed	igedwdu igedwed ingedwed jgedwed tgedwed
-88	9388	ippriserva	ippriservat jippriserva nippriservaw nippriservawhom ppriservat tippriserva
-89	9389	issottolinea	issottolineat jissottolinea ssottolineat tissottolinea
-90	9390	istuna	jistunaw stunat stunaw
-91	9391	taptap	intaptpu itaptap itaptapli itaptaplu ittaptap jtaptap jtaptaplek
-92	9392	tnejjek	jitnejjek mnejjek nitnejjek nitnejku tnejku
-93	9393	żbarazza	jiżbarazza jiżbarazzaw niżbarazza żbarazzajtx
-94	9394	ikkampja	ikkampjat jikkampja jikkampjaw kkampja kkampjat kkampjaw tikkampja
-95	9395	tulipan	tulipani
-96	9396	ikkonnettja	jikkonnettja jikkonnettjaw tikkonnettja
-97	9397	femminiżmu	
-98	9398	diwi	
-99	9399	maċina	
-100	9400	fabbrikant	fabbrikanti
+1	9301	fied	fidli fidu
+2	9302	ggalvanizza	galvanizzat iggalvanizzat
+3	9303	ikkwalifka	jikkwalifka jikkwalifkaw jikkwalifkawx kkwalifkaw
+4	9304	inkin	inkini inkinu
+5	9305	inġazza	inġazzat nġazzat
+6	9306	irridikola	jirridikola nirridikolaw rridikolat tirridikola
+7	9307	lgħab	lgħabu lgħabx
+8	9308	maġra	miġra
+9	9309	taħħan	taħħana
+10	9310	tbexbix	
+11	9311	żgħorija	żgħoriti
+12	9312	kromju	
+13	9313	illumina	illuminat jillumina jilluminaw tillumina
+14	9314	orjenta	jorjenta jorjentaha jorjentaw orjentaw torjenta
+15	9315	pavru	
+16	9316	rħas	
+17	9317	terapewtika	
+18	9318	asfalta	asfaltar
+19	9319	aħilba	jaħilbu jaħilbux naħilbu
+20	9320	bennen	benninni inbennen tbennu
+21	9321	beżżgħana	ibeżżgħana ibeżżgħani jbeżżgħana tbeżżgħana
+22	9322	dagħbien	
+23	9323	dilka	
+24	9324	fixla	
+25	9325	friegħ	
+26	9326	għarukaża	
+27	9327	idinba	jidinbu nidinbu nidinbux
+28	9328	innarra	innarrat jinnarra jinnarraw tinnarra
+29	9329	ismgħa	ismgħani jismgħa jismgħaha jismgħax nismgħu
+30	9330	istgħaġba	jistgħaġbu nistgħaġba nistgħaġbu tistgħaġbux
+31	9331	lajkali	
+32	9332	liba	
+33	9333	makkjetta	makkjetti
+34	9334	patafjun	
+35	9335	qandla	jqandlu jqandluli jqandlux tqandlu
+36	9336	quċċija	
+37	9337	rimbors	rimborsi
+38	9338	samat	mismut mismutin
+39	9339	sarvetta	
+40	9340	simna	
+41	9341	vvantaġġja	jivvantaġġja jivvantaġġjaw jivvantaġġjawhom tivvantaġġja vantaġġjat
+42	9342	xewqan	xewqana
+43	9343	xuxa	xuxitha xuxtu
+44	9344	ġerra	mġerrija ġerrejna ġerrew ġerri ġerriet
+45	9345	ikkondensa	ikkondensat jikkondensa tikkondensa tikkondensaha
+46	9346	issega	issegat jissegaw jissegawlhom ssegat
+47	9347	pene	
+48	9348	alloġġja	alloġġat alloġġaw alloġġjaw jalloġġaw jalloġġjaw
+49	9349	apoloġizza	japoloġizza tapoloġizza
+50	9350	artikula	artikulat artikulaw jartikula
+51	9351	bizzarr	bizzarra bizzarri
+52	9352	għaldaqshekk	
+53	9353	ikkonfuta	jikkonfuta jikkonfutah kkonfuta
+54	9354	illinkja	jillinkjaw llinkjat tillinkja
+55	9355	inċinera	inċinerat nċinerat
+56	9356	isponsorizza	jisponsorizza sponsorizza sponsorizzat
+57	9357	potenzjalità	
+58	9358	qarmeċ	iqarmeċ iqriemeċ jqarmeċ tqarmeċ
+59	9359	llivella	illivellar jillivella livellar livellat tillivella
+60	9360	għanqud	għenieqed
+61	9361	ingwent	ingwenti ngwent
+62	9362	magħtub	magħtuba
+63	9363	verifikazzjoni	verifikazzjonijiet
+64	9364	isporġa	jisporġu tisporġi tisporġu
+65	9365	lellux	lelluxa lelluxi
+66	9366	spinaċi	ispinaċi
+67	9367	buqrajq	bqaraq
+68	9368	spazja	ispazjar
+69	9369	abortixxa	jabortixxu nabortixxi nabortixxu tabortixxi
+70	9370	barxa	barxiet
+71	9371	fakra	infakru tfakru
+72	9372	fanfarunata	fanfarunati
+73	9373	fixxkla	ifixxklu jfixxklu tfixxklu
+74	9374	għallima	għallimielu jgħallima tgħallima
+75	9375	għawwa	għawwiet jgħawwi jgħawwu
+76	9376	iddiżgusta	ddiżgusta ddiżgustat iddiżgustat jiddiżgustaw
+77	9377	iffawlja	ffawljat iffawljat jiffawlja
+78	9378	inkolla	tinkolla
+79	9379	jonijiet	
+80	9380	oġġezzjonabbli	
+81	9381	qodos	
+82	9382	ssopprima	jissopprimi jissopprimih soppress
+83	9383	xħiħ	
+84	9384	ċirkulanti	ċirkolanti
+85	9385	ħorża	ħerża
+86	9386	dijanjostiku	dijanjostika dijanjostiċi
+87	9387	linfa	
+88	9388	llandja	illandjar illandjaw jillandja jillandjah jillandjaw llandjajt llandjar
+89	9389	korsar	korsara korsari kursar
+90	9390	federaliżmu	
+91	9391	fenkata	
+92	9392	għamilla	jgħamillix ngħamillu tgħamillu
+93	9393	irringrazza	jirringrazza nirringrazzaw rringrazza
+94	9394	komunikattiv	komunikattivi
+95	9395	assorbiment	
+96	9396	ipperpetwa	jipperpetwa jipperpetwaha jipperpetwaw nipperpetwaw pperpetwat tipperpetwa
+97	9397	kollettività	kollettivita kollettivitajiet
+98	9398	tilar	tilari
+99	9399	xejjaħ	tixjiħ xxejjaħ
+100	9400	iddeskrieva	ddeskrieva jiddeskrievi niddeskrievi tiddeskrievi

@@ -1,100 +1,100 @@
-1	6101	għaddejin	
-2	6102	fwar	
-3	6103	soppa	sopop
-4	6104	tinxtered	
-5	6105	qlajja	qlajjiet
-6	6106	morsa	
-7	6107	bebbux	bebbuxu
-8	6108	nomenklatura	nomenklaturi
-9	6109	tweet	
-10	6110	daqxejn	
-11	6111	handball	
-12	6112	berbaq	berbaqx berbqet iberbaq jberbaq jberbaqx jberbqu mberbaq tberbaq tberbqu
-13	6113	ger	gerijiet girna
-14	6114	agunija	
-15	6115	subtropikali	
-16	6116	debuttant	debuttanti
-17	6117	kemmun	
-18	6118	lapes	apis lapis lapsijiet
-19	6119	traġitt	traġitti
-20	6120	emarġina	emarġinat emarġinati emarġinaw nemarġinaw temarġina
-21	6121	spunt	ispunt ispunti jispunta jispuntaw jispuntax spunta spuntaw spunti
-22	6122	ċirklu	ċirkli
-23	6123	kabina	kabini
-24	6124	butir	
-25	6125	globalment	
-26	6126	barbaru	barbari
-27	6127	fwieħa	fwejjaħ
-28	6128	pluviera	pluvieri
-29	6129	raid	
-30	6130	qireq	qroqq
-31	6131	imbarazza	imbarazzah imbarazzat imbarazzata imbarazzaw jimbarazza jimbarazzahom jimbarazzaw mbarazza mbarazzat mbarazzaw timbarazza timbarazzah
-32	6132	awditorju	awditorji
-33	6133	artiġjani	
-34	6134	ordinanza	ordinanzi
-35	6135	appoġġata	appoġġati
-36	6136	imponenti	
-37	6137	ġenoċidju	ġenoċidji
-38	6138	enja	enji
-39	6139	iggrava	ggravat iggravat iggravaw jiggrava jiggravaw tiggrava tiggravax
-40	6140	raqda	
-41	6141	formulazzjoni	formulazzjonijiet
-42	6142	travu	travi
-43	6143	kient	kientx
-44	6144	montana	montani
-45	6145	mekka	
-46	6146	karkar	ikarkar ikarkarhom ikarkru imkarkar jkarkar karkarhom karkret karkru nkarkru tkarkar tkarkarx
-47	6147	vaska	vaski
-48	6148	komputazzjoni	komputazzjonijiet
-49	6149	liberazzjoni	
-50	6150	makabru	makabra makabri
-51	6151	ewroparlamentari	
-52	6152	sebaħ	jisbaħ nisbaħ sbaħna sebħet sebħu tisbaħ
-53	6153	ħata	jaħti jaħtix jaħtu jaħtux naħtux
-54	6154	audit	
-55	6155	rarament	
-56	6156	ikraħ	
-57	6157	lampier	lampieri
-58	6158	tiġrif	tiġrifa
-59	6159	qabru	qwabar
-60	6160	umiljazzjoni	umiljazzjonijiet
-61	6161	sallum	
-62	6162	ċena	ċeni ċenti ċentu
-63	6163	investitur	
-64	6164	pajżana	pajżani
-65	6165	mia	
-66	6166	iċċaqilqa	jiċċaqilqu jiċċaqilqux niċċaqilqu
-67	6167	patrijottiku	patrijottika
-68	6168	severa	severi
-69	6169	vertiċi	
-70	6170	annessa	annessah annessat annessaw annessawhom annessiet jannessi jannessu
-71	6171	taqtigħa	
-72	6172	raħħas	imraħħas inraħħsu iraħħas jraħħas jraħħsu nraħħsu raħħasli traħħas traħħsu
-73	6173	idealment	
-74	6174	bażikament	
-75	6175	ispezzjona	jispezzjona jispezzjonaw jispezzjonawlu nispezzjonaw spezzjona spezzjonat spezzjonaw tispezzjona
-76	6176	dundjan	dundjani
-77	6177	ames	
-78	6178	solitu	solita soliti
-79	6179	innoċenza	
-80	6180	immunità	immunita
-81	6181	rmiġġ	irmiġġ irmiġġi rmiġġi
-82	6182	mnebbaħ	imnebbaħ
-83	6183	għerusija	għerusijiet
-84	6184	aċċessibilità	aċċessibilita
-85	6185	emfasizza	emfasizzat emfasizzaw jemfasizza jemfasizzaw nemfasizza nemfasizzaw temfasizza
-86	6186	spareġġ	ispareġġ
-87	6187	kommemorazzjoni	kommemorazzjonijiet
-88	6188	tbaħħir	
-89	6189	għarqa	għarqiet għarqitha
-90	6190	ereżija	ereżiji
-91	6191	riffieda	
-92	6192	immudellar	mmudellar
-93	6193	leħja	
-94	6194	indifferenza	ndifferenza
-95	6195	meraviljuż	meraviljuża meraviljużi
-96	6196	sarkofagu	sarkofagi
-97	6197	paraventu	paraventi
-98	6198	kurat	kurata kurati
-99	6199	għer	jgħir jgħiru ngħir ngħiru tgħir tgħirx
-100	6200	siment	
+1	6101	lapes	apis lapis lapsijiet
+2	6102	emarġina	emarġinat emarġinati emarġinaw nemarġinaw temarġina
+3	6103	spunt	ispunt ispunti jispunta jispuntaw jispuntax spunta spuntaw spunti
+4	6104	kabina	kabini
+5	6105	ċirklu	ċirkli
+6	6106	globalment	
+7	6107	butir	
+8	6108	pluviera	pluvieri
+9	6109	barbaru	barbari
+10	6110	awditorju	awditorji
+11	6111	raid	
+12	6112	imbarazza	imbarazzah imbarazzat imbarazzata imbarazzaw jimbarazza jimbarazzahom jimbarazzaw mbarazza mbarazzat mbarazzaw timbarazza timbarazzah
+13	6113	għerusija	għerusijiet
+14	6114	artiġjani	
+15	6115	ordinanza	ordinanzi
+16	6116	appoġġata	appoġġati
+17	6117	imponenti	
+18	6118	ġenoċidju	ġenoċidji
+19	6119	iggrava	ggravat iggravat iggravaw jiggrava jiggravaw tiggrava tiggravax
+20	6120	raqda	
+21	6121	formulazzjoni	formulazzjonijiet
+22	6122	kient	kientx
+23	6123	komputazzjoni	komputazzjonijiet
+24	6124	karkar	ikarkar ikarkarhom ikarkru imkarkar jkarkar karkarhom karkret karkru nkarkru tkarkar tkarkarx
+25	6125	mekka	
+26	6126	liberazzjoni	
+27	6127	vaska	vaski
+28	6128	ewroparlamentari	
+29	6129	makabru	makabra makabri
+30	6130	rarament	
+31	6131	sebaħ	jisbaħ nisbaħ sbaħna sebħet sebħu tisbaħ
+32	6132	ħata	jaħti jaħtix jaħtu jaħtux naħtux
+33	6133	audit	
+34	6134	tiġrif	tiġrifa
+35	6135	qabru	qwabar
+36	6136	sallum	
+37	6137	lampier	lampieri
+38	6138	pajżana	pajżani
+39	6139	ċena	ċeni ċenti ċentu
+40	6140	vertiċi	
+41	6141	investitur	
+42	6142	severa	severi
+43	6143	patrijottiku	patrijottika
+44	6144	iċċaqilqa	jiċċaqilqu jiċċaqilqux niċċaqilqu
+45	6145	esegwixxa	esegwixxiet eżegwixxa jesegwixxi jesegwixxu jeżegwixxi jeżegwixxu tesegwixxi teżegwixxi
+46	6146	annessa	annessah annessat annessaw annessawhom annessiet jannessi jannessu
+47	6147	taqtigħa	
+48	6148	raħħas	imraħħas inraħħsu iraħħas jraħħas jraħħsu nraħħsu raħħasli traħħas traħħsu
+49	6149	ċelebri	
+50	6150	idealment	
+51	6151	solitu	solita soliti
+52	6152	ispezzjona	jispezzjona jispezzjonaw jispezzjonawlu nispezzjonaw spezzjona spezzjonat spezzjonaw tispezzjona
+53	6153	bażikament	
+54	6154	innoċenza	
+55	6155	dundjan	dundjani
+56	6156	immunità	immunita
+57	6157	rmiġġ	irmiġġ irmiġġi rmiġġi
+58	6158	mnebbaħ	imnebbaħ
+59	6159	spareġġ	ispareġġ
+60	6160	aċċessibilità	aċċessibilita
+61	6161	emfasizza	emfasizzat emfasizzaw jemfasizza jemfasizzaw nemfasizza nemfasizzaw temfasizza
+62	6162	tbaħħir	
+63	6163	għarqa	għarqiet għarqitha
+64	6164	kommemorazzjoni	kommemorazzjonijiet
+65	6165	riffieda	
+66	6166	immudellar	mmudellar
+67	6167	ereżija	ereżiji
+68	6168	leħja	
+69	6169	indifferenza	ndifferenza
+70	6170	meraviljuż	meraviljuża meraviljużi
+71	6171	sarkofagu	sarkofagi
+72	6172	paraventu	paraventi
+73	6173	kurat	kurata kurati
+74	6174	għer	jgħir jgħiru ngħir ngħiru tgħir tgħirx
+75	6175	siment	
+76	6176	eventwalità	eventwalita eventwalitajiet
+77	6177	kulturalment	
+78	6178	purgatorju	
+79	6179	pantomima	pantomimi
+80	6180	rotunda	
+81	6181	baqbaq	ibaqbaq ibaqbqu imbaqbaq jbaqbaq tbaqbaq
+82	6182	kontinġent	kontinġenti
+83	6183	reġiment	reġimenti
+84	6184	skavar	iskavar
+85	6185	konkorrenza	
+86	6186	eċċess	eċċessi
+87	6187	xjieħ	jixjieħ jixjieħu jixjieħx nixjieħ nixjieħu tixjieħ xjaħ xjaħna xjieħu
+88	6188	promettenti	
+89	6189	sillabu	
+90	6190	versatili	
+91	6191	żbarka	iżbarkar jiżbarka jiżbarkaw jiżbarkax tiżbarka żbarkar żbarkat żbarkaw żbarkawx
+92	6192	sedja	sedji
+93	6193	pretensjoni	pretensjonijiet
+94	6194	stadiums	istadiums
+95	6195	statwarju	istatwarju statwarji
+96	6196	ikkrolla	ikkrollat ikkrollaw jikkrolla jikkrollaw jikkrollawx jikkrollax kkrolla kkrollat kkrollaw nikkrollawx tikkrolla
+97	6197	finta	
+98	6198	inċisivi	
+99	6199	editt	editti
+100	6200	aristokratiku	aristokratika

@@ -1,100 +1,100 @@
-1	6501	affordja	jaffordja jaffordjaw jaffordjawx jaffordjax naffordjaw naffordjawx naffordjax taffordja taffordjax
-2	6502	żeblaħ	imżeblaħ inżebilħu inżebilħuha iżebilħu iżeblaħ iżżeblaħ jżebilħu jżeblaħ mżeblaħ żeblaħna żebliħ
-3	6503	forte	
-4	6504	sadd	isodd isoddha isoddlu isoddu isoddulu issodd jsodd jsoddu misdud nsodd saddejt saddet saddilhom sodd soddu ssodd
-5	6505	werwer	imwerwer iwerwer iwerwirni iwerwru jitwerwer jitwerwru jwerwer jwerwru jwerwruk mwerwer nitwerwer nitwerwru titwerwer twerwer twerwirt twerwret twerwru werwirni
-6	6506	fiżjoloġija	
-7	6507	episkopat	
-8	6508	faqqiegħ	faqqiegħa
-9	6509	missielta	
-10	6510	bur	bura burek burok bwar ibwar
-11	6511	medina	medini
-12	6512	purità	purita puritana
-13	6513	ataw	
-14	6514	analoġija	analoġiji
-15	6515	mnut	imnut
-16	6516	koordinatur	koordinaturi
-17	6517	preistorja	
-18	6518	modalità	modalitajiet
-19	6519	volpi	volpijiet
-20	6520	akkompanjament	akkumpanjament akkumpanjamenti
-21	6521	petali	
-22	6522	ksib	
-23	6523	brigadier	
-24	6524	ġġerra	jiġġerra jiġġerrew niġġerrew tiġġerra
-25	6525	sussidjarjetà	sussidjarjeta
-26	6526	ostaġġ	ostaġġi
-27	6527	kambju	kambji
-28	6528	singular	
-29	6529	fajjar	fajjarlu fajjart ifajjar jfajjar jfajru titfajjar
-30	6530	kunfidenzjalità	kunfidenzjalita
-31	6531	tarmak	
-32	6532	kast	kasta kasti
-33	6533	evoka	jevoka jevokah jevokaw tevoka
-34	6534	dros	
-35	6535	nasab	insibek insibha insibhom insibilhom insibilkom insiblek jonsbu jonsbuh jonsbuni jonsob jonsobhom minsub minsuba nasablu nasbu nsibek nsibha nsibhom nsibilhom nsiblu tonsob
-36	6536	dwardu	
-37	6537	skomunika	iskomunika iskomuniki jiskomunika jiskomunikah skomunikat skomunikaw
-38	6538	abbret	abbritu
-39	6539	digi	
-40	6540	żġur	żġuri
-41	6541	ġeoloġiċi	
-42	6542	bieqja	bwieqi
-43	6543	lamantin	lamantini
-44	6544	faxx	faxxi
-45	6545	bijografu	bijografi
-46	6546	librar	librara
-47	6547	ħarqa	ħarqiet ħarqitu ħrieqi
-48	6548	saba	
-49	6549	muża	mużi
-50	6550	mejjel	immejjel jitmejjel jitmejlu jmejjel jmejjilx mmejjel nitmejlu timjil titmejjel tmejjel tmejjil tmejlux
-51	6551	visa	visiti
-52	6552	paxxa	inpaxxu ipaxxi jpaxxi jpaxxix jpaxxu jpaxxuna jpaxxuni paxxejt paxxew paxxut tpaxxi
-53	6553	stoffa	istoffa
-54	6554	renjanti	
-55	6555	munzell	munzelli
-56	6556	instabbli	nstabbli
-57	6557	immarċja	immarċjat immarċjaw jimmarċja jimmarċjaw mmarċja mmarċjaw mmarċjax nimmarċjaw timmarċja
-58	6558	imam	imamijiet
-59	6559	labirint	labirinti
-60	6560	eżaminatur	eżaminaturi
-61	6561	figolla	figolli
-62	6562	zekka	zekki
-63	6563	periferali	
-64	6564	issopona	issoponejt jissoponi jissoponu nissoponi nissoponu ssopona ssoponew
-65	6565	padiljun	padiljuni
-66	6566	galbu	
-67	6567	tremenda	tremendi
-68	6568	xebgħa	xebgħat xebgħax xebgħithom
-69	6569	fliegu	fliegi
-70	6570	abitudni	abitudnijiet
-71	6571	utilità	utilita utilitajiet
-72	6572	seħer	sħarijiet
-73	6573	paradoss	paradossi
-74	6574	antikitajiet	
-75	6575	mgħarfa	imgħaref imgħarfa mgħaref
-76	6576	lilhinn	
-77	6577	invertebrati	
-78	6578	ikkonfina	ikkonfinat jikkonfina jikkonfinaw kkonfinat tikkonfina
-79	6579	miżera	miżeri
-80	6580	kumplimentari	
-81	6581	kontaminazzjoni	kontaminazzjonijiet
-82	6582	urugan	urugani
-83	6583	kredibilità	kredibilita
-84	6584	qoffa	qfief
-85	6585	kantawtur	kantawturi
-86	6586	mikrofonu	mikrofoni
-87	6587	mqat	imqatta mqatta
-88	6588	katamaran	katamarani
-89	6589	onkoloġija	
-90	6590	moralment	
-91	6591	entrata	entrati
-92	6592	depożizzjoni	depożizzjonijiet
-93	6593	dixxiplinat	dixxiplinata dixxiplinati
-94	6594	impekkabbli	
-95	6595	kopt	
-96	6596	tolleranti	
-97	6597	kategorikament	
-98	6598	ofm	
-99	6599	konverġenza	konverġenzi
-100	6600	profondament	
+1	6501	żġur	żġuri
+2	6502	lamantin	lamantini
+3	6503	bieqja	bwieqi
+4	6504	bijografu	bijografi
+5	6505	ġeoloġiċi	
+6	6506	faxx	faxxi
+7	6507	librar	librara
+8	6508	ħarqa	ħarqiet ħarqitu ħrieqi
+9	6509	saba	
+10	6510	muża	mużi
+11	6511	mejjel	immejjel jitmejjel jitmejlu jmejjel jmejjilx mmejjel nitmejlu timjil titmejjel tmejjel tmejjil tmejlux
+12	6512	renjanti	
+13	6513	munzell	munzelli
+14	6514	instabbli	nstabbli
+15	6515	stoffa	istoffa
+16	6516	paxxa	inpaxxu ipaxxi jpaxxi jpaxxix jpaxxu jpaxxuna jpaxxuni paxxejt paxxew paxxut tpaxxi
+17	6517	imam	imamijiet
+18	6518	immarċja	immarċjat immarċjaw jimmarċja jimmarċjaw mmarċja mmarċjaw mmarċjax nimmarċjaw timmarċja
+19	6519	labirint	labirinti
+20	6520	eżaminatur	eżaminaturi
+21	6521	zekka	zekki
+22	6522	periferali	
+23	6523	issopona	issoponejt jissoponi jissoponu nissoponi nissoponu ssopona ssoponew
+24	6524	figolla	figolli
+25	6525	padiljun	padiljuni
+26	6526	abitudni	abitudnijiet
+27	6527	galbu	
+28	6528	tremenda	tremendi
+29	6529	xebgħa	xebgħat xebgħax xebgħithom
+30	6530	fliegu	fliegi
+31	6531	paradoss	paradossi
+32	6532	utilità	utilita utilitajiet
+33	6533	seħer	sħarijiet
+34	6534	mgħarfa	imgħaref imgħarfa mgħaref
+35	6535	antikitajiet	
+36	6536	ikkonfina	ikkonfinat jikkonfina jikkonfinaw kkonfinat tikkonfina
+37	6537	invertebrati	
+38	6538	lilhinn	
+39	6539	urugan	urugani
+40	6540	kumplimentari	
+41	6541	miżera	miżeri
+42	6542	kontaminazzjoni	kontaminazzjonijiet
+43	6543	qoffa	qfief
+44	6544	kredibilità	kredibilita
+45	6545	kantawtur	kantawturi
+46	6546	katamaran	katamarani
+47	6547	entrata	entrati
+48	6548	depożizzjoni	depożizzjonijiet
+49	6549	mikrofonu	mikrofoni
+50	6550	mqat	imqatta mqatta
+51	6551	onkoloġija	
+52	6552	moralment	
+53	6553	kopt	
+54	6554	dixxiplinat	dixxiplinata dixxiplinati
+55	6555	impekkabbli	
+56	6556	għela	jagħli jagħlu nagħlix tagħli
+57	6557	kategorikament	
+58	6558	tolleranti	
+59	6559	estenzjoni	
+60	6560	ofm	
+61	6561	profondament	
+62	6562	konverġenza	konverġenzi
+63	6563	ħafi	ħafja ħafjin
+64	6564	raża	
+65	6565	pitgħada	
+66	6566	aluminju	aluminjum
+67	6567	sodju	
+68	6568	ħġaru	ħġara
+69	6569	avventuruż	avventuruża avventurużi
+70	6570	awtentika	awtentikat jawtentika jawtentikaw
+71	6571	kontemplazzjoni	
+72	6572	provokazzjoni	provokazzjonijiet
+73	6573	ħmira	
+74	6574	kopertura	
+75	6575	bajtar	bajtra
+76	6576	eċċella	eċċellaw jeċċella jeċċellaw neċċellaw teċċella
+77	6577	maqdes	imqades mqades
+78	6578	konkrit	
+79	6579	vjeġġ	vjeġġi
+80	6580	vażun	vażuni
+81	6581	rendiment	rendimenti
+82	6582	minkeb	minkbejh minkbejhom minkbejn minkbu
+83	6583	vit	viti
+84	6584	senduq	senduqha senduqhom senduqu sniedaq
+85	6585	zarina	
+86	6586	terrazza	terrazzi
+87	6587	metrika	
+88	6588	wiegħda	wiegħdi
+89	6589	direttriċi	
+90	6590	traditur	tradituri
+91	6591	ekoloġija	
+92	6592	ċirasa	
+93	6593	ritaljazzjoni	ritaljazzjonijiet
+94	6594	ensemble	
+95	6595	irrigazzjoni	
+96	6596	qaxxar	imqaxxar iqaxxar iqaxxarlu iqaxxru iqaxxruhom jqaxxar jqaxxarha jqaxxarx jqaxxru mqaxxar qaxxarha qaxxarhom qaxxru qaxxrulu tqaxxar tqaxxru tqaxxrux
+97	6597	rimarki	
+98	6598	loġistika	
+99	6599	spirali	ispirali
+100	6600	proklama	proklami

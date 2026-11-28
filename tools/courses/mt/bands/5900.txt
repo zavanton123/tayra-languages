@@ -1,100 +1,100 @@
-1	5801	terrapien	
-2	5802	ċens	
-3	5803	papra	papri
-4	5804	vandaliżmu	
-5	5805	għammiela	
-6	5806	stamperija	istamperija istamperiji stamperiji
-7	5807	logutenent	logutenenti
-8	5808	organista	organisti
-9	5809	rebbaħ	inrebbħu irebbaħ irebbaħhom jrebbaħ jrebbaħni jrebbħu rebbaħha rebbaħhom rebbħet rebbħitha rebbħitu rebbħu rebbħulhom rebbħulu trebbaħ trebbaħna trebbħu
-10	5810	kalċi	kalċijiet
-11	5811	krejn	krejnih krejnijiet krejns
-12	5812	amnestija	amnestiji
-13	5813	ħakk	inħokk iħokk iħokku jħokk jħokku maħkuk maħkuka nħokku tħokk ħakkek ħokk ħokkli
-14	5814	pasturi	
-15	5815	tumur	tumuri
-16	5816	mielaħ	melħin mielħa
-17	5817	ispekula	jispekula jispekulaw nispekula nispekulaw spekula spekulat spekulaw spekulax tispekula
-18	5818	ġifa	ġwejjef
-19	5819	jitbiegħed	jitbiegħedx
-20	5820	tragward	tragwardi
-21	5821	duttur	dottoressa dutturi
-22	5822	jissielet	
-23	5823	djamant	djamanti
-24	5824	ironiku	ironika
-25	5825	ġeroglifiku	ġeroglifika
-26	5826	itkaża	jitkaża jitkażaw nitkaża nitkażaw titkaża tkaża tkażajna tkażajt tkażat tkażaw tkażax
-27	5827	maxtura	
-28	5828	ġungla	ġungli
-29	5829	koeffiċjent	koeffiċjenti
-30	5830	drammaturgu	drammaturgi
-31	5831	sinċerament	
-32	5832	piazza	
-33	5833	għadis	
-34	5834	ridott	ridotta ridotti ridottu
-35	5835	asterojde	asterojdi
-36	5836	issagrifika	issagrifikajt issagrifikat issagrifikaw jissagrifika jissagrifikaw nissagrifika nissagrifikaw ssagrifika ssagrifikajt ssagrifikat tissagrifika
-37	5837	pjanista	pjanisti
-38	5838	frawla	frawli
-39	5839	taħdit	
-40	5840	globalizzata	globalizzati
-41	5841	fettel	fettillek fettilli fettillu fettilu ifettilli ifettillu jfettilli jfettillu
-42	5842	ikkoabita	jikkoabita jikkoabitaw jikkoabitawx tikkoabita
-43	5843	ħan	ħajjen ħinna ħinu
-44	5844	twettieq	
-45	5845	kubu	
-46	5846	interdett	interdetti
-47	5847	għeġubija	għeġubijiet għeġubijietu
-48	5848	ġelat	ġelati ġelatina
-49	5849	ambjentalisti	
+1	5801	għafsa	għafsiet
+2	5802	għeġubija	għeġubijiet għeġubijietu
+3	5803	immina	imminat imminata imminaw jimmina jimminaw mmina mminat mminata mminaw timmina
+4	5804	kisi	
+5	5805	dewweb	ddewbu ddewweb dewbu dewwibt iddewbu iddewweb idewbu idewbuh idewbuhom imdewweb jdewbuh jdewweb mdewweb tidwib
+6	5806	terrapien	
+7	5807	papra	papri
+8	5808	żanżan	inżanżan inżanżanhom iżanżan iżanżnu iżżanżan iżżanżnet iżżanżnu jiżżanżan jiżżanżnu jżanżan jżanżnu mżanżan tiżżanżan żanżanna żanżnet żżanżan żżanżnet żżanżnu
+9	5809	ċens	
+10	5810	għammiela	
+11	5811	vandaliżmu	
+12	5812	organista	organisti
+13	5813	logutenent	logutenenti
+14	5814	stamperija	istamperija istamperiji stamperiji
+15	5815	rebbaħ	inrebbħu irebbaħ irebbaħhom jrebbaħ jrebbaħni jrebbħu rebbaħha rebbaħhom rebbħet rebbħitha rebbħitu rebbħu rebbħulhom rebbħulu trebbaħ trebbaħna trebbħu
+16	5816	krejn	krejnih krejnijiet krejns
+17	5817	tumur	tumuri
+18	5818	amnestija	amnestiji
+19	5819	kalċi	kalċijiet
+20	5820	mielaħ	melħin mielħa
+21	5821	ġifa	ġwejjef
+22	5822	pasturi	
+23	5823	ispekula	jispekula jispekulaw nispekula nispekulaw spekula spekulat spekulaw spekulax tispekula
+24	5824	tragward	tragwardi
+25	5825	jissielet	
+26	5826	duttur	dottoressa dutturi
+27	5827	ġeroglifiku	ġeroglifika
+28	5828	ironiku	ironika
+29	5829	djamant	djamanti
+30	5830	itkaża	jitkaża jitkażaw nitkaża nitkażaw titkaża tkaża tkażajna tkażajt tkażat tkażaw tkażax
+31	5831	koeffiċjent	koeffiċjenti
+32	5832	maxtura	
+33	5833	ġungla	ġungli
+34	5834	drammaturgu	drammaturgi
+35	5835	għadis	
+36	5836	asterojde	asterojdi
+37	5837	sinċerament	
+38	5838	ridott	ridotta ridotti ridottu
+39	5839	pjanista	pjanisti
+40	5840	stenbaħ	jistenbaħ jistenbħu nistenbaħ nistenbħu stenbaħna stenbaħt stenbħet stenbħitx stenbħu tistenbaħ
+41	5841	issagrifika	issagrifikajt issagrifikat issagrifikaw jissagrifika jissagrifikaw nissagrifika nissagrifikaw ssagrifika ssagrifikajt ssagrifikat tissagrifika
+42	5842	frawla	frawli
+43	5843	taħdit	
+44	5844	ħan	ħajjen ħinna ħinu
+45	5845	globalizzata	globalizzati
+46	5846	fettel	fettillek fettilli fettillu fettilu ifettilli ifettillu jfettilli jfettillu
+47	5847	ikkoabita	jikkoabita jikkoabitaw jikkoabitawx tikkoabita
+48	5848	twettieq	
+49	5849	interdett	interdetti
 50	5850	konfoffa	konfoffi
-51	5851	sixth	
-52	5852	ferries	
-53	5853	animazzjoni	animazzjonijiet
-54	5854	ippoża	ippużajt ippużat jippoża jippożaw jippużaw jippużawlek jippużawlu ppoża ppużat ppużaw tippoża
-55	5855	preparatorju	preparatorja preparatorji
+51	5851	kubu	
+52	5852	ġelat	ġelati ġelatina
+53	5853	ambjentalisti	
+54	5854	animazzjoni	animazzjonijiet
+55	5855	ippoża	ippużajt ippużat jippoża jippożaw jippużaw jippużawlek jippużawlu ppoża ppużat ppużaw tippoża
 56	5856	bajdani	bajdanija
-57	5857	pastizz	pastizzi
-58	5858	rue	ruek ruina
-59	5859	aljena	aljenat aljenaw jaljena jaljenaw jaljenawhom jaljenawna naljenaw taljena
+57	5857	preparatorju	preparatorja preparatorji
+58	5858	saga	sagi
+59	5859	pastizz	pastizzi
 60	5860	tgħajjir	
-61	5861	saga	sagi
-62	5862	stokk	istokk istokkijiet istokks stokkijiet stokks
-63	5863	konsenja	konsenji
-64	5864	rikorrenti	
-65	5865	fwied	fwiedhom fwiedna fwiedu
-66	5866	sana	sani saniex
-67	5867	sunett	sunetti
-68	5868	ifjen	fjen
-69	5869	affaxxina	affaxxinat affaxxinatni jaffaxxina jaffaxxinaw jaffaxxinawni naffaxxina taffaxxina
-70	5870	sakkar	imsakkar insakkru isakkru issakkar issakkru jsakkru msakkar sakkarha sakkarhom sakkarni ssakkar ssakkarhom ssakkru
-71	5871	mobiles	
-72	5872	volontà	volonta
+61	5861	aljena	aljenat aljenaw jaljena jaljenaw jaljenawhom jaljenawna naljenaw taljena
+62	5862	konsenja	konsenji
+63	5863	stokk	istokk istokkijiet istokks stokkijiet stokks
+64	5864	fwied	fwiedhom fwiedna fwiedu
+65	5865	rikorrenti	
+66	5866	sunett	sunetti
+67	5867	mobiles	
+68	5868	sana	sani saniex
+69	5869	sakkar	imsakkar insakkru isakkru issakkar issakkru jsakkru msakkar sakkarha sakkarhom sakkarni ssakkar ssakkarhom ssakkru
+70	5870	volontà	volonta
+71	5871	affaxxina	affaxxinat affaxxinatni jaffaxxina jaffaxxinaw jaffaxxinawni naffaxxina taffaxxina
+72	5872	ifjen	fjen
 73	5873	sinjifikanti	
 74	5874	fewdali	
 75	5875	ortodoss	
-76	5876	aliex	
-77	5877	skutella	iskutella iskutelli skutelli
-78	5878	oriġni	
-79	5879	predominanti	
+76	5876	skutella	iskutella iskutelli skutelli
+77	5877	oriġni	
+78	5878	predominanti	
+79	5879	istona	jistona jistonaw jistonawx jistunaw stunat stunaw tistona tistonax
 80	5880	aċċettazzjoni	
-81	5881	iblah	belha boloh
-82	5882	ċioè	ċioe
-83	5883	andi	andix
-84	5884	bilingwi	
-85	5885	awgurju	awgurji
-86	5886	fors	
-87	5887	krudil	krudili
+81	5881	ċioè	ċioe
+82	5882	bilingwi	
+83	5883	iblah	belha boloh
+84	5884	awgurju	awgurji
+85	5885	fors	
+86	5886	tħawwil	
+87	5887	akkwarell	akkwarella akkwarelli
 88	5888	stagħna	jistagħna jistagħnew jistagħnu nistagħna stagħnat stagħnaw stagħnew stagħniet tistagħna tistagħnu
-89	5889	vendetta	vendetti
-90	5890	akkwarell	akkwarella akkwarelli
+89	5889	krudil	krudili
+90	5890	vendetta	vendetti
 91	5891	bijosfera	bijosferi
-92	5892	effikaċi	
+92	5892	brimb	brimba
 93	5893	misħut	misħuta misħutin
-94	5894	brimb	brimba
-95	5895	vvelena	avvalenat avvelena avvelenat avvelenaw avvelenawli ivvalenat ivvelenar ivvelenat ivvelenatu jivvalenaw jivvelena jivvelenaw tavvelena tivvalena tivvelena vvalenat vvelenat
-96	5896	antifona	antifoni
-97	5897	mediċinali	
-98	5898	vagun	vaguna vaguni
-99	5899	skorrett	skorretta skorretti
-100	5900	prefett	prefetti
+94	5894	vvelena	avvalenat avvelena avvelenat avvelenaw avvelenawli ivvalenat ivvelenar ivvelenat ivvelenatu jivvalenaw jivvelena jivvelenaw tavvelena tivvalena tivvelena vvalenat vvelenat
+95	5895	mediċinali	
+96	5896	skorrett	skorretta skorretti
+97	5897	vagun	vaguna vaguni
+98	5898	antifona	antifoni
+99	5899	prefett	prefetti
+100	5900	iffilmja	ffilmja ffilmjat ffilmjaw iffilmjat jiffilmja jiffilmjah jiffilmjaw niffilmja niffilmjaw

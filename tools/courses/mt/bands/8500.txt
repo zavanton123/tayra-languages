@@ -1,100 +1,100 @@
-1	8401	venven	ivenven jvenven jvenvnu tvenven tvenvin venvinha
-2	8402	xiber	ixbar
-3	8403	benna	
-4	8404	referi	
-5	8405	mantar	imnatar
-6	8406	daqqaq	
-7	8407	likwidazzjoni	likwidazzjonijiet
-8	8408	tturmenta	ittormentat itturmentat jittormentaw jitturmentaw tittormenta tittormentah ttormentat tturmentat
-9	8409	reliġjożità	reliġjożita
-10	8410	nagħas	jongħos nagħsu nongħos tongħos
-11	8411	allinjament	allinjamenti
-12	8412	aċċellera	aċċelerat aċċellerat aċċelleraw jaċċellera jaċċelleraw taċċelera taċċellera
-13	8413	qalgħa	qalgħat qlejgħa
-14	8414	ċirkonċiżjoni	
-15	8415	iżmarka	jiżmarka żmarka żmarkat
-16	8416	irrita	irritat irritaw jirrita jirritah jirritahom jirritana jirritani jirritaw tirrita tirritah tirritani
-17	8417	sismiku	sismika sismiċi
-18	8418	libien	liban lubien
-19	8419	fotokopja	fotokopji
-20	8420	ċanga	
-21	8421	etnografiku	etnografika etnografiċi
-22	8422	invoka	invokat jinvoka jinvokaw nvoka nvokat tinvoka tinvokax
-23	8423	amar	amarna amru jamar namru
-24	8424	astroloġikament	
-25	8425	epistemoloġija	
-26	8426	bgħid	ibgħad
-27	8427	fardal	fradal
-28	8428	żejża	żejżiet żejżietha żejżitha
-29	8429	kaħħal	ikaħħal imkaħħal kaħħala mkaħħal tkaħħlu
-30	8430	bandal	ibandlu imbandal jbandal jitbandal jitbandalx jitbandlu nbandlu tbandal tbandil titbandal
-31	8431	evada	evadew jevadi jevadu tevadi
-32	8432	kuċċarina	kuċċarini
-33	8433	rmonka	irmunkar irmunkat jirmonka jirmonkaw rmonkat rmunkar tirmonka
-34	8434	baħnan	
-35	8435	ingrana	ingranat ingranaw jingrana jingranaw ngranat ngranaw tingrana
-36	8436	qara'	
-37	8437	ħawli	ħawlija
-38	8438	interċeda	jinterċedi jinterċedu tinterċedi
-39	8439	xugaman	xugamani
-40	8440	inċita	inċitaw jinċita jinċitaw jinċitax ninċita
-41	8441	allużjoni	allużjonijiet
-42	8442	ipperfezzjona	jipperfezzjona jipperfezzjoni nipperfezzjona nipperfezzjonaw pperfezzjona pperfezzjonat pperfezzjonaw tipperfezzjona
-43	8443	ħara	iħarju taħri taħrik ħarja
-44	8444	konfessjonali	
-45	8445	rikkieb	rikkieba
-46	8446	topografiku	topografika topografiċi
-47	8447	penetrazzjoni	
-48	8448	mramma	imramma imrammti
-49	8449	uniformità	uniformita
-50	8450	ffabbrika	fabbrikar fabbrikat ffabbrikat iffabbrikat iffabbrikaw jiffabbrikaw
-51	8451	għajjur	għajjura għajjurin
-52	8452	żgiċċa	jiżgiċċa jiżgiċċaw niżgiċċa tiżgiċċa żgiċċat żgiċċatlu żgiċċatx
-53	8453	raffinerija	raffineriji
-54	8454	ikkonverġa	ikkonverġew jikkonverġi jikkonverġihom jikkonverġu tikkonverġi
-55	8455	vinkolanti	
-56	8456	asfalt	
-57	8457	estasi	estasijiet
-58	8458	verġinità	verġinita
-59	8459	weġġaħ	imweġġaħ inweġġħu iweġġħu jweġġaħx jweġġħu mweġġaħ tweġġaħ tweġġaħx
-60	8460	xewwex	ixewwex ixewwixhom ixewxu jxewwex jxewxu xewxu
-61	8461	skorpjun	iskorpjun iskorpjuni skorpjuni
-62	8462	ppurifika	ippurifikat ippurifikaw jippurifika jippurifikana jippurifikaw jippurifikawna ppurifikat ppurifikaw purifikat tippurifika
-63	8463	għatas	jagħtas jagħtsu tagħtas
-64	8464	ivvjaġġja	ivvjaġġjat ivvjaġġjaw jivvjaġġja jivvjaġġjaw nivvjaġġja tivvjaġġja
-65	8465	qadja	qadjiet
-66	8466	laħlaħ	ilaħalħu inlaħlaħ jlaħalħu laħlaħhom mlaħlaħ tlaħlaħx tlaħliħ
-67	8467	qaqoċċa	
-68	8468	sorm	sormha sormhom sormna sormok sormu sram
-69	8469	blanzun	blanzuni
-70	8470	irritalja	irritaljat irritaljaw jirritalja jirritaljaw jirritaljax rritalja rritaljat rritaljaw tirritalja
-71	8471	faċċetta	faċċetti
-72	8472	bisesswali	
-73	8473	amministrattivament	
-74	8474	alkoħoliżmu	
-75	8475	lokomozzjoni	
-76	8476	falzifikazzjoni	falsifikazzjoni
-77	8477	mazzarell	mazzarelli
-78	8478	qaħba	qħab
-79	8479	dissens	dissensi
-80	8480	illuda	jilludi jilludu nilludi nilludix nilludu nilludux tilludi
-81	8481	żieni	żienja
-82	8482	iggusta	iggustaha iggustajt iggustajtek iggustajtu iggustat jiggustaw jiggustawhom niggustaw niggustawhom
-83	8483	pipa	pipi
-84	8484	irriġenera	irriġenerat jirriġenera jirriġeneraw jirriġenerawhom tirriġenera
-85	8485	kanġa	ikanġi ikanġu jkanġi jkanġu tkanġi
-86	8486	ġbin	ġbinhom ġbini ġbinu
-87	8487	eloġju	eloġji
-88	8488	fantażma	fantażmi
-89	8489	għotor	għotrot jogħtor jogħtru nogħtru togħtor
-90	8490	reda'	jerda jerdax jerdgħu redgħu terda
-91	8491	irrekluta	jirrekluta jirreklutaw rrekluta rreklutat rreklutaw tirrekluta
-92	8492	iddiżintegra	ddiżintegra ddiżintegrat iddiżintegrat jiddiżintegra jiddiżintegraw tiddiżintegra
-93	8493	noli	nolijiet
-94	8494	terrakotta	
-95	8495	insinwa	insinwat insinwaw jinsinwa jinsinwaw ninsinwa nsinwa nsinwaw tinsinwa
-96	8496	assimilazzjoni	
-97	8497	inkonsista	jinkonsisti jinkonsistu tinkonsisti
-98	8498	tniffes	jitniffes jitniffsux nitniffisx titniffes titniffisx tniffsu
-99	8499	wita	witat witik
-100	8500	eżistenzjali	
+1	8401	suwiċida	suwiċidi
+2	8402	vaga	vagaw
+3	8403	irrifonda	jirrifondi jirrifondu tirrifondi
+4	8404	werżqa	inwerżqu iwerżqu jwerżqu jwerżqux
+5	8405	beżgħa	beżgħat beżgħax
+6	8406	trejjaq	jitrejjaq jitrejjaqx jitrejqu nitrejqu titrejjaq trejqet trejqu
+7	8407	radjoloġija	
+8	8408	ddenunzja	ddenunzjat iddenunzja iddenunzjah iddenunzjat iddenunzjaw jiddenunzja jiddenunzjaw tiddenunzja tiddenunzjaha
+9	8409	jarda	jardi
+10	8410	kaktus	
+11	8411	determinattiv	determinattivi
+12	8412	sewga	isewgu jsewgi jsewgu nsewgu sewgejt
+13	8413	għonnella	għenienel
+14	8414	ġamar	ġamra
+15	8415	ntasab	intasabt jintasab jintasbu nintasab ntasbu
+16	8416	debitur	debituri
+17	8417	kartografu	kartografi
+18	8418	approssimattiv	approssimattiva approssimattivi
+19	8419	ikkummerċjalizza	ikkummerċjalizzat jikkummerċjalizza jikkummerċjalizzaw kkummerċjalizzat tikkummerċjalizza
+20	8420	arluġġar	
+21	8421	invalida	invalidat jinvalidaw tinvalida
+22	8422	ċafċaf	iċafċaf jċafċfu ċafċif ċċafċaf
+23	8423	dalma	
+24	8424	ddieħak	ddieħku iddieħak iddieħku jiddieħak jiddieħku tiddieħak
+25	8425	diriġent	diriġenta
+26	8426	lingwista	
+27	8427	żafżaf	safsaf żafżafa
+28	8428	eklittiku	eklittika
+29	8429	qronfol	qronfla
+30	8430	idden	jidden jiddnu nidden widdien
+31	8431	biblijografija	biblijografiji
+32	8432	jassar	ijassar ijassarna imjassar jjassarna mjassar tjassar tjassartu
+33	8433	nemus	nemusa
+34	8434	mixtla	mixtliet
+35	8435	armonizzazzjoni	
+36	8436	użin	
+37	8437	demokratikament	
+38	8438	faddla	ifaddlu jfaddlu nfaddlu tfaddlux
+39	8439	għamad	
+40	8440	ġennata	
+41	8441	kexkex	ikexkex imkexkex jkexkex kexkxet kexkxu kexkxuna tkexkex tkexkixna
+42	8442	perċa	pereċ
+43	8443	ħaxxen	iħaxxnu jħaxxen jħaxxinhom jħaxxnu nħaxxnu tħaxxnu
+44	8444	mango	
+45	8445	nagħal	nagħla ngħula
+46	8446	ċinju	ċinji
+47	8447	ħosba	
+48	8448	bbulja	bbuljar ibbuljar jibbuljaw
+49	8449	farrad	farrada farradin mfarrad tfarrdu
+50	8450	ganċ	ganċijiet
+51	8451	dilettantiżmu	
+52	8452	belgħa	belgħat
+53	8453	bjad	bjadlu bjadu jibjad jibjadlek jibjadu nibjad
+54	8454	intona	intonat jintona jintonaw ntona tintona
+55	8455	rekwiżizzjoni	rekwiżizzjonijiet
+56	8456	isperimenta	jisperimentaw nisperimentaw sperimenta sperimentaw
+57	8457	ċentralità	ċentralita ċentralitajiet
+58	8458	dublett	dbielet
+59	8459	bilħaqq	
+60	8460	ċaqċaq	iċaqċaq iċaqċaqha iċċaqċaq ċċaqċaq ċċaqċaqx
+61	8461	ġgajta	
+62	8462	bażwi	bażwija bażwin
+63	8463	ikkampanja	ikkampanjat ikkampanjaw jikkampanja jikkampanjaw kkampanja kkampanjaw
+64	8464	iddiżinfetta	jiddiżinfetta jiddiżinfettaw jiddiżinfettawhom tiddiżinfetta
+65	8465	gladjatur	gladjaturi
+66	8466	liwja	liwjiet
+67	8467	irrigwardja	jirrigwardja jirrigwardjaw tirrigwardja
+68	8468	pitrava	pitravi
+69	8469	irrivoluzzjona	irrevoluzzjona irrevoluzzjonaw irrivoluzzjonaw jirrevoluzzjona jirrivoluzzjonaw rrevoluzzjonat rrivoluzzjona rrivoluzzjonajna rrivoluzzjonat rrivoluzzjonaw
+70	8470	spella	jispelli jispellu spellew spelliet tispelli
+71	8471	respirazzjoni	
+72	8472	ineżattezza	ineżattezzi
+73	8473	marrara	
+74	8474	diffikultuż	diffikultuża diffikultużi
+75	8475	liedna	liedni
+76	8476	kartell	krietel
+77	8477	arrikkixxa	arrikkew arrikkewha arrikkiet arrikkit arrikkixxu jarrikkixxi jarrikkixxu jarrikkixxuh tarrikkixxi
+78	8478	truxija	
+79	8479	ħotba	ħotob
+80	8480	sulluzzu	
+81	8481	talla	italla ittalla jittalla jtalla tittalla ttallew ttallewha
+82	8482	ġenitali	
+83	8483	farawna	farawni
+84	8484	bikka	bikkew bikkiena imbikkija mbikki mbikkija
+85	8485	beżżula	bżieżel
+86	8486	nixxija	nixxijiet tnixxija
+87	8487	ġiraff	ġiraffa ġiraffi
+88	8488	barnuż	barnuża
+89	8489	fluworu	
+90	8490	ażżmu	ażżma ażżmi
+91	8491	issupplixxa	jissupplixxi jissupplixxu tissupplixxi
+92	8492	aborta	abortew aborti
+93	8493	koniku	konika koniċi
+94	8494	salmura	
+95	8495	antagoniżmu	antagoniżmi
+96	8496	ktiba	
+97	8497	smurija	
+98	8498	appoġja	appoġjaw jappoġjaw nappoġja nappoġjaw
+99	8499	neka	jinki jinkik jinkini jinkinix jinku jinkuhom ninku tinki
+100	8500	attesta	attestat jattesta jattestaw

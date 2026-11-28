@@ -1,100 +1,100 @@
-1	7901	aderixxa	aderixxew aderixxewx aderixxiet aderixxu jaderixxi jaderixxu taderixxi
-2	7902	kolonjaliżmu	
-3	7903	siliċi	
-4	7904	ottava	ottavi
-5	7905	dires	dris idris jidres
-6	7906	intimida	intimidahom intimidat jintimida jintimidah jintimidani jintimidaw
-7	7907	anċestrali	
-8	7908	qbiela	qbejjel qbieli
-9	7909	unifika	junifika junifikaw junifikawhom tunifika unifikat unifikaw
-10	7910	kurva	kurvi
-11	7911	trapass	
-12	7912	klub	klubin klubs
-13	7913	rif	
-14	7914	eros	
-15	7915	vitikultura	
-16	7916	operetti	
-17	7917	proċedurali	
-18	7918	diżubbidjenza	
-19	7919	vagi	
-20	7920	haute	
-21	7921	gandott	gandotti
-22	7922	ratifika	ratifiki
-23	7923	bumunqar	
-24	7924	assa	assejt assew jassi tassu
-25	7925	sensazzjonali	
-26	7926	addio	
-27	7927	entablatura	entablaturi
-28	7928	kashom	
-29	7929	akustika	
-30	7930	axxetika	
-31	7931	faqqus	
-32	7932	wirdien	wirdiena
-33	7933	nawwar	inawru inawruha inawwar jnawru jnawwar mnawwar nawru tinwir tnawru tnawwar tnawwarhom
-34	7934	axija	
-35	7935	ikkontenda	ikkontendiet jikkontendi jikkontendu tikkontendi
-36	7936	trio	
-37	7937	sintassi	
-38	7938	għagħa	
-39	7939	fjask	fjaski
-40	7940	sottoklassi	sottoklassijiet
-41	7941	ddandan	iddandan jiddandan jiddandnu niddandan niddandnu tiddandan
-42	7942	froġa	frejjeġ
-43	7943	kolonizzatur	kolonizzaturi
-44	7944	lessemi	
-45	7945	ġinnasju	ġinnasji
-46	7946	kanvas	kanvasi kanvass
-47	7947	ppreċiża	ippreċiżat jippreċiża jippreċiżaw nippreċiża nippreċiżaw ppreċiżat
-48	7948	eterosesswali	
-49	7949	brutalment	
-50	7950	propoganda	
-51	7951	ittraffika	jittraffika jittraffikaw jittraffikawx tittraffika ttraffika ttraffikaw
-52	7952	ġejjien	ġejjiena
-53	7953	espressament	
-54	7954	għarrex	għarrxu jgħarrex jgħarrxu ngħarrex ngħarrxu tgħarrex
-55	7955	karrozzi	
-56	7956	relikwija	relikwiji
-57	7957	rieħ	rieħha rieħhom rieħu riħna riħu
-58	7958	karstiċi	
-59	7959	marea	
-60	7960	tiegħhu	tiegħha
-61	7961	modernizzazzjoni	
-62	7962	kapitaliżmu	
-63	7963	anja	anjah
-64	7964	kannamiela	kannamieli
-65	7965	issara	jissara jissaraw nissara nissaraw ssara ssaraw
-66	7966	abbli	
-67	7967	oġġettiva	
-68	7968	għalli	
-69	7969	raddiena	irdieden rdieden
-70	7970	pronom	pronomi
-71	7971	garde	
-72	7972	fokali	
-73	7973	pertinenti	
-74	7974	vanessa	
-75	7975	sabbar	isabbar issabbar issabbarha jsabbar sabbarna ssabbarhom tissabbar
-76	7976	evanġelika	
-77	7977	ġġebbed	jiġġebbdu jiġġebbdux jiġġebbed niġġebbdu tiġġebbed
-78	7978	bugdiedem	
-79	7979	enerġetiku	enerġetiċi
-80	7980	beħsiebhom	
-81	7981	tarrax	itarrax ittarrax jtarrax nittarrxu tarrxu ttarrax ttarrxu
-82	7982	kanċell	kanċelli
-83	7983	empowerment	
-84	7984	mazz	mazzi
-85	7985	lilwa	
-86	7986	merċenarji	
-87	7987	piraterija	
-88	7988	ikkonkwista	ikkonkwistat ikkonkwistaw jikkonkwista jikkonkwistaw kkonkwista kkonkwistat kkonkwistaw tikkonkwista
-89	7989	tisqija	
-90	7990	transkonfinali	
-91	7991	unikament	
-92	7992	feroċi	
-93	7993	regolazzjoni	
-94	7994	tqaċċit	
-95	7995	kasha	
-96	7996	infraklassi	
-97	7997	akkredita	akkreditah akkreditat akkreditaw jakkredita jakkreditah jakkreditana jakkreditaw
-98	7998	inkorporazzjoni	inkorporazzjonijiet
-99	7999	trittiku	
-100	8000	furketta	frieket
+1	7901	fixel	jifxel mifxul mifxula
+2	7902	idolatrija	
+3	7903	dit	
+4	7904	monsinjuri	
+5	7905	umaniżmu	
+6	7906	żerżaq	imżerżaq iżżerżaq iżżerżqu nżerżaq żerżaqha żżerżqu
+7	7907	sistematikament	
+8	7908	ossidjana	ossidjani
+9	7909	devati	
+10	7910	plejju	
+11	7911	kawkaw	
+12	7912	pruwa	pruwi
+13	7913	tributarji	
+14	7914	kaboċċa	kaboċċi
+15	7915	inġarra	jinġarru ninġarru nġarrew
+16	7916	xxotta	ixxotta ixxottaw ixxuttaw jixxotta jixxuttaw tixxotta tixxottax xxuttat
+17	7917	kallu	kallijiet
+18	7918	safrattant	
+19	7919	metaboliżmu	metaboliżmi
+20	7920	taħan	itħan jitħan jitħnu mitħun mitħuna titħan
+21	7921	daħna	
+22	7922	foka	foki
+23	7923	popolarment	
+24	7924	preferenzjali	
+25	7925	ċarrat	imċarrat iċċarrat jċarrat jċarrtu ċarratna ċarrtet ċċarrat
+26	7926	intrata	intrati ntrata
+27	7927	mesaħ	imsaħ jimsaħ jimsħu mesħet mesħu timsaħ
+28	7928	noll	nolli nollijiet
+29	7929	bluni	
+30	7930	kowd	
+31	7931	tektek	itektek ittektek jtektek jtektku ntektek tektik ttektek
+32	7932	margun	marguni mragen
+33	7933	klarinett	klarinetti klarinitti
+34	7934	gerriema	gerriemi
+35	7935	biżonti	
+36	7936	frugħa	frugħat
+37	7937	intraprendituri	
+38	7938	fejjieda	
+39	7939	ċuċ	ċwieċ
+40	7940	żeffen	iżeffnu iżżeffen jiżżeffnu jżeffen jżeffnu żeffintx żeffnu żżeffen żżeffnet
+41	7941	kunċettwali	
+42	7942	irreplika	irreplikaw jirreplika jirreplikaw jirreplikawx rreplikat tirreplika
+43	7943	manjifiku	manjifika
+44	7944	periferiċi	
+45	7945	moħba	moħbiet
+46	7946	esekuzzjonijiet	
+47	7947	paċpaċ	inpaċpaċ inpaċpċu ipaċpaċ ipaċpċu jpaċpċu npaċpċu paċpaċna tpaċpaċ
+48	7948	saġġ	
+49	7949	boortsog	
+50	7950	kwalifikanti	
+51	7951	kollok	
+52	7952	rikorrent	
+53	7953	stramberija	istramberija istramberiji stramberiji
+54	7954	affetwata	
+55	7955	sperma	isperma spermi
+56	7956	demel	
+57	7957	għallaq	għallqu għallquh jitgħallaq mgħallaq tgħallaq titgħallaq
+58	7958	deċenti	
+59	7959	iprem	
+60	7960	sedil	sedili
+61	7961	għarras	għarrasni mgħarras mgħarres mgħarrsa tgħarras tgħarrsu
+62	7962	moxt	moxtha moxtijiet
+63	7963	abbiss	abbissi abiss abissi
+64	7964	imta	imtajna mtajna timta
+65	7965	degradanti	
+66	7966	bluha	
+67	7967	paletta	paletti
+68	7968	ddeduċa	dedott iddeduċa jiddeduċi niddeduċu tiddeduċi
+69	7969	ikkrea	ikkreaw jikkrea jikkreaw kkreat kkreaw nikkreaw tikkrea tikkreax
+70	7970	lett	letta letti
+71	7971	kefrija	
+72	7972	żelu	zelu
+73	7973	għeliem	
+74	7974	eskorta	eskortat jeskorta jeskortah jeskortaw teskorta
+75	7975	ffanga	ffangat iffanga iffangar jiffanga jiffangaw tiffanga
+76	7976	insapportabbli	nsapportabbli
+77	7977	maktur	imkatar mkatar
+78	7978	sija	
+79	7979	venerazzjoni	
+80	7980	ispija	ispiji jispija spija spiji tispija
+81	7981	dekadenza	
+82	7982	qatran	
+83	7983	għeri	għerija għerja
+84	7984	ħmura	
+85	7985	remissa	remissi
+86	7986	herra	herrew herri jherri jherru mherri mherrija mherrijin therri
+87	7987	baldakkin	baldakkini
+88	7988	qastan	
+89	7989	armel	
+90	7990	vizzjuż	vizzjużi
+91	7991	teorikament	teoretikament
+92	7992	ċawsla	ċawsli
+93	7993	ħanex	ħniex
+94	7994	qdiem	jiqdiem qdiemet qdiemu tiqdiem
+95	7995	rebus	
+96	7996	terħa	terħieh trieħi
+97	7997	żooloġija	
+98	7998	nasba	nasbiet
+99	7999	interpretu	interpreti
+100	8000	ċċassa	iċċassa iċċassajt iċċassat jiċċassa jiċċassaw niċċassa niċċassaw tiċċassa ċċassat ċċassatni

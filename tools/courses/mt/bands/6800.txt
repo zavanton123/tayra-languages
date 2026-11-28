@@ -1,100 +1,100 @@
-1	6701	intendi	
-2	6702	rummien	rummiena
-3	6703	estremista	estremisti
-4	6704	ikkometta	ikkomettejna jikkomettix jikkomettu kkometta kkomettiet nikkometti
-5	6705	kkolonizza	ikkolonizza ikkolonizzat ikkolonizzaw jikkolonizza jikkolonizzaw kkolonizzat kkolonizzaw kkolonizzawhom kolonizzat tikkolonizza
-6	6706	ċpar	
-7	6707	nekropoli	
-8	6708	qattar	imqattar iqattar jqattar jqattarx jqattru nqattar qattarha qattret qattru taqtir tqattar tqattarx
-9	6709	għader	agħder għadir jagħder jagħdirna magħdur magħdura nagħder nagħdru tagħder tagħdirha tagħdirhom
-10	6710	sarima	
-11	6711	grati	
-12	6712	ġemel	iġmla ġemla
-13	6713	nord	
-14	6714	koerenza	
-15	6715	damask	
-16	6716	atteġġament	atteġġamenti
-17	6717	malarja	
-18	6718	tranżitorju	tranżitorja tranżitorji
-19	6719	soġġorn	soġġorna soġġorni
-20	6720	xammar	imxammar ixammar ixammru jxammar jxammru mxammar nxammru xammru
-21	6721	ġbejna	ġbejniet
-22	6722	multipli	
-23	6723	distributur	distributuri
-24	6724	sfieqa	
-25	6725	opus	
-26	6726	eċitament	eċċitament eċċitamenti
-27	6727	rifle	
-28	6728	nitfa	intietef ntietef
-29	6729	pavaljuni	
-30	6730	alwett	alwetta alwetti alwettiet
-31	6731	igglorifika	gglorifika gglorifikah gglorifikajtu gglorifikat igglorifikani igglorifikat igglorifikaw jigglorifika jigglorifikah jigglorifikaw tigglorifika tigglorifikah
-32	6732	kustilja	kustilji
-33	6733	enera	enerat enerax tenera teneri
-34	6734	emozzjona	emozzjonat jemozzjona jemozzjonaw jemozzjonax nemozzjona
-35	6735	limbu	
-36	6736	alterna	alternat alternaw jalterna jalternaw talterna
-37	6737	membrana	membrani
-38	6738	vjal	vjali
-39	6739	binhar	
-40	6740	kappar	kappara
-41	6741	kategoriku	kategorika
-42	6742	riporter	reporter
-43	6743	imminenti	
-44	6744	konsensus	
-45	6745	appartena	jappartieni jappartienu jappartienux tappartieni
-46	6746	esseri	
-47	6747	mħadda	imħadda imħaded mħaded
-48	6748	beżaq	beżaqlu beżqet beżqitlu beżqu bżaqt inbeżaq jobżoq jobżoqha jobżoqlu jobżqu jobżqulu mibżuq nbeżaq obżoq tobżoq tobżoqlu
-49	6749	sagramentali	
-50	6750	oasi	
-51	6751	riorganizzazzjoni	riorganizzazzjonijiet
-52	6752	dentist	
-53	6753	ħajra	ħajriet ħajritu
-54	6754	dekasteru	dekasteri
-55	6755	issapportja	issapportjajt issapportjat jissapportja jissapportjah jissapportjahom jissapportjaw nissapportja nissapportjaw ssapportjat tissapportja tissapportjahom tissapportjax
-56	6756	assunzjoni	assunzjonijiet
-57	6757	xjenzjati	
-58	6758	irrimedja	irrimedjat jirrimedja jirrimedjaha jirrimedjaw nirrimedja nirrimedjaw nirrimedjawha tirrimedja
-59	6759	deterrent	
-60	6760	grada	
-61	6761	xalata	xalati
-62	6762	lunari	
-63	6763	fotografiku	fotografika fotografiċi
-64	6764	ultat	ultati
-65	6765	masklu	maskli
-66	6766	raġjonevoli	
-67	6767	gwaj	
-68	6768	ittrasmetta	ittrażmettew jittrasmetti jittrasmettu jittrasmettuh jittrasmettux jittrażmetti jittrażmettu nittrasmettu tittrasmetti tittrasmettilek tittrażmetti ttrasmetta ttrażmetta ttrażmettew ttrażmettiet
-69	6769	fundatriċi	
-70	6770	sebaq	jisboq jisbqu sebqet sebqu tisboq
-71	6771	immortalità	immortalita
-72	6772	fieħ	fiħx ifuħ ifuħu infuħu jfuħ jfuħu tfuħ
-73	6773	punteġġ	punteġġi
-74	6774	demonju	demonji dimonju
-75	6775	parodija	parodiji
-76	6776	eżerċtu	eżerċti
-77	6777	evoke	
-78	6778	leaks	
-79	6779	insedjaturi	
-80	6780	gandlieri	
-81	6781	operazzjonali	
-82	6782	ikkomprometta	ikkompromettiex jikkomprometti jikkompromettu jikkompromettux kkomprometta kkompromettew nikkompromettu tikkomprometti tikkompromettilha tikkompromettina tikkompromettix
-83	6783	osa	
-84	6784	pern	prun
-85	6785	qliel	jiqliel qlielet
-86	6786	parapett	parapetti
-87	6787	vjolinista	vjolinisti
-88	6788	ġinnastika	
-89	6789	geddum	geddumhom geddumna geddumu
-90	6790	mortalità	mortalita
-91	6791	testimonjanza	testimonjanzi
-92	6792	tħassir	
-93	6793	aperturi	
-94	6794	ejjed	
-95	6795	ulta	
-96	6796	dinjitarju	dinjitarji
-97	6797	qubits	
-98	6798	pranzu	pranzijiet
-99	6799	boss	
-100	6800	seftur	seftura sefturi
+1	6701	xjenzjati	
+2	6702	dentist	
+3	6703	ħajra	ħajriet ħajritu
+4	6704	assunzjoni	assunzjonijiet
+5	6705	lunari	
+6	6706	irrimedja	irrimedjat jirrimedja jirrimedjaha jirrimedjaw nirrimedja nirrimedjaw nirrimedjawha tirrimedja
+7	6707	grada	
+8	6708	masklu	maskli
+9	6709	fotografiku	fotografika fotografiċi
+10	6710	xalata	xalati
+11	6711	raġjonevoli	
+12	6712	fundatriċi	
+13	6713	gwaj	
+14	6714	sebaq	jisboq jisbqu sebqet sebqu tisboq
+15	6715	immortalità	immortalita
+16	6716	punteġġ	punteġġi
+17	6717	parodija	parodiji
+18	6718	eżerċtu	eżerċti
+19	6719	demonju	demonji dimonju
+20	6720	insedjaturi	
+21	6721	gandlieri	
+22	6722	operazzjonali	
+23	6723	ikkomprometta	ikkompromettiex jikkomprometti jikkompromettu jikkompromettux kkomprometta kkompromettew nikkompromettu tikkomprometti tikkompromettilha tikkompromettina tikkompromettix
+24	6724	kkodifika	ikkodifikat jikkodifika jikkodifikah jikkodifikaw jikkodifikawx kkodifikat kkodifikaw kodifikat kodifikati tikkodifika
+25	6725	vjolinista	vjolinisti
+26	6726	qliel	jiqliel qlielet
+27	6727	ġinnastika	
+28	6728	pern	prun
+29	6729	geddum	geddumhom geddumna geddumu
+30	6730	parapett	parapetti
+31	6731	testimonjanza	testimonjanzi
+32	6732	tħassir	
+33	6733	osa	
+34	6734	mortalità	mortalita
+35	6735	boss	
+36	6736	aperturi	
+37	6737	dinjitarju	dinjitarji
+38	6738	pranzu	pranzijiet
+39	6739	seftur	seftura sefturi
+40	6740	proverbju	proverbji
+41	6741	matrimonjali	
+42	6742	interjuri	
+43	6743	salpa	isalpa isalpaw jsalpa jsalpaw salpajt salpat salpaw salpax
+44	6744	navi	
+45	6745	parteċipi	
+46	6746	sagrosant	sagrosanta sagrosanti
+47	6747	immaterjalizza	immaterjalizzaw jimmaterjalizza jimmaterjalizzaw mmaterjalizza mmaterjalizzat mmaterjalizzata mmaterjalizzaw mmaterjalizzawx mmaterjalizzax timmaterjalizza
+48	6748	sikurezza	
+49	6749	insulina	insulini
+50	6750	xhiex	
+51	6751	inċidentalment	nċidentalment
+52	6752	intervistati	ntervistati
+53	6753	sekondata	sekondati
+54	6754	mannara	imnanar mnanar
+55	6755	assikurazzjoni	assikurazzjonijiet
+56	6756	grezz	grezza grezzi grezzii
+57	6757	intolleranza	intolleranzi
+58	6758	immobilizza	immobbilizzat immobilizzat immobilizzata immobilizzaw jimmobbilizzaw jimmobilizza jimmobilizzaw mmobilizza mmobilizzat mmobilizzaw timmobbilizza timmobilizza
+59	6759	mazza	mazez mazzah
+60	6760	prattikanti	
+61	6761	notturna	notturni
+62	6762	farmaċewtika	
+63	6763	allarma	allarmat allarmaw jallarma jallarmah jallarmak jallarmaw jallarmawx jallarmax nallarma nallarmaw nallarmawx nallarmax tallarma
+64	6764	xkupa	ixkupa ixkupi xkupi
+65	6765	borgeżija	
+66	6766	indukra	indukrah indukrajna indukrat jindukra jindukrah jindukraha jindukrahom jindukrahx jindukraw ndukrat ndukraw nindukraw nindukrawha nindukrawhom tindukraw
+67	6767	giddeb	giddbet giddbu igiddbu igiddeb jgiddbu tgiddeb
+68	6768	madmad	
+69	6769	morra	inmorru jmorri morrani nmorru
+70	6770	aritmetika	
+71	6771	tupaja	tupaji
+72	6772	emerġenti	
+73	6773	prekursur	prekursuri
+74	6774	iskredita	jiskredita jiskreditah jiskreditaw jiskreditawlu skredita skreditat tiskredita tiskreditahom
+75	6775	abbonament	abbonamenti
+76	6776	annessjoni	annessjonijiet
+77	6777	friex	friexek friexu
+78	6778	sahar	ishru jishar jishru nishar nishru tishru
+79	6779	orfni	
+80	6780	aġevola	aġevolat jaġevola jaġevolah jaġevolaw naġevolaw taġevola
+81	6781	iddiversifika	ddiversifika ddiversifikat ddiversifikaw iddiversifikat iddiversifikaw jiddiversifika jiddiversifikaw niddiversifikaw tiddiversifika
+82	6782	wesgħa	wesgħajna wesgħat
+83	6783	evanġeliċi	
+84	6784	konklavi	
+85	6785	konfrontazzjoni	konfrontazzjonijiet
+86	6786	espressiv	espressiva espressivi
+87	6787	paviljun	paviljuni
+88	6788	minjatura	minjaturi
+89	6789	psikologa	psikologi psikoloġi
+90	6790	irriżolva	irriżolvew jirrisolvi jirrisolvu jirriżolvi jirriżolvu nirriżolvu nirriżolvuh nirriżolvuhom rriżolva tirrisolvi tirriżolvi
+91	6791	imbarazz	mbarazz
+92	6792	tberbiq	
+93	6793	datazzjoni	datazzjonijiet
+94	6794	kolonjalista	kolonjalist kolonjalisti
+95	6795	simetrija	simetriji
+96	6796	erojku	erojka erojċi
+97	6797	arrondissement	arrondissements
+98	6798	apprendistat	apprendistati
+99	6799	ossidu	ossidi
+100	6800	nunzjatura	nunzjaturi

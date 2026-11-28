@@ -1,100 +1,100 @@
-1	7301	kontrattwanti	
-2	7302	xamma	
-3	7303	inċens	
-4	7304	armamenti	
-5	7305	lessikali	
-6	7306	ġarra	ġarar
-7	7307	qmis	qomos
-8	7308	paralimpiku	
-9	7309	bassasa	bassasijiet
-10	7310	kanna	kanni
-11	7311	ħaf	inħuf iħuf iħufu jħuf jħufu nħuf tħuf ħafni
-12	7312	ħaffa	inħaffu iħaffu jħaffu jħaffulna nħaffu ħaffew
-13	7313	jaqaw	jaqawx
-14	7314	xafra	xfafar
-15	7315	ispejga	jispejga spejga spejgalu spejgat
-16	7316	ikklikkja	ikklikkjaw jikklikkja kklikkja tikklikkja
-17	7317	soldi	
-18	7318	inklinazzjoni	inklinazzjonijiet
-19	7319	kreditur	kredituri
-20	7320	bomblu	bombli
-21	7321	offside	
-22	7322	dentista	dentisti
-23	7323	itpaxxa	jitpaxxa nitpaxxa titpaxxa tpaxxa tpaxxejt
-24	7324	tlajja	jitlajja jitlajjaw nitlajja tlajjajna tlajjar tlajjat tlajjiet
-25	7325	sprint	isprint isprints
-26	7326	mogħdrija	
-27	7327	qajjma	inqajjmu iqajjmu jqajjmu jqajjmuh jqajjmulu jqajjmuni nqajjmu tqajjmu
-28	7328	ħajku	
-29	7329	żjieda	
-30	7330	jeratika	
-31	7331	devils	
-32	7332	ittermina	itterminaw jittermina jitterminaw nitterminaw tittermina ttermina tterminat tterminaw
-33	7333	infettata	nfettata
-34	7334	personalizzati	
-35	7335	presbiterali	
-36	7336	kwestjonarju	kwestjonarji
-37	7337	parole	
-38	7338	refettorju	refettorji
-39	7339	balavostri	
-40	7340	brigata	brigati
-41	7341	klimatiċi	
-42	7342	serratura	serraturi
-43	7343	ammonju	ammonja
-44	7344	kustodju	
-45	7345	foam	
-46	7346	burraxka	burraxki
-47	7347	indenja	indenjaw jindenja ndenja ndenjajtx ndenjax nindenjaw tindenjaw
-48	7348	risorsi	
-49	7349	apparentement	
-50	7350	xettru	xettri
-51	7351	skartoċċ	iskartoċċ iskrataċ skrataċ
-52	7352	instiga	instigahom instigat instigaw jinstiga jinstigahom jinstigaw ninstiga nstigaw
-53	7353	estremiżmu	estremiżmi
-54	7354	topografija	topografiji
-55	7355	analogu	analoga analogi
-56	7356	żerniq	
-57	7357	sorprendenti	
-58	7358	stampatur	istampatur istampaturi stampaturi
-59	7359	ikkonċeda	ikkonċedejna ikkonċedielna ikkonċediet jikkonċedi jikkonċedili jikkonċedu kkonċeda kkonċedew kkonċediet kkonċediex nikkonċedi tikkonċedi
-60	7360	beżgħan	beżgħana
-61	7361	perli	
-62	7362	xiref	jixref nixref tixref xirfet xirfu
-63	7363	multikulturali	
-64	7364	tisfira	
-65	7365	nri	inri
-66	7366	katekumenat	
-67	7367	sikket	isikket isikktu isikktuna issikket jsikket jsikkitha jsikkithom jsikktuna msikket nsikktu sikkitt sikkittu sikktu
-68	7368	musketterija	
-69	7369	istimola	jistimola jistimolah jistimolaw nistimola nistimolaw stimolat stimolaw tistimola
-70	7370	ipprivatizza	jipprivatizza jipprivatizzaha jipprivatizzaw nipprivatizzaw pprivatizza pprivatizzat tipprivatizza
-71	7371	suxxettibbli	
-72	7372	integral	
-73	7373	vakat	vakata vakati
-74	7374	ċarċar	iċarċar jċarċar jċarċru ċarċarx ċarċir ċarċret ċarċru ċċarċar ċċarċarx
-75	7375	tallum	
-76	7376	kumpliment	kumplimenti
-77	7377	tuffieħ	
-78	7378	barbier	
-79	7379	oppressjoni	oppressjonijiet
-80	7380	patrunaġġ	patrunaġġi
-81	7381	tablet	
-82	7382	meraħ	imraħ imraħt jimraħ mraħt nimraħ timraħ
-83	7383	istrateġisti	strateġisti
-84	7384	parla	inparla inparlaw iparla iparlaw jparla jparlaw jparlax parlaw tparla
-85	7385	martell	imrietel mrietel
-86	7386	żunżan	żnażan żunżana
-87	7387	infiltra	infiltrat infiltraw jinfiltra jinfiltraw nfiltra nfiltrat tinfiltra
-88	7388	ballu	
-89	7389	dulluvju	dilluvju
-90	7390	ċelebrità	ċelebrita ċelebritajiet
-91	7391	populista	populisti
-92	7392	katusa	katusi
-93	7393	irriżolva	irriżolvew jirriżolvi jirriżolvu nirriżolvu nirriżolvuh nirriżolvuhom rriżolva tirriżolvi
-94	7394	iskolpixxa	jiskolpixxi jiskolpixxu skolpixxa tiskolpixxi
-95	7395	irrikonċilja	irrikonċiljaw jirrikonċilja jirrikonċiljana jirrikonċiljaw nirrikonċiljaw rrikonċilja rrikonċiljat rrikonċiljaw tirrikonċilja
-96	7396	ġostra	
-97	7397	indispost	indisposti
-98	7398	inganna	ingannat ingannaw jinganna jingannaw jingannawhom nganna ngannaw tinganna
-99	7399	gerrex	gerrxu gerrxuni igerrex igerrxu imgerrex jgerrex jgerrixhom jgerrixx jgerrxu ngerrex tgerrex tgerrix tgerrxu
-100	7400	diskret	diskreta diskreti
+1	7301	burdura	burduri
+2	7302	riesqa	
+3	7303	pitrolju	petrolju
+4	7304	dispaċċ	dispaċċa dispaċċi
+5	7305	xitwi	xitwija xitwin
+6	7306	konnettività	konnettivita
+7	7307	animaturi	
+8	7308	sfiqa	
+9	7309	riċevuti	
+10	7310	minduda	
+11	7311	deffes	deffisna deffist deffset iddeffes iddeffsu ideffes ideffsu indeffsu jdeffes jdeffsu mdeffes ndeffsu
+12	7312	nej	nejja nejjin
+13	7313	rahan	jirhan rahnet tirhan
+14	7314	aromatiċi	
+15	7315	pawsa	
+16	7316	medjokrità	medjokrita
+17	7317	xettel	inxettlu ixettel ixettlu jxettel jxettlu xettilna xettlet xettlu xxettel xxettlu
+18	7318	handbike	
+19	7319	infografika	
+20	7320	ippronunzja	ippronunzjat ippronunzjaw jippronunzja jippronunzjah jippronunzjaw nippronunzjaw ppronunzjat ppronunzjaw tippronunzja tippronunzjaha
+21	7321	taxxabbli	
+22	7322	sintomu	
+23	7323	bittija	bettija btieti
+24	7324	iddjaloga	iddjalogaw jiddjaloga jiddjalogaw niddjaloga niddjalogaw tiddjaloga
+25	7325	nawtiku	nawtika
+26	7326	xjuħija	xjuħitha xjuħithom xjuħitu
+27	7327	boxxla	
+28	7328	imbarazzanti	mbarazzanti
+29	7329	kines	inkines inkinsu jikinsu jiknes kinishom kinsa kinset kinsu knis knisu miknus miknusa niknes niknisha nkinsu tiknes
+30	7330	oxxenità	oxxenita oxxenitajiet
+31	7331	arkeoloġi	
+32	7332	misluta	imsielet msielet
+33	7333	radikalment	
+34	7334	ferra	iferra jferra jitferra nferra tferra tferrix titferra
+35	7335	ripatrijazzjoni	
+36	7336	akropoli	
+37	7337	ammen	amen
+38	7338	ġebbed	imġebbed inġebbdu inġebbduha inġebbed iġebbdu iġebbduha iġebbed iġebbidna iġġebbdu iġġebbed jġebbdu jġebbduh jġebbduha jġebbed jġebbidli mġebbed nġebbdu ġebbidna
+39	7339	ħanfus	ħanfusa ħanfusiet ħniefes
+40	7340	rodituri	
+41	7341	qaddief	qaddiefa
+42	7342	konfessjonarju	konfessjonarji
+43	7343	leġislatur	
+44	7344	historia	historii
+45	7345	eċċita	eċitat eċċitat jeċita jeċitani neċita teċita teċitani
+46	7346	informattivi	nformattivi
+47	7347	kikkra	kikkri
+48	7348	tikħil	tikħila
+49	7349	embargo	embargoi
+50	7350	invalidu	invalidi
+51	7351	sata	satax
+52	7352	minaturi	
+53	7353	portwali	
+54	7354	porfirju	
+55	7355	bandalori	
+56	7356	ambjenta	ambjentat jambjenta jambjentah jambjentaw tambjenta
+57	7357	bajsikil	bajsikils bicycle
+58	7358	ċajpar	imċajpar inċajpru iċajpar jiċċajpar jċajpar jċajpru mċajpar ċajpru ċċajpar ċċajparli ċċajpret ċċajpru
+59	7359	faħxi	faħxija
+60	7360	taġen	taġnijiet twaġen
+61	7361	fiddien	fiddiena fiddieni
+62	7362	dispensa	dispensi
+63	7363	assalt	assalta assalti
+64	7364	batteżimali	
+65	7365	preżunzjoni	preżunzjonijiet
+66	7366	sentimentali	
+67	7367	skarpan	iskarpan iskrapan skrapan
+68	7368	itbiegħda	jitbiegħdu nitbiegħdu titbiegħdu
+69	7369	solstizju	solstizji
+70	7370	hindu	
+71	7371	irristruttura	irristrutturat jirristruttura jirristrutturaw nirristrutturaw rristruttura rristrutturat tirristruttura
+72	7372	newtrini	
+73	7373	superstizzjoni	superstizzjonijiet
+74	7374	għaġġeb	għaġġbet għaġġbitni għaġġibna igħaġġeb imgħaġġeb jgħaġġbu jgħaġġbuk jgħaġġeb jgħaġġibna jgħaġġibni mgħaġġba mgħaġġbin ngħaġġbu tgħaġġeb tgħaġġibni
+75	7375	mmaniġġa	immaniġġa immaniġġar jimmaniġġa jimmaniġġaw maniġġar mmaniġġar mmaniġġata
+76	7376	ruxxmata	ruxxmati
+77	7377	glandola	glandoli
+78	7378	agglomerazzjoni	agglomerazzjonijiet
+79	7379	fuqiex	
+80	7380	ipokresija	
+81	7381	opinjonisti	
+82	7382	lingwisti	
+83	7383	viżibbilment	
+84	7384	patrijarkali	
+85	7385	rinviju	rinviji
+86	7386	sfratta	jisfratta jisfrattaha jisfrattaw jisfrattawlek jisfrattawlhom jisfrattawlna jisfrattax nisfrattaw sfrattat sfrattaw
+87	7387	sawwab	imsawwab insawwab isawbu isawwab issawwab jissawbu jissawwab jsawwab msawwab nsawbu nsawwab nsawwabx sawwabt ssawbet ssawwab
+88	7388	baqgħa	baqgħax
+89	7389	irrilassa	jirrilassa jirrilassaw nirrilassa nirrilassaw tirrilassa tirrilassani
+90	7390	reċipjenti	
+91	7391	rokokò	rokoko
+92	7392	iżolazzjoni	
+93	7393	mux	muxu
+94	7394	iskatta	jiskatta jiskattaw skatta skattat skattaw skattax tiskatta
+95	7395	anfiteatru	anfiteatri
+96	7396	primordjali	
+97	7397	sejf	sejfijiet
+98	7398	kuntrattwali	
+99	7399	għammex	għammixlu jgħammex jgħammixna jgħammxu jgħammxulna mgħammex tgħammex tgħammixlu
+100	7400	suppożizzjonijiet	

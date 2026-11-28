@@ -1,100 +1,100 @@
-1	6401	esegwixxa	esegwixxiet jesegwixxi jesegwixxu tesegwixxi
-2	6402	iħra	iħrax jiħrax jiħraxu tiħrax ħra ħrax ħraxli ħraxu
-3	6403	pulptu	pulpti
-4	6404	dittatorjat	dittatorjati
-5	6405	keffa	kefef
-6	6406	irriduċa	irriduċejna irriduċew irriduċiet jirriduċi jirriduċu nirriduċu nirriduċuha rriduċa rriduċejna rriduċejnieh rriduċew rriduċewha rriduċewlu rriduċiet tirriduċi
-7	6407	vvaluta	ivvaluta ivvalutar ivvalutat jivvaluta jivvalutahom jivvalutaw jivvalutawhom jivvalutawlu jivvalutawx nivvaluta nivvalutaw tivvaluta valutar valutat vvalutat vvalutaw
-8	6408	problematiku	problematika problematiċi
-9	6409	ismar	samra somor
-10	6410	kollhu	
-11	6411	karreġġata	karreġġati
-12	6412	momentu	momenti
-13	6413	xoffa	xofftejh xofftejha xofftejhom xofftejn xofftejna xofftu xufftejh xufftejhom xufftejn
-14	6414	fortifikazzjoni	
-15	6415	suffara	saffara sfafar
-16	6416	koabitazzjoni	
-17	6417	elettromanjetiku	elettromanjetika elettromanjetiċi
-18	6418	bagħal	bagħla bagħli bgħula
-19	6419	intermedju	intermedja intermedji
-20	6420	iqerr	iqerru jqerr jqerru
-21	6421	qamħirrum	qamħirrun
-22	6422	manifattur	
-23	6423	spettru	ispettri ispettru spettri
-24	6424	patrijott	patrijotti
-25	6425	dija	
-26	6426	tamar	itmar tamal tamra tmar
-27	6427	kolossali	
-28	6428	kukkudrill	kukkudrilli
-29	6429	tqabad	jitqabad jitqabdu nitqabdu nitqabdux titqabad titqabdu tqabadt tqabdet tqabdu
-30	6430	kuntrabandu	
-31	6431	ltim	iltiema iltim iltima ltiema
-32	6432	sisa	
-33	6433	mobajl	mobajls
-34	6434	loqma	loqom
-35	6435	jag	
-36	6436	librett	libretti
-37	6437	pirjol	pirjola pirjoli
-38	6438	fattizzi	
-39	6439	insulta	insultah insultalu insultani insultat insultaw jinsulta jinsultah jinsultani jinsultaw ninsultaw nsultani nsultax tinsulta tinsultana
-40	6440	għandom	għandomx
-41	6441	iddiskrimina	ddiskriminat iddiskriminawx jiddiskrimina jiddiskriminaw jiddiskriminawx jiddiskriminax niddiskriminaw tiddiskrimina tiddiskriminax
-42	6442	leopard	leoparda leopardi
-43	6443	evażjoni	
-44	6444	kinder	
-45	6445	eliminata	
-46	6446	velu	veli velijiet
-47	6447	transnazzjonali	
-48	6448	umoriżmu	
-49	6449	rreffja	irreffja irreffjajt irreffjar irreffjaw irrefja jirreffja jirreffjaw jirrefja jirrefjaw jirrefjawx nirreffja rreffjajt rreffjajtu rrefjajt tirreffja
-50	6450	infondati	nfondati
-51	6451	reġġent	reġġenti
-52	6452	arbitraġġ	arbitraġġi
-53	6453	buffu	buffa buffi
-54	6454	entużjasta	entużjasti
-55	6455	saqqu	saqqijiet
-56	6456	assessja	assessjar assessjat jassessjaw nassessjaw tassessja
-57	6457	kexxun	kxaxen kxejjen
-58	6458	powerstation	
-59	6459	ddibatta	ddibattew dibattut iddibattejna iddibattew jiddibatti jiddibattiha jiddibattu jiddibattuha niddibatti niddibattu tiddibatti
-60	6460	nulla	nulli
-61	6461	previżjoni	previżjonijiet
-62	6462	trankwillità	trankwillita
-63	6463	mortali	
-64	6464	kummerċjanti	
-65	6465	eċċeda	eċċedew eċċediet eċċedietx jeċċedi jeċċedix jeċċedu jeċċedux neċċedu teċċedi teċċedix
-66	6466	troll	
-67	6467	shuttle	
-68	6468	preċedentement	
-69	6469	koxxa	koxox koxxitha koxxtejhom koxxtejn koxxtu
-70	6470	sinjifikat	sinjifikati
-71	6471	telefonija	
-72	6472	għaraq	
-73	6473	rass	irossu jross marsus marsusa marsusin rassejt rasset tross trosshom trosshomx trossna trossux
-74	6474	novizz	novizzi
-75	6475	inkwerenti	
-76	6476	dixxiplinarji	
-77	6477	stupend	istupenda stupenda stupendi
-78	6478	karba	
-79	6479	bard	
-80	6480	bugħaddas	bugħaddasa
-81	6481	milizzja	milizzji
-82	6482	spiżjara	
-83	6483	fossilu	fossila
-84	6484	mbikkem	imbikkem imbikkma imbikkmin mbikkma
-85	6485	offshore	
-86	6486	rubrika	rubriki
-87	6487	biċċerija	biċċeriji
-88	6488	żrar	żrara
-89	6489	negozjatur	negozjaturi
-90	6490	tari	tarja
-91	6491	lanza	lanez lanzai
-92	6492	kisja	
-93	6493	ħruxija	ħruxijiet
-94	6494	irreparabbli	rreparabbli
-95	6495	kollezzjonist	kollezzjonista kollezzjonisti
-96	6496	imbarka	imbarkajna imbarkat imbarkaw jimbarka jimbarkaw mbarka mbarkajt mbarkaw nimbarkaw timbarka
-97	6497	internat	internati nternat
-98	6498	faga	fgat fgatha fgaw jifga jifgaha jifgak jifgalna jifgana jifgax nifga nifgaw tifga tifgak
-99	6499	pontifikat	
-100	6500	indifferenti	
+1	6401	ltim	iltiema iltim iltima ltiema
+2	6402	tamar	itmar tamal tmar
+3	6403	sisa	
+4	6404	fattizzi	
+5	6405	loqma	loqom
+6	6406	librett	libretti
+7	6407	insulta	insultah insultalu insultani insultat insultaw jinsulta jinsultah jinsultani jinsultaw ninsultaw nsultani nsultax tinsulta tinsultana
+8	6408	aġġustament	aġġustamenti
+9	6409	għandom	għandomx
+10	6410	pirjol	pirjola pirjoli
+11	6411	iddiskrimina	ddiskriminat iddiskriminawx jiddiskrimina jiddiskriminaw jiddiskriminawx jiddiskriminax niddiskriminaw tiddiskrimina tiddiskriminax
+12	6412	leopard	leoparda leopardi
+13	6413	eliminata	
+14	6414	evażjoni	
+15	6415	transnazzjonali	
+16	6416	velu	veli velijiet
+17	6417	reġġent	reġġenti
+18	6418	kinder	
+19	6419	rreffja	irreffja irreffjajt irreffjar irreffjaw irrefja jirreffja jirreffjaw jirrefja jirrefjaw jirrefjawx nirreffja rreffjajt rreffjajtu rrefjajt tirreffja
+20	6420	infondati	nfondati
+21	6421	buffu	buffa buffi
+22	6422	entużjasta	entużjasti
+23	6423	saqqu	saqqijiet
+24	6424	arbitraġġ	arbitraġġi
+25	6425	powerstation	
+26	6426	kexxun	kxaxen kxejjen
+27	6427	ddibatta	ddibattew dibattut iddibattejna iddibattew jiddibatti jiddibattiha jiddibattu jiddibattuha niddibatti niddibattu tiddibatti
+28	6428	nulla	nulli
+29	6429	previżjoni	previżjonijiet
+30	6430	mortali	
+31	6431	trankwillità	trankwillita
+32	6432	kummerċjanti	
+33	6433	preċedentement	
+34	6434	eċċeda	eċċedew eċċediet eċċedietx jeċċedi jeċċedix jeċċedu jeċċedux neċċedu teċċedi teċċedix
+35	6435	koxxa	koxox koxxitha koxxtejhom koxxtejn koxxtu
+36	6436	sinjifikat	sinjifikati
+37	6437	inkwerenti	
+38	6438	telefonija	
+39	6439	rass	irossu jross marsus marsusa marsusin rassejt rasset tross trosshom trosshomx trossna trossux
+40	6440	novizz	novizzi
+41	6441	għaraq	
+42	6442	dixxiplinarji	
+43	6443	stupend	istupenda stupenda stupendi
+44	6444	fossilu	fossila
+45	6445	bugħaddas	bugħaddasa
+46	6446	milizzja	milizzji
+47	6447	karba	
+48	6448	bard	
+49	6449	mbikkem	imbikkem imbikkma imbikkmin mbikkma
+50	6450	ikkumpensa	ikkompensat ikkumpensat jikkompensa jikkompensaw jikkumpensa jikkumpensah jikkumpensaw kkumpensa kkumpensajna kkumpensat kkumpensatx kkumpensaw tikkumpensa tikkumpensax
+51	6451	rubrika	rubriki
+52	6452	negozjatur	negozjaturi
+53	6453	biċċerija	biċċeriji
+54	6454	irreparabbli	rreparabbli
+55	6455	kisja	
+56	6456	tari	tarja
+57	6457	lanza	lanez lanzai
+58	6458	ħruxija	ħruxijiet
+59	6459	kollezzjonist	kollezzjonista kollezzjonisti
+60	6460	internat	internati nternat
+61	6461	imbarka	imbarkajna imbarkat imbarkaw jimbarka jimbarkaw mbarka mbarkajt mbarkaw nimbarkaw timbarka
+62	6462	pontifikat	
+63	6463	faga	fgat fgatha fgaw jifga jifgaha jifgak jifgalna jifgana jifgax nifga nifgaw tifga tifgak
+64	6464	indifferenti	
+65	6465	affordja	jaffordja jaffordjaw jaffordjawx jaffordjax naffordjaw naffordjawx naffordjax taffordja taffordjax
+66	6466	żeblaħ	imżeblaħ inżebilħu inżebilħuha iżebilħu iżeblaħ iżżeblaħ jżebilħu jżeblaħ mżeblaħ żeblaħna żebliħ
+67	6467	fiżjoloġija	
+68	6468	sadd	isodd isoddha isoddlu isoddu isoddulu issodd jsodd jsoddu misdud nsodd saddejt saddet saddilhom sodd soddu ssodd
+69	6469	episkopat	
+70	6470	werwer	imwerwer iwerwer iwerwirni iwerwru jitwerwer jitwerwru jwerwer jwerwru jwerwruk mwerwer nitwerwer nitwerwru titwerwer twerwer twerwirt twerwret twerwru werwirni
+71	6471	missielta	
+72	6472	faqqiegħ	faqqiegħa
+73	6473	bur	bura burek burok bwar ibwar
+74	6474	purità	purita puritana
+75	6475	medina	medini
+76	6476	analoġija	analoġiji
+77	6477	mnut	imnut
+78	6478	preistorja	
+79	6479	modalità	modalitajiet
+80	6480	ksib	
+81	6481	koordinatur	koordinaturi
+82	6482	petali	
+83	6483	akkompanjament	akkumpanjament akkumpanjamenti
+84	6484	volpi	volpijiet
+85	6485	brigadier	
+86	6486	ġġerra	jiġġerra jiġġerrew niġġerrew tiġġerra
+87	6487	ostaġġ	ostaġġi
+88	6488	sussidjarjetà	sussidjarjeta
+89	6489	dros	
+90	6490	kambju	kambji
+91	6491	singular	
+92	6492	evoka	jevoka jevokah jevokaw tevoka
+93	6493	kast	kasta kasti
+94	6494	fajjar	fajjarlu fajjart ifajjar jfajjar jfajru titfajjar
+95	6495	kunfidenzjalità	kunfidenzjalita
+96	6496	tarmak	
+97	6497	nasab	insibek insibha insibhom insibilhom insibilkom insiblek jonsbu jonsbuh jonsbuni jonsob jonsobhom minsub minsuba nasablu nasbu nsibek nsibha nsibhom nsibilhom nsiblu tonsob
+98	6498	skomunika	iskomunika iskomuniki jiskomunika jiskomunikah skomunikat skomunikaw
+99	6499	dwardu	
+100	6500	digi	

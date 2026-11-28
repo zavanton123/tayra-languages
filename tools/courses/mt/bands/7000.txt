@@ -1,100 +1,100 @@
-1	6901	kronoloġija	kronoloġiji
-2	6902	emfasi	
-3	6903	diżinn	
-4	6904	disponibbiltà	
-5	6905	esklużivament	
-6	6906	kmiem	
-7	6907	rovina	rovini
-8	6908	korteo	
-9	6909	oskur	joskura joskurahom joskuraw oskura oskurat oskuri
-10	6910	tessera	tesseri
-11	6911	kobba	
-12	6912	kalifat	kalifati kaliffat kaliffati
-13	6913	għaksa	għekiesi
-14	6914	vjolazzjoni	vjolazzjonijiet
-15	6915	immanipula	immanipulat immanipulata jimmanipula jimmanipulana jimmanipulaw mmanipulat mmanipulaw timmanipula
-16	6916	ġlata	
-17	6917	għaġla	
-18	6918	igwida	gwidat gwidaw iggwida iggwidaha iggwidana jigwida jigwidah jigwidahom jigwidaw jigwidawna tigwida tigwidana
-19	6919	infinità	infinitajiet
-20	6920	ippakkjar	ppakkjar
-21	6921	lleġiżla	illeġiżla illeġiżlat jilleġiżla jilleġiżlaw jilleġiżlax leġiżlat nilleġiżlaw tilleġiżla
-22	6922	saħħara	
-23	6923	werrej	werrejja
-24	6924	tletinijiet	
-25	6925	awtorevoli	
-26	6926	viġilanti	
-27	6927	kjarifika	kjarifiki
-28	6928	mant	manta manti mantijiet
-29	6929	lanterna	lanterni
-30	6930	xniegħat	
-31	6931	sepulkru	sepulkri
-32	6932	jonijiet	
-33	6933	missa	missejna missejniex missejt missejtu missew missewx missini missitha missitna missitu tmissa
-34	6934	nerv	nervi
-35	6935	alluda	alludiet jalludi jalludu nalludi talludi
-36	6936	kundannabbli	
-37	6937	nemes	inmsa
-38	6938	jin	
-39	6939	etimoloġija	etimoloġiji
-40	6940	awsterità	
-41	6941	temperament	temperamenti
-42	6942	aġġastja	aġġusta aġġustat jaġġusta jaġġustaw naġġustaw taġġusta
-43	6943	materna	materni
-44	6944	kommossjoni	
-45	6945	allegorija	allegoriji
-46	6946	deludenti	
-47	6947	frontispizju	
-48	6948	interaġixxa	interaġixxew interaġixxiet jinteraġixxi jinteraġixxu ninteraġixxu tinteraġixxi
-49	6949	supremazija	
-50	6950	kokka	kokki kokkiet kokkina
-51	6951	viċinat	viċinati
-52	6952	parowl	
-53	6953	amalgamazzjoni	amalgamazzjonijiet
-54	6954	denunzja	denunzji
-55	6955	formalità	formalita formalitajiet
-56	6956	materjaliżmu	
-57	6957	lupi	
-58	6958	ħarat	jaħartu jaħartuh jaħrat jinħarat jinħartu maħruta naħartu nħartet tinħarat ħart ħrit
-59	6959	estratt	estratti
-60	6960	naffar	inaffar inaffru inaffruhom jnaffar jnaffarhom jnaffarx jnaffru jnaffrux naffarx naffret naffritu naffritx naffru tnaffar tnaffru
-61	6961	propagazzjoni	
-62	6962	abru	abra
-63	6963	voto	
-64	6964	sinjorina	sinjorini
-65	6965	indiċjar	
-66	6966	konsolidazzjoni	konsolidazzjonijiet
-67	6967	serduq	serduk sriedaq
-68	6968	sammar	imsammar insammru isammar isammru jissammar jissammru jsammru jsammruna msammar nissammru sammarna sammru sammruh ssammar tismir
-69	6969	velja	velji
-70	6970	patoloġija	patoloġiji
-71	6971	klimatika	
-72	6972	indiġenu	
-73	6973	protettorat	protettorati
-74	6974	maestà	
-75	6975	triloġija	triloġiji
-76	6976	fattibbli	
-77	6977	notarili	
-78	6978	talin	
-79	6979	restawratur	restawraturi
-80	6980	trijonfali	
-81	6981	ġeoloġika	
-82	6982	metodoloġija	metodoloġiji
-83	6983	giugno	
-84	6984	trasfużjoni	trasfużjonijiet
-85	6985	andux	
-86	6986	helpline	
-87	6987	tokki	
-88	6988	riżolta	riżolti
-89	6989	għodos	jogħdos jogħdsu togħdos
-90	6990	ġentlom	ġentlomi
-91	6991	żahar	tiżhir
-92	6992	ħadma	
-93	6993	ert	erta
-94	6994	presbiteri	
-95	6995	wie	wiex
-96	6996	għeja	għejiha negħjewx tegħjewx
-97	6997	tursin	
-98	6998	ffalsifika	falsifikar falsifikat ffalsifikaw iffalsifika iffalsifikahom iffalsifikar iffalsifikat tiffalsifika
-99	6999	karab	jokrob krabna krib nokorbu nokrob tokrob
-100	7000	żnied	żniedhom żniedu
+1	6901	triloġija	triloġiji
+2	6902	indiġenu	
+3	6903	protettorat	protettorati
+4	6904	maestà	
+5	6905	fattibbli	
+6	6906	notarili	
+7	6907	talin	
+8	6908	restawratur	restawraturi
+9	6909	trijonfali	
+10	6910	ġeoloġika	
+11	6911	riżolta	riżolti
+12	6912	metodoloġija	metodoloġiji
+13	6913	tokki	
+14	6914	ħadma	
+15	6915	għodos	jogħdos jogħdsu togħdos
+16	6916	ġentlom	ġentlomi
+17	6917	presbiteri	
+18	6918	ffalsifika	falsifikar falsifikat ffalsifikaw iffalsifika iffalsifikahom iffalsifikar iffalsifikat tiffalsifika
+19	6919	għeja	għejiha negħjewx tegħjewx
+20	6920	tursin	
+21	6921	żnied	żniedhom żniedu
+22	6922	karab	jokrob krabna krib nokorbu nokrob tokrob
+23	6923	kumpann	kumpanni
+24	6924	pressa	
+25	6925	parassiti	
+26	6926	ipokrezija	
+27	6927	perjodikament	
+28	6928	insalata	insalati nsalata
+29	6929	diżapprovazzjoni	
+30	6930	riefnu	irwiefen rwiefen
+31	6931	tallab	tallaba tallabha tallabi
+32	6932	prossimità	
+33	6933	omnipotenti	onnipotenti
+34	6934	marġinali	
+35	6935	ikkonċeda	ikkonċedejna ikkonċedielna ikkonċediet jikkonċedi jikkonċedili jikkonċedu kkonċeda kkonċedew kkonċediet kkonċediex nikkonċedi tikkonċedi
+36	6936	komiks	
+37	6937	progressjoni	progressjonijiet
+38	6938	podju	
+39	6939	negliġenza	
+40	6940	ħżien	jeħżienu jiħżienu teħżien tiħżien ħżienet ħżienu
+41	6941	gwerrer	
+42	6942	irresponsabbiltà	irresponsabbilta rresponsabbilta rresponsabbiltajiet rresponsabbiltà
+43	6943	xxurtjati	ixxurtjati
+44	6944	iraċi	
+45	6945	nida	
+46	6946	dwell	
+47	6947	lukandiera	lukandieri
+48	6948	ċarezza	
+49	6949	marġini	
+50	6950	immassimizza	jimmassimizza jimmassimizzaw mmassimizzat mmassimizzata mmassimizzaw nimmassimizzaw timmassimizza
+51	6951	atriju	atriji
+52	6952	superordni	superordnijiet
+53	6953	ċumnija	ċmieni
+54	6954	ttardja	ittardja ittardjaha ittardjar ittardjat jittardja jittardjalek jittardjaw tittardja ttardjalna ttardjat ttardjaw
+55	6955	kwadrivettur	kwadrivetturi
+56	6956	nukleu	nuklei
+57	6957	seddaq	imseddaq iseddaq iseddqu isseddaq jseddaq jseddaqlek jseddqu seddqu sseddaq sseddaqhom sseddqu
+58	6958	saffar	
+59	6959	ekwatorjali	
+60	6960	nutrizzjoni	
+61	6961	jqarar	iqarar iqararha
+62	6962	idderiġa	dderiġa dderiġieni dderiġina ddiriġa ddiriġew ddiriġieh ddiriġiet ddiriġiha iddiriġa iddiriġejtu iddiriġiet jidderiġi jidderiġiha jiddiriġi jiddiriġihom tidderiġi tidderiġihom tidderiġina tiddiriġi
+63	6963	attiviżmu	
+64	6964	versa	
+65	6965	pożi	
+66	6966	dota	doti
+67	6967	xbejba	xbejbiet
+68	6968	preġju	preġji
+69	6969	minhom	
+70	6970	għoġol	għoġġiela
+71	6971	koerenti	
+72	6972	kasu	kasi
+73	6973	sottofamilja	sottofamilji
+74	6974	xaqlibiet	
+75	6975	talpi	
+76	6976	intestaturi	
+77	6977	qarben	inqarben iqarben iqarbinha iqarbinhom jqarben jqarbnu mqarben qarbinha qarbnu tqarben tqarbinna tqarbnu
+78	6978	muntaġġ	muntaġġi
+79	6979	abbonat	abbonati
+80	6980	intaxxa	intaxxah intaxxat jintaxxa jintaxxah jintaxxaha jintaxxaw jintaxxax nintaxxaw ntaxxa ntaxxahom ntaxxat tintaxxa
+81	6981	fenda	fendejt fendi ifendi ifendu infendi jfendi jfendix jfendu nfendu tfendi
+82	6982	pinzell	pniezel
+83	6983	ppreskriva	jippreskrivi jippreskrivu jippreskrivulu preskritt tippreskrivi
+84	6984	apatija	
+85	6985	farraġ	farraġni farrġu ifarraġ ifarraġha ifarraġhom ifarraġni infarrġu jfarraġ jfarraġhom jfarraġna jfarrġu nfarraġ nfarrġu tfarraġ tfarraġni tfarrġu
+86	6986	enfażizza	enfażizzat jenfażizzaw tenfażizza
+87	6987	saġġa	saġġi
+88	6988	rispettabbli	
+89	6989	awditjar	
+90	6990	reklutaġġ	reklutaġġi
+91	6991	ċarġ	ċarġijiet
+92	6992	tarznari	
+93	6993	sottoġeneru	sottoġeneri
+94	6994	affinità	affinita affinitajiet
+95	6995	kollettur	kolletturi
+96	6996	preferibbilment	
+97	6997	nodi	
+98	6998	qatla	qatli qatliet
+99	6999	awtoritarju	awtoritarja awtoritarji
+100	7000	omosesswalità	omosesswalita

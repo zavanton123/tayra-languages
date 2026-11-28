@@ -1,100 +1,100 @@
-1	8801	ibbenfika	bbenfikaw ibbenfikaw jibbenfikaw tibbenfika
-2	8802	irriafferma	irriaffermat irriaffermaw jirriafferma
-3	8803	ippersevera	jippersevera jipperseveraw nippersevera nipperseveraw pperseverajt tippersevera tipperseveri
-4	8804	abitabbli	
-5	8805	tislija	tislijiet
-6	8806	iddiżinja	ddiżinja ddiżinjat iddiżinjajt iddiżinjat iddiżinjatha jiddiżinja jiddiżinjaw niddiżinja niddiżinjahom
-7	8807	novità	novita novitajiet
-8	8808	ġigġifogu	ġiġġifogu
-9	8809	ċikliku	ċiklika ċikliċi
-10	8810	irrivoluzzjona	irrivoluzzjonaw jirrivoluzzjonaw rrivoluzzjona rrivoluzzjonajna rrivoluzzjonat rrivoluzzjonaw
-11	8811	antropoloġiku	antropoloġika antropoloġiċi
-12	8812	istartja	jistartja jistartjaw startjajna tistartja
-13	8813	malizzja	
-14	8814	nkejja	inkejja
-15	8815	rtab	irtabet irtabu jirtab jirtabu rtabx tirtab
-16	8816	tixbiha	tixbihat
-17	8817	rikonoxxenti	
-18	8818	iskoraġġixxa	jiskoraġġixxi jiskoraġġixxu niskoraġġixxi niskoraġġixxu skoraġġixxa skoraġġixxiet tiskoraġġixxi
-19	8819	maqrut	imqaret mqaret
-20	8820	għammieq	
-21	8821	zunnarija	
-22	8822	issettja	issettjat jissettja ssettja
-23	8823	daqna	
-24	8824	inkorla	inkorlaw jinkorla ninkorla nkorla nkorlaw tinkorla
-25	8825	deliberazzjoni	deliberazzjonijiet
-26	8826	sfilata	isfilata isfilati sfilati
-27	8827	potenti	
-28	8828	ddifferixxa	ddifferiet differit jiddifferixxi tiddifferixxi
-29	8829	dellek	ddellek idellek imdellek jdellek ndellku tidlik tidlikli
-30	8830	għanqbut	
-31	8831	hewden	ihewden jhewden nhewden
-32	8832	ttewweb	jittewbu jittewweb nittewbu
-33	8833	ċingjal	ċingjali
-34	8834	demokratizzazzjoni	
-35	8835	xampanja	
-36	8836	batal	batlu
-37	8837	rrikatta	irrikattaw jirrikatta jirrikattani jirrikattaw tirrikatta
-38	8838	żbokka	jiżbokka tiżbokka
-39	8839	magħkus	magħkusa magħkusin
-40	8840	regolarità	regolarita regolaritajiet
-41	8841	qawma	
-42	8842	ħanxar	imħanxar jħanxar jħanxru jħanxruha mħanxar ħanxarlu
-43	8843	mustarda	
-44	8844	manoċċa	manuċċa
-45	8845	approfondixxa	approfondit japprofondixxi japprofondixxihom japprofondixxu napprofondixxi napprofondixxu
-46	8846	disprament	
-47	8847	użufruttwarju	
-48	8848	dewwaq	ddewqu dewwaqhom dewwaqna jdewwaq jdewwaqna tidwiq
-49	8849	issejvja	jissejvja nissejvja nissejvjaw nissejvjawhom ssejvja tissejvja
-50	8850	lefaq	jolfoq lfiq nolfoq tolfoq
-51	8851	lemħa	lemħiet
-52	8852	stordut	istordut storduti
-53	8853	magħlaq	imgħalaq mgħalaq
-54	8854	klassiċiżmu	
-55	8855	plattina	plattini
-56	8856	eroiżmu	
-57	8857	malafama	malafamah
-58	8858	buffura	buffuri
-59	8859	naturaliżmu	
-60	8860	manku	manki mankijiet
-61	8861	ateiżmu	
-62	8862	kenni	
-63	8863	ġenjali	
-64	8864	ikkontjena	jikkontjeni jikkontjenu tikkontjeni
-65	8865	ottjena	jottjeni jottjenu nottjeni nottjenu ottjenejt ottjeniet tottjeni
-66	8866	skwerra	jiskorri jiskorrihom jiskorrix skorra skorrew
-67	8867	ċapċpa	inċapċpu inċapċpulu iċapċpu iċapċpuli jċapċpu jċapċpulek
-68	8868	astun	astuni
-69	8869	għarras	għarrasni tgħarras tgħarrsu
-70	8870	sekwenzjali	
-71	8871	senswalità	senswalita
-72	8872	xagħat	
-73	8873	mmansa	immansa immansar immansata jimmansa jimmansah
-74	8874	dardir	
-75	8875	diżunur	
-76	8876	tmigħ	
-77	8877	gerfex	gerfexx igerfxu igerfxuk jgerfex jgerfixna jgerfxu ngerfxu tgerfex
-78	8878	riegħed	imriegħed iriegħed jriegħdu jriegħed tregħid
-79	8879	ntiena	intejjen ntejjen
-80	8880	żvinturat	żvinturata żvinturati
-81	8881	immultiplika	immultiplikat immultiplikata immultiplikaw jimmultiplika jimmultiplikaw mmultiplikat mmultiplikaw nimmultiplikaw timmultiplika
-82	8882	restawrazzjoni	restawrazzjonijiet
-83	8883	berred	berrdet berridhom iberred imberred jberrdu jberred jberridha mberred tberred
-84	8884	duwa	duwijiet
-85	8885	sabi	sabix
-86	8886	gendus	gniedes
-87	8887	frizzjoni	
-88	8888	naġġar	naġġara
-89	8889	ikkollassa	jikkollassa jikkollassaw kkollassa kkollassat kkollassax nikkollassaw tikkollassa
-90	8890	rasforma	trasforma trasformaw
-91	8891	tutur	
-92	8892	ġinġer	
-93	8893	illegalizza	illegalizzaw jillegalizza jillegalizzaha jillegalizzaw llegalizza llegalizzat tillegalizza tillegalizzah
-94	8894	dbiel	dbielu jidbiel jidbielu jidbielx tidbiel
-95	8895	ikkommunika	jikkommunika jikkommunikaw jikkommunikawx nikkommunikaw
-96	8896	ipprevena	jippreveni nipprevenu pprevenew tippreveni
-97	8897	lewwen	imlewwen jlewwen mlewwen tlewwen
-98	8898	sogħol	jisgħol nisgħol sogħlot tisgħol
-99	8899	abbona	jabbonaw tabbona
-100	8900	lġiem	ilġiem
+1	8801	bbalzma	bbalzmar bbalzmat ibbalzmar ibbalzmat jibbalzma jibbalzmaw tibbalzma
+2	8802	żbir	
+3	8803	allegra	allegraw jallegraw tallegra
+4	8804	maltrattament	
+5	8805	ntreħa	jintreħa jintreħew tintreħa
+6	8806	partikularità	partikularitajiet
+7	8807	balzmu	
+8	8808	kanarin	kanarini
+9	8809	landier	landiera
+10	8810	ċattra	ċattri
+11	8811	għażeb	għożżieb għożżieba
+12	8812	dijarea	
+13	8813	lazz	lazzijiet
+14	8814	xifa	
+15	8815	marrad	imarrad imarrdu jmarrad marradna marrdet marrdu tmarradx
+16	8816	agħdda	jagħddi jagħddix jagħddu nagħddu
+17	8817	itka	teka tkax tku tkuni
+18	8818	kittien	
+19	8819	dardar	idardru idardruha imdardar jdardarx jdardrux mdardar
+20	8820	daħħak	daħħakna ddaħħak ddaħħakni idaħħku iddaħħak indaħħak jdaħħak
+21	8821	gallun	galluni
+22	8822	felli	flieli
+23	8823	emanċipa	emanċipat emanċipaw jemanċipa jemanċipaw nemanċipa temanċipa
+24	8824	fewwaħ	ifewwaħ imfewwaħ infewwaħ jfewwaħ jfewħu mfewwaħ
+25	8825	giref	grif migruf
+26	8826	iddixxiplina	iddixxiplinat jiddixxiplina niddixxiplina
+27	8827	ikkummisjona	ikkummisjonat kkummisjonat kkummisjonaw tikkummisjona
+28	8828	preferibbli	
+29	8829	dulliegħ	dulliegħa
+30	8830	eżistenzjaliżmu	
+31	8831	kewn	kewni
+32	8832	deduzzjoni	
+33	8833	fjoritura	
+34	8834	iddissolva	ddissolviet jiddissolvi jiddissolvu tiddissolvi
+35	8835	sakkeġġ	sakk sakkeġġi
+36	8836	għadsa	għazza
+37	8837	irriversja	irriversjat irriversjaw jirriversja
+38	8838	iskidja	jiskidja jiskidjaw skidja
+39	8839	sadid	
+40	8840	blast	
+41	8841	xeħħa	
+42	8842	mmeravilja	immeraviljajt immeraviljat jimmeravilja jimmeraviljani meraviljat meraviljata mmeraviljani mmeraviljat nimmeravilja
+43	8843	qalla'	iqallgħu jqalla' jqallgħu jqallgħuh jqallgħulu qallgħu qallgħuh taqligħ tqalla'
+44	8844	mqass	imqass imqassijiet mqassijiet
+45	8845	senswali	
+46	8846	agħmila	jagħmila jagħmilix tagħmila tagħmiliex tagħmilix
+47	8847	sfigura	isfigurat jisfigura jisfiguraw sfigurat
+48	8848	inċidentali	
+49	8849	mixta	
+50	8850	wikkiel	wikkelin wikkiela
+51	8851	astrologu	astrologi
+52	8852	aġita	aġitat jaġita jaġitaw taġita
+53	8853	iddistingwixxa	ddistingwixxew jiddistingwixxi jiddistingwixxiha jiddistingwixxu tiddistingwixxi
+54	8854	ivvandalizza	ivvandalizzat jivvandalizzaw vvandalizzat vvandalizzaw
+55	8855	pedjatrija	
+56	8856	ħabar	ħabret ħabru
+57	8857	żżerżaq	iżżerżqet jiżżerżaq jiżżerżqu niżżerżaq tiżżerżaq
+58	8858	mustaċċ	mustaċċi
+59	8859	makakkerija	
+60	8860	nagħsa	
+61	8861	qubbajt	
+62	8862	karus	karusijiet
+63	8863	gidi	gidien gidja gidjien ġidi
+64	8864	żina	
+65	8865	iltaqgħa	iltaqgħat jiltaqgħa jiltaqgħi ltaqgħa niltaqgħa
+66	8866	nżabar	inżabar inżabru jinżabarx jinżabru tinżabar
+67	8867	paċenzjuż	paċenzjuża paċenzjużi
+68	8868	raqqda	inraqqdu jraqqdu jraqqduh jraqqduhom nraqqdu
+69	8869	unjonista	unjonisti
+70	8870	ħeqq	
+71	8871	ezizta	jezizti jeziztu tezizti
+72	8872	fettaq	ifettaq jfettqu nfettqu tfettiq
+73	8873	ikkapparra	ikkapparrat ikkapparraw jikkapparra kkapparra kkapparraw nikkapparraw
+74	8874	ippriżerva	jippriżerva jippriżervahom nippriżervaw tippriżerva
+75	8875	izzejjed	zzejjed
+76	8876	iżvijja	jiżvijja jiżvijjakom jiżvijjaw jiżvijjawna żvijja żvijjat żvijjaw
+77	8877	lagħqa	lagħqax
+78	8878	redden	inredden iredden ireddnu jredden nreddnu nreddnuhom tredden
+79	8879	ssentenzja	issentenzjat sentenzjat ssentenzjat ssentenzjatu tissentenzja
+80	8880	tgħażżen	jitgħażżen jitgħażżnu nitgħażżen tgħażżinna
+81	8881	żena	jiżni tiżni żniet
+82	8882	ittortura	ittorturat jittorturaw jittorturawha tittortura ttorturat ttorturaw ttorturawhom
+83	8883	singulari	
+84	8884	flett	fletti flettijiet fletts iflett
+85	8885	issimula	jissimula jissimulaw tissimula tissimulah
+86	8886	derra	dderri idderri iderri inderri jderri
+87	8887	daħkan	daħkana daħqan
+88	8888	lontra	lontri
+89	8889	ddevasta	ddevastaw devastat iddevastajt iddevastajthom iddevastat iddevastaw
+90	8890	mmalafama	immalafama jimmalafamaw malafamat mmalafamata
+91	8891	aspirina	aspirini
+92	8892	istabbilixa	jistabbilixi jistabbilixu stabbilixa tistabbilixi
+93	8893	ittolera	jittoleraw tittolera ttolerat
+94	8894	nagħma	nagħmiet
+95	8895	iddisturba	ddisturbat ddisturbaw ddisturbax iddisturbat jiddisturba jiddisturbaw jiddisturbawx jiddisturbax niddisturbaw tiddisturba tiddisturbawx
+96	8896	molla	
+97	8897	altera	alterat alteraw jaltera jalteraw taltera
+98	8898	aċiduż	aċiduża aċidużi
+99	8899	qafla	qafliet qfieli
+100	8900	ingassa	jingassa tingassa

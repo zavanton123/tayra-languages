@@ -1,100 +1,100 @@
-1	7201	emanċipazzjoni	
-2	7202	hedda	heddew heddewhom heddewni mheddija
-3	7203	aċċessorji	
-4	7204	għoqda	għoqod
-5	7205	paramediċi	
-6	7206	bilqegħda	
-7	7207	konoxxenza	konoxxenzi
-8	7208	raġa	
-9	7209	termali	
-10	7210	semantika	
-11	7211	ammirall	ammiralli
-12	7212	farruġ	
-13	7213	għawma	
-14	7214	traħħis	
-15	7215	twaqqiegħ	
-16	7216	ħakka	
-17	7217	envelop	envelops
-18	7218	imitazzjoni	imitazzjonijiet
-19	7219	frejgata	frejgati frejgatina
-20	7220	akkreditazzjoni	akkreditazzjonijiet
-21	7221	imparzjalità	
-22	7222	rankatura	
-23	7223	tissielet	
-24	7224	giddieb	giddibin giddieba
-25	7225	skarsezza	iskarsezza iskarsezzi skarsezzi
-26	7226	ippreċeda	ippreċediet jippreċedi jippreċediha jippreċedu ppreċeda ppreċedew ppreċedewna ppreċedieni ppreċediet tippreċedi
-27	7227	pizza	pizez pizzi
-28	7228	annulla	annullahom annullat annullaw jannulla tannulla
-29	7229	żebbuġi	żebbuġija żebbuġin
-30	7230	issukta	issuktajt issuktat issuktaw jissuktaw nissuktaw ssuktat ssuktaw tissuktax
-31	7231	maġistratura	maġistraturi
-32	7232	penalti	
-33	7233	għalekk	
-34	7234	sturnell	isturnell isturnelli
-35	7235	engerer	
-36	7236	heaters	
-37	7237	mnalla	imnalla
-38	7238	konġunzjoni	konġunzjonijiet
-39	7239	molekulari	
-40	7240	vertikalment	
-41	7241	tiswir	tiswira
-42	7242	skizzi	iskizzi
-43	7243	aċċidentali	
-44	7244	oriġinalità	oriġinalita
-45	7245	taħbita	
-46	7246	flawt	flawti flawtijiet
-47	7247	sagħtar	
-48	7248	azzard	
-49	7249	sufi	sufija sufin
-50	7250	industrijalizzati	
-51	7251	għakkes	għakksu għakksux igħakkes jgħakkes jgħakkisha jgħakkisni jgħakkisx jgħakksu nitgħakksu
-52	7252	adhom	adhomx
-53	7253	windfarms	
-54	7254	bieżel	beżlin bieżla biżlin
-55	7255	vġili	vġilijiet
-56	7256	iddispona	iddisponew jiddisponi jiddisponu niddisponu tiddisponi
-57	7257	adulterju	adulterji
-58	7258	staġonali	
-59	7259	għabex	
-60	7260	dedika	dediki
-61	7261	immobilizza	immobilizzat immobilizzata immobilizzaw jimmobilizza jimmobilizzaw mmobilizza mmobilizzat mmobilizzaw timmobilizza
-62	7262	industrijalizzazzjoni	
-63	7263	barr	barret
-64	7264	dura	duri
-65	7265	polo	
-66	7266	direttorati	
-67	7267	affermattiv	affermattiva
-68	7268	feriment	ferimenti
-69	7269	ellittiku	ellittika ellittiċi
-70	7270	qabbeż	qabbiżhom qabbiżlu
-71	7271	itkissra	jitkissru jitkissrux nitkissru
-72	7272	ipprofanata	ipprofanati pprofanata
-73	7273	ċorma	
-74	7274	moltiplikazzjoni	
-75	7275	renta	renti
-76	7276	dipendenzi	
-77	7277	parentesi	
-78	7278	improbabbli	
-79	7279	bired	birdet birdu bridt jibred nibred tibred
-80	7280	deportazzjoni	deportazzjonijiet
-81	7281	prużuntuż	prużuntużi
-82	7282	politikanti	
-83	7283	triljun	triljuni
-84	7284	konservazzjonisti	
-85	7285	passeriformi	
-86	7286	sistolika	
-87	7287	ġilju	ġilji
-88	7288	dama	damak dami
-89	7289	tati	tatiha tatik tatix
-90	7290	beritta	berritta brieret
-91	7291	swied	jiswied swiedu tiswied
-92	7292	karburant	karburanti
-93	7293	adatt	adatti
-94	7294	kordinatur	kordinaturi
-95	7295	ippridka	jippridka jippridkaha jippridkaw jippridkawhom nippridkaw
-96	7296	pagun	paguni
-97	7297	bellus	bellusi
-98	7298	gidma	
-99	7299	tomna	
-100	7300	behold	
+1	7201	xamma	
+2	7202	qmis	qomos
+3	7203	armamenti	
+4	7204	kanna	kanni
+5	7205	ġarra	ġarar
+6	7206	bassasa	bassasijiet
+7	7207	ħaf	inħuf iħuf iħufu jħuf jħufu nħuf tħuf ħafni
+8	7208	ħaffa	inħaffu iħaffu jħaffu jħaffulna nħaffu ħaffew
+9	7209	xafra	xfafar
+10	7210	offside	
+11	7211	inklinazzjoni	inklinazzjonijiet
+12	7212	soldi	
+13	7213	kreditur	kredituri
+14	7214	bomblu	bombli
+15	7215	dentista	dentisti
+16	7216	itpaxxa	jitpaxxa nitpaxxa titpaxxa tpaxxa tpaxxejt
+17	7217	tlajja	jitlajja jitlajjaw nitlajja tlajjajna tlajjar tlajjat tlajjiet
+18	7218	jeratika	
+19	7219	ittermina	itterminaw jittermina jitterminaw nitterminaw tittermina ttermina tterminat tterminaw
+20	7220	mogħdrija	
+21	7221	ħajku	
+22	7222	infettata	nfettata
+23	7223	personalizzati	
+24	7224	kwestjonarju	kwestjonarji
+25	7225	presbiterali	
+26	7226	refettorju	refettorji
+27	7227	ammonju	ammonja
+28	7228	parole	
+29	7229	serratura	serraturi
+30	7230	balavostri	
+31	7231	klimatiċi	
+32	7232	brigata	brigati
+33	7233	kustodju	
+34	7234	burraxka	burraxki
+35	7235	apparentement	
+36	7236	risorsi	
+37	7237	indenja	indenjaw jindenja ndenja ndenjajtx ndenjax nindenjaw tindenjaw
+38	7238	xettru	xettri
+39	7239	instiga	instigahom instigat instigaw jinstiga jinstigahom jinstigaw ninstiga nstigaw
+40	7240	analogu	analoga analogi
+41	7241	estremiżmu	estremiżmi
+42	7242	żerniq	
+43	7243	topografija	topografiji
+44	7244	sorprendenti	
+45	7245	stampatur	istampatur istampaturi stampaturi
+46	7246	perli	
+47	7247	tisfira	
+48	7248	xiref	jixref nixref tixref xirfet xirfu
+49	7249	multikulturali	
+50	7250	katekumenat	
+51	7251	nri	inri
+52	7252	sikket	isikket isikktu isikktuna issikket jsikket jsikkitha jsikkithom jsikktuna msikket nsikktu sikkitt sikkittu sikktu
+53	7253	musketterija	
+54	7254	istimola	jistimola jistimolah jistimolaw nistimola nistimolaw stimolat stimolaw tistimola
+55	7255	ipprivatizza	jipprivatizza jipprivatizzaha jipprivatizzaw nipprivatizzaw pprivatizza pprivatizzat tipprivatizza
+56	7256	vakat	vakata vakati
+57	7257	suxxettibbli	
+58	7258	ċarċar	iċarċar jċarċar jċarċru ċarċarx ċarċir ċarċret ċarċru ċċarċar ċċarċarx
+59	7259	tallum	
+60	7260	barbier	
+61	7261	oppressjoni	oppressjonijiet
+62	7262	tablet	
+63	7263	kumpliment	kumplimenti
+64	7264	patrunaġġ	patrunaġġi
+65	7265	meraħ	imraħ imraħt jimraħ mraħt nimraħ timraħ
+66	7266	istrateġisti	strateġisti
+67	7267	żunżan	żnażan żunżana
+68	7268	infiltra	infiltrat infiltraw jinfiltra jinfiltraw nfiltra nfiltrat tinfiltra
+69	7269	martell	imrietel mrietel
+70	7270	tenera	teneri
+71	7271	dulluvju	dilluvju
+72	7272	ballu	
+73	7273	ċelebrità	ċelebrita ċelebritajiet
+74	7274	iskolpixxa	jiskolpixxi jiskolpixxu skolpixxa tiskolpixxi
+75	7275	katusa	katusi
+76	7276	populista	populisti
+77	7277	irrikonċilja	irrikonċiljaw jirrikonċilja jirrikonċiljana jirrikonċiljaw nirrikonċiljaw rrikonċilja rrikonċiljat rrikonċiljaw tirrikonċilja
+78	7278	ġostra	
+79	7279	indispost	indisposti
+80	7280	diskret	diskreta diskreti
+81	7281	gerrex	gerrxu gerrxuni igerrex igerrxu imgerrex jgerrex jgerrixhom jgerrixx jgerrxu ngerrex tgerrex tgerrix tgerrxu
+82	7282	inganna	ingannat ingannaw jinganna jingannaw jingannawhom nganna ngannaw tinganna
+83	7283	iffulla	ffolla ffullat iffullat iffullaw jiffollaw jiffullaw niffollaw tiffolla
+84	7284	korra	ikorru inkorru jkorri jkorru jkorruhom korrejt korrew korriet korrietx nkorru tkorri
+85	7285	iskantament	skantament
+86	7286	rand	randa
+87	7287	stabbilizza	jistabbilizza jistabbilizzaw stabbilizzat stabbilizzaw tistabbilizza
+88	7288	kalkulazzjoni	kalkulazzjonijiet
+89	7289	melanoma	melanomi
+90	7290	povru	povra povri
+91	7291	lieva	lievi
+92	7292	mortwarja	mortwarji
+93	7293	laxk	laxka laxki
+94	7294	tridimensjonali	
+95	7295	riċiklabbli	
+96	7296	puntati	
+97	7297	eżotiċi	
+98	7298	umda	
+99	7299	qamel	
+100	7300	kontinġenza	kontinġenzi

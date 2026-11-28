@@ -1,100 +1,100 @@
-1	7801	disperazzjoni	
-2	7802	idderiġa	dderiġa dderiġieni dderiġina jidderiġi jidderiġiha tidderiġi tidderiġihom tidderiġina
-3	7803	ajtu	
-4	7804	saħħaq	saħħqet saħħqu tisħiq
-5	7805	siringa	siringi
-6	7806	riċiklabbli	
-7	7807	seċessjoni	
-8	7808	espliċitament	espliċitamenti
-9	7809	rugbi	
-10	7810	tost	tosta tosti
-11	7811	ssagramenta	sagramentat
-12	7812	luzzu	lozzu luzzijiet
-13	7813	metafiżika	
-14	7814	ritrattista	ritrattisti
-15	7815	grassa	grassi
-16	7816	toilets	
-17	7817	ħala	
-18	7818	viruses	
-19	7819	abbozza	abbozzar abbozzat jabbozza nabbozzaw tabbozza
-20	7820	apartheid	
-21	7821	ikkanonizza	ikkanonizzaha ikkanonizzat jikkanonizza kkanonizzah kkanonizzat
-22	7822	intenzjonalment	
-23	7823	kwartifinali	
-24	7824	korla	
-25	7825	xkupilja	ixkupilja ixkupiljar ixkupilji xkupilji
-26	7826	menqa	
-27	7827	ale	alek
-28	7828	kwaranturi	
-29	7829	kostitwenza	kostitwenzi
-30	7830	quarks	
-31	7831	morena	moreni
-32	7832	buses	
-33	7833	silla	sulla
-34	7834	boxer	
-35	7835	segretezza	
-36	7836	medjokri	
-37	7837	skruplu	iskrupli skrupli
-38	7838	moqżież	moqżieża
-39	7839	paniġierku	paniġierki
-40	7840	iskjera	jiskjera jiskjeraw skjera skjerat skjeraw
-41	7841	alka	alki
-42	7842	ippumpjar	
-43	7843	kontessa	kontessi
-44	7844	possedimenti	
-45	7845	reżiljenza	
-46	7846	akwedott	akwedotti
-47	7847	eżenti	
-48	7848	loġistiċi	
-49	7849	allas	
-50	7850	alliema	
-51	7851	netnews	
-52	7852	orru	
-53	7853	deforestazzjoni	deforestazzjonijiet
-54	7854	vvizzja	ivvizzjar ivvizzjat vizzjat vvizzjat vvizzjawx
-55	7855	overdose	
-56	7856	immutabbli	
-57	7857	rig	
-58	7858	terapista	terapisti
-59	7859	relikwarju	relikwarji
-60	7860	għarqub	għarqubu
-61	7861	intellett	ntellett
-62	7862	mxajtan	imxajtan imxajtna mxajtna mxajtnin
-63	7863	xxokkja	ixxokkja ixxokkjani ixxokkjat jixxokkja jixxokkjak nixxokkja tixxokkja xxokkjat
-64	7864	ħamallu	ħamalla ħamalli
-65	7865	konkwistaturi	
-66	7866	redent	redenti
-67	7867	qedgħin	
-68	7868	ħawħ	ħawħa
-69	7869	koordinament	
-70	7870	grokk	grokkijiet
-71	7871	ikkarga	ikkargat jikkarga kkarga nikkarga tikkarga
-72	7872	ġlekk	ġlekkijiet
-73	7873	notazzjoni	notazzjonijiet
-74	7874	nouveau	
-75	7875	iskarsa	jiskarsa jiskarsaw skarsa skarsat tiskarsa
-76	7876	immorali	mmorali
-77	7877	saqqa	imsaqqija insaqqu isaqqi isaqqiha issaqqi issaqqihom issaqqu jsaqqi jsaqqu msaqqi msaqqija msoqqija saqqi
-78	7878	dida	
-79	7879	siker	jisker jiskru jiskrux sikru skirna skirt
-80	7880	djakonija	
-81	7881	xkuma	ixkuma jixkuma xkumat
-82	7882	segmenti	
-83	7883	baleni	
-84	7884	intier	
-85	7885	frattemp	
-86	7886	għażżien	għażżenin għażżiena
-87	7887	jittallbu	
-88	7888	ikkonċelebra	ikkonċelebraw jikkonċelebra jikkonċelebraw kkonċelebra
-89	7889	ċenturjun	ċenturjuni
-90	7890	algi	
-91	7891	eżaminazzjoni	eżaminazzjonijiet
-92	7892	gomma	
-93	7893	honoris	
-94	7894	aċċenn	aċċenni aċċennijiet
-95	7895	ferriħija	
-96	7896	prijur	
-97	7897	taġen	taġnijiet twaġen
-98	7898	ħemda	
-99	7899	apparenti	
-100	7900	deterjorament	deterjoramenti
+1	7801	lilwa	
+2	7802	merċenarji	
+3	7803	kanċell	kanċelli
+4	7804	ikkonkwista	ikkonkwistat ikkonkwistaw jikkonkwista jikkonkwistaw kkonkwista kkonkwistat kkonkwistaw tikkonkwista
+5	7805	mazz	mazzi
+6	7806	transkonfinali	
+7	7807	unikament	
+8	7808	regolazzjoni	
+9	7809	tqaċċit	
+10	7810	piraterija	
+11	7811	feroċi	
+12	7812	tisqija	
+13	7813	kasha	
+14	7814	inkorporazzjoni	inkorporazzjonijiet
+15	7815	akkredita	akkreditah akkreditat akkreditaw jakkredita jakkreditah jakkreditana jakkreditaw
+16	7816	infraklassi	
+17	7817	maġġorparti	
+18	7818	trittiku	
+19	7819	kruċifissjoni	
+20	7820	furketta	frieket
+21	7821	mirkeb	imriekeb mriekeb
+22	7822	dħulija	
+23	7823	kartiera	kartieri
+24	7824	transazzjonijiet	
+25	7825	punta	
+26	7826	tħaffef	tħaffiflu
+27	7827	burokratiċi	
+28	7828	konsenturi	
+29	7829	xurban	xurbana
+30	7830	krozzi	
+31	7831	dijossidu	
+32	7832	zejtun	
+33	7833	ħarrek	imħarrek iħarrikna jħarrku mħarrek nħarrku tħarrek tħarrku ħarrikni ħarrku
+34	7834	beni	
+35	7835	fileġ	filġet filġithom mifluġ mifluġa mifluġin tifliġna tifliġni
+36	7836	pitkalija	
+37	7837	nettaru	nettari
+38	7838	etċ	
+39	7839	frustrati	
+40	7840	surreali	
+41	7841	ffamiljarizza	iffamiljarizza jiffamiljarizzaw niffamiljarizzaw tiffamiljarizza
+42	7842	siker	jisker jiskru jiskrux sikru skirna
+43	7843	koniferi	
+44	7844	reverendu	
+45	7845	ħabbeb	iħabbibna jħabbeb jħabbibhom tħabbeb ħabbibhom ħabbibna ħabbibni ħabbitni ħabbtilna ħabbu
+46	7846	tgħawwiġ	
+47	7847	senġi	senġijiet
+48	7848	kordjali	
+49	7849	ċinga	ċineg ċingi
+50	7850	sinfonika	
+51	7851	sriċed	
+52	7852	ipparaguna	ipparagunat ipparagunaw jipparaguna jipparagunaw nipparagunaw pparagunat tipparaguna tipparagunax
+53	7853	inkrimina	jinkrimina jinkriminax ninkriminaw tinkrimina
+54	7854	imejl	
+55	7855	lavrant	lavranti
+56	7856	tettonika	
+57	7857	dukali	
+58	7858	iggranfa	ggranfa ggranfat iggranfat jiggranfa jiggranfaw niggranfaw tiggranfa
+59	7859	neżża'	ineżża jneżżgħu jneżżgħuha jneżżgħulhom neżżgħu neżżgħuh neżżgħulu tneżża tneżża' tneżżgħu
+60	7860	qaras	inqaras inqarsu jinqaras jinqarsu joqorsu joqros maqrusa maqrusin qarsu toqros
+61	7861	ħammar	jħammar jħammru jħammrulna nħammar tħammar tħammarlek tħammarli tħammarlu tħammir ħammru
+62	7862	approssimazzjoni	approssimazzjonijiet
+63	7863	namur	
+64	7864	veġetali	
+65	7865	olomorfa	
+66	7866	kontaminati	
+67	7867	tkelmet	
+68	7868	ssema	issemew issemiet jissema jssemix jssemu ssemiet tissema tissemiex
+69	7869	kompassjoni	
+70	7870	ittrijonfa	ittrijonfaw ittrijunfaw jittrijonfa jittrijonfaw jittrijunfaw ttrijonfa ttrijonfat ttrijonfaw ttrijunfaw ttrijunfawx
+71	7871	barrikata	barrikati
+72	7872	interdizzjoni	
+73	7873	pluvjali	
+74	7874	esperimentazzjoni	esperimentazzjonijiet
+75	7875	iddobba	ddobbax ddubbaw iddubbajt jiddobba jiddubbaw niddubbaw tiddobba
+76	7876	borrinu	borrini
+77	7877	intanġibbli	
+78	7878	litanija	
+79	7879	opportuniżmu	
+80	7880	pedofilja	
+81	7881	preżentement	
+82	7882	pupu	
+83	7883	taqqal	imtaqqal itaqqal itaqqalha itaqqalni itaqqlu ittaqqal jtaqqal jtaqqlu mtaqqal taqqalha ttaqqal
+84	7884	tlellix	
+85	7885	prologu	prologi
+86	7886	ħasda	
+87	7887	żvantaġġjati	
+88	7888	kapuċċin	
+89	7889	maġisteru	
+90	7890	rikba	rikbiet
+91	7891	affaxxinanti	
+92	7892	tranżitu	tranżita tranżiti
+93	7893	oara	
+94	7894	ddeplora	iddeplora iddeplorat iddeploraw jiddeplora niddeploraw tiddeplora
+95	7895	skapitu	
+96	7896	ikkoinċida	ikkoinċidiet jikkoinċidi jikkoinċidix jikkoinċidu jikkoinċidux kkoinċida kkoinċidiet tikkoinċidi
+97	7897	fotta	fottejtu fottew fottewha fottiet ifotti jfotti jfottu jfottulna nfotti tfotti
+98	7898	inklina	inklinat jinklinaw tinklina
+99	7899	taqbila	taqbiliet ttaqbila
+100	7900	konfliġġenti	

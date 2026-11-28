@@ -1,100 +1,100 @@
-1	8501	niek	jniku nejk nieket nik
-2	8502	ċikonja	ċikonji
-3	8503	buqar	buqari
-4	8504	bużnannu	bużnannuh bużnannuha bużnannuhom
-5	8505	dorsali	
-6	8506	ġeneralizzazzjoni	ġeneralizzazzjonijiet
-7	8507	ddelega	ddelegat iddelega iddelegah iddelegat jiddelega jiddelegaw jiddelegawx tiddelega
-8	8508	ambigwità	ambigwita ambigwitajiet
-9	8509	posponiment	posponimenti
-10	8510	tambra	intambru intambrulhom itambru jtambru jtambruh jtambruha jtambrulna
-11	8511	bexxaq	imbexxaq inbexxaq jbexxaq mbexxaq nbexxqu tbexxaq
-12	8512	tribut	tributi
-13	8513	fus	fusien
-14	8514	inkiss	nkiss
-15	8515	raqqa'	iraqqa jraqqa jraqqa' raqqa raqqejna traqqa' traqqigħ
-16	8516	aċċelerazzjoni	aċċelerazzjonijiet
-17	8517	gabillott	gabillotti
-18	8518	intuwizzjoni	intuwizzjonijiet
-19	8519	kontrazzjoni	kontrazzjonijiet
-20	8520	loppju	loppji oppju
-21	8521	ħanek	ħniek
-22	8522	delinkwent	delinkwenti
-23	8523	bbrilla	bbrillat bbrillaw bbrillax ibbrilla ibbrillar ibbrillat ibbrillaw jibbrilla jibbrillaw tibbrilla
-24	8524	għammad	imgħammad mgħammad tagħmid tgħammad
-25	8525	żvija	jiżvija tiżvija żvijat żvijax
-26	8526	ballat	iballtu imballat imballata jballtu mballat mballata
-27	8527	bass	bases basis basset
-28	8528	qamri	qamrija qamrin
-29	8529	artrite	
-30	8530	tlewwem	jitlewmu jitlewwem nitlewmu tlewmu tlewwimna
-31	8531	trijangolu	trijangoli
-32	8532	minġel	mnieġel
-33	8533	ġennen	imġennen inġennu iġennen iġġennen iġġennu jġennu jġennuk nġennu ġennet ġenninni ġennu ġġennen ġġennu
-34	8534	diġestiv	diġestiva diġestivi
-35	8535	ċenakolu	ċenaklu
-36	8536	kubiżmu	
-37	8537	safrani	
-38	8538	eħrex	
-39	8539	aġġixxa	aġġixxew jaġġixxi jaġġixxu taġġixxi
-40	8540	debboli	
-41	8541	frontali	
-42	8542	baqat	baqatx
-43	8543	iddobba	ddobbax jiddobba tiddobba
-44	8544	kurrat	
-45	8545	dnewwa	
-46	8546	mixegħla	
-47	8547	pannu	
-48	8548	leħħa	leħħiet
-49	8549	twaħħax	nitwaħħax nitwaħħxu titwaħħax twaħħaxt
-50	8550	ħobb	ħobbhom
-51	8551	iskambja	jiskambja jiskambjaw jiskambjawhom niskambjaw skambjat skambjaw tiskambja
-52	8552	ballottra	ballottri
-53	8553	kileb	miklub
-54	8554	pedofelija	
-55	8555	alabastru	
-56	8556	ineffiċjenti	
-57	8557	amla	jamlu jamlulu tamlu
-58	8558	jewwilla	
-59	8559	ndaf	jindaf jindafu
-60	8560	żgarra	jiżgarra jiżgarraw niżgarraw żgarrat
-61	8561	ħaddied	ħaddieda
-62	8562	funzjonament	
-63	8563	finanzier	finanziera finanzieri
-64	8564	lifgħa	lifgħat
-65	8565	enerġetika	
-66	8566	żelqa	żelqiet
-67	8567	esklużiv	esklużiva esklużivi
-68	8568	irrassenja	irrassenjat jirrassenja jirrassenjaw nirrassenja nirrassenjaw rrassenja
-69	8569	thenna	jithenna jithennew nithenna nithennew thennew tithenna tithennew
-70	8570	ikkonkorra	ikkonkorrew jikkonkorri jikkonkorru kkonkorra tikkonkorri
-71	8571	poġġaman	poġġamani
-72	8572	avultun	avultuni
-73	8573	ġġeneralizza	iġġeneralizza iġġeneralizzat jiġġeneralizza niġġeneralizza niġġeneralizzaw tiġġeneralizza ġeneralizzat ġġeneralizzat
-74	8574	qrusa	
-75	8575	bu	buk
-76	8576	toppu	
-77	8577	istabillixxa	jistabillixxi jistabillixxu stabillixxa stabillixxiet tistabillixxi
-78	8578	fula	
-79	8579	sintesi	
-80	8580	żvojta	jiżvojta jiżvojtaw niżvojtaw tiżvojta żvojtat
-81	8581	skorta	iskorti skorti
-82	8582	dekor	
-83	8583	mqit	imqit imqita mqita
-84	8584	iddistakka	iddistakkajt jiddistakka jiddistakkawx tiddistakka
-85	8585	melles	imelles imellishom tmelles tmellislu tmellsu
-86	8586	maqjel	imqawel
-87	8587	brigant	briganti brigantina
-88	8588	nnaturalizza	naturalizzat
-89	8589	dabra	dbabar
-90	8590	aprezza	aprezzat japrezza japrezzaw naprezza naprezzaw
-91	8591	manetta	manetti
-92	8592	iqba	jiqbax niqba qbajna qbat qbatu tiqba
-93	8593	suwiċida	suwiċidi
-94	8594	vaga	vagaw
-95	8595	irrifonda	jirrifondi jirrifondu tirrifondi
-96	8596	werżqa	inwerżqu iwerżqu jwerżqu jwerżqux
-97	8597	beżgħa	beżgħat beżgħax
-98	8598	trejjaq	jitrejjaq jitrejjaqx jitrejqu nitrejqu titrejjaq trejqet trejqu
-99	8599	radjoloġija	
-100	8600	jarda	jardi
+1	8501	bambù	bambu
+2	8502	uffiċjalizza	uffiċjalizzat uffiċjalizzaw
+3	8503	erojina	erojini
+4	8504	vibrazzjoni	vibrazzjonijiet
+5	8505	sagrileġġ	sagrileġġi
+6	8506	bdiel	bdielha bdielhom bdieli bdielu jibdielna
+7	8507	dinosawru	dinosawri
+8	8508	irreaġġixxa	irreaġġixxejt irreaġġixxiet jirreaġġixxi jirreaġġixxu jirreaġġixxux tirreaġġixxi
+9	8509	ġelled	iġelled jġelled nġelldu ġelldu ġġelled
+10	8510	żiegħel	inżiegħel iżiegħel mżiegħel żegħilt żżiegħel
+11	8511	ddiletta	iddiletta jiddelitta jiddelittaw jiddiletta jiddilettaw niddiletta
+12	8512	distratt	distratta distratti
+13	8513	treġija	
+14	8514	fuklar	fuklari
+15	8515	menqgħa	
+16	8516	bjond	bjondi
+17	8517	zekzek	izekzku nzekzku zekzik
+18	8518	ifformalizza	fformalizza fformalizzat fformalizzaw ifformalizzat ifformalizzaw jifformalizza jifformalizzaw tifformalizza
+19	8519	bokkla	bokkli
+20	8520	milgħuba	
+21	8521	mimmi	
+22	8522	laħħam	ilaħħam ilaħħmu imlaħħam jlaħħmu laħħmet laħħmu mlaħħam tlaħħam tlaħħmu
+23	8523	semmen	imsemmen isemmen jissemmen tismin
+24	8524	tebqa	tebqiet
+25	8525	bass	
+26	8526	ġidri	
+27	8527	tewa	mitwi mitwija mitwijin titwi
+28	8528	bokser	boxers
+29	8529	saddad	imsaddad issaddu jsaddad jsaddux msaddad ssaddad
+30	8530	perreċ	imperreċ iperreċ iperrċu jperreċ jperriċlu jperrċu mperreċ nperreċ tperreċ tperrċu
+31	8531	xift	xiftijiet
+32	8532	bulebbiet	bulebbieta
+33	8533	kannizzata	kannizzati
+34	8534	demenzja	
+35	8535	xterda	inxterdu jixterdu nxterdu
+36	8536	ortografiku	ortografika ortografiċi
+37	8537	newwel	inewlu inewwel inewwilli jnewwilli newlet newwilli newwillu
+38	8538	russett	irsieset rsieset russetti
+39	8539	bankett	banketti
+40	8540	ċentralizzazzjoni	
+41	8541	fann	fannijiet
+42	8542	poppa	
+43	8543	ravjul	
+44	8544	siliċju	
+45	8545	eċċentriku	eċċentrika eċċentriċi
+46	8546	istabilizza	jistabilizza nistabilizzaw stabilizza stabilizzat tistabilizza
+47	8547	żokra	żokrithom
+48	8548	sunnara	snanar
+49	8549	għorok	għerik għorokx jogħrku jogħrok jogħrokx nogħrok togħrok
+50	8550	maniġġ	maniġġi
+51	8551	ċejċa	ċejċiet
+52	8552	alimenta	alimentat alimentaw jalimenta jalimentaw talimenta
+53	8553	immolesta	jimmolesta jimmolestax mmolestaw
+54	8554	kagun	
+55	8555	astinenza	
+56	8556	tardiv	tardiva tardivi
+57	8557	soċjevoli	
+58	8558	okkażjonali	
+59	8559	fard	
+60	8560	ferraq	iferraq iferrqu jferrqu tferraq tferrqu tifriq
+61	8561	irriġetta	irriġettat jirriġetta jirriġettaw tirriġetta
+62	8562	tnalja	tnalji
+63	8563	ħosbien	ħosbiena
+64	8564	warrani	
+65	8565	ħoki	
+66	8566	intraċċa	intraċċajna intraċċat jintraċċa jintraċċaw ntraċċa ntraċċat tintraċċa
+67	8567	sangisug	sangisugi
+68	8568	bexx	imbexxa jbexxu mbexxa mibxuxa
+69	8569	impika	impikajt jimpikaw nimpika nimpikaw
+70	8570	infilsa	infilsat jinfilsa jinfilsaw nfilsat tinfilsa tinfilsaha
+71	8571	rrileva	irrilevat jirrileva jirrilevaw rilevat rrilevat tirrileva
+72	8572	tpaċpiċ	
+73	8573	damm	dammet dammitx ddomm idomm indomm jdomm
+74	8574	temma'	temma temmini temminix
+75	8575	arseniku	
+76	8576	bbies	ibbies ibbieset ibbiesu jibbies jibbiesu tibbies
+77	8577	immedja	jimmedja jimmedjaw mmedja nimmedjaw timmedja
+78	8578	pultruna	pultruni
+79	8579	assikura	assikurat jassikura nassikuraw tassikura
+80	8580	tbażwir	
+81	8581	issekwestra	issekwestralu jissekwestra jissekwestraw jissekwestrawlhom jissekwestrawlu ssekwestra ssekwestrat ssekwestraw
+82	8582	entużjażma	entużjażmat entużjażmaw jentużjażma nentużjażma
+83	8583	mmanka	immankat immankata mmankat
+84	8584	poni	ponijiet ponis
+85	8585	wilġa	wileġ
+86	8586	redda'	iredda ireddgħu jreddgħu reddgħu tredda tredda'
+87	8587	irreċiproka	irreċiprokajt jirreċiproka jirreċiprokaw nirreċiproka rreċiproka rreċiprokat
+88	8588	miel	jmil jmilu jmilx tmil
+89	8589	falkun	falkuni
+90	8590	nitroġenu	
+91	8591	simbolikament	
+92	8592	ġulepp	ġuleppi
+93	8593	biljard	biljards
+94	8594	ċoff	ċfuf
+95	8595	maqbad	imqabad mqabad
+96	8596	ikkuntratta	ikkuntratti jikkuntratta kkuntratta kkuntrattat tikkuntratta
+97	8597	papoċċ	papoċċa
+98	8598	pulitka	
+99	8599	żblokka	jiżblokka niżblokkaw
+100	8600	ibbenfika	bbenfikaw ibbenfikaw jibbenfikaw tibbenfika

@@ -1,100 +1,100 @@
-1	6301	quddiemnett	
-2	6302	xama	
-3	6303	alpha	
-4	6304	tsunami	tsunamijiet
-5	6305	mus	imwies musu mwies
-6	6306	dawran	dawrien
-7	6307	muftieħ	imfietaħ mfietaħ
-8	6308	direttorju	direttorji
-9	6309	kaxxier	kaxxiera
-10	6310	kirurgu	kirurga kirurgi
-11	6311	immonitorja	immonitorjat immonitorjata immonitorjaw jimmonitorja jimmonitorjaw mmonitorjat mmonitorjata timmonitorja
-12	6312	nofsillejl	
-13	6313	purtiera	purtieri
-14	6314	suġġettiv	soġġettiv suġġettiva suġġettivi
-15	6315	konvenju	konvenji
-16	6316	naturalista	naturalisti
-17	6317	rfinar	irfinar
-18	6318	illustra	illostra illostrat illustrat jillostra jillostraw jillustra jillustraw llostrat llustrat tillostrax tillustra
-19	6319	xewa	inxtewa ixwi jinxtewa jixwu mixwi mixwija mixwijin tixwi tixwihom tixwik xewtu xiwa xiwi
-20	6320	pitazz	pitazzi
-21	6321	terren	terrena terreni
-22	6322	ġustament	
-23	6323	kanjon	kanjons
-24	6324	firmatarji	
-25	6325	romblu	rombli
-26	6326	baram	brim ibrim inbaram inbaramli jobormu jobrom mibrum mibruma mibrumin tobrom
-27	6327	amm	ammu ammux
-28	6328	qartas	imqartas qratas
-29	6329	traskrizzjoni	traskrizzjonijiet
-30	6330	issetilja	issetiljajt issetiljat issetiljaw jissetilja jissetiljaw nissetilja nissetiljaw ssetiljat ssetiljaw tissetilja
-31	6331	angolata	angolati
-32	6332	korrezzjoni	korrezzjonijiet
-33	6333	ajnuna	
-34	6334	preskrizzjoni	preskrizzjonijiet
-35	6335	ixxukkja	ixxukkjajt ixxukkjani ixxukkjat ixxukkjatni ixxukkjaw jixxukkjaw jixxukkjawna nixxukkjaw xxukkjajt xxukkjat
-36	6336	briefings	
-37	6337	allarm	allarmi
-38	6338	mibgħeda	
-39	6339	reżistenti	
-40	6340	vivaċi	
-41	6341	broadband	
-42	6342	xrara	ixrar xrar xrariet
-43	6343	turf	
-44	6344	kollaboratur	kollaboratriċi kollaboraturi
-45	6345	xiżma	xiżmi
-46	6346	kooperattiva	kooperattivi
-47	6347	hub	hubs
-48	6348	karnaġġjon	
-49	6349	aċċessibbiltà	
-50	6350	boats	
-51	6351	triathlon	
-52	6352	pjantaġġuni	
-53	6353	dud	
-54	6354	mdawla	imdawla
-55	6355	fjakk	fjakka fjakki
-56	6356	mssp	
-57	6357	diplomazija	
-58	6358	raggruppament	raggruppamenti
-59	6359	dolmen	dolmenijiet dolmens
-60	6360	qaċċta	inqaċċtu inqaċċtuhom iqaċċtu jqaċċtu jqaċċtux nqaċċtu tqaċċtu
-61	6361	stallazzjoni	istallazzjoni istallazzjonijiet stallazzjonijiet
-62	6362	diġestjoni	
-63	6363	kontabilità	kontabilita
-64	6364	ineffiċjenza	ineffiċjenzi
-65	6365	fagu	fagi
-66	6366	latitudni	latitudnijiet
-67	6367	epifanija	
-68	6368	elit	eliti elits
-69	6369	nisġa	
-70	6370	parċmina	parċmini
-71	6371	ċelebri	
-72	6372	konsiderevolment	
-73	6373	ġeoloġija	
-74	6374	immobbli	mmobbli
-75	6375	interim	
-76	6376	żigarella	żigarelli
-77	6377	tanker	tankers
-78	6378	viża	viżi viżiti viżtu
-79	6379	attribut	attributi
-80	6380	insettivoru	insettivora insettivori
-81	6381	sabbat	isabbat isabbtu isabbtuna issabbtu jsabbat jsabbatna jsabbtu nsabbat nsabbtu sabbatna sabbatni ssabbat ssabbtu
-82	6382	appuntu	
-83	6383	bxara	
-84	6384	puplesija	puplesiji
-85	6385	trankwill	trankwilla trankwilli
-86	6386	nazzjonaliżmu	
-87	6387	stabbilizzazzjoni	istabbilizzazzjoni
-88	6388	konsonanti	
-89	6389	pediment	pedimenti
-90	6390	kulfejn	
-91	6391	faxxiżmu	
-92	6392	metropoli	
-93	6393	devoluzzjoni	devoluzzjonijiet
-94	6394	kalligrafija	kalligrafiji
-95	6395	heżżeż	heżżet heżżu jheżżeż jheżżu mheżżeż theżżet theżżeż theżżiż titheżżeż
-96	6396	stupra	jistupra jistupraha jistuprahom stupraha stuprat stupraw stuprawha
-97	6397	kriminal	
-98	6398	sewwasew	
-99	6399	insedja	insedjat insedjaw insedjawha insedjawx insedjax jinsedja jinsedjaha jinsedjaw nsedjaw tinsedja
-100	6400	qawsalla	qawsalli
+1	6301	baram	brim ibrim inbaram inbaramli jobormu jobrom mibrum mibruma mibrumin tobrom
+2	6302	issetilja	issetiljajt issetiljat issetiljaw jissetilja jissetiljaw nissetilja nissetiljaw ssetiljat ssetiljaw tissetilja
+3	6303	korrezzjoni	korrezzjonijiet
+4	6304	ixxukkja	ixxukkjajt ixxukkjani ixxukkjat ixxukkjatni ixxukkjaw jixxukkjaw jixxukkjawna nixxukkjaw xxukkjajt xxukkjat
+5	6305	allarm	allarmi
+6	6306	preskrizzjoni	preskrizzjonijiet
+7	6307	vivaċi	
+8	6308	reżistenti	
+9	6309	xrara	ixrar xrar xrariet
+10	6310	xiżma	xiżmi
+11	6311	kollaboratur	kollaboratriċi kollaboraturi
+12	6312	kooperattiva	kooperattivi
+13	6313	karnaġġjon	
+14	6314	triathlon	
+15	6315	aċċessibbiltà	
+16	6316	pjantaġġuni	
+17	6317	mdawla	imdawla
+18	6318	qaċċta	inqaċċtu inqaċċtuhom iqaċċtu jqaċċtu jqaċċtux nqaċċtu tqaċċtu
+19	6319	fjakk	fjakka fjakki
+20	6320	diplomazija	
+21	6321	raggruppament	raggruppamenti
+22	6322	dolmen	dolmenijiet dolmens
+23	6323	diġestjoni	
+24	6324	garr	igorr igorru ingorr ingorru jgorr jgorrilha jgorru ngorru tgorr
+25	6325	stallazzjoni	istallazzjoni istallazzjonijiet stallazzjonijiet
+26	6326	dab	dabu ddub dewbien iddub idub idubu jdub jdubu jdubux
+27	6327	kontabilità	kontabilita
+28	6328	fagu	fagi
+29	6329	lleġiżla	illeġiżla illeġiżlat jilleġisla jilleġislaw jilleġiżla jilleġiżlaw jilleġiżlax leġiżlat lleġislax nilleġiżlaw tilleġisla tilleġiżla
+30	6330	epifanija	
+31	6331	latitudni	latitudnijiet
+32	6332	ineffiċjenza	ineffiċjenzi
+33	6333	parċmina	parċmini
+34	6334	mħassbin	imħassbin
+35	6335	elit	eliti elits
+36	6336	nisġa	
+37	6337	għanqbut	għanqbuta
+38	6338	interim	
+39	6339	konsiderevolment	
+40	6340	immobbli	mmobbli
+41	6341	tanker	tankers
+42	6342	ġeoloġija	
+43	6343	żigarella	żigarelli
+44	6344	attribut	attributi
+45	6345	viża	viżi viżiti viżtu
+46	6346	insettivoru	insettivora insettivori
+47	6347	sabbat	isabbat isabbtu isabbtuna issabbtu jsabbat jsabbatna jsabbtu nsabbat nsabbtu sabbatna sabbatni ssabbat ssabbtu
+48	6348	appuntu	
+49	6349	puplesija	puplesiji
+50	6350	bxara	
+51	6351	nazzjonaliżmu	
+52	6352	trankwill	trankwilla trankwilli
+53	6353	konsonanti	
+54	6354	stabbilizzazzjoni	istabbilizzazzjoni
+55	6355	illegalizza	illegalizzaw jillegalizza jillegalizzaha jillegalizzaw legalizzat legalizzata legalizzati llegalizza llegalizzat tillegalizza tillegalizzah
+56	6356	faxxiżmu	
+57	6357	merċa	
+58	6358	geżwer	geżwirhom igeżwru imgeżwer ingeżwer jgeżwer jgeżwru jgeżwruhom mgeżwer tgeżwer tgeżwru
+59	6359	kalligrafija	kalligrafiji
+60	6360	metropoli	
+61	6361	pediment	pedimenti
+62	6362	kulfejn	
+63	6363	stupra	jistupra jistupraha jistuprahom stupraha stuprat stupraw stuprawha
+64	6364	heżżeż	heżżet heżżu jheżżeż jheżżu mheżżeż theżżet theżżeż theżżiż titheżżeż
+65	6365	devoluzzjoni	devoluzzjonijiet
+66	6366	kriminal	
+67	6367	sewwasew	
+68	6368	insedja	insedjat insedjaw insedjawha insedjawx insedjax jinsedja jinsedjaha jinsedjaw nsedjaw tinsedja
+69	6369	qawsalla	qawsalli
+70	6370	iħra	iħrax jiħrax jiħraxu tiħrax ħra ħrax ħraxli ħraxu
+71	6371	xebbah	ixebbħu ixxebbah ixxebbahha ixxebbhu ixxebbhuh jxebbah jxebbhu jxebbħu mxebbah nxebbhu nxebbhuh nxebbħu nxebbħuha xebbaħ xebbaħhom
+72	6372	pulptu	pulpti
+73	6373	dittatorjat	dittatorjati
+74	6374	keffa	kefef
+75	6375	irriduċa	irriduċejna irriduċew irriduċiet jirriduċi jirriduċu nirriduċu nirriduċuha rriduċa rriduċejna rriduċejnieh rriduċew rriduċewha rriduċewlu rriduċiet tirriduċi
+76	6376	problematiku	problematika problematiċi
+77	6377	momentu	momenti
+78	6378	kollhu	
+79	6379	vvaluta	ivvaluta ivvalutar ivvalutat jivvaluta jivvalutahom jivvalutaw jivvalutawhom jivvalutawlu jivvalutawx nivvaluta nivvalutaw tivvaluta valutar valutat vvalutat vvalutaw
+80	6380	elettromanjetiku	elettromanjetika elettromanjetiċi
+81	6381	fortifikazzjoni	
+82	6382	ittrasmetta	ittrażmettew jitrasmettu jittrasmetti jittrasmettu jittrasmettuh jittrasmettux jittrażmetti jittrażmettu nittrasmettu tittrasmetti tittrasmettilek tittrażmetti trasmettew trasmettiet ttrasmetta ttrażmetta ttrażmettew ttrażmettiet
+83	6383	xoffa	xofftejh xofftejha xofftejhom xofftejn xofftejna xofftu xufftejh xufftejhom xufftejn
+84	6384	suffara	saffara sfafar
+85	6385	karreġġata	karreġġati
+86	6386	bagħal	bagħla bagħli bgħula
+87	6387	koabitazzjoni	
+88	6388	iqerr	iqerru jqerr jqerru
+89	6389	intermedju	intermedja intermedji
+90	6390	qamħirrum	qamħirrun
+91	6391	manifattur	
+92	6392	spettru	ispettri ispettru spettri
+93	6393	patrijott	patrijotti
+94	6394	kolossali	
+95	6395	dija	
+96	6396	kukkudrill	kukkudrilli
+97	6397	tqabad	jitqabad jitqabdu nitqabdu nitqabdux titqabad titqabdu tqabadt tqabdet tqabdu
+98	6398	fażola	
+99	6399	kuntrabandu	
+100	6400	mobajl	mobajls

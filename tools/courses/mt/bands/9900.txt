@@ -1,100 +1,100 @@
-1	9801	għamar	għamret
-2	9802	ipprogressa	jipprogressa pprogressaw tipprogressa
-3	9803	irdupja	irdupjat jirdupjaw rdupjat
-4	9804	irrediġa	jirrediġi nirrediġi tirrediġi
-5	9805	itterrorizza	jitterrorizza jitterrorizzaw tterrorizzaw
-6	9806	ivvotta	jivvotta nivvotta
-7	9807	mmisja	immisjaw mmisjaw nimmisjaw
-8	9808	palla	pallax
-9	9809	tast	tasti
-10	9810	ċirkulatorju	ċirkulatorja
-11	9811	ġorġina	
-12	9812	żerriegħ	
-13	9813	qibla	
-14	9814	mana'	mana maniex
-15	9815	garnija	garniji
-16	9816	sirda	
-17	9817	mifrex	imfierex mfierex
-18	9818	matematikament	
-19	9819	partikular	partikularijiet
-20	9820	ħaġġar	imħaġġar jħaġġar mħaġġar tħaġġar tħaġġru
-21	9821	attribwibbli	
-22	9822	ddeforma	ddeformat deformat iddeformat jiddeforma jiddeformahom tiddeforma
-23	9823	dottorali	
-24	9824	idealistiku	idealistika idealistiċi
-25	9825	kassazzjoni	
-26	9826	poligonu	poligoni
-27	9827	ġeometrikament	ġometrikament
-28	9828	allegrija	
-29	9829	bbordja	ibbordjar jibbordja
-30	9830	erbju	
-31	9831	falzarju	falsarju falzarji
-32	9832	ferxa	inferxu nferxa tferxu
-33	9833	fratriċidju	
-34	9834	għattan	ngħattan
-35	9835	klassiżmu	
-36	9836	raffinatezza	raffinatezzi
-37	9837	rriħersja	jirriħersja
-38	9838	salvawomu	
-39	9839	trejn	
-40	9840	vvittimizza	jivvittimizzawx nivvittimizzawx
-41	9841	ġazz	
-42	9842	ġewlaq	ġwielaq
-43	9843	ġjaċint	ġjaċinti
-44	9844	izzekka	izzekkat jizzekka jizzekkaw tizzekka zzekka zzekkat zzekkaw
-45	9845	wiżgħa	wiżgħat
-46	9846	kolon	koloni
-47	9847	kwadrant	kwadranti
-48	9848	sarġ	sruġ
-49	9849	smid	ismid
-50	9850	assenjazzjoni	
-51	9851	itsa	jitsu nitsa
-52	9852	mamma	
-53	9853	ħabaq	
-54	9854	ljut	ljutu
-55	9855	barju	
-56	9856	ddeċima	iddeċimat iddeċimaw jiddeċima
-57	9857	ddijanjostika	dijanjostikat iddijanjostika jiddijanjostikaw
-58	9858	iddekreta	ddekreta iddekretat jiddekreta jiddekretaw niddekretaw
-59	9859	klassikament	
-60	9860	taljola	taljoli tarjola
-61	9861	għaddab	għaddbu imgħaddba jgħaddab mgħaddba mgħaddbin tgħaddabni
-62	9862	annunzja	jannunzja
-63	9863	boqxiex	
-64	9864	ffanfra	jiffanfra
-65	9865	maksra	maksri
-66	9866	uwa	
-67	9867	xintill	
-68	9868	żagħka	
-69	9869	tgeddes	jitgeddsu tgeddist tgezzez
-70	9870	twellija	twellijiet
-71	9871	mell	millli
-72	9872	arkivja	arkivjar arkivjat jarkivja tarkivja
-73	9873	bila	jibilaw tbili
-74	9874	isfrunda	jisfrundaw sfrundat sfrundaw
-75	9875	sakranazz	sakranazzi
-76	9876	anġeliku	anġelika
-77	9877	ful	
-78	9878	irriabilita	jirriabilita jirriabilitaw rriabilita tirriabilita
-79	9879	irtokka	jirtokka jirtokkaha nirtokka tirtokka
-80	9880	loki	
-81	9881	saborra	
-82	9882	ċensur	
-83	9883	oxxilla	joxxilla joxxillaw toxxilla
-84	9884	ikkontrobatta	ikkontrobattiet jikkontrobatta jikkontrobatti jikkontrobattu
-85	9885	silika	
-86	9886	xaħxieħ	xaħxieħa
-87	9887	faġan	faġani
-88	9888	muntun	imtaten mtaten
-89	9889	eżekutur	eżekuturi
-90	9890	żbib	iżbiba żbiba
-91	9891	antibijotiku	
-92	9892	belliegħa	
-93	9893	sorġa	isorġu jsorġi jsorġu sorġew
-94	9894	tnehid	
-95	9895	xaqqaq	imxaqqaq jxaqqu mxaqqaq xxaqqaq
-96	9896	xaħmi	xaħmin
-97	9897	naqqa	jnaqqi tnaqqix
-98	9898	smida	
-99	9899	azzjonarju	azzjonarja
-100	9900	birwin	birwina
+1	9801	inapplikabbli	
+2	9802	kraxx	
+3	9803	muxgħar	
+4	9804	sommarjament	
+5	9805	ħarq	
+6	9806	ħżieża	ħżież
+7	9807	antikwarju	antikwarji
+8	9808	emula	emulat jemula jemulaw nemulaw temula
+9	9809	tafli	taflin
+10	9810	ippreċipita	ippreċipitaw jippreċipita ppreċipita ppreċipitat ppreċipitaw tippreċipita
+11	9811	trażmetta	jitrażmetti jitrażmettu jitrażmettux nitrażmettu trażmettiet ttrażmetti
+12	9812	ħaffiefa	
+13	9813	abbassu	abbasso
+14	9814	arterjosklerożi	
+15	9815	atomiżmu	
+16	9816	attributtiv	
+17	9817	aħħ	
+18	9818	bblakka	jibblakka
+19	9819	bejżbol	
+20	9820	beżżiegħi	
+21	9821	deplorabbli	
+22	9822	dettaljatament	
+23	9823	deċiframent	
+24	9824	dikjarattiv	dikjarattiva
+25	9825	eljosfera	
+26	9826	fanfarun	
+27	9827	ffronta	jiffronta
+28	9828	ikkostruwixxa	
+29	9829	infantiċida	
+30	9830	isqfija	
+31	9831	kapoċċ	kapoċċi
+32	9832	kaħli	
+33	9833	konsiderabilment	
+34	9834	maqsam	imqasam
+35	9835	mgħid	
+36	9836	nankina	nankini
+37	9837	popolament	
+38	9838	rammel	imrammel
+39	9839	sarraġ	
+40	9840	stessu	istessi
+41	9841	verġinali	
+42	9842	zukkini	żukkini
+43	9843	ġebbes	tiġbis
+44	9844	ġudikatur	
+45	9845	manganiż	
+46	9846	industrijalizza	industrijalizzat jindustrijalizza jindustrijalizzaw
+47	9847	bankarella	bankarelli
+48	9848	deliberattiv	deliberattiva deliberattivi
+49	9849	iffiltra	ffiltrat ffiltraw iffiltrat jiffiltra jiffiltraw tiffiltra
+50	9850	sardin	sardina sardini
+51	9851	urbaniżmu	
+52	9852	vvenera	ivvenera jivvenera jivveneraw nivveneraw venerat vvenerat
+53	9853	destinatarju	destinatarji
+54	9854	ffrustra	iffrustrat jiffrustra jiffrustrak jiffrustraw niffrustra tiffrustra
+55	9855	imperjaliżmu	
+56	9856	ittempra	ittemprat jittempra tittempra ttempra
+57	9857	taqqba	itaqqbu itaqqbuhom itaqqbulu ittaqqbux jtaqqbu
+58	9858	vistu	
+59	9859	xlief	xolfa
+60	9860	ġidra	ġdur
+61	9861	baqqa'	baqqgħu
+62	9862	ddawnlowdja	jiddawnlowdjaw
+63	9863	ekwiparabbli	
+64	9864	għajjeb	mgħajjeb
+65	9865	kakaw	
+66	9866	nofsija	
+67	9867	rpoż	irpoż
+68	9868	sewqa	
+69	9869	sfrakass	
+70	9870	stanga	
+71	9871	vjolentement	
+72	9872	xogħfa	
+73	9873	espressjoniżmu	
+74	9874	nazzjonalizzazzjoni	nazzjonalizzazzjonijiet
+75	9875	vanità	vanitajiet
+76	9876	iddestabilizza	jiddestabilizza jiddestabilizzaw tiddestabilizza
+77	9877	korrettament	
+78	9878	erett	eretta eretti
+79	9879	irripatrija	irripatrijaw jirripatrija jirripatrijaw rripatrijat
+80	9880	katedral	katedrali
+81	9881	pruna	
+82	9882	reliġjożament	
+83	9883	żabar	jiżbru miżbura niżbru żabru
+84	9884	żvantaġġa	jiżvantaġġaw tiżvantaġġax żvantaġġat
+85	9885	gallozz	gallozzi
+86	9886	salla	isalli jsalli jsallu sallu ssalli
+87	9887	sarsella	sarselli
+88	9888	sigarru	sigarri
+89	9889	ċuqlajta	ċuqlajti
+90	9890	abatija	abbatija
+91	9891	deprezzament	
+92	9892	għarib	għorba
+93	9893	illiċenzja	illiċenzjat lliċenzjat tilliċenzja tilliċenzjahom
+94	9894	ingidma	jingidmu jingidmux ningidmu
+95	9895	irremetta	jirremetti nirremetti nirremettu tirremetti
+96	9896	isseduċa	jisseduċi jisseduċu sseduċiet tisseduċi tisseduċihom
+97	9897	qantar	qnatar qnatarna
+98	9898	qurdien	
+99	9899	stkerrah	istkerrih jistkerrah jistkerrhu mistkerrah tistkerrah
+100	9900	ħasira	

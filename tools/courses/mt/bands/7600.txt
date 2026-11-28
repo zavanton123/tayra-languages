@@ -1,100 +1,100 @@
-1	7501	hindu	
-2	7502	solstizju	solstizji
-3	7503	glandola	glandoli
-4	7504	newtrini	
-5	7505	agglomerazzjoni	agglomerazzjonijiet
-6	7506	fuqiex	
-7	7507	ipokresija	
-8	7508	opinjonisti	
-9	7509	lingwisti	
-10	7510	patrijarkali	
-11	7511	viżibbilment	
-12	7512	sfratta	jisfratta jisfrattaha jisfrattaw jisfrattawlek jisfrattawlhom jisfrattawlna jisfrattax nisfrattaw sfrattat sfrattaw
-13	7513	rinviju	rinviji
-14	7514	sawwab	imsawwab insawwab isawbu isawwab issawwab jissawbu jissawwab jsawwab msawwab nsawbu nsawwab nsawwabx sawwabt ssawbet ssawwab
-15	7515	andna	
-16	7516	baqgħa	baqgħax
-17	7517	reċipjenti	
-18	7518	irrilassa	jirrilassa jirrilassaw nirrilassa nirrilassaw tirrilassa tirrilassani
-19	7519	ssoċjalizza	issoċjalizza jissoċjalizza jissoċjalizzaw nissoċjalizza nissoċjalizzaw tissoċjalizza
-20	7520	mux	muxu
-21	7521	rokokò	rokoko
-22	7522	sejf	sejfijiet
-23	7523	iskatta	jiskatta jiskattaw skatta skattat skattaw skattax tiskatta
-24	7524	anfiteatru	anfiteatri
-25	7525	iżolazzjoni	
-26	7526	jgħamlu	jgħamluha jgħamlux
-27	7527	ingaġġ	ingaġġi ngaġġ
-28	7528	kuntrattwali	
-29	7529	primordjali	
-30	7530	għammex	għammixlu jgħammex jgħammixna jgħammxu jgħammxulna mgħammex tgħammex tgħammixlu
-31	7531	intrebħa	jintrebħu jintrebħux nintrebħu
-32	7532	brutalità	brutalita
-33	7533	suppożizzjonijiet	
-34	7534	gerbeb	gerbibha gerbibni igerbeb igerbu jgerbu tgerbeb tgerbib tgerbu
-35	7535	abita	abitaw jabita jabitaw tabita
-36	7536	tkarkir	tkarkira
-37	7537	popolin	
-38	7538	kultivari	
-39	7539	dijastolika	
-40	7540	diliġenza	
-41	7541	fanatiżmu	
-42	7542	tabernaklu	tabernakli
-43	7543	kordinament	
-44	7544	kwalunkwè	
-45	7545	fatam	fatmet fatmu ftim infatam joftmu miftum miftuma nfatam
-46	7546	stupidu	istupidu stupida stupidi
-47	7547	reporters	
-48	7548	dej	deja dijna
-49	7549	gabbani	
-50	7550	bżieq	
-51	7551	pingwin	pengwin pingwini
-52	7552	atroċitajiet	
-53	7553	qarrieqi	
-54	7554	dittatorjali	
-55	7555	polemiċi	
-56	7556	jaħasra	
-57	7557	sommarju	sommarja sommarji
-58	7558	ġiżirana	ġiżirajjen ġiżirani
-59	7559	infirda	jinfirdu jinfirdux ninfirdu
-60	7560	bżulija	
-61	7561	għidut	
-62	7562	gwerrier	gwerriera gwerrieri
-63	7563	lagomorfi	
-64	7564	skarsi	
-65	7565	orr	orrha
-66	7566	suttana	
-67	7567	kbarat	
-68	7568	karstika	
-69	7569	korali	
-70	7570	mgħawġa	imgħawġa
-71	7571	barax	baraxx brix joborxu joborxulu jobrox mibrux mibruxa obrox tobrox tobroxx
-72	7572	riproduttiv	riproduttiva riproduttivi
-73	7573	kardijaku	kardijaka
-74	7574	arġentier	arġentiera
-75	7575	eventi	
-76	7576	relegation	
-77	7577	ubbidjenti	
-78	7578	plateau	plateaux
-79	7579	balaban	
-80	7580	inattiv	inattiva inattivi
-81	7581	riħersal	riħersals
-82	7582	meravilja	meravilji
-83	7583	nnamra	innamra innamrat innamraw jinnamra jinnamraw ninnamra ninnamraw tinnamra
-84	7584	qasrija	qsari
-85	7585	karrotta	karrotti
-86	7586	arrikkiment	
-87	7587	melitensia	
-88	7588	fart	frat ifrat
-89	7589	proċedimenti	
-90	7590	basso	
-91	7591	ħorn	ħornijiet
-92	7592	visas	
-93	7593	lokazzjoni	
-94	7594	fer	ferijiet
-95	7595	wati	watja
-96	7596	orkestrali	
-97	7597	villeġġjatura	villeġġjaturi
-98	7598	als	
-99	7599	ġentilezza	
-100	7600	ferħa	ferħat
+1	7501	ineżistenti	
+2	7502	kavalieri	
+3	7503	ipprometta	ippromettew jipprometti jippromettu
+4	7504	kordinazzjoni	
+5	7505	radjali	
+6	7506	astrazzjoni	astrazzjonijiet
+7	7507	père	
+8	7508	spiżjara	
+9	7509	gawwi	gawwija gawwijiet
+10	7510	mmanifesta	immanifestat jimmanifesta jimmanifestaw manifestat manifestata mmanifestata timmanifesta timmanifestax
+11	7511	primittivi	
+12	7512	ixxutja	ixxutjat jixxutja xxutja
+13	7513	azzjonist	
+14	7514	vvendika	ivvendika ivvendikat jivvendika jivvendikah jivvendikaw nivvendikaw tivvendika vvendikaw
+15	7515	lanġas	lanġasa
+16	7516	simetriku	simetrika simetriċi simmetriku
+17	7517	antikamra	
+18	7518	immissja	immissjajt jimmissja jimmissjah jimmissjani mmissjajt mmissjajtek nimmissja nimmissjah nimmissjaha nimmissjahom
+19	7519	iżvuga	jiżvoga jiżvogaw jiżvugaw niżvogaw niżvugaw niżvugawha tiżvoga żvoga żvugaw
+20	7520	karreġġjata	karreġġjati
+21	7521	ċirkustanza	
+22	7522	furur	
+23	7523	insulenta	insulentat jinsulenta jinsulentah jinsulentaw ninsulentaw nsulenta tinsulenta
+24	7524	viljakk	viljakki
+25	7525	ħarrax	inħarrxu iħarrax iħarrxu jitħarrxu jħarrax tħarrax tħarrxu ħarrxu
+26	7526	fokus	
+27	7527	ikkonduċa	ikkonduċew ikkonduċiet ikkonduċih kkonduċa kkonduċiet tikkonduċi
+28	7528	pnewmonja	
+29	7529	inġustament	nġustament
+30	7530	ristrutturazzjoni	
+31	7531	vitamini	
+32	7532	ġild	ġildhom ġildna ġildu
+33	7533	iskula	jiskula jiskulaw jiskulax skula skulajna skulat skulaw tiskula
+34	7534	iskorta	jiskortaw skortat skortaw
+35	7535	birrajja	birrerija
+36	7536	vili	
+37	7537	ġada	ġadi
+38	7538	ferventi	
+39	7539	kjeriku	
+40	7540	abolizzjoni	
+41	7541	ħniżrijiet	
+42	7542	qanats	
+43	7543	attivament	
+44	7544	rotazzjonali	
+45	7545	palata	
+46	7546	theżżiża	
+47	7547	alloġġ	
+48	7548	mank	
+49	7549	ħawt	iħwat ħwat
+50	7550	eżawra	eżawrejt eżawrew teżawri teżawrik teżawru
+51	7551	istukko	stukko
+52	7552	preċedenza	
+53	7553	arpa	arpi
+54	7554	sublimi	
+55	7555	sudditi	
+56	7556	xhar	
+57	7557	rattab	imrattab irattab irattbu irattbulu jrattab jrattbu mrattab nrattbu rattbet rattbu trattab
+58	7558	tnaqqir	
+59	7559	alfabetiku	alfabetika
+60	7560	qadd	qaddha qaddhom qaddu
+61	7561	novizzjat	novizzjati
+62	7562	umoristika	
+63	7563	qrabatu	qrabati
+64	7564	fraterna	
+65	7565	leġiżlatur	leġiżlaturi
+66	7566	protestant	
+67	7567	patrijottiżmu	
+68	7568	ippredomina	jippredomina jippredominaw tippredomina
+69	7569	xatba	xatbiet
+70	7570	kurunella	
+71	7571	governorat	governorati
+72	7572	awrina	
+73	7573	fart	ifrat
+74	7574	invalidità	invalidita
+75	7575	malja	malji
+76	7576	rima	
+77	7577	liberaliżmu	
+78	7578	tkessaħ	itkessaħ jitkessaħ jitkessħu nitkessaħ nitkessħux titkessaħ tkessaħx tkessiħ
+79	7579	kalorija	kaloriji
+80	7580	tkaħħil	
+81	7581	soċjalist	
+82	7582	tikmix	tikmixa
+83	7583	iskandalizza	jiskandalizza jiskandalizzahom jiskandalizzana jiskandalizzaw niskandalizza niskandalizzahom niskandalizzawx skandalizza skandalizzajt skandalizzat skandalizzaw tiskandalizza tiskandalizzak tiskandalizzax
+84	7584	gaffa	gafef
+85	7585	mluħa	imluħa
+86	7586	xxottja	ixxuttja jixxuttja jixxuttjaw xxuttja xxuttjat
+87	7587	bilingwiżmu	
+88	7588	divertenti	
+89	7589	ikkondivida	ikkondividiet jikkondividi jikkondividu jikkondividuhom kkondivida nikkondividi nikkondividih nikkondividu tikkondividi
+90	7590	makkja	makkji
+91	7591	glaċieri	
+92	7592	pollinaturi	
+93	7593	mhuwa	
+94	7594	providenzjali	
+95	7595	delużjoni	delużjonijiet
+96	7596	araldika	
+97	7597	wajers	
+98	7598	manswetudni	
+99	7599	morfina	
+100	7600	sustanzjuż	sustanzjuża sustanzjużi

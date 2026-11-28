@@ -1,100 +1,100 @@
-1	9401	ispega	jispega jispegaw spega
-2	9402	leħħ	ileħħ jleħħ leħħu tleħħ
-3	9403	rabba'	trabba'
-4	9404	tertaq	itertaq mtertaq tertqu ttertqu
-5	9405	ħammem	iħammem jħammem tħammem ħammu
-6	9406	gamblu	gambli
-7	9407	iffermenta	ffermentat ffermentaw iffermentat jiffermentaw tiffermenta
-8	9408	irreċita	jirreċita jirreċitaw nirreċita rreċita rreċitat tirreċita
-9	9409	tollerata	ittollerata ittollerati ttollerata
-10	9410	memorjal	memorjali
-11	9411	rizza	rizzi
-12	9412	politeiżmu	
-13	9413	analiżża	analiżżaw janaliżżaw tanaliżża
-14	9414	impinġa	jimpinġi jimpinġu timpinġi
-15	9415	ingumbra	ingumbraw jingumbraw ngumbrat
-16	9416	inħafirla	jinħafirlu jinħafirlux tinħafirlu
-17	9417	iskrupla	jiskrupla jiskruplaw niskruplaw skrupla
-18	9418	ixtrihula	jixtrihulu nixtrihula tixtrihuli
-19	9419	katnazz	
-20	9420	kwiżż	
-21	9421	mejt	mejtu
-22	9422	qarabagħli	
-23	9423	sella	iselli isellu jselli selli
-24	9424	werreċ	imwerreċ inwerrċu jwerreċ
-25	9425	xort	
-26	9426	ġolġol	ġlieġel
-27	9427	żabra	
-28	9428	fewġa	fewġiet
-29	9429	nam	namu
-30	9430	nejba	nejbiet
-31	9431	dekoratur	dekoraturi
-32	9432	kitla	ktieli
-33	9433	improvizza	improvizzat jimprovizza jimprovizzaw nimprovizza timprovizza timprovizzaha
-34	9434	povertà	poverta
-35	9435	blonġun	blonġuni
-36	9436	teorista	teoristi
-37	9437	epidemja	epidemji
-38	9438	aċċentwa	aċċentwat aċċentwaw jaċċentwa jaċċentwaw naċċentwa
-39	9439	emorraġija	emorraġiji
-40	9440	immortalizza	immortalizzaha immortalizzat jimmortalizzaw timmortalizza
-41	9441	żurżieqa	żrieżaq
-42	9442	twennes	
-43	9443	bażwar	imbażwar mbażwar
-44	9444	elemina	eleminat eleminaw jeleminaw
-45	9445	iffigura	jiffigura tiffigura tiffigurax
-46	9446	iġġamja	iġġamjat niġġamja tiġġamja ġġamjat
-47	9447	kummissjonant	kummissjonanti
-48	9448	riċieva	jiriċievi jiriċievu jriċievi
-49	9449	sarfa	insarfu isarfu isarfulhom jsarfu
-50	9450	xaqquf	ċaqquf
-51	9451	iżżufjetta	jiżżufjetta jiżżufjettaw niżżufjettaw tiżżufjetta
-52	9452	kerrah	ikerrah ikerrhu jkerrah jkerrahx kerrhu
-53	9453	ħallila	iħallili iħallilu jħallilu tħallilu
-54	9454	dekolonizzazzjoni	
-55	9455	isposta	jisposta sposta spostat spostaw spostawhom tisposta
-56	9456	ornitologu	ornitologi
-57	9457	depress	depressa depressi dipress
-58	9458	immunta	immuntat jimmuntaw mmuntat
-59	9459	mudullun	
-60	9460	kumpass	kumpassi
-61	9461	ninna	ininni ninni
-62	9462	għabid	għabd
-63	9463	malek	imlejka maliku mlejka mluk
-64	9464	ppopolarizza	ippopolarizzajna ippopolarizzaw jippopolarizza popolarizzat ppopolarizzat
-65	9465	nnazzjonalizza	innazzjonalizza jinnazzjonalizza jinnazzjonalizzaw nazzjonalizzat tinnazzjonalizza
-66	9466	bennen	bennet benninni inbennen tbennu
-67	9467	impotenti	
-68	9468	ippenalizza	ippenalizzat ippenalizzaw jippenalizzaw ppenalizzat tippenalizza
-69	9469	istituzzjonalizza	istituzzjonalizzat jistituzzjonalizza nistituzzjonalizzaw
-70	9470	irrinnova	irrinnovat irrinnovaw jirrinnova jirrinnovaw rrinnova rrinnovah rrinnovaha rrinnovat rrinnovaw
-71	9471	akwista	akwistat akwistaw jakwista jakwistaw
-72	9472	delega	delegi
-73	9473	ffotografa	ffotografat fotografat iffotografat
-74	9474	frażjoloġija	
-75	9475	istitwixxa	istitwit jistitwixxi
-76	9476	psikjatrija	
-77	9477	sbul	isbul sbula sbulu
-78	9478	beżżul	
-79	9479	għajnbaqar	għanbaqar
-80	9480	brindisi	
-81	9481	sufra	sufri
-82	9482	sekond	
-83	9483	żemżem	żamżam
-84	9484	razzjon	razzjoni razzjonijiet
-85	9485	dlik	
-86	9486	falzità	falsita falsità falzitajiet
-87	9487	ikkontribbwixxa	jikkontribbwixxi jikkontribbwixxu kkontribbwixxa tikkontribbwixxi
-88	9488	likwidità	likwidita
-89	9489	qiel	qajl
-90	9490	ħemel	
-91	9491	żvina	tiżvina żvinajt żvinat
-92	9492	fejjqa	ifejjqu infejjqu jfejjqu nfejjqu nfejjquha tfejjqu
-93	9493	ikkomemora	jikkomemora jikkomemoraw kkomemorat nikkomemoraw tikkomemora
-94	9494	qażquż	qżieqeż
-95	9495	qiesa	iqiesu iqiesuh jiqiesu nqiesu
-96	9496	rbombja	jirbombja tirbombja
-97	9497	fonoloġija	fonoloġiji
-98	9498	ttriplika	ittriplika ittriplikat jittriplika ttriplikat ttriplikaw
-99	9499	orkestrazzjoni	orkestrazzjonijiet
-100	9500	plaċenta	plaċenti
+1	9401	inventiv	inventiva
+2	9402	psikiku	psikika psikiċi
+3	9403	tvalja	tvalji
+4	9404	ħammel	iħammel jħammlu mħammel taħmil tħammel ħammlu ħammluh
+5	9405	inaljenabbli	
+6	9406	lostru	
+7	9407	xenxul	xniexel
+8	9408	ċikwejra	
+9	9409	artikolazzjoni	artikolazzjonijiet
+10	9410	ddekompona	dekompost iddekompona jiddekomponi jiddekomponix jiddekomponu tiddekomponi
+11	9411	basra	
+12	9412	elettromanjetiżmu	
+13	9413	idroloġija	
+14	9414	erratiku	erratika erratiċi
+15	9415	ifflaġella	fflaġellat fflaġellaw ifflaġellaw jifflaġella jifflaġellaw
+16	9416	klassiċista	klassiċisti
+17	9417	rtogħod	jirtogħod nirtogħdu tirtogħod
+18	9418	xprunara	ixprunara
+19	9419	ottagonu	ottagoni
+20	9420	ċima	ċimi ċwiemi
+21	9421	abbatissa	badessa
+22	9422	arkeoloġista	arkeoloġisti
+23	9423	ikkrema	ikkremat jikkremax kkrema kkremat
+24	9424	raħli	raħlija raħlin
+25	9425	ttajpja	ittajpjat jittajpjaw tittajpja
+26	9426	ħdim	
+27	9427	berquq	
+28	9428	frażarju	frażarji
+29	9429	subordinazzjoni	
+30	9430	iddeċentralizza	ddeċentralizza ddeċentralizzat jiddeċentralizza tiddeċentralizza
+31	9431	irrakkma	irrakkmat jirrakkmaw rrakkmat
+32	9432	pexxun	pxiexen
+33	9433	ażotu	
+34	9434	kkraxxja	ikkraxxja jikkraxxja kkraxxjat
+35	9435	passju	
+36	9436	temperanza	
+37	9437	nazzjonalment	
+38	9438	individwa	individwat individwaw jindividwa jindividwaw
+39	9439	torturata	ittorturati ttorturata ttorturati
+40	9440	xebb	
+41	9441	ispeċjaliżża	jispeċjaliżża jispeċjaliżżaw speċjaliżżat
+42	9442	komunikattiva	
+43	9443	mmonopolizza	immonopolizza immonopolizzaw jimmonopolizza jimmonopolizzaw jimmonopolizzawhom
+44	9444	mqarrun	imqarrun
+45	9445	newl	
+46	9446	qolla	
+47	9447	zappap	izappap izzappap jzappap
+48	9448	ġolf	ġorf
+49	9449	ikkategorizza	ikkategorizzaha jikkategorizza jikkategorizzaw kkategorizzat kkategorizzaw tikkategorizza
+50	9450	repressiv	repressiva repressivi
+51	9451	surrealiżmu	
+52	9452	addata	addatajna addatat jaddataw naddataw taddata
+53	9453	bbottilja	bbottiljat ibbottiljar jibbottiljaw
+54	9454	elikotteru	elikotteri
+55	9455	furmatur	furmaturi
+56	9456	għasluġ	għesieleġ
+57	9457	irraffigura	jirraffigura rraffigurat tirraffigura tirraffigurah
+58	9458	issanzjona	issanzjonat jissanzjona ssanzjona ssanzjonat tissanzjona
+59	9459	tajfa	tajfiet twajjef
+60	9460	derivattiv	derivattiva derivattivi
+61	9461	baħbuħ	baħbuħa baħbuħiet
+62	9462	interferixxa	jinterferixxi jinterferixxu tinterferixxi
+63	9463	iġjeniku	iġjeniċi
+64	9464	plier	plieri
+65	9465	pulizjesk	polizjesk pulizjeski
+66	9466	trombetta	trumbetta
+67	9467	allerġiku	allerġika allerġiċi
+68	9468	balbuljata	balbuljati
+69	9469	bgħata	bgħatitli bgħatitlu ibgħati jibgħata tbgħati tibgħata
+70	9470	bioloġija	
+71	9471	fissed	ifissdu ifissduna mfissed nfissdu
+72	9472	għaxxaq	għaxxaqha jgħaxxaq jgħaxxaqha jgħaxxqu
+73	9473	għors	
+74	9474	itqarrqa	jitqarrqu jitqarrqux nitqarrqu nitqarrqux
+75	9475	laqlaq	ilaqalqu ilaqlaq ilaqlaqha jlaqlaqx tlaqlaqx
+76	9476	parzjalità	
+77	9477	qassata	qassatat
+78	9478	sajran	
+79	9479	suffarell	suffarelli
+80	9480	umilment	
+81	9481	ħlieqa	
+82	9482	żżuffjetta	jiżżuffjetta jiżżuffjettaw żżuffjettat
+83	9483	għansar	għansal
+84	9484	manjeżju	
+85	9485	appendiċite	
+86	9486	bagoll	
+87	9487	baċċaċ	imbaċċaċ mbaċċaċ
+88	9488	biel	bul bulha bulu
+89	9489	bunemmiel	bunemmiela
+90	9490	estima	estimat jestima jestimaw
+91	9491	eċċetra	
+92	9492	fettaħ	infettħu jfettħu mfettaħ nfettaħ
+93	9493	ineleġibbli	ineliġibbli
+94	9494	involontarjament	
+95	9495	klipp	klipps
+96	9496	milsa	
+97	9497	nir	
+98	9498	wella	imwellija mwelli
+99	9499	xemxata	xemxati
+100	9500	ħannieqa	
