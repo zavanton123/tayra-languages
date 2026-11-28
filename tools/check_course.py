@@ -1055,8 +1055,9 @@ def kazakh_name_forms(names):
 
 
 def marathi_name_stems(name):
-    """A Marathi name's stems the endings go on: itself (मीराला, राहुलचा), and its oblique (पुण्यात of पुणे, नाशिकाला)."""
-    stems = {name}
+    """A Marathi name's stems the endings go on: itself (मीराला, राहुलचा), its oblique (पुण्यात of पुणे, नाशिकाला) and its
+    honorific plural (रामभाऊंनी, गौरींना, रावांच्या)."""
+    stems = {name, name + ("ं" if frequency_marathi.vowel_final(name) else "ां")}
     if name[-1] == "ा":
         stems |= {name[:-1] + "े", name[:-1] + "्या"}
     elif name[-1] == "े":
@@ -1064,6 +1065,10 @@ def marathi_name_stems(name):
     elif not frequency_marathi.vowel_final(name):
         stems.add(name + "ा")
     return stems
+
+
+# The stems of the Marathi list's words (frequency_marathi.checker_stems), by the list they are of.
+marathi_stems = {}
 
 
 def marathi_name_forms(names):
@@ -3576,6 +3581,11 @@ def check(path, brief=False):
         # the form without it.
         if code == "mr":
             lowered = [w if w in ranks or w in names else next((b for b in frequency_marathi.unclitic(w) if b in ranks), w)
+                       for w in lowered]
+            # And one with a case or postposition on a listed word's stem (पिल्लाबद्दल, गल्लीतल्या, ड्रॅगनला) as that word.
+            if marathi_stems.get(id(words)) is None:
+                marathi_stems[id(words)] = frequency_marathi.checker_stems(words)
+            lowered = [w if w in ranks or w in names else frequency_marathi.checker_word(w, marathi_stems[id(words)]) or w
                        for w in lowered]
         # Swahili writes a verb with its markers in front (tutakapokutana) and an adjective with its class prefix (vizuri): a word
         # the list lacks is read by the rules the list was built with (frequency_swahili).

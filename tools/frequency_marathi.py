@@ -975,3 +975,43 @@ def build(found, size, label, corpora=()):
             listed = [word] + listed[:FORMS_LISTED - 1]
         lines.append(word + "\t" + " ".join(listed))
     return "\n".join(lines) + "\n", label
+
+
+# The endings that go on a word's oblique (घरा-ला, शाळे-त, पिल्ला-चे): two of them on a stem in a word's listed forms show
+# the stem (checker_stems).
+STEM_SHOWING = ("ला", "ने", "चा", "ची", "चे", "च्या", "चं", "त", "ना", "नी", "शी", "स", "साठी", "वर", "मध्ये", "कडे", "पासून")
+CHECKER_TAILS = sorted(set(with_clitics(OBLIQUE_TAILS)), key=lambda t: (-len(t), t))
+
+
+def checker_stems(words):
+    """
+    For check_course: the stems the list's words take the cases and postpositions on, as each one's listed forms show with
+    two endings of STEM_SHOWING (पिल्लाला, पिल्लाचे: पिल्ला-), and a consonant-final noun's own (ड्रॅगन-): stem -> its word.
+    Not a verb's but on its infinitive (करण्या-), and not a stem two words show.
+    """
+    shown = defaultdict(lambda: defaultdict(set))
+    for key, (_, _, forms) in words.items():
+        verb = key.endswith("णे")
+        for form in set(forms) | {key}:
+            for tail in STEM_SHOWING:
+                stem = form[:-len(tail)]
+                if form.endswith(tail) and len(stem) >= 2 and (not verb or stem.endswith("ण्या")):
+                    shown[stem][key].add(tail)
+    out = {}
+    for stem, by in shown.items():
+        keys = [key for key, tails in by.items() if len(tails) >= 2]
+        if len(keys) == 1:
+            out[stem] = keys[0]
+    for key in words:
+        if len(key) >= 3 and not vowel_final(key) and not key.endswith("णे"):
+            out.setdefault(key, key)
+    return out
+
+
+def checker_word(token, stems):
+    """A word the list lacks read as a listed word's stem (checker_stems) with a case, postposition or clitic (पिल्लाबद्दल,
+    गल्लीतल्या, ड्रॅगनला), or None."""
+    for tail in CHECKER_TAILS:
+        if token.endswith(tail) and token[:-len(tail)] in stems:
+            return stems[token[:-len(tail)]]
+    return None
