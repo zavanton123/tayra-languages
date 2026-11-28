@@ -449,6 +449,20 @@ TELUGU_NOT_LISTED = set("""
 అట సత్ ఆయ దారుడు తానం ఓకం కంప నలు తిరు ఆతు లేమ కీర జర లలోని కాంతం అంట నర నిట్టు ఆవి జాల సామ మార ఓపు పిచ్చు చిర ఈవి
 మరువ యెన్ను అజ దువ్వి మోద కాణ ఇను ప్రాత పనుచు ఈడు వలను దొరలు కోలు
 """.split())
+# Words of the pack that are another's form or spelling, which the rules miss, by hand: word -> the word it is counted for
+# (ఔను of అవును, ఇచట of ఇచ్చట, మాటాడు of మాట్లాడు; ఎక్కడికో, ప్రభుత్వపు, పదకొండో, రక్షించుట).
+TELUGU_FOLDED = {
+    "ఔను": "అవును", "తెనుగు": "తెలుగు", "అనాధ": "అనాథ", "రుతువు": "ఋతువు", "ఇచట": "ఇచ్చట", "సారధి": "సారథి",
+    "ఉసిరిక": "ఉసిరి", "ఆలా": "అలా", "మాటలాడు": "మాట్లాడు", "మాటాడు": "మాట్లాడు", "సచ్చు": "చచ్చు", "జాగ్రత": "జాగ్రత్త",
+    "తగువు": "తగవు", "కచ్చితం": "ఖచ్చితం", "ఏనుగ": "ఏనుగు", "వారలు": "వారు", "గ్రంధి": "గ్రంథి", "పదునాలుగు": "పద్నాలుగు",
+    "ఇరువది": "ఇరవై", "పండ్రెండు": "పన్నెండు", "పదునైదు": "పదిహేను", "చరిత": "చరితం", "నిరు": "నిరుడు", "మొత్త": "మొత్తం",
+    "ప్రభుత్వపు": "ప్రభుత్వం", "చదునైన": "చదును", "ఎక్కడికో": "ఎక్కడ", "చూపరులు": "చూపరి", "దూరపు": "దూరం",
+    "బంగారపు": "బంగారం", "కలను": "కల", "నిండైన": "నిండు", "తనంత": "తాను", "పదకొండో": "పదకొండు", "తొలగించుట": "తొలగించు",
+    "రక్షించుట": "రక్షించు", "మండుట": "మండు", "కోళ్ళు": "కోడి", "రుజువైన": "రుజువు", "పద్దెనిమిదవ": "పద్దెనిమిది",
+    "పెరగని": "పెరుగు", "పందొమ్మిదవ": "పందొమ్మిది", "విలువయిన": "విలువ", "పన్నెండో": "పన్నెండు", "పూర్తికాని": "పూర్తి",
+    "గోతి": "గొయ్యి", "ఇరవయ్యో": "ఇరవై", "మిగిలినవారు": "మిగులు", "గాయకం": "గాయకుడు",
+    "పదునాలుగవ": "పద్నాలుగు",
+}
 
 
 def swap(word, sign):
@@ -1222,8 +1236,14 @@ def build(found, size, label, weights=None):
         if seen_here >= NAMED_LEAST and lost_here >= NAMED_SHARE * seen_here:
             del scores[word]
 
-    # TELUGU_NOT_LISTED's words are left out.
-    for word in sorted(set(scores) & TELUGU_NOT_LISTED):
+    # TELUGU_NOT_LISTED's words are left out, and TELUGU_FOLDED's counted for their words.
+    for word in sorted(set(scores) & (TELUGU_NOT_LISTED | set(TELUGU_FOLDED))):
+        into = TELUGU_FOLDED.get(word)
+        if into in scores:
+            scores[into] += scores[word]
+            uses[into] += uses[word]
+            for f, share in forms[word].items():
+                forms[into][f] = forms[into].get(f, 0.0) + share
         del scores[word]
 
     # A word is listed when its forms are written LEAST_COUNT times in all the sources (one use in the small subtitles weighs
