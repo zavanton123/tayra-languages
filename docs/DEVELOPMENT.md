@@ -553,6 +553,8 @@ update `downloadSize` in `CoursePacks`. If the layout changes, bump `FORMAT` in 
 `CoursePack`. A language's courses can pin the word list they were written against as
 `tools/courses/<code>/wordlist.tsv`; `tools/check_course.py` then reads it instead of the app's list,
 so rebuilding the app's frequency list does not shift the courses' bands (German, French, Spanish, Russian, Italian, Serbian, Dutch, Danish, Norwegian, Swedish and Greek do this).
+The app's Uzbek list is the pinned one without most of the rule-made forms no text has; `tools/trim_uzbek_list.py`
+writes it, and is run after the pinned list changes and before merging new Uzbek courses, so the forms they use stay listed.
 For Spanish the checker also splits the pronouns attached to a verb (*dándoselo* is *dando* + *se* +
 *lo*), counts a name of several words or with a hyphen (*San José*, *al-Ándalus*) as one known word,
 and reads capital Roman numerals (*siglo XVI*) as numbers.
