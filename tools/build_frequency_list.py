@@ -5844,7 +5844,8 @@ def khmer_whole_words(candidates, written, spelled, spellings, known):
     frequency_km.KHMER_WORDS: not the other spellings of the pack's words, nor a phrase of the pack's words and these
     (ដឹងថា, ស្រដៀងគ្នា), which the reader reads as its words.
     """
-    own = {khmer_fold(w) for w in frequency_km.KHMER_WORDS}
+    # And the stems of the pack's words written with ៗ, which the reader reads apart (នីមួយ of នីមួយៗ).
+    own = {khmer_fold(w) for w in frequency_km.KHMER_WORDS} | {w[:-1] for w in known if w.endswith("\u17d7") and len(w) > 2} - known
     other = {khmer_fold(s) for s in spellings}
     inside = khmer_inside(candidates, written)
     texts = []
