@@ -1183,6 +1183,10 @@ class ReadingHoverTest {
         // Reading aloud, a phone sets each sentence on its own line, so there is no layout to choose.
         assertTrue(settings.current.showSentencePlay)
         assertTrue(rule.onAllNodesWithText("One per line").fetchSemanticsNodes().isEmpty())
+        // Nor is there room for translations beside their sentences.
+        rule.onNodeWithTag("pane-tab-TRANSLATION").performClick()
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("Show translations").fetchSemanticsNodes().isNotEmpty() }
+        assertTrue(rule.onAllNodesWithText("Translation layout").fetchSemanticsNodes().isEmpty())
     }
 
     /** On a phone the pane is a sheet over a live page: a tap on the text above it does not put it away. */

@@ -186,7 +186,7 @@ internal fun ReaderPane(
                         {
                             Columns(
                                 phone,
-                                { TranslationsCard(state, viewModel); TranslationDisplayCard(state, viewModel, phone) },
+                                { TranslationsCard(state, viewModel); if (!phone) TranslationDisplayCard(state, viewModel, phone) },
                                 { TranslationEngineCard(state, viewModel) },
                             )
                         },

@@ -920,7 +920,8 @@ private fun ReadingBody(
                     else -> null
                 },
                 translationFirst = state.stage == ReadingStage.REVERSE,
-                sideBySide = state.settings.sideBySideTranslations,
+                // A phone has no room for two columns: the translation goes under its sentence.
+                sideBySide = state.settings.sideBySideTranslations && !compact,
                 practice = state.settings.practiceTranslation || state.stage.blursText || state.stage == ReadingStage.QUESTIONS,
                 // Of the questions, only the answers are hidden.
                 hideOnly = if (state.stage == ReadingStage.QUESTIONS) state.answerSentences else null,
