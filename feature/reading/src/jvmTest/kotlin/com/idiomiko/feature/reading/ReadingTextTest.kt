@@ -390,6 +390,47 @@ class ReadingTextTest {
         rule.waitUntil(5_000) { rule.onAllNodesWithContentDescription("Hidden sentence").fetchSemanticsNodes().isNotEmpty() }
     }
 
+    /** Blurred translations hide behind a blur, the sentence stays readable, and a tap shows a translation and another hides it. */
+    @Test
+    fun aBlurredTranslationShowsOnATap() {
+        var revealed by androidx.compose.runtime.mutableStateOf(emptySet<Int>())
+        rule.setContent {
+            androidx.compose.runtime.CompositionLocalProvider(com.idiomiko.core.ui.components.LocalWindowWidth provides com.idiomiko.core.ui.components.WindowWidth.COMPACT) {
+                ReadingText(
+                    page = page(),
+                    theme = AppThemes.default,
+                    marked = emptySet(),
+                    hovered = null,
+                    selection = null,
+                    popupItem = null,
+                    fontScale = 1f,
+                    lineHeight = 1.5f,
+                    rightToLeft = false,
+                    translations = mapOf("Hello world." to com.idiomiko.core.domain.service.SentenceTranslation.Done("Привет, мир.")),
+                    blurTranslations = true,
+                    translationsRevealed = revealed,
+                    onTranslationRevealed = { no, shown -> revealed = if (shown) revealed + no else revealed - no },
+                    callbacks = ReadingTextCallbacks(
+                        onClick = { _, _ -> },
+                        onTap = {},
+                        onLongPress = {},
+                        onHover = {},
+                        onDragStart = {},
+                        onDragEnd = { _, _ -> },
+                        onDrag = {},
+                        popupContent = { _, _: androidx.compose.ui.unit.IntRect -> },
+                    ),
+                )
+            }
+        }
+        rule.onNodeWithText("Hello world.").assertExists()
+        assertTrue(rule.onAllNodesWithContentDescription("Hidden sentence").fetchSemanticsNodes().isEmpty(), "the sentence itself is not blurred")
+        rule.onNodeWithContentDescription("Hidden translation").performTouchInput { click(Offset(8f, 8f)) }
+        rule.waitUntil(5_000) { revealed == setOf(0) }
+        rule.onAllNodesWithTag("hide-translation")[0].performTouchInput { click(Offset(8f, 8f)) }
+        rule.waitUntil(5_000) { revealed.isEmpty() }
+    }
+
     @Test
     fun thePopupSitsAboveItsWord() {
         var item by androidx.compose.runtime.mutableStateOf(0)

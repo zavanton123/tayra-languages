@@ -1056,12 +1056,12 @@ class ReadingViewModel(
         }
     }
 
-    /** Practising needs the translations on screen, so turning it on turns them on too. */
-    fun togglePracticeTranslation() {
-        val enabling = !state.value.settings.practiceTranslation
+    /** Blurring the translations needs them on screen, so turning it on turns them on too. */
+    fun toggleBlurTranslations() {
+        val enabling = !state.value.settings.blurTranslations
         val needsTranslations = enabling && !state.value.settings.showTranslations
         viewModelScope.launch {
-            settingsRepository.update { it.copy(practiceTranslation = enabling, showTranslations = it.showTranslations || enabling) }
+            settingsRepository.update { it.copy(blurTranslations = enabling, showTranslations = it.showTranslations || enabling) }
             if (needsTranslations) translateSentences(enabled = true)
         }
     }
@@ -1118,7 +1118,7 @@ class ReadingViewModel(
             PaneTab.TRANSLATION -> it.copy(
                 showTranslations = defaults.showTranslations,
                 sideBySideTranslations = defaults.sideBySideTranslations,
-                practiceTranslation = defaults.practiceTranslation,
+                blurTranslations = defaults.blurTranslations,
             )
             PaneTab.AUDIO -> it.copy(
                 showSentencePlay = defaults.showSentencePlay,

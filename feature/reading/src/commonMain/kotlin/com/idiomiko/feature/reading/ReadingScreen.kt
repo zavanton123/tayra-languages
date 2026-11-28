@@ -760,8 +760,10 @@ private fun ReadingBody(
     }
     // The sentences shown while practising translation; a new page hides them all again.
     var revealed by remember(state.book?.id, state.pageNumber) { mutableStateOf(emptySet<Int>()) }
-    // Another stage hides every sentence again.
-    LaunchedEffect(state.stage) { revealed = emptySet() }
+    // The translations shown while they are blurred, likewise.
+    var translationsRevealed by remember(state.book?.id, state.pageNumber) { mutableStateOf(emptySet<Int>()) }
+    // Another stage hides every sentence and translation again.
+    LaunchedEffect(state.stage) { revealed = emptySet(); translationsRevealed = emptySet() }
     // The stages done in a dialog over the text: the page's words, its quiz and the day's flashcards.
     var quizSetup by remember { mutableStateOf(false) }
     val compact = LocalWindowWidth.current.isCompact
@@ -922,7 +924,10 @@ private fun ReadingBody(
                 translationFirst = state.stage == ReadingStage.REVERSE,
                 // A phone has no room for two columns: the translation goes under its sentence.
                 sideBySide = state.settings.sideBySideTranslations && !compact,
-                practice = state.settings.practiceTranslation || state.stage.blursText || state.stage == ReadingStage.QUESTIONS,
+                practice = state.stage.blursText || state.stage == ReadingStage.QUESTIONS,
+                blurTranslations = state.settings.blurTranslations && state.stage in BLURRED_TRANSLATION_STAGES,
+                translationsRevealed = translationsRevealed,
+                onTranslationRevealed = { no, shown -> translationsRevealed = if (shown) translationsRevealed + no else translationsRevealed - no },
                 // Of the questions, only the answers are hidden.
                 hideOnly = if (state.stage == ReadingStage.QUESTIONS) state.answerSentences else null,
                 revealed = revealed,
@@ -1135,6 +1140,8 @@ private val CONTROL_SIZE = 40.dp
 private val PLAY_CONTROL_SIZE = 60.dp
 private val FOOTER_CONTROL_SIZE = 52.dp
 private val MOBILE_ACTION_SIZE = 48.dp
+/** The stages where translations can be blurred: reading aloud and listening. */
+private val BLURRED_TRANSLATION_STAGES = setOf(ReadingStage.READ_ALOUD, ReadingStage.LISTEN)
 private val MOBILE_PLAY_SIZE = 56.dp
 private val MOBILE_ACTION_BAR_HEIGHT = 68.dp
 

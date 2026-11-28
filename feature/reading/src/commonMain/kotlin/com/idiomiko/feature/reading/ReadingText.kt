@@ -232,6 +232,10 @@ fun ReadingText(
     onRevealed: (sentence: Int, shown: Boolean) -> Unit = { _, _ -> },
     /** The translation comes first, the sentence after it: on the left beside it, or above it. */
     translationFirst: Boolean = false,
+    /** Blur every translation until it is in [translationsRevealed]; [onTranslationRevealed] is asked to show or hide one. */
+    blurTranslations: Boolean = false,
+    translationsRevealed: Set<Int> = emptySet(),
+    onTranslationRevealed: (sentence: Int, shown: Boolean) -> Unit = { _, _ -> },
 ) {
     var itemOffset = 0
     val perSentence = splitSentences || translations != null || practice
@@ -279,6 +283,9 @@ fun ReadingText(
                 val hidden = practice && (hideOnly == null || no in hideOnly) && no !in revealed
                 val shown = practice && !hidden
                 val reveal = { shown: Boolean -> onRevealed(no, shown) }
+                val blurredTranslation: @Composable (@Composable () -> Unit) -> Unit = { line ->
+                    Hideable(blurTranslations, no !in translationsRevealed, theme, onRevealed = { onTranslationRevealed(no, it) }, translation = true) { line() }
+                }
                 val sentence: @Composable () -> Unit = {
                     Hideable(practice, hidden, theme, onRevealed = reveal) { ParagraphText(
                         items = runItems,
@@ -323,7 +330,7 @@ fun ReadingText(
                         text = { if (onSpeakSentence != null) withButton(Modifier.fillMaxWidth()) else Box(Modifier.fillMaxWidth()) { sentence() } },
                         translation = {
                             Box(Modifier.fillMaxWidth().testTag("side-translation")) {
-                                if (translated) TranslationLine(translations[sentenceText], theme, fontScale, lineHeight, large = true, justify = justify)
+                                if (translated) blurredTranslation { TranslationLine(translations[sentenceText], theme, fontScale, lineHeight, large = true, justify = justify) }
                             }
                         },
                     )
@@ -332,7 +339,7 @@ fun ReadingText(
                         val translation: @Composable () -> Unit = {
                             if (translated) {
                                 Box(Modifier.padding(start = if (onSpeakSentence != null) playGutter(fontScale, edgePadding) else 0.dp)) {
-                                    TranslationLine(translations[sentenceText], theme, fontScale, lineHeight)
+                                    blurredTranslation { TranslationLine(translations[sentenceText], theme, fontScale, lineHeight) }
                                 }
                             }
                         }
@@ -382,7 +389,7 @@ private fun SideBySide(gutter: Dp, modifier: Modifier, text: @Composable () -> U
  * text is made invisible over a soft bar instead. A sentence not [practised] is only its words, which take the taps.
  */
 @Composable
-private fun Hideable(practised: Boolean, hidden: Boolean, theme: AppTheme, onRevealed: (Boolean) -> Unit, content: @Composable () -> Unit) {
+private fun Hideable(practised: Boolean, hidden: Boolean, theme: AppTheme, onRevealed: (Boolean) -> Unit, translation: Boolean = false, content: @Composable () -> Unit) {
     if (!practised) return content()
     val compact = LocalWindowWidth.current.isCompact
     val interaction = remember { MutableInteractionSource() }
@@ -399,12 +406,12 @@ private fun Hideable(practised: Boolean, hidden: Boolean, theme: AppTheme, onRev
         if (!hidden) {
             content()
             if (compact) {
-                val hide = tr("Hide the sentence")
-                Box(Modifier.matchParentSize().clickable(onClickLabel = hide, onClick = { onRevealed(false) }).testTag("hide-sentence"))
+                val hide = if (translation) tr("Hide the translation") else tr("Hide the sentence")
+                Box(Modifier.matchParentSize().clickable(onClickLabel = hide, onClick = { onRevealed(false) }).testTag(if (translation) "hide-translation" else "hide-sentence"))
             }
         } else {
-            val label = tr("Hidden sentence")
-            val show = tr("Show the sentence")
+            val label = if (translation) tr("Hidden translation") else tr("Hidden sentence")
+            val show = if (translation) tr("Show the translation") else tr("Show the sentence")
             val veil = if (softBlurAvailable) {
                 // Unbounded, so the blur fades out past the text's edges instead of being cut off at them.
                 Modifier.blur(9.dp, BlurredEdgeTreatment.Unbounded)
@@ -413,7 +420,7 @@ private fun Hideable(practised: Boolean, hidden: Boolean, theme: AppTheme, onRev
             }
             Box(veil) { content() }
             // On top of the text, so its words take no taps until it is shown.
-            Box(Modifier.matchParentSize().clickable(onClickLabel = show, onClick = { onRevealed(true) }).semantics { contentDescription = label }.testTag("show-sentence"))
+            Box(Modifier.matchParentSize().clickable(onClickLabel = show, onClick = { onRevealed(true) }).semantics { contentDescription = label }.testTag(if (translation) "show-translation" else "show-sentence"))
         }
     }
 }

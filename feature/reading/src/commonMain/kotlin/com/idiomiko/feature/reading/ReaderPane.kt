@@ -474,7 +474,7 @@ private fun TranslationsCard(state: ReadingUiState, viewModel: ReadingViewModel)
     PaneCard(tr("Translations")) {
         SwitchSetting(tr("Show translations"), null, prefs.showTranslations, icon = AppIcons.Translate, dense = true) { viewModel.toggleShowTranslations() }
         AppDivider()
-        SwitchSetting(tr("Blur the original sentences"), null, prefs.practiceTranslation, icon = AppIcons.School, dense = true) { viewModel.togglePracticeTranslation() }
+        SwitchSetting(tr("Blur translations"), null, prefs.blurTranslations, icon = AppIcons.School, dense = true) { viewModel.toggleBlurTranslations() }
     }
 }
 

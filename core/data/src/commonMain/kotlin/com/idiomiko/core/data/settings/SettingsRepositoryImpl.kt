@@ -134,7 +134,7 @@ class SettingsRepositoryImpl(
             justifyText = store.getBoolean(Keys.JUSTIFY_TEXT, defaults.justifyText),
             showTranslations = store.getBoolean(Keys.SHOW_TRANSLATIONS, defaults.showTranslations),
             sideBySideTranslations = store.getBoolean(Keys.SIDE_BY_SIDE_TRANSLATIONS, defaults.sideBySideTranslations),
-            practiceTranslation = store.getBoolean(Keys.PRACTICE_TRANSLATION, defaults.practiceTranslation),
+            blurTranslations = store.getBoolean(Keys.BLUR_TRANSLATIONS, defaults.blurTranslations),
             showSentencePlay = store.getBoolean(Keys.SHOW_SENTENCE_PLAY, defaults.showSentencePlay),
             showReadings = store.getBoolean(Keys.SHOW_READINGS, defaults.showReadings),
             toneColors = store.getBoolean(Keys.TONE_COLORS, defaults.toneColors),
@@ -277,7 +277,7 @@ class SettingsRepositoryImpl(
         store.putBoolean(Keys.JUSTIFY_TEXT, s.justifyText)
         store.putBoolean(Keys.SHOW_TRANSLATIONS, s.showTranslations)
         store.putBoolean(Keys.SIDE_BY_SIDE_TRANSLATIONS, s.sideBySideTranslations)
-        store.putBoolean(Keys.PRACTICE_TRANSLATION, s.practiceTranslation)
+        store.putBoolean(Keys.BLUR_TRANSLATIONS, s.blurTranslations)
         store.putBoolean(Keys.SHOW_SENTENCE_PLAY, s.showSentencePlay)
         store.putBoolean(Keys.SHOW_READINGS, s.showReadings)
         store.putBoolean(Keys.TONE_COLORS, s.toneColors)
@@ -398,7 +398,7 @@ class SettingsRepositoryImpl(
         const val PLAYLIST_COUNTS_TOWARD_GOAL = "playlist_counts_toward_goal"
         const val PLAYLIST_END = "playlist_end"
         const val SHOW_TRANSLATIONS = "reading_show_translations"
-        const val PRACTICE_TRANSLATION = "reading_practice_translation"
+        const val BLUR_TRANSLATIONS = "reading_blur_translations"
         const val TRANSLATION_ENGINE = "translation_engine"
         const val ARGOS_PER_LANGUAGE = "translation_engine_argos_per_language_applied"
         const val GOOGLE_TRANSLATE_API_KEY = "google_translate_api_key"
