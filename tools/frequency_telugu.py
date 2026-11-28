@@ -869,7 +869,7 @@ def word_forms(word, ks):
 # names and English: జానీ డెప్, పూరి జగన్నాథ్), a loanword in a virama beside another (సిల్వర్ జూబ్లీ, చాట్ షో), or as a piece
 # of a word a space split (ఆసక్తి కరంగా). A noun so used NAMED_SHARE of the times the sentences have it is a name, and left out.
 TELUGU_CORPORA = {"leipzig": ("tel_news_2020_100K", "tel_newscrawl_2011_300K"), "wikipedia_sentences": ("tel_wikipedia_2021_300K",)}
-PAGE_MOST = 2
+PAGE_MOST = 1
 NAMED_SHARE = 0.45
 NAMED_LEAST = 20
 TITLES = set("""
@@ -880,6 +880,8 @@ NAME_PARTS = set("""
 గారు గారి గారికి గారిని గారితో గారే రెడ్డి నాయుడు శర్మ చౌదరి వర్మ శాస్త్రి గౌడ్ యాదవ్ పటేల్ ఖాన్ సింగ్ కుమార్ ప్రసాద్ రావు
 మూర్తి గాంధీ అలీ ముదిరాజ్ రాజ్ దాస్ నాథ్ జీ
 """.split())
+# Honorifics after a name, which may follow its two pieces (రామ మోహన్ గారు).
+HONORIFICS = set("గారు గారి గారికి గారిని గారితో గారే గారూ".split())
 INITIALS = set("ఎ బి సి డి ఇ ఎఫ్ జి హెచ్ ఐ జె కె ఎల్ ఎం ఎన్ ఓ పి క్యూ ఆర్ ఎస్ టి యు వి డబ్ల్యూ ఎక్స్ వై జెడ్ జడ్".split())
 EDGE = re.compile(r"^[^\u0c00-\u0c7f\w]+|[^\u0c00-\u0c7f\w]+$")
 BREAK = re.compile(r"[.,;:()\[\]\"'!?“”‘’|-]$")
@@ -943,9 +945,12 @@ def read_usage(dictionaries, corpora, known):
             on_page[word] += 1
             before = tokens[i - 1][0] if i and not tokens[i - 1][1] else ""
             after = tokens[i + 1][0] if i < last and not stop else ""
+            # A name's second piece: two words after a title or an initial, two before గారు (శ్రీ వసంత శైలజ, కె రామ మోహన్ గారు).
+            before2 = tokens[i - 2][0] if i > 1 and before and not tokens[i - 2][1] else ""
+            after2 = tokens[i + 2][0] if i < last - 1 and after and not tokens[i + 1][1] else ""
             loan = word.endswith(VIRAMA) and any(n == "latin" or n.endswith(VIRAMA) for n in (before, after) if n)
             if (before in TITLES or before in INITIALS or before == "initial" or after in NAME_PARTS or foreign(before)
-                    or foreign(after) or loan):
+                    or foreign(after) or loan or before2 in TITLES or before2 == "initial" or after2 in HONORIFICS):
                 lost[word] += 1
             if after and after not in ("latin", "initial") and word + after in known:
                 pairs[word, after] += 1
