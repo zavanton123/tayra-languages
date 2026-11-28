@@ -676,14 +676,13 @@ private fun PreviewCard(state: ReadingUiState) {
     val size = 18 * prefs.readingFontScale
     PaneCard(tr("Preview")) {
         Column(
-            Modifier.fillMaxWidth().clip(AppShapes.panel).background(theme.readingBackground).border(AppBorders.hairline(), AppShapes.panel)
-                .padding(AppSpacing.xl).testTag("reader-preview"),
+            Modifier.fillMaxWidth().testTag("reader-preview"),
             verticalArrangement = Arrangement.spacedBy(AppSpacing.m),
         ) {
             val align = if (prefs.justifyText) TextAlign.Justify else TextAlign.Start
-            Text(text, style = TextStyle(fontFamily = family, fontSize = size.sp, lineHeight = (size * prefs.readingLineHeight).sp, color = theme.readingText, textAlign = align))
+            Text(text, style = TextStyle(fontFamily = family, fontSize = size.sp, lineHeight = (size * prefs.readingLineHeight).sp, color = MaterialTheme.colorScheme.onSurface, textAlign = align))
             if (translation != null) {
-                Text(translation, style = TextStyle(fontFamily = family, fontSize = size.sp, lineHeight = (size * prefs.readingLineHeight).sp, color = theme.readingText.copy(alpha = AppAlpha.half)))
+                Text(translation, style = TextStyle(fontFamily = family, fontSize = size.sp, lineHeight = (size * prefs.readingLineHeight).sp, color = MaterialTheme.colorScheme.onSurface.copy(alpha = AppAlpha.half)))
             }
         }
     }
