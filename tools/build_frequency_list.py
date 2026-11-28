@@ -5858,10 +5858,12 @@ def build_khmer(size):
     for round_ in range(KHMER_ROUNDS + 1):
         joined = len(bound)
         spelled, together, uses, pairs = cut(ranks)
-        # A piece stays one once found, so that the rounds settle.
+        # A piece stays one once found, and so does a spelling, so that the rounds settle.
         words = known | extra | bound | {khmer_fold(s) for s in spellings}
         pieces |= khmer_pieces(uses, pairs, written, words)
         pieces |= khmer_name_pieces(uses, pairs, words, known)
+        if text is not None:
+            spellings.update(khmer_variants(uses, pairs, text, spellings))
         built, label = khmer_list(sources, spelled, together, pack, spellings, size, listed, pieces)
         print(f"km round {round_}: {'unchanged' if built == text else 'changed'}, {len(bound) - joined} compounds joined", file=sys.stderr)
         if built == text and len(bound) == joined:
@@ -6020,6 +6022,86 @@ def khmer_name_pieces(uses, pairs, words, known):
     own = {khmer_fold(w) for w in frequency_km.KHMER_WORDS}
     return {w for w, n in uses.items() if n >= KHMER_NAME_MIN and w in total and beside[w] >= KHMER_NAME_BESIDE * total[w]
             and khmer_word(w, words)} - own
+
+
+# A word of the list is another's spelling (khmer_variants) when the two differ by one of KHMER_VARIANT_SWAPS, a sign of
+# KHMER_VARIANT_SIGNS more or less, or an ending of KHMER_VARIANT_ENDS more or less; the other is KHMER_VARIANT_COMMONER times as
+# common; and the words written next to the two are alike, by the cosine of how often each is (KHMER_VARIANT_CONTEXT), the
+# KHMER_VARIANT_COMMONEST commonest words left out. These are the texts' misspellings and older spellings (អំនាច for អំណាច,
+# ភ័ស្តុតាង for ភស្តុតាង, ក្លិប for ក្លឹប, ឆត្រ for ឆ័ត្រ, កូត for កូដ, ស្តង់ដា for ស្តង់ដារ, អ៊ីស្លាម for ឥស្លាម).
+KHMER_VARIANT_SWAPS = [("\u17b7", "\u17b8"), ("\u17b7", "\u17b9"), ("\u17b9", "\u17ba"), ("\u178e", "\u1793"),
+                       ("\u178f", "\u178a"), ("\u1791", "\u178f"), ("\u1785", "\u1786"), ("\u1780", "\u1781"),
+                       ("\u1794", "\u1795"), ("\u1796", "\u1797"), ("\u17c6", "\u1798\u17d2"),
+                       ("\u17a5", "\u17a2\u17ca\u17b8"), ("\u17a5", "\u17a2\u17b8"), ("\u17a7", "\u17a2\u17ca\u17bb"),
+                       ("\u1780\u17d2\u179f", "\u1780\u17d2\u1781")]
+KHMER_VARIANT_SIGNS = "\u17d0\u17cb\u17cd"
+KHMER_VARIANT_ENDS = ["\u179a", "\u1793\u17cd", "\u178e\u17cd", "\u17cd"]
+KHMER_VARIANT_COMMONER = 2
+KHMER_VARIANT_CONTEXT = 0.18
+KHMER_VARIANT_COMMONEST = 60
+
+
+def khmer_respellings(word):
+    """The spellings [word] may be written in for another (KHMER_VARIANT_SWAPS, _SIGNS, _ENDS)."""
+    out = set()
+    for x, y in KHMER_VARIANT_SWAPS:
+        for p, q in ((x, y), (y, x)):
+            i = word.find(p)
+            while i >= 0:
+                out.add(word[:i] + q + word[i + len(p):])
+                i = word.find(p, i + 1)
+    for c in KHMER_VARIANT_SIGNS:
+        out |= {word[:i] + word[i + 1:] for i in range(len(word)) if word[i] == c}
+        out |= {word[:i] + c + word[i:] for i in range(1, len(word) + 1)}
+    for end in KHMER_VARIANT_ENDS:
+        out.add(word + end)
+        if word.endswith(end):
+            out.add(word[:-len(end)])
+    out.discard(word)
+    return out
+
+
+def khmer_variants(uses, pairs, text, spellings):
+    """
+    The headwords of the list [text] that are another's spelling (KHMER_VARIANT_*) by the cut ([uses], [pairs]), folded, each
+    with the word it spells; not the spellings [spellings] has, nor the words it spells.
+    """
+    heads = [khmer_fold(line.split("\t")[0]) for line in text.splitlines() if line.strip() and not line.startswith("#")]
+    heads = list(dict.fromkeys(heads))
+    forms, spelt = {khmer_fold(s) for s in spellings}, {khmer_fold(w) for w in spellings.values()}
+    commonest = {w for w, _ in sorted(uses.items(), key=lambda kv: (-kv[1], kv[0]))[:KHMER_VARIANT_COMMONEST]}
+    context = defaultdict(dict)
+    for (a, b), n in pairs.items():
+        if a not in commonest:
+            context[b]["<" + a] = n
+        if b not in commonest:
+            context[a][">" + b] = n
+    norm = {}
+
+    def cosine(a, b):
+        for w in (a, b):
+            if w not in norm:
+                norm[w] = math.sqrt(sum(n * n for n in context[w].values()))
+        if not norm[a] or not norm[b]:
+            return 0
+        small, large = sorted((context[a], context[b]), key=len)
+        return sum(n * large.get(k, 0) for k, n in small.items()) / (norm[a] * norm[b])
+    listed = set(heads)
+    found = {}
+    # The commonest first, so that the word one spells is no other's spelling.
+    for word in heads:
+        if word in forms or word in spelt or len(word) < 3:
+            continue
+        best = None
+        for other in sorted(khmer_respellings(word) & listed):
+            if other in forms or other in found or uses.get(other, 0) < KHMER_VARIANT_COMMONER * uses.get(word, 0):
+                continue
+            c = cosine(word, other)
+            if c >= KHMER_VARIANT_CONTEXT and (best is None or c > best[0]):
+                best = (c, other)
+        if best:
+            found[word] = best[1]
+    return found
 
 
 def khmer_list(sources, spelled, together, pack, spellings, size, listed=frozenset(), pieces=frozenset()):
