@@ -70,8 +70,9 @@ OBJECT = ("ni", "ek", "ok", "k", "u", "h", "ha", "na", "kom", "hom", "li", "lek"
 SUFFIXES = sorted(set(POSSESSIVE) | set(OBJECT), key=lambda s: (-len(s), s))
 
 # Everyday words the rules leave out, by their kind: parti "part", which the pack files under parta "to depart" (its
-# overrides send parti and partijiet here); tali "such" and nomina "appointment", which would be ta + li and nomi + na.
-WORDS = {"parti": "noun", "tali": "adj", "nomina": "noun"}
+# overrides send parti and partijiet here); tali "such" and nomina "appointment", which would be ta + li and nomi + na;
+# kejbil "cable" and lingwista "linguist", written too seldom to be found.
+WORDS = {"parti": "noun", "tali": "adj", "nomina": "noun", "kejbil": "noun", "lingwista": "noun"}
 # Forms the rules miss, by their word: x'inhu "what is", m'hu (mhux) of huwa; ismu "his name" of isem; tlett, which the
 # pack files under tila; ijiem "days" after l-; għaddej "passing", a participle the pack lacks.
 FORMS = {
@@ -88,7 +89,7 @@ FORMS = {
 }
 # Names and English and Italian the counts give as words (Times of Malta, the Labour Party's Union, club, per, dei).
 NOT_WORDS = {
-    "times", "union", "unions", "air", "club", "per", "dei", "staff", "mass", "von", "dal", "don", "ben", "van", "dil", "pied",
+    "times", "union", "unions", "air", "club", "per", "dei", "staff", "mass", "von", "dal", "don", "ben", "van", "dil",
     "inter", "pre", "anti", "super", "mobile", "station", "television", "metropolitan", "speaker", "tour", "leg", "legs",
     "football", "stadium", "worker", "workers", "penalties", "bars", "euro", "www", "gonzipn", "fknk", "nru", "dro", "dis",
     "mel", "hom", "ijiet", "fini", "joni", "nifisha", "nfisha",

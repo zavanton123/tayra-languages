@@ -3448,6 +3448,10 @@ OVERRIDES.setdefault("mt", {}).update({
 # (Tnejn, Tlieta, Erbgħa), ġimgħa "week" and ħadd "nobody", and share their entries.
 MALTESE_CAPITALISED = {"jannar", "frar", "marzu", "april", "mejju", "ġunju", "lulju", "awwissu", "settembru", "ottubru", "novembru",
                        "diċembru", "ħamis", "sibt"}
+# And the nationalities and continents, which it has only capitalised, some only as names (Malti, Taljan, Afrika, Asja), and
+# Ċina, which it lacks: words, shown capitalised.
+MALTESE_CAPITALISED_WORDS = {"malti", "franċiż", "taljan", "għarbi", "afrika", "asja"}
+MALTESE_NAMED_WORDS = {"ċina": "Ċina"}
 
 
 MALTESE_VOWELS = set("aeiouàèìòù")
@@ -4845,6 +4849,8 @@ def load_dictionary(language):
         # Burmese's postpositions (ကို, မှာ, နဲ့) and classifiers (ယောက်, ခု, ကောင်) are its words.
         if language == "my" and p in ("postp", "classifier"):
             p = "prep" if p == "postp" else "noun"
+        if language == "mt" and p == "name" and word_lc in MALTESE_CAPITALISED_WORDS:
+            p = "noun"
         pos[word_lc].add(p)
         if p not in WORD_POS and not (language == "ko" and p == "counter") and not (language == "hy" and p in ARMENIAN_POS):
             continue
@@ -4853,6 +4859,9 @@ def load_dictionary(language):
         elif language in CAPITALISED_NOUNS and p == "noun" and lower(language, word) == word_lc:
             common.setdefault(word_lc, word)
         elif language == "mt" and p == "noun" and word_lc in MALTESE_CAPITALISED and lower(language, word) == word_lc:
+            common.setdefault(word_lc, word)
+        elif language == "mt" and p in ("noun", "adj") and word_lc in MALTESE_CAPITALISED_WORDS and (
+                lower(language, word) == word_lc):
             common.setdefault(word_lc, word)
         # A Pashto word is matched folded (چي) and shown as spelled, in its Afghan spelling where the pack has several (چې, not
         # چي or چی).
@@ -4865,6 +4874,10 @@ def load_dictionary(language):
         for word in BRETON_CALENDAR:
             pos[word].add("noun")
             common[word] = word
+    if language == "mt":
+        for word, shown in MALTESE_NAMED_WORDS.items():
+            pos[word].add("noun")
+            common.setdefault(word, shown)
     if language == "my":
         # And the Burmese words the pack lacks that the texts use most (frequency_burmese.WORDS).
         for word, kind in frequency_burmese.WORDS.items():
